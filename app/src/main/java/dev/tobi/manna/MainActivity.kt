@@ -62,7 +62,7 @@ class MainActivity : ComponentActivity() {
         // Debug-only: `--ei debugReminder 1` shows the quiz reminder, `2` the teaser reminder (for testing the notifications).
         if (debuggable && intent.hasExtra("debugReminder")) {
             val n = intent.getIntExtra("debugReminder", 1)
-            c.scope.launch { Reminders.show(this@MainActivity, c, n, isLast = true) }
+            c.scope.launch { Reminders.show(this@MainActivity, c, n, isLast = true, anyReview = true) }
         }
 
         setContent {

@@ -153,7 +153,8 @@ class ProgressRepository(private val dao: ProgressDao) {
         dao.upsertQuiz(old.copy(box = box, answeredAt = now, dueAt = now + INTERVAL_DAYS[box] * DAY_MS))
     }
 
-    suspend fun dueReviews(limit: Int = 20) = dao.dueReviews(System.currentTimeMillis(), limit)
+    /** Due questions; [until] overrides „now“ (debug: Long.MAX_VALUE = any answered question). */
+    suspend fun dueReviews(until: Long? = null, limit: Int = 20) = dao.dueReviews(until ?: System.currentTimeMillis(), limit)
 
     /** @return ids of cards that were newly unlocked. */
     suspend fun unlockCards(planId: String, cardIds: List<String>): List<String> {

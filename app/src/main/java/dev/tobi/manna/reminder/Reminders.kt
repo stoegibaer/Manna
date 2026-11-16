@@ -93,8 +93,8 @@ object Reminders {
             return
         }
         val millis = next.atZone(ZoneId.systemDefault()).toInstant().toEpochMilli()
-        // inexact is fine – a few minutes don't matter, and it needs no special permission
-        am.setAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, millis, pi)
+        // a 10-minute window: precise enough for hourly reminders, needs no exact-alarm permission
+        am.setWindow(AlarmManager.RTC_WAKEUP, millis, 10 * 60_000L, pi)
     }
 
     fun cancelNotification(context: Context) = NotificationManagerCompat.from(context).cancel(NOTIFICATION_ID)
@@ -108,7 +108,7 @@ object Reminders {
     }
 
     /** Builds and shows the reminder. [number] = how many reminders today including this one. */
-    suspend fun show(context: Context, c: AppContainer, number: Int, isLast: Boolean) {
+    suspend fun show(context: Context, c: AppContainer, number: Int, isLast: Boolean, anyReview: Boolean = false) {
         if (Build.VERSION.SDK_INT >= 33 &&
             ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
         ) return
@@ -122,15 +122,11 @@ object Reminders {
             .setCategory(NotificationCompat.CATEGORY_REMINDER)
             .setOnlyAlertOnce(true)
 
-        val review = if (number == 1) pickReview(c) else null
+        val review = if (number == 1) pickReview(c, anyReview) else null
         if (review != null) {
             val (planId, sectionId, index, quiz) = review
-            val body = buildString {
-                if (quiz.type == "whosaid") append("Wer hat’s gesagt? „${quiz.quote}“") else append(quiz.q.orEmpty())
-            }
-            builder.setContentTitle("Erinnerst du dich?")
-                .setContentText(body)
-                .setStyle(NotificationCompat.BigTextStyle().bigText(body))
+            val question = if (quiz.type == "whosaid") "Wer hat’s gesagt? „${quiz.quote}“" else quiz.q.orEmpty()
+            // Android cuts button labels after a few characters – so the answers go into the text as A/B/C
             val answers: List<Pair<String, Int>> = if (quiz.type == "truefalse") {
                 listOf("Stimmt" to 1, "Stimmt nicht" to 0)
             } else {
@@ -138,8 +134,15 @@ object Reminders {
                 val wrong = quiz.options.indices.filter { it != quiz.answerIndex }.shuffled().take(2)
                 (wrong + quiz.answerIndex).shuffled().map { quiz.options[it] to it }
             }
+            val letters = listOf("A", "B", "C")
+            val body = if (quiz.type == "truefalse") question
+                else question + "\n" + answers.mapIndexed { i, (label, _) -> "${letters[i]})  $label" }.joinToString("\n")
+            builder.setContentTitle("Erinnerst du dich?")
+                .setContentText(question)
+                .setStyle(NotificationCompat.BigTextStyle().bigText(body))
             answers.forEachIndexed { i, (label, value) ->
-                builder.addAction(0, label.take(40), openApp(context, 10 + i) {
+                val buttonLabel = if (quiz.type == "truefalse") label else letters[i]
+                builder.addAction(0, buttonLabel, openApp(context, 10 + i) {
                     putExtra(EXTRA_TARGET, "review"); putExtra(EXTRA_PLAN, planId); putExtra(EXTRA_SECTION, sectionId)
                     putExtra(EXTRA_QUIZ, index); putExtra(EXTRA_ANSWER, value)
                 })
@@ -174,9 +177,9 @@ object Reminders {
     data class ReviewPick(val planId: String, val sectionId: String, val index: Int, val quiz: Quiz)
 
     /** A due question that works with buttons (choice, true/false, who said it). */
-    suspend fun pickReview(c: AppContainer): ReviewPick? {
+    suspend fun pickReview(c: AppContainer, any: Boolean = false): ReviewPick? {
         val available = c.plans.index().plans.filter { it.available }.map { it.id }.toSet()
-        for (r in c.progress.dueReviews()) {
+        for (r in c.progress.dueReviews(if (any) Long.MAX_VALUE else null)) {
             if (r.planId !in available) continue
             val section = c.plans.plan(r.planId).sections.firstOrNull { it.id == r.sectionId } ?: continue
             val q = section.quiz.getOrNull(r.quizIndex) ?: continue
