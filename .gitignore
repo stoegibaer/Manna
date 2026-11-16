@@ -11,3 +11,6 @@
 .kotlin
 tts_input.json
 __pycache__/
+keystore.properties
+*.jks
+*.keystore
