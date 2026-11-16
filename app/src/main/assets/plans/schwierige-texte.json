@@ -1,0 +1,1424 @@
+{
+  "id": "schwierige-texte",
+  "title": "Texte, die man lieber überspringt",
+  "subtitle": "Ehrlich gelesen",
+  "description": "Isaak auf dem Altar, Jeftahs Tochter, die Bären des Elisa, „die Frau schweige“: Bei manchen Stellen blättert man lieber weiter. 18 Abschnitte, die genau hinschauen – mit den Fragen, die diese Texte aufwerfen, und den Antworten, die Christen darauf gegeben haben.",
+  "direction": "schwierig",
+  "basis": "elbbk",
+  "stages": [
+    {
+      "id": "opfer",
+      "title": "Opfer und Gelübde"
+    },
+    {
+      "id": "zuschlagen",
+      "title": "Wenn Gott zuschlägt"
+    },
+    {
+      "id": "hart",
+      "title": "Harte Worte"
+    },
+    {
+      "id": "frauen",
+      "title": "„Die Frau schweige“"
+    }
+  ],
+  "cards": [
+    {
+      "id": "isaak",
+      "type": "person",
+      "name": "Isaak",
+      "text": "Sohn Abrahams und Saras, geboren, als beide alt waren. Sein Name bedeutet „er lacht“ (1Mo 18,12; 21,6). Durch ihn sollte die Verheißung an Abraham weitergehen (1Mo 21,12). Er heiratete Rebekka und wurde Vater von Esau und Jakob. Im Judentum heißt 1Mo 22 „Akeda“, die Bindung Isaaks.",
+      "refs": "1Mo 21–28"
+    },
+    {
+      "id": "morija",
+      "type": "ort",
+      "name": "Morija",
+      "text": "Das „Land Morija“ wird nur in 1Mo 22,2 genannt. 2Chr 3,1 nennt den Berg Morija in Jerusalem als den Ort, an dem Salomo den Tempel baute. Ob dieselbe Gegend gemeint ist, lässt sich nicht sicher sagen; jüdische und christliche Tradition verbinden beide Stellen.",
+      "refs": "1Mo 22,2; 2Chr 3,1"
+    },
+    {
+      "id": "jeftah",
+      "type": "person",
+      "name": "Jeftah",
+      "text": "Richter aus Gilead, östlich des Jordan. Sohn einer Prostituierten, von seinen Halbbrüdern vertrieben, Anführer einer Schar besitzloser Männer. Die Ältesten Gileads holten ihn gegen die Ammoniter zurück. Er richtete Israel sechs Jahre. Hebr 11,32 nennt ihn unter den Menschen des Glaubens.",
+      "refs": "Ri 11,1–12,7; Hebr 11,32"
+    },
+    {
+      "id": "geluebde",
+      "type": "begriff",
+      "name": "Gelübde",
+      "text": "Ein freiwilliges Versprechen an Gott, oft mit Bedingung: Wenn du …, dann will ich … Wer gelobte, war daran gebunden (4Mo 30,3; Pred 5,3–4). Menschen, die Gott gelobt wurden, konnten nach 3Mo 27 mit Geld ausgelöst werden. Jesus warnt vor leichtfertigem Schwören (Mt 5,33–37).",
+      "refs": "4Mo 30; 3Mo 27"
+    },
+    {
+      "id": "bundeslade",
+      "type": "begriff",
+      "name": "Bundeslade",
+      "text": "Ein mit Gold überzogener Kasten aus Akazienholz, gut einen Meter lang (2Mo 25,10–22). Darin lagen die Gesetzestafeln. Der Deckel mit zwei Cherubim galt als Thron Gottes. Sie wurde an Stangen getragen und stand später im Allerheiligsten des Tempels. Nach der Zerstörung Jerusalems 586 v. Chr. verliert sich ihre Spur.",
+      "refs": "2Mo 25; 2Sam 6"
+    },
+    {
+      "id": "elisa",
+      "type": "person",
+      "name": "Elisa",
+      "text": "Prophet im Nordreich Israel im 9. Jahrhundert v. Chr., Schüler und Nachfolger Elias. Er bat um einen doppelten Anteil von Elias Geist (2Kön 2,9). Von ihm werden viele Wunder erzählt: das Öl der Witwe, die Auferweckung eines Kindes, die Heilung des Syrers Naaman, die Jesus in Lk 4,27 erwähnt.",
+      "refs": "2Kön 2–13"
+    },
+    {
+      "id": "barnabas",
+      "type": "person",
+      "name": "Barnabas",
+      "text": "Joseph, ein Levit aus Zypern, von den Aposteln Barnabas genannt. Er führte den frisch bekehrten Paulus bei den Aposteln ein (Apg 9,27), holte ihn nach Antiochia und reiste mit ihm auf der ersten Missionsreise. Später trennten sie sich im Streit über Markus, seinen Vetter (Apg 15,39; Kol 4,10).",
+      "refs": "Apg 4,36; 9,27; 13–15"
+    },
+    {
+      "id": "hananias-saphira",
+      "type": "person",
+      "name": "Hananias und Saphira",
+      "text": "Ehepaar der ersten Gemeinde in Jerusalem. Die Namen bedeuten etwa „der HERR ist gnädig“ und „die Schöne“. Ihre Geschichte folgt direkt auf den Bericht über den gemeinsamen Besitz. Nicht zu verwechseln mit Hananias in Damaskus, der Paulus die Hände auflegte (Apg 9,10–18).",
+      "refs": "Apg 5,1–11"
+    },
+    {
+      "id": "kanaanaeerin",
+      "type": "person",
+      "name": "Die kanaanäische Frau",
+      "text": "Mutter einer kranken Tochter aus der Gegend von Tyrus und Sidon, also keine Jüdin. Matthäus nennt sie Kanaanäerin, Markus eine Griechin aus Syrophönizien (Mk 7,24–30). Die Bibel nennt ihren Namen nicht; spätere Legenden (die Pseudo-Klementinen) nennen sie Justa.",
+      "refs": "Mt 15,21–28; Mk 7,24–30"
+    },
+    {
+      "id": "fluchpsalmen",
+      "type": "begriff",
+      "name": "Fluchpsalmen",
+      "text": "Psalmen oder Verse, in denen der Beter Gott um Vergeltung an seinen Feinden bittet, etwa Ps 58, Ps 109 und Ps 137,7–9. Sie gehören zu den Klagepsalmen. Christen gehen unterschiedlich mit ihnen um: vollständig mitbeten, sie geistlich-bildhaft deuten oder sie im Gottesdienst auslassen.",
+      "refs": "Ps 58; 109; 137"
+    },
+    {
+      "id": "beharrlichkeit",
+      "type": "begriff",
+      "name": "Kann man das Heil verlieren?",
+      "text": "Eine alte Streitfrage. Reformierte Kirchen lehren die „Beharrlichkeit der Heiligen“: Wer wirklich glaubt, wird von Gott bis ans Ende bewahrt. Lutherische, methodistische, katholische und orthodoxe Kirchen lehren, dass ein Christ vom Glauben abfallen kann. Beide Seiten lehren, dass Gott jeden annimmt, der umkehrt.",
+      "refs": "Hebr 6,4–12; Joh 10,28–29"
+    },
+    {
+      "id": "rollen",
+      "type": "begriff",
+      "name": "Komplementär und egalitär",
+      "text": "Zwei Sichtweisen unter Christen, die die Bibel als Gottes Wort lesen. Komplementär: Mann und Frau sind gleich wertvoll, haben aber nach der Schrift verschiedene Aufgaben; Lehre und Leitung der Gemeinde sind Männern vorbehalten. Egalitär: Die Einschränkungen gehören in ihre damalige Lage; Frauen können alle Dienste übernehmen. Dazwischen gibt es viele Abstufungen.",
+      "refs": "1Kor 11; 14; 1Tim 2"
+    },
+    {
+      "id": "phoebe",
+      "type": "person",
+      "name": "Phöbe",
+      "text": "Dienerin oder Diakonin der Gemeinde in Kenchreä, dem Osthafen von Korinth. Paulus nennt sie Beistand vieler und auch seiner selbst (griechisch prostatis, auch „Förderin, Schutzherrin“). Wahrscheinlich brachte sie den Römerbrief nach Rom.",
+      "refs": "Röm 16,1–2"
+    },
+    {
+      "id": "priska",
+      "type": "person",
+      "name": "Priska und Aquila",
+      "text": "Jüdisches Ehepaar, Zeltmacher wie Paulus, unter Kaiser Claudius aus Rom ausgewiesen. Paulus wohnte und arbeitete bei ihnen in Korinth. In Ephesus erklärten sie dem Prediger Apollos den Weg Gottes genauer (Apg 18,26). In Ephesus und in Rom traf sich eine Gemeinde in ihrem Haus. Die Apg nennt Priska Priszilla.",
+      "refs": "Apg 18; Röm 16,3–5; 1Kor 16,19"
+    },
+    {
+      "id": "junia",
+      "type": "person",
+      "name": "Junia",
+      "text": "Von Paulus zusammen mit Andronikus gegrüßt, vermutlich ein Ehepaar: jüdische Christen („meine Verwandten“), schon vor Paulus gläubig und mit ihm im Gefängnis. Ob der Name weiblich (Junia) oder männlich (Junias) ist, war lange umstritten. Die alte Kirche las fast einhellig Junia.",
+      "refs": "Röm 16,7"
+    }
+  ],
+  "sections": [
+    {
+      "id": "st-01",
+      "stage": "opfer",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 22,
+          "from": 1,
+          "to": 8
+        }
+      ],
+      "title": "Der Auftrag und der Weg",
+      "summary": "Gott stellt Abraham auf die Probe: Er soll seinen Sohn Isaak im Land Morija als Brandopfer darbringen. Drei Tage sind sie unterwegs. Auf Isaaks Frage nach dem Lamm antwortet Abraham, Gott werde es sich aussuchen.",
+      "bridge": "Dieser Plan liest Texte, die viele lieber überspringen – langsam und mit den Fragen, die sie aufwerfen. Den Anfang macht Abraham. Er hat lange auf einen Sohn gewartet; Isaak ist der Sohn der Verheißung (1Mo 21,1–12).",
+      "place": "jerusalem",
+      "focus": "Achte darauf, was Abraham den Knechten sagt und was er Isaak sagt.",
+      "quiz": [
+        {
+          "type": "truefalse",
+          "q": "Der Leser erfährt gleich am Anfang, dass Gott Abraham auf die Probe stellt.",
+          "answer": true,
+          "explain": "V. 1: Gott prüft Abraham. Der Leser weiß das von Anfang an; ob Abraham es weiß, sagt der Text nicht.",
+          "hint": "Lies Vers 1.",
+          "verse": 1
+        },
+        {
+          "type": "choice",
+          "q": "Was sagt Abraham zu seinen Knechten?",
+          "options": [
+            "Er und der Junge wollen anbeten und dann zu ihnen zurückkommen",
+            "Sie sollen in drei Tagen nachkommen",
+            "Er wird allein zurückkommen",
+            "Sie sollen das Holz zum Berg tragen"
+          ],
+          "answer": 0,
+          "explain": "V. 5: Abraham spricht in der Mehrzahl – wir wollen anbeten und zu euch zurückkehren.",
+          "hint": "Lies Vers 5.",
+          "verse": 5
+        },
+        {
+          "type": "whosaid",
+          "quote": "Gott wird sich das Schaf zum Brandopfer auswählen, mein Sohn.",
+          "quote_ref": {
+            "book": 1,
+            "chapter": 22,
+            "from": 8,
+            "to": 8
+          },
+          "options": [
+            "Abraham",
+            "Isaak",
+            "Der Engel des HERRN",
+            "Einer der Knechte"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 8: Abrahams Antwort auf Isaaks Frage aus V. 7."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt hier „versuchen“?",
+          "a": "Hebräisch nissah, „prüfen, auf die Probe stellen“. Gemeint ist keine Verführung zum Bösen (vgl. Jak 1,13), sondern eine Prüfung.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Warum ist der Auftrag so verstörend?",
+          "a": "Kinderopfer gab es bei Nachbarvölkern Israels (2Kön 3,27); das Gesetz verbietet sie später ausdrücklich (3Mo 18,21; 5Mo 12,31). Dazu kommt: Gott selbst hatte verheißen, dass Abrahams Nachkommen durch Isaak kommen sollen (1Mo 21,12)."
+        },
+        {
+          "q": "Wie alt war Isaak?",
+          "a": "Der Text sagt es nicht. Er trägt das Holz für ein Brandopfer, war also kein kleines Kind mehr. Der jüdische Historiker Josephus nennt 25 Jahre, die rabbinische Überlieferung 37."
+        }
+      ],
+      "cards": [
+        "isaak",
+        "morija"
+      ],
+      "fact": "Im Judentum heißt diese Geschichte „Akeda“, „die Bindung“ – nach V. 9. Sie wird am jüdischen Neujahrsfest Rosch ha-Schana in der Synagoge gelesen.",
+      "teaser": "Wer kommt am Ende vom Berg zurück? Der Text ist an dieser Stelle auffallend knapp."
+    },
+    {
+      "id": "st-02",
+      "stage": "opfer",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 22,
+          "from": 9,
+          "to": 19
+        }
+      ],
+      "title": "Der Altar und der Widder",
+      "summary": "Abraham bindet Isaak auf den Altar und nimmt das Messer. Der Engel des HERRN hält ihn zurück; Abraham opfert einen Widder an Isaaks Stelle. Gott schwört, ihn zu segnen und durch seine Nachkommen alle Völker zu segnen.",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Bring die Ereignisse in die richtige Reihenfolge.",
+          "items": [
+            "Abraham bindet Isaak auf den Altar",
+            "Abraham nimmt das Messer",
+            "Der Engel ruft vom Himmel",
+            "Abraham opfert den Widder",
+            "Der Engel ruft ein zweites Mal"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 9–15: Altar, Messer, der erste Ruf, der Widder – dann der zweite Ruf mit dem Schwur."
+        },
+        {
+          "type": "choice",
+          "q": "Was weiß Gott nun, laut dem Engel?",
+          "options": [
+            "Dass Abraham Gott fürchtet",
+            "Dass Isaak gehorsam ist",
+            "Dass Abraham ein großes Volk wird",
+            "Dass dieser Ort heilig ist"
+          ],
+          "answer": 0,
+          "explain": "V. 12: Nun weiß ich, dass du Gott fürchtest – du hast mir deinen einzigen Sohn nicht vorenthalten.",
+          "hint": "Lies Vers 12.",
+          "verse": 12
+        },
+        {
+          "type": "truefalse",
+          "q": "In V. 19 kehrt Abraham zu seinen Knechten zurück, ohne dass Isaak erwähnt wird.",
+          "answer": true,
+          "explain": "V. 19 nennt nur Abraham. Jüdische Ausleger haben dazu viel erzählt, etwa dass Isaak zum Lernen bei Sem blieb. Viele halten es schlicht für knappe Erzählweise.",
+          "hint": "Lies Vers 19.",
+          "verse": 19
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was bedeutet der Ortsname in V. 14?",
+          "a": "Hebräisch Jahwe jir’e: wörtlich „der HERR sieht“, im Sinn von „er sieht vor, er sorgt“. Das greift Abrahams Antwort aus V. 8 auf. Bekannt ist der Name auch als „Jehova Jireh“."
+        },
+        {
+          "q": "Wie lesen Christen diese Geschichte?",
+          "a": "Hebr 11,17–19 sagt, Abraham habe damit gerechnet, dass Gott auch Tote auferwecken kann. Kirchenväter wie Melito von Sardes sahen in Isaak, der das Holz trägt, und im Widder an seiner Stelle ein Vorausbild auf Christus. Jak 2,21–23 nennt die Tat als Beispiel für Glauben, der handelt."
+        },
+        {
+          "q": "Und wie liest das Judentum sie?",
+          "a": "Für viele jüdische Ausleger zeigt die Akeda Abrahams völlige Hingabe, und sie wird im Gebet als Grund angeführt, Gott um Erbarmen zu bitten. Andere betonen den Schluss: Der Gott Israels nimmt kein Menschenopfer an."
+        },
+        {
+          "q": "Hat das schon früher Gläubige verstört?",
+          "a": "Ja. Der dänische Christ Søren Kierkegaard schrieb 1843 ein ganzes Buch darüber („Furcht und Zittern“). Er fragt, wie man Abraham als Vater des Glaubens bewundern kann, ohne über diese drei Tage zu erschrecken."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 1,
+          "chapter": 22,
+          "from": 14,
+          "to": 14
+        },
+        "text": "Und Abraham gab diesem Ort den Namen: Der HERR wird auswählen"
+      },
+      "teaser": "Ein Anführer verspricht Gott etwas – und weiß nicht, was es ihn kosten wird."
+    },
+    {
+      "id": "st-03",
+      "stage": "opfer",
+      "refs": [
+        {
+          "book": 7,
+          "chapter": 11,
+          "from": 29,
+          "to": 33
+        }
+      ],
+      "title": "Jeftahs Gelübde",
+      "summary": "Der Geist des HERRN kommt über Jeftah. Vor dem Kampf gelobt er: Was ihm bei der Rückkehr aus der Tür seines Hauses entgegenkommt, will er dem HERRN als Brandopfer darbringen. Er besiegt die Ammoniter.",
+      "bridge": "Viele Jahrhunderte später, zur Zeit der Richter: Die Ammoniter bedrängen Israel. Die Ältesten von Gilead holen Jeftah zurück, den seine Halbbrüder vertrieben hatten, und machen ihn zum Anführer (Ri 11,1–11).",
+      "place": "mizpa-gilead",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was geschieht, bevor Jeftah sein Gelübde ablegt?",
+          "options": [
+            "Der Geist des HERRN kommt über ihn",
+            "Er verliert eine erste Schlacht",
+            "Ein Prophet fordert ihn zu einem Gelübde auf",
+            "Seine Tochter bittet ihn, für sie zu beten"
+          ],
+          "answer": 0,
+          "explain": "V. 29: Der Geist des HERRN kommt über Jeftah, er zieht durch Gilead – und dann folgt in V. 30 das Gelübde.",
+          "hint": "Lies Vers 29.",
+          "verse": 29
+        },
+        {
+          "type": "truefalse",
+          "q": "Gott verlangt von Jeftah ein Gelübde.",
+          "answer": false,
+          "explain": "V. 30: Das Gelübde geht von Jeftah aus. Eine Antwort Gottes darauf berichtet der Text nicht.",
+          "hint": "Lies Vers 30.",
+          "verse": 30
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Jeftah gelobt: Was ihm aus der Tür seines [Zeltes] entgegenkommt, soll dem HERRN gehören.",
+          "fix": "Hauses",
+          "verse": 31,
+          "hint": "Lies Vers 31.",
+          "explain": "V. 31: aus der Tür seines Hauses, wenn er in Frieden zurückkehrt."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Woran hat Jeftah gedacht?",
+          "a": "Das hebräische Wort kann „was“ oder „wer“ heißen. In israelitischen Häusern lebten Tiere oft im Erdgeschoss mit, deshalb denken manche Ausleger an ein Tier. Andere halten für wahrscheinlicher, dass Jeftah mit einem Menschen rechnete, weil jemandem „entgegengehen“ eher etwas ist, das Menschen tun."
+        },
+        {
+          "q": "Was sagt das Gesetz über Gelübde?",
+          "a": "Ein Gelübde musste gehalten werden (4Mo 30,3). Wurde ein Mensch Gott gelobt, sah das Gesetz vor, ihn mit Geld auszulösen (3Mo 27,1–8). Menschenopfer verbietet es ausdrücklich (5Mo 12,31)."
+        },
+        {
+          "q": "Wer waren die Ammoniter?",
+          "a": "Ein Volk östlich des Jordan, mit der Hauptstadt Rabba – dem heutigen Amman in Jordanien. Nach 1Mo 19,38 stammten sie von Lot ab, waren also mit Israel verwandt."
+        }
+      ],
+      "cards": [
+        "jeftah",
+        "geluebde"
+      ],
+      "teaser": "Ein ganzes Volk erinnert sich jedes Jahr an eine junge Frau, deren Namen niemand kennt."
+    },
+    {
+      "id": "st-04",
+      "stage": "opfer",
+      "refs": [
+        {
+          "book": 7,
+          "chapter": 11,
+          "from": 34,
+          "to": 40
+        }
+      ],
+      "title": "Die Tochter",
+      "summary": "Als Erste kommt Jeftah seine einzige Tochter mit Tamburinen und Reigen entgegen. Er zerreißt seine Kleider. Sie bittet um zwei Monate, um mit ihren Freundinnen auf den Bergen zu weinen. Danach vollzieht er das Gelübde. Seitdem gedenken die Töchter Israels ihrer jedes Jahr.",
+      "place": "mizpa-gilead",
+      "focus": "Achte darauf, wie viel der Text sagt – und was er nicht sagt.",
+      "quiz": [
+        {
+          "type": "whosaid",
+          "quote": "Mein Vater, hast du deinen Mund gegen den HERRN aufgetan",
+          "quote_ref": {
+            "book": 7,
+            "chapter": 11,
+            "from": 36,
+            "to": 36
+          },
+          "options": [
+            "Jeftahs Tochter",
+            "Jeftahs Frau",
+            "Eine ihrer Freundinnen",
+            "Ein Ältester aus Gilead"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 36: Die Tochter spricht – sie drängt den Vater nicht, das Gelübde zu brechen."
+        },
+        {
+          "type": "choice",
+          "q": "Worum bittet die Tochter?",
+          "options": [
+            "Um zwei Monate mit ihren Freundinnen auf den Bergen",
+            "Dass ihr Vater das Gelübde zurücknimmt",
+            "Um einen Priester, der für sie betet",
+            "Dass sie vorher heiraten darf"
+          ],
+          "answer": 0,
+          "explain": "V. 37: zwei Monate, um mit ihren Freundinnen ihre Jungfrauschaft zu beweinen.",
+          "hint": "Lies Vers 37.",
+          "verse": 37
+        },
+        {
+          "type": "estimate",
+          "q": "Wie viele Tage im Jahr gedenken die Töchter Israels der Tochter Jeftahs?",
+          "min": 1,
+          "max": 10,
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "Tage",
+          "explain": "V. 40: vier Tage im Jahr.",
+          "hint": "Lies Vers 40.",
+          "verse": 40
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wurde sie wirklich geopfert?",
+          "a": "Darüber sind Gläubige seit Jahrhunderten uneins. Die meisten alten jüdischen und christlichen Ausleger (z. B. Josephus und viele Kirchenväter) verstehen: ja. Seit dem Mittelalter (z. B. der jüdische Ausleger David Kimchi) lesen andere: Sie wurde Gott geweiht und blieb unverheiratet. Dafür führen sie V. 37–39 an, wo es um ihre Jungfrauschaft geht; dagegen steht, dass V. 31 ausdrücklich ein Brandopfer nennt."
+        },
+        {
+          "q": "Billigt der Text, was Jeftah tut?",
+          "a": "Er bewertet es nicht ausdrücklich. Manche Ausleger lesen die Geschichte im Zusammenhang des ganzen Richterbuchs, das mit dem Satz schließt, jeder habe getan, was in seinen Augen recht war (Ri 17,6; 21,25). Hebr 11,32 nennt Jeftah dennoch unter den Glaubenden."
+        },
+        {
+          "q": "Hätte er das Gelübde lösen können?",
+          "a": "Nach 3Mo 27,1–8 konnte ein Mensch, der Gott gelobt war, mit Geld ausgelöst werden. Ein jüdischer Midrasch erzählt, Jeftah und der Hohepriester Pinhas hätten beide aus Stolz darauf gewartet, dass der andere zu ihm kommt – und so sei die Tochter gestorben."
+        }
+      ],
+      "teaser": "Ein großes Fest mit Musik und 30.000 Mann – und plötzlich ist es still.",
+      "try": "Lies Ri 11,30–31 und 1Mo 28,20–22 nebeneinander. Was haben die beiden Gelübde gemeinsam, was unterscheidet sie?"
+    },
+    {
+      "id": "st-05",
+      "stage": "zuschlagen",
+      "refs": [
+        {
+          "book": 10,
+          "chapter": 6,
+          "from": 1,
+          "to": 11
+        }
+      ],
+      "title": "Ussa und die Lade",
+      "summary": "David will die Bundeslade nach Jerusalem holen. Sie fährt auf einem neuen Wagen, alle musizieren. Als die Rinder sich losreißen, fasst Ussa die Lade an und stirbt. David ist zornig und fürchtet sich; die Lade bleibt drei Monate bei Obed-Edom, und Gott segnet sein Haus.",
+      "bridge": "David ist König über ganz Israel geworden und hat Jerusalem erobert (2Sam 5). Die Bundeslade steht seit vielen Jahren im Haus Abinadabs in Kirjat-Jearim, auch Baale-Juda genannt (1Sam 7,1–2).",
+      "place": "kirjat-jearim",
+      "focus": "Achte darauf, wie David reagiert.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Worauf wird die Lade transportiert?",
+          "options": [
+            "Auf einem neuen Wagen",
+            "Auf den Schultern der Leviten",
+            "Auf einem Esel",
+            "In einem Zelt auf Stangen"
+          ],
+          "answer": 0,
+          "explain": "V. 3: auf einem neuen Wagen. Nach 4Mo 4,15 und 7,9 sollte die Lade an Stangen getragen werden; 1Chr 15,13–15 sieht später darin den Fehler.",
+          "hint": "Lies Vers 3.",
+          "verse": 3
+        },
+        {
+          "type": "truefalse",
+          "q": "David reagiert auf Ussas Tod mit Zorn und mit Furcht.",
+          "answer": true,
+          "explain": "V. 8–9: David ist zornig über den „Bruch“ an Ussa – und fürchtet sich zugleich vor dem HERRN.",
+          "hint": "Lies Vers 8–9.",
+          "verse": 8
+        },
+        {
+          "type": "choice",
+          "q": "Was geschieht im Haus Obed-Edoms?",
+          "options": [
+            "Der HERR segnet ihn und sein ganzes Haus",
+            "Auch Obed-Edom stirbt",
+            "Die Lade wird beschädigt",
+            "David besucht die Lade jeden Tag"
+          ],
+          "answer": 0,
+          "explain": "V. 11: Drei Monate bleibt die Lade dort, und der HERR segnet Obed-Edom und sein ganzes Haus.",
+          "hint": "Lies Vers 11.",
+          "verse": 11
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum stirbt Ussa?",
+          "a": "Der Text nennt nur ein „Vergehen“; das hebräische Wort ist selten und unklar. Nach 4Mo 4,15 durften selbst die Leviten die heiligen Geräte nicht berühren, sonst würden sie sterben. 1Chr 15,13 sagt rückblickend, man habe Gott nicht nach der Vorschrift gesucht."
+        },
+        {
+          "q": "Was heißt „einen Bruch machen“?",
+          "a": "Hebräisch perez, „Riss, Durchbruch“; Perez-Ussa heißt „Ussas Riss“. Kurz vorher hatte David einen Ort Baal-Perazim genannt, weil Gott dort seine Feinde „durchbrochen“ hatte (2Sam 5,20) – dasselbe Wort."
+        },
+        {
+          "q": "Wie gehen Ausleger mit dieser Geschichte um?",
+          "a": "Viele lesen sie als Erzählung über Gottes Heiligkeit, die man nicht beiläufig behandeln kann. Andere heben hervor, dass auch David mit dem Geschehen ringt und der Text seinen Zorn nicht verschweigt. 2Sam 6,12–15 erzählt, wie die Lade drei Monate später doch nach Jerusalem kommt."
+        }
+      ],
+      "cards": [
+        "bundeslade"
+      ],
+      "fact": "Obed-Edom wird „Gatiter“ genannt, also wohl jemand aus der Philisterstadt Gat – vermutlich ein Ausländer. Manche Ausleger denken stattdessen an die Levitenstadt Gat-Rimmon (Jos 21,24).",
+      "teaser": "Ein Prophet, Spötter am Wegrand und zwei Bären. Aber wer genau waren diese „Kinder“?"
+    },
+    {
+      "id": "st-06",
+      "stage": "zuschlagen",
+      "refs": [
+        {
+          "book": 12,
+          "chapter": 2,
+          "from": 19,
+          "to": 25
+        }
+      ],
+      "title": "Elisa und die Bären",
+      "summary": "In Jericho macht Elisa schlechtes Wasser gesund. Auf dem Weg nach Bethel verspotten ihn junge Leute als Kahlkopf. Er verflucht sie im Namen des HERRN; zwei Bärinnen kommen aus dem Wald und zerreißen 42 von ihnen.",
+      "bridge": "Etwa 150 Jahre nach David: Der Prophet Elia ist in einem Sturm in den Himmel aufgefahren. Sein Schüler Elisa hat Elias Mantel aufgehoben und ist nach Jericho zurückgekehrt (2Kön 2,1–18).",
+      "place": "bethel",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Womit macht Elisa das Wasser gesund?",
+          "options": [
+            "Mit Salz in einer neuen Schale",
+            "Mit Öl aus einem Krug",
+            "Mit dem Mantel des Elia",
+            "Mit einem Stück Holz"
+          ],
+          "answer": 0,
+          "explain": "V. 20–21: Er wirft Salz in die Quelle und spricht ein Wort des HERRN.",
+          "hint": "Lies Vers 20–21.",
+          "verse": 20
+        },
+        {
+          "type": "estimate",
+          "q": "Wie viele von ihnen werden von den Bären zerrissen?",
+          "min": 1,
+          "max": 100,
+          "answer": 42,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "V. 24: 42.",
+          "hint": "Lies Vers 24.",
+          "verse": 24
+        },
+        {
+          "type": "truefalse",
+          "q": "Der Text sagt, dass Elisa die Bären herbeiruft.",
+          "answer": false,
+          "explain": "V. 24: Elisa flucht im Namen des HERRN. Dass die Bären kommen, wird danach nur berichtet.",
+          "hint": "Lies Vers 24.",
+          "verse": 24
+        }
+      ],
+      "explain": [
+        {
+          "q": "Waren das kleine Kinder?",
+          "a": "In V. 23 steht hebräisch ne’arim qetannim. Na’ar kann einen kleinen Jungen meinen, aber auch junge Männer bis ins Erwachsenenalter, etwa Diener oder Soldaten (1Sam 17,33; 2Sam 2,14). Auch das Wort in V. 24 (jeladim) bezeichnet in 1Kön 12,8 die jungen Berater des Königs. Manche Ausleger denken an eine Bande junger Männer, andere bleiben bei Kindern."
+        },
+        {
+          "q": "Was bedeutet „Komm herauf, Kahlkopf“?",
+          "a": "Eine Glatze galt als Schande; vielleicht war Elisa einfach kahl. Manche Ausleger hören in „Komm herauf“ eine Anspielung auf Elias Himmelfahrt (V. 11): Fahr doch auch auf! Dann wäre es Spott über den Propheten und seinen Auftrag."
+        },
+        {
+          "q": "Warum Bethel?",
+          "a": "Bethel war seit König Jerobeam ein Heiligtum mit einem goldenen Stierbild (1Kön 12,28–29), ein Zentrum des Gottesdienstes, gegen den die Propheten auftraten."
+        }
+      ],
+      "cards": [
+        "elisa"
+      ],
+      "teaser": "Eine Gemeinde, in der niemand Not leidet – und ein Mann bekommt dabei einen neuen Namen."
+    },
+    {
+      "id": "st-07",
+      "stage": "zuschlagen",
+      "refs": [
+        {
+          "book": 44,
+          "chapter": 4,
+          "from": 32,
+          "to": 37
+        }
+      ],
+      "title": "Ein Herz und eine Seele",
+      "summary": "Die Gläubigen sind ein Herz und eine Seele und betrachten ihren Besitz als gemeinsam. Wer Äcker oder Häuser hat, verkauft sie und legt den Erlös den Aposteln zu Füßen; niemand leidet Not. Auch Barnabas verkauft einen Acker.",
+      "bridge": "Über 800 Jahre nach Elisa: Nach Pfingsten wächst die Gemeinde in Jerusalem schnell. Petrus und Johannes sind gerade vom Hohen Rat verhört und wieder freigelassen worden (Apg 4,1–31).",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "truefalse",
+          "q": "Unter den Gläubigen gab es niemanden, der Not litt.",
+          "answer": true,
+          "explain": "V. 34–35: Niemand war bedürftig, denn jedem wurde zugeteilt, was er brauchte.",
+          "hint": "Lies Vers 34.",
+          "verse": 34
+        },
+        {
+          "type": "choice",
+          "q": "Was bedeutet der Name Barnabas laut V. 36?",
+          "options": [
+            "Sohn des Trostes",
+            "Sohn des Donners",
+            "Freund Gottes",
+            "Fels"
+          ],
+          "answer": 0,
+          "explain": "V. 36: Sohn des Trostes. „Söhne des Donners“ nennt Jesus Jakobus und Johannes (Mk 3,17).",
+          "hint": "Lies Vers 36.",
+          "verse": 36
+        },
+        {
+          "type": "choice",
+          "q": "Woher stammt Barnabas?",
+          "options": [
+            "Aus Zypern",
+            "Aus Galiläa",
+            "Aus Rom",
+            "Aus Ägypten"
+          ],
+          "answer": 0,
+          "explain": "V. 36: ein Levit, der aus Zypern stammt.",
+          "hint": "Lies Vers 36.",
+          "verse": 36
+        }
+      ],
+      "explain": [
+        {
+          "q": "War das eine Pflicht?",
+          "a": "Der Text beschreibt, er befiehlt nicht. In Apg 5,4 sagt Petrus ausdrücklich, dass das Feld und der Erlös im eigenen Besitz bleiben durften. Apg 12,12 erwähnt später, dass Maria, die Mutter des Markus, weiter ein eigenes Haus hatte."
+        },
+        {
+          "q": "Haben Christen das nachgeahmt?",
+          "a": "Ja. Klöster leben seit dem 4. Jahrhundert mit gemeinsamem Besitz und berufen sich auch auf diese Stelle. Täufergemeinden wie die Hutterer leben seit dem 16. Jahrhundert in Gütergemeinschaft."
+        }
+      ],
+      "cards": [
+        "barnabas"
+      ],
+      "teaser": "Ein Ehepaar tut scheinbar dasselbe wie Barnabas. Fast."
+    },
+    {
+      "id": "st-08",
+      "stage": "zuschlagen",
+      "refs": [
+        {
+          "book": 44,
+          "chapter": 5,
+          "from": 1,
+          "to": 11
+        }
+      ],
+      "title": "Hananias und Saphira",
+      "summary": "Hananias und Saphira verkaufen ein Grundstück, behalten heimlich einen Teil des Erlöses und bringen den Rest. Petrus stellt erst ihn, Stunden später sie zur Rede. Beide fallen tot um. Große Furcht kommt über die ganze Gemeinde.",
+      "place": "jerusalem",
+      "focus": "Achte darauf, was Petrus Hananias genau vorwirft.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was wirft Petrus Hananias vor?",
+          "options": [
+            "Dass er den Heiligen Geist belogen hat",
+            "Dass er nicht alles gegeben hat",
+            "Dass er überhaupt verkauft hat",
+            "Dass er Barnabas beneidet hat"
+          ],
+          "answer": 0,
+          "explain": "V. 3–4: Feld und Geld blieben in seiner Verfügung. Der Vorwurf ist die Lüge – nicht Menschen, sondern Gott belogen.",
+          "hint": "Lies Vers 3–4.",
+          "verse": 3
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Etwa drei [Tage] später kommt Saphira herein und weiß nicht, was geschehen ist.",
+          "fix": "Stunden",
+          "verse": 7,
+          "hint": "Lies Vers 7.",
+          "explain": "V. 7: etwa drei Stunden später."
+        },
+        {
+          "type": "truefalse",
+          "q": "Saphira wusste davon, dass ihr Mann einen Teil zurückbehielt.",
+          "answer": true,
+          "explain": "V. 2: Die Frau wusste davon; V. 9 nennt es eine Absprache der beiden.",
+          "hint": "Lies Vers 2.",
+          "verse": 2
+        }
+      ],
+      "explain": [
+        {
+          "q": "Hat Petrus die beiden getötet?",
+          "a": "Das sagt der Text nicht. Bei Hananias spricht Petrus kein Urteil aus; er fällt hin, als er die Worte hört (V. 5). Bei Saphira kündigt Petrus den Tod an (V. 9). Die meisten Ausleger verstehen es als Gericht Gottes."
+        },
+        {
+          "q": "Gibt es ähnliche Geschichten in der Bibel?",
+          "a": "Ausleger erinnern an Achan in Jos 7: Auch am Anfang der Landnahme behält jemand heimlich etwas zurück und wird bestraft. Lukas benutzt in V. 2 für „beiseiteschaffen“ dasselbe seltene griechische Wort (nosphizomai), das die griechische Übersetzung des Alten Testaments in Jos 7,1 verwendet."
+        },
+        {
+          "q": "Gingen die beiden verloren?",
+          "a": "Darüber schweigt der Text. Schon die Kirchenväter waren nicht einig. Manche sahen hier die ewige Verdammnis. Andere verstanden es als Strafe in diesem Leben, die Gottes Gnade danach nicht ausschließt, und verweisen auf 1Kor 5,5 und 11,30–32."
+        },
+        {
+          "q": "Was ist „die Versammlung“?",
+          "a": "Griechisch ekklēsia, andere Übersetzungen sagen „Gemeinde“. Nach den ältesten Handschriften steht das Wort hier zum ersten Mal in der Apostelgeschichte.",
+          "translation": "elbbk"
+        }
+      ],
+      "cards": [
+        "hananias-saphira"
+      ],
+      "teaser": "Eine verzweifelte Mutter bittet Jesus um Hilfe. Er antwortet – zuerst gar nicht."
+    },
+    {
+      "id": "st-09",
+      "stage": "hart",
+      "refs": [
+        {
+          "book": 40,
+          "chapter": 15,
+          "from": 21,
+          "to": 28
+        }
+      ],
+      "title": "Die Frau und die „Hündchen“",
+      "summary": "Eine kanaanäische Frau bittet Jesus, ihre Tochter zu heilen. Er schweigt zuerst, dann sagt er, er sei nur zu Israel gesandt, und spricht vom Brot der Kinder und den Hündchen. Sie greift das Bild auf. Jesus nennt ihren Glauben groß, und die Tochter wird gesund.",
+      "bridge": "Jesus hat mit Pharisäern aus Jerusalem über rein und unrein gestritten (Mt 15,1–20). Nun zieht er sich in die Gegend von Tyrus und Sidon zurück, außerhalb des jüdischen Landes.",
+      "place": "tyrus",
+      "focus": "Achte darauf, wie die Frau mit Jesu Antworten umgeht.",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Bring den Ablauf in die richtige Reihenfolge.",
+          "items": [
+            "Jesus antwortet ihr nicht",
+            "Die Jünger wollen sie wegschicken",
+            "Jesus spricht vom Brot der Kinder",
+            "Die Frau spricht von den Brotkrumen",
+            "Jesus nennt ihren Glauben groß"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 23–28: Schweigen, die Bitte der Jünger, das Wort vom Brot, die Antwort der Frau – und Jesu Lob."
+        },
+        {
+          "type": "choice",
+          "q": "Wie redet die Frau Jesus in V. 22 an?",
+          "options": [
+            "Herr, Sohn Davids",
+            "Rabbi",
+            "Prophet aus Nazareth",
+            "Meister"
+          ],
+          "answer": 0,
+          "explain": "V. 22: „Sohn Davids“ ist ein Titel für den Messias Israels – aus dem Mund einer Nichtjüdin.",
+          "hint": "Lies Vers 22.",
+          "verse": 22
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum „kanaanäisch“?",
+          "a": "Markus nennt sie eine Griechin aus Syrophönizien (Mk 7,26). Matthäus wählt das alte Wort „Kanaaniter“: So hießen die Bewohner des Landes vor Israel, die Gegner aus den Büchern Mose und Josua."
+        },
+        {
+          "q": "Ist „Hündchen“ eine Beleidigung?",
+          "a": "„Hund“ war ein verbreitetes abwertendes Wort für Nichtjuden. Jesus benutzt aber die Verkleinerungsform (kynaria), also Haushündchen unter dem Tisch. Ob das die Härte mildert, sehen Ausleger unterschiedlich."
+        },
+        {
+          "q": "Wie verstehen Ausleger Jesu Zögern?",
+          "a": "Seit den Kirchenvätern (z. B. Johannes Chrysostomus) sagen viele: Jesus prüft die Frau, damit ihr Glaube sichtbar wird. Andere betonen V. 24: Sein Auftrag galt zuerst Israel (vgl. Mt 10,5–6), die Völker kommen erst nach der Auferstehung in den Blick (Mt 28,19). Manche lesen auch, dass Jesus sich vom Einwand der Frau bewegen lässt."
+        }
+      ],
+      "cards": [
+        "kanaanaeerin"
+      ],
+      "fact": "Nur zu dieser Frau sagt Jesus bei Matthäus ausdrücklich, ihr Glaube sei groß. Ähnlich hebt er sonst nur den Glauben eines anderen Nichtjuden hervor: den des Hauptmanns von Kapernaum (Mt 8,10).",
+      "teaser": "Jesus spricht von Vater, Mutter, Frau und Kindern – und benutzt dabei ein Wort, das man nicht erwartet."
+    },
+    {
+      "id": "st-10",
+      "stage": "hart",
+      "refs": [
+        {
+          "book": 42,
+          "chapter": 14,
+          "from": 25,
+          "to": 33
+        }
+      ],
+      "title": "Wer nicht hasst …",
+      "summary": "Zu den großen Mengen, die ihm folgen, sagt Jesus: Wer nicht Vater, Mutter, Frau, Kinder und sogar sein eigenes Leben hasst und sein Kreuz trägt, kann nicht sein Jünger sein. Dazu zwei Bilder: ein Turmbau und ein König vor dem Krieg – beide überschlagen zuerst, was es kostet.",
+      "bridge": "Jesus ist auf dem Weg nach Jerusalem (Lk 9,51). Kurz vorher hat er beim Essen im Haus eines Pharisäers das Gleichnis vom großen Abendmahl erzählt (Lk 14,15–24).",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Zu wem spricht Jesus hier?",
+          "options": [
+            "Zu großen Volksmengen, die mit ihm gehen",
+            "Nur zu den Zwölf",
+            "Zu Pharisäern beim Essen",
+            "Zu einer einzelnen Familie"
+          ],
+          "answer": 0,
+          "explain": "V. 25: Große Volksmengen gehen mit ihm; er dreht sich zu ihnen um.",
+          "hint": "Lies Vers 25.",
+          "verse": 25
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Ein König mit 10.000 Mann überlegt, ob er dem entgegentreten kann, der mit [30.000] kommt.",
+          "fix": "20.000",
+          "verse": 31,
+          "hint": "Lies Vers 31.",
+          "explain": "V. 31: mit 20.000 – doppelt so viele."
+        },
+        {
+          "type": "truefalse",
+          "q": "Beide Bilder, Turm und König, handeln davon, vorher die Kosten zu überschlagen.",
+          "answer": true,
+          "explain": "V. 28–32: Der Bauherr berechnet die Kosten, der König berät sich – und V. 33 zieht daraus den Schluss.",
+          "hint": "Lies Vers 28–32.",
+          "verse": 28
+        }
+      ],
+      "explain": [
+        {
+          "q": "Heißt „hassen“ hier wirklich hassen?",
+          "a": "Viele Ausleger verweisen auf eine hebräische Ausdrucksweise: „Lieben und hassen“ heißt oft „vorziehen und zurücksetzen“ (vgl. 1Mo 29,30–31; Mal 1,2–3). Die Parallele Mt 10,37 sagt: wer Vater oder Mutter mehr liebt als mich. Andere betonen, dass Lukas das harte Wort bewusst stehen lässt."
+        },
+        {
+          "q": "Was hieß „sein Kreuz tragen“?",
+          "a": "Verurteilte mussten den Querbalken ihres Kreuzes selbst zur Hinrichtungsstätte tragen. Für die Hörer war das kein frommes Bild, sondern eine Szene, die sie von römischen Hinrichtungen kannten."
+        },
+        {
+          "q": "Wie passt das zum Gebot, die Eltern zu ehren?",
+          "a": "Jesus hält am Gebot fest und kritisiert, wer es mit frommen Begründungen umgeht (Mk 7,9–13). Am Kreuz vertraut er seine Mutter dem Jünger Johannes an (Joh 19,26–27)."
+        }
+      ],
+      "teaser": "Das bekannteste Lied der Verbannten beginnt mit Tränen am Fluss – und endet mit einem Satz, den kaum jemand mitsingt.",
+      "try": "Lies Lk 14,26 und Mt 10,37 nebeneinander. Was ist gleich, was ist anders?"
+    },
+    {
+      "id": "st-11",
+      "stage": "hart",
+      "refs": [
+        {
+          "book": 19,
+          "chapter": 137,
+          "from": 1,
+          "to": 9
+        }
+      ],
+      "title": "An den Flüssen Babels",
+      "summary": "Die Verbannten sitzen weinend an den Flüssen Babels; ihre Bewacher verlangen Lieder von Zion. Sie schwören, Jerusalem nicht zu vergessen. Am Ende bitten sie Gott, sich an Edom zu erinnern, und preisen den glücklich, der Babels Kinder an den Felsen schmettert.",
+      "bridge": "Im Jahr 587/586 v. Chr. zerstörten die Babylonier Jerusalem und den Tempel und verschleppten einen großen Teil des Volkes nach Babylon (2Kön 25).",
+      "place": "babylon",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was verlangen die Bewacher von den Verbannten?",
+          "options": [
+            "Ein Lied von Zion",
+            "Ein Opfer für ihre Götter",
+            "Die Namen ihrer Anführer",
+            "Ein Loblied auf Babel"
+          ],
+          "answer": 0,
+          "explain": "V. 3: Sie fordern ein Lied, Freude – eines von Zions Liedern.",
+          "hint": "Lies Vers 3.",
+          "verse": 3
+        },
+        {
+          "type": "truefalse",
+          "q": "Der Psalm bittet Gott, an Edom zu denken, was es am Tag Jerusalems gesagt hat.",
+          "answer": true,
+          "explain": "V. 7: Die Edomiter riefen, man solle Jerusalem bis auf den Grund niederreißen.",
+          "hint": "Lies Vers 7.",
+          "verse": 7
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer war Edom?",
+          "a": "Ein Nachbarvolk im Südosten. Nach 1Mo 36 stammten die Edomiter von Esau ab, waren also Verwandte Israels. Nach Obadja 10–14 freuten sie sich über den Fall Jerusalems und lieferten Flüchtlinge aus."
+        },
+        {
+          "q": "Wie können Gläubige so beten?",
+          "a": "Viele Ausleger betonen: Der Beter übt die Rache nicht selbst aus, sondern legt sie in Gottes Hand (vgl. 5Mo 32,35; Röm 12,19). Dietrich Bonhoeffer schrieb 1940 („Das Gebetbuch der Bibel“), Gottes Rache sei am Kreuz an Christus vollzogen worden, der für seine Feinde betete – darum könne die Gemeinde auch diese Psalmen mitbeten."
+        },
+        {
+          "q": "Werden diese Verse in Kirchen gebetet?",
+          "a": "Unterschiedlich. Das katholische Stundengebet lässt V. 7–9 seit der Reform nach dem Zweiten Vatikanischen Konzil aus. Die orthodoxe Kirche singt den Psalm in der Vorfastenzeit vollständig. Kirchenväter wie Augustinus deuteten die „kleinen Kinder“ Babels als aufkeimende böse Gedanken, die man früh am Felsen – Christus – zerschlagen soll."
+        }
+      ],
+      "cards": [
+        "fluchpsalmen"
+      ],
+      "fact": "Die ersten Verse wurden als „Rivers of Babylon“ (The Melodians 1970, Boney M. 1978) weltbekannt. Das Lied endet nicht mit V. 7–9, sondern mit Ps 19,15.",
+      "teaser": "Ein Satz im Hebräerbrief hat Christen jahrhundertelang beunruhigt. Er beginnt mit dem Wort „unmöglich“."
+    },
+    {
+      "id": "st-12",
+      "stage": "hart",
+      "refs": [
+        {
+          "book": 58,
+          "chapter": 6,
+          "from": 4,
+          "to": 12
+        }
+      ],
+      "title": "Unmöglich?",
+      "summary": "Es sei unmöglich, die, die erleuchtet waren, den Heiligen Geist empfangen haben und dann abgefallen sind, wieder zur Umkehr zu bringen. Dazu das Bild vom Land, das Frucht oder Dornen trägt. Dann: Von euch sind wir Besseres überzeugt; Gott vergisst eure Liebe nicht.",
+      "bridge": "Der Hebräerbrief richtet sich an Christen, die unter Druck stehen und müde geworden sind (Hebr 10,32–36). Kurz vorher tadelt der Verfasser, dass sie im Verstehen nicht weitergekommen sind (Hebr 5,11–14).",
+      "focus": "Achte darauf, wie sich der Ton ab V. 9 verändert.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Mit welchem Bild unterstreicht der Verfasser seine Warnung?",
+          "options": [
+            "Mit Land, das Nutzpflanzen oder Dornen trägt",
+            "Mit einem Haus auf Sand",
+            "Mit einem Weinstock und seinen Reben",
+            "Mit einem Schiff im Sturm"
+          ],
+          "answer": 0,
+          "explain": "V. 7–8: Land, das den Regen trinkt und Nützliches hervorbringt, wird gesegnet; trägt es Dornen, ist es dem Fluch nahe.",
+          "hint": "Lies Vers 7–8.",
+          "verse": 7
+        },
+        {
+          "type": "truefalse",
+          "q": "Direkt nach der Warnung schreibt der Verfasser, er sei bei seinen Lesern von Besserem überzeugt.",
+          "answer": true,
+          "explain": "V. 9: Wir sind von besseren Dingen überzeugt, auch wenn wir so reden.",
+          "hint": "Lies Vers 9.",
+          "verse": 9
+        },
+        {
+          "type": "choice",
+          "q": "Was vergisst Gott laut V. 10 nicht?",
+          "options": [
+            "Ihr Werk und ihre Liebe, mit der sie den Heiligen dienen",
+            "Ihre Opfer im Tempel",
+            "Den Tag ihrer Taufe",
+            "Ihre Gebete für die Verfolger"
+          ],
+          "answer": 0,
+          "explain": "V. 10: ihr Werk und die Liebe, die sie im Dienst an den Heiligen gezeigt haben und noch zeigen.",
+          "hint": "Lies Vers 10.",
+          "verse": 10
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wovor warnt der Text?",
+          "a": "Die meisten Ausleger verstehen „abfallen“ nicht als einzelne Sünden, sondern als bewusstes Abwenden von Christus. V. 6 beschreibt es so, als stelle man sich auf die Seite derer, die Jesus gekreuzigt haben."
+        },
+        {
+          "q": "Waren das echte Christen? – reformierte Sicht",
+          "a": "Reformierte Ausleger in der Linie Calvins sagen meist: Wer wirklich wiedergeboren ist, fällt nicht endgültig ab. Die Beschriebenen hätten viel vom Wirken Gottes erlebt, aber keinen rettenden Glauben gehabt. Sie verweisen auf V. 9, wo der Verfasser von „besseren“ Dingen spricht."
+        },
+        {
+          "q": "Waren das echte Christen? – andere Sichtweisen",
+          "a": "Arminianische, wesleyanische und lutherische Ausleger, ebenso die katholische und die orthodoxe Kirche, lesen V. 4–5 als Beschreibung echter Gläubiger: Ein Christ kann vom Glauben abfallen. Viele von ihnen verstehen „unmöglich“ als Aussage über menschliche Möglichkeiten, nicht über Gottes. Wieder andere lesen die Verse als hypothetische Warnung: So wäre es, wenn – und gerade die Warnung bewahre vor dem Abfall."
+        },
+        {
+          "q": "Warum war die Stelle in der Kirchengeschichte so umstritten?",
+          "a": "Im 3. Jahrhundert beriefen sich die Novatianer auf sie, um Christen, die in der Verfolgung abgefallen waren, nie wieder aufzunehmen; die Mehrheit der Kirche lehnte das ab. Luther stellte den Hebräerbrief auch wegen dieser Stelle in seiner Bibel ans Ende des Neuen Testaments."
+        }
+      ],
+      "cards": [
+        "beharrlichkeit"
+      ],
+      "prayer": {
+        "ref": {
+          "book": 41,
+          "chapter": 9,
+          "from": 24,
+          "to": 24
+        },
+        "source": "Markus 9,24"
+      },
+      "teaser": "Kopfbedeckung, Haare und Engel: ein Abschnitt, bei dem selbst erfahrene Ausleger zugeben, dass sie nicht alles verstehen.",
+      "try": "Lies V. 4–6 und dann V. 9–12. Wie verändert der zweite Teil den Klang des ersten?"
+    },
+    {
+      "id": "st-13",
+      "stage": "frauen",
+      "refs": [
+        {
+          "book": 46,
+          "chapter": 11,
+          "from": 2,
+          "to": 10
+        }
+      ],
+      "title": "Frauen, die beten und weissagen",
+      "summary": "Paulus lobt die Korinther, dass sie an den Überlieferungen festhalten. Christus ist das Haupt jedes Mannes, der Mann das Haupt der Frau, Gott das Haupt Christi. Ein Mann soll beim Beten und Weissagen den Kopf nicht bedecken, eine Frau soll ihn bedecken, auch mit Blick auf die Engel (V. 10).",
+      "bridge": "Paulus schreibt an die Gemeinde in Korinth, die er selbst gegründet hat. Ab Kapitel 11 geht es um Fragen des Gottesdienstes.",
+      "place": "korinth",
+      "focus": "Achte darauf, was Männer und Frauen im Gottesdienst tun.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was tun Frauen nach V. 5 im Gottesdienst?",
+          "options": [
+            "Sie beten und weissagen",
+            "Sie schweigen",
+            "Sie singen nur",
+            "Sie hören nur zu"
+          ],
+          "answer": 0,
+          "explain": "V. 5: Paulus spricht von der Frau, die betet oder weissagt – und regelt, wie sie dabei aussehen soll.",
+          "hint": "Lies Vers 5.",
+          "verse": 5
+        },
+        {
+          "type": "truefalse",
+          "q": "Paulus schreibt, ein Mann solle beim Beten etwas auf dem Kopf tragen.",
+          "answer": false,
+          "explain": "V. 4: Umgekehrt – ein Mann, der mit bedecktem Haupt betet, entehrt sein Haupt.",
+          "hint": "Lies Vers 4.",
+          "verse": 4
+        },
+        {
+          "type": "choice",
+          "q": "Wer ist nach V. 3 das Haupt Christi?",
+          "options": [
+            "Gott",
+            "Der Mann",
+            "Die Gemeinde",
+            "Der Geist"
+          ],
+          "answer": 0,
+          "explain": "V. 3: Christus ist das Haupt jedes Mannes, der Mann das Haupt der Frau, Gott das Haupt Christi.",
+          "hint": "Lies Vers 3.",
+          "verse": 3
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „Haupt“?",
+          "a": "Griechisch kephalē. Ob es hier vor allem „Oberhaupt, Autorität“ oder „Ursprung, Quelle“ meint, gehört zu den meistdiskutierten Fragen dieses Textes. V. 8 (die Frau vom Mann) wird oft für die zweite Bedeutung angeführt, V. 10 (eine „Macht“ auf dem Haupt) für die erste."
+        },
+        {
+          "q": "Was bedeutet „um der Engel willen“?",
+          "a": "Niemand weiß es sicher. Viele Kirchenväter dachten an Engel, die am Gottesdienst teilnehmen und auf Ordnung achten; ähnliche Vorstellungen kennt man aus Texten der Gemeinschaft von Qumran. Andere denken an die „Gottessöhne“ in 1Mo 6,2."
+        },
+        {
+          "q": "Kopfbedeckung – wie halten es Kirchen heute?",
+          "a": "Unterschiedlich. In vielen orthodoxen Gemeinden, bei manchen Brüdergemeinden, Mennoniten und Amischen tragen Frauen im Gottesdienst ein Tuch. Die meisten Kirchen verstehen die Anweisung als an die damalige Kultur gebunden, in der eine unbedeckte verheiratete Frau als anstößig galt, und suchen das Anliegen dahinter."
+        }
+      ],
+      "teaser": "Im nächsten Abschnitt setzt Paulus seiner eigenen Begründung einen Gedanken entgegen."
+    },
+    {
+      "id": "st-14",
+      "stage": "frauen",
+      "refs": [
+        {
+          "book": 46,
+          "chapter": 11,
+          "from": 11,
+          "to": 16
+        }
+      ],
+      "title": "Haar, Natur und Gewohnheit",
+      "summary": "Im Herrn ist weder die Frau ohne den Mann noch der Mann ohne die Frau; die Frau ist vom Mann, der Mann durch die Frau, alles aber von Gott. Paulus fragt, was sich gehört und was die Natur lehrt, und verweist auf die Gewohnheit der Gemeinden.",
+      "place": "korinth",
+      "quiz": [
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Wie die Frau vom Mann ist, so ist auch der Mann durch die [Engel]; alles aber ist von Gott.",
+          "fix": "Frau",
+          "verse": 12,
+          "hint": "Lies Vers 12.",
+          "explain": "V. 12: Der Mann ist durch die Frau – jeder Mann wird von einer Frau geboren."
+        },
+        {
+          "type": "choice",
+          "q": "Worauf beruft sich Paulus in V. 14–15?",
+          "options": [
+            "Auf das, was die Natur lehrt",
+            "Auf ein Wort Jesu",
+            "Auf das Gesetz des Mose",
+            "Auf eine Vision"
+          ],
+          "answer": 0,
+          "explain": "V. 14: Lehrt euch nicht schon die Natur …?",
+          "hint": "Lies Vers 14.",
+          "verse": 14
+        },
+        {
+          "type": "truefalse",
+          "q": "Paulus schließt mit dem Hinweis, dass die Gemeinden Gottes keine andere Gewohnheit haben.",
+          "answer": true,
+          "explain": "V. 16: Wer streiten will – wir und die Gemeinden Gottes haben eine solche Gewohnheit nicht.",
+          "hint": "Lies Vers 16.",
+          "verse": 16
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was meint „Natur“?",
+          "a": "Griechisch physis: das, was als selbstverständlich gilt. In der griechisch-römischen Welt trugen Männer meist kurzes Haar. Zugleich kennt die Bibel Männer mit Gelübde, die ihr Haar lang wachsen ließen (4Mo 6,5; Ri 13,5). Ob Paulus eine Schöpfungsordnung oder eine Sitte seiner Zeit meint, verstehen Ausleger verschieden."
+        },
+        {
+          "q": "Wie passen V. 3–10 und V. 11–12 zusammen?",
+          "a": "Komplementäre Ausleger: Paulus beschreibt eine Ordnung mit verschiedenen Aufgaben bei gleichem Wert; V. 11–12 bewahren davor, daraus Geringschätzung abzuleiten. Egalitäre Ausleger: Das „im Herrn“ in V. 11 relativiert die Begründung aus der Schöpfungsreihenfolge."
+        }
+      ],
+      "cards": [
+        "rollen"
+      ],
+      "teaser": "Drei Kapitel später: ein Gottesdienst, in dem jeder etwas mitbringt – und Paulus Ordnung hineinbringen will."
+    },
+    {
+      "id": "st-15",
+      "stage": "frauen",
+      "refs": [
+        {
+          "book": 46,
+          "chapter": 14,
+          "from": 26,
+          "to": 33
+        }
+      ],
+      "title": "Ordnung im Gottesdienst",
+      "summary": "Wenn die Gemeinde zusammenkommt, bringt jeder etwas mit: einen Psalm, eine Lehre, eine Sprachenrede, eine Offenbarung, eine Auslegung. Paulus ordnet: höchstens zwei oder drei Sprachenredner nacheinander, mit Auslegung; Propheten reden, die anderen prüfen. Gott ist ein Gott des Friedens.",
+      "place": "korinth",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was soll ein Sprachenredner tun, wenn niemand auslegen kann?",
+          "options": [
+            "In der Versammlung schweigen und für sich zu Gott reden",
+            "Trotzdem laut weiterreden",
+            "Die Versammlung verlassen",
+            "Einen Propheten um Hilfe bitten"
+          ],
+          "answer": 0,
+          "explain": "V. 28: Er soll in der Versammlung schweigen und zu sich selbst und zu Gott reden.",
+          "hint": "Lies Vers 28.",
+          "verse": 28
+        },
+        {
+          "type": "choice",
+          "q": "Wer soll nach V. 30 schweigen?",
+          "options": [
+            "Der erste Prophet, wenn ein anderer eine Offenbarung bekommt",
+            "Alle Frauen",
+            "Alle Sprachenredner",
+            "Die Zuhörer"
+          ],
+          "answer": 0,
+          "explain": "V. 30: Bekommt ein anderer, der dasitzt, eine Offenbarung, soll der erste schweigen.",
+          "hint": "Lies Vers 30.",
+          "verse": 30
+        },
+        {
+          "type": "truefalse",
+          "q": "Paulus schreibt, dass alle der Reihe nach weissagen können.",
+          "answer": true,
+          "explain": "V. 31: Ihr könnt alle nacheinander weissagen, damit alle lernen und getröstet werden.",
+          "hint": "Lies Vers 31.",
+          "verse": 31
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist „in einer Sprache reden“?",
+          "a": "Gemeint ist die Zungenrede (griechisch glōssa): Beten oder Gotteslob in einer Sprache, die der Redende nicht gelernt hat (vgl. 1Kor 14,2.14). Pfingstliche und charismatische Kirchen praktizieren sie heute. Andere Kirchen verstehen sie als Gabe der Anfangszeit oder sind zurückhaltend."
+        },
+        {
+          "q": "Was heißt hier „weissagen“?",
+          "a": "Prophetisches Reden: Worte, die die Gemeinde nach V. 3 aufbauen, ermahnen und trösten. Paulus erwartet, dass sie geprüft werden (V. 29)."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 46,
+          "chapter": 14,
+          "from": 33,
+          "to": 33
+        },
+        "text": "Denn Gott ist nicht ein Gott der Unordnung, sondern des Friedens"
+      },
+      "teaser": "Ein Satz, der in Kirchen bis heute zitiert wird – und in einigen alten Handschriften an einer anderen Stelle steht."
+    },
+    {
+      "id": "st-16",
+      "stage": "frauen",
+      "refs": [
+        {
+          "book": 46,
+          "chapter": 14,
+          "from": 33,
+          "to": 40
+        }
+      ],
+      "title": "„Die Frauen sollen schweigen“",
+      "summary": "Die Frauen sollen in den Versammlungen schweigen und, wenn sie etwas lernen wollen, zu Hause ihre Männer fragen. Paulus nennt das, was er schreibt, ein Gebot des Herrn. Am Ende: Strebt nach dem Weissagen, verbietet die Sprachenrede nicht, alles geschehe anständig und geordnet.",
+      "place": "korinth",
+      "focus": "Achte auf den Zusammenhang: Wovon handelt das ganze Kapitel?",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was sollen Frauen tun, wenn sie etwas lernen wollen?",
+          "options": [
+            "Zu Hause ihre eigenen Männer fragen",
+            "Einen Propheten fragen",
+            "Nach der Versammlung die Apostel fragen",
+            "Die Ältesten fragen"
+          ],
+          "answer": 0,
+          "explain": "V. 35: daheim ihre eigenen Männer fragen.",
+          "hint": "Lies Vers 35.",
+          "verse": 35
+        },
+        {
+          "type": "choice",
+          "q": "Worauf beruft sich Paulus in V. 34?",
+          "options": [
+            "Auf das Gesetz",
+            "Auf ein Wort Jesu",
+            "Auf eine Offenbarung",
+            "Auf die Sitte der Griechen"
+          ],
+          "answer": 0,
+          "explain": "V. 34: wie auch das Gesetz sagt.",
+          "hint": "Lies Vers 34.",
+          "verse": 34
+        },
+        {
+          "type": "truefalse",
+          "q": "Am Ende des Kapitels fordert Paulus dazu auf, nach dem Weissagen zu streben.",
+          "answer": true,
+          "explain": "V. 39: Eifert danach zu weissagen, und wehrt der Sprachenrede nicht.",
+          "hint": "Lies Vers 39.",
+          "verse": 39
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wie passt das zu 1Kor 11,5?",
+          "a": "Dort setzt Paulus voraus, dass Frauen im Gottesdienst beten und weissagen. Ausleger lösen die Spannung verschieden: Manche beziehen das Schweigen auf eine bestimmte Art des Redens, etwa das Beurteilen der Prophetien (V. 29) oder Zwischenfragen (V. 35). Andere sehen in 1Kor 11 einen anderen Rahmen als die Versammlung der ganzen Gemeinde."
+        },
+        {
+          "q": "Welches Gesetz meint Paulus?",
+          "a": "Das bleibt offen, denn das Alte Testament enthält kein Gebot, dass Frauen schweigen sollen. Manche denken an 1Mo 3,16, andere an die Ordnung der Schrift insgesamt, wieder andere an jüdische Synagogenregeln."
+        },
+        {
+          "q": "Was steht in den Handschriften?",
+          "a": "In allen erhaltenen Handschriften stehen V. 34–35. In einer Gruppe westlicher Handschriften (z. B. dem Codex Claromontanus) stehen sie aber nicht hier, sondern nach V. 40. Einige Ausleger, etwa der pfingstkirchliche Neutestamentler Gordon Fee, halten sie deshalb für eine spätere Randnotiz; die meisten halten sie für ursprünglich und erklären die Umstellung anders."
+        },
+        {
+          "q": "Wie gehen Kirchen damit um?",
+          "a": "Die katholische und die orthodoxe Kirche weihen nur Männer zu Priestern; Frauen lesen, lehren und leiten aber in vielen Bereichen. Die evangelischen Landeskirchen ordinieren Frauen seit dem 20. Jahrhundert. In Freikirchen gibt es beides: Gemeinden, in denen Frauen predigen und leiten, und solche, die Lehre und Leitung Männern vorbehalten."
+        }
+      ],
+      "fact": "Das griechische Wort für „schweigen“ (sigaō) steht in diesem Kapitel dreimal: für Sprachenredner ohne Ausleger (V. 28), für einen Propheten, wenn ein anderer redet (V. 30), und für die Frauen (V. 34).",
+      "teaser": "Ein anderer Brief, ein ähnliches Thema – und eine Begründung, die bis zu Adam und Eva zurückgeht."
+    },
+    {
+      "id": "st-17",
+      "stage": "frauen",
+      "refs": [
+        {
+          "book": 54,
+          "chapter": 2,
+          "from": 8,
+          "to": 15
+        }
+      ],
+      "title": "Nicht lehren?",
+      "summary": "Die Männer sollen ohne Zorn beten, die Frauen sich schlicht kleiden und mit guten Werken schmücken. Eine Frau soll in Stille lernen; Paulus erlaubt ihr nicht, zu lehren oder über den Mann zu herrschen, und begründet das mit Adam und Eva. Sie werde durch das Kindergebären gerettet, wenn sie im Glauben bleibt.",
+      "bridge": "Paulus schreibt an seinen Mitarbeiter Timotheus, den er in Ephesus zurückgelassen hat, um dort gegen Irrlehrer vorzugehen (1Tim 1,3–7).",
+      "place": "ephesus",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Womit sollen sich Frauen nach V. 9–10 schmücken?",
+          "options": [
+            "Mit guten Werken",
+            "Mit Gold und Perlen",
+            "Mit geflochtenem Haar",
+            "Mit kostbarer Kleidung"
+          ],
+          "answer": 0,
+          "explain": "V. 9–10: nicht mit Haarflechten, Gold, Perlen oder teurer Kleidung, sondern mit guten Werken.",
+          "hint": "Lies Vers 9–10.",
+          "verse": 10
+        },
+        {
+          "type": "truefalse",
+          "q": "Nach V. 11 soll eine Frau lernen.",
+          "answer": true,
+          "explain": "V. 11: Sie soll lernen – in Stille und Unterordnung. Dass Frauen religiös unterrichtet wurden, war in der Antike nicht selbstverständlich.",
+          "hint": "Lies Vers 11.",
+          "verse": 11
+        },
+        {
+          "type": "choice",
+          "q": "Womit begründet Paulus V. 12?",
+          "options": [
+            "Mit Adam und Eva",
+            "Mit der Sitte in Ephesus",
+            "Mit einem Wort Jesu",
+            "Mit den Erfahrungen in Korinth"
+          ],
+          "answer": 0,
+          "explain": "V. 13–14: Adam wurde zuerst gebildet, und nicht Adam, sondern die Frau wurde getäuscht.",
+          "hint": "Lies Vers 13–14.",
+          "verse": 13
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „über den Mann herrschen“?",
+          "a": "Griechisch authentein, im Neuen Testament nur hier. Ob es neutral „Autorität ausüben“ oder negativ „sich anmaßen, bestimmen über“ bedeutet, ist umstritten. Komplementäre Ausleger lesen V. 12 als bleibende Regel für Lehre und Leitung in der Gemeinde; egalitäre beziehen ihn auf eine besondere Lage in Ephesus mit Irrlehren (vgl. 1Tim 5,13–15; 2Tim 3,6–7)."
+        },
+        {
+          "q": "Gerettet durch Kindergebären?",
+          "a": "Einer der rätselhaftesten Verse des Neuen Testaments. Deutungen: Frauen werden in ihrer Lebensaufgabe bewahrt; sie werden durch die Geburt des einen Kindes gerettet – Christus, mit Blick auf 1Mo 3,15; oder sie werden bei der Geburt bewahrt. Der Nachsatz bindet es an Glauben, Liebe und Heiligkeit."
+        },
+        {
+          "q": "Gilt das mit Schmuck und Haaren heute?",
+          "a": "Kunstvoll geflochtenes Haar mit Gold und Perlen war bei reichen Frauen im Römischen Reich Mode; ähnlich spricht 1Petr 3,3–4. Die meisten Kirchen lesen das heute nicht als Schmuckverbot; einige Gemeinschaften wie die Amischen schon."
+        }
+      ],
+      "teaser": "Einer der Namen im nächsten Abschnitt hat in Bibelübersetzungen über Jahrhunderte sein Geschlecht gewechselt."
+    },
+    {
+      "id": "st-18",
+      "stage": "frauen",
+      "refs": [
+        {
+          "book": 45,
+          "chapter": 16,
+          "from": 1,
+          "to": 7
+        }
+      ],
+      "title": "Phöbe, Priska und Junia",
+      "summary": "Paulus empfiehlt Phöbe, Dienerin der Gemeinde in Kenchreä, die vielen beigestanden hat. Er grüßt Priska und Aquila, seine Mitarbeiter, und die Gemeinde in ihrem Haus – und Andronikus und Junia, die unter den Aposteln angesehen sind.",
+      "bridge": "Paulus schreibt den Römerbrief wohl in Korinth, kurz vor seiner Reise nach Jerusalem (Röm 15,25–26). Am Ende stehen Empfehlungen und Grüße an viele Menschen in Rom.",
+      "place": "kenchreae",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was ist Phöbe laut V. 1?",
+          "options": [
+            "Dienerin der Gemeinde in Kenchreä",
+            "Apostelin in Rom",
+            "Die Frau des Aquila",
+            "Prophetin in Jerusalem"
+          ],
+          "answer": 0,
+          "explain": "V. 1: eine Dienerin (griechisch diakonos) der Gemeinde in Kenchreä.",
+          "hint": "Lies Vers 1.",
+          "verse": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "Paulus nennt Priska und Aquila seine Mitarbeiter.",
+          "answer": true,
+          "explain": "V. 3: meine Mitarbeiter in Christus Jesus.",
+          "hint": "Lies Vers 3.",
+          "verse": 3
+        },
+        {
+          "type": "choice",
+          "q": "Was haben Priska und Aquila für Paulus riskiert?",
+          "options": [
+            "Ihr Leben",
+            "Ihr Vermögen",
+            "Ihre Ehe",
+            "Ihren Platz in der Synagoge"
+          ],
+          "answer": 0,
+          "explain": "V. 4: Sie haben für sein Leben den eigenen Hals hingehalten.",
+          "hint": "Lies Vers 4.",
+          "verse": 4
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was war Phöbe?",
+          "a": "Griechisch diakonos – dasselbe Wort, das Paulus für sich selbst (1Kor 3,5) und für Gemeindeämter (Phil 1,1; 1Tim 3,8) benutzt. Ob es hier ein Amt (Diakonin) oder allgemein einen Dienst meint, ist umstritten. Wahrscheinlich brachte sie den Brief nach Rom."
+        },
+        {
+          "q": "Junia oder Junias?",
+          "a": "Im Griechischen steht Iounian, das beides sein kann. Die Kirchenväter lasen fast einhellig einen Frauennamen; Johannes Chrysostomus staunt über diese Frau, die würdig war, Apostelin genannt zu werden. Ab dem Mittelalter setzte sich die Männerform „Junias“ durch, die in antiken Quellen aber nicht belegt ist. Neuere Übersetzungen wie Luther 2017 und die Einheitsübersetzung 2016 schreiben wieder Junia."
+        },
+        {
+          "q": "„Unter den Aposteln ausgezeichnet“?",
+          "a": "Das Griechische kann heißen: „angesehen unter den Aposteln“ (also selbst Apostel im weiteren Sinn) oder „bei den Aposteln angesehen“ (bekannt bei ihnen). Beide Lesarten haben heute Vertreter; die Kirchenväter lasen meist die erste."
+        }
+      ],
+      "cards": [
+        "phoebe",
+        "priska",
+        "junia"
+      ],
+      "fact": "Priska wird im Neuen Testament sechsmal zusammen mit Aquila genannt – viermal zuerst. Für antike Texte, die meist den Mann voranstellen, ist das ungewöhnlich.",
+      "try": "Lies Apg 18,1–3 und 18,24–26. Was erfährst du dort über Priska und Aquila?"
+    }
+  ]
+}

@@ -60,6 +60,12 @@ def helloao_verse(parts):
     return re.sub(r"(\s*\*)+\s*$", "", out)  # stanza/book dividers in Psalms (Ps 119, end of Psalter books)
 
 
+# Known defects in the source text: (translation, book, chapter, verse) -> corrected verse
+FIXES = {
+    ("elbbk", 54, 2, 10): "sondern was Frauen geziemt, die sich zur Gottesfurcht bekennen, durch gute Werke.",
+}
+
+
 def read_books(data):
     """Yield (nr, [[verse text, ...] per chapter]) for both source formats."""
     if "translation" in data and isinstance(data.get("books"), list) and data["books"] and "order" in data["books"][0]:
@@ -82,6 +88,8 @@ def main(src, tid, name=None, license_=None):
     books = []
     for nr, raw in read_books(data):
         chapters = [[clean(v) for v in ch] for ch in raw]
+        for (t, b, c, v), text in FIXES.items():
+            if t == tid and b == nr: chapters[c - 1][v - 1] = text
         (out / f"{nr:02d}.json").write_text(json.dumps({"chapters": chapters}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         name, abbr = BOOKS[nr - 1]
         books.append({"nr": nr, "name": name, "abbr": abbr, "chapters": len(chapters)})

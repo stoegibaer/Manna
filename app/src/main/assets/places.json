@@ -244,6 +244,34 @@
    "lat": 33.416,
    "lon": 35.857,
    "text": "Höchster Berg der Region (über 2.800 m) im Norden, an den Quellen des Jordan."
+  },
+  {
+   "id": "mizpa-gilead",
+   "name": "Mizpa in Gilead",
+   "lat": 32.25,
+   "lon": 35.75,
+   "text": "Ort im Ostjordanland, Heimat Jeftahs; die genaue Lage ist unsicher."
+  },
+  {
+   "id": "kirjat-jearim",
+   "name": "Kirjat-Jearim",
+   "lat": 31.806,
+   "lon": 35.103,
+   "text": "Stadt westlich von Jerusalem, in der die Bundeslade jahrzehntelang stand."
+  },
+  {
+   "id": "kenchreae",
+   "name": "Kenchreä",
+   "lat": 37.885,
+   "lon": 22.993,
+   "text": "Der östliche Hafen von Korinth am Saronischen Golf."
+  },
+  {
+   "id": "ephesus",
+   "name": "Ephesus",
+   "lat": 37.941,
+   "lon": 27.342,
+   "text": "Große Hafenstadt in der römischen Provinz Asia, heute bei Selçuk in der Türkei."
   }
  ]
 }
