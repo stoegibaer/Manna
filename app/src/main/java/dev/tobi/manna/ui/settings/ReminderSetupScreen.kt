@@ -74,7 +74,7 @@ private val PLAN_B = listOf("vor dem Schlafengehen", "direkt nach dem Abendessen
 
 /**
  * „Nach dem ___ lese ich einen Vers.“ – the if-then plan, the time of the first reminder,
- * a plan B, quiet hours and the weekly goal. Everything optional and changeable later.
+ * a plan B with its time (the last reminder of the day) and the weekly goal. Everything optional and changeable later.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -149,6 +149,8 @@ fun ReminderSetupScreen(settings: Settings, onSave: ((Settings) -> Settings) -> 
                 }
             }
             OutlinedTextField(value = planB, onValueChange = { planB = it }, singleLine = true, label = { Text("oder eigener Plan B") }, modifier = Modifier.fillMaxWidth())
+            TimeRow("Plan B um", quiet) { pickTime = "quiet" }
+            Text("Zu dieser Zeit kommt die letzte Erinnerung des Tages – danach ist Ruhe.", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
 
             // the if-then sentence – said out loud it sticks better
             Surface(color = MaterialTheme.colorScheme.primaryContainer, shape = RoundedCornerShape(16.dp), modifier = Modifier.fillMaxWidth().padding(top = 4.dp)) {
@@ -156,15 +158,12 @@ fun ReminderSetupScreen(settings: Settings, onSave: ((Settings) -> Settings) -> 
                     Text("Nach ${anchor.ifBlank { "…" }} lese ich einen Vers.", fontWeight = FontWeight.SemiBold, color = MaterialTheme.colorScheme.onPrimaryContainer)
                     if (planB.isNotBlank()) Text("Wenn ich es verpasse, dann $planB.", color = MaterialTheme.colorScheme.onPrimaryContainer)
                     Text(
-                        if (on) "Ab ${formatMinute(anchorMinute)} Uhr erinnert dich Manna stündlich – bis du gelesen hast, spätestens bis ${formatMinute(quiet)} Uhr."
+                        if (on) "Ab ${formatMinute(anchorMinute)} Uhr erinnert dich Manna stündlich, bis du gelesen hast. Um ${formatMinute(quiet)} Uhr kommt dein Plan B, danach ist Ruhe."
                         else "Ohne Erinnerungen – nur dein Plan.",
                         style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onPrimaryContainer,
                     )
                 }
             }
-
-            Section("Ruhe ab")
-            TimeRow("Keine Erinnerungen nach", quiet) { pickTime = "quiet" }
 
             Section("Wochenziel")
             Text(if (goal == 7) "Jeden Tag" else "$goal von 7 Tagen", style = MaterialTheme.typography.titleMedium)

@@ -22,7 +22,12 @@ class NextTriggerTest {
 
     @Test fun lastSlotBeforeQuiet() = assertEquals(at(21, 30), Reminders.nextTrigger(s, at(20, 31), false))
 
-    @Test fun afterLastSlot_tomorrow() = assertEquals(tomorrowAnchor, Reminders.nextTrigger(s, at(21, 31), false))
+    @Test fun afterLastSlot_planBTime() = assertEquals(at(22), Reminders.nextTrigger(s, at(21, 31), false))
+
+    @Test fun noHourlySlotRightBeforePlanB() =
+        assertEquals(at(21, 45), Reminders.nextTrigger(s.copy(quietMinute = 21 * 60 + 45), at(20, 31), false))
+
+    @Test fun afterPlanB_tomorrow() = assertEquals(tomorrowAnchor, Reminders.nextTrigger(s, at(22, 1), false))
 
     @Test fun alreadyRead_tomorrow() = assertEquals(tomorrowAnchor, Reminders.nextTrigger(s, at(9), true))
 

@@ -60,8 +60,11 @@ object Reminders {
         if (readToday || s.pausedDate == today.toString()) return tomorrow
         val m = minuteOfDay(now)
         if (m < anchor) return at(today, anchor)
+        // hourly until shortly before the Plan B time, then exactly one reminder at the Plan B time, then quiet
         val nextSlot = anchor + ((m - anchor) / 60 + 1) * 60
-        return if (nextSlot < quiet) at(today, nextSlot) else tomorrow
+        if (nextSlot <= quiet - PLAN_B_GAP) return at(today, nextSlot)
+        if (m < quiet) return at(today, quiet)
+        return tomorrow
     }
 
     fun ensureChannel(context: Context) {
@@ -111,6 +114,8 @@ object Reminders {
     /** Builds and shows the reminder. [number] = how many reminders today including this one. */
     /** Button labels longer than this get cut off by Android. */
     const val MAX_BUTTON_CHARS = 18
+    /** No hourly reminder closer than this (minutes) before the Plan B reminder. */
+    const val PLAN_B_GAP = 30
     /** Answer value meaning: not answered yet – show the question with all options in the app. */
     const val ASK = -1
 
@@ -164,17 +169,18 @@ object Reminders {
             val nextIdx = plan.sections.indexOfFirst { it.id !in done }
             val next = plan.sections.getOrNull(nextIdx)
             val teaser = plan.sections.getOrNull(nextIdx - 1)?.teaser
-            val title = next?.title ?: plan.title
-            val body = buildString {
-                append(teaser ?: "Ein Vers reicht für heute.")
-                if (isLast && s.planB.isNotBlank()) append("\nDein Plan B: ${s.planB}")
+            val title = when {
+                !isLast -> next?.title ?: plan.title
+                s.planB.isNotBlank() -> "Plan B: ein Vers ${s.planB}"
+                else -> "Letzte Erinnerung für heute"
             }
+            val body = if (isLast) "Ein Vers reicht für heute." else teaser ?: "Ein Vers reicht für heute."
             builder.setContentTitle(title)
                 .setContentText(body)
                 .setStyle(NotificationCompat.BigTextStyle().bigText(body))
                 .addAction(0, "1 Vers lesen", openApp(context, 20) { putExtra(EXTRA_TARGET, "verse") })
-                .addAction(0, "Weiterlesen", openApp(context, 21) { putExtra(EXTRA_TARGET, "session") })
-                .addAction(0, "Heute aussetzen", PendingIntent.getBroadcast(
+            if (!isLast) builder.addAction(0, "Weiterlesen", openApp(context, 21) { putExtra(EXTRA_TARGET, "session") })
+            builder.addAction(0, "Heute aussetzen", PendingIntent.getBroadcast(
                     context, 22, Intent(context, ReminderReceiver::class.java).setAction(ReminderReceiver.ACTION_PAUSE),
                     PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
                 ))
