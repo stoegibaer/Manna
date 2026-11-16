@@ -272,6 +272,20 @@
    "lat": 37.941,
    "lon": 27.342,
    "text": "Große Hafenstadt in der römischen Provinz Asia, heute bei Selçuk in der Türkei."
+  },
+  {
+   "id": "samaria",
+   "name": "Samaria",
+   "lat": 32.276,
+   "lon": 35.195,
+   "text": "Hauptstadt des Nordreichs Israel, beim heutigen Sebastia im Westjordanland."
+  },
+  {
+   "id": "lachisch",
+   "name": "Lachisch",
+   "lat": 31.565,
+   "lon": 34.849,
+   "text": "Festungsstadt im Hügelland Judas, etwa 40 km südwestlich von Jerusalem."
   }
  ]
 }

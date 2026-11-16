@@ -1,0 +1,1214 @@
+{
+  "id": "micha",
+  "title": "Micha",
+  "subtitle": "Was Gott von dir will",
+  "description": "Ein Prophet vom Land legt sich mit den Mächtigen in Jerusalem an: mit Landräubern, käuflichen Richtern und Propheten, die je nach Bezahlung predigen. Zwischen harten Gerichtsworten stehen einige der bekanntesten Hoffnungstexte der Bibel – Schwerter zu Pflugmessern, Bethlehem und die Frage, was Gott eigentlich vom Menschen will. 15 Abschnitte durch das ganze Buch.",
+  "direction": "gerechtigkeit",
+  "basis": "elbbk",
+  "stages": [
+    {
+      "id": "voelker",
+      "title": "Hört, ihr Völker"
+    },
+    {
+      "id": "haeupter",
+      "title": "Hört, ihr Häupter"
+    },
+    {
+      "id": "rechtsstreit",
+      "title": "Hört, was der HERR sagt"
+    }
+  ],
+  "cards": [
+    {
+      "id": "micha",
+      "type": "person",
+      "name": "Micha",
+      "text": "Prophet aus Moreschet im Hügelland Judas. Er wirkte unter den Königen Jotam, Ahas und Hiskia, etwa 740–700 v. Chr., zur selben Zeit wie Jesaja. Sein Name ist die Kurzform von Michajahu, „Wer ist wie Jahwe?“. Er kam nicht aus der Hauptstadt und spricht vor allem gegen ihre Mächtigen. Hundert Jahre später zitierte man ihn in Jerusalem noch (Jer 26,18).",
+      "refs": "Mi 1,1; Jer 26,18"
+    },
+    {
+      "id": "samaria",
+      "type": "ort",
+      "name": "Samaria",
+      "text": "Hauptstadt des Nordreichs Israel, von König Omri um 880 v. Chr. auf einem Hügel gebaut (1Kön 16,24). Ahab errichtete dort einen Tempel für Baal (1Kön 16,32). 722 v. Chr. eroberten die Assyrer die Stadt und verschleppten einen Teil der Bewohner (2Kön 17,5–6) – noch zu Michas Lebzeiten. Damit endete das Nordreich.",
+      "refs": "1Kön 16,24; 2Kön 17,5–6"
+    },
+    {
+      "id": "assyrien",
+      "type": "begriff",
+      "name": "Assyrien",
+      "text": "Großmacht am Tigris mit der Hauptstadt Ninive. Im 8. Jahrhundert v. Chr. eroberte sie Damaskus und Samaria. 701 v. Chr. zog König Sanherib gegen Juda: Viele Städte fielen, Jerusalem wurde belagert, aber nicht eingenommen (2Kön 18–19). Micha nennt Assyrien auch das „Land Nimrods“ (Mi 5,5; vgl. 1Mo 10,8–11).",
+      "refs": "2Kön 18,13; Mi 5,4–5"
+    },
+    {
+      "id": "lachisch",
+      "type": "ort",
+      "name": "Lachisch",
+      "text": "Nach Jerusalem die stärkste Festungsstadt Judas, im Hügelland südwestlich davon; Michas Heimat Moreschet lag in der Nähe. 701 v. Chr. eroberte Sanherib die Stadt (2Kön 18,14). Er ließ die Belagerung in seinem Palast in Ninive auf großen Steinreliefs darstellen. Sie sind heute im British Museum in London zu sehen.",
+      "refs": "Mi 1,13; 2Kön 18,14"
+    },
+    {
+      "id": "ueberrest",
+      "type": "begriff",
+      "name": "Der Überrest",
+      "text": "Ein Leitwort der Propheten: Nach dem Gericht bleibt ein Rest des Volkes übrig, mit dem Gott weitergeht (Jes 10,20–22; Mi 2,12; 4,7; 5,6–7; 7,18). Jesajas Sohn hieß Schear-Jaschub, „ein Rest kehrt um“ (Jes 7,3). Paulus greift den Gedanken in Röm 11,5 auf.",
+      "refs": "Mi 2,12; 5,6–7"
+    },
+    {
+      "id": "falsche-propheten",
+      "type": "begriff",
+      "name": "Falsche Propheten",
+      "text": "Propheten, die im Namen Gottes reden, ohne von ihm gesandt zu sein. Micha beschreibt sie als Leute, deren Botschaft davon abhängt, wer ihnen etwas gibt (Mi 3,5.11). Sie rufen Frieden, wo keiner ist (vgl. Jer 6,14). Nach 5Mo 18,21–22 erkennt man einen falschen Propheten daran, dass sein Wort nicht eintrifft.",
+      "refs": "Mi 2,11; 3,5–11"
+    },
+    {
+      "id": "hiskia",
+      "type": "person",
+      "name": "Hiskia",
+      "text": "König von Juda gegen Ende des 8. Jahrhunderts v. Chr., Sohn des Ahas. Er entfernte die Höhenheiligtümer (2Kön 18,4) und suchte in der Belagerung durch Sanherib Hilfe bei Gott (2Kön 19). Nach Jer 26,19 fürchtete er den HERRN, als Micha das Ende Jerusalems ankündigte, und das Unheil kam damals nicht.",
+      "refs": "2Kön 18–20; Jer 26,19"
+    },
+    {
+      "id": "zion",
+      "type": "ort",
+      "name": "Zion",
+      "text": "Ursprünglich die Burg der Jebusiter, die David eroberte (2Sam 5,7), später Name für den Tempelberg und für ganz Jerusalem. „Tochter Zion“ ist die Stadt, als Frau vorgestellt. In den Psalmen ist Zion der Ort, an dem Gott wohnt (Ps 46; 48). Im Hebräerbrief ist der Berg Zion auch ein Bild für Gottes Stadt, zu der Christen schon gekommen sind (Hebr 12,22).",
+      "refs": "Mi 3,12; 4,1–8"
+    },
+    {
+      "id": "ende-der-tage",
+      "type": "begriff",
+      "name": "Am Ende der Tage",
+      "text": "Hebräisch beacharit hajamim, „am Ende“ oder „in der Folge der Tage“: eine Zukunft, in der Gott sein Ziel erreicht. Dispensationalisten erwarten die wörtliche Erfüllung im Tausendjährigen Reich nach der Wiederkunft Jesu. Amillenialisten sehen den Anfang schon in Jesus und der weltweiten Gemeinde (Apg 2,17; Hebr 1,2) und die Vollendung in der neuen Schöpfung.",
+      "refs": "Mi 4,1; Jes 2,2"
+    },
+    {
+      "id": "bethlehem",
+      "type": "ort",
+      "name": "Bethlehem-Ephrata",
+      "text": "Kleine Stadt etwa 8 km südlich von Jerusalem, auch Ephrata genannt (1Mo 35,19; Rut 4,11). Heimat von Boas und Rut und von David, der dort zum König gesalbt wurde (1Sam 16). Nach Matthäus und Lukas wurde Jesus dort geboren; Matthäus zitiert dazu Mi 5,1.",
+      "refs": "Mi 5,1; Mt 2,1–6"
+    },
+    {
+      "id": "rechtsstreit",
+      "type": "begriff",
+      "name": "Rechtsstreit (riv)",
+      "text": "Ein Prozess, in dem Gott als Kläger gegen sein Volk auftritt, oft mit Himmel, Erde oder Bergen als Zeugen (5Mo 32,1; Jes 1,2; Hos 4,1). Grundlage ist der Bund vom Sinai. Gottes Frage aus Mi 6,3 kehrt in den Improperien wieder, den Klageversen der Karfreitagsliturgie (lateinisch Popule meus).",
+      "refs": "Mi 6,1–5"
+    },
+    {
+      "id": "chesed",
+      "type": "begriff",
+      "name": "Güte (chesed)",
+      "text": "Eines der reichsten Wörter des Alten Testaments: Güte, Treue und Liebe, die zu einer Beziehung stehen. Übersetzungen sagen Gnade, Güte, Barmherzigkeit oder Bundestreue. In Mi 6,8 soll der Mensch sie lieben, in Mi 7,18 hat Gott Gefallen an ihr. Hos 6,6 stellt sie über das Opfer; Jesus zitiert den Vers (Mt 9,13).",
+      "refs": "Mi 6,8; 7,18.20"
+    }
+  ],
+  "sections": [
+    {
+      "id": "mi-01",
+      "stage": "voelker",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 1,
+          "from": 1,
+          "to": 7
+        }
+      ],
+      "title": "Gott kommt herab",
+      "summary": "Micha aus Moreschet empfängt Worte über Samaria und Jerusalem. Gott tritt aus seinem Palast, unter ihm schmelzen die Berge. Der Grund ist die Schuld Israels und Judas – und ihr Ausgangspunkt sind die Hauptstädte. Samaria soll ein Steinhaufen werden.",
+      "place": "samaria",
+      "focus": "Achte darauf, wo die Schuld nach V. 5 ihren Ursprung hat.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Unter welchen Königen wirkt Micha?",
+          "options": [
+            "Jotam, Ahas und Hiskia",
+            "David, Salomo und Rehabeam",
+            "Ahab, Jehu und Jerobeam",
+            "Josia, Jojakim und Zedekia"
+          ],
+          "answer": 0,
+          "explain": "V. 1: in den Tagen Jotams, Ahas' und Hiskias, der Könige von Juda – grob die zweite Hälfte des 8. Jahrhunderts v. Chr.",
+          "hint": "Lies Vers 1.",
+          "verse": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "Nach V. 5 geht die Schuld Judas von den Dörfern auf dem Land aus.",
+          "answer": false,
+          "explain": "V. 5: Die Übertretung Jakobs kommt aus Samaria, die „Höhen Judas“ aus Jerusalem – also aus den beiden Hauptstädten.",
+          "hint": "Lies Vers 5.",
+          "verse": 5
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Gott kündigt an, Samaria zu einem [Bollwerk] des Feldes zu machen.",
+          "fix": "Steinhaufen",
+          "verse": 6,
+          "hint": "Lies Vers 6.",
+          "explain": "V. 6: Samaria wird ein Steinhaufen im Feld, wo man Weinberge anlegt; ihre Steine werden ins Tal gestürzt."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer war Micha?",
+          "a": "Ein Prophet aus Moreschet, einem kleinen Ort im Hügelland südwestlich von Jerusalem (vgl. V. 14). Anders als sein Zeitgenosse Jesaja war er kein Mann aus der Hauptstadt. Sein Name bedeutet „Wer ist wie Jahwe?“."
+        },
+        {
+          "q": "Was heißt „Moraschtiter“?",
+          "a": "Einer aus Moreschet, Michas Heimatort (in V. 14 Moreschet-Gat).",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Was sind die „Höhen“?",
+          "a": "Kultstätten auf Hügeln, an denen neben oder statt des Tempels geopfert wurde, oft auch für andere Götter. In V. 5 nennt Micha überraschend Jerusalem selbst die „Höhen Judas“."
+        },
+        {
+          "q": "Warum ist von „Hurenlohn“ die Rede?",
+          "a": "Die Propheten beschreiben die Verehrung anderer Götter oft als eheliche Untreue (Hos 1–3). Gemeint sind in V. 7 wohl Gaben und Bilder für fremde Götter; ob auch Tempelprostitution mitgemeint ist, wird verschieden gesehen."
+        }
+      ],
+      "cards": [
+        "micha",
+        "samaria"
+      ],
+      "teaser": "Im nächsten Abschnitt steckt in fast jedem Ortsnamen ein Wortspiel – und der erste Satz stammt eigentlich von David."
+    },
+    {
+      "id": "mi-02",
+      "stage": "voelker",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 1,
+          "from": 8,
+          "to": 16
+        }
+      ],
+      "title": "Klage über die Städte",
+      "summary": "Micha klagt und geht entblößt umher, denn der Schlag reicht bis an das Tor Jerusalems. Er zählt Städte im Hügelland Judas auf, darunter seine Heimat, und spielt mit ihren Namen. Die Kinder werden weggeführt.",
+      "place": "lachisch",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wie zeigt Micha seine Trauer in V. 8?",
+          "options": [
+            "Er geht entblößt und nackt umher und klagt",
+            "Er zerreißt seine Kleider und schweigt",
+            "Er fastet vierzig Tage",
+            "Er zieht sich in den Tempel zurück"
+          ],
+          "answer": 0,
+          "explain": "V. 8: Micha will klagen und heulen, entblößt und nackt umhergehen – Zeichen der Trauer und der kommenden Gefangenschaft.",
+          "hint": "Lies Vers 8.",
+          "verse": 8
+        },
+        {
+          "type": "truefalse",
+          "q": "Unter den Orten, die Micha nennt, ist auch sein eigener Heimatort.",
+          "answer": true,
+          "explain": "V. 14: Zion muss Moreschet-Gat, Michas Heimat, ein „Entlassungsgeschenk“ geben – die Stadt geht verloren.",
+          "hint": "Lies Vers 14.",
+          "verse": 14
+        },
+        {
+          "type": "choice",
+          "q": "Warum soll sich die Tochter Zion kahl scheren?",
+          "options": [
+            "Weil ihre Kinder weggeführt sind",
+            "Weil ein Fest beginnt",
+            "Weil sie ein Gelübde abgelegt hat",
+            "Weil der König gestorben ist"
+          ],
+          "answer": 0,
+          "explain": "V. 16: Sie soll sich kahl scheren um ihrer Kinder willen, denn sie sind von ihr weggeführt.",
+          "hint": "Lies Vers 16.",
+          "verse": 16
+        }
+      ],
+      "explain": [
+        {
+          "q": "Welche Wortspiele stecken in den Namen?",
+          "a": "Im Hebräischen klingen Name und Unheil zusammen: Beth-Leaphra („Staubhausen“) – im Staub wälzen; Schaphir („Schönheit“) – Blöße; Marot („Bitterkeit“); Lachisch – rechesch, „Renner“; Aksib – achsav, „trügerisch“; Marescha – „Besitznehmer“. Deutsch lässt sich das kaum nachbilden."
+        },
+        {
+          "q": "Warum ausgerechnet Gat?",
+          "a": "V. 10 beginnt mit denselben Worten wie Davids Klage über Saul und Jonatan (2Sam 1,20). Gat war eine Stadt der Philister: Die Feinde sollen sich nicht über das Unglück freuen."
+        },
+        {
+          "q": "Warum ist Lachisch der „Anfang der Sünde“?",
+          "a": "Lachisch war eine Festungs- und Wagenstadt. Was genau Micha mit V. 13 meint, sagt er nicht; viele Ausleger denken an das Vertrauen auf Pferde und Wagen (vgl. 5,9)."
+        },
+        {
+          "q": "Warum sich kahl scheren?",
+          "a": "Haare abschneiden war ein Trauerbrauch (Jes 22,12; Am 8,10). Der Geier in V. 16 ist wohl ein Aasgeier mit kahlem Kopf."
+        }
+      ],
+      "cards": [
+        "assyrien",
+        "lachisch"
+      ],
+      "teaser": "Was Micha als Nächstes anprangert, beginnt nachts im Bett."
+    },
+    {
+      "id": "mi-03",
+      "stage": "voelker",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 2,
+          "from": 1,
+          "to": 5
+        }
+      ],
+      "title": "Wehe den Ackerräubern",
+      "summary": "Wehe denen, die nachts Böses planen und es morgens ausführen, weil sie die Macht dazu haben: Sie nehmen anderen Äcker und Häuser weg. Gott plant nun seinerseits Unheil gegen sie. Ihr Land wird verteilt, und sie werden keinen Anteil mehr haben.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Warum können sie ihre Pläne nach V. 1 ausführen?",
+          "options": [
+            "Weil es in ihrer Macht steht",
+            "Weil das Gesetz es erlaubt",
+            "Weil der König es befiehlt",
+            "Weil niemand es bemerkt"
+          ],
+          "answer": 0,
+          "explain": "V. 1: Beim Morgenlicht führen sie es aus, weil es in der Macht ihrer Hand steht.",
+          "hint": "Lies Vers 1.",
+          "verse": 1
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Sie begehren nach Äckern und rauben sie, und nach [Herden] und nehmen sie weg.",
+          "fix": "Häusern",
+          "verse": 2,
+          "hint": "Lies Vers 2.",
+          "explain": "V. 2: Äcker und Häuser – das Erbteil der Familien. „Begehren“ ist dasselbe Wort wie im Gebot „Du sollst nicht begehren“ (2Mo 20,17)."
+        },
+        {
+          "type": "choice",
+          "q": "Was wird ihnen nach V. 5 fehlen?",
+          "options": [
+            "Jemand, der für sie in der Versammlung des HERRN die Messschnur wirft",
+            "Ein Priester, der für sie opfert",
+            "Ein König, der sie schützt",
+            "Ein Prophet, der für sie betet"
+          ],
+          "answer": 0,
+          "explain": "V. 5: Wenn das Land neu verteilt wird, bekommen sie kein Los und keinen Anteil mehr.",
+          "hint": "Lies Vers 5.",
+          "verse": 5
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum ist ein Acker so wichtig?",
+          "a": "Das Land war das Erbteil der Familie, beim Einzug unter Josua durch das Los verteilt (Jos 13–19). Es sollte nicht für immer verkauft werden (3Mo 25,23). Wer es verlor, verlor seine Lebensgrundlage – wie Nabot seinen Weinberg (1Kön 21)."
+        },
+        {
+          "q": "Was ist die Messschnur?",
+          "a": "Mit Schnur und Los wurde Land vermessen und verteilt. V. 5 dreht das um: Wer anderen das Land genommen hat, steht bei der nächsten Verteilung ohne Anteil da."
+        },
+        {
+          "q": "Wer klagt in V. 4?",
+          "a": "Die Landräuber selbst. Man stimmt ein Spottlied über sie an, in dem sie jammern, dass ihre Felder einem anderen zugeteilt werden."
+        }
+      ],
+      "teaser": "Man will Micha den Mund verbieten. Welchen Propheten hätten die Leute lieber?",
+      "try": "Lies V. 1 und V. 3. Welches Wort kommt in beiden vor, und wer tut es jeweils?"
+    },
+    {
+      "id": "mi-04",
+      "stage": "voelker",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 2,
+          "from": 6,
+          "to": 13
+        }
+      ],
+      "title": "„Weissagt nicht!“",
+      "summary": "Man will Micha zum Schweigen bringen. Gott hält dagegen: Sein Volk zieht friedlichen Leuten den Mantel weg und vertreibt Frauen und Kinder aus ihren Häusern. Ein Prophet, der von Wein redet, wäre ihnen lieber. Dann plötzlich: Gott will den Überrest sammeln wie eine Herde, und ein Durchbrecher zieht vor ihnen her.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was sagen die Gegner nach V. 6?",
+          "options": [
+            "Man soll nicht weissagen",
+            "Man soll für sie beten",
+            "Micha soll nach Samaria gehen",
+            "Micha soll ein Opfer bringen"
+          ],
+          "answer": 0,
+          "explain": "V. 6: „Weissagt nicht“ – so reden sie gegen die Propheten.",
+          "hint": "Lies Vers 6.",
+          "verse": 6
+        },
+        {
+          "type": "truefalse",
+          "q": "Nach V. 9 werden auch Frauen aus ihren Häusern vertrieben.",
+          "answer": true,
+          "explain": "V. 9: Die Frauen werden aus ihren Häusern vertrieben, den Kindern wird Gottes „Schmuck“ für immer genommen.",
+          "hint": "Lies Vers 9.",
+          "verse": 9
+        },
+        {
+          "type": "choice",
+          "q": "Welcher Prophet würde nach V. 11 zu diesem Volk passen?",
+          "options": [
+            "Einer, der von Wein und starkem Getränk weissagt",
+            "Einer, der zur Umkehr ruft",
+            "Einer aus Jerusalem",
+            "Einer, der Wunder tut"
+          ],
+          "answer": 0,
+          "explain": "V. 11: Ein Lügner, der Wein und starkes Getränk verspricht, wäre der passende Prophet für dieses Volk.",
+          "hint": "Lies Vers 11.",
+          "verse": 11
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer redet in V. 6–7?",
+          "a": "Die Verse sind im Hebräischen sehr knapp; es wechseln Worte der Gegner und Antworten Gottes oder Michas. Übersetzungen setzen die Anführungszeichen deshalb verschieden."
+        },
+        {
+          "q": "Passen V. 12–13 hierher?",
+          "a": "Die meisten Ausleger lesen sie als plötzliche Verheißung, wie sie bei Micha öfter auf ein Gerichtswort folgt. Andere meinen, Micha zitiere hier die bequeme Botschaft der Propheten aus V. 11. Der Text markiert es nicht."
+        },
+        {
+          "q": "Wer ist der „Durchbrecher“?",
+          "a": "Das hebräische Wort hängt mit dem Namen Perez zusammen (1Mo 38,29), einem Vorfahren Davids. Einige jüdische Ausleger haben deshalb an den Messias gedacht; christliche Leser an Christus, der seiner Herde vorangeht (Joh 10,4)."
+        },
+        {
+          "q": "Was sind die „Schafe von Bozra“?",
+          "a": "Bozra war eine Stadt in Edom. Das Wort kann auch „Pferch“ bedeuten; viele Übersetzungen sagen deshalb „wie Schafe im Pferch“.",
+          "translation": "elbbk"
+        }
+      ],
+      "cards": [
+        "ueberrest"
+      ],
+      "teaser": "Für die Führer des Volkes findet Micha ein Bild aus der Küche."
+    },
+    {
+      "id": "mi-05",
+      "stage": "haeupter",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 3,
+          "from": 1,
+          "to": 8
+        }
+      ],
+      "title": "Wie Fleisch im Kessel",
+      "summary": "Micha spricht die Führer an: Sie müssten das Recht kennen, behandeln das Volk aber wie Fleisch im Kochtopf. Die Propheten rufen Frieden, solange man sie füttert. Ihnen wird es Nacht werden. Micha dagegen ist von Gottes Geist erfüllt, mit Recht und Stärke.",
+      "place": "jerusalem",
+      "focus": "Achte auf V. 8. Worin unterscheidet sich Micha von den Propheten in V. 5–7?",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was müssten die Häupter nach V. 1 eigentlich kennen?",
+          "options": [
+            "Das Recht",
+            "Die Zukunft",
+            "Die Kriegskunst",
+            "Die Opfergesetze"
+          ],
+          "answer": 0,
+          "explain": "V. 1: Ist es nicht an euch, das Recht zu kennen?",
+          "hint": "Lies Vers 1.",
+          "verse": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "Die Propheten in V. 5 rufen „Frieden“, wenn man ihnen etwas zu essen gibt.",
+          "answer": true,
+          "explain": "V. 5: Wer ihnen etwas zu beißen gibt, dem verkünden sie Frieden; wer nichts gibt, gegen den rufen sie Krieg aus.",
+          "hint": "Lies Vers 5.",
+          "verse": 5
+        },
+        {
+          "type": "whosaid",
+          "quote": "Ich hingegen, ich bin mit Kraft erfüllt durch den Geist des HERRN",
+          "quote_ref": {
+            "book": 33,
+            "chapter": 3,
+            "from": 8,
+            "to": 8
+          },
+          "options": [
+            "Micha",
+            "Einer der Seher",
+            "Ein Fürst des Hauses Israel",
+            "Ein Priester in Jerusalem"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 8: Micha stellt sich selbst den Propheten aus V. 5–7 gegenüber."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum so drastische Bilder?",
+          "a": "V. 2–3 beschreiben die Führer wie Metzger und Köche: Haut abziehen, Knochen zerbrechen, Fleisch in den Kessel. Micha spricht nicht von Menschenfresserei, sondern davon, wie sie mit den Menschen umgehen, die ihnen anvertraut sind."
+        },
+        {
+          "q": "Was sind Seher und Wahrsager?",
+          "a": "„Seher“ ist ein älteres Wort für Prophet (1Sam 9,9). Wahrsagerei war in Israel verboten (5Mo 18,10). Micha nennt beide in einem Atemzug (V. 7)."
+        },
+        {
+          "q": "Was heißt „den Bart verhüllen“?",
+          "a": "Ein Zeichen von Scham und Trauer (vgl. 3Mo 13,45). Die Propheten haben keine Antwort Gottes mehr und schämen sich."
+        }
+      ],
+      "cards": [
+        "falsche-propheten"
+      ],
+      "teaser": "Ein Satz aus dem nächsten Abschnitt rettete hundert Jahre später einem anderen Propheten das Leben."
+    },
+    {
+      "id": "mi-06",
+      "stage": "haeupter",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 3,
+          "from": 9,
+          "to": 12
+        }
+      ],
+      "title": "Zion wird gepflügt",
+      "summary": "Führer, Priester und Propheten arbeiten für Geld und verlassen sich darauf, dass Gott in ihrer Mitte ist. Darum, sagt Micha, wird Zion wie ein Acker gepflügt, Jerusalem zum Trümmerhaufen und der Tempelberg zum bewaldeten Hügel.",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Wofür arbeiten die drei Gruppen in V. 11? Bring sie in die Reihenfolge des Verses.",
+          "items": [
+            "Die Häupter richten um Geschenke",
+            "Die Priester lehren um Lohn",
+            "Die Propheten wahrsagen um Geld"
+          ],
+          "hint": "Lies Vers 11.",
+          "explain": "V. 11: Richter, Priester und Propheten – alle drei arbeiten gegen Bezahlung."
+        },
+        {
+          "type": "choice",
+          "q": "Worauf verlassen sie sich nach V. 11?",
+          "options": [
+            "Dass der HERR in ihrer Mitte ist und kein Unglück kommt",
+            "Auf die Mauern Jerusalems",
+            "Auf ein Bündnis mit Ägypten",
+            "Auf ihren Reichtum"
+          ],
+          "answer": 0,
+          "explain": "V. 11: Sie stützen sich auf den HERRN und sagen, er sei in ihrer Mitte, kein Unglück werde kommen.",
+          "hint": "Lies Vers 11.",
+          "verse": 11
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Zion wird als [Weinberg] gepflügt werden, und Jerusalem wird zu Trümmerhaufen.",
+          "fix": "Acker",
+          "verse": 12,
+          "hint": "Lies Vers 12.",
+          "explain": "V. 12: Zion wird wie ein Acker gepflügt, der Tempelberg wird zu einer Waldhöhe."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Ist der Satz der Führer nicht richtig?",
+          "a": "Er klingt wie ein Psalm: Gott ist in der Mitte seiner Stadt (Ps 46,6). Micha bestreitet in V. 11 nicht, dass Gott in Zion wohnt, und antwortet mit V. 12."
+        },
+        {
+          "q": "Ist das eingetroffen?",
+          "a": "Zu Michas Zeit wurde Jerusalem nicht zerstört. Nach Jer 26,18–19 fürchtete König Hiskia den HERRN, und Gott ließ sich das Unheil gereuen. Zerstört wurden Stadt und Tempel erst 587 v. Chr. durch die Babylonier."
+        }
+      ],
+      "cards": [
+        "hiskia",
+        "zion"
+      ],
+      "fact": "Etwa hundert Jahre nach Micha sollte Jeremia für eine ähnliche Botschaft sterben. Älteste erinnerten an Michas Wort und zitierten V. 12 wörtlich, mit Namen und Herkunft des Propheten – Jeremia blieb am Leben (Jer 26,16–24).",
+      "teaser": "Direkt nach dem härtesten Satz des Buches kommt einer der bekanntesten Friedenstexte der Welt. Man findet ihn fast wortgleich bei einem anderen Propheten.",
+      "try": "Lies Jer 26,16–19. Was machten die Ältesten aus Michas Wort?"
+    },
+    {
+      "id": "mi-07",
+      "stage": "haeupter",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 4,
+          "from": 1,
+          "to": 5
+        }
+      ],
+      "title": "Schwerter zu Pflugmessern",
+      "summary": "Am Ende der Tage wird der Berg des HERRN höher sein als alle Berge. Völker kommen, um von Gott zu lernen; er schlichtet ihre Streitigkeiten, und sie schmieden ihre Waffen zu Ackergeräten um. Jeder sitzt ungestört unter seinem Weinstock und Feigenbaum.",
+      "place": "jerusalem",
+      "focus": "Achte auf den Berg: Was sagte 3,12 über ihn, und was sagt 4,1?",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Warum ziehen die Völker nach V. 2 zum Berg des HERRN?",
+          "options": [
+            "Um von seinen Wegen zu lernen",
+            "Um Jerusalem zu erobern",
+            "Um Handel zu treiben",
+            "Um Tribut zu zahlen"
+          ],
+          "answer": 0,
+          "explain": "V. 2: Er soll sie über seine Wege belehren, und sie wollen auf seinen Pfaden gehen.",
+          "hint": "Lies Vers 2.",
+          "verse": 2
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Sie werden ihre Schwerter zu Pflugmessern schmieden und ihre [Schilde] zu Winzermessern.",
+          "fix": "Speere",
+          "verse": 3,
+          "hint": "Lies Vers 3.",
+          "explain": "V. 3: Schwerter werden zu Pflugmessern, Speere zu Winzermessern, und niemand lernt mehr den Krieg."
+        },
+        {
+          "type": "truefalse",
+          "q": "In V. 5 heißt es, dass die Völker vorerst noch im Namen ihrer eigenen Götter leben.",
+          "answer": true,
+          "explain": "V. 5: Alle Völker wandeln im Namen ihres Gottes; „wir“ aber im Namen des HERRN.",
+          "hint": "Lies Vers 5.",
+          "verse": 5
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum steht das fast genauso bei Jesaja?",
+          "a": "Jes 2,2–4 ist beinahe wortgleich; Micha und Jesaja wirkten zur selben Zeit in Juda. Ob einer vom anderen übernommen hat oder beide ein älteres Wort aufgreifen, weiß man nicht. Nur Micha hat V. 4 mit Weinstock und Feigenbaum."
+        },
+        {
+          "q": "Wie verstehen Christen diese Zukunft?",
+          "a": "Dispensationalisten und andere Prämillenialisten lesen V. 1–4 wörtlich: Nach seiner Wiederkunft regiert Jesus tausend Jahre von Jerusalem aus, und die Völker kommen dorthin (vgl. Offb 20). Amillenialisten – die Mehrheit in katholischer, orthodoxer, lutherischer und reformierter Tradition – sehen die Erfüllung schon begonnen: Seit Pfingsten geht das Wort von Jerusalem zu den Völkern (Lk 24,47; Apg 1,8), und die Gemeinde ist zum Berg Zion gekommen (Hebr 12,22); vollendet wird der Frieden in der neuen Schöpfung (Offb 21,1–4). Postmillenialisten erwarten, dass sich dieser Frieden durch das Evangelium immer weiter ausbreitet, bevor Jesus wiederkommt."
+        },
+        {
+          "q": "Wie lasen Juden und die frühe Kirche den Text?",
+          "a": "In der jüdischen Tradition beschreibt er die Zeit des Messias; dass noch Kriege geführt werden, gilt als Zeichen, dass sie noch aussteht. Justin der Märtyrer schrieb im 2. Jahrhundert, die Stelle (in der Fassung von Jes 2) erfülle sich schon, wenn frühere Krieger Christen werden und nicht mehr kämpfen (1. Apologie 39)."
+        },
+        {
+          "q": "Warum Weinstock und Feigenbaum?",
+          "a": "Ein Bild für Frieden und eigenen Besitz, das schon für die Zeit Salomos gebraucht wird (1Kön 5,5; vgl. Sach 3,10). Vergleiche damit 2,2, wo man den Leuten Äcker und Häuser nimmt."
+        }
+      ],
+      "cards": [
+        "ende-der-tage"
+      ],
+      "fact": "Eine Bronzefigur eines Mannes, der ein Schwert zur Pflugschar umschmiedet, steht seit 1959 vor dem UN-Hauptquartier in New York – ein Geschenk der Sowjetunion. Ein Bild dieser Figur mit den Worten „Schwerter zu Pflugscharen“ wurde in den 1980er-Jahren zum Zeichen der kirchlichen Friedensbewegung in der DDR, das der Staat verbot.",
+      "teaser": "Ein Turm aus der Geschichte Jakobs taucht auf – und eine Stadt, die zu Michas Zeit für Juda noch kaum eine Rolle spielte.",
+      "try": "Lies Joel 4,10. Was ist dort andersherum als in V. 3?"
+    },
+    {
+      "id": "mi-08",
+      "stage": "haeupter",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 4,
+          "from": 6,
+          "to": 14
+        }
+      ],
+      "title": "Tochter Zion in Wehen",
+      "summary": "Gott will das Hinkende und Vertriebene sammeln und selbst König auf dem Zion sein; die frühere Herrschaft kehrt zum Herdenturm zurück. Jetzt aber liegt die Tochter Zion in Wehen: Sie muss hinaus bis nach Babel und wird dort erlöst. Viele Völker ziehen gegen sie, doch Gott hat sie gesammelt wie Garben auf der Tenne.",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wohin muss die Tochter Zion nach V. 10 ziehen?",
+          "options": [
+            "Bis nach Babel",
+            "Bis nach Ägypten",
+            "Bis nach Ninive",
+            "Bis nach Damaskus"
+          ],
+          "answer": 0,
+          "explain": "V. 10: Sie muss aus der Stadt hinaus, auf dem Feld wohnen und bis nach Babel kommen.",
+          "hint": "Lies Vers 10.",
+          "verse": 10
+        },
+        {
+          "type": "truefalse",
+          "q": "Nach V. 10 wird sie gerade dort, in der Fremde, errettet.",
+          "answer": true,
+          "explain": "V. 10: Dort wirst du errettet werden, dort wird der HERR dich erlösen.",
+          "hint": "Lies Vers 10.",
+          "verse": 10
+        },
+        {
+          "type": "choice",
+          "q": "Was wissen die Nationen nach V. 12 nicht?",
+          "options": [
+            "Die Gedanken und den Ratschluss des HERRN",
+            "Den Weg nach Jerusalem",
+            "Die Zahl der Verteidiger",
+            "Den Namen des Königs"
+          ],
+          "answer": 0,
+          "explain": "V. 12: Sie kennen Gottes Gedanken nicht – er hat sie gesammelt wie Garben zum Dreschen.",
+          "hint": "Lies Vers 12.",
+          "verse": 12
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist der Herdenturm?",
+          "a": "Hebräisch Migdal Eder. In 1Mo 35,21 schlägt Jakob dort sein Zelt auf, kurz nachdem Rahel bei Bethlehem gestorben ist. Hier ist es ein Name für Zion. Eine jüdische Überlieferung (Targum zu 1Mo 35,21) verbindet den Ort mit dem Kommen des Messias."
+        },
+        {
+          "q": "Warum Babel?",
+          "a": "Zu Michas Zeit war Assyrien die Großmacht; Babel stand meist unter ihr. Auch Jesaja kündigte Hiskia an, dass Nachkommen nach Babel weggeführt würden (2Kön 20,16–18). Das Exil begann über hundert Jahre später, 597 und 587 v. Chr."
+        },
+        {
+          "q": "Was bedeutet V. 13?",
+          "a": "Ein Bild vom Dreschen: Rinder trampelten das Getreide auf der Tenne aus. „Verbannen“ heißt, die Beute Gott zu weihen, statt sie selbst zu behalten.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Warum ist die Zählung hier anders?",
+          "a": "In englischen Bibeln ist 4,14 schon 5,1, deshalb ist dort Bethlehem 5,2. Christliche Ausleger haben bei dem geschlagenen Richter oft an Mt 27,30 gedacht."
+        }
+      ],
+      "teaser": "Der nächste Abschnitt beginnt mit dem kleinsten Ort, den Micha nennt – und Jahrhunderte später schlagen Gelehrte in Jerusalem genau diesen Vers auf."
+    },
+    {
+      "id": "mi-09",
+      "stage": "haeupter",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 5,
+          "from": 1,
+          "to": 5
+        }
+      ],
+      "title": "Du, Bethlehem",
+      "summary": "Aus dem kleinen Bethlehem-Ephrata soll ein Herrscher über Israel kommen, dessen Ursprünge in uralter Zeit liegen. Bis eine Gebärende geboren hat, gibt Gott sein Volk preis; dann weidet dieser Herrscher seine Herde in Gottes Kraft. Er wird Friede sein, auch wenn Assyrien kommt.",
+      "place": "bethlehem",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wie beschreibt Micha Bethlehem-Ephrata?",
+          "options": [
+            "Zu klein, um unter den Tausenden von Juda zu zählen",
+            "Als größte Stadt Judas",
+            "Als Stadt der Priester",
+            "Als Festung gegen Assyrien"
+          ],
+          "answer": 0,
+          "explain": "V. 1: Bethlehem ist zu klein, um unter den Tausenden (den Sippen) Judas zu sein – und doch kommt von dort der Herrscher.",
+          "hint": "Lies Vers 1.",
+          "verse": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "Nach V. 1 liegen die Ursprünge des Herrschers in uralter Zeit.",
+          "answer": true,
+          "explain": "V. 1: Seine Ausgänge sind von der Urzeit, von den Tagen der Ewigkeit her.",
+          "hint": "Lies Vers 1.",
+          "verse": 1
+        },
+        {
+          "type": "choice",
+          "q": "Was wird über diesen Herrscher in V. 4 gesagt?",
+          "options": [
+            "Er wird Friede sein",
+            "Er wird ein Priester sein",
+            "Er wird den Tempel neu bauen",
+            "Er wird Babel zerstören"
+          ],
+          "answer": 0,
+          "explain": "V. 4: Und dieser wird Friede sein.",
+          "hint": "Lies Vers 4.",
+          "verse": 4
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist Ephrata?",
+          "a": "Ein alter Name für Bethlehem oder seine Sippe (1Mo 35,19; Rut 4,11). Davids Vater Isai war ein Ephratiter aus Bethlehem (1Sam 17,12). Der Zusatz unterscheidet die Stadt auch von einem Bethlehem in Galiläa (Jos 19,15)."
+        },
+        {
+          "q": "Wie lesen Juden und Christen den Vers?",
+          "a": "Nach Mt 2,4–6 nennen die Schriftgelehrten in Jerusalem diesen Vers als Geburtsort des Messias, vgl. Joh 7,42. Auch die aramäische Übersetzung (Targum) spricht hier ausdrücklich vom Messias. Christen sehen in den „Ausgängen von der Urzeit“ oft den ewigen Sohn (Joh 1,1); jüdische Ausleger meist das alte Königshaus Davids."
+        },
+        {
+          "q": "Wer ist die Gebärende in V. 2?",
+          "a": "Viele Christen denken an Maria, auch mit Blick auf Michas Zeitgenossen Jesaja (Jes 7,14). Andere Ausleger denken an Zion, die in 4,9–10 wie eine Gebärende in Wehen liegt."
+        },
+        {
+          "q": "„Sieben Hirten und acht“?",
+          "a": "Ein Zahlenspruch wie in Spr 30,18 oder Am 1,3: eine Zahl und noch eine darüber, gemeint ist „genug und mehr als genug“. Das „Land Nimrods“ ist Assyrien (1Mo 10,8–11)."
+        }
+      ],
+      "cards": [
+        "bethlehem"
+      ],
+      "fact": "Matthäus zitiert den Vers etwas anders: Bei ihm ist Bethlehem „keineswegs die geringste“ unter den Fürsten Judas (Mt 2,6).",
+      "teaser": "Der Überrest Israels bekommt zwei Bilder, die kaum unterschiedlicher sein könnten.",
+      "try": "Lies Mt 2,3–6 und vergleiche es mit V. 1. Was ist gleich, was anders?"
+    },
+    {
+      "id": "mi-10",
+      "stage": "haeupter",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 5,
+          "from": 6,
+          "to": 14
+        }
+      ],
+      "title": "Tau und Löwe",
+      "summary": "Der Überrest Jakobs wird unter den Völkern wie Tau sein und wie ein Löwe. An jenem Tag will Gott aus der Mitte seines Volkes Pferde, Wagen, Festungen, Zauberei und Götzenbilder entfernen. An den Völkern, die nicht gehört haben, übt er Vergeltung.",
+      "focus": "Achte in V. 9–13 darauf, wem Gott hier etwas wegnimmt.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Womit vergleicht Micha den Überrest in V. 6?",
+          "options": [
+            "Mit Tau und Regenschauern vom HERRN",
+            "Mit einem Baum am Wasser",
+            "Mit den Sternen am Himmel",
+            "Mit dem Sand am Meer"
+          ],
+          "answer": 0,
+          "explain": "V. 6: Wie Tau vom HERRN, wie Regen auf das Kraut, der nicht auf Menschen wartet.",
+          "hint": "Lies Vers 6.",
+          "verse": 6
+        },
+        {
+          "type": "truefalse",
+          "q": "Was Gott in V. 9–13 ausrotten will, gehört den feindlichen Völkern.",
+          "answer": false,
+          "explain": "V. 9–13: Immer wieder „aus deiner Mitte“ – es geht um Pferde, Festungen, Zauberei und Bilder in Israel selbst.",
+          "hint": "Lies Vers 9–13.",
+          "verse": 9
+        },
+        {
+          "type": "order",
+          "q": "In welcher Reihenfolge nennt Gott, was er wegnehmen will?",
+          "items": [
+            "Pferde und Wagen",
+            "Städte und Festungen",
+            "Wahrsagerei und Zauberer",
+            "Bilder und Bildsäulen"
+          ],
+          "hint": "Lies Vers 9–12.",
+          "explain": "V. 9–12: zuerst das Militär, dann die Festungen, dann Zauberei, zuletzt die Götzenbilder (V. 13 nennt noch die Ascherim)."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Tau und Löwe – wie passt das?",
+          "a": "Tau kommt von Gott und hängt von keinem Menschen ab (V. 6); der Löwe ist übermächtig (V. 7). Ausleger lesen die beiden Bilder als Segen und als Gericht für die Völker. Der Text stellt sie ohne Erklärung nebeneinander."
+        },
+        {
+          "q": "Warum Pferde und Wagen?",
+          "a": "Sie waren die stärkste Waffe der Zeit. Schon das Gesetz verbot dem König, viele Pferde anzuschaffen (5Mo 17,16); vgl. Ps 20,8 und Jes 31,1."
+        },
+        {
+          "q": "Was sind Bildsäulen und Ascherim?",
+          "a": "Bildsäulen (Mazzeben) waren aufgerichtete Kultsteine. Ascherim waren hölzerne Pfähle oder heilige Bäume für die Göttin Aschera (5Mo 16,21–22).",
+          "translation": "elbbk"
+        }
+      ],
+      "teaser": "Gott verklagt sein Volk – und ruft keine Menschen als Zeugen auf."
+    },
+    {
+      "id": "mi-11",
+      "stage": "rechtsstreit",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 6,
+          "from": 1,
+          "to": 8
+        }
+      ],
+      "title": "Was fordert der HERR?",
+      "summary": "Gott führt einen Rechtsstreit mit seinem Volk, die Berge sind Zeugen. Er fragt, womit er es ermüdet hat, und erinnert an den Auszug aus Ägypten, an Mose, Aaron und Mirjam, an Balak und Bileam. Jemand fragt, mit welchem Opfer er vor Gott treten soll. Die Antwort: Recht üben, Güte lieben und demütig mit Gott gehen.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wen ruft Gott in V. 1–2 als Zeugen?",
+          "options": [
+            "Die Berge und die Grundfesten der Erde",
+            "Die Ältesten Israels",
+            "Die Priester im Tempel",
+            "Die Völker ringsum"
+          ],
+          "answer": 0,
+          "explain": "V. 2: Hört, ihr Berge, den Rechtsstreit des HERRN, und ihr Grundfesten der Erde.",
+          "hint": "Lies Vers 1–2.",
+          "verse": 2
+        },
+        {
+          "type": "order",
+          "q": "Welche Opfer erwägt der Fragende? Bring sie in die Reihenfolge, in der er sie nennt.",
+          "items": [
+            "Brandopfer und einjährige Kälber",
+            "Tausende Widder und Ströme von Öl",
+            "Der eigene Erstgeborene"
+          ],
+          "hint": "Lies Vers 6–7.",
+          "explain": "V. 6–7: Die Angebote steigern sich bis zum eigenen Kind."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Gott verlangt nach V. 8: Recht üben, [Opfer] lieben und demütig mit Gott gehen.",
+          "fix": "Güte",
+          "verse": 8,
+          "hint": "Lies Vers 8.",
+          "explain": "V. 8: Recht üben, Güte lieben und demütig wandeln mit deinem Gott."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist ein Rechtsstreit?",
+          "a": "Hebräisch riv: ein Gerichtsverfahren. Die Propheten benutzen diese Form öfter, mit Himmel, Erde oder Bergen als Zeugen (5Mo 32,1; Jes 1,2). Hier fragt der Kläger aber zuerst, was er dem Angeklagten getan hat (V. 3)."
+        },
+        {
+          "q": "Warum Balak, Bileam, Sittim und Gilgal?",
+          "a": "Balak, König von Moab, ließ Bileam holen, um Israel zu verfluchen, doch Bileam segnete (4Mo 22–24). Sittim war das letzte Lager östlich des Jordan (Jos 3,1), Gilgal das erste im Land (Jos 4,19) – dazwischen liegt der Weg durch den Jordan."
+        },
+        {
+          "q": "Was meinen „Güte“ und „demütig“?",
+          "a": "„Güte“ ist chesed: treue Liebe, die zu einer Beziehung steht. „Demütig wandeln“ ist eine seltene Wendung; sie kann auch „behutsam“ oder „aufmerksam gehen“ heißen. „O Mensch“ ist im Hebräischen adam – das Wort für den Menschen überhaupt."
+        },
+        {
+          "q": "Lehnt Micha Opfer ab?",
+          "a": "Ausleger lesen das verschieden. Viele, jüdisch wie christlich, verstehen: Opfer ohne Recht und Güte sind wertlos, nicht das Opfer an sich (vgl. 1Sam 15,22; Ps 51,18–21; Hos 6,6, von Jesus in Mt 9,13 zitiert). Das Opfer des Erstgeborenen in V. 7 war kein bloßes Gedankenspiel: König Ahas ließ seinen Sohn „durchs Feuer gehen“ (2Kön 16,3)."
+        }
+      ],
+      "cards": [
+        "rechtsstreit",
+        "chesed"
+      ],
+      "fact": "Der Talmud erzählt, dass Mose 613 Gebote erhielt. David fasste sie in elf zusammen (Ps 15), Jesaja in sechs, Micha in den drei aus V. 8 (Makkot 23b–24a).",
+      "memory_verse": {
+        "ref": {
+          "book": 33,
+          "chapter": 6,
+          "from": 8,
+          "to": 8
+        },
+        "text": "Recht zu üben und Güte zu lieben und demütig zu wandeln mit deinem Gott"
+      },
+      "teaser": "Im nächsten Abschnitt geht es um Waagen und Gewichtssteine – und um zwei Könige, die in Juda niemand zum Vorbild haben sollte."
+    },
+    {
+      "id": "mi-12",
+      "stage": "rechtsstreit",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 6,
+          "from": 9,
+          "to": 16
+        }
+      ],
+      "title": "Falsche Gewichte",
+      "summary": "Gottes Stimme ruft der Stadt zu. Im Haus des Gottlosen gibt es zu kleine Maße und falsche Gewichte, die Reichen sind gewalttätig, alle lügen. Deshalb wird man essen und nicht satt werden, säen und nicht ernten. Juda folgt den Satzungen Omris und Ahabs.",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Womit wird nach V. 10–11 betrogen?",
+          "options": [
+            "Mit einem zu kleinen Epha und falschen Gewichtssteinen",
+            "Mit verdorbenem Getreide",
+            "Mit gefälschten Münzen",
+            "Mit gestohlenen Schafen"
+          ],
+          "answer": 0,
+          "explain": "V. 10–11: das knappe Epha, die Waage der Gottlosigkeit und der Beutel mit betrügerischen Gewichtssteinen.",
+          "hint": "Lies Vers 10–11.",
+          "verse": 11
+        },
+        {
+          "type": "truefalse",
+          "q": "Nach V. 15 werden sie säen, aber nicht ernten.",
+          "answer": true,
+          "explain": "V. 15: säen ohne Ernte, Oliven keltern ohne Öl, Most ohne Wein.",
+          "hint": "Lies Vers 15.",
+          "verse": 15
+        },
+        {
+          "type": "choice",
+          "q": "Wessen Satzungen befolgt man nach V. 16?",
+          "options": [
+            "Die Satzungen Omris und des Hauses Ahabs",
+            "Die Gebote Moses",
+            "Die Gesetze Assyriens",
+            "Die Weisungen der Priester"
+          ],
+          "answer": 0,
+          "explain": "V. 16: Man hält die Satzungen Omris und tut wie das Haus Ahabs.",
+          "hint": "Lies Vers 16.",
+          "verse": 16
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist ein Epha?",
+          "a": "Ein Hohlmaß für Getreide, etwa 20 bis 40 Liter (die Angaben schwanken). Wer mit kleinem Maß verkauft und schweren Gewichten das Silber abwiegt, betrügt doppelt. Das Gesetz verbot zweierlei Maß (5Mo 25,13–15; vgl. Am 8,5)."
+        },
+        {
+          "q": "Wer waren Omri und Ahab?",
+          "a": "Könige des Nordreichs im 9. Jahrhundert v. Chr. Omri baute Samaria (1Kön 16,24); Ahab und Isebel förderten den Baalskult und ließen Nabot wegen seines Weinbergs töten (1Kön 21). Dass Juda ihnen folgt, ist ein scharfer Vorwurf."
+        },
+        {
+          "q": "Was heißt V. 9?",
+          "a": "Der hebräische Text ist schwer zu verstehen; die Übersetzungen gehen weit auseinander, etwa „es ist weise, deinen Namen zu fürchten“. Die „Zuchtrute“ ist die Strafe, die Gott ankündigt.",
+          "translation": "elbbk"
+        }
+      ],
+      "teaser": "Micha vergleicht sich mit jemandem, der nach der Ernte durch den Weinberg geht.",
+      "try": "Lies 5Mo 28,38–40 und vergleiche es mit V. 14–15."
+    },
+    {
+      "id": "mi-13",
+      "stage": "rechtsstreit",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 7,
+          "from": 1,
+          "to": 7
+        }
+      ],
+      "title": "Ich aber will ausschauen",
+      "summary": "Micha klagt: Wie nach der Weinlese keine Traube mehr hängt, findet er keinen Rechtschaffenen mehr. Fürsten und Richter sind käuflich, niemandem ist zu trauen, nicht einmal in der Familie. Doch er will nach Gott ausschauen und auf ihn warten.",
+      "focus": "Achte auf den Anfang von V. 7. Erinnert er dich an eine Stelle in Kapitel 3?",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Womit vergleicht Micha seine Lage in V. 1?",
+          "options": [
+            "Mit der Nachlese nach der Weinernte, wenn keine Traube mehr übrig ist",
+            "Mit einem Feld voller Unkraut",
+            "Mit einem ausgetrockneten Brunnen",
+            "Mit einer Stadt ohne Mauer"
+          ],
+          "answer": 0,
+          "explain": "V. 1: wie bei der Nachlese der Weinernte – keine Traube, keine Frühfeige.",
+          "hint": "Lies Vers 1.",
+          "verse": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "Nach V. 6 ist selbst in der eigenen Familie kein Verlass mehr.",
+          "answer": true,
+          "explain": "V. 6: Sohn gegen Vater, Tochter gegen Mutter; die Feinde sind die eigenen Hausgenossen.",
+          "hint": "Lies Vers 6.",
+          "verse": 6
+        },
+        {
+          "type": "choice",
+          "q": "Was tut der Richter nach V. 3?",
+          "options": [
+            "Er richtet gegen Bezahlung",
+            "Er verurteilt den Fürsten",
+            "Er flieht aus der Stadt",
+            "Er schweigt zu allem"
+          ],
+          "answer": 0,
+          "explain": "V. 3: Der Fürst fordert, und der Richter richtet gegen Entgelt.",
+          "hint": "Lies Vers 3.",
+          "verse": 3
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist die Nachlese?",
+          "a": "Nach der Ernte durften Arme die übrig gebliebenen Trauben und Ähren sammeln (3Mo 19,10; Rut 2). Micha findet nicht einmal mehr das."
+        },
+        {
+          "q": "Wer sind die „Wächter“ in V. 4?",
+          "a": "Wohl die Propheten, die wie Wächter auf der Mauer vor Gefahr warnen (Hes 3,17). Der Tag, vor dem sie gewarnt haben, ist gekommen."
+        },
+        {
+          "q": "Wo kommt V. 6 im Neuen Testament vor?",
+          "a": "Jesus greift den Vers auf, als er seine Jünger aussendet und ihnen sagt, dass sein Weg auch Familien spalten kann (Mt 10,35–36; Lk 12,53)."
+        }
+      ],
+      "prayer": {
+        "ref": {
+          "book": 33,
+          "chapter": 7,
+          "from": 7,
+          "to": 7
+        },
+        "source": "Micha 7,7"
+      },
+      "teaser": "Jetzt spricht eine Stadt – und zwar zu ihrer Feindin."
+    },
+    {
+      "id": "mi-14",
+      "stage": "rechtsstreit",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 7,
+          "from": 8,
+          "to": 13
+        }
+      ],
+      "title": "Bin ich gefallen, so stehe ich auf",
+      "summary": "Zion spricht zu ihrer Feindin: Wenn ich falle, stehe ich wieder auf, der HERR ist mein Licht. Sie trägt Gottes Zorn, weil sie gesündigt hat, bis er ihr Recht verschafft. Die Feindin, die gespottet hat, wird beschämt. Ein Tag kommt, an dem Mauern gebaut werden und Menschen von weit her kommen.",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was sagt Zion in V. 8 über die Zeit in der Finsternis?",
+          "options": [
+            "Der HERR ist mein Licht",
+            "Ich werde nicht mehr aufstehen",
+            "Meine Feindin hat gesiegt",
+            "Ich will nach Ägypten fliehen"
+          ],
+          "answer": 0,
+          "explain": "V. 8: Bin ich gefallen, stehe ich wieder auf; sitze ich in Finsternis, ist der HERR mein Licht.",
+          "hint": "Lies Vers 8.",
+          "verse": 8
+        },
+        {
+          "type": "truefalse",
+          "q": "Zion sagt in V. 9, sie habe gegen den HERRN gesündigt.",
+          "answer": true,
+          "explain": "V. 9: Sie will Gottes Grimm tragen, denn sie hat gegen ihn gesündigt.",
+          "hint": "Lies Vers 9.",
+          "verse": 9
+        },
+        {
+          "type": "choice",
+          "q": "Was hatte die Feindin nach V. 10 gefragt?",
+          "options": [
+            "Wo ist der HERR, dein Gott?",
+            "Warum betest du nicht?",
+            "Wer ist dein König?",
+            "Wann kommt dein Retter?"
+          ],
+          "answer": 0,
+          "explain": "V. 10: Die Feindin hatte gespottet: Wo ist der HERR, dein Gott?",
+          "hint": "Lies Vers 10.",
+          "verse": 10
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer ist die Feindin?",
+          "a": "Der Text nennt sie nicht. Die weibliche Form deutet auf eine Stadt oder ein Volk; Ausleger denken an Ninive, Babel oder Edom (vgl. Obd 12)."
+        },
+        {
+          "q": "Wie passt V. 9 zum Rechtsstreit?",
+          "a": "In 6,1–2 führte Gott einen Rechtsstreit gegen sein Volk. In V. 9 steht dasselbe Wort: Jetzt erwartet Zion, dass Gott ihren Rechtsstreit führt – für sie."
+        },
+        {
+          "q": "Was ist die „Schranke“ in V. 11?",
+          "a": "Das hebräische Wort kann „Grenze“ oder „Verordnung“ heißen. Manche Übersetzungen lesen, dass die Grenze weit wird, andere, dass eine Frist fern ist.",
+          "translation": "elbbk"
+        }
+      ],
+      "teaser": "Das Buch endet mit einer Frage, die schon im Namen des Propheten steckt."
+    },
+    {
+      "id": "mi-15",
+      "stage": "rechtsstreit",
+      "refs": [
+        {
+          "book": 33,
+          "chapter": 7,
+          "from": 14,
+          "to": 20
+        }
+      ],
+      "title": "Wer ist ein Gott wie du?",
+      "summary": "Ein Gebet bittet Gott, sein Volk zu weiden wie in alter Zeit. Gott verspricht Wunder wie beim Auszug aus Ägypten; die Völker kommen zitternd zu ihm. Am Schluss: Wer ist ein Gott wie du, der Schuld vergibt? Er wirft die Sünden in die Tiefe des Meeres und hält Abraham und Jakob die Treue.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "An welche Zeit erinnert Gott in V. 15?",
+          "options": [
+            "An den Auszug aus Ägypten",
+            "An die Zeit Davids",
+            "An die Sintflut",
+            "An den Bau des Tempels"
+          ],
+          "answer": 0,
+          "explain": "V. 15: Wie in den Tagen, als du aus Ägypten zogst, will ich Wunder sehen lassen.",
+          "hint": "Lies Vers 15.",
+          "verse": 15
+        },
+        {
+          "type": "truefalse",
+          "q": "Nach V. 18 behält Gott seinen Zorn für immer.",
+          "answer": false,
+          "explain": "V. 18: Er behält seinen Zorn nicht auf immer, denn er hat Gefallen an Güte.",
+          "hint": "Lies Vers 18.",
+          "verse": 18
+        },
+        {
+          "type": "choice",
+          "q": "Wohin wirft Gott nach V. 19 die Sünden?",
+          "options": [
+            "In die Tiefen des Meeres",
+            "Hinter seinen Rücken",
+            "In die Wüste",
+            "Ins Feuer"
+          ],
+          "answer": 0,
+          "explain": "V. 19: Du wirst alle ihre Sünden in die Tiefen des Meeres werfen. (Hinter den Rücken wirft Gott sie in Jes 38,17.)",
+          "hint": "Lies Vers 19.",
+          "verse": 19
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer spricht hier?",
+          "a": "V. 14 ist ein Gebet an Gott (in der Elberfelder in Anführungszeichen). In V. 15 antwortet Gott, ab V. 16 sprechen wieder der Prophet und das Volk."
+        },
+        {
+          "q": "Was sind Basan und Gilead?",
+          "a": "Fruchtbares Weideland östlich des Jordan. Zu Michas Zeit hatten die Assyrer es dem Nordreich weggenommen (2Kön 15,29)."
+        },
+        {
+          "q": "Wie wird der Text im Judentum gelesen?",
+          "a": "V. 18–20 werden in vielen Synagogen am Versöhnungstag (Jom Kippur) im Anschluss an das Buch Jona gelesen. Zum Neujahrsfest gehen viele Juden an ein Gewässer und sprechen beim Taschlich-Brauch („du wirst werfen“, aus V. 19) diese Verse."
+        }
+      ],
+      "fact": "Die Frage aus V. 18 steckt im Namen des Propheten: Micha ist die Kurzform von Michajahu, „Wer ist wie Jahwe?“.",
+      "memory_verse": {
+        "ref": {
+          "book": 33,
+          "chapter": 7,
+          "from": 18,
+          "to": 18
+        },
+        "text": "Wer ist ein Gott wie du, der die Ungerechtigkeit vergibt"
+      },
+      "try": "Lies 2Mo 15,11 und dann V. 18. Welche Frage stellen beide?"
+    }
+  ]
+}

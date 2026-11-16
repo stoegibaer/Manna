@@ -97,7 +97,7 @@
       "title": "Micha",
       "subtitle": "Was Gott von dir will",
       "direction": "gerechtigkeit",
-      "available": false
+      "available": true
     },
     {
       "id": "jesaja-trost",
@@ -111,7 +111,7 @@
       "title": "Prediger",
       "subtitle": "Wozu das alles?",
       "direction": "weisheit",
-      "available": false
+      "available": true
     },
     {
       "id": "bergpredigt",
