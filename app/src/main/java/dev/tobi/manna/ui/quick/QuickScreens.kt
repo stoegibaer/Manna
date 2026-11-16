@@ -113,7 +113,6 @@ fun VerseScreen(vm: VerseViewModel, settings: Settings, onMore: () -> Unit, onCl
     var confetti by remember { mutableIntStateOf(0) }
     BackHandler(onBack = onClose)
     Box(Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding()) {
-        IconButton(onClick = onClose, modifier = Modifier.padding(8.dp)) { Icon(Icons.Rounded.Close, "Schließen") }
         if (s.loading) {
             CircularProgressIndicator(Modifier.align(Alignment.Center))
         } else if (s.planFinished) {
@@ -150,6 +149,7 @@ fun VerseScreen(vm: VerseViewModel, settings: Settings, onMore: () -> Unit, onCl
             }
         }
         Confetti(confetti, enabled = settings.showConfetti)
+        IconButton(onClick = onClose, modifier = Modifier.padding(8.dp)) { Icon(Icons.Rounded.Close, "Schließen") }
     }
 }
 
@@ -189,7 +189,6 @@ fun AnswerScreen(vm: AnswerViewModel, settings: Settings, onRead: () -> Unit, on
     LaunchedEffect(s.loading) { if (!s.loading) { if (s.correct) { fb.correct(); confetti++ } else fb.tryAgain() } }
     BackHandler(onBack = onClose)
     Box(Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding()) {
-        IconButton(onClick = onClose, modifier = Modifier.padding(8.dp)) { Icon(Icons.Rounded.Close, "Schließen") }
         val q = s.quiz
         if (s.loading || q == null) {
             if (s.loading) CircularProgressIndicator(Modifier.align(Alignment.Center))
@@ -226,5 +225,6 @@ fun AnswerScreen(vm: AnswerViewModel, settings: Settings, onRead: () -> Unit, on
             }
         }
         Confetti(confetti, enabled = settings.showConfetti)
+        IconButton(onClick = onClose, modifier = Modifier.padding(8.dp)) { Icon(Icons.Rounded.Close, "Schließen") }
     }
 }
