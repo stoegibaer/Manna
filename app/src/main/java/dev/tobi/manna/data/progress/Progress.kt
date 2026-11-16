@@ -43,8 +43,34 @@ data class CardUnlock(val planId: String, val cardId: String, val unlockedAt: Lo
 @Entity(primaryKeys = ["date"])
 data class ReadingDay(val date: String, val verses: Int, val sections: Int, val firstMinute: Int = -1)
 
+/** A saved verse. [source] = "favorite" (long-press) or "memory" (learned in the memory-verse game). */
+@Entity(primaryKeys = ["book", "chapter", "verse"])
+data class FavoriteVerse(val book: Int, val chapter: Int, val verse: Int, val savedAt: Long, val source: String = "favorite")
+
+/** One-tap reflection after a section („Was nimmst du mit?“). [tags] comma separated chip ids. */
+@Entity(primaryKeys = ["planId", "sectionId"])
+data class JournalEntry(val planId: String, val sectionId: String, val sectionTitle: String, val tags: String, val note: String, val savedAt: Long)
+
 @Dao
 interface ProgressDao {
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertFavorite(f: FavoriteVerse)
+
+    @Query("DELETE FROM FavoriteVerse WHERE book = :book AND chapter = :chapter AND verse = :verse")
+    suspend fun deleteFavorite(book: Int, chapter: Int, verse: Int)
+
+    @Query("SELECT * FROM FavoriteVerse ORDER BY savedAt DESC")
+    fun favorites(): Flow<List<FavoriteVerse>>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertJournal(j: JournalEntry)
+
+    @Query("SELECT * FROM JournalEntry WHERE planId = :planId AND sectionId = :sectionId")
+    suspend fun journal(planId: String, sectionId: String): JournalEntry?
+
+    @Query("SELECT * FROM JournalEntry ORDER BY savedAt DESC")
+    fun journalEntries(): Flow<List<JournalEntry>>
+
     @Query("SELECT * FROM SectionDone WHERE planId = :planId")
     fun sectionsDone(planId: String): Flow<List<SectionDone>>
 
@@ -108,13 +134,23 @@ private val MIGRATION_1_2 = object : Migration(1, 2) {
     }
 }
 
-@Database(entities = [SectionDone::class, QuizResult::class, CardUnlock::class, ReadingDay::class], version = 2)
+private val MIGRATION_2_3 = object : Migration(2, 3) {
+    override fun migrate(db: SupportSQLiteDatabase) {
+        db.execSQL("CREATE TABLE IF NOT EXISTS `FavoriteVerse` (`book` INTEGER NOT NULL, `chapter` INTEGER NOT NULL, `verse` INTEGER NOT NULL, `savedAt` INTEGER NOT NULL, `source` TEXT NOT NULL, PRIMARY KEY(`book`, `chapter`, `verse`))")
+        db.execSQL("CREATE TABLE IF NOT EXISTS `JournalEntry` (`planId` TEXT NOT NULL, `sectionId` TEXT NOT NULL, `sectionTitle` TEXT NOT NULL, `tags` TEXT NOT NULL, `note` TEXT NOT NULL, `savedAt` INTEGER NOT NULL, PRIMARY KEY(`planId`, `sectionId`))")
+    }
+}
+
+@Database(
+    entities = [SectionDone::class, QuizResult::class, CardUnlock::class, ReadingDay::class, FavoriteVerse::class, JournalEntry::class],
+    version = 3,
+)
 abstract class MannaDb : RoomDatabase() {
     abstract fun progress(): ProgressDao
 
     companion object {
         fun create(context: Context) = Room.databaseBuilder(context, MannaDb::class.java, "manna.db")
-            .addMigrations(MIGRATION_1_2)
+            .addMigrations(MIGRATION_1_2, MIGRATION_2_3)
             .build()
     }
 }
@@ -173,6 +209,15 @@ class ProgressRepository(private val dao: ProgressDao) {
         val minute = if (d.firstMinute < 0 && verses + sections > 0) LocalTime.now().let { it.hour * 60 + it.minute } else d.firstMinute
         dao.upsertDay(d.copy(verses = d.verses + verses, sections = d.sections + sections, firstMinute = minute))
     }
+
+    val favorites = dao.favorites()
+    suspend fun setFavorite(book: Int, chapter: Int, verse: Int, on: Boolean, source: String = "favorite") =
+        if (on) dao.upsertFavorite(FavoriteVerse(book, chapter, verse, System.currentTimeMillis(), source)) else dao.deleteFavorite(book, chapter, verse)
+
+    val journal = dao.journalEntries()
+    suspend fun journalFor(planId: String, sectionId: String) = dao.journal(planId, sectionId)
+    suspend fun saveJournal(planId: String, sectionId: String, title: String, tags: Set<String>, note: String) =
+        dao.upsertJournal(JournalEntry(planId, sectionId, title, tags.joinToString(","), note.trim(), System.currentTimeMillis()))
 
     suspend fun readToday(): Boolean = dao.day(LocalDate.now().toString())?.let { it.verses > 0 || it.sections > 0 } == true
 }

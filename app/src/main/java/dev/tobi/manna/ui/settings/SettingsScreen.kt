@@ -72,6 +72,17 @@ fun SettingsScreen(settings: Settings, onChange: ((Settings) -> Settings) -> Uni
             Slider(value = settings.textScale, onValueChange = { v -> onChange { it.copy(textScale = v) } }, valueRange = 0.8f..1.6f, steps = 7)
             Text("Der Gerechte aber wird durch seinen Glauben leben.", style = bibleTextStyle(settings.textScale))
 
+            Text("Vorlese-Tempo", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 12.dp))
+            Slider(value = settings.ttsRate, onValueChange = { v -> onChange { it.copy(ttsRate = (v * 10).toInt() / 10f) } }, valueRange = 0.7f..1.4f, steps = 6)
+            Text(
+                when {
+                    settings.ttsRate < 0.95f -> "Etwas langsamer"
+                    settings.ttsRate > 1.05f -> "Etwas schneller"
+                    else -> "Normal"
+                },
+                style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+
             Group("Rückmeldung")
             Toggle("Ruhiger Modus", "Keine Animationen, kein Konfetti, keine Töne.", settings.calm) { v -> onChange { it.copy(calm = v) } }
             Toggle("Vibration", null, settings.haptics) { v -> onChange { it.copy(haptics = v) } }

@@ -83,7 +83,7 @@ class PlansViewModel(private val c: AppContainer) : ViewModel() {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun PlansScreen(vm: PlansViewModel, onChosen: (String) -> Unit, onBack: () -> Unit) {
+fun PlansScreen(vm: PlansViewModel, onChosen: (String) -> Unit, onBible: () -> Unit, onBack: () -> Unit) {
     val s by vm.state.collectAsStateWithLifecycle()
     Scaffold(
         topBar = {
@@ -112,6 +112,13 @@ fun PlansScreen(vm: PlansViewModel, onChosen: (String) -> Unit, onBack: () -> Un
             )
             for ((dir, items) in s.directions) {
                 DirectionCard(dir, items, s.active, onChosen)
+            }
+            Spacer(Modifier.height(8.dp))
+            Surface(onClick = onBible, shape = RoundedCornerShape(20.dp), color = MaterialTheme.colorScheme.surfaceContainer, modifier = Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(18.dp)) {
+                    Text("Frei lesen", style = MaterialTheme.typography.titleLarge)
+                    Text("Die ganze Bibel, Buch für Buch – ohne Quiz.", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
             }
             Spacer(Modifier.height(32.dp))
         }

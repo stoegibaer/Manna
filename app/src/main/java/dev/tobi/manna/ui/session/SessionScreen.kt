@@ -80,6 +80,17 @@ import dev.tobi.manna.ui.components.CardTile
 import dev.tobi.manna.ui.components.Confetti
 import dev.tobi.manna.ui.components.LocalFeedback
 import dev.tobi.manna.ui.components.MiniMap
+import dev.tobi.manna.ui.components.VerseText
+import dev.tobi.manna.ui.components.key
+import dev.tobi.manna.audio.rememberSpeaker
+import androidx.compose.material.icons.rounded.Stop
+import androidx.compose.material.icons.automirrored.rounded.VolumeUp
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.offset
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.LocalMinimumInteractiveComponentSize
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.draw.clip
 import dev.tobi.manna.ui.components.MustardTree
 import dev.tobi.manna.ui.theme.BibleFont
@@ -89,6 +100,7 @@ import dev.tobi.manna.ui.theme.bibleTextStyle
 @Composable
 fun SessionScreen(vm: SessionViewModel, settings: Settings, onClose: () -> Unit, onChoosePlan: () -> Unit) {
     val state by vm.state.collectAsStateWithLifecycle()
+    val favorites by vm.favorites.collectAsStateWithLifecycle()
     var showExplain by remember { mutableStateOf(false) }
     var showMap by remember { mutableStateOf(false) }
     var confetti by remember { mutableIntStateOf(0) }
@@ -129,11 +141,19 @@ fun SessionScreen(vm: SessionViewModel, settings: Settings, onClose: () -> Unit,
                 ) { (step, _) ->
                     when (step) {
                         Step.REVIEW -> ReviewStep(state, onSolved = { first -> vm.reviewSolved(first); bigConfetti = false; confetti++ }, onDone = vm::reviewDone)
-                        Step.READ -> ReadStep(state, settings, onMap = { showMap = true }, onDone = vm::finishReading)
+                        Step.READ -> ReadStep(state, settings, favorites, onToggleFavorite = vm::toggleFavorite, onMap = { showMap = true }, onDone = vm::finishReading)
                         Step.QUIZ -> QuizStep(state, onSolved = { first -> vm.quizSolved(first); bigConfetti = false; confetti++ }, onNext = vm::nextQuiz)
                         Step.REWARD -> RewardStep(state, settings, onShown = { bigConfetti = true; confetti++ }, onNext = vm::rewardContinue)
+                        Step.MEMORY -> MemoryStep(state, onLearned = { bigConfetti = true; confetti++ }, onDone = vm::memoryDone)
                         Step.RECAP -> RecapStep(state, onSolved = { bigConfetti = false; confetti++ }, onNext = vm::recapDone)
-                        Step.DONE -> DoneStep(state, onClose = onClose, onAnother = vm::another, onChoosePlan = onChoosePlan)
+                        Step.DONE -> DoneStep(
+                            state,
+                            onClose = { vm.saveReflection(); onClose() },
+                            onAnother = vm::another,
+                            onChoosePlan = { vm.saveReflection(); onChoosePlan() },
+                            onTag = vm::toggleTag,
+                            onNote = vm::setNote,
+                        )
                     }
                 }
             }
@@ -152,7 +172,10 @@ fun SessionScreen(vm: SessionViewModel, settings: Settings, onClose: () -> Unit,
 // ───────────────────────── Reading ─────────────────────────
 
 @Composable
-private fun ReadStep(state: SessionState, settings: Settings, onMap: () -> Unit, onDone: () -> Unit) {
+private fun ReadStep(
+    state: SessionState, settings: Settings, favorites: Set<Triple<Int, Int, Int>>,
+    onToggleFavorite: (dev.tobi.manna.data.bible.Verse) -> Unit, onMap: () -> Unit, onDone: () -> Unit,
+) {
     val section = state.section ?: return
     val lines = state.lines
     val verseLineIdx = remember(lines) { lines.indices.filter { lines[it] is Line.V } }
@@ -162,6 +185,18 @@ private fun ReadStep(state: SessionState, settings: Settings, onMap: () -> Unit,
     val listState = rememberLazyListState()
     val fb = LocalFeedback.current
     val textStyle = bibleTextStyle(settings.textScale)
+    val speaker = rememberSpeaker(state.translationId, settings.ttsRate)
+    val speaking by speaker.current.collectAsStateWithLifecycle()
+    val playing by speaker.playing.collectAsStateWithLifecycle()
+    val verses = state.verses
+
+    // while reading aloud, the focus follows the voice
+    LaunchedEffect(speaking) {
+        if (speaking >= 0) {
+            if (focusMode) focus = maxOf(focus, speaking)
+            else listState.animateScrollToItem(verseLineIdx[speaking])
+        }
+    }
 
     LaunchedEffect(focus) {
         if (focusMode && focus > 0) {
@@ -211,6 +246,17 @@ private fun ReadStep(state: SessionState, settings: Settings, onMap: () -> Unit,
                             }
                         }
                     }
+                    Surface(
+                        onClick = { speaker.toggle(verses, if (focusMode) focus else 0) },
+                        shape = RoundedCornerShape(50),
+                        color = if (playing) MaterialTheme.colorScheme.primaryContainer else MaterialTheme.colorScheme.surfaceContainer,
+                    ) {
+                        Row(Modifier.padding(horizontal = 12.dp, vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
+                            Icon(if (playing) Icons.Rounded.Stop else Icons.AutoMirrored.Rounded.VolumeUp, null, Modifier.size(18.dp), tint = MaterialTheme.colorScheme.primary)
+                            Spacer(Modifier.width(6.dp))
+                            Text(if (playing) "Stopp" else "Vorlesen", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                        }
+                    }
                     section.focus?.let {
                         Surface(color = MaterialTheme.colorScheme.secondaryContainer, shape = RoundedCornerShape(14.dp), modifier = Modifier.padding(top = 6.dp)) {
                             Text(it, Modifier.padding(14.dp), color = MaterialTheme.colorScheme.onSecondaryContainer, style = MaterialTheme.typography.bodyLarge)
@@ -230,16 +276,13 @@ private fun ReadStep(state: SessionState, settings: Settings, onMap: () -> Unit,
                             else -> 0.16f
                         }
                         val a by animateFloatAsState(target, tween(if (settings.animations) 280 else 0), label = "a")
-                        Text(
-                            buildAnnotatedString {
-                                withStyle(SpanStyle(fontSize = 0.62.em, color = MaterialTheme.colorScheme.primary, baselineShift = BaselineShift(0.35f), fontWeight = FontWeight.Bold)) {
-                                    append("${line.verse.verse} ")
-                                }
-                                append(line.verse.text)
-                            },
-                            style = textStyle,
-                            color = MaterialTheme.colorScheme.onBackground,
-                            modifier = Modifier.alpha(a),
+                        VerseText(
+                            line.verse, textStyle,
+                            alpha = a,
+                            highlighted = !focusMode && pos == speaking,
+                            favorite = line.verse.key() in favorites,
+                            onTap = advance,
+                            onLongPress = { onToggleFavorite(line.verse); fb.correct() },
                         )
                     }
                 }
@@ -284,6 +327,67 @@ private fun ReviewStep(state: SessionState, onSolved: (Boolean) -> Unit, onDone:
         Text("Eine Frage aus „${r.sectionTitle}“ – zum Warmwerden.", color = MaterialTheme.colorScheme.onSurfaceVariant)
         QuizView(r.quiz, key = "review-${r.planId}-${r.sectionId}-${r.index}", verses = emptyList(), onSolved = onSolved, onNext = onDone, nextLabel = "Jetzt lesen")
         TextButton(onClick = onDone, modifier = Modifier.align(Alignment.CenterHorizontally)) { Text("Überspringen") }
+        Spacer(Modifier.height(32.dp))
+    }
+}
+
+// ───────────────────────── Memory verse ─────────────────────────
+
+/** Tap the words of the memory verse in the right order. Wrong taps only shake – no penalty. */
+@Composable
+private fun MemoryStep(state: SessionState, onLearned: () -> Unit, onDone: (Boolean) -> Unit) {
+    val mv = state.section?.memoryVerse ?: return
+    val fb = LocalFeedback.current
+    val words = remember(mv) { mv.text.split(" ").filter { it.isNotBlank() } }
+    val shuffled = remember(mv) { words.indices.shuffled(kotlin.random.Random(mv.text.hashCode())) }
+    var placed by remember(mv) { mutableIntStateOf(0) }
+    var wrong by remember(mv) { mutableIntStateOf(-1) }
+    val shake = remember { androidx.compose.animation.core.Animatable(0f) }
+    LaunchedEffect(wrong) { if (wrong >= 0) { for (x in listOf(12f, -10f, 6f, 0f)) shake.animateTo(x, tween(50)) } }
+    val done = placed == words.size
+    val books = mv.ref
+    Column(
+        Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp, vertical = 8.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
+    ) {
+        Text("Merkvers", style = MaterialTheme.typography.headlineMedium)
+        Text(if (done) "Gemerkt – er ist jetzt bei deinen Lieblingsversen." else "Tippe die Wörter in der richtigen Reihenfolge an.", color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Surface(color = MaterialTheme.colorScheme.surfaceContainer, shape = RoundedCornerShape(16.dp), modifier = Modifier.fillMaxWidth()) {
+            Text(
+                words.take(placed).joinToString(" ").ifEmpty { "…" },
+                style = MaterialTheme.typography.titleLarge.copy(fontFamily = BibleFont),
+                modifier = Modifier.padding(18.dp),
+            )
+        }
+        val bookName = state.refLabel.substringBefore(';').substringBeforeLast(' ')
+        Text(
+            "$bookName ${books.chapter},${books.from}" + if (books.to != books.from) "–${books.to}" else "",
+            style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        if (!done) {
+            CompositionLocalProvider(LocalMinimumInteractiveComponentSize provides 0.dp) {
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    shuffled.filter { it >= placed }.forEach { i ->
+                        Surface(
+                            onClick = {
+                                // equal words (e.g. „und“) are interchangeable
+                                if (words[i] == words[placed]) { placed++; fb.tick(); if (placed == words.size) { fb.sectionDone(); onLearned() } }
+                                else { wrong = i; fb.tryAgain() }
+                            },
+                            shape = RoundedCornerShape(12.dp),
+                            color = MaterialTheme.colorScheme.surface,
+                            border = androidx.compose.foundation.BorderStroke(1.dp, MaterialTheme.colorScheme.outline.copy(alpha = 0.6f)),
+                            modifier = if (i == wrong) Modifier.offset { androidx.compose.ui.unit.IntOffset(shake.value.toInt(), 0) } else Modifier,
+                        ) {
+                            Text(words[i], Modifier.padding(horizontal = 14.dp, vertical = 10.dp), style = MaterialTheme.typography.bodyLarge)
+                        }
+                    }
+                }
+            }
+            TextButton(onClick = { onDone(false) }, modifier = Modifier.align(Alignment.CenterHorizontally)) { Text("Überspringen") }
+        } else {
+            Button(onClick = { onDone(true) }, modifier = Modifier.fillMaxWidth().height(56.dp)) { Text("Weiter") }
+        }
         Spacer(Modifier.height(32.dp))
     }
 }
@@ -388,7 +492,10 @@ private fun RecapStep(state: SessionState, onSolved: () -> Unit, onNext: () -> U
 // ───────────────────────── Done ─────────────────────────
 
 @Composable
-private fun DoneStep(state: SessionState, onClose: () -> Unit, onAnother: () -> Unit, onChoosePlan: () -> Unit) {
+private fun DoneStep(
+    state: SessionState, onClose: () -> Unit, onAnother: () -> Unit, onChoosePlan: () -> Unit,
+    onTag: (String) -> Unit, onNote: (String) -> Unit,
+) {
     val section = state.section
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp, vertical = 8.dp),
@@ -413,6 +520,7 @@ private fun DoneStep(state: SessionState, onClose: () -> Unit, onAnother: () -> 
             section?.let { Text("„${it.title}“ gelesen.", color = MaterialTheme.colorScheme.onSurfaceVariant) }
         }
 
+        if (section != null && !state.nothingLeft) Reflection(state, onTag, onNote)
         section?.tryIt?.let {
             InfoCard("Heute ausprobieren", it)
         }
@@ -448,6 +556,30 @@ private fun DoneStep(state: SessionState, onClose: () -> Unit, onAnother: () -> 
             TextButton(onClick = onAnother) { Text("Noch ein Abschnitt") }
         }
         Spacer(Modifier.height(24.dp))
+    }
+}
+
+/** „Was nimmst du mit?“ – one tap is enough, a own thought is optional. Collected in the journal. */
+@Composable
+private fun Reflection(state: SessionState, onTag: (String) -> Unit, onNote: (String) -> Unit) {
+    var writing by remember { mutableStateOf(state.reflectionNote.isNotBlank()) }
+    Surface(color = MaterialTheme.colorScheme.surfaceContainer, shape = RoundedCornerShape(16.dp), modifier = Modifier.fillMaxWidth()) {
+        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text("Was nimmst du mit?", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.secondary)
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                REFLECTION_TAGS.forEach { (id, label) ->
+                    FilterChip(selected = id in state.reflectionTags, onClick = { onTag(id) }, label = { Text(label) })
+                }
+                FilterChip(selected = writing, onClick = { writing = !writing }, label = { Text("eigener Gedanke …") })
+            }
+            if (writing) {
+                OutlinedTextField(
+                    value = state.reflectionNote, onValueChange = onNote,
+                    placeholder = { Text("Ein Satz reicht.") }, modifier = Modifier.fillMaxWidth(), minLines = 2,
+                )
+            }
+            Text("Wird in deinem Tagebuch gesammelt – nur für dich.", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
     }
 }
 

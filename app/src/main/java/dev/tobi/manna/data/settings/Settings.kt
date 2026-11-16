@@ -24,6 +24,8 @@ data class Settings(
     val calm: Boolean = false,
     val textScale: Float = 1f,
     val theme: ThemeMode = ThemeMode.SYSTEM,
+    /** Read-aloud speed (0.7–1.4). */
+    val ttsRate: Float = 1f,
     /** Empty = not chosen yet; resolved via PlanIndex.resolve(). */
     val activePlan: String = "",
 
@@ -64,6 +66,7 @@ class SettingsRepository(private val context: Context) {
         val calm = booleanPreferencesKey("calm")
         val textScale = floatPreferencesKey("text_scale")
         val theme = stringPreferencesKey("theme")
+        val ttsRate = floatPreferencesKey("tts_rate")
         val activePlan = stringPreferencesKey("active_plan")
         val remindersOn = booleanPreferencesKey("reminders_on")
         val reminderSetupSeen = booleanPreferencesKey("reminder_setup_seen")
@@ -99,6 +102,7 @@ class SettingsRepository(private val context: Context) {
             calm = p[K.calm] ?: d.calm,
             textScale = p[K.textScale] ?: d.textScale,
             theme = p[K.theme]?.let { runCatching { ThemeMode.valueOf(it) }.getOrNull() } ?: d.theme,
+            ttsRate = p[K.ttsRate] ?: d.ttsRate,
             activePlan = p[K.activePlan] ?: d.activePlan,
             remindersOn = p[K.remindersOn] ?: d.remindersOn,
             reminderSetupSeen = p[K.reminderSetupSeen] ?: d.reminderSetupSeen,
@@ -121,6 +125,7 @@ class SettingsRepository(private val context: Context) {
         p[K.calm] = n.calm
         p[K.textScale] = n.textScale
         p[K.theme] = n.theme.name
+        p[K.ttsRate] = n.ttsRate
         p[K.activePlan] = n.activePlan
         p[K.remindersOn] = n.remindersOn
         p[K.reminderSetupSeen] = n.reminderSetupSeen

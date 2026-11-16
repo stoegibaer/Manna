@@ -12,13 +12,25 @@ import dev.tobi.manna.data.plan.Ref
 import dev.tobi.manna.data.plan.Section
 import dev.tobi.manna.data.plan.resolve
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
+import dev.tobi.manna.ui.components.key
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlin.math.ceil
 
-enum class Step { REVIEW, READ, QUIZ, REWARD, RECAP, DONE }
+enum class Step { REVIEW, READ, QUIZ, REWARD, MEMORY, RECAP, DONE }
+
+/** Reflection chips after a section. */
+val REFLECTION_TAGS = listOf(
+    "trost" to "hat mich getröstet",
+    "herausfordernd" to "fordert mich heraus",
+    "frage" to "verstehe ich noch nicht",
+    "merken" to "will ich mir merken",
+)
 
 /** A due question shown as „Erinnerst du dich?“ before reading. */
 data class ReviewItem(val planId: String, val sectionId: String, val index: Int, val quiz: Quiz, val sectionTitle: String)
@@ -59,6 +71,8 @@ data class SessionState(
     /** „Viel Energie“: keep going until the end of the stage. */
     val more: Boolean = false,
     val review: ReviewItem? = null,
+    val reflectionTags: Set<String> = emptySet(),
+    val reflectionNote: String = "",
 ) {
     val verses: List<Verse> get() = lines.filterIsInstance<Line.V>().map { it.verse }
 }
@@ -77,6 +91,39 @@ fun refLabel(refs: List<Ref>, bookName: (Int) -> String): String {
 
 class SessionViewModel(private val c: AppContainer, private val more: Boolean = false) : ViewModel() {
     private var reviewOffered = false
+
+    val favorites = c.progress.favorites
+        .map { list -> list.map { Triple(it.book, it.chapter, it.verse) }.toSet() }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptySet())
+
+    fun toggleFavorite(v: Verse) {
+        val on = v.key() !in favorites.value
+        viewModelScope.launch { c.progress.setFavorite(v.book, v.chapter, v.verse, on) }
+    }
+
+    fun toggleTag(tag: String) {
+        _state.update { s -> s.copy(reflectionTags = if (tag in s.reflectionTags) s.reflectionTags - tag else s.reflectionTags + tag) }
+        saveReflection()
+    }
+
+    fun setNote(note: String) = _state.update { it.copy(reflectionNote = note) }
+
+    /** Saved on every chip tap and when leaving the done screen. Empty reflections are not stored. */
+    fun saveReflection() {
+        val s = _state.value
+        val plan = s.plan ?: return
+        val section = s.section ?: return
+        if (s.reflectionTags.isEmpty() && s.reflectionNote.isBlank()) return
+        viewModelScope.launch { c.progress.saveJournal(plan.id, section.id, section.title, s.reflectionTags, s.reflectionNote) }
+    }
+
+    fun memoryDone(learned: Boolean) {
+        val mv = _state.value.section?.memoryVerse
+        if (learned && mv != null) viewModelScope.launch {
+            for (v in mv.ref.from..mv.ref.to) c.progress.setFavorite(mv.ref.book, mv.ref.chapter, v, true, "memory")
+        }
+        _state.update { it.copy(step = if (it.recap != null) Step.RECAP else Step.DONE) }
+    }
     private val _state = MutableStateFlow(SessionState())
     val state: StateFlow<SessionState> = _state
 
@@ -156,6 +203,7 @@ class SessionViewModel(private val c: AppContainer, private val more: Boolean = 
         if (isNew) c.logReading(verses = 0, sections = 1)
         val newCardIds = c.progress.unlockCards(plan.id, section.cards)
         val (recap, stageTitle) = buildRecap(plan, section)
+        val journal = c.progress.journalFor(plan.id, section.id)
         _state.update {
             it.copy(
                 step = Step.REWARD,
@@ -165,6 +213,8 @@ class SessionViewModel(private val c: AppContainer, private val more: Boolean = 
                 recap = recap,
                 recapStageTitle = stageTitle,
                 planFinished = it.next == null,
+                reflectionTags = journal?.tags?.split(',')?.filter { t -> t.isNotBlank() }?.toSet().orEmpty(),
+                reflectionNote = journal?.note.orEmpty(),
             )
         }
     }
@@ -209,12 +259,19 @@ class SessionViewModel(private val c: AppContainer, private val more: Boolean = 
 
     fun reviewDone() = _state.update { it.copy(step = Step.READ, review = null) }
 
-    fun rewardContinue() = _state.update { it.copy(step = if (it.recap != null) Step.RECAP else Step.DONE) }
+    fun rewardContinue() = _state.update {
+        it.copy(step = when {
+            it.section?.memoryVerse != null -> Step.MEMORY
+            it.recap != null -> Step.RECAP
+            else -> Step.DONE
+        })
+    }
 
     fun recapDone() = _state.update { it.copy(step = Step.DONE) }
 
     /** "Noch einer?" – load the next section in place. */
     fun another() {
+        saveReflection()
         _state.value = SessionState()
         viewModelScope.launch { load() }
     }

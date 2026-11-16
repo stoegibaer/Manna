@@ -1,21 +1,22 @@
 # Auftrag für Claude Code auf dem LLM-Server: Vorlese-Audios erzeugen
 
 > Diesen gesamten Text (ab „Prompt“) in Claude Code auf dem LLM-Server einfügen.
-> Die Eingabedatei `tts_input.json` erzeugt das BibleApp-Projekt (`tools/export_tts_input.py`, folgt in Etappe M4) und kopierst du vorher auf den Server.
+> Die Eingabedatei erzeugst du im BibleApp-Projekt mit `python3 -I tools/export_tts_input.py` (→ `tts_input.json`, aktuell 493 Verse ≈ 80 min) und kopierst sie vorher auf den Server.
+> Das fertige Archiv kopierst du zurück; der Inhalt von `out/elbbk/` kommt nach `app/src/main/assets/audio/elbbk/`.
 
 ---
 
 ## Prompt
 
-Ich entwickle eine Android-Bibel-App für Menschen mit ADHS. Die App liest Bibeltexte vor und markiert dabei den aktuellen Vers. Du sollst auf diesem Server mit der **besten hier verfügbaren deutschen TTS-Stimme** die Audiodateien dafür erzeugen. Welche TTS-Software installiert ist, ändert sich oft. Schau also selbst nach, was vorhanden ist und funktioniert, und wähle das Beste für natürliches Deutsch. Der Text ist die Elberfelder Bibel von 1905 und gemeinfrei.
+Ich entwickle eine Android-Bibel-App für Menschen mit ADHS. Die App liest Bibeltexte vor und markiert dabei den aktuellen Vers. Du sollst auf diesem Server mit der **besten hier verfügbaren deutschen TTS-Stimme** die Audiodateien dafür erzeugen. Welche TTS-Software installiert ist, ändert sich oft. Schau also selbst nach, was vorhanden ist und funktioniert, und wähle das Beste für natürliches Deutsch. Der Text ist die Elberfelder Übersetzung (Edition bibelkommentare.de, © 2019 Verbreitung des christlichen Glaubens e.V., CC BY-NC-ND 4.0). Die Lizenz erlaubt nicht-kommerzielle Weitergabe in jedem Format – **der Wortlaut darf dabei nicht verändert werden**: keine Wörter auslassen, ergänzen oder umformulieren (auch nicht für die Aussprache; Aussprachehilfen nur engine-intern).
 
 ### Eingabe
 Die Datei `tts_input.json` hat dieses Format:
 ```json
 {
-  "translation": "elb1905",
+  "translation": "elbbk",
   "items": [
-    { "id": "35_001_001", "text": "Der Ausspruch, welchen Habakuk, der Prophet, geschaut hat.", "book": 35, "chapter": 1, "verse": 1 }
+    { "id": "35_001_001", "text": "Der Ausspruch, den Habakuk, der Prophet, geschaut hat.", "book": 35, "chapter": 1, "verse": 1 }
   ],
   "lexicon": { "Habakuk": "Ha-ba-kuk", "Chaldäer": "Kal-dä-er" }
 }
@@ -27,17 +28,17 @@ Die Datei `tts_input.json` hat dieses Format:
 ### Anforderungen an die Stimme
 - **Eine einzige, gleichbleibende Stimme** für alle Verse, ruhig, warm und natürlich. Bitte nicht theatralisch, nicht predigthaft und kein Nachrichtensprecher-Ton.
 - Normales Lesetempo (ca. 140–160 Wörter pro Minute) mit natürlicher Betonung, auch bei wörtlicher Rede in Anführungszeichen.
-- Alte Schreibweisen wie „daß“, „Weib“, „verdolmetscht“ oder „Jesaias“ ganz normal aussprechen.
+- Besonderheiten wie „HERR“ (wie „Herr“), Klammern wie „[und]“ (Inhalt normal mitlesen) ganz normal aussprechen.
 
 ### Ausgabe
-- Ordner `out/<translation>/` mit **einer Datei pro Vers**: `out/elb1905/<id>.ogg`.
+- Ordner `out/<translation>/` mit **einer Datei pro Vers**: `out/elbbk/<id>.ogg`.
 - Format **Ogg Opus, mono, 48 kHz, ca. 32 kbit/s**.
 - **Lautheit** auf ca. −16 LUFS integriert normalisieren (True Peak ≤ −1,5 dBTP), z. B. per `ffmpeg loudnorm` in zwei Durchgängen.
 - **Stille** am Anfang und Ende auf ca. 80–120 ms kürzen. Die App setzt die Pausen zwischen den Versen selbst.
 - Datei `out/<translation>/manifest.json`:
 ```json
 {
-  "translation": "elb1905",
+  "translation": "elbbk",
   "engine": "<Software + Modell + Version>",
   "voice": "<Stimmenname/-ID>",
   "generated": "<ISO-Datum>",

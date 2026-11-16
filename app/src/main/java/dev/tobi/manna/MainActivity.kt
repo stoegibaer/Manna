@@ -28,6 +28,10 @@ import dev.tobi.manna.data.settings.Settings
 import dev.tobi.manna.reminder.Dnd
 import dev.tobi.manna.reminder.Reminders
 import dev.tobi.manna.ui.album.AlbumScreen
+import dev.tobi.manna.ui.bible.BibleViewModel
+import dev.tobi.manna.ui.bible.BooksScreen
+import dev.tobi.manna.ui.bible.ChapterScreen
+import dev.tobi.manna.ui.bible.ChaptersScreen
 import dev.tobi.manna.ui.album.AlbumViewModel
 import dev.tobi.manna.ui.components.LocalFeedback
 import dev.tobi.manna.ui.components.rememberFeedback
@@ -126,7 +130,28 @@ class MainActivity : ComponentActivity() {
                             }
                             composable("plans") {
                                 val vm: PlansViewModel = viewModel(factory = viewModelFactory { initializer { PlansViewModel(c) } })
-                                PlansScreen(vm, onChosen = { id -> scope.launch { vm.choose(id); home() } }, onBack = { nav.popBackStack() })
+                                PlansScreen(vm, onChosen = { id -> scope.launch { vm.choose(id); home() } }, onBible = { nav.navigate("bible") }, onBack = { nav.popBackStack() })
+                            }
+                            composable("bible") {
+                                val vm: BibleViewModel = viewModel(factory = viewModelFactory { initializer { BibleViewModel(c) } })
+                                BooksScreen(vm, onBook = { nav.navigate("bible/$it") }, onBack = { nav.popBackStack() })
+                            }
+                            composable("bible/{book}", arguments = listOf(navArgument("book") { type = NavType.IntType })) { e ->
+                                val vm: BibleViewModel = viewModel(factory = viewModelFactory { initializer { BibleViewModel(c) } })
+                                val book = e.arguments!!.getInt("book")
+                                ChaptersScreen(vm, book, onChapter = { nav.navigate("bible/$book/$it") }, onBack = { nav.popBackStack() })
+                            }
+                            composable(
+                                "bible/{book}/{chapter}",
+                                arguments = listOf(navArgument("book") { type = NavType.IntType }, navArgument("chapter") { type = NavType.IntType }),
+                            ) { e ->
+                                val vm: BibleViewModel = viewModel(factory = viewModelFactory { initializer { BibleViewModel(c) } })
+                                val book = e.arguments!!.getInt("book")
+                                ChapterScreen(
+                                    vm, settings, book, e.arguments!!.getInt("chapter"),
+                                    onChapter = { ch -> nav.navigate("bible/$book/$ch") { popUpTo("bible/$book") } },
+                                    onBack = { nav.popBackStack() },
+                                )
                             }
                             composable("album") {
                                 val vm: AlbumViewModel = viewModel(factory = viewModelFactory { initializer { AlbumViewModel(c) } })
