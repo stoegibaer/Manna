@@ -1,0 +1,2033 @@
+{
+  "id": "mit-gott-leben",
+  "title": "Mit Gott leben",
+  "subtitle": "Wie Beziehung mit Gott aussieht",
+  "description": "Wen nennt die Bibel einen Freund Gottes? Was ist Gott wichtig? Wie reden Menschen mit ihm – im Alltag, in der Not, wenn er fern scheint? 27 kurze Abschnitte, in denen biblische Menschen mit Gott leben. Fragen und Hintergrund statt Antworten von außen.",
+  "direction": "leben",
+  "basis": "elbbk",
+  "stages": [
+    {
+      "id": "freunde",
+      "title": "Freunde Gottes"
+    },
+    {
+      "id": "wichtig",
+      "title": "Was Gott wichtig ist"
+    },
+    {
+      "id": "reden",
+      "title": "Mit Gott reden"
+    },
+    {
+      "id": "alltag",
+      "title": "Im Alltag"
+    },
+    {
+      "id": "fern",
+      "title": "Wenn Gott fern scheint"
+    },
+    {
+      "id": "lieben",
+      "title": "Gott lieben – Menschen lieben"
+    }
+  ],
+  "cards": [
+    {
+      "id": "freund-gottes",
+      "type": "begriff",
+      "name": "Freund Gottes",
+      "text": "So nennt die Bibel ausdrücklich Abraham (2Chr 20,7; Jes 41,8; Jak 2,23). Von Mose heißt es, Gott rede mit ihm wie mit einem Freund (2Mo 33,11). Jesus nennt seine Jünger Freunde (Joh 15,15). In der islamischen Tradition trägt Abraham bis heute den Beinamen „Freund Gottes“ (al-Chalil).",
+      "refs": "Jes 41,8; Jak 2,23; Joh 15,15"
+    },
+    {
+      "id": "wandeln",
+      "type": "begriff",
+      "name": "Wandeln",
+      "text": "Ein biblisches Bild für die Art, wie jemand lebt: „mit Gott wandeln“, „auf seinen Wegen gehen“. Im späteren Judentum heißt die Lehre vom richtigen Leben „Halacha“ – vom hebräischen Wort für „gehen“.",
+      "refs": "1Mo 5,24; 6,9; Mi 6,8"
+    },
+    {
+      "id": "henoch",
+      "type": "person",
+      "name": "Henoch",
+      "text": "Siebter Mensch in der Geschlechterfolge von Adam, Vater Methusalems. Die Bibel sagt über ihn nur, dass er mit Gott wandelte und nicht starb, sondern „nicht mehr war“. Hebräer 11,5 zählt ihn zu den Vorbildern des Glaubens. Nach ihm sind spätere jüdische Schriften benannt, die nicht zur Bibel gehören (das Henochbuch, zitiert in Jud 14).",
+      "refs": "1Mo 5,21–24; Hebr 11,5"
+    },
+    {
+      "id": "zelt-begegnung",
+      "type": "begriff",
+      "name": "Zelt der Begegnung",
+      "text": "Ein Zelt außerhalb des Lagers, in dem Mose Gott begegnete; die Elberfelder nennt es „Zelt der Zusammenkunft“. Später heißt so auch das große Heiligtum (Stiftshütte), in dem die Bundeslade stand. Wer den HERRN suchen wollte, konnte hinausgehen.",
+      "refs": "2Mo 33,7–11"
+    },
+    {
+      "id": "chesed",
+      "type": "begriff",
+      "name": "Chesed",
+      "text": "Ein hebräisches Schlüsselwort, schwer zu übersetzen: Treue, Güte, Liebe, Verlässlichkeit in einer Beziehung. Die Elberfelder übersetzt je nach Stelle „Gnade“, „Güte“ oder „Frömmigkeit“, Luther oft „Liebe“ oder „Barmherzigkeit“. Es steht über 240-mal im Alten Testament.",
+      "refs": "Hos 6,6; Mi 6,8; Ps 136"
+    },
+    {
+      "id": "fasten",
+      "type": "begriff",
+      "name": "Fasten",
+      "text": "Bewusster Verzicht auf Essen für eine Zeit, im Alten Testament oft verbunden mit Trauer, Buße oder dringendem Gebet. Am Versöhnungstag war es für ganz Israel vorgeschrieben (3Mo 16,29). Jesus setzt voraus, dass seine Jünger fasten werden (Mt 6,16; Mk 2,20).",
+      "refs": "Jes 58; Mt 6,16–18"
+    },
+    {
+      "id": "hanna",
+      "type": "person",
+      "name": "Hanna",
+      "text": "Frau des Elkana aus dem Gebirge Ephraim, lange kinderlos und von der zweiten Frau ihres Mannes gekränkt. Sie betet im Heiligtum von Silo um einen Sohn und bekommt Samuel, den späteren Propheten. Ihr Danklied (1Sam 2,1–10) klingt im Lobgesang der Maria nach (Lk 1,46–55).",
+      "refs": "1Sam 1–2"
+    },
+    {
+      "id": "vaterunser",
+      "type": "begriff",
+      "name": "Vaterunser",
+      "text": "Das Gebet, das Jesus seine Jünger lehrt, in zwei Fassungen überliefert (Mt 6,9–13; Lk 11,2–4). Der Schluss „Denn dein ist das Reich …“ steht nicht in den ältesten Handschriften, wurde aber früh im Gottesdienst gebetet. Die Didache, eine Gemeindeordnung um 100 n. Chr., empfiehlt, es dreimal am Tag zu beten.",
+      "refs": "Mt 6,9–13; Lk 11,2–4"
+    },
+    {
+      "id": "daniel",
+      "type": "person",
+      "name": "Daniel",
+      "text": "Als junger Mann aus Jerusalem nach Babylon verschleppt und dort am Hof ausgebildet. Er dient mehreren Königen, auch nach dem Fall Babylons an die Perser. Das Buch erzählt von seiner Treue im Alltag eines fremden Landes und überliefert seine Visionen.",
+      "refs": "Dan 1; 6"
+    },
+    {
+      "id": "gebetszeiten",
+      "type": "begriff",
+      "name": "Gebetszeiten",
+      "text": "Schon im Alten Testament gibt es feste Zeiten: morgens, mittags, abends (Ps 55,18; Dan 6,11). Die ersten Christen gingen zur Gebetsstunde in den Tempel (Apg 3,1). Daraus entstand das Stundengebet der Klöster und Kirchen. Viele Freikirchen kennen die „Stille Zeit“ am Morgen, andere beten frei, wann es sich ergibt.",
+      "refs": "Ps 55,18; Dan 6,11; Apg 3,1"
+    },
+    {
+      "id": "marta-maria",
+      "type": "person",
+      "name": "Marta und Maria",
+      "text": "Zwei Schwestern, bei denen Jesus einkehrt. Nach dem Johannesevangelium wohnten sie mit ihrem Bruder Lazarus in Betanien bei Jerusalem. Dort ist es Marta, die das Bekenntnis zu Jesus als Christus ausspricht (Joh 11,27), und Maria, die ihn mit Öl salbt (Joh 12,3).",
+      "refs": "Lk 10,38–42; Joh 11–12"
+    },
+    {
+      "id": "kohelet",
+      "type": "begriff",
+      "name": "Prediger (Kohelet)",
+      "text": "Hebräisch Kohelet, etwa „der zur Versammlung spricht“. Das Buch prüft nüchtern, was im Leben bleibt, und nennt vieles „Hauch“ (Elberfelder: „Eitelkeit“). Gelesen wird es sehr verschieden: als Buch des Zweifels, als Weisheit für ein Leben ohne Illusionen oder als Einladung, das Leben aus Gottes Hand zu nehmen.",
+      "refs": "Pred 1,2; 9,7–10; 12,13"
+    },
+    {
+      "id": "korachiter",
+      "type": "begriff",
+      "name": "Söhne Korachs",
+      "text": "Eine Familie von Tempelsängern aus dem Stamm Levi. Elf Psalmen tragen ihren Namen: Ps 42; 44–49; 84–85; 87–88. Ihr Stammvater Korach hatte sich gegen Mose aufgelehnt (4Mo 16) – seine Söhne aber starben nicht (4Mo 26,11).",
+      "refs": "Ps 42; 84; 4Mo 26,11"
+    },
+    {
+      "id": "asaf",
+      "type": "person",
+      "name": "Asaf",
+      "text": "Ein Levit und Sänger zur Zeit Davids (1Chr 16,4–7). Zwölf Psalmen tragen seinen Namen (Ps 50; 73–83), viele davon ringen mit der Frage, warum es Gottlosen gut geht und Gottes Volk leidet.",
+      "refs": "Ps 73; 1Chr 16,5"
+    },
+    {
+      "id": "weinstock",
+      "type": "begriff",
+      "name": "Weinstock",
+      "text": "Im Alten Testament ein Bild für Israel, das Gott gepflanzt hat (Ps 80,9; Jes 5,1–7). Ein Weinstock braucht jahrelange Pflege, bevor er Frucht bringt, und wird jedes Jahr zurückgeschnitten. Jesus nennt sich selbst den „wahren“ Weinstock.",
+      "refs": "Joh 15,1–8; Jes 5,1–7"
+    }
+  ],
+  "sections": [
+    {
+      "id": "mgl-01",
+      "stage": "freunde",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 5,
+          "from": 21,
+          "to": 24
+        },
+        {
+          "book": 1,
+          "chapter": 6,
+          "from": 9,
+          "to": 9
+        }
+      ],
+      "title": "Mit Gott gehen",
+      "summary": "In einer langen Liste von Namen und Lebensjahren steht plötzlich etwas anderes: Henoch wandelte mit Gott – und war nicht mehr, denn Gott nahm ihn. Später wird dasselbe über Noah gesagt.",
+      "bridge": "Dieser Plan liest Texte, in denen Menschen mit Gott leben. Er beginnt in einer Liste, die die meisten überblättern: der Geschlechterfolge von Adam bis Noah in 1. Mose 5.",
+      "focus": "Achte darauf, welcher Satz in dieser Liste nicht wie die anderen klingt.",
+      "quiz": [
+        {
+          "type": "truefalse",
+          "q": "Der Text erzählt ausführlich, was Henoch getan hat.",
+          "answer": false,
+          "explain": "V. 22 und 24: Zweimal steht nur, dass er mit Gott wandelte. Was das konkret hieß, sagt der Text nicht.",
+          "hint": "Lies Vers 22 und 24.",
+          "verse": 24
+        },
+        {
+          "type": "choice",
+          "q": "Was geschieht am Ende mit Henoch?",
+          "options": [
+            "Er war nicht mehr, denn Gott nahm ihn weg",
+            "Er starb alt und lebenssatt",
+            "Er wurde in seinem Garten begraben",
+            "Er zog in ein fernes Land"
+          ],
+          "answer": 0,
+          "explain": "V. 24: Bei fast allen anderen in der Liste heißt es „und er starb“ – bei Henoch nicht.",
+          "hint": "Lies Vers 24.",
+          "verse": 24
+        },
+        {
+          "type": "choice",
+          "q": "Was sagt 6,9 über Noah?",
+          "options": [
+            "Er war gerecht, vollkommen unter seinen Zeitgenossen und wandelte mit Gott",
+            "Er war der älteste Mensch seiner Zeit",
+            "Er baute als Erster einen Altar",
+            "Er war Priester des Höchsten"
+          ],
+          "answer": 0,
+          "explain": "6,9: dieselbe Wendung wie bei Henoch – er wandelte mit Gott.",
+          "hint": "Lies 6,9."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „wandeln“?",
+          "a": "Ein altes Wort für „gehen, umhergehen“. Im Hebräischen steht eine Form, die ein dauerndes Hin- und Hergehen ausdrückt – dieselbe Form, mit der Gott im Garten „wandelt“ (1Mo 3,8)."
+        },
+        {
+          "q": "Was ist mit Henoch passiert?",
+          "a": "Der Text sagt nur: Gott nahm ihn. Hebräer 11,5 versteht das so, dass er den Tod nicht sah. Ähnlich wird später Elia in den Himmel aufgenommen (2Kön 2,11)."
+        },
+        {
+          "q": "Warum diese langen Lebensjahre?",
+          "a": "Christen lesen die Zahlen verschieden: als tatsächliche Lebensalter, als Zahlen mit symbolischem Wert oder als Ausdruck einer anderen Zeit vor der Flut. Henochs 365 Jahre entsprechen den Tagen eines Sonnenjahres – ob das gewollt ist, weiß man nicht."
+        }
+      ],
+      "cards": [
+        "wandeln",
+        "henoch"
+      ],
+      "teaser": "Gott will etwas tun – und fragt sich laut, ob er es vor Abraham verbergen soll."
+    },
+    {
+      "id": "mgl-02",
+      "stage": "freunde",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 18,
+          "from": 16,
+          "to": 21
+        }
+      ],
+      "title": "Soll ich es verbergen?",
+      "summary": "Die drei Männer brechen nach Sodom auf, Abraham begleitet sie ein Stück. Gott überlegt laut, ob er vor Abraham verbergen soll, was er vorhat – und weiht ihn ein.",
+      "bridge": "Gott ist Abraham in Gestalt von drei Männern begegnet und hat ihm einen Sohn versprochen (1Mo 18,1–15). Nun brechen die Männer auf.",
+      "place": "mamre",
+      "focus": "Achte darauf, mit wem Gott in V. 17 eigentlich spricht.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Warum will Gott Abraham einweihen?",
+          "options": [
+            "Weil Abraham ein großes Volk werden und seinen Kindern den Weg des HERRN lehren soll",
+            "Weil Abraham in Sodom wohnt",
+            "Weil Abraham ihn darum gebeten hat",
+            "Weil Lot sein Neffe ist"
+          ],
+          "answer": 0,
+          "explain": "V. 18–19: Abraham soll seinen Nachkommen Gerechtigkeit und Recht weitergeben.",
+          "hint": "Lies Vers 17–19.",
+          "verse": 19
+        },
+        {
+          "type": "truefalse",
+          "q": "Gott sagt, er wolle hinabgehen und selbst sehen, wie es in Sodom steht.",
+          "answer": true,
+          "explain": "V. 21: Er will sehen, ob das Geschrei stimmt – und wenn nicht, will er es wissen.",
+          "hint": "Lies Vers 21.",
+          "verse": 21
+        }
+      ],
+      "explain": [
+        {
+          "q": "Mit wem redet Gott in V. 17?",
+          "a": "Offenbar mit sich selbst – der Leser hört Gottes Überlegung mit. Ob Abraham sie hört, sagt der Text nicht. Erst in V. 20 spricht Gott ihn an."
+        },
+        {
+          "q": "Warum muss Gott „hinabgehen und sehen“?",
+          "a": "Die Bibel beschreibt Gott oft in menschlichen Bildern. Ausleger verstehen das meist so: Gott urteilt nicht nach Hörensagen. Ähnlich beim Turmbau zu Babel (1Mo 11,5)."
+        }
+      ],
+      "cards": [
+        "freund-gottes"
+      ],
+      "teaser": "Abraham bleibt stehen – und beginnt zu verhandeln."
+    },
+    {
+      "id": "mgl-03",
+      "stage": "freunde",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 18,
+          "from": 22,
+          "to": 33
+        }
+      ],
+      "title": "Abraham verhandelt",
+      "summary": "Abraham bleibt vor Gott stehen und fragt: Willst du den Gerechten mit dem Gottlosen umbringen? Von 50 Gerechten handelt er Gott bis auf 10 herunter.",
+      "place": "mamre",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was hält Abraham Gott in V. 25 entgegen?",
+          "options": [
+            "Der Richter der ganzen Erde muss doch Recht üben",
+            "Lot ist mein Neffe",
+            "Du hast mir das Land versprochen",
+            "Die Stadt hat dir Opfer gebracht"
+          ],
+          "answer": 0,
+          "explain": "V. 25: Sollte der Richter der ganzen Erde nicht Recht üben?",
+          "hint": "Lies Vers 25.",
+          "verse": 25
+        },
+        {
+          "type": "order",
+          "q": "In welchen Schritten verhandelt Abraham?",
+          "items": [
+            "50",
+            "45",
+            "40",
+            "30",
+            "20"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 24–31: 50, 45, 40, 30, 20 – und zuletzt 10 (V. 32)."
+        },
+        {
+          "type": "truefalse",
+          "q": "Gott wird zornig über Abrahams Fragen und beendet das Gespräch.",
+          "answer": false,
+          "explain": "V. 26–33: Gott geht auf jede Zahl ein. Er geht erst, als er mit Abraham ausgeredet hat (V. 33).",
+          "hint": "Lies Vers 26–33.",
+          "verse": 33
+        }
+      ],
+      "explain": [
+        {
+          "q": "Ändert Abraham Gottes Plan?",
+          "a": "Darüber denken Christen verschieden. Viele sagen: Gott lässt sich wirklich auf das Gespräch ein. Andere betonen, dass Gott schon wusste, wie es ausgeht, und Abraham so an seinem Denken teilhaben lässt. In 1Mo 19,29 heißt es: Gott gedachte an Abraham und rettete Lot."
+        },
+        {
+          "q": "Warum spricht Abraham von „Staub und Asche“?",
+          "a": "Eine Redewendung für die eigene Kleinheit und Vergänglichkeit (vgl. 1Mo 3,19; Hiob 42,6)."
+        }
+      ],
+      "fact": "In der jüdischen Tradition gilt diese Szene als Vorbild für Fürbitte: für andere eintreten, auch für Menschen, die einem fremd sind.",
+      "teaser": "Ein Zelt außerhalb des Lagers. Wer hineingeht, wird von allen beobachtet."
+    },
+    {
+      "id": "mgl-04",
+      "stage": "freunde",
+      "refs": [
+        {
+          "book": 2,
+          "chapter": 33,
+          "from": 7,
+          "to": 17
+        }
+      ],
+      "title": "Wie mit einem Freund",
+      "summary": "Mose schlägt ein Zelt außerhalb des Lagers auf. Dort redet Gott mit ihm von Angesicht zu Angesicht. Mose bittet: Lass mich deinen Weg wissen – und wenn du nicht mitgehst, dann führe uns nicht von hier weg.",
+      "bridge": "Israel hat am Sinai das goldene Kalb gemacht. Gott kündigt an, er werde einen Engel vor ihnen hersenden, selbst aber nicht mitziehen (2Mo 33,1–3).",
+      "place": "horeb",
+      "focus": "Achte darauf, was Mose von Gott erbittet – und was er ablehnt.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was tut das Volk, wenn Mose zum Zelt geht?",
+          "options": [
+            "Sie stehen am Eingang ihrer Zelte und schauen ihm nach",
+            "Sie folgen ihm hinein",
+            "Sie bringen Opfer dar",
+            "Sie gehen schlafen"
+          ],
+          "answer": 0,
+          "explain": "V. 8–10: Sie schauen ihm nach, und wenn die Wolkensäule kommt, werfen sie sich nieder.",
+          "hint": "Lies Vers 8–10.",
+          "verse": 8
+        },
+        {
+          "type": "whosaid",
+          "quote": "Wenn dein Angesicht nicht mitgeht, so führe uns nicht von hier hinauf.",
+          "quote_ref": {
+            "book": 2,
+            "chapter": 33,
+            "from": 15,
+            "to": 15
+          },
+          "options": [
+            "Mose",
+            "Josua",
+            "Aaron",
+            "Gott"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 15: Mose will lieber bleiben als ohne Gott weiterziehen."
+        },
+        {
+          "type": "truefalse",
+          "q": "Josua bleibt im Zelt, als Mose ins Lager zurückkehrt.",
+          "answer": true,
+          "explain": "V. 11: Der junge Josua weicht nicht aus dem Zelt.",
+          "hint": "Lies Vers 11.",
+          "verse": 11
+        }
+      ],
+      "explain": [
+        {
+          "q": "„Von Angesicht zu Angesicht“ – und doch nicht?",
+          "a": "Wenige Verse später sagt Gott, kein Mensch könne sein Angesicht sehen und leben (V. 20). Ausleger verstehen V. 11 meist als Ausdruck großer Nähe und direkter Rede, nicht als Schau von Gottes Gestalt."
+        },
+        {
+          "q": "Was heißt „mein Angesicht wird mitgehen“?",
+          "a": "„Angesicht“ steht für Gottes persönliche Gegenwart. Gott nimmt hier seine Ankündigung aus V. 3 zurück."
+        },
+        {
+          "q": "Was heißt „ich kenne dich mit Namen“?",
+          "a": "In der Bibel heißt „kennen“ oft mehr als wissen: eine persönliche Beziehung, Auswahl, Zuwendung (vgl. Jer 1,5)."
+        }
+      ],
+      "cards": [
+        "zelt-begegnung"
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 2,
+          "chapter": 33,
+          "from": 14,
+          "to": 14
+        },
+        "text": "Mein Angesicht wird mitgehen, und ich werde dir Ruhe geben."
+      },
+      "teaser": "Zwei Bibelstellen nennen Abraham „Freund Gottes“. Was haben sie im Blick?"
+    },
+    {
+      "id": "mgl-05",
+      "stage": "freunde",
+      "refs": [
+        {
+          "book": 23,
+          "chapter": 41,
+          "from": 8,
+          "to": 10
+        },
+        {
+          "book": 59,
+          "chapter": 2,
+          "from": 21,
+          "to": 24
+        }
+      ],
+      "title": "Abraham, mein Freund",
+      "summary": "Gott nennt Israel die Nachkommen Abrahams, „meines Freundes“, und sagt ihnen: Fürchte dich nicht, ich bin mit dir. Jakobus erklärt, warum Abraham Freund Gottes genannt wurde: Sein Glaube zeigte sich in seinem Tun.",
+      "bridge": "Jahrhunderte nach Abraham: Israel ist im Exil in Babylon. Ein Prophet im Buch Jesaja tröstet das Volk. Danach springt der Abschnitt ins Neue Testament, zum Jakobusbrief.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was sagt Gott in Jes 41,10 zu Israel?",
+          "options": [
+            "Fürchte dich nicht, ich bin mit dir",
+            "Kehrt um, sonst werdet ihr vernichtet",
+            "Baut den Tempel wieder auf",
+            "Zieht in ein anderes Land"
+          ],
+          "answer": 0,
+          "explain": "Jes 41,10: Fürchte dich nicht – ich stärke dich, ich helfe dir, ich stütze dich.",
+          "hint": "Lies Jes 41,10."
+        },
+        {
+          "type": "choice",
+          "q": "An welche Tat Abrahams erinnert Jakobus?",
+          "options": [
+            "Dass er Isaak auf dem Altar opferte",
+            "Dass er aus Haran aufbrach",
+            "Dass er für Sodom bat",
+            "Dass er Lot rettete"
+          ],
+          "answer": 0,
+          "explain": "Jak 2,21: die Bindung Isaaks (1Mo 22).",
+          "hint": "Lies Jak 2,21.",
+          "verse": 21
+        },
+        {
+          "type": "truefalse",
+          "q": "Jakobus zitiert den Satz, dass Abraham Gott glaubte und es ihm zur Gerechtigkeit gerechnet wurde.",
+          "answer": true,
+          "explain": "Jak 2,23 zitiert 1Mo 15,6 – denselben Vers, den auch Paulus anführt (Röm 4,3).",
+          "hint": "Lies Jak 2,23.",
+          "verse": 23
+        }
+      ],
+      "explain": [
+        {
+          "q": "Jakobus und Paulus – ein Widerspruch?",
+          "a": "Paulus sagt, der Mensch werde durch Glauben gerecht ohne Werke des Gesetzes (Röm 3,28), Jakobus: aus Werken und nicht aus Glauben allein (Jak 2,24). Evangelische Ausleger sagen meist: Beide meinen Verschiedenes mit „Werken“ und „gerecht“. Katholische Ausleger betonen, dass Glaube und Liebe zusammengehören. 1999 erklärten Lutheraner und Katholiken gemeinsam: Rechtfertigung geschieht aus Gnade, und gute Werke folgen ihr. Mehr im Plan „Gerecht vor Gott“."
+        },
+        {
+          "q": "Wo heißt Abraham noch „Freund“?",
+          "a": "In 2. Chronik 20,7 betet König Josafat: Du hast das Land den Nachkommen Abrahams, deines Freundes, gegeben."
+        }
+      ],
+      "teaser": "„Ich nenne euch nicht mehr Knechte.“ Was ist der Unterschied?"
+    },
+    {
+      "id": "mgl-06",
+      "stage": "freunde",
+      "refs": [
+        {
+          "book": 43,
+          "chapter": 15,
+          "from": 9,
+          "to": 17
+        }
+      ],
+      "title": "Ihr seid meine Freunde",
+      "summary": "Am letzten Abend sagt Jesus: Wie der Vater mich liebt, so liebe ich euch – bleibt in meiner Liebe. Er nennt seine Jünger nicht mehr Knechte, sondern Freunde, weil er ihnen alles gesagt hat, was er vom Vater gehört hat.",
+      "bridge": "Jesus ist mit seinen Jüngern beim letzten Mahl vor seiner Verhaftung (Joh 13–17). Johannes überliefert lange Abschiedsreden.",
+      "place": "jerusalem",
+      "focus": "Achte darauf, womit Jesus begründet, dass er sie Freunde nennt.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Warum nennt Jesus sie Freunde und nicht Knechte?",
+          "options": [
+            "Weil er ihnen alles mitgeteilt hat, was er vom Vater gehört hat",
+            "Weil sie ihn zuerst erwählt haben",
+            "Weil sie ihm treu geblieben sind",
+            "Weil sie mit ihm gegessen haben"
+          ],
+          "answer": 0,
+          "explain": "V. 15: Ein Knecht weiß nicht, was sein Herr tut – Freunden sagt man, was man vorhat.",
+          "hint": "Lies Vers 15.",
+          "verse": 15
+        },
+        {
+          "type": "truefalse",
+          "q": "Laut V. 16 haben die Jünger Jesus erwählt.",
+          "answer": false,
+          "explain": "V. 16: Umgekehrt – ich habe euch auserwählt.",
+          "hint": "Lies Vers 16.",
+          "verse": 16
+        },
+        {
+          "type": "choice",
+          "q": "Welches Gebot nennt Jesus hier?",
+          "options": [
+            "Dass ihr einander liebt, wie ich euch geliebt habe",
+            "Dass ihr den Sabbat haltet",
+            "Dass ihr täglich betet",
+            "Dass ihr alles verkauft"
+          ],
+          "answer": 0,
+          "explain": "V. 12 und 17: zweimal dasselbe – einander lieben.",
+          "hint": "Lies Vers 12 und 17.",
+          "verse": 12
+        }
+      ],
+      "explain": [
+        {
+          "q": "Bedingung oder Beschreibung?",
+          "a": "V. 14 sagt: Ihr seid meine Freunde, wenn ihr tut, was ich gebiete. Manche Ausleger lesen das als Bedingung, andere als Beschreibung dessen, woran man Freundschaft erkennt. V. 16 betont dagegen, dass die Wahl von Jesus ausging."
+        },
+        {
+          "q": "Erinnert V. 15 an Abraham?",
+          "a": "Gott fragt sich in 1Mo 18,17, ob er vor Abraham verbergen soll, was er tun will. Ob Johannes daran denkt, ist nicht sicher – die Parallele ist vielen Auslegern aufgefallen."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 43,
+          "chapter": 15,
+          "from": 9,
+          "to": 9
+        },
+        "text": "Wie der Vater mich geliebt hat, habe auch ich euch geliebt; bleibt in meiner Liebe."
+      },
+      "teaser": "Ein Psalm stellt eine Frage, auf die man eine fromme Antwort erwartet. Sie fällt anders aus."
+    },
+    {
+      "id": "mgl-07",
+      "stage": "wichtig",
+      "refs": [
+        {
+          "book": 19,
+          "chapter": 15,
+          "from": 1,
+          "to": 5
+        }
+      ],
+      "title": "Wer darf bei dir wohnen?",
+      "summary": "David fragt: HERR, wer darf in deinem Zelt weilen? Die Antwort ist eine Liste: aufrichtig leben, die Wahrheit sagen, nicht verleumden, Wort halten, kein Wucher, keine Bestechung.",
+      "bridge": "Neue Etappe: Was ist Gott wichtig? Psalm 15 wurde vermutlich beim Eintritt ins Heiligtum gesprochen – eine Frage am Tor und eine Antwort.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Welche Art von Antwort gibt der Psalm auf die Frage aus V. 1?",
+          "options": [
+            "Eine Liste von Verhaltensweisen im Umgang mit anderen",
+            "Eine Liste von Opfern",
+            "Eine Liste von Gebeten",
+            "Eine Liste von Festtagen"
+          ],
+          "answer": 0,
+          "explain": "V. 2–5: Fast alles betrifft Reden, Geld und den Umgang mit Mitmenschen.",
+          "hint": "Lies Vers 2–5.",
+          "verse": 2
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Wer in Gottes Zelt wohnen darf, redet die Wahrheit von [außen].",
+          "fix": "Herzen",
+          "verse": 2,
+          "hint": "Lies Vers 2.",
+          "explain": "V. 2: Wahrheit reden von Herzen."
+        },
+        {
+          "type": "truefalse",
+          "q": "Der Psalm erwähnt Opfer oder Rituale.",
+          "answer": false,
+          "explain": "Kein einziges Mal – obwohl es um das Heiligtum geht.",
+          "hint": "Lies den Psalm noch einmal.",
+          "verse": 5
+        }
+      ],
+      "explain": [
+        {
+          "q": "Zins und Bestechung?",
+          "a": "Das Gesetz verbot, armen Israeliten Geld gegen Zins zu leihen (2Mo 22,24; 3Mo 25,35–37). Bestechung von Richtern traf vor allem die, die sich nichts leisten konnten (2Mo 23,8)."
+        },
+        {
+          "q": "Wie lesen Christen solche Listen?",
+          "a": "Manche lesen sie als Beschreibung derer, die Gott schon angenommen hat, andere als Maßstab, an dem man sich messen soll. Ähnliche Fragen am Tempeltor stellen Ps 24,3–6 und Jes 33,14–16."
+        }
+      ],
+      "teaser": "Ein Volk singt ein schönes Lied über Umkehr. Gott antwortet: Was soll ich mit dir tun?"
+    },
+    {
+      "id": "mgl-08",
+      "stage": "wichtig",
+      "refs": [
+        {
+          "book": 28,
+          "chapter": 6,
+          "from": 1,
+          "to": 6
+        }
+      ],
+      "title": "Wie Tau am Morgen",
+      "summary": "Das Volk sagt: Kommt, lasst uns zum HERRN umkehren, er wird uns heilen. Gott antwortet: Eure Treue ist wie eine Morgenwolke und wie der Tau, der früh verschwindet. Ich habe Gefallen an Treue, nicht an Opfern.",
+      "bridge": "Hosea war Prophet im Nordreich Israel im 8. Jahrhundert v. Chr., kurz vor dessen Untergang. Ephraim ist ein anderer Name für das Nordreich.",
+      "focus": "Achte darauf, wo die Rede des Volkes endet und Gottes Antwort beginnt.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Womit vergleicht Gott die Frömmigkeit des Volkes?",
+          "options": [
+            "Mit einer Morgenwolke und dem Tau, der früh verschwindet",
+            "Mit einem Baum am Wasser",
+            "Mit einem Feuer, das ausgeht",
+            "Mit einem Haus ohne Fundament"
+          ],
+          "answer": 0,
+          "explain": "V. 4: Morgenwolke und Tau – beides ist da und schnell wieder weg.",
+          "hint": "Lies Vers 4.",
+          "verse": 4
+        },
+        {
+          "type": "choice",
+          "q": "Woran hat Gott laut V. 6 Gefallen?",
+          "options": [
+            "An Treue und Erkenntnis Gottes mehr als an Opfern",
+            "An vielen Brandopfern",
+            "An langen Gebeten",
+            "An festlichen Liedern"
+          ],
+          "answer": 0,
+          "explain": "V. 6: an Treue (Frömmigkeit) und Erkenntnis Gottes.",
+          "hint": "Lies Vers 6.",
+          "verse": 6
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt hier „Frömmigkeit“?",
+          "a": "Im Hebräischen steht chesed: Treue, Güte, Verlässlichkeit in einer Beziehung. Andere Übersetzungen haben „Liebe“ oder „Barmherzigkeit“.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Ist die Umkehr in V. 1–3 echt?",
+          "a": "Ausleger sind sich nicht einig. Viele lesen V. 4 als Gottes Antwort, die zeigt: Das Lied klang gut, hielt aber nicht. Andere verstehen V. 1–3 als Einladung des Propheten selbst."
+        },
+        {
+          "q": "Der „dritte Tag“ in V. 2?",
+          "a": "Christliche Ausleger haben den Vers seit der Alten Kirche auf die Auferstehung Jesu am dritten Tag bezogen. Im Zusammenhang geht es zunächst um die baldige Wiederherstellung des Volkes."
+        }
+      ],
+      "cards": [
+        "chesed"
+      ],
+      "fact": "Jesus zitiert V. 6 bei Matthäus zweimal: als man ihm vorwirft, mit Sündern zu essen (Mt 9,13), und im Streit um den Sabbat (Mt 12,7).",
+      "memory_verse": {
+        "ref": {
+          "book": 28,
+          "chapter": 6,
+          "from": 6,
+          "to": 6
+        },
+        "text": "Denn an Frömmigkeit habe ich Gefallen und nicht am Schlachtopfer"
+      },
+      "teaser": "Ein Volk fastet und beschwert sich, dass Gott es nicht bemerkt."
+    },
+    {
+      "id": "mgl-09",
+      "stage": "wichtig",
+      "refs": [
+        {
+          "book": 23,
+          "chapter": 58,
+          "from": 3,
+          "to": 11
+        }
+      ],
+      "title": "Ein Fasten, das Gott gefällt",
+      "summary": "Das Volk fragt: Warum fasten wir, und du siehst es nicht? Gott antwortet: Am Fasttag treibt ihr eure Arbeiter an und streitet. Das Fasten, das ich will: Fesseln lösen, Brot teilen, Obdachlose aufnehmen.",
+      "bridge": "Dieser Teil des Jesajabuches richtet sich an das Volk nach der Rückkehr aus dem Exil, als man die Gottesdienste wieder aufnahm.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was tun die Leute an ihrem Fasttag?",
+          "options": [
+            "Sie gehen ihren Geschäften nach und treiben ihre Arbeiter an",
+            "Sie beten den ganzen Tag",
+            "Sie geben den Armen ihr Essen",
+            "Sie bleiben zu Hause"
+          ],
+          "answer": 0,
+          "explain": "V. 3–4: Geschäfte, Druck auf die Arbeiter, Streit und Zank.",
+          "hint": "Lies Vers 3–4.",
+          "verse": 3
+        },
+        {
+          "type": "order",
+          "q": "Was nennt Gott als Fasten, das ihm gefällt? In der Reihenfolge von V. 6–7:",
+          "items": [
+            "Fesseln der Bosheit lösen",
+            "Unterdrückte freilassen",
+            "Brot mit Hungrigen teilen",
+            "Obdachlose aufnehmen",
+            "Nackte kleiden"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 6–7: Jede Zeile betrifft andere Menschen."
+        },
+        {
+          "type": "choice",
+          "q": "Was verspricht Gott laut V. 9?",
+          "options": [
+            "Wenn du rufst, wird der HERR antworten",
+            "Du wirst reich werden",
+            "Deine Feinde werden fliehen",
+            "Du wirst nie mehr fasten müssen"
+          ],
+          "answer": 0,
+          "explain": "V. 9: Du rufst – und er sagt: Hier bin ich.",
+          "hint": "Lies Vers 9.",
+          "verse": 9
+        }
+      ],
+      "explain": [
+        {
+          "q": "Lehnt Gott das Fasten ab?",
+          "a": "Der Text sagt es nicht. Er fragt, welches Fasten Gott gefällt, und beschreibt es neu. Die meisten Ausleger lesen das nicht als Absage an das Fasten selbst, sondern an Fasten ohne Gerechtigkeit."
+        },
+        {
+          "q": "Wie fasten Christen heute?",
+          "a": "Orthodoxe Christen fasten an vielen Tagen im Jahr, besonders mittwochs und freitags. Katholiken kennen Aschermittwoch und Karfreitag als Fasttage und die Fastenzeit vor Ostern. In Freikirchen ist Fasten meist freiwillig und persönlich, oft verbunden mit besonderem Gebet."
+        },
+        {
+          "q": "„Dich deinem Fleisch nicht entziehen“?",
+          "a": "Gemeint sind die eigenen Verwandten, die eigenen Leute (V. 7) – die man nicht im Stich lassen soll."
+        }
+      ],
+      "cards": [
+        "fasten"
+      ],
+      "teaser": "Weisheit, Stärke, Reichtum – worauf darf man stolz sein?"
+    },
+    {
+      "id": "mgl-10",
+      "stage": "wichtig",
+      "refs": [
+        {
+          "book": 24,
+          "chapter": 9,
+          "from": 22,
+          "to": 23
+        },
+        {
+          "book": 46,
+          "chapter": 1,
+          "from": 26,
+          "to": 31
+        }
+      ],
+      "title": "Worauf man stolz sein kann",
+      "summary": "Jeremia: Der Weise rühme sich nicht seiner Weisheit, der Starke nicht seiner Stärke, der Reiche nicht seines Reichtums – sondern dass er Gott kennt. Paulus erinnert die Korinther daran, wer sie waren, als Gott sie rief.",
+      "bridge": "Jeremia sprach in Jerusalem kurz vor der Eroberung durch Babylon. Über 600 Jahre später greift Paulus seine Worte in einem Brief nach Korinth auf.",
+      "place": "korinth",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wessen soll man sich laut Jeremia rühmen?",
+          "options": [
+            "Dass man Gott kennt und versteht",
+            "Seiner Weisheit",
+            "Seiner Stärke",
+            "Seines Reichtums"
+          ],
+          "answer": 0,
+          "explain": "Jer 9,23: Einsicht zu haben und Gott zu erkennen.",
+          "hint": "Lies Jer 9,23.",
+          "verse": 23
+        },
+        {
+          "type": "choice",
+          "q": "Was übt Gott laut Jer 9,23 auf der Erde – und daran hat er Gefallen?",
+          "options": [
+            "Güte, Recht und Gerechtigkeit",
+            "Macht, Ehre und Herrschaft",
+            "Gericht, Zorn und Strafe",
+            "Weisheit, Reichtum und Stärke"
+          ],
+          "answer": 0,
+          "explain": "Jer 9,23: Güte (chesed), Recht und Gerechtigkeit.",
+          "hint": "Lies Jer 9,23.",
+          "verse": 23
+        },
+        {
+          "type": "truefalse",
+          "q": "Paulus sagt, in Korinth seien nicht viele Weise, Mächtige und Vornehme berufen worden.",
+          "answer": true,
+          "explain": "1Kor 1,26: nicht viele – und Gott hat das Schwache erwählt (V. 27).",
+          "hint": "Lies 1Kor 1,26.",
+          "verse": 26
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „sich rühmen“?",
+          "a": "Sich auf etwas berufen, worauf man stolz ist und worauf man sich verlässt. Paulus fasst Jer 9,22–23 in einem Satz zusammen (1Kor 1,31)."
+        },
+        {
+          "q": "Warum gerade Korinth?",
+          "a": "Korinth war eine reiche Handelsstadt, in der Bildung und Redekunst viel galten. In der Gemeinde stritten Gruppen darüber, wer der bessere Lehrer sei (1Kor 1,10–17)."
+        }
+      ],
+      "teaser": "„Wenn ihr mich liebt …“ – Jesus verbindet zwei Dinge, die viele lieber getrennt hätten."
+    },
+    {
+      "id": "mgl-11",
+      "stage": "wichtig",
+      "refs": [
+        {
+          "book": 43,
+          "chapter": 14,
+          "from": 15,
+          "to": 24
+        }
+      ],
+      "title": "Lieben und Halten",
+      "summary": "Jesus sagt: Wenn ihr mich liebt, haltet meine Gebote. Er verspricht einen anderen Beistand, den Geist der Wahrheit. Wer ihn liebt, bei dem werden er und der Vater Wohnung nehmen.",
+      "bridge": "Noch einmal beim letzten Abend. Jesus hat angekündigt, dass er weggeht, und die Jünger sind verunsichert (Joh 14,1–14).",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was verspricht Jesus in V. 16?",
+          "options": [
+            "Einen anderen Beistand, der für immer bei ihnen bleibt",
+            "Dass er bald nach Galiläa zurückkehrt",
+            "Dass sie nicht leiden werden",
+            "Dass sie Wunder tun werden"
+          ],
+          "answer": 0,
+          "explain": "V. 16–17: einen anderen Beistand, den Geist der Wahrheit.",
+          "hint": "Lies Vers 16–17.",
+          "verse": 16
+        },
+        {
+          "type": "whosaid",
+          "quote": "Herr, wie ist es, dass du dich uns offenbar machen willst und nicht der Welt?",
+          "quote_ref": {
+            "book": 43,
+            "chapter": 14,
+            "from": 22,
+            "to": 22
+          },
+          "options": [
+            "Judas, nicht der Iskariot",
+            "Petrus",
+            "Thomas",
+            "Philippus"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 22: Ein anderer Judas aus dem Kreis der Zwölf fragt."
+        },
+        {
+          "type": "choice",
+          "q": "Was geschieht laut V. 23 bei dem, der Jesus liebt und sein Wort hält?",
+          "options": [
+            "Vater und Sohn kommen und nehmen Wohnung bei ihm",
+            "Er wird nie mehr traurig sein",
+            "Er bekommt einen Platz im Tempel",
+            "Er muss nicht mehr beten"
+          ],
+          "answer": 0,
+          "explain": "V. 23: Wir werden zu ihm kommen und Wohnung bei ihm machen.",
+          "hint": "Lies Vers 23.",
+          "verse": 23
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist ein „Sachwalter“?",
+          "a": "Griechisch parakletos: einer, der herbeigerufen wird, um beizustehen – Anwalt, Tröster, Helfer. Andere Übersetzungen haben „Tröster“ oder „Beistand“.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Ist Gehorsam die Bedingung für Gottes Liebe?",
+          "a": "Der Text verbindet Lieben und Halten sehr eng (V. 15, 21, 23–24). Lutherische Ausleger betonen, dass Gottes Liebe zuerst kommt und das Halten folgt (vgl. 1Joh 4,19). Andere Traditionen betonen stärker, dass Liebe sich im Tun bewährt. Beide berufen sich auf diesen Text."
+        }
+      ],
+      "teaser": "Eine Frau betet so leidenschaftlich, dass der Priester sie für betrunken hält."
+    },
+    {
+      "id": "mgl-12",
+      "stage": "reden",
+      "refs": [
+        {
+          "book": 9,
+          "chapter": 1,
+          "from": 9,
+          "to": 18
+        }
+      ],
+      "title": "Hanna betet",
+      "summary": "Hanna ist kinderlos und gekränkt. Im Heiligtum von Silo betet sie weinend und leise; nur ihre Lippen bewegen sich. Der Priester Eli hält sie für betrunken. Sie sagt: Ich habe meine Seele vor dem HERRN ausgeschüttet.",
+      "bridge": "Neue Etappe: Mit Gott reden. Die Geschichte spielt in der Zeit der Richter. Hannas Mann Elkana hat eine zweite Frau, Peninna, die Kinder hat und Hanna jedes Jahr kränkt (1Sam 1,1–8).",
+      "place": "silo",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Warum hält Eli Hanna für betrunken?",
+          "options": [
+            "Weil sich nur ihre Lippen bewegen und man ihre Stimme nicht hört",
+            "Weil sie laut schreit",
+            "Weil sie Wein dabei hat",
+            "Weil sie auf dem Boden liegt"
+          ],
+          "answer": 0,
+          "explain": "V. 13: Sie redet in ihrem Herzen. Laut zu beten war damals üblich.",
+          "hint": "Lies Vers 12–13.",
+          "verse": 13
+        },
+        {
+          "type": "choice",
+          "q": "Was verspricht Hanna Gott?",
+          "options": [
+            "Den Sohn dem HERRN zu geben für sein ganzes Leben",
+            "Jedes Jahr ein Opfer zu bringen",
+            "Nie mehr zu klagen",
+            "Den Tempel zu schmücken"
+          ],
+          "answer": 0,
+          "explain": "V. 11: Er soll Gott gehören, und kein Schermesser soll auf sein Haupt kommen.",
+          "hint": "Lies Vers 11.",
+          "verse": 11
+        },
+        {
+          "type": "truefalse",
+          "q": "Nach dem Gespräch mit Eli ist Hannas Gesicht nicht mehr dasselbe.",
+          "answer": true,
+          "explain": "V. 18: Sie isst wieder, und ihr Gesicht ist verändert – bevor sich an ihrer Lage etwas geändert hat.",
+          "hint": "Lies Vers 18.",
+          "verse": 18
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „kein Schermesser“?",
+          "a": "Ein Zeichen des Nasiräergelübdes (4Mo 6,1–21): Wer Gott besonders geweiht war, ließ sein Haar wachsen. Simson war ebenfalls Nasiräer (Ri 13,5)."
+        },
+        {
+          "q": "Was ist eine „Tochter Belials“?",
+          "a": "„Belial“ bedeutet etwa Nichtsnutz, Verderben. Hanna will nicht für eine nichtswürdige Frau gehalten werden.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Wo lag Silo?",
+          "a": "Im Bergland nördlich von Jerusalem. Dort stand damals die Bundeslade, bevor Jerusalem zum Zentrum wurde."
+        }
+      ],
+      "cards": [
+        "hanna"
+      ],
+      "fact": "Der Talmud (Berachot 31a) leitet aus Hannas Gebet Regeln für das Beten ab: mit Hingabe, mit bewegten Lippen und ohne die Stimme laut zu erheben.",
+      "teaser": "Ein Psalm, der zweimal fast denselben Satz sagt – mit einem kleinen Unterschied."
+    },
+    {
+      "id": "mgl-13",
+      "stage": "reden",
+      "refs": [
+        {
+          "book": 19,
+          "chapter": 62,
+          "from": 2,
+          "to": 9
+        }
+      ],
+      "title": "Schüttet euer Herz aus",
+      "summary": "Der Beter wird von Gegnern bedrängt. Zweimal sagt er: Nur bei Gott ist meine Seele still, er ist mein Fels. Am Ende ruft er alle auf: Vertraut ihm, schüttet euer Herz vor ihm aus.",
+      "focus": "Vergleiche V. 2 und V. 6 – und V. 3 und V. 7.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Welcher Unterschied besteht zwischen V. 3 und V. 7?",
+          "options": [
+            "In V. 3 heißt es „nicht viel wanken“, in V. 7 „nicht wanken“",
+            "In V. 7 fehlt das Wort „Fels“",
+            "V. 7 spricht von Feinden, V. 3 nicht",
+            "Es gibt keinen Unterschied"
+          ],
+          "answer": 0,
+          "explain": "V. 3: nicht viel wanken – V. 7: nicht wanken. Ein kleines Wort fällt weg.",
+          "hint": "Lies V. 3 und V. 7 nebeneinander.",
+          "verse": 7
+        },
+        {
+          "type": "choice",
+          "q": "Wozu fordert der Beter das Volk in V. 9 auf?",
+          "options": [
+            "Vertraut auf Gott und schüttet euer Herz vor ihm aus",
+            "Bringt mehr Opfer",
+            "Kämpft gegen die Feinde",
+            "Schweigt vor Gott"
+          ],
+          "answer": 0,
+          "explain": "V. 9: Vertrauen und ausschütten – beides in einem Satz.",
+          "hint": "Lies Vers 9.",
+          "verse": 9
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was beschreiben V. 4–5?",
+          "a": "Gegner, die einen Menschen umstoßen wollen wie eine schiefe Mauer – freundlich im Reden, feindlich im Herzen. Der Psalm sagt nicht, wer sie waren."
+        },
+        {
+          "q": "Was heißt „Sela“?",
+          "a": "Ein Wort, dessen Bedeutung unsicher ist, wahrscheinlich eine musikalische Anweisung, etwa eine Pause."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 19,
+          "chapter": 62,
+          "from": 9,
+          "to": 9
+        },
+        "text": "Vertraut auf ihn allezeit, o Volk! Schüttet vor ihm aus euer Herz!"
+      },
+      "teaser": "Bevor Jesus das bekannteste Gebet der Welt lehrt, sagt er, wie man nicht beten soll."
+    },
+    {
+      "id": "mgl-14",
+      "stage": "reden",
+      "refs": [
+        {
+          "book": 40,
+          "chapter": 6,
+          "from": 5,
+          "to": 15
+        }
+      ],
+      "title": "Das Vaterunser",
+      "summary": "Jesus warnt davor, zu beten, um gesehen zu werden, und davor, viele Worte zu machen. Euer Vater weiß, was ihr braucht. Dann lehrt er das Vaterunser und betont am Ende die Vergebung.",
+      "bridge": "Mitten in der Bergpredigt spricht Jesus über Geben, Beten und Fasten – alles drei ohne Publikum (Mt 6,1–18).",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wo soll man laut V. 6 beten?",
+          "options": [
+            "In der Kammer, bei geschlossener Tür",
+            "An den Straßenecken",
+            "Nur im Tempel",
+            "Unter freiem Himmel"
+          ],
+          "answer": 0,
+          "explain": "V. 6: in der Kammer, zum Vater, der im Verborgenen ist.",
+          "hint": "Lies Vers 6.",
+          "verse": 6
+        },
+        {
+          "type": "truefalse",
+          "q": "Jesus sagt, man müsse Gott ausführlich erklären, was man braucht.",
+          "answer": false,
+          "explain": "V. 8: Euer Vater weiß, was ihr bedürft, ehe ihr ihn bittet.",
+          "hint": "Lies Vers 7–8.",
+          "verse": 8
+        },
+        {
+          "type": "order",
+          "q": "Bring die Bitten des Vaterunsers in die Reihenfolge von Matthäus.",
+          "items": [
+            "Dein Name werde geheiligt",
+            "Dein Reich komme",
+            "Dein Wille geschehe",
+            "Gib uns unser Brot",
+            "Vergib uns unsere Schuld"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 9–12: erst drei Bitten über Gott, dann Bitten für uns."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Heißt das: nie öffentlich beten?",
+          "a": "Die meisten Ausleger sagen nein. Jesus selbst betet öffentlich (Joh 11,41–42), und die Gemeinde betet gemeinsam (Apg 4,24). Es geht um das Motiv: gesehen werden (V. 5)."
+        },
+        {
+          "q": "Wo ist der Schluss „Denn dein ist das Reich …“?",
+          "a": "Er fehlt in den ältesten Handschriften von Matthäus, wurde aber schon früh im Gottesdienst angefügt. Katholiken sprechen ihn in der Messe etwas abgesetzt, evangelische und freikirchliche Gemeinden meist direkt dazu."
+        },
+        {
+          "q": "Feste Gebete oder freie Worte?",
+          "a": "Katholische, orthodoxe und viele evangelische Christen beten das Vaterunser wörtlich, oft täglich. In vielen Freikirchen ist freies Gebet üblicher, und das Vaterunser gilt auch als Muster. Beide berufen sich auf V. 9."
+        }
+      ],
+      "cards": [
+        "vaterunser"
+      ],
+      "teaser": "Es ist Mitternacht, ein Gast steht vor der Tür, und im Haus ist kein Brot."
+    },
+    {
+      "id": "mgl-15",
+      "stage": "reden",
+      "refs": [
+        {
+          "book": 42,
+          "chapter": 11,
+          "from": 5,
+          "to": 13
+        }
+      ],
+      "title": "Der Freund um Mitternacht",
+      "summary": "Jesus erzählt von einem Mann, der um Mitternacht beim Nachbarn Brot leihen will. Der steht schließlich auf – nicht aus Freundschaft, sondern weil der andere nicht lockerlässt. Bittet, sucht, klopft an.",
+      "bridge": "Bei Lukas haben die Jünger Jesus gerade gebeten: Herr, lehre uns beten. Er hat ihnen eine kürzere Fassung des Vaterunsers gegeben (Lk 11,1–4).",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Warum steht der Nachbar laut V. 8 schließlich auf?",
+          "options": [
+            "Wegen der Unverschämtheit des Bittenden",
+            "Weil er sein Freund ist",
+            "Weil die Kinder wach geworden sind",
+            "Weil er Angst vor Ärger hat"
+          ],
+          "answer": 0,
+          "explain": "V. 8: nicht weil er sein Freund ist, sondern um seiner Unverschämtheit willen.",
+          "hint": "Lies Vers 8.",
+          "verse": 8
+        },
+        {
+          "type": "order",
+          "q": "Welche drei Verben stehen in V. 9?",
+          "items": [
+            "Bittet",
+            "Sucht",
+            "Klopft an"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 9: bitten, suchen, anklopfen – und V. 10 wiederholt alle drei."
+        },
+        {
+          "type": "choice",
+          "q": "Was gibt der Vater im Himmel laut V. 13 denen, die ihn bitten?",
+          "options": [
+            "Den Heiligen Geist",
+            "Alles, was sie wollen",
+            "Reichtum",
+            "Ein langes Leben"
+          ],
+          "answer": 0,
+          "explain": "V. 13: Bei Matthäus heißt es an dieser Stelle „Gutes“ (Mt 7,11), bei Lukas „den Heiligen Geist“.",
+          "hint": "Lies Vers 13.",
+          "verse": 13
+        }
+      ],
+      "explain": [
+        {
+          "q": "„Unverschämtheit“?",
+          "a": "Das griechische Wort anaideia heißt Schamlosigkeit, Hartnäckigkeit. Manche Ausleger beziehen es auf den Nachbarn: Er will nicht als jemand dastehen, der einem Gast nicht hilft – Gastfreundschaft war eine Frage der Ehre des ganzen Dorfes."
+        },
+        {
+          "q": "Bekommt man alles, worum man bittet?",
+          "a": "V. 11–13 vergleicht Gott mit einem Vater, der keine schlechten Dinge gibt. Christen haben dazu verschiedene Erfahrungen und Antworten. Jesus selbst bittet in Gethsemane um etwas, das nicht geschieht (Lk 22,42)."
+        }
+      ],
+      "fact": "Gastfreundschaft war im Orient so wichtig, dass ein Gast, der nachts ankam, versorgt werden musste – notfalls mit Brot aus dem ganzen Dorf. Gebacken wurde meist am Morgen für den Tag.",
+      "teaser": "Ein hoher Beamter erfährt, dass Beten ab sofort verboten ist. Er geht nach Hause und öffnet die Fenster."
+    },
+    {
+      "id": "mgl-16",
+      "stage": "alltag",
+      "refs": [
+        {
+          "book": 27,
+          "chapter": 6,
+          "from": 1,
+          "to": 11
+        }
+      ],
+      "title": "Dreimal am Tag",
+      "summary": "Daniel ist einer der drei obersten Beamten im Perserreich und so zuverlässig, dass seine Neider nichts gegen ihn finden – außer seinem Glauben. Sie lassen ein Gebetsverbot erlassen. Daniel betet weiter, wie er es immer getan hat.",
+      "bridge": "Neue Etappe: Im Alltag. Daniel kam als junger Mann nach Babylon (Dan 1). Inzwischen ist er alt, und das babylonische Reich ist an die Meder und Perser gefallen.",
+      "place": "babylon",
+      "focus": "Achte auf die letzten Worte von Vers 11.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Warum finden die Neider keinen Anklagegrund in Daniels Arbeit?",
+          "options": [
+            "Weil er treu war und kein Vergehen an ihm gefunden wurde",
+            "Weil der König ihn schützte",
+            "Weil er kaum Aufgaben hatte",
+            "Weil sie Angst vor ihm hatten"
+          ],
+          "answer": 0,
+          "explain": "V. 5: Er war treu – sie finden nichts.",
+          "hint": "Lies Vers 5.",
+          "verse": 5
+        },
+        {
+          "type": "estimate",
+          "q": "Wie oft am Tag betet Daniel?",
+          "min": 1,
+          "max": 10,
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "Mal",
+          "explain": "V. 11: dreimal am Tag, auf den Knien, mit offenen Fenstern nach Jerusalem.",
+          "hint": "Lies Vers 11.",
+          "verse": 11
+        },
+        {
+          "type": "truefalse",
+          "q": "Daniel beginnt erst wegen des Verbots, öffentlich zu beten.",
+          "answer": false,
+          "explain": "V. 11: wie er es vorher getan hatte. Er ändert nichts.",
+          "hint": "Lies das Ende von Vers 11.",
+          "verse": 11
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum nach Jerusalem?",
+          "a": "Salomo hatte bei der Tempelweihe gebetet: Wenn dein Volk in der Gefangenschaft zu diesem Haus hin betet, dann höre (1Kön 8,46–49). Auch heute beten Juden in Richtung Jerusalem."
+        },
+        {
+          "q": "Wer war Darius der Meder?",
+          "a": "Er ist außerhalb der Bibel nicht eindeutig belegt. Ausleger denken an einen Statthalter unter Kyrus, an einen Thronnamen des Kyrus selbst oder an einen anderen Herrscher."
+        },
+        {
+          "q": "Was sind Satrapen?",
+          "a": "Statthalter der Provinzen im Perserreich."
+        }
+      ],
+      "cards": [
+        "daniel",
+        "gebetszeiten"
+      ],
+      "teaser": "Ein Psalm, der beschreibt, wie es ist, wenn jemand dich ganz genau kennt."
+    },
+    {
+      "id": "mgl-17",
+      "stage": "alltag",
+      "refs": [
+        {
+          "book": 19,
+          "chapter": 139,
+          "from": 1,
+          "to": 12
+        }
+      ],
+      "title": "Du kennst mich",
+      "summary": "David staunt: Gott kennt sein Sitzen und Aufstehen, seine Gedanken und Wege, jedes Wort, bevor er es sagt. Wohin er auch ginge – Himmel, Totenreich, Meer, Dunkelheit –, Gott wäre da.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was weiß Gott laut V. 4?",
+          "options": [
+            "Das Wort, bevor es auf der Zunge ist",
+            "Wie lange der Beter leben wird",
+            "Wer seine Feinde sind",
+            "Wann er sterben wird"
+          ],
+          "answer": 0,
+          "explain": "V. 4: Das Wort ist noch nicht auf meiner Zunge – und du weißt es schon.",
+          "hint": "Lies Vers 4.",
+          "verse": 4
+        },
+        {
+          "type": "order",
+          "q": "Wohin könnte der Beter fliehen? In der Reihenfolge von V. 8–9:",
+          "items": [
+            "Zum Himmel",
+            "In den Scheol",
+            "Zu den Flügeln der Morgenröte",
+            "Ans äußerste Ende des Meeres"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 8–9: oben, unten, Osten, Westen – überall ist Gott da."
+        },
+        {
+          "type": "truefalse",
+          "q": "Für Gott ist die Finsternis wie das Licht.",
+          "answer": true,
+          "explain": "V. 12: Die Nacht leuchtet wie der Tag.",
+          "hint": "Lies Vers 12.",
+          "verse": 12
+        }
+      ],
+      "explain": [
+        {
+          "q": "Trost oder Bedrängnis?",
+          "a": "V. 5 klingt beides: Gott umgibt den Beter von hinten und vorn und legt seine Hand auf ihn. Manche Ausleger hören darin Schutz, andere das Gefühl, nicht entkommen zu können. Der Psalm selbst sagt in V. 6: zu wunderbar, zu hoch."
+        },
+        {
+          "q": "Was ist der Scheol?",
+          "a": "Hebräisch für das Totenreich, die Unterwelt.",
+          "translation": "elbbk"
+        }
+      ],
+      "prayer": {
+        "ref": {
+          "book": 19,
+          "chapter": 139,
+          "from": 23,
+          "to": 24
+        },
+        "source": "Psalm 139,23–24"
+      },
+      "teaser": "Ein Bibeltext, der dazu auffordert, gut zu essen und das Leben zu genießen."
+    },
+    {
+      "id": "mgl-18",
+      "stage": "alltag",
+      "refs": [
+        {
+          "book": 21,
+          "chapter": 9,
+          "from": 7,
+          "to": 10
+        }
+      ],
+      "title": "Iss dein Brot mit Freude",
+      "summary": "Der Prediger rät: Iss dein Brot mit Freude, trink deinen Wein mit frohem Herzen, genieße das Leben mit dem Menschen, den du liebst. Was du tun kannst, tu mit deiner Kraft – im Totenreich gibt es kein Tun mehr.",
+      "bridge": "Das Buch Prediger fragt immer wieder, was im Leben bleibt. Direkt vor diesem Abschnitt stellt es fest, dass alle Menschen sterben, Gerechte wie Gottlose (Pred 9,1–6).",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was ist laut V. 7 der Grund, sein Brot mit Freude zu essen?",
+          "options": [
+            "Gott hat längst Wohlgefallen an deinem Tun",
+            "Morgen ist alles vorbei",
+            "Es ist Festtag",
+            "Man hat es sich verdient"
+          ],
+          "answer": 0,
+          "explain": "V. 7: denn längst hat Gott Wohlgefallen an deinem Tun.",
+          "hint": "Lies Vers 7.",
+          "verse": 7
+        },
+        {
+          "type": "truefalse",
+          "q": "Der Prediger nennt das Leben in V. 9 „eitel“.",
+          "answer": true,
+          "explain": "V. 9: alle Tage deines eitlen Lebens – und doch soll man es genießen.",
+          "hint": "Lies Vers 9.",
+          "verse": 9
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „eitel“?",
+          "a": "Hebräisch hebel: Hauch, Dunst, etwas Flüchtiges. Andere Übersetzungen haben „vergänglich“ oder „flüchtig“. Gemeint ist eher Vergänglichkeit als Sinnlosigkeit.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Weiße Kleider und Öl?",
+          "a": "Zeichen für Festtage und Wohlbefinden – im Gegensatz zu Trauerkleidung und ungesalbtem Haar (vgl. 2Sam 14,2)."
+        },
+        {
+          "q": "Wie lesen Christen den Prediger?",
+          "a": "Sehr verschieden: Manche lesen das Buch als Darstellung eines Lebens ohne Blick auf Gott, das am Ende zu Gott führt (12,13). Andere lesen gerade solche Stellen wie 9,7–10 als ernst gemeinten Rat: das gewöhnliche Leben als Gabe Gottes annehmen."
+        }
+      ],
+      "cards": [
+        "kohelet"
+      ],
+      "teaser": "Zwei Schwestern, ein Gast, viel Arbeit – und eine Frage, die Jesus anders beantwortet als erwartet.",
+      "try": "Lies Prediger 2,24 und 3,12–13. Wie oft kehrt der Gedanke aus diesem Abschnitt im Buch wieder?"
+    },
+    {
+      "id": "mgl-19",
+      "stage": "alltag",
+      "refs": [
+        {
+          "book": 42,
+          "chapter": 10,
+          "from": 38,
+          "to": 42
+        }
+      ],
+      "title": "Marta und Maria",
+      "summary": "Jesus kehrt bei Marta ein. Ihre Schwester Maria setzt sich zu seinen Füßen und hört zu, während Marta mit der Bewirtung beschäftigt ist. Marta beschwert sich. Jesus antwortet: Du sorgst dich um vieles, eins aber ist nötig – Maria hat das gute Teil gewählt.",
+      "bridge": "Jesus ist auf dem Weg nach Jerusalem. Direkt davor erzählt Lukas das Gleichnis vom barmherzigen Samariter (Lk 10,25–37).",
+      "place": "betanien",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was tut Maria?",
+          "options": [
+            "Sie sitzt zu Jesu Füßen und hört seinem Wort zu",
+            "Sie bereitet das Essen vor",
+            "Sie holt Wasser vom Brunnen",
+            "Sie lädt die Nachbarn ein"
+          ],
+          "answer": 0,
+          "explain": "V. 39: Sie setzt sich zu seinen Füßen und hört zu.",
+          "hint": "Lies Vers 39.",
+          "verse": 39
+        },
+        {
+          "type": "whosaid",
+          "quote": "Herr, kümmert es dich nicht, dass meine Schwester mich allein gelassen hat zu dienen?",
+          "quote_ref": {
+            "book": 42,
+            "chapter": 10,
+            "from": 40,
+            "to": 40
+          },
+          "options": [
+            "Marta",
+            "Maria",
+            "Ein Jünger",
+            "Eine Nachbarin"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 40: Marta wendet sich nicht an Maria, sondern an Jesus."
+        },
+        {
+          "type": "truefalse",
+          "q": "Jesus schickt Maria in die Küche, um Marta zu helfen.",
+          "answer": false,
+          "explain": "V. 42: Das gute Teil soll nicht von ihr genommen werden.",
+          "hint": "Lies Vers 41–42.",
+          "verse": 42
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist das Besondere an Marias Platz?",
+          "a": "Zu Füßen eines Lehrers zu sitzen war die Haltung eines Schülers (vgl. Apg 22,3: Paulus zu Füßen Gamaliels). Dass eine Frau diesen Platz einnimmt, war ungewöhnlich."
+        },
+        {
+          "q": "Ist Marta im Unrecht?",
+          "a": "Der Text tadelt nicht ihr Dienen, sondern nennt sie „besorgt und beunruhigt“ (V. 41). Wie man das gewichtet, ist alt umstritten: Die Kirchenväter sahen in den Schwestern zwei Lebensformen, das tätige und das betrachtende Leben, und gaben meist Maria den Vorzug. Meister Eckhart deutete um 1300 dagegen Marta als die Reifere, die Tun und Hören schon verbindet."
+        },
+        {
+          "q": "Was ist das „eine“?",
+          "a": "Jesus sagt es nicht ausdrücklich. Viele lesen es aus dem Zusammenhang: das Hören auf sein Wort (V. 39). Manche alte Handschriften lesen „weniges ist nötig oder nur eines“, was an die Mahlzeit denken lässt."
+        }
+      ],
+      "cards": [
+        "marta-maria"
+      ],
+      "prayer": {
+        "ref": {
+          "book": 19,
+          "chapter": 27,
+          "from": 4,
+          "to": 4
+        },
+        "source": "Psalm 27,4"
+      },
+      "teaser": "Ein Brief, der sagt: alles, was ihr tut – Reden und Arbeiten."
+    },
+    {
+      "id": "mgl-20",
+      "stage": "alltag",
+      "refs": [
+        {
+          "book": 51,
+          "chapter": 3,
+          "from": 12,
+          "to": 17
+        }
+      ],
+      "title": "Alles im Namen Jesu",
+      "summary": "Paulus beschreibt, was die Gemeinde „anziehen“ soll: Erbarmen, Güte, Demut, Milde, Geduld, Vergebung – und über allem die Liebe. Wort Christi, Lieder, Dankbarkeit. Und alles, was ihr tut, im Namen des Herrn Jesus.",
+      "bridge": "Paulus schreibt aus der Haft an eine Gemeinde in Kolossä (heutige Türkei), die er wohl nie besucht hat. Kurz vorher spricht er davon, den alten Menschen abzulegen (Kol 3,5–11).",
+      "focus": "Achte darauf, wie oft in diesen Versen von Dankbarkeit die Rede ist.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was soll man laut V. 14 über alles andere „anziehen“?",
+          "options": [
+            "Die Liebe",
+            "Die Demut",
+            "Die Geduld",
+            "Den Glauben"
+          ],
+          "answer": 0,
+          "explain": "V. 14: die Liebe, das Band der Vollkommenheit.",
+          "hint": "Lies Vers 14.",
+          "verse": 14
+        },
+        {
+          "type": "choice",
+          "q": "Wodurch soll das Wort Christi laut V. 16 in der Gemeinde wohnen?",
+          "options": [
+            "Durch gegenseitiges Lehren und Ermahnen und durch Lieder",
+            "Durch tägliches Auswendiglernen",
+            "Durch die Predigt der Ältesten",
+            "Durch Fasten"
+          ],
+          "answer": 0,
+          "explain": "V. 16: einander lehren und ermahnen, mit Psalmen, Lobgesängen und geistlichen Liedern.",
+          "hint": "Lies Vers 16.",
+          "verse": 16
+        },
+        {
+          "type": "truefalse",
+          "q": "V. 17 bezieht „alles im Namen des Herrn“ nur auf Gebete und Gottesdienste.",
+          "answer": false,
+          "explain": "V. 17: alles, was ihr tut, im Wort oder im Werk.",
+          "hint": "Lies Vers 17.",
+          "verse": 17
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „im Namen“ tun?",
+          "a": "Im Auftrag und im Sinne von jemandem handeln, so dass es zu ihm passt. Wie man das im Alltag versteht, beschreiben Christen sehr verschieden – von Gebet vor der Arbeit bis zu einer Haltung, die alles umfasst."
+        },
+        {
+          "q": "Psalmen, Lobgesänge, geistliche Lieder?",
+          "a": "Ob das drei verschiedene Arten von Liedern sind oder drei Wörter für dasselbe, ist unsicher. Die frühen Gemeinden sangen jedenfalls Psalmen und eigene Lieder (vgl. Eph 5,19)."
+        }
+      ],
+      "teaser": "„Wo ist nun dein Gott?“ – ein Mensch, der Durst hat und keine Antwort bekommt."
+    },
+    {
+      "id": "mgl-21",
+      "stage": "fern",
+      "refs": [
+        {
+          "book": 19,
+          "chapter": 42,
+          "from": 1,
+          "to": 6
+        }
+      ],
+      "title": "Wie ein Hirsch",
+      "summary": "Der Beter dürstet nach Gott wie ein Hirsch nach Wasser. Tränen sind sein Brot, und man fragt ihn täglich: Wo ist dein Gott? Er erinnert sich an Feste im Haus Gottes und redet sich selbst zu: Harre auf Gott.",
+      "bridge": "Neue Etappe: Wenn Gott fern scheint. Psalm 42 und 43 bilden wohl ursprünglich ein Lied – beide haben denselben Kehrvers.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Womit vergleicht sich der Beter?",
+          "options": [
+            "Mit einem Hirsch, der nach Wasser lechzt",
+            "Mit einem Baum am Wasser",
+            "Mit einem Vogel ohne Nest",
+            "Mit einem Schaf ohne Hirten"
+          ],
+          "answer": 0,
+          "explain": "V. 2: wie ein Hirsch, der nach Wasserbächen lechzt.",
+          "hint": "Lies Vers 2.",
+          "verse": 2
+        },
+        {
+          "type": "choice",
+          "q": "Mit wem redet der Beter in V. 6?",
+          "options": [
+            "Mit seiner eigenen Seele",
+            "Mit dem Volk",
+            "Mit seinen Feinden",
+            "Mit dem Priester"
+          ],
+          "answer": 0,
+          "explain": "V. 6: Was beugst du dich nieder, meine Seele? Er spricht sich selbst an.",
+          "hint": "Lies Vers 6.",
+          "verse": 6
+        },
+        {
+          "type": "truefalse",
+          "q": "Der Beter sagt, er habe früher nie Gottesdienste gefeiert.",
+          "answer": false,
+          "explain": "V. 5: Er erinnert sich, wie er mit der feiernden Menge zum Haus Gottes zog.",
+          "hint": "Lies Vers 5.",
+          "verse": 5
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist ein „Maskil“?",
+          "a": "Eine Psalmüberschrift, deren Bedeutung unsicher ist – vielleicht „Lehrgedicht“ oder ein kunstvolles Lied."
+        },
+        {
+          "q": "Wer sagt „Wo ist dein Gott?“",
+          "a": "Der Psalm nennt Spötter und Bedränger (V. 4.11). Die Frage kommt in der Bibel öfter vor (Ps 79,10; Joel 2,17) – als Spott über einen Gott, der scheinbar nicht hilft."
+        }
+      ],
+      "cards": [
+        "korachiter"
+      ],
+      "teaser": "Tiefe ruft der Tiefe – und dann fragt der Beter Gott direkt: Warum hast du mich vergessen?"
+    },
+    {
+      "id": "mgl-22",
+      "stage": "fern",
+      "refs": [
+        {
+          "book": 19,
+          "chapter": 42,
+          "from": 7,
+          "to": 12
+        }
+      ],
+      "title": "Tiefe ruft der Tiefe",
+      "summary": "Der Beter ist fern, im Norden am Hermon. Wellen gehen über ihn hinweg. Er sagt zu Gott, seinem Fels: Warum hast du mich vergessen? Und noch einmal der Kehrvers: Harre auf Gott, ich werde ihn noch preisen.",
+      "place": "hermon",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wo befindet sich der Beter laut V. 7?",
+          "options": [
+            "Im Land des Jordan und des Hermon",
+            "In Jerusalem",
+            "In Babylon",
+            "In Ägypten"
+          ],
+          "answer": 0,
+          "explain": "V. 7: im Norden, an den Quellen des Jordan – weit weg vom Tempel.",
+          "hint": "Lies Vers 7.",
+          "verse": 7
+        },
+        {
+          "type": "truefalse",
+          "q": "Mitten in der Klage steht ein Vers über Gottes Güte bei Tag und sein Lied bei Nacht.",
+          "answer": true,
+          "explain": "V. 9 – direkt gefolgt von der Frage: Warum hast du mich vergessen? (V. 10).",
+          "hint": "Lies Vers 9.",
+          "verse": 9
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Harre auf Gott, denn ich werde ihn [niemals] preisen.",
+          "fix": "noch",
+          "verse": 12,
+          "hint": "Lies Vers 12.",
+          "explain": "V. 12: Ich werde ihn noch preisen – derselbe Kehrvers wie in V. 6."
+        }
+      ],
+      "explain": [
+        {
+          "q": "„Tiefe ruft der Tiefe“?",
+          "a": "Ein Bild aus der Landschaft: Am Hermon stürzen Wasser in Kaskaden herab. Für den Beter wird daraus ein Bild der Überflutung – alle deine Wogen gehen über mich (V. 8)."
+        },
+        {
+          "q": "Endet der Psalm mit einer Lösung?",
+          "a": "Nein. Der Kehrvers kommt zurück (V. 12, dann noch einmal in Ps 43,5), aber die Lage ist unverändert. Ausleger sehen darin ein Gebet, das zwischen Klage und Hoffnung hin- und hergeht."
+        }
+      ],
+      "teaser": "Ein Mann beneidet Menschen, denen es ohne Gott gut geht – bis er in den Tempel geht.",
+      "try": "Lies Psalm 43 direkt anschließend. Welcher Vers kommt dir bekannt vor?"
+    },
+    {
+      "id": "mgl-23",
+      "stage": "fern",
+      "refs": [
+        {
+          "book": 19,
+          "chapter": 73,
+          "from": 1,
+          "to": 3
+        },
+        {
+          "book": 19,
+          "chapter": 73,
+          "from": 16,
+          "to": 28
+        }
+      ],
+      "title": "Gott nahe zu sein",
+      "summary": "Asaf gibt zu: Fast wäre ich gestrauchelt, denn ich beneidete die Gottlosen, denen es gut geht. Er versteht es nicht, bis er ins Heiligtum geht. Am Ende sagt er: Wen habe ich im Himmel? Gott nahe zu sein ist mir gut.",
+      "bridge": "Zwischen V. 3 und V. 16 beschreibt Asaf ausführlich, wie gut es den Übermütigen geht und wie sinnlos ihm sein eigenes reines Leben vorkam (Ps 73,4–15).",
+      "focus": "Achte auf den Wendepunkt in V. 17.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was hätte Asaf fast zu Fall gebracht?",
+          "options": [
+            "Der Neid auf das Wohlergehen der Gottlosen",
+            "Eine schwere Krankheit",
+            "Verfolgung durch den König",
+            "Der Tod eines Freundes"
+          ],
+          "answer": 0,
+          "explain": "V. 3: Er beneidete die Übermütigen.",
+          "hint": "Lies Vers 2–3.",
+          "verse": 3
+        },
+        {
+          "type": "choice",
+          "q": "Wann ändert sich sein Blick?",
+          "options": [
+            "Als er in die Heiligtümer Gottes hineingeht",
+            "Als er krank wird",
+            "Als ein Prophet ihn besucht",
+            "Als die Gottlosen sterben"
+          ],
+          "answer": 0,
+          "explain": "V. 17: bis ich hineinging in die Heiligtümer Gottes.",
+          "hint": "Lies Vers 16–17.",
+          "verse": 17
+        },
+        {
+          "type": "truefalse",
+          "q": "Asaf beschreibt sich selbst in V. 22 als klug und weise.",
+          "answer": false,
+          "explain": "V. 22: dumm, ein Tier war ich bei dir – und doch: Ich bin stets bei dir (V. 23).",
+          "hint": "Lies Vers 21–22.",
+          "verse": 22
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist im Heiligtum geschehen?",
+          "a": "Der Psalm erzählt es nicht. Er sagt nur, dass Asaf dort „das Ende“ der Gottlosen erkannte (V. 17). Ob er einen Gottesdienst erlebte, ein Wort hörte oder in der Stille nachdachte, bleibt offen."
+        },
+        {
+          "q": "„Nach der Herrlichkeit aufnehmen“ (V. 24)?",
+          "a": "Christliche Ausleger lesen den Vers oft als Hoffnung über den Tod hinaus. Viele jüdische Ausleger verstehen ihn als Ehre in diesem Leben. Der hebräische Text lässt beides zu."
+        }
+      ],
+      "cards": [
+        "asaf"
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 19,
+          "chapter": 73,
+          "from": 28,
+          "to": 28
+        },
+        "text": "Ich aber, Gott zu nahen ist mir gut"
+      },
+      "teaser": "Ein Weinstock wird geschnitten – auch die Reben, die Frucht bringen."
+    },
+    {
+      "id": "mgl-24",
+      "stage": "fern",
+      "refs": [
+        {
+          "book": 43,
+          "chapter": 15,
+          "from": 1,
+          "to": 8
+        }
+      ],
+      "title": "Bleibt in mir",
+      "summary": "Jesus sagt: Ich bin der wahre Weinstock, ihr seid die Reben. Der Vater schneidet die Reben, damit sie mehr Frucht bringen. Wer in mir bleibt, bringt viel Frucht; ohne mich könnt ihr nichts tun.",
+      "bridge": "Zurück zum letzten Abend, unmittelbar vor den Worten über die Freundschaft, die am Anfang dieses Plans standen.",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was tut der Weingärtner mit Reben, die Frucht bringen?",
+          "options": [
+            "Er reinigt sie, damit sie mehr Frucht bringen",
+            "Er lässt sie in Ruhe",
+            "Er schneidet sie ab",
+            "Er pflanzt sie um"
+          ],
+          "answer": 0,
+          "explain": "V. 2: Er reinigt (beschneidet) sie.",
+          "hint": "Lies Vers 2.",
+          "verse": 2
+        },
+        {
+          "type": "estimate",
+          "q": "Wie oft kommt das Wort „bleiben“ in V. 4–7 vor?",
+          "min": 1,
+          "max": 12,
+          "answer": 7,
+          "tolerance": 1,
+          "unit": "Mal",
+          "explain": "V. 4–7: Je nach Zählung sechs- bis siebenmal (Elberfelder: 7) – das tragende Wort des Abschnitts.",
+          "hint": "Zähle in V. 4–7.",
+          "verse": 7
+        },
+        {
+          "type": "truefalse",
+          "q": "Laut V. 8 wird der Vater dadurch verherrlicht, dass die Jünger viel Frucht bringen.",
+          "answer": true,
+          "explain": "V. 8: Hierin wird mein Vater verherrlicht.",
+          "hint": "Lies Vers 8.",
+          "verse": 8
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist mit „Frucht“ gemeint?",
+          "a": "Jesus sagt es hier nicht ausdrücklich. Ausleger denken an Liebe (V. 12), an ein Leben, das Gottes Wesen zeigt (vgl. Gal 5,22), oder an Menschen, die zum Glauben kommen. Der Zusammenhang betont vor allem die Liebe."
+        },
+        {
+          "q": "Kann man herausfallen (V. 6)?",
+          "a": "Hier unterscheiden sich die Traditionen. Calvinistische Ausleger: Wer wirklich in Christus ist, bleibt bewahrt – V. 6 beschreibt die, die nur äußerlich dazugehörten. Arminianische und viele methodistische und pfingstliche Ausleger: Ein Glaubender kann sich wirklich abwenden. Katholische und lutherische Lehre rechnen ebenfalls damit, dass die Gnade verloren werden kann, und betonen, dass Umkehr möglich bleibt."
+        }
+      ],
+      "cards": [
+        "weinstock"
+      ],
+      "prayer": {
+        "text": "Mein Herr und mein Gott, nimm alles von mir, was mich hindert zu dir. Mein Herr und mein Gott, gib alles mir, was mich fördert zu dir. Mein Herr und mein Gott, nimm mich mir und gib mich ganz zu eigen dir.",
+        "source": "Niklaus von Flüe (1417–1487)"
+      },
+      "teaser": "„Wir lieben, weil …“ – ein Brief, der Gottesliebe und Nächstenliebe nicht auseinanderhalten will."
+    },
+    {
+      "id": "mgl-25",
+      "stage": "lieben",
+      "refs": [
+        {
+          "book": 62,
+          "chapter": 4,
+          "from": 7,
+          "to": 12
+        },
+        {
+          "book": 62,
+          "chapter": 4,
+          "from": 16,
+          "to": 21
+        }
+      ],
+      "title": "Weil er uns zuerst geliebt hat",
+      "summary": "Johannes schreibt: Gott ist Liebe. Darin zeigt sie sich, dass Gott uns zuerst geliebt hat. Liebe vertreibt die Furcht. Und wer sagt, er liebe Gott, aber seinen Bruder hasst, ist ein Lügner.",
+      "bridge": "Neue Etappe. Der erste Johannesbrief richtet sich an Gemeinden, in denen es Streit und Spaltung gab (1Joh 2,19).",
+      "focus": "Achte darauf, wer in diesem Text zuerst liebt.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Worin zeigt sich laut 4,10 die Liebe?",
+          "options": [
+            "Dass Gott uns geliebt und seinen Sohn gesandt hat",
+            "Dass wir Gott geliebt haben",
+            "Dass wir einander helfen",
+            "Dass wir die Gebote halten"
+          ],
+          "answer": 0,
+          "explain": "4,10: nicht dass wir Gott geliebt haben, sondern dass er uns geliebt hat.",
+          "hint": "Lies 4,9–10.",
+          "verse": 10
+        },
+        {
+          "type": "truefalse",
+          "q": "Laut 4,18 gehören Liebe und Furcht zusammen.",
+          "answer": false,
+          "explain": "4,18: Furcht ist nicht in der Liebe; die vollkommene Liebe treibt sie aus.",
+          "hint": "Lies 4,18.",
+          "verse": 18
+        },
+        {
+          "type": "choice",
+          "q": "Was fragt Johannes in 4,20?",
+          "options": [
+            "Wie kann jemand Gott lieben, den er nicht sieht, wenn er den Bruder nicht liebt, den er sieht?",
+            "Warum Gott unsichtbar ist",
+            "Wer der Bruder ist",
+            "Ob man Gott überhaupt lieben kann"
+          ],
+          "answer": 0,
+          "explain": "4,20: vom Sichtbaren zum Unsichtbaren.",
+          "hint": "Lies 4,20.",
+          "verse": 20
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist eine „Sühnung“ (4,10)?",
+          "a": "Griechisch hilasmos: etwas, das Schuld bedeckt und Versöhnung schafft. Wie das genau zu verstehen ist, ist Thema im Plan „Warum das Kreuz?“."
+        },
+        {
+          "q": "Wer ist der „Bruder“?",
+          "a": "Im Brief zunächst die Glaubensgeschwister in der Gemeinde. Viele Ausleger beziehen es weiter auf jeden Mitmenschen (vgl. Lk 10,29–37)."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 62,
+          "chapter": 4,
+          "from": 19,
+          "to": 19
+        },
+        "text": "Wir lieben, weil er uns zuerst geliebt hat."
+      },
+      "teaser": "Ein Gericht, bei dem beide Seiten überrascht sind."
+    },
+    {
+      "id": "mgl-26",
+      "stage": "lieben",
+      "refs": [
+        {
+          "book": 40,
+          "chapter": 25,
+          "from": 31,
+          "to": 40
+        }
+      ],
+      "title": "Das habt ihr mir getan",
+      "summary": "Der Menschensohn kommt als König und scheidet alle Völker wie ein Hirte Schafe und Böcke. Zu denen zur Rechten sagt er: Ich war hungrig, durstig, fremd, nackt, krank, im Gefängnis – und ihr habt mir geholfen. Sie fragen erstaunt: Wann?",
+      "bridge": "Die letzte große Rede Jesu bei Matthäus, kurz vor seinem Leiden, auf dem Ölberg (Mt 24,3). Sie endet mit diesem Bild vom Gericht.",
+      "place": "oelberg",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Welche Nöte nennt der König? In der Reihenfolge von V. 35–36:",
+          "items": [
+            "Hungrig",
+            "Durstig",
+            "Fremd",
+            "Nackt",
+            "Krank"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 35–36: hungrig, durstig, fremd, nackt, krank – und im Gefängnis."
+        },
+        {
+          "type": "truefalse",
+          "q": "Die Gerechten wissen genau, wann sie dem König geholfen haben.",
+          "answer": false,
+          "explain": "V. 37–39: Sie fragen: Wann haben wir dich gesehen?",
+          "hint": "Lies Vers 37–39.",
+          "verse": 37
+        },
+        {
+          "type": "choice",
+          "q": "Was antwortet der König in V. 40?",
+          "options": [
+            "Was ihr einem der geringsten meiner Brüder getan habt, habt ihr mir getan",
+            "Ihr habt es für euch selbst getan",
+            "Ich habe euch dabei beobachtet",
+            "Ihr habt es im Tempel getan"
+          ],
+          "answer": 0,
+          "explain": "V. 40: einem der geringsten dieser meiner Brüder.",
+          "hint": "Lies Vers 40.",
+          "verse": 40
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer sind „die geringsten Brüder“?",
+          "a": "Drei Hauptdeutungen: alle Notleidenden (heute die häufigste Lesart); die Jünger und Boten Jesu (vgl. Mt 10,40–42; 12,49–50), so viele ältere und manche heutige Ausleger; oder das jüdische Volk – so lesen es viele Dispensationalisten, die hier ein Gericht über die Völker nach der Trübsal sehen."
+        },
+        {
+          "q": "Wird man durch gute Taten gerettet?",
+          "a": "Katholische Ausleger sehen hier, dass Liebe und Werke zum Heil gehören. Evangelische Ausleger betonen, dass die Gerechten ihre Taten gar nicht berechnen (V. 37) – die Taten zeigen, wer zu Christus gehört. Beide lesen den Text als ernsten Maßstab."
+        }
+      ],
+      "teaser": "Die andere Seite des Gerichts – und dieselbe Überraschung."
+    },
+    {
+      "id": "mgl-27",
+      "stage": "lieben",
+      "refs": [
+        {
+          "book": 40,
+          "chapter": 25,
+          "from": 41,
+          "to": 46
+        }
+      ],
+      "title": "Wann haben wir dich gesehen?",
+      "summary": "Zu denen zur Linken sagt der König: Ich war in Not, und ihr habt mir nicht geholfen. Auch sie fragen: Wann haben wir dich gesehen? Die Antwort ist dieselbe – nur umgekehrt.",
+      "place": "oelberg",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was fragen die zur Linken?",
+          "options": [
+            "Wann haben wir dich in Not gesehen und dir nicht gedient?",
+            "Warum hast du uns nicht gewarnt?",
+            "Wer sind deine Brüder?",
+            "Dürfen wir es noch einmal versuchen?"
+          ],
+          "answer": 0,
+          "explain": "V. 44: dieselbe Frage wie die Gerechten in V. 37–39.",
+          "hint": "Lies Vers 44.",
+          "verse": 44
+        },
+        {
+          "type": "truefalse",
+          "q": "Die zur Linken werden für böse Taten verurteilt, die sie begangen haben.",
+          "answer": false,
+          "explain": "V. 42–45: Es geht um das, was sie nicht getan haben.",
+          "hint": "Lies Vers 42–45.",
+          "verse": 45
+        }
+      ],
+      "explain": [
+        {
+          "q": "„Ewiges Feuer“ und „ewige Pein“?",
+          "a": "Wie Christen das verstehen, ist unterschiedlich: als ewige Strafe (die verbreitetste Sicht), als endgültige Vernichtung oder – als Hoffnung, nicht als Lehre – als Strafe, die am Ende zur Versöhnung führt. Mehr dazu im Plan „Gericht und Hölle“."
+        },
+        {
+          "q": "Warum Schafe und Böcke?",
+          "a": "Schafe und Ziegen weideten oft gemeinsam und wurden abends getrennt. Das Bild vom Hirten, der seine Herde scheidet, kennt schon Hesekiel 34,17."
+        }
+      ],
+      "try": "Lies noch einmal Psalm 15 und Jesaja 58,6–7 vom Anfang dieses Plans. Welche Nöte aus Matthäus 25 tauchen dort schon auf?"
+    }
+  ]
+}

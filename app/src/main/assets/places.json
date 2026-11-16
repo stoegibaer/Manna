@@ -223,6 +223,27 @@
    "lat": 40.52,
    "lon": 22.2,
    "text": "Stadt in Makedonien (Nordgriechenland), heute Veria."
+  },
+  {
+   "id": "mamre",
+   "name": "Mamre",
+   "lat": 31.56,
+   "lon": 35.11,
+   "text": "Ort bei Hebron im Bergland von Juda, wo Abraham seine Zelte aufschlug."
+  },
+  {
+   "id": "silo",
+   "name": "Silo",
+   "lat": 32.055,
+   "lon": 35.29,
+   "text": "Ort im Bergland Ephraim nördlich von Jerusalem; zur Zeit der Richter stand dort die Bundeslade."
+  },
+  {
+   "id": "hermon",
+   "name": "Hermon",
+   "lat": 33.416,
+   "lon": 35.857,
+   "text": "Höchster Berg der Region (über 2.800 m) im Norden, an den Quellen des Jordan."
   }
  ]
 }
