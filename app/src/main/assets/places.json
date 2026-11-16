@@ -125,6 +125,83 @@
    "lat": 37.31,
    "lon": 26.55,
    "text": "Kleine Insel in der Ägäis. Hier empfing Johannes seine Visionen."
+  },
+  {
+   "id": "jordan",
+   "name": "Jordan (Taufstelle)",
+   "lat": 31.84,
+   "lon": 35.55,
+   "text": "Der Jordan nördlich des Toten Meeres. Hier taufte Johannes nach alter Überlieferung."
+  },
+  {
+   "id": "kapernaum",
+   "name": "Kapernaum",
+   "lat": 32.881,
+   "lon": 35.575,
+   "text": "Fischerdorf am Nordufer des Sees Genezareth. Jesu Wohnort und Zentrum seines Wirkens in Galiläa."
+  },
+  {
+   "id": "nazareth",
+   "name": "Nazareth",
+   "lat": 32.7,
+   "lon": 35.3,
+   "text": "Kleines Dorf in den Hügeln Galiläas, in dem Jesus aufwuchs."
+  },
+  {
+   "id": "gadarener",
+   "name": "Land der Gadarener",
+   "lat": 32.8,
+   "lon": 35.66,
+   "text": "Gebiet am Ostufer des Sees Genezareth, überwiegend von Nichtjuden bewohnt."
+  },
+  {
+   "id": "dekapolis",
+   "name": "Dekapolis",
+   "lat": 32.65,
+   "lon": 35.85,
+   "text": "Bund griechisch geprägter Städte östlich des Sees Genezareth und des Jordan."
+  },
+  {
+   "id": "tyrus",
+   "name": "Tyrus",
+   "lat": 33.27,
+   "lon": 35.2,
+   "text": "Alte phönizische Hafenstadt am Mittelmeer, nördlich von Galiläa."
+  },
+  {
+   "id": "bethsaida",
+   "name": "Bethsaida",
+   "lat": 32.91,
+   "lon": 35.63,
+   "text": "Fischerdorf am Nordufer des Sees, Heimat von Petrus, Andreas und Philippus (Joh 1,44)."
+  },
+  {
+   "id": "caesarea-philippi",
+   "name": "Cäsarea Philippi",
+   "lat": 33.25,
+   "lon": 35.69,
+   "text": "Stadt an den Jordanquellen am Fuß des Hermon, mit einem Heiligtum für den Gott Pan."
+  },
+  {
+   "id": "jericho",
+   "name": "Jericho",
+   "lat": 31.87,
+   "lon": 35.44,
+   "text": "Oasenstadt im Jordantal, letzte Station vor dem Aufstieg nach Jerusalem."
+  },
+  {
+   "id": "oelberg",
+   "name": "Ölberg",
+   "lat": 31.779,
+   "lon": 35.245,
+   "text": "Hügel östlich von Jerusalem, mit Blick auf den Tempel. Am Fuß liegt der Garten Gethsemane."
+  },
+  {
+   "id": "betanien",
+   "name": "Bethanien",
+   "lat": 31.771,
+   "lon": 35.262,
+   "text": "Dorf am Osthang des Ölbergs, etwa 3 km von Jerusalem."
   }
  ]
 }

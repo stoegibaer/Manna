@@ -49,6 +49,9 @@ data class Settings(
     val suggestionHiddenUntil: String = "",
     /** Mute notifications (Do not disturb) while reading. */
     val dndWhileReading: Boolean = false,
+    /** ISO date of today's energy answer and the answer itself: low | normal | high. */
+    val energyDate: String = "",
+    val energy: String = "normal",
 ) {
     val showConfetti get() = confetti && !calm
     val playSound get() = sound && !calm
@@ -78,6 +81,8 @@ class SettingsRepository(private val context: Context) {
         val pausedDate = stringPreferencesKey("paused_date")
         val suggestionHiddenUntil = stringPreferencesKey("suggestion_hidden_until")
         val dnd = booleanPreferencesKey("dnd_while_reading")
+        val energyDate = stringPreferencesKey("energy_date")
+        val energy = stringPreferencesKey("energy")
         // internal state, not part of Settings
         val dndRestore = intPreferencesKey("dnd_restore_filter")
         val reminderDate = stringPreferencesKey("reminder_last_date")
@@ -114,6 +119,8 @@ class SettingsRepository(private val context: Context) {
             pausedDate = p[K.pausedDate] ?: d.pausedDate,
             suggestionHiddenUntil = p[K.suggestionHiddenUntil] ?: d.suggestionHiddenUntil,
             dndWhileReading = p[K.dnd] ?: d.dndWhileReading,
+            energyDate = p[K.energyDate] ?: d.energyDate,
+            energy = p[K.energy] ?: d.energy,
         )
     }
 
@@ -137,6 +144,8 @@ class SettingsRepository(private val context: Context) {
         p[K.pausedDate] = n.pausedDate
         p[K.suggestionHiddenUntil] = n.suggestionHiddenUntil
         p[K.dnd] = n.dndWhileReading
+        p[K.energyDate] = n.energyDate
+        p[K.energy] = n.energy
     }
 
     // ── internal state ──

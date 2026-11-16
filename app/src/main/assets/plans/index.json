@@ -9,7 +9,7 @@
   ],
   "plans": [
     { "id": "grosse-geschichte", "title": "Die große Geschichte", "subtitle": "Der rote Faden der Bibel", "direction": "start", "available": true },
-    { "id": "markus", "title": "Markus", "subtitle": "Jesus kennenlernen", "direction": "jesus", "available": false },
+    { "id": "markus", "title": "Markus", "subtitle": "Jesus kennenlernen", "direction": "jesus", "available": true },
     { "id": "habakuk", "title": "Habakuk", "subtitle": "Warum, Gott?", "direction": "ehrlich", "available": true },
     { "id": "psalmen-schwer", "title": "Psalmen für schwere Tage", "subtitle": "Ehrliche Gebete", "direction": "ehrlich", "available": false },
     { "id": "hiob", "title": "Hiob", "subtitle": "Leiden ohne Antwort?", "direction": "ehrlich", "available": false },

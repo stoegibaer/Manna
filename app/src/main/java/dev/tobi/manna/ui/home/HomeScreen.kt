@@ -21,6 +21,9 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.MenuBook
 import androidx.compose.material.icons.outlined.Settings
+import androidx.compose.material.icons.outlined.BatteryAlert
+import androidx.compose.material.icons.outlined.BatteryStd
+import androidx.compose.material.icons.outlined.Bolt
 import androidx.compose.material.icons.outlined.Style
 import androidx.compose.material.icons.rounded.Check
 import androidx.compose.material3.Button
@@ -80,6 +83,8 @@ data class HomeState(
     val showReminderInvite: Boolean = false,
     /** Suggested reminder minute based on when the user actually reads. */
     val suggestMinute: Int? = null,
+    /** Today's energy (low | normal | high), or null if not asked yet today. */
+    val energy: String? = null,
 ) {
     val weekCount get() = week.count { it }
 }
@@ -130,6 +135,7 @@ class HomeViewModel(private val c: AppContainer) : ViewModel() {
                 reEntry = reEntry,
                 showReminderInvite = !s.reminderSetupSeen && total > 0,
                 suggestMinute = suggestion(s, active, today),
+                energy = s.energy.takeIf { s.energyDate == today.toString() },
             )
         }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), HomeState())
@@ -142,6 +148,10 @@ class HomeViewModel(private val c: AppContainer) : ViewModel() {
         val median = minutes[minutes.size / 2]
         val rounded = (median + 2) / 5 * 5
         return rounded.takeIf { abs(it - s.anchorMinute) >= 45 }
+    }
+
+    fun setEnergy(level: String) = viewModelScope.launch {
+        c.settings.update { it.copy(energy = level, energyDate = LocalDate.now().toString()) }
     }
 
     fun dismissInvite() = viewModelScope.launch { c.settings.update { it.copy(reminderSetupSeen = true) } }
@@ -209,6 +219,7 @@ fun HomeScreen(
 
             // at most one hint at a time – too many cards make starting harder
             when {
+                s.energy == null && s.nextTitle != null -> EnergyCard(onPick = { vm.setEnergy(it) })
                 s.reEntry != null -> HintCard(
                     title = "Schön, dass du da bist.",
                     text = "Zuletzt hast du „${s.reEntry!!.lastTitle}“ gelesen: ${s.reEntry!!.lastSummary}",
@@ -241,13 +252,19 @@ fun HomeScreen(
                         Text(s.nextTitle!!, style = MaterialTheme.typography.titleLarge)
                         Text(s.nextRef, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         Spacer(Modifier.height(4.dp))
-                        Button(onClick = onStart, modifier = Modifier.fillMaxWidth().height(60.dp)) {
-                            Text(if (s.doneInPlan == 0) "Los geht’s" else "Weiterlesen", style = MaterialTheme.typography.titleMedium)
+                        // the big button follows today's energy; the other two ways stay available below
+                        val (mainLabel, mainAction) = when (s.energy) {
+                            "low" -> "Heute: 1 Vers" to onOneVerse
+                            "high" -> "Mehr am Stück" to onStartMore
+                            else -> (if (s.doneInPlan == 0) "Los geht’s" else "Weiterlesen") to onStart
                         }
-                        // energy check without an extra step: the big button is „normal“
+                        Button(onClick = mainAction, modifier = Modifier.fillMaxWidth().height(60.dp)) {
+                            Text(mainLabel, style = MaterialTheme.typography.titleMedium)
+                        }
                         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-                            TextButton(onClick = onOneVerse) { Text("Wenig Kraft: 1 Vers") }
-                            TextButton(onClick = onStartMore) { Text("Viel Energie: mehr") }
+                            if (s.energy != "low") TextButton(onClick = onOneVerse) { Text("Nur 1 Vers") }
+                            if (s.energy == "low" || s.energy == "high") TextButton(onClick = onStart) { Text("Ein Abschnitt") }
+                            if (s.energy != "high") TextButton(onClick = onStartMore) { Text("Mehr am Stück") }
                         }
                     } else {
                         Text("Plan abgeschlossen", style = MaterialTheme.typography.titleLarge)
@@ -288,6 +305,35 @@ private fun WeekRow(s: HomeState) {
             style = MaterialTheme.typography.bodyMedium,
             color = if (s.weekCount >= s.weeklyGoal) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
         )
+    }
+}
+
+/** Asked once a day, on the first open. Ignoring it is fine – then nothing changes. */
+@Composable
+private fun EnergyCard(onPick: (String) -> Unit) {
+    Surface(color = MaterialTheme.colorScheme.secondaryContainer, shape = RoundedCornerShape(20.dp), modifier = Modifier.fillMaxWidth().padding(bottom = 12.dp)) {
+        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            Text("Wie viel Kraft hast du heute?", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSecondaryContainer)
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                listOf(
+                    Triple("low", "Wenig", Icons.Outlined.BatteryAlert),
+                    Triple("normal", "Normal", Icons.Outlined.BatteryStd),
+                    Triple("high", "Viel", Icons.Outlined.Bolt),
+                ).forEach { (id, label, icon) ->
+                    Surface(
+                        onClick = { onPick(id) },
+                        shape = RoundedCornerShape(14.dp),
+                        color = MaterialTheme.colorScheme.surface,
+                        modifier = Modifier.weight(1f),
+                    ) {
+                        Column(Modifier.padding(vertical = 12.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+                            Icon(icon, null, tint = MaterialTheme.colorScheme.primary)
+                            Text(label, style = MaterialTheme.typography.labelLarge, modifier = Modifier.padding(top = 4.dp))
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

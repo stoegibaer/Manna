@@ -49,11 +49,14 @@ def helloao_verse(parts):
             continue
         out += "\x01" + p  # \x01 marks a boundary between content parts (e.g. before words of Jesus)
     # a removed footnote between two non-space characters is a word boundary unless punctuation follows
-    out = re.sub(r"(?<=\S)\x00+(?=[^\s.,;:!?)\]»“\x00])", " ", out)
+    out = re.sub(r"(?<=\S)\x00+(?=\x01?[^\s.,;:!?)\]»“\x00\x01])", " ", out)
     out = out.replace("\x00", "")
-    # "sprach:Dies" / "lieb?Petrus" – a part boundary right after punctuation needs a space
-    out = re.sub(r"(?<=[:;,.!?])\x01(?=[^\s.,;:!?)\]»“])", " ", out)
-    return out.replace("\x01", "")
+    # part boundaries (e.g. before/after words of Jesus) between two words or after punctuation need a space:
+    # "sprach:Dies", "lieb?Petrus", "undzieht", "Korban(das", ")sei"
+    out = re.sub(r"(?<=[:;,.!?)A-Za-zÄÖÜäöüß])\x01(?=[A-Za-zÄÖÜäöüß(„])", " ", out)
+    out = out.replace("\x01", "")
+    out = re.sub(r"\s+\)", ")", out)  # "geworden )" -> "geworden)"
+    return re.sub(r"\)(?=[A-Za-zÄÖÜäöüß])", ") ", out)  # ")wie" -> ") wie"
 
 
 def read_books(data):
