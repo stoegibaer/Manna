@@ -1,0 +1,1461 @@
+{
+  "id": "bibel-lesen",
+  "title": "Wie liest man die Bibel?",
+  "subtitle": "Entstehung, Gattungen, Auslegung",
+  "description": "Wer hat die Bibel geschrieben, wie ist sie zu uns gekommen – und warum liest man einen Psalm anders als einen Brief? 19 Abschnitte, in denen die Bibel selbst zeigt, wie sie entsteht und wie Menschen sie lesen. Dazu, wie verschiedene Kirchen das verstehen.",
+  "direction": "glauben",
+  "basis": "elbbk",
+  "stages": [
+    {
+      "id": "entstehung",
+      "title": "Wie ein biblisches Buch entsteht"
+    },
+    {
+      "id": "selbst",
+      "title": "Was die Bibel über sich sagt"
+    },
+    {
+      "id": "gattungen",
+      "title": "Ein Psalm ist kein Brief"
+    },
+    {
+      "id": "lesen",
+      "title": "Gemeinsam lesen"
+    }
+  ],
+  "cards": [
+    {
+      "id": "lukas",
+      "type": "person",
+      "name": "Lukas",
+      "text": "Arzt und Reisebegleiter des Paulus (Kol 4,14). Die Kirche schreibt ihm seit dem 2. Jahrhundert das Lukasevangelium und die Apostelgeschichte zu; beide sind an Theophilus gerichtet. Er war wohl kein Augenzeuge des Lebens Jesu; nach Lk 1,2 stützt er sich auf die, die es von Anfang an waren.",
+      "refs": "Lk 1,1–4; Apg 1,1; Kol 4,14"
+    },
+    {
+      "id": "baruk",
+      "type": "person",
+      "name": "Baruk",
+      "text": "Sohn Nerijas, Schreiber und Vertrauter des Propheten Jeremia. Er schrieb Jeremias Worte nach Diktat auf, las sie öffentlich vor und musste sich danach verstecken. Später ging er mit Jeremia nach Ägypten. Nach ihm ist das deuterokanonische Buch Baruch benannt.",
+      "refs": "Jer 36; 43,6; 45"
+    },
+    {
+      "id": "schriftrolle",
+      "type": "begriff",
+      "name": "Schriftrolle",
+      "text": "Das „Buch“ der Bibelzeit: Blätter aus Papyrus oder Tierhaut, aneinandergenäht, in Spalten beschrieben und aufgerollt. Die große Jesaja-Rolle aus Qumran ist über 7 Meter lang. Das gebundene Buch (Kodex) setzte sich erst in den ersten Jahrhunderten nach Christus durch – Christen benutzten es besonders früh.",
+      "refs": "Jer 36,2.23; Lk 4,17"
+    },
+    {
+      "id": "josia",
+      "type": "person",
+      "name": "Josia",
+      "text": "König von Juda (etwa 640–609 v. Chr.), mit acht Jahren auf den Thron gekommen. Nach dem Fund des Gesetzbuches erneuerte er den Gottesdienst und ließ die Götzenbilder im Land entfernen. Er fiel bei Megiddo im Kampf gegen Pharao Necho. Jeremia begann unter ihm als Prophet.",
+      "refs": "2Kön 22–23; Jer 1,2"
+    },
+    {
+      "id": "esra",
+      "type": "person",
+      "name": "Esra",
+      "text": "Priester und Schriftgelehrter. Er kam im 5. Jahrhundert v. Chr. aus Babylon nach Jerusalem, um das Volk im Gesetz zu unterweisen. Die jüdische Überlieferung sieht in ihm eine Art zweiten Mose, der die Tora neu ins Leben des Volkes brachte.",
+      "refs": "Esr 7; Neh 8"
+    },
+    {
+      "id": "inspiration",
+      "type": "begriff",
+      "name": "Inspiration",
+      "text": "Von lateinisch inspirare, „einhauchen“, nach 2Tim 3,16 (griechisch theopneustos, „gottgehaucht“). Christen aller Konfessionen bekennen, dass Gott durch die Schrift spricht. Wie das geschieht – Wort für Wort, durch die Persönlichkeit der Verfasser oder im ganzen Weg der Überlieferung – und worauf sich die Irrtumslosigkeit bezieht, beschreiben sie unterschiedlich.",
+      "refs": "2Tim 3,16; 2Petr 1,21"
+    },
+    {
+      "id": "tanach",
+      "type": "begriff",
+      "name": "Tanach",
+      "text": "Jüdischer Name der hebräischen Bibel, aus den Anfangsbuchstaben ihrer drei Teile: Tora (Weisung, die fünf Bücher Mose), Nevi’im (Propheten, dazu gehören auch Josua bis Könige) und Ketuvim (Schriften, beginnend mit den Psalmen). Dieselben Bücher wie das evangelische Alte Testament, aber als 24 gezählt und anders geordnet.",
+      "refs": "Lk 24,44"
+    },
+    {
+      "id": "kanon",
+      "type": "begriff",
+      "name": "Kanon",
+      "text": "Griechisch „Richtschnur“: die Liste der Bücher, die als Heilige Schrift gelten. Die 27 Bücher des Neuen Testaments nennt als Erster Athanasius im Jahr 367 genau in dieser Zusammenstellung; vorher waren einige (z. B. Hebräer, Offenbarung) umstritten. Christen beschreiben das meist nicht als Festlegen, sondern als Erkennen, welche Bücher sich als Schrift erwiesen hatten.",
+      "refs": "2Petr 3,16"
+    },
+    {
+      "id": "spaetschriften",
+      "type": "begriff",
+      "name": "Spätschriften",
+      "text": "Bücher wie Tobit, Judit, Weisheit, Jesus Sirach und die Makkabäerbücher. Sie stehen in der Septuaginta, nicht in der hebräischen Bibel. Für die katholische und die orthodoxe Kirche gehören sie zum Alten Testament („deuterokanonisch“). Luther übersetzte sie als „Apokryphen“: nützlich und gut zu lesen, aber der Schrift nicht gleich. Die meisten Freikirchen lassen sie weg.",
+      "refs": ""
+    },
+    {
+      "id": "parallelismus",
+      "type": "begriff",
+      "name": "Parallelismus",
+      "text": "Hebräische Poesie reimt keine Klänge, sondern Gedanken: Die zweite Zeile wiederholt, steigert oder kontrastiert die erste – etwa in Ps 119,105: Leuchte und Licht, Fuß und Pfad. Deshalb lässt sich ein Psalm in andere Sprachen übersetzen, ohne seine Form ganz zu verlieren.",
+      "refs": "Ps 18; Ps 119,105"
+    },
+    {
+      "id": "prophet",
+      "type": "begriff",
+      "name": "Prophet",
+      "text": "Hebräisch nabi, wohl „Berufener“ oder „Sprecher“. Propheten richten Gottes Wort an ihre eigene Zeit: Anklage, Mahnung, Trost und Ankündigung. Vorhersagen sind ein Teil davon, oft an die Reaktion der Hörer gebunden. Die hebräische Bibel zählt auch die Geschichtsbücher Josua bis Könige zu den „Propheten“.",
+      "refs": "Jer 18,1–10"
+    },
+    {
+      "id": "septuaginta",
+      "type": "begriff",
+      "name": "Septuaginta",
+      "text": "Die griechische Übersetzung des Alten Testaments, ab dem 3. Jahrhundert v. Chr. in Alexandria entstanden. Der Name („siebzig“) stammt von der Legende der 72 Übersetzer. Die Apostel zitieren das AT meist nach ihr. Augustinus hielt auch die Übersetzer für vom Geist geführt; die orthodoxe Kirche liest ihr Altes Testament bis heute nach der Septuaginta.",
+      "refs": "Apg 8,32–33"
+    },
+    {
+      "id": "handschriften",
+      "type": "begriff",
+      "name": "Handschriften",
+      "text": "Von keinem biblischen Buch ist die Urschrift erhalten, aber eine Fülle von Abschriften, allein über 5.000 griechische des Neuen Testaments. Die große Jesaja-Rolle aus Qumran (um 125 v. Chr.) ist rund 1.000 Jahre älter als die vorher bekannten hebräischen Handschriften und stimmt weitgehend mit ihnen überein.",
+      "refs": "Apg 8,37"
+    },
+    {
+      "id": "schrift-tradition",
+      "type": "begriff",
+      "name": "Schrift und Tradition",
+      "text": "Wer legt die Bibel verbindlich aus? Evangelische Kirchen und Freikirchen: „Allein die Schrift“ ist oberster Maßstab, Tradition wird an ihr geprüft. Katholische Kirche: Schrift und Überlieferung gehören zusammen, das Lehramt legt sie verbindlich aus. Orthodoxe Kirche: Die Schrift ist das Herzstück der Überlieferung, die in Konzilien, Kirchenvätern und Gottesdienst lebt.",
+      "refs": "Apg 17,11; 2Thess 2,15"
+    }
+  ],
+  "sections": [
+    {
+      "id": "bl-01",
+      "stage": "entstehung",
+      "refs": [
+        {
+          "book": 42,
+          "chapter": 1,
+          "from": 1,
+          "to": 4
+        }
+      ],
+      "title": "Der Reihe nach",
+      "summary": "Lukas schreibt an Theophilus: Viele haben schon über Jesus berichtet. Er selbst ist allem von Anfang an genau nachgegangen und schreibt es der Reihe nach auf.",
+      "bridge": "Dieser Plan beginnt nicht mit Theorie, sondern mit Stellen, an denen die Bibel selbst zeigt, wie sie entsteht und wie Menschen sie lesen. Den Anfang machen vier Verse, die Lukas seinem Evangelium voranstellt.",
+      "focus": "Achte darauf, was Lukas über seine Quellen sagt.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Woher hat Lukas sein Wissen?",
+          "options": [
+            "Von Augenzeugen und Dienern des Wortes",
+            "Aus einem Traum",
+            "Aus den Archiven des Tempels",
+            "Von Jesus selbst"
+          ],
+          "answer": 0,
+          "explain": "V. 2–3: von denen, die von Anfang an Augenzeugen waren – und er ist allem genau nachgegangen.",
+          "hint": "Lies Vers 2.",
+          "verse": 2
+        },
+        {
+          "type": "truefalse",
+          "q": "Lukas sagt, er sei der Erste, der einen Bericht über Jesus schreibt.",
+          "answer": false,
+          "explain": "V. 1: Viele haben es schon unternommen. Lukas kennt also frühere Berichte.",
+          "hint": "Lies Vers 1.",
+          "verse": 1
+        },
+        {
+          "type": "choice",
+          "q": "Wozu schreibt Lukas?",
+          "options": [
+            "Damit Theophilus die Zuverlässigkeit dessen erkennt, worin er unterrichtet wurde",
+            "Damit Theophilus zum ersten Mal von Jesus hört",
+            "Damit die früheren Berichte ersetzt werden",
+            "Damit der Text im Gottesdienst gelesen wird"
+          ],
+          "answer": 0,
+          "explain": "V. 4: Theophilus ist schon unterrichtet worden. Lukas will, dass er erkennt, wie zuverlässig das ist.",
+          "hint": "Lies Vers 4.",
+          "verse": 4
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer war Theophilus?",
+          "a": "Das weiß man nicht. Der Name bedeutet „Gottesfreund“. Die Anrede „vortrefflichster“ benutzt Lukas sonst für hohe römische Beamte (Apg 23,26; 26,25). Vielleicht war Theophilus ein Förderer, der die Abschrift des Buches bezahlte."
+        },
+        {
+          "q": "Was heißt „der Reihe nach“?",
+          "a": "Griechisch kathexēs, „geordnet, im Zusammenhang“. Das muss nicht streng zeitlich heißen: Lukas ordnet manche Ereignisse anders als Markus oder Matthäus."
+        }
+      ],
+      "cards": [
+        "lukas"
+      ],
+      "fact": "Lukas hat auch die Apostelgeschichte geschrieben. Zusammen machen seine beiden Bücher mehr als ein Viertel des Neuen Testaments aus – mehr als die Briefe des Paulus.",
+      "teaser": "Ein König hört einem Text zu – und schneidet ihn Stück für Stück ab."
+    },
+    {
+      "id": "bl-02",
+      "stage": "entstehung",
+      "refs": [
+        {
+          "book": 24,
+          "chapter": 36,
+          "from": 1,
+          "to": 8
+        }
+      ],
+      "title": "Die erste Rolle",
+      "summary": "Gott beauftragt Jeremia, alle Worte, die er bisher empfangen hat, auf eine Rolle zu schreiben. Jeremia diktiert, sein Schreiber Baruk schreibt und liest die Rolle im Tempel vor.",
+      "bridge": "Jeremia ist Prophet in Jerusalem, kurz bevor die Babylonier die Stadt erobern. Er hat schon über zwanzig Jahre lang öffentlich gesprochen – bisher nur mündlich.",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wer schreibt die Worte auf?",
+          "options": [
+            "Baruk",
+            "Jeremia selbst",
+            "Ein Schreiber des Königs",
+            "Ein Priester des Tempels"
+          ],
+          "answer": 0,
+          "explain": "V. 4: Jeremia diktiert, Baruk schreibt aus seinem Mund.",
+          "hint": "Lies Vers 4.",
+          "verse": 4
+        },
+        {
+          "type": "truefalse",
+          "q": "Jeremia liest die Rolle selbst im Tempel vor.",
+          "answer": false,
+          "explain": "V. 5–6: Jeremia ist verhindert und darf nicht in den Tempel. Baruk liest an seiner Stelle.",
+          "hint": "Lies Vers 5–6.",
+          "verse": 5
+        },
+        {
+          "type": "choice",
+          "q": "Welche Hoffnung steht hinter dem Aufschreiben?",
+          "options": [
+            "Dass das Volk umkehrt und Gott vergeben kann",
+            "Dass der König Jeremia freilässt",
+            "Dass die Worte für spätere Generationen erhalten bleiben",
+            "Dass Babel davon erfährt"
+          ],
+          "answer": 0,
+          "explain": "V. 3 (und V. 7): vielleicht hören sie und kehren um, damit Gott vergibt.",
+          "hint": "Lies Vers 3.",
+          "verse": 3
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wann war das?",
+          "a": "Im 4. Jahr Jojakims, also 605/604 v. Chr. – das Jahr, in dem Nebukadnezar von Babel die Ägypter bei Karkemisch besiegte. Jeremia war seit dem 13. Jahr Josias Prophet (Jer 1,2), etwa seit 627 v. Chr."
+        },
+        {
+          "q": "Warum darf Jeremia nicht in den Tempel?",
+          "a": "Der Text sagt nur, dass er verhindert ist. Kurz vorher hatte er im Tempel die Zerstörung des Tempels angekündigt und war nur knapp dem Tod entgangen (Jer 26). Vielleicht hatte man ihm den Zutritt verboten."
+        }
+      ],
+      "cards": [
+        "baruk",
+        "schriftrolle"
+      ],
+      "fact": "In den 1970er-Jahren tauchte auf dem Antikenmarkt ein Tonsiegel mit der Aufschrift „Berechjahu, Sohn des Nerijahu, der Schreiber“ auf – möglicherweise Baruks Siegel. Ob es echt ist, ist heute allerdings umstritten.",
+      "teaser": "Was macht ein König mit einem Text, der ihm nicht gefällt?"
+    },
+    {
+      "id": "bl-03",
+      "stage": "entstehung",
+      "refs": [
+        {
+          "book": 24,
+          "chapter": 36,
+          "from": 21,
+          "to": 28
+        },
+        {
+          "book": 24,
+          "chapter": 36,
+          "from": 32,
+          "to": 32
+        }
+      ],
+      "title": "Die zweite Rolle",
+      "summary": "König Jojakim lässt sich die Rolle vorlesen, schneidet sie Stück für Stück ab und verbrennt sie. Gott lässt Jeremia alles noch einmal aufschreiben – und es kommen weitere Worte hinzu.",
+      "bridge": "Die Hofbeamten haben die Rolle gehört und sind erschrocken. Sie raten Baruk und Jeremia, sich zu verstecken, und berichten dem König (Jer 36,9–20).",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Bring die Ereignisse in die richtige Reihenfolge.",
+          "items": [
+            "Jehudi liest dem König vor",
+            "Der König zerschneidet die Rolle und verbrennt sie",
+            "Der König will Baruk und Jeremia festnehmen lassen",
+            "Gott beauftragt Jeremia mit einer neuen Rolle"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 21–28: Vorlesen, Verbrennen, Haftbefehl – und dann der Auftrag zur neuen Rolle."
+        },
+        {
+          "type": "truefalse",
+          "q": "Einige Berater baten den König, die Rolle nicht zu verbrennen.",
+          "answer": true,
+          "explain": "V. 25: Elnathan, Delaja und Gemarja – aber er hört nicht auf sie.",
+          "hint": "Lies Vers 25.",
+          "verse": 25
+        },
+        {
+          "type": "choice",
+          "q": "Was ist an der zweiten Rolle anders?",
+          "options": [
+            "Es kommen noch viele Worte gleichen Inhalts hinzu",
+            "Sie ist kürzer als die erste",
+            "Sie wird im Tempel versteckt",
+            "Jeremia schreibt sie selbst"
+          ],
+          "answer": 0,
+          "explain": "V. 32: Baruk schreibt alles noch einmal – und viele ähnliche Worte werden hinzugefügt.",
+          "hint": "Lies Vers 32.",
+          "verse": 32
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum betont der Text, dass sie nicht erschrecken?",
+          "a": "Kleider zerreißen war ein Zeichen von Entsetzen, Trauer oder Buße. V. 24 hält fest, dass genau das beim König und seinen Leuten ausbleibt."
+        },
+        {
+          "q": "Was sagt V. 32 über das Buch Jeremia?",
+          "a": "Es ist nicht in einem Zug entstanden: Es gab mindestens zwei Fassungen der Rolle, die zweite war länger. Die Septuaginta überliefert Jeremia sogar in einer kürzeren Fassung mit anderer Reihenfolge. In Qumran fand man hebräische Handschriften beider Formen."
+        },
+        {
+          "q": "Wie verstehen Gläubige so ein Wachsen?",
+          "a": "Viele Christen sehen auch das Ergänzen, Sammeln und Abschreiben als Teil von Gottes Wirken: Er war nicht nur beim ersten Diktat dabei, sondern auf dem ganzen Weg des Textes. Andere legen den Ton auf die endgültige Gestalt, die die Gemeinde als Schrift angenommen hat. Beide Sichtweisen rechnen mit Gottes Führung."
+        }
+      ],
+      "cards": [],
+      "teaser": "Ein Buch, das jahrzehntelang niemand gelesen hat, taucht bei Bauarbeiten wieder auf."
+    },
+    {
+      "id": "bl-04",
+      "stage": "entstehung",
+      "refs": [
+        {
+          "book": 12,
+          "chapter": 22,
+          "from": 8,
+          "to": 13
+        }
+      ],
+      "title": "Das gefundene Buch",
+      "summary": "Bei Bauarbeiten am Tempel findet der Hohepriester Hilkija das Buch des Gesetzes. Als König Josia es vorgelesen bekommt, zerreißt er seine Kleider und lässt Gott befragen.",
+      "bridge": "Knapp 20 Jahre vor Jeremias Rolle: Josia, der Vater Jojakims, lässt den verfallenen Tempel ausbessern (2Kön 22,3–7).",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "whosaid",
+          "quote": "Ich habe das Buch des Gesetzes im Haus des HERRN gefunden.",
+          "quote_ref": {
+            "book": 12,
+            "chapter": 22,
+            "from": 8,
+            "to": 8
+          },
+          "options": [
+            "Hilkija",
+            "Schaphan",
+            "Josia",
+            "Jeremia"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 8: Der Hohepriester Hilkija gibt das Buch dem Schreiber Schaphan."
+        },
+        {
+          "type": "choice",
+          "q": "Wie reagiert Josia, als er das Buch hört?",
+          "options": [
+            "Er zerreißt seine Kleider",
+            "Er lässt es verbrennen",
+            "Er lässt es ins Archiv bringen",
+            "Er zweifelt an seiner Echtheit"
+          ],
+          "answer": 0,
+          "explain": "V. 11: Er zerreißt seine Kleider – genau das, was sein Sohn Jojakim später nicht tut (Jer 36,24).",
+          "hint": "Lies Vers 11.",
+          "verse": 11
+        },
+        {
+          "type": "truefalse",
+          "q": "Josia meint, Gottes Zorn komme daher, dass die Väter nicht nach diesem Buch gehandelt haben.",
+          "answer": true,
+          "explain": "V. 13: Die Väter haben nicht auf die Worte dieses Buches gehört.",
+          "hint": "Lies Vers 13.",
+          "verse": 13
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was war das für ein Buch?",
+          "a": "Der Text nennt es „Buch des Gesetzes“. Schon Kirchenväter wie Hieronymus vermuteten, dass es das 5. Buch Mose oder ein Teil davon war, weil Josias Reformen in Kapitel 23 dessen Geboten entsprechen. Sicher wissen kann man es nicht."
+        },
+        {
+          "q": "Wie kann ein Gesetzbuch verloren gehen?",
+          "a": "Die Bibel erzählt es nicht. Unter Josias Großvater Manasse wurden jahrzehntelang fremde Götter verehrt, sogar im Tempel (2Kön 21,1–9)."
+        }
+      ],
+      "cards": [
+        "josia"
+      ],
+      "teaser": "Ein ganzes Volk steht einen halben Tag lang und hört zu – und dann weinen alle."
+    },
+    {
+      "id": "bl-05",
+      "stage": "entstehung",
+      "refs": [
+        {
+          "book": 16,
+          "chapter": 8,
+          "from": 1,
+          "to": 12
+        }
+      ],
+      "title": "Lesen und erklären",
+      "summary": "Das ganze Volk versammelt sich, und Esra liest vom Morgen bis zum Mittag aus dem Gesetz vor. Die Leviten erklären den Sinn. Das Volk weint – doch Nehemia und Esra sagen: Heute ist ein Festtag.",
+      "bridge": "Über 170 Jahre später: Jerusalem wurde zerstört, das Volk lebte im Exil in Babylon. Nach der Rückkehr sind die Stadtmauern gerade wieder aufgebaut (Neh 6,15).",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was tun die Leviten?",
+          "options": [
+            "Sie lesen deutlich vor und geben den Sinn an",
+            "Sie singen Psalmen",
+            "Sie bewachen das Wassertor",
+            "Sie schreiben das Gesetz ab"
+          ],
+          "answer": 0,
+          "explain": "V. 8: Sie lesen deutlich und erklären, so dass man das Gelesene versteht.",
+          "hint": "Lies Vers 7–8.",
+          "verse": 8
+        },
+        {
+          "type": "truefalse",
+          "q": "Nehemia und Esra fordern das Volk auf, zu fasten und zu trauern.",
+          "answer": false,
+          "explain": "V. 9–10: Im Gegenteil – sie sollen essen, trinken und denen etwas schicken, die nichts haben.",
+          "hint": "Lies Vers 9–10.",
+          "verse": 10
+        },
+        {
+          "type": "choice",
+          "q": "Warum feiert das Volk am Ende?",
+          "options": [
+            "Weil es die Worte verstanden hat",
+            "Weil die Mauer fertig ist",
+            "Weil der König es befohlen hat",
+            "Weil die Ernte gut war"
+          ],
+          "answer": 0,
+          "explain": "V. 12: Sie feiern, denn sie hatten die Worte verstanden, die man ihnen mitgeteilt hatte.",
+          "hint": "Lies Vers 12.",
+          "verse": 12
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „gaben den Sinn an“?",
+          "a": "Das hebräische Wort ist nicht ganz eindeutig: deutlich, abschnittweise vorlesen oder erklären. Die jüdische Tradition (Talmud, Megilla 3a) sieht hier den Anfang der Übersetzung ins Aramäische – viele Rückkehrer verstanden Aramäisch besser als Hebräisch."
+        },
+        {
+          "q": "Wer waren die Leviten?",
+          "a": "Nachkommen des Stammes Levi, zuständig für den Dienst am Tempel. Sie hatten auch die Aufgabe, das Volk im Gesetz zu unterweisen (5Mo 33,10; 2Chr 17,7–9)."
+        }
+      ],
+      "cards": [
+        "esra"
+      ],
+      "fact": "Bis heute wird in vielen Synagogen die Torarolle nach der Lesung hochgehoben und der stehenden Gemeinde gezeigt – ganz ähnlich wie in V. 5.",
+      "teaser": "Ein einziges griechisches Wort, das im ganzen Neuen Testament nur einmal vorkommt."
+    },
+    {
+      "id": "bl-06",
+      "stage": "selbst",
+      "refs": [
+        {
+          "book": 55,
+          "chapter": 3,
+          "from": 14,
+          "to": 17
+        }
+      ],
+      "title": "Von Gott eingegeben",
+      "summary": "Paulus erinnert Timotheus an die heiligen Schriften, die er von Kind auf kennt: Alle Schrift ist von Gott eingegeben und nützlich zur Lehre, zur Überführung, zur Zurechtweisung und zur Erziehung.",
+      "bridge": "Neue Etappe. Paulus schreibt aus der Haft in Rom an seinen jungen Mitarbeiter Timotheus – nach der Überlieferung sein letzter Brief.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Seit wann kennt Timotheus die heiligen Schriften?",
+          "options": [
+            "Von Kind auf",
+            "Seit er Paulus kennt",
+            "Seit seiner Taufe",
+            "Seit seiner Zeit in Jerusalem"
+          ],
+          "answer": 0,
+          "explain": "V. 15: von Kind auf. Nach 2Tim 1,5 hatten seine Mutter Eunike und seine Großmutter Lois denselben Glauben.",
+          "hint": "Lies Vers 15.",
+          "verse": 15
+        },
+        {
+          "type": "choice",
+          "q": "Wozu können die Schriften laut V. 15 weise machen?",
+          "options": [
+            "Zur Rettung durch den Glauben an Christus Jesus",
+            "Zur Erkenntnis der Zukunft",
+            "Zum Erfolg im Leben",
+            "Zum Streitgespräch mit Gelehrten"
+          ],
+          "answer": 0,
+          "explain": "V. 15: weise zur Rettung (Seligkeit) durch den Glauben, der in Christus Jesus ist.",
+          "hint": "Lies Vers 15.",
+          "verse": 15
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „von Gott eingegeben“?",
+          "a": "Griechisch theopneustos, wörtlich „gottgehaucht“ – das Wort kommt im Neuen Testament nur hier vor. Mit „Schrift“ meint Paulus zunächst die heiligen Schriften, die Timotheus von Kind auf kennt, also das Alte Testament. Christen haben das später auch auf das Neue Testament bezogen."
+        },
+        {
+          "q": "Wie verstehen evangelikale Christen Inspiration?",
+          "a": "Die Chicago-Erklärung (1978), wichtig für viele Freikirchen: Gott hat die Verfasser so geleitet, dass die Urschriften in allem, was sie behaupten, ohne Irrtum sind – auch in Geschichte und Natur, recht verstanden nach ihrer Gattung. Andere Evangelikale sprechen lieber von Unfehlbarkeit in Fragen des Glaubens und Lebens. Die Lausanner Verpflichtung (1974) verbindet beides: ohne Irrtum in allem, was sie bekräftigt, und einzige unfehlbare Richtschnur für Glauben und Leben."
+        },
+        {
+          "q": "Wie verstehen katholische und orthodoxe Christen Inspiration?",
+          "a": "Das Zweite Vatikanische Konzil (Dei Verbum 11, 1965): Gott ist Urheber der Schrift, und die Menschen sind echte Verfasser, die ihre eigenen Fähigkeiten gebrauchten. Die Schrift lehrt sicher, treu und ohne Irrtum die Wahrheit, die Gott um unseres Heiles willen aufgezeichnet haben wollte. Orthodoxe Christen sehen den Geist, der die Schrift eingab, auch darin am Werk, wie die Kirche sie bewahrt, sammelt und im Gottesdienst liest."
+        },
+        {
+          "q": "Gibt es eine Sicht, die den ganzen Weg der Bibel einschließt?",
+          "a": "Ja, in mehreren Traditionen: Die Botschaft, die Gott vermitteln will, ist verlässlich und ohne Irrtum – nicht unbedingt das Weltbild der Zeit, in dem sie gesagt ist. Und Gott hat nicht nur die ersten Worte gegeben, sondern auch Sammeln, Abschreiben und Übersetzen begleitet. Bausteine dafür sind Dei Verbum 11–12, Calvins Gedanke der „Anpassung“ (Gott redet in der Sprache der Menschen), das Westminster-Bekenntnis (1647, 1,8: Gottes Fürsorge hat den Text durch die Zeiten bewahrt) und Augustinus, der auch die Übersetzer der Septuaginta für vom Geist geführt hielt."
+        }
+      ],
+      "cards": [
+        "inspiration"
+      ],
+      "teaser": "Petrus gibt zu, dass ihm Paulus manchmal zu kompliziert ist."
+    },
+    {
+      "id": "bl-07",
+      "stage": "selbst",
+      "refs": [
+        {
+          "book": 61,
+          "chapter": 1,
+          "from": 16,
+          "to": 21
+        },
+        {
+          "book": 61,
+          "chapter": 3,
+          "from": 15,
+          "to": 16
+        }
+      ],
+      "title": "Keine Fabeln",
+      "summary": "Petrus betont: Wir sind keinen erfundenen Geschichten gefolgt, wir waren Augenzeugen. Prophetie kam nicht aus menschlichem Willen. Und: In den Briefen des Paulus ist manches schwer zu verstehen.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Welches Erlebnis nennt Petrus als Augenzeuge?",
+          "options": [
+            "Die Stimme vom Himmel auf dem heiligen Berg",
+            "Die Speisung der Fünftausend",
+            "Die Kreuzigung",
+            "Das Pfingstfest"
+          ],
+          "answer": 0,
+          "explain": "V. 17–18: die Stimme, die Jesus seinen geliebten Sohn nannte – auf dem heiligen Berg.",
+          "hint": "Lies Vers 17–18.",
+          "verse": 17
+        },
+        {
+          "type": "choice",
+          "q": "Womit vergleicht Petrus das prophetische Wort?",
+          "options": [
+            "Mit einer Lampe an einem dunklen Ort",
+            "Mit einem zweischneidigen Schwert",
+            "Mit Brot für die Seele",
+            "Mit einem Spiegel"
+          ],
+          "answer": 0,
+          "explain": "V. 19: wie eine Lampe, die an einem dunklen Ort leuchtet, bis der Tag anbricht.",
+          "hint": "Lies Vers 19.",
+          "verse": 19
+        },
+        {
+          "type": "truefalse",
+          "q": "Petrus schreibt, dass die Briefe des Paulus leicht zu verstehen seien.",
+          "answer": false,
+          "explain": "3,16: Einiges darin ist schwer zu verstehen, und manche verdrehen es.",
+          "hint": "Lies 3,16."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Welcher heilige Berg?",
+          "a": "Der Berg der Verklärung Jesu (Mk 9,2–8). Die Überlieferung nennt den Berg Tabor in Galiläa; manche Ausleger denken an den Hermon."
+        },
+        {
+          "q": "„Keine Weissagung ist von eigener Auslegung“?",
+          "a": "Zwei Lesarten: (1) Prophetie stammt nicht aus der eigenen Deutung des Propheten – so begründet es V. 21. (2) Kein Leser soll die Schrift eigenmächtig auslegen. Die katholische Tradition hat die Stelle oft auf die Auslegung in der Kirche bezogen, evangelische Ausleger betonen meist die erste Lesart."
+        },
+        {
+          "q": "„Wie auch die übrigen Schriften“",
+          "a": "3,16 stellt die Briefe des Paulus neben „die übrigen Schriften“. Das ist eine der frühesten Stellen, an der christliche Texte neben das Alte Testament gestellt werden."
+        }
+      ],
+      "cards": [
+        "kanon"
+      ],
+      "teaser": "Jesus nennt drei Teile der Schrift – eine Einteilung, die bis heute in jeder jüdischen Bibel steht."
+    },
+    {
+      "id": "bl-08",
+      "stage": "selbst",
+      "refs": [
+        {
+          "book": 42,
+          "chapter": 24,
+          "from": 25,
+          "to": 27
+        },
+        {
+          "book": 42,
+          "chapter": 24,
+          "from": 44,
+          "to": 47
+        }
+      ],
+      "title": "Mose, Propheten, Psalmen",
+      "summary": "Der Auferstandene erklärt zwei Jüngern auf dem Weg nach Emmaus, was in allen Schriften über ihn steht. Später öffnet er allen Jüngern das Verständnis für die Schriften.",
+      "bridge": "Am Ostertag sind zwei Jünger auf dem Weg nach Emmaus. Jesus geht mit, aber sie erkennen ihn nicht (Lk 24,13–24). Am Abend erscheint er allen Jüngern in Jerusalem.",
+      "place": "emmaus",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Womit beginnt Jesus seine Erklärung?",
+          "options": [
+            "Mit Mose und allen Propheten",
+            "Mit den Psalmen",
+            "Mit seinen eigenen Gleichnissen",
+            "Mit den Worten Johannes des Täufers"
+          ],
+          "answer": 0,
+          "explain": "V. 27: von Mose und allen Propheten anfangend, in allen Schriften.",
+          "hint": "Lies Vers 27.",
+          "verse": 27
+        },
+        {
+          "type": "choice",
+          "q": "Welche drei Teile der Schrift nennt Jesus in V. 44?",
+          "options": [
+            "Gesetz Moses, Propheten und Psalmen",
+            "Gesetz, Geschichte und Weisheit",
+            "Mose, Könige und Propheten",
+            "Tora, Talmud und Psalmen"
+          ],
+          "answer": 0,
+          "explain": "V. 44: das Gesetz Moses, die Propheten und die Psalmen.",
+          "hint": "Lies Vers 44.",
+          "verse": 44
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum diese drei Teile?",
+          "a": "Die hebräische Bibel hat drei Teile: Tora, Propheten und Schriften. Die Psalmen sind das erste und größte Buch der Schriften – vielleicht steht das Wort hier für den ganzen dritten Teil."
+        },
+        {
+          "q": "Wie lesen Christen das Alte Testament von Jesus her?",
+          "a": "Die Kirchenväter fanden Christus in vielen Vorbildern (z. B. Passahlamm, Isaak). Die Reformatoren betonten den Wortsinn und fragten mit Luther, „was Christum treibet“. Dispensationalisten unterscheiden genau, was Israel und was der Gemeinde gilt. Jüdische Leser lesen dieselben Texte ohne Bezug auf Jesus."
+        }
+      ],
+      "cards": [
+        "tanach",
+        "spaetschriften"
+      ],
+      "teaser": "Ein Gebet, das alle Buchstaben des hebräischen Alphabets durchgeht – achtmal jeden."
+    },
+    {
+      "id": "bl-09",
+      "stage": "selbst",
+      "refs": [
+        {
+          "book": 19,
+          "chapter": 119,
+          "from": 97,
+          "to": 105
+        }
+      ],
+      "title": "Süßer als Honig",
+      "summary": "Der Beter beschreibt, was Gottes Weisung für ihn ist: Nachsinnen den ganzen Tag, Quelle von Einsicht, süßer als Honig, eine Leuchte für den Weg.",
+      "quiz": [
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Der Beter sinnt den ganzen [Abend] über Gottes Gesetz nach.",
+          "fix": "Tag",
+          "verse": 97,
+          "hint": "Lies Vers 97.",
+          "explain": "V. 97: Es ist sein Sinnen den ganzen Tag."
+        },
+        {
+          "type": "truefalse",
+          "q": "Der Beter sagt, er sei verständiger als alle seine Lehrer.",
+          "answer": true,
+          "explain": "V. 99 – und V. 100: mehr Einsicht als die Alten.",
+          "hint": "Lies Vers 99.",
+          "verse": 99
+        },
+        {
+          "type": "choice",
+          "q": "Womit vergleicht er Gottes Worte in V. 103?",
+          "options": [
+            "Mit Honig",
+            "Mit Gold",
+            "Mit frischem Wasser",
+            "Mit Brot"
+          ],
+          "answer": 0,
+          "explain": "V. 103: süßer als Honig für den Mund.",
+          "hint": "Lies Vers 103.",
+          "verse": 103
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist das Besondere an Psalm 119?",
+          "a": "Er ist der längste Psalm (176 Verse) und ein Alphabet-Gedicht: 22 Strophen zu je 8 Versen, und alle Verse einer Strophe beginnen mit demselben hebräischen Buchstaben. V. 97–104 ist die Strophe „Mem“, V. 105 beginnt „Nun“. In fast jedem Vers steht ein Wort für Gottes Wort: Gesetz, Gebote, Zeugnisse, Vorschriften."
+        },
+        {
+          "q": "Welches „Gesetz“ meint der Beter?",
+          "a": "Hebräisch Tora, „Weisung“ – mehr als Paragrafen: Gottes Anleitung zum Leben, damals vor allem die fünf Bücher Mose."
+        }
+      ],
+      "cards": [
+        "parallelismus"
+      ],
+      "fact": "Die Öllampen der Bibelzeit waren kleine Tonschalen mit einem Docht. Ihr Licht reichte für wenige Schritte.",
+      "memory_verse": {
+        "ref": {
+          "book": 19,
+          "chapter": 119,
+          "from": 105,
+          "to": 105
+        },
+        "text": "Dein Wort ist Leuchte meinem Fuß und Licht für meinen Pfad."
+      },
+      "prayer": {
+        "ref": {
+          "book": 19,
+          "chapter": 119,
+          "from": 18,
+          "to": 18
+        },
+        "source": "Psalm 119,18"
+      },
+      "teaser": "Gott reitet auf einem Cherub, und aus seiner Nase steigt Rauch. Wie liest man so etwas?"
+    },
+    {
+      "id": "bl-10",
+      "stage": "gattungen",
+      "refs": [
+        {
+          "book": 19,
+          "chapter": 18,
+          "from": 7,
+          "to": 17
+        }
+      ],
+      "title": "Rauch aus seiner Nase",
+      "summary": "David beschreibt seine Rettung als gewaltigen Auftritt Gottes: Die Erde bebt, Feuer und Gewitter, Gott fährt auf einem Cherub herab und zieht ihn aus großen Wassern.",
+      "bridge": "Neue Etappe: Die Bibel enthält Erzählungen, Gesetze, Lieder, Sprichwörter, Prophetie, Gleichnisse und Briefe. Jede Art von Text liest sich anders. Psalm 18 ist laut Überschrift ein Lied Davids nach seiner Rettung vor Saul und allen Feinden.",
+      "focus": "Achte darauf, worum der Beter in V. 7 bittet – und was am Ende geschieht.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wovon erzählt das Lied, wenn man V. 7 und V. 17–18 nebeneinanderlegt?",
+          "options": [
+            "Gott rettet den Beter vor seinen Feinden",
+            "Ein Erdbeben zerstört Jerusalem",
+            "Gott erschafft die Welt",
+            "Ein Unwetter vernichtet die Ernte"
+          ],
+          "answer": 0,
+          "explain": "V. 7: Er schreit in der Not zu Gott. V. 17–18: Gott zieht ihn heraus und rettet ihn vor seinen Feinden.",
+          "hint": "Lies Vers 7 und 17–18.",
+          "verse": 18
+        },
+        {
+          "type": "truefalse",
+          "q": "Der Beter sagt, seine Feinde seien stärker gewesen als er.",
+          "answer": true,
+          "explain": "V. 18: Sie waren mächtiger als ich.",
+          "hint": "Lies Vers 18.",
+          "verse": 18
+        }
+      ],
+      "explain": [
+        {
+          "q": "Ist das wörtlich gemeint?",
+          "a": "Psalm 18 ist Poesie. Die Bilder – Rauch, Feuer, Beben, Dunkel – kennt man auch vom Sinai (2Mo 19,16–18). Ausleger fast aller Traditionen lesen sie als Ausdruck dafür, wie David seine Rettung erlebt hat, nicht als Bericht über ein bestimmtes Gewitter."
+        },
+        {
+          "q": "Was ist ein Cherub?",
+          "a": "Ein Himmelswesen, Mehrzahl Cherubim. Cherubim bewachen den Weg zum Baum des Lebens (1Mo 3,24), stehen als Figuren auf der Bundeslade (2Mo 25,18–22) und tragen in Hesekiels Vision Gottes Thron (Hes 10)."
+        },
+        {
+          "q": "Wie gehen Christen mit Naturbildern in der Bibel um?",
+          "a": "Calvin sprach von „Anpassung“: Gott redet in der Sprache und Vorstellungswelt der Menschen, wie eine Amme mit einem kleinen Kind. Galilei zitierte 1615 Kardinal Baronius: Der Heilige Geist wolle lehren, wie man in den Himmel kommt, nicht wie der Himmel sich bewegt. Die Chicago-Erklärung betont dagegen, dass auch Aussagen über Natur und Geschichte irrtumslos sind, wenn man sie nach ihrer Gattung liest. Wo genau ein Bild ein Bild ist – etwa bei 1. Mose 1–3 –, beantworten Christen unterschiedlich."
+        }
+      ],
+      "fact": "Psalm 18 steht fast wortgleich noch einmal in 2. Samuel 22 – mit vielen kleinen Unterschieden. Schon die Bibel selbst überliefert also manche Texte in zwei Fassungen.",
+      "teaser": "Ein Gesetz über Vogelnester – und eins über Geländer auf dem Dach.",
+      "try": "Öffne in „Frei lesen“ Psalm 18 und 2. Samuel 22 und vergleiche die Verse 8–16. Wie viele Unterschiede findest du?"
+    },
+    {
+      "id": "bl-11",
+      "stage": "gattungen",
+      "refs": [
+        {
+          "book": 5,
+          "chapter": 22,
+          "from": 1,
+          "to": 8
+        }
+      ],
+      "title": "Ein Geländer ums Dach",
+      "summary": "Eine Reihe kurzer Gebote: verlaufene Tiere des Nachbarn zurückbringen, beim Aufrichten helfen, die Vogelmutter fliegen lassen, ein Geländer ums Dach bauen.",
+      "bridge": "Das 5. Buch Mose gibt sich als Rede Moses an Israel, kurz bevor das Volk in das versprochene Land zieht.",
+      "focus": "Achte darauf, welche Gründe der Text selbst für die Gebote nennt.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was soll man tun, wenn der Besitzer eines verlaufenen Rindes weit weg wohnt?",
+          "options": [
+            "Das Tier aufnehmen, bis er es sucht",
+            "Es nach sieben Tagen behalten",
+            "Es zum Priester bringen",
+            "Es laufen lassen"
+          ],
+          "answer": 0,
+          "explain": "V. 2: ins eigene Haus aufnehmen, bis der Besitzer es sucht, und dann zurückgeben.",
+          "hint": "Lies Vers 2.",
+          "verse": 2
+        },
+        {
+          "type": "choice",
+          "q": "Welchen Grund nennt V. 8 für das Geländer?",
+          "options": [
+            "Damit keine Blutschuld aufs Haus kommt, wenn jemand herunterfällt",
+            "Damit das Haus schöner aussieht",
+            "Damit niemand aufs Dach steigt",
+            "Damit man dort ungestört beten kann"
+          ],
+          "answer": 0,
+          "explain": "V. 8: Wer kein Geländer baut, ist mitschuldig, wenn jemand abstürzt.",
+          "hint": "Lies Vers 8.",
+          "verse": 8
+        },
+        {
+          "type": "truefalse",
+          "q": "Bei dem Vogelnest erlaubt das Gebot, die Jungen zu nehmen.",
+          "answer": true,
+          "explain": "V. 7: Die Mutter soll man fliegen lassen, die Jungen darf man nehmen.",
+          "hint": "Lies Vers 6–7.",
+          "verse": 7
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum ein Geländer auf dem Dach?",
+          "a": "Häuser hatten Flachdächer, die man benutzte: zum Trocknen von Flachs (Jos 2,6), zum Schlafen in heißen Nächten, zum Beten (Apg 10,9)."
+        },
+        {
+          "q": "Wie lesen Christen diese Gebote heute?",
+          "a": "Reformierte Tradition (schon Thomas von Aquin): Das Gesetz enthält Moralgebote, die bleiben, und Kult- und Rechtsvorschriften für Israel, deren Grundsatz weiter zählt. Lutherische Tradition: Das Gesetz zeigt, was Gott will, und treibt zu Christus. Dispensationalisten: Das Gesetz des Mose galt Israel, die Gemeinde lebt unter dem „Gesetz Christi“. Im Judentum gelten die Gebote weiter und werden ausgelegt."
+        },
+        {
+          "q": "Und V. 5 – Kleidung?",
+          "a": "Was genau gemeint war, ist unsicher. Manche denken an Täuschung, andere an Bräuche fremder Kulte, wieder andere an die Unterscheidung der Geschlechter überhaupt. Wie man das heute anwendet, sehen Christen unterschiedlich."
+        }
+      ],
+      "fact": "Die jüdische Tradition zählt in den fünf Büchern Mose 613 Gebote (Talmud, Makkot 23b).",
+      "teaser": "Zwei Sprichwörter direkt hintereinander – und sie sagen das Gegenteil."
+    },
+    {
+      "id": "bl-12",
+      "stage": "gattungen",
+      "refs": [
+        {
+          "book": 20,
+          "chapter": 26,
+          "from": 1,
+          "to": 12
+        }
+      ],
+      "title": "Antworte dem Toren",
+      "summary": "Eine Reihe von Sprüchen über den Toren. V. 4 rät: Antworte ihm nicht. V. 5 rät: Antworte ihm.",
+      "bridge": "Das Buch der Sprüche sammelt Lebensweisheit, vieles davon wird König Salomo zugeschrieben. Kapitel 26 gehört zu einer Sammlung, die die Männer Hiskias abgeschrieben haben (Spr 25,1).",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Welchen Grund nennt V. 4, dem Toren nicht zu antworten?",
+          "options": [
+            "Damit du ihm nicht gleich wirst",
+            "Weil er sowieso nicht zuhört",
+            "Weil Gott ihn richten wird",
+            "Damit kein Streit entsteht"
+          ],
+          "answer": 0,
+          "explain": "V. 4: damit nicht auch du ihm gleich wirst.",
+          "hint": "Lies Vers 4.",
+          "verse": 4
+        },
+        {
+          "type": "choice",
+          "q": "Und welchen Grund nennt V. 5, ihm doch zu antworten?",
+          "options": [
+            "Damit er sich nicht selbst für weise hält",
+            "Damit er umkehrt",
+            "Damit andere daraus lernen",
+            "Damit du recht behältst"
+          ],
+          "answer": 0,
+          "explain": "V. 5: damit er nicht weise ist in seinen eigenen Augen.",
+          "hint": "Lies Vers 5.",
+          "verse": 5
+        },
+        {
+          "type": "choice",
+          "q": "Für wen gibt es laut V. 12 noch weniger Hoffnung als für einen Toren?",
+          "options": [
+            "Für den, der sich selbst für weise hält",
+            "Für den Faulen",
+            "Für den Spötter",
+            "Für den, der flucht"
+          ],
+          "answer": 0,
+          "explain": "V. 12: für den, der in seinen eigenen Augen weise ist.",
+          "hint": "Lies Vers 12.",
+          "verse": 12
+        }
+      ],
+      "explain": [
+        {
+          "q": "Ein Widerspruch?",
+          "a": "Die Sammler haben die beiden Sprüche bewusst nebeneinandergestellt. Die Rabbinen diskutierten das (Talmud, Schabbat 30b) und lösten es so: Der eine gelte für Fragen der Tora, der andere für alltägliche Dinge. Viele christliche Ausleger sagen: Die Sprüche nennen zwei Gefahren, und welche gerade größer ist, muss man selbst erkennen."
+        },
+        {
+          "q": "Sind Sprichwörter Versprechen?",
+          "a": "Sprüche beschreiben, wie das Leben in der Regel läuft. Fast alle Ausleger lesen sie nicht als Garantien. Hiob und Prediger erzählen von Fällen, in denen es anders kommt."
+        },
+        {
+          "q": "Was ist ein „Tor“?",
+          "a": "Kein Mensch mit wenig Verstand, sondern jemand, der Weisung und Gott nicht ernst nimmt (vgl. Ps 14,1)."
+        }
+      ],
+      "teaser": "Ein Töpfer verpatzt ein Gefäß – und Gott sagt: Seht her."
+    },
+    {
+      "id": "bl-13",
+      "stage": "gattungen",
+      "refs": [
+        {
+          "book": 24,
+          "chapter": 18,
+          "from": 1,
+          "to": 10
+        }
+      ],
+      "title": "Beim Töpfer",
+      "summary": "Jeremia sieht einem Töpfer zu, der aus einem missratenen Gefäß ein neues formt. Gott sagt: Kündige ich einem Volk Unheil an und es kehrt um, dann reut mich das Unheil – und umgekehrt.",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was macht der Töpfer mit dem missratenen Gefäß?",
+          "options": [
+            "Er macht ein anderes daraus",
+            "Er wirft es weg",
+            "Er verkauft es billig",
+            "Er zerschlägt es vor dem Volk"
+          ],
+          "answer": 0,
+          "explain": "V. 4: Er macht wiederum ein anderes Gefäß daraus, wie er es für gut hält. (Ein Gefäß zerschlagen wird Jeremia erst im nächsten Kapitel.)",
+          "hint": "Lies Vers 4.",
+          "verse": 4
+        },
+        {
+          "type": "truefalse",
+          "q": "Laut V. 7–8 kann ein angekündigtes Unheil ausbleiben, wenn ein Volk umkehrt.",
+          "answer": true,
+          "explain": "V. 8: Dann lässt Gott sich das Übel gereuen.",
+          "hint": "Lies Vers 7–8.",
+          "verse": 8
+        },
+        {
+          "type": "choice",
+          "q": "Was gilt laut V. 9–10 für eine angekündigte gute Zukunft?",
+          "options": [
+            "Auch sie kann sich ändern, wenn das Volk Böses tut",
+            "Sie tritt in jedem Fall ein",
+            "Sie gilt nur für Israel",
+            "Sie wird verdoppelt, wenn das Volk gehorcht"
+          ],
+          "answer": 0,
+          "explain": "V. 10: Tut das Volk Böses, lässt Gott sich auch das Gute gereuen.",
+          "hint": "Lies Vers 9–10.",
+          "verse": 10
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist Prophetie?",
+          "a": "Propheten waren vor allem Sprecher Gottes an ihre eigene Zeit: Anklage, Mahnung, Trost, Ankündigung. Vorhersagen gibt es, aber oft an die Reaktion der Hörer gebunden. Jona kündigt Ninive den Untergang an, Ninive kehrt um, und das Gericht bleibt aus (Jona 3,4–10)."
+        },
+        {
+          "q": "Ändert Gott seine Meinung?",
+          "a": "Die Bibel sagt beides: Gott bereut nicht wie ein Mensch (4Mo 23,19; 1Sam 15,29), und Gott ließ es sich gereuen (1Sam 15,11; Jer 18,8). Augustinus, Thomas von Aquin und Calvin: Gott ist unveränderlich, die Sprache beschreibt sein Handeln so, wie Menschen es erleben. Arminianische und manche neuere Ausleger betonen stärker, dass Gott wirklich auf Menschen antwortet."
+        }
+      ],
+      "cards": [
+        "prophet"
+      ],
+      "teaser": "Eine Geschichte, in der Gott mit einem ungerechten Richter verglichen wird. Oder doch nicht?"
+    },
+    {
+      "id": "bl-14",
+      "stage": "gattungen",
+      "refs": [
+        {
+          "book": 42,
+          "chapter": 18,
+          "from": 1,
+          "to": 8
+        }
+      ],
+      "title": "Der ungerechte Richter",
+      "summary": "Eine Witwe bedrängt einen Richter, der weder Gott noch Menschen fürchtet, bis er ihr Recht verschafft. Jesus fragt: Sollte Gott seinen Auserwählten nicht Recht verschaffen?",
+      "bridge": "Jesus ist mit seinen Jüngern auf dem Weg nach Jerusalem. Kurz vorher hat er über das Kommen des Menschensohns gesprochen (Lk 17,20–37).",
+      "quiz": [
+        {
+          "type": "truefalse",
+          "q": "Lukas sagt schon vor dem Gleichnis, worum es darin geht.",
+          "answer": true,
+          "explain": "V. 1: dass man allezeit beten und nicht müde werden soll.",
+          "hint": "Lies Vers 1.",
+          "verse": 1
+        },
+        {
+          "type": "choice",
+          "q": "Warum hilft der Richter der Witwe schließlich?",
+          "options": [
+            "Weil sie ihm Mühe macht und sonst immer wiederkommt",
+            "Weil er Gott fürchtet",
+            "Weil sie ihn bezahlt",
+            "Weil das Gesetz es verlangt"
+          ],
+          "answer": 0,
+          "explain": "V. 4–5: Er fürchtet weder Gott noch Menschen – er will nur seine Ruhe.",
+          "hint": "Lies Vers 4–5.",
+          "verse": 5
+        },
+        {
+          "type": "choice",
+          "q": "Welche Frage stellt Jesus am Ende?",
+          "options": [
+            "Ob der Menschensohn bei seinem Kommen Glauben finden wird",
+            "Ob die Witwe recht hatte",
+            "Wer von beiden gerecht war",
+            "Wie lange man beten soll"
+          ],
+          "answer": 0,
+          "explain": "V. 8: Wird der Sohn des Menschen, wenn er kommt, den Glauben finden auf der Erde?",
+          "hint": "Lies Vers 8.",
+          "verse": 8
+        }
+      ],
+      "explain": [
+        {
+          "q": "Ist Gott wie dieser Richter?",
+          "a": "Viele Ausleger sehen hier einen Schluss vom Geringeren zum Größeren, eine bekannte rabbinische Denkfigur: Wenn schon ein ungerechter Richter am Ende hilft, wie viel mehr Gott. Dann zeigt das Gleichnis keinen Vergleich, sondern einen Kontrast."
+        },
+        {
+          "q": "Warum gerade eine Witwe?",
+          "a": "Witwen hatten oft keinen Schutz und kein Einkommen. Das Alte Testament fordert immer wieder Recht für Witwen und Waisen (2Mo 22,21; Jes 1,17)."
+        },
+        {
+          "q": "Was ist ein Gleichnis?",
+          "a": "Eine kurze Bildgeschichte aus dem Alltag, die etwas über Gott und sein Reich zeigt. Seit dem 19. Jahrhundert betonen viele Ausleger: Ein Gleichnis hat meist eine Hauptpointe – nicht jedes Detail bedeutet etwas. Die Kirchenväter deuteten Gleichnisse oft Zug um Zug als Allegorie."
+        }
+      ],
+      "fact": "Dieses Gleichnis steht nur bei Lukas – wie auch der barmherzige Samariter und der verlorene Sohn.",
+      "teaser": "Ein Satz, der in manchen Bibeln in Anführungszeichen steht, obwohl der Urtext keine hat."
+    },
+    {
+      "id": "bl-15",
+      "stage": "gattungen",
+      "refs": [
+        {
+          "book": 46,
+          "chapter": 1,
+          "from": 10,
+          "to": 17
+        },
+        {
+          "book": 46,
+          "chapter": 7,
+          "from": 1,
+          "to": 1
+        }
+      ],
+      "title": "Die andere Hälfte des Gesprächs",
+      "summary": "Paulus hat von Leuten der Chloe gehört, dass es in Korinth Streit gibt: Jeder beruft sich auf einen anderen Lehrer. In Kapitel 7 antwortet er auf einen Brief, den die Korinther ihm geschrieben haben.",
+      "bridge": "Paulus hatte die Gemeinde in Korinth um 50 n. Chr. gegründet (Apg 18). Einige Jahre später schreibt er ihr aus Ephesus (1Kor 16,8).",
+      "place": "korinth",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Woher weiß Paulus vom Streit?",
+          "options": [
+            "Von den Leuten der Chloe",
+            "Aus einem Brief der Gemeinde",
+            "Von Petrus",
+            "Von Timotheus"
+          ],
+          "answer": 0,
+          "explain": "1,11: durch die Hausgenossen der Chloe.",
+          "hint": "Lies Vers 11.",
+          "verse": 11
+        },
+        {
+          "type": "choice",
+          "q": "Worauf antwortet Paulus in 7,1?",
+          "options": [
+            "Auf einen Brief der Korinther",
+            "Auf den Bericht der Leute der Chloe",
+            "Auf eine Frage aus Jerusalem",
+            "Auf ein Gespräch mit Apollos"
+          ],
+          "answer": 0,
+          "explain": "7,1: worüber ihr mir geschrieben habt.",
+          "hint": "Lies 7,1."
+        },
+        {
+          "type": "truefalse",
+          "q": "Paulus schreibt, er habe in Korinth viele getauft.",
+          "answer": false,
+          "explain": "1,14–16: nur Krispus, Gajus und das Haus des Stephanas – sonst weiß er von niemandem.",
+          "hint": "Lies Vers 14–16.",
+          "verse": 14
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer sagt den zweiten Satz in 7,1?",
+          "a": "Im Griechischen gab es keine Anführungszeichen. Viele neuere Ausleger und einige Übersetzungen lesen ihn als Zitat aus dem Brief der Korinther, auf das Paulus dann antwortet. Andere lesen ihn als Paulus’ eigene Aussage. Ähnlich ist es bei 1Kor 6,12."
+        },
+        {
+          "q": "Paulus, Apollos, Kephas?",
+          "a": "Kephas ist der aramäische Name des Petrus („Fels“). Apollos war ein gebildeter Jude aus Alexandria, der nach Paulus in Korinth lehrte (Apg 18,24–28)."
+        }
+      ],
+      "fact": "21 der 27 Bücher des Neuen Testaments sind Briefe. Auch die Offenbarung beginnt mit sieben Briefen.",
+      "teaser": "Ein hoher Beamter aus Afrika liest im Wagen laut einen Propheten – und versteht ihn nicht."
+    },
+    {
+      "id": "bl-16",
+      "stage": "lesen",
+      "refs": [
+        {
+          "book": 44,
+          "chapter": 8,
+          "from": 26,
+          "to": 39
+        }
+      ],
+      "title": "Verstehst du, was du liest?",
+      "summary": "Philippus trifft auf dem Weg nach Gaza einen äthiopischen Hofbeamten, der Jesaja liest. Auf dessen Frage erklärt er ihm von dieser Stelle aus das Evangelium von Jesus. Der Äthiopier lässt sich taufen.",
+      "bridge": "Neue Etappe. Nach dem Tod des Stephanus sind viele Christen aus Jerusalem geflohen. Philippus hat in Samaria gepredigt (Apg 8,4–8).",
+      "place": "gaza",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was antwortet der Äthiopier auf die Frage, ob er versteht?",
+          "options": [
+            "Wie könnte ich, wenn mich niemand anleitet?",
+            "Ja, ganz und gar",
+            "Nur den Anfang",
+            "Das will ich in Jerusalem fragen"
+          ],
+          "answer": 0,
+          "explain": "V. 31: Er braucht jemanden, der ihn anleitet – und bittet Philippus zu sich auf den Wagen.",
+          "hint": "Lies Vers 31.",
+          "verse": 31
+        },
+        {
+          "type": "choice",
+          "q": "Welche Frage stellt er zu der Jesaja-Stelle?",
+          "options": [
+            "Ob der Prophet von sich selbst oder von einem anderen spricht",
+            "Wann sie sich erfüllen wird",
+            "Wer sie aufgeschrieben hat",
+            "Warum Gott so etwas zulässt"
+          ],
+          "answer": 0,
+          "explain": "V. 34: Von wem sagt der Prophet das – von sich selbst oder von einem anderen?",
+          "hint": "Lies Vers 34.",
+          "verse": 34
+        },
+        {
+          "type": "whosaid",
+          "quote": "Siehe, da ist Wasser; was hindert mich, getauft zu werden?",
+          "quote_ref": {
+            "book": 44,
+            "chapter": 8,
+            "from": 36,
+            "to": 36
+          },
+          "options": [
+            "Der Äthiopier",
+            "Philippus",
+            "Der Engel",
+            "Die Königin Kandake"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 36: Der Äthiopier fragt selbst."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum fehlt Vers 37?",
+          "a": "Vers 37 steht nicht in den ältesten griechischen Handschriften. Spätere Handschriften enthalten ein kurzes Glaubensbekenntnis des Äthiopiers vor der Taufe. Die Elberfelder 2019 lässt ihn im Text weg; die Verszählung behält die Lücke.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Welche Jesaja-Stelle liest er?",
+          "a": "Jesaja 53,7–8, zitiert nach der Septuaginta, der griechischen Übersetzung. Sie weicht an dieser Stelle etwas vom hebräischen Text ab. Die ersten Christen benutzten meist diese Übersetzung."
+        },
+        {
+          "q": "Wer war die Kandake?",
+          "a": "Kandake ist kein Name, sondern ein Titel der Königin (oder Königinmutter) von Meroë im heutigen Sudan. „Äthiopien“ meinte damals das Land südlich von Ägypten."
+        }
+      ],
+      "cards": [
+        "septuaginta",
+        "handschriften"
+      ],
+      "teaser": "Eine Stadt, deren Bewohner jeden Tag selbst nachprüfen, was Paulus ihnen erzählt."
+    },
+    {
+      "id": "bl-17",
+      "stage": "lesen",
+      "refs": [
+        {
+          "book": 44,
+          "chapter": 17,
+          "from": 1,
+          "to": 4
+        },
+        {
+          "book": 44,
+          "chapter": 17,
+          "from": 10,
+          "to": 12
+        }
+      ],
+      "title": "Täglich nachgeprüft",
+      "summary": "In Thessalonich redet Paulus an drei Sabbaten aus den Schriften. In Beröa hören die Leute bereitwillig zu – und prüfen täglich in den Schriften nach, ob es sich so verhält.",
+      "bridge": "Paulus und Silas reisen durch Makedonien in Nordgriechenland. Zwischen den beiden Teilen dieses Abschnitts gibt es in Thessalonich einen Aufruhr, und die beiden müssen nachts weiterziehen (Apg 17,5–9).",
+      "place": "beroea",
+      "quiz": [
+        {
+          "type": "estimate",
+          "q": "An wie vielen Sabbaten redet Paulus in Thessalonich mit den Leuten in der Synagoge?",
+          "min": 1,
+          "max": 10,
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "Sabbate",
+          "explain": "V. 2: an drei Sabbaten, aus den Schriften.",
+          "hint": "Lies Vers 2.",
+          "verse": 2
+        },
+        {
+          "type": "choice",
+          "q": "Was tun die Leute in Beröa?",
+          "options": [
+            "Sie untersuchen täglich die Schriften, ob es sich so verhält",
+            "Sie fragen in Jerusalem nach",
+            "Sie verlangen ein Zeichen",
+            "Sie lassen Paulus einen Eid schwören"
+          ],
+          "answer": 0,
+          "explain": "V. 11: Sie nehmen das Wort bereitwillig auf und prüfen täglich in den Schriften nach.",
+          "hint": "Lies Vers 11.",
+          "verse": 11
+        },
+        {
+          "type": "truefalse",
+          "q": "Lukas nennt die Leute in Beröa „edler“ als die in Thessalonich.",
+          "answer": true,
+          "explain": "V. 11 – und begründet es mit beidem: Bereitschaft und Prüfen.",
+          "hint": "Lies Vers 11.",
+          "verse": 11
+        }
+      ],
+      "explain": [
+        {
+          "q": "Welche Schriften prüfen sie?",
+          "a": "Das Alte Testament, meist in griechischer Übersetzung. Ein Neues Testament gab es noch nicht. Paulus’ erster Brief an die Thessalonicher entstand erst kurz danach, um 50 n. Chr."
+        },
+        {
+          "q": "Wer prüft, wer entscheidet?",
+          "a": "Evangelische Kirchen und Freikirchen berufen sich gern auf diese Stelle: Jede Lehre muss sich an der Schrift prüfen lassen. Katholische und orthodoxe Christen betonen, dass die Schrift in der Gemeinschaft der Kirche gelesen wird, mit ihrer Überlieferung. Strittig ist vor allem, wer im Streitfall entscheidet."
+        }
+      ],
+      "cards": [
+        "schrift-tradition"
+      ],
+      "teaser": "Hungrige Jünger, ein Kornfeld und ein Vorwurf. Jesus antwortet mit einer Gegenfrage."
+    },
+    {
+      "id": "bl-18",
+      "stage": "lesen",
+      "refs": [
+        {
+          "book": 40,
+          "chapter": 12,
+          "from": 1,
+          "to": 8
+        }
+      ],
+      "title": "Habt ihr nicht gelesen?",
+      "summary": "Die Jünger pflücken am Sabbat Ähren. Die Pharisäer werfen ihnen vor, das Gebot zu brechen. Jesus antwortet mit David, mit den Priestern im Tempel und mit einem Prophetenwort.",
+      "bridge": "Jesus zieht mit seinen Jüngern durch Galiläa. Die Auseinandersetzung mit den Pharisäern wird schärfer.",
+      "quiz": [
+        {
+          "type": "truefalse",
+          "q": "Die Pharisäer werfen den Jüngern Diebstahl vor.",
+          "answer": false,
+          "explain": "V. 2: Es geht nicht um Diebstahl, sondern darum, dass es am Sabbat nicht erlaubt sei.",
+          "hint": "Lies Vers 2.",
+          "verse": 2
+        },
+        {
+          "type": "order",
+          "q": "In welcher Reihenfolge antwortet Jesus?",
+          "items": [
+            "David und die Schaubrote",
+            "Die Priester am Sabbat im Tempel",
+            "Mehr als der Tempel ist hier",
+            "Barmherzigkeit statt Opfer",
+            "Herr des Sabbats"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 3–8: zwei Beispiele aus der Schrift, dann ein Wort über sich, ein Prophetenwort und wieder ein Wort über sich."
+        },
+        {
+          "type": "choice",
+          "q": "Mit welcher Frage beginnt Jesus seine Antwort?",
+          "options": [
+            "Habt ihr nicht gelesen …?",
+            "Wer von euch ist ohne Sünde?",
+            "Was steht im Gesetz?",
+            "Warum versucht ihr mich?"
+          ],
+          "answer": 0,
+          "explain": "V. 3: Habt ihr nicht gelesen, was David tat? Und V. 5 noch einmal.",
+          "hint": "Lies Vers 3.",
+          "verse": 3
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was waren die Schaubrote?",
+          "a": "Zwölf Brote, die im Heiligtum vor Gott lagen und jeden Sabbat erneuert wurden. Essen durften sie nur die Priester (3Mo 24,5–9). Die Geschichte von David steht in 1Sam 21,1–7."
+        },
+        {
+          "q": "Woher stammt das Wort in V. 7?",
+          "a": "Aus Hosea 6,6. Jesus zitiert es bei Matthäus zweimal (auch Mt 9,13)."
+        },
+        {
+          "q": "Gilt der Sabbat für Christen?",
+          "a": "Die meisten Kirchen feiern den Sonntag als Tag der Auferstehung. Siebenten-Tags-Adventisten und einige andere halten den Samstag. Reformierte und puritanische Tradition verstehen den Sonntag als „christlichen Sabbat“, andere Traditionen sehen das Sabbatgebot in Christus erfüllt."
+        }
+      ],
+      "fact": "Ähren abzupflücken, wenn man an einem fremden Feld vorbeiging, war ausdrücklich erlaubt (5Mo 23,26). Der Streit ging nur um den Sabbat.",
+      "teaser": "Ein Mann schaut in den Spiegel, geht weg – und hat vergessen, wie er aussieht."
+    },
+    {
+      "id": "bl-19",
+      "stage": "lesen",
+      "refs": [
+        {
+          "book": 59,
+          "chapter": 1,
+          "from": 19,
+          "to": 25
+        }
+      ],
+      "title": "Der Spiegel",
+      "summary": "Jakobus mahnt: schnell zum Hören, langsam zum Reden. Wer das Wort nur hört, gleicht einem, der sich im Spiegel betrachtet und sofort vergisst, wie er aussieht.",
+      "bridge": "Der Jakobusbrief ist an Christen „in der Zerstreuung“ gerichtet. Die Überlieferung schreibt ihn Jakobus zu, dem Bruder Jesu und Leiter der Gemeinde in Jerusalem.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wozu soll jeder schnell sein – und wozu langsam?",
+          "options": [
+            "Schnell zum Hören, langsam zum Reden und zum Zorn",
+            "Schnell zum Reden, langsam zum Urteilen",
+            "Schnell zum Vergeben, langsam zum Strafen",
+            "Schnell zum Beten, langsam zum Handeln"
+          ],
+          "answer": 0,
+          "explain": "V. 19: schnell zum Hören, langsam zum Reden, langsam zum Zorn.",
+          "hint": "Lies Vers 19.",
+          "verse": 19
+        },
+        {
+          "type": "choice",
+          "q": "Womit vergleicht Jakobus jemanden, der nur hört?",
+          "options": [
+            "Mit einem, der in den Spiegel schaut und gleich vergisst, wie er aussieht",
+            "Mit einem Haus auf Sand",
+            "Mit einem Baum ohne Frucht",
+            "Mit einem schlafenden Knecht"
+          ],
+          "answer": 0,
+          "explain": "V. 23–24: Er betrachtet sich, geht weg und vergisst sofort, wie er beschaffen war.",
+          "hint": "Lies Vers 23–24.",
+          "verse": 23
+        }
+      ],
+      "explain": [
+        {
+          "q": "Hören und Tun – ein Gegensatz zu Paulus?",
+          "a": "Luther nannte den Jakobusbrief 1522 im Vergleich zu anderen Büchern eine „stroherne Epistel“, weil er ihn schwer mit Paulus’ Lehre von der Rechtfertigung vereinbaren konnte. Viele Ausleger, auch evangelische, sehen keinen Widerspruch: Paulus und Jakobus reden von verschiedenen Fragen. Mehr dazu im Plan „Gerecht vor Gott“."
+        },
+        {
+          "q": "„Gesetz der Freiheit“?",
+          "a": "Jakobus benutzt den Ausdruck auch in 2,12. Ausleger beziehen ihn auf die Gebote, wie Jesus sie ausgelegt hat, oder auf das Evangelium insgesamt."
+        }
+      ],
+      "try": "Nimm einen Text, den du gut kennst, und stell ihm die Fragen aus diesem Plan: Wer schreibt? An wen? Was für eine Art Text ist das? Und was steht wirklich da?"
+    }
+  ]
+}

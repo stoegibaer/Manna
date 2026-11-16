@@ -72,8 +72,17 @@ class PlansViewModel(private val c: AppContainer) : ViewModel() {
             active = index.resolve(s.activePlan),
             start = index.plans.firstOrNull { it.id == index.start }?.let { item(it) },
             directions = index.directions.map { d ->
-                // never more than three plans per direction – too much choice makes starting harder
-                d to index.plans.filter { it.direction == d.id }.take(3).map { item(it) }
+                // never more than three plans per direction – too much choice makes starting harder.
+                // Show what can be read now first: active plan, unfinished available ones, then "coming soon", finished last.
+                val active = index.resolve(s.activePlan)
+                d to index.plans.filter { it.direction == d.id }.map { item(it) }.sortedBy {
+                    when {
+                        it.entry.id == active -> 0
+                        it.entry.available && it.done < it.sections -> 1
+                        !it.entry.available -> 2
+                        else -> 3
+                    }
+                }.take(3)
             },
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), PlansState())

@@ -56,7 +56,8 @@ def helloao_verse(parts):
     out = re.sub(r"(?<=[:;,.!?)A-Za-zÄÖÜäöüß])\x01(?=[A-Za-zÄÖÜäöüß(„])", " ", out)
     out = out.replace("\x01", "")
     out = re.sub(r"\s+\)", ")", out)  # "geworden )" -> "geworden)"
-    return re.sub(r"\)(?=[A-Za-zÄÖÜäöüß])", ") ", out)  # ")wie" -> ") wie"
+    out = re.sub(r"\)(?=[A-Za-zÄÖÜäöüß])", ") ", out)  # ")wie" -> ") wie"
+    return re.sub(r"(\s*\*)+\s*$", "", out)  # stanza/book dividers in Psalms (Ps 119, end of Psalter books)
 
 
 def read_books(data):

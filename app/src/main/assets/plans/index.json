@@ -1,23 +1,299 @@
 {
   "start": "grosse-geschichte",
   "directions": [
-    { "id": "jesus", "title": "Jesus kennenlernen", "subtitle": "Wer ist er – und was wollte er?" },
-    { "id": "ehrlich", "title": "Ehrlich mit Gott", "subtitle": "Klagen, Zweifel, Vertrauen" },
-    { "id": "gerechtigkeit", "title": "Gerechtigkeit & Treue", "subtitle": "Gott und die Ungerechtigkeit der Welt" },
-    { "id": "hoffnung", "title": "Hoffnung & Trost", "subtitle": "Wenn alles dunkel aussieht" },
-    { "id": "weisheit", "title": "Sinn & Weisheit", "subtitle": "Wozu das alles?" }
+    {
+      "id": "jesus",
+      "title": "Jesus kennenlernen",
+      "subtitle": "Wer ist er – und was wollte er?"
+    },
+    {
+      "id": "ehrlich",
+      "title": "Ehrlich mit Gott",
+      "subtitle": "Klagen, Zweifel, Vertrauen"
+    },
+    {
+      "id": "gerechtigkeit",
+      "title": "Gerechtigkeit & Treue",
+      "subtitle": "Gott und die Ungerechtigkeit der Welt"
+    },
+    {
+      "id": "hoffnung",
+      "title": "Hoffnung & Trost",
+      "subtitle": "Wenn alles dunkel aussieht"
+    },
+    {
+      "id": "weisheit",
+      "title": "Sinn & Weisheit",
+      "subtitle": "Wozu das alles?"
+    },
+    {
+      "id": "glauben",
+      "title": "Glauben verstehen",
+      "subtitle": "Was Christen glauben – und warum"
+    },
+    {
+      "id": "schwierig",
+      "title": "Schwierige Fragen",
+      "subtitle": "Die Stellen, über die man selten spricht"
+    },
+    {
+      "id": "leben",
+      "title": "Leben",
+      "subtitle": "Seele, Alltag und die Welt"
+    }
   ],
   "plans": [
-    { "id": "grosse-geschichte", "title": "Die große Geschichte", "subtitle": "Der rote Faden der Bibel", "direction": "start", "available": true },
-    { "id": "markus", "title": "Markus", "subtitle": "Jesus kennenlernen", "direction": "jesus", "available": true },
-    { "id": "habakuk", "title": "Habakuk", "subtitle": "Warum, Gott?", "direction": "ehrlich", "available": true },
-    { "id": "psalmen-schwer", "title": "Psalmen für schwere Tage", "subtitle": "Ehrliche Gebete", "direction": "ehrlich", "available": false },
-    { "id": "hiob", "title": "Hiob", "subtitle": "Leiden ohne Antwort?", "direction": "ehrlich", "available": false },
-    { "id": "amos", "title": "Amos", "subtitle": "Es ströme das Recht wie Wasser", "direction": "gerechtigkeit", "available": false },
-    { "id": "hosea", "title": "Hosea", "subtitle": "Liebe, die nicht aufgibt", "direction": "gerechtigkeit", "available": false },
-    { "id": "micha", "title": "Micha", "subtitle": "Was Gott von dir will", "direction": "gerechtigkeit", "available": false },
-    { "id": "jesaja-trost", "title": "Jesaja 40–55", "subtitle": "Tröstet mein Volk", "direction": "hoffnung", "available": false },
-    { "id": "prediger", "title": "Prediger", "subtitle": "Wozu das alles?", "direction": "weisheit", "available": false },
-    { "id": "bergpredigt", "title": "Die Bergpredigt", "subtitle": "Jesus über das Leben", "direction": "jesus", "available": false }
+    {
+      "id": "grosse-geschichte",
+      "title": "Die große Geschichte",
+      "subtitle": "Der rote Faden der Bibel",
+      "direction": "start",
+      "available": true
+    },
+    {
+      "id": "markus",
+      "title": "Markus",
+      "subtitle": "Jesus kennenlernen",
+      "direction": "jesus",
+      "available": true
+    },
+    {
+      "id": "habakuk",
+      "title": "Habakuk",
+      "subtitle": "Warum, Gott?",
+      "direction": "ehrlich",
+      "available": true
+    },
+    {
+      "id": "psalmen-schwer",
+      "title": "Psalmen für schwere Tage",
+      "subtitle": "Ehrliche Gebete",
+      "direction": "ehrlich",
+      "available": false
+    },
+    {
+      "id": "hiob",
+      "title": "Hiob",
+      "subtitle": "Leiden ohne Antwort?",
+      "direction": "ehrlich",
+      "available": false
+    },
+    {
+      "id": "amos",
+      "title": "Amos",
+      "subtitle": "Es ströme das Recht wie Wasser",
+      "direction": "gerechtigkeit",
+      "available": false
+    },
+    {
+      "id": "hosea",
+      "title": "Hosea",
+      "subtitle": "Liebe, die nicht aufgibt",
+      "direction": "gerechtigkeit",
+      "available": false
+    },
+    {
+      "id": "micha",
+      "title": "Micha",
+      "subtitle": "Was Gott von dir will",
+      "direction": "gerechtigkeit",
+      "available": false
+    },
+    {
+      "id": "jesaja-trost",
+      "title": "Jesaja 40–55",
+      "subtitle": "Tröstet mein Volk",
+      "direction": "hoffnung",
+      "available": false
+    },
+    {
+      "id": "prediger",
+      "title": "Prediger",
+      "subtitle": "Wozu das alles?",
+      "direction": "weisheit",
+      "available": false
+    },
+    {
+      "id": "bergpredigt",
+      "title": "Die Bergpredigt",
+      "subtitle": "Jesus über das Leben",
+      "direction": "jesus",
+      "available": false
+    },
+    {
+      "id": "bibel-lesen",
+      "title": "Wie liest man die Bibel?",
+      "subtitle": "Entstehung, Gattungen, Auslegung",
+      "direction": "glauben",
+      "available": true
+    },
+    {
+      "id": "offenbarung",
+      "title": "Die Offenbarung ohne Angst",
+      "subtitle": "Daniel, Johannes und das Ende",
+      "direction": "glauben",
+      "available": false
+    },
+    {
+      "id": "unsichtbare-welt",
+      "title": "Die unsichtbare Welt",
+      "subtitle": "Gottes Rat, Mächte und Gewalten",
+      "direction": "glauben",
+      "available": false
+    },
+    {
+      "id": "buende",
+      "title": "Der rote Faden",
+      "subtitle": "Gottes Bünde von Noah bis Jesus",
+      "direction": "glauben",
+      "available": false
+    },
+    {
+      "id": "kreuz",
+      "title": "Warum das Kreuz?",
+      "subtitle": "Bilder für das, was dort geschah",
+      "direction": "glauben",
+      "available": false
+    },
+    {
+      "id": "rechtfertigung",
+      "title": "Gerecht vor Gott",
+      "subtitle": "Abraham, Paulus, Jakobus",
+      "direction": "glauben",
+      "available": false
+    },
+    {
+      "id": "dreieinigkeit",
+      "title": "Ein Gott in drei Personen",
+      "subtitle": "Woher die Lehre kommt",
+      "direction": "glauben",
+      "available": false
+    },
+    {
+      "id": "heiliger-geist",
+      "title": "Der Heilige Geist",
+      "subtitle": "Vom Anfang bis Pfingsten – und heute",
+      "direction": "glauben",
+      "available": false
+    },
+    {
+      "id": "gemeinde",
+      "title": "Was ist Gemeinde?",
+      "subtitle": "Leib, Taufe, Abendmahl",
+      "direction": "glauben",
+      "available": false
+    },
+    {
+      "id": "neue-schoepfung",
+      "title": "Himmel, Tod und neue Schöpfung",
+      "subtitle": "Was nach dem Tod kommt",
+      "direction": "glauben",
+      "available": false
+    },
+    {
+      "id": "gericht",
+      "title": "Gericht und Hölle",
+      "subtitle": "Was wirklich dasteht",
+      "direction": "glauben",
+      "available": false
+    },
+    {
+      "id": "schwierige-texte",
+      "title": "Texte, die man lieber überspringt",
+      "subtitle": "Ehrlich gelesen",
+      "direction": "schwierig",
+      "available": false
+    },
+    {
+      "id": "gewalt-at",
+      "title": "Gewalt im Alten Testament",
+      "subtitle": "Landnahme, Bann und Jesus",
+      "direction": "schwierig",
+      "available": false
+    },
+    {
+      "id": "texte-des-schreckens",
+      "title": "Texte des Schreckens",
+      "subtitle": "Unrecht an Frauen – erzählt, nicht gutgeheißen",
+      "direction": "schwierig",
+      "available": false
+    },
+    {
+      "id": "macht-missbrauch",
+      "title": "Macht und Missbrauch",
+      "subtitle": "Hirten, Herrscher und Propheten",
+      "direction": "schwierig",
+      "available": false
+    },
+    {
+      "id": "seele",
+      "title": "Wenn die Seele nicht mehr kann",
+      "subtitle": "Elia, Jona, Psalm 88",
+      "direction": "leben",
+      "available": false
+    },
+    {
+      "id": "klagelieder",
+      "title": "Klagelieder",
+      "subtitle": "Wenn alles zerbrochen ist",
+      "direction": "leben",
+      "available": false
+    },
+    {
+      "id": "koerper-liebe",
+      "title": "Körper, Liebe, Sexualität",
+      "subtitle": "Genesis, Hohelied, Korinther",
+      "direction": "leben",
+      "available": false
+    },
+    {
+      "id": "sabbat",
+      "title": "Ruhe",
+      "subtitle": "Der Sabbat als Geschenk",
+      "direction": "leben",
+      "available": false
+    },
+    {
+      "id": "vergebung",
+      "title": "Vergebung, die echt ist",
+      "subtitle": "Josef, Jesus, Philemon",
+      "direction": "leben",
+      "available": false
+    },
+    {
+      "id": "alltag",
+      "title": "Bibel im Alltag",
+      "subtitle": "Kurze Pläne für Arbeit, Geld, Angst …",
+      "direction": "leben",
+      "available": false
+    },
+    {
+      "id": "staat",
+      "title": "Christ und Staat",
+      "subtitle": "Gehorchen oder widerstehen?",
+      "direction": "leben",
+      "available": false
+    },
+    {
+      "id": "fremde",
+      "title": "Fremde und Flüchtlinge",
+      "subtitle": "Ein Volk von Fremden",
+      "direction": "leben",
+      "available": false
+    },
+    {
+      "id": "schoepfung",
+      "title": "Schöpfung bewahren",
+      "subtitle": "Bebauen und bewahren",
+      "direction": "leben",
+      "available": false
+    },
+    {
+      "id": "frauen",
+      "title": "Die vergessenen Frauen",
+      "subtitle": "Debora, Hulda, Junia …",
+      "direction": "leben",
+      "available": false
+    }
   ]
 }

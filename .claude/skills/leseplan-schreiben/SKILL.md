@@ -28,6 +28,9 @@ Lies zuerst **`format.md`** in diesem Ordner (Datenformat) und `docs/KONZEPT.md`
 - Erwachsen und ehrlich, mit Du-Ansprache, warm, aber nüchtern. Die Leser sind Jugendliche und Erwachsene.
 - **Kein Kitsch:** keine Emojis, keine Herzchen-Sprache, keine Superlative („wunderschön“, „unglaublich kraftvoll“), kein „Gott liebt dich so sehr!!“. Auch keine Predigt und keine Moral mit erhobenem Zeigefinger.
 - Keine Scham: nie „Du solltest …“ oder „Hast du etwa …?“. Formulierungen laden ein, statt Forderungen zu stellen.
+- **Nicht predigen, nichts nahelegen.** Karten, Erklärungen, Fakten und „Heute ausprobieren“ vermitteln nichts, was man nicht selbst im Text finden kann. Gib sachliche Informationen (Wortbedeutung, Hintergrund, wie verschiedene Traditionen lesen) und stelle gute Fragen. Ziehe keine Schlussfolgerung für den Leser („Das zeigt uns …“, „Hier wird deutlich …“, „Gott will damit sagen …“). Die Verständnisarbeit macht der Leser. Im Zweifel: Satz streichen oder als offene Frage formulieren.
+- **Sichtweisen von Gläubigen:** Die Pläne sind für Gläubige. Zeige, wie andere Gläubige und Traditionen einen Text verstehen. Die historisch-kritische Sicht wird nicht als eigene Position dargestellt. Sachliche Informationen (Datierung, Textgeschichte, Handschriften) bleiben erlaubt.
+- **Endzeit:** Die Leser kommen meist mit einer dispensationalistischen Sicht. Ziel ist, andere Verständnisse kennenzulernen, besonders den Amillenialismus. Zeige, wo die vertraute Sicht eine Deutung ist, und stelle die anderen fair und gründlich daneben.
 
 **Neugierfragen (`teaser`)**
 - Sie sollen auch Bibelkenner neugierig machen. Also keine offensichtlichen Floskeln wie „Was wird wohl passieren?“, sondern eine echte Spannung, ein überraschendes Detail oder eine offene Frage.

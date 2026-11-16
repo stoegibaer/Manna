@@ -202,6 +202,27 @@
    "lat": 31.771,
    "lon": 35.262,
    "text": "Dorf am Osthang des Ölbergs, etwa 3 km von Jerusalem."
+  },
+  {
+   "id": "korinth",
+   "name": "Korinth",
+   "lat": 37.906,
+   "lon": 22.879,
+   "text": "Reiche Hafenstadt in Griechenland, Hauptstadt der römischen Provinz Achaja."
+  },
+  {
+   "id": "gaza",
+   "name": "Gaza",
+   "lat": 31.5,
+   "lon": 34.46,
+   "text": "Alte Stadt an der Mittelmeerküste, an der Handelsstraße von Jerusalem nach Ägypten."
+  },
+  {
+   "id": "beroea",
+   "name": "Beröa",
+   "lat": 40.52,
+   "lon": 22.2,
+   "text": "Stadt in Makedonien (Nordgriechenland), heute Veria."
   }
  ]
 }

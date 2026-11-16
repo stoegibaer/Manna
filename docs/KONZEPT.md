@@ -181,3 +181,17 @@ Vom Nutzer am 16.11.2026 vorgeschlagen, noch nicht entschieden:
 - **Rechtfertigung vor Gott** – wie wird der Mensch vor Gott gerecht? (Abraham, Habakuk 2,4, Römer, Galater, Jakobus; mit fairer Darstellung der konfessionellen Unterschiede, vgl. Gemeinsame Erklärung 1999).
 - **Die unsichtbare Welt** – Details der geistlichen Welt, z. B. die Sicht von Dr. Michael Heiser („The Unseen Realm“: himmlischer Rat, Söhne Gottes, Mächte und Gewalten). Achtung: eine bestimmte wissenschaftliche Deutung – im Plan als solche kennzeichnen und andere Sichtweisen nennen.
 - **Bibel im Alltag** – Lesepläne zu sehr relevanten modernen Lebensbereichen mit praktischer Anwendung (z. B. Arbeit, Geld, Beziehungen, Social Media, Angst, Erschöpfung, Konflikte).
+
+### Entscheidung vom 16.11.2026: Plan-Katalog Runde 2
+
+Drei neue Richtungen: **Glauben verstehen**, **Schwierige Fragen**, **Leben**.
+
+Aufgenommen (Reihenfolge offen, außer den nächsten vier): Wie liest man die Bibel?, Gottes Bünde, Warum das Kreuz?, Rechtfertigung, Dreieinigkeit, Heiliger Geist, Gemeinde, Himmel/Tod/neue Schöpfung, Gericht und Hölle, Offenbarung, Unsichtbare Welt, Texte die man lieber überspringt, Gewalt im AT, Texte des Schreckens, Macht und Missbrauch, Wenn die Seele nicht mehr kann, Klagelieder, Körper/Liebe/Sexualität, Sabbat/Ruhe, Vergebung, Bibel im Alltag (Reihe von Mini-Plänen), Christ und Staat, Fremde und Flüchtlinge, Schöpfung bewahren, Die vergessenen Frauen. Nicht aufgenommen: „Jesus war Jude“ als eigener Plan.
+
+Als Nächstes: **Wie liest man die Bibel?**, **Texte, die man lieber überspringt**, **Die Offenbarung ohne Angst**, **Die unsichtbare Welt**.
+
+**Endzeit:** Die Leser kommen in der Regel mit einer dispensationalistischen Sicht. Das ist ihr Vorwissen, nicht die Sicht, die der Plan vertritt. Ziel ist, andere Verständnisse kennenzulernen, besonders den Amillenialismus (daneben historischer Prämillenialismus, Postmillenialismus, Präterismus). Der Plan zeigt, wo die vertraute Sicht eine Deutung ist, und stellt die anderen fair und gründlich daneben.
+
+**Ton (Nutzerwunsch):** nicht predigen. Karten, Erklärungen und Fragen vermitteln nichts, was man nicht selbst im Text finden kann. Gute Fragen zum Text stellen, sachliche Informationen geben, wo sie helfen, keine Bedeutung nahelegen, die nicht eindeutig im Text steht. Die Verständnisarbeit macht der Leser.
+
+**Sichtweisen:** Die Pläne sind für Gläubige. Gezeigt wird, wie andere Gläubige und Traditionen einen Text verstehen. Die historisch-kritische Sicht wird nicht als eigene Position dargestellt.
