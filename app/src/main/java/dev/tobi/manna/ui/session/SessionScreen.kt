@@ -103,7 +103,7 @@ fun SessionScreen(vm: SessionViewModel, settings: Settings, onClose: () -> Unit,
                 },
                 navigationIcon = { IconButton(onClick = onClose) { Icon(Icons.Rounded.Close, "Schließen") } },
                 actions = {
-                    if (state.section?.explain?.isNotEmpty() == true && state.step != Step.DONE) {
+                    if (state.section?.explain?.isNotEmpty() == true && state.step != Step.DONE && state.step != Step.REVIEW) {
                         TextButton(onClick = { showExplain = true }) {
                             Icon(Icons.AutoMirrored.Outlined.HelpOutline, null, Modifier.size(18.dp))
                             Spacer(Modifier.width(6.dp))
@@ -128,6 +128,7 @@ fun SessionScreen(vm: SessionViewModel, settings: Settings, onClose: () -> Unit,
                     label = "step",
                 ) { (step, _) ->
                     when (step) {
+                        Step.REVIEW -> ReviewStep(state, onSolved = { first -> vm.reviewSolved(first); bigConfetti = false; confetti++ }, onDone = vm::reviewDone)
                         Step.READ -> ReadStep(state, settings, onMap = { showMap = true }, onDone = vm::finishReading)
                         Step.QUIZ -> QuizStep(state, onSolved = { first -> vm.quizSolved(first); bigConfetti = false; confetti++ }, onNext = vm::nextQuiz)
                         Step.REWARD -> RewardStep(state, settings, onShown = { bigConfetti = true; confetti++ }, onNext = vm::rewardContinue)
@@ -267,6 +268,23 @@ private fun ReadStep(state: SessionState, settings: Settings, onMap: () -> Unit,
                 }
             }
         }
+    }
+}
+
+// ───────────────────────── Review ─────────────────────────
+
+@Composable
+private fun ReviewStep(state: SessionState, onSolved: (Boolean) -> Unit, onDone: () -> Unit) {
+    val r = state.review ?: return
+    Column(
+        Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp, vertical = 8.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
+    ) {
+        Text("Erinnerst du dich?", style = MaterialTheme.typography.headlineMedium)
+        Text("Eine Frage aus „${r.sectionTitle}“ – zum Warmwerden.", color = MaterialTheme.colorScheme.onSurfaceVariant)
+        QuizView(r.quiz, key = "review-${r.planId}-${r.sectionId}-${r.index}", verses = emptyList(), onSolved = onSolved, onNext = onDone, nextLabel = "Jetzt lesen")
+        TextButton(onClick = onDone, modifier = Modifier.align(Alignment.CenterHorizontally)) { Text("Überspringen") }
+        Spacer(Modifier.height(32.dp))
     }
 }
 
@@ -413,12 +431,16 @@ private fun DoneStep(state: SessionState, onClose: () -> Unit, onAnother: () -> 
         if (state.planFinished) {
             Button(onClick = onChoosePlan, modifier = Modifier.fillMaxWidth().height(56.dp)) { Text("Wohin als Nächstes?", style = MaterialTheme.typography.titleMedium) }
             TextButton(onClick = onClose) { Text("Fertig für heute") }
+        } else if (state.more && state.next != null && state.next.stage == section?.stage) {
+            // „Viel Energie“: keep going within the stage – but stopping is always fine
+            Button(onClick = onAnother, modifier = Modifier.fillMaxWidth().height(56.dp)) { Text("Nächster Abschnitt", style = MaterialTheme.typography.titleMedium) }
+            TextButton(onClick = onClose) { Text("Für heute genug") }
         } else {
             Button(onClick = onClose, modifier = Modifier.fillMaxWidth().height(56.dp)) { Text("Fertig", style = MaterialTheme.typography.titleMedium) }
         }
 
         val next = state.next
-        if (!state.planFinished && next != null) {
+        if (!state.planFinished && next != null && !(state.more && next.stage == section?.stage)) {
             HorizontalDivider(Modifier.padding(vertical = 6.dp), color = MaterialTheme.colorScheme.outline.copy(alpha = 0.3f))
             section?.teaser?.let {
                 Text(it, style = MaterialTheme.typography.bodyLarge, fontFamily = BibleFont, fontStyle = FontStyle.Italic, textAlign = TextAlign.Center, color = MaterialTheme.colorScheme.onSurfaceVariant)

@@ -34,7 +34,7 @@ import dev.tobi.manna.ui.theme.bibleTextStyle
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SettingsScreen(settings: Settings, onChange: ((Settings) -> Settings) -> Unit, onBack: () -> Unit) {
+fun SettingsScreen(settings: Settings, onChange: ((Settings) -> Settings) -> Unit, onReminders: () -> Unit, onBack: () -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
@@ -49,6 +49,23 @@ fun SettingsScreen(settings: Settings, onChange: ((Settings) -> Settings) -> Uni
             Modifier.fillMaxSize().padding(pad).verticalScroll(rememberScrollState()).padding(horizontal = 24.dp),
             verticalArrangement = Arrangement.spacedBy(4.dp),
         ) {
+            Group("Gewohnheit")
+            androidx.compose.material3.Surface(
+                onClick = onReminders,
+                shape = androidx.compose.foundation.shape.RoundedCornerShape(14.dp),
+                color = MaterialTheme.colorScheme.surfaceContainer,
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Column(Modifier.padding(16.dp)) {
+                    Text("Erinnerungen & Wochenziel", style = MaterialTheme.typography.titleMedium)
+                    Text(
+                        if (settings.remindersOn) "An – ab ${formatMinute(settings.anchorMinute)} Uhr, Ziel ${settings.weeklyGoal} Tage pro Woche"
+                        else "Aus – Ziel ${settings.weeklyGoal} Tage pro Woche",
+                        style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+            }
+
             Group("Lesen")
             Toggle("Fokusmodus", "Immer nur ein Vers ist hell – tippen zum Weiterlesen.", settings.focusMode) { v -> onChange { it.copy(focusMode = v) } }
             Text("Textgröße", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 12.dp))

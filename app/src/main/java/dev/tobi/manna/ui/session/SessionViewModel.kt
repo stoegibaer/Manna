@@ -18,7 +18,10 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlin.math.ceil
 
-enum class Step { READ, QUIZ, REWARD, RECAP, DONE }
+enum class Step { REVIEW, READ, QUIZ, REWARD, RECAP, DONE }
+
+/** A due question shown as „Erinnerst du dich?“ before reading. */
+data class ReviewItem(val planId: String, val sectionId: String, val index: Int, val quiz: Quiz, val sectionTitle: String)
 
 /** A line in the reading view: either a reference header (for multi-passage sections) or a verse. */
 sealed interface Line {
@@ -53,6 +56,9 @@ data class SessionState(
     val planFinished: Boolean = false,
     /** True when the user opened a session but every section of the plan was already done. */
     val nothingLeft: Boolean = false,
+    /** „Viel Energie“: keep going until the end of the stage. */
+    val more: Boolean = false,
+    val review: ReviewItem? = null,
 ) {
     val verses: List<Verse> get() = lines.filterIsInstance<Line.V>().map { it.verse }
 }
@@ -69,12 +75,13 @@ fun refLabel(refs: List<Ref>, bookName: (Int) -> String): String {
     return parts.joinToString("; ")
 }
 
-class SessionViewModel(private val c: AppContainer) : ViewModel() {
+class SessionViewModel(private val c: AppContainer, private val more: Boolean = false) : ViewModel() {
+    private var reviewOffered = false
     private val _state = MutableStateFlow(SessionState())
     val state: StateFlow<SessionState> = _state
 
     init {
-        viewModelScope.launch { load() }
+        viewModelScope.launch { load(); if (_state.value.step == Step.READ) offerReview() }
     }
 
     private suspend fun load() {
@@ -83,7 +90,7 @@ class SessionViewModel(private val c: AppContainer) : ViewModel() {
         val done = c.progress.sectionsDone(planId).first().map { it.sectionId }.toSet()
         val idx = plan.sections.indexOfFirst { it.id !in done }
         if (idx < 0) {
-            _state.value = SessionState(loading = false, plan = plan, nothingLeft = true, step = Step.DONE, planFinished = true)
+            _state.value = SessionState(loading = false, plan = plan, nothingLeft = true, step = Step.DONE, planFinished = true, more = more)
             return
         }
         val section = plan.sections[idx]
@@ -113,6 +120,7 @@ class SessionViewModel(private val c: AppContainer) : ViewModel() {
             lines = lines,
             next = plan.sections.getOrNull(idx + 1),
             translationId = c.text.translationId,
+            more = more,
             prayerText = prayerText,
             quotes = quotes,
         )
@@ -121,7 +129,7 @@ class SessionViewModel(private val c: AppContainer) : ViewModel() {
     fun finishReading() {
         val s = _state.value
         viewModelScope.launch {
-            c.progress.logReading(verses = s.verses.size, sections = 0)
+            c.logReading(verses = s.verses.size, sections = 0)
             if (s.section?.quiz.isNullOrEmpty()) complete() else _state.update { it.copy(step = Step.QUIZ, quizIndex = 0) }
         }
     }
@@ -145,7 +153,7 @@ class SessionViewModel(private val c: AppContainer) : ViewModel() {
         val section = s.section ?: return
         val before = c.progress.totalSections.first()
         val isNew = c.progress.completeSection(plan.id, section.id)
-        if (isNew) c.progress.logReading(verses = 0, sections = 1)
+        if (isNew) c.logReading(verses = 0, sections = 1)
         val newCardIds = c.progress.unlockCards(plan.id, section.cards)
         val (recap, stageTitle) = buildRecap(plan, section)
         _state.update {
@@ -179,6 +187,27 @@ class SessionViewModel(private val c: AppContainer) : ViewModel() {
             explain = picked.joinToString(" → ") { it.title },
         ) to title
     }
+
+    /** At most one review per session, only before the first section. */
+    private suspend fun offerReview() {
+        if (reviewOffered) return
+        reviewOffered = true
+        val available = c.plans.index().plans.filter { it.available }.map { it.id }.toSet()
+        for (r in c.progress.dueReviews()) {
+            if (r.planId !in available) continue
+            val section = c.plans.plan(r.planId).sections.firstOrNull { it.id == r.sectionId } ?: continue
+            val q = section.quiz.getOrNull(r.quizIndex) ?: continue
+            _state.update { it.copy(step = Step.REVIEW, review = ReviewItem(r.planId, r.sectionId, r.quizIndex, q, section.title)) }
+            return
+        }
+    }
+
+    fun reviewSolved(firstTry: Boolean) {
+        val r = _state.value.review ?: return
+        viewModelScope.launch { c.progress.recordReview(r.planId, r.sectionId, r.index, firstTry) }
+    }
+
+    fun reviewDone() = _state.update { it.copy(step = Step.READ, review = null) }
 
     fun rewardContinue() = _state.update { it.copy(step = if (it.recap != null) Step.RECAP else Step.DONE) }
 
