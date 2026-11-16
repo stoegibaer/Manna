@@ -10,3 +10,4 @@
 .cxx
 .kotlin
 tts_input.json
+__pycache__/
