@@ -197,3 +197,8 @@ Als Nächstes: **Wie liest man die Bibel?**, **Texte, die man lieber überspring
 **Ton (Nutzerwunsch):** nicht predigen. Karten, Erklärungen und Fragen vermitteln nichts, was man nicht selbst im Text finden kann. Gute Fragen zum Text stellen, sachliche Informationen geben, wo sie helfen, keine Bedeutung nahelegen, die nicht eindeutig im Text steht. Die Verständnisarbeit macht der Leser.
 
 **Sichtweisen:** Die Pläne sind für Gläubige. Gezeigt wird, wie andere Gläubige und Traditionen einen Text verstehen. Die historisch-kritische Sicht wird nicht als eigene Position dargestellt.
+
+## 15. Für die nächste Version vorgemerkt
+
+- **Export und Import** (Nutzerwunsch 16.11.2026): Fortschritt, Karten, Lieblingsverse, Tagebuch und Einstellungen als Datei sichern und wieder einlesen, damit beim Wechsel von Installationen (z. B. Debug → Release, neues Handy) nichts verloren geht.
+- **iPhone** (später besprechen): realistisch als Web-App (PWA); Erinnerungen bräuchten dort einen Push-Server.
