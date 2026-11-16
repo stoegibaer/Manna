@@ -1,0 +1,23 @@
+{
+  "start": "grosse-geschichte",
+  "directions": [
+    { "id": "jesus", "title": "Jesus kennenlernen", "subtitle": "Wer ist er – und was wollte er?" },
+    { "id": "ehrlich", "title": "Ehrlich mit Gott", "subtitle": "Klagen, Zweifel, Vertrauen" },
+    { "id": "gerechtigkeit", "title": "Gerechtigkeit & Treue", "subtitle": "Gott und die Ungerechtigkeit der Welt" },
+    { "id": "hoffnung", "title": "Hoffnung & Trost", "subtitle": "Wenn alles dunkel aussieht" },
+    { "id": "weisheit", "title": "Sinn & Weisheit", "subtitle": "Wozu das alles?" }
+  ],
+  "plans": [
+    { "id": "grosse-geschichte", "title": "Die große Geschichte", "subtitle": "Der rote Faden der Bibel", "direction": "start", "available": true },
+    { "id": "markus", "title": "Markus", "subtitle": "Jesus kennenlernen", "direction": "jesus", "available": false },
+    { "id": "habakuk", "title": "Habakuk", "subtitle": "Warum, Gott?", "direction": "ehrlich", "available": true },
+    { "id": "psalmen-schwer", "title": "Psalmen für schwere Tage", "subtitle": "Ehrliche Gebete", "direction": "ehrlich", "available": false },
+    { "id": "hiob", "title": "Hiob", "subtitle": "Leiden ohne Antwort?", "direction": "ehrlich", "available": false },
+    { "id": "amos", "title": "Amos", "subtitle": "Es ströme das Recht wie Wasser", "direction": "gerechtigkeit", "available": false },
+    { "id": "hosea", "title": "Hosea", "subtitle": "Liebe, die nicht aufgibt", "direction": "gerechtigkeit", "available": false },
+    { "id": "micha", "title": "Micha", "subtitle": "Was Gott von dir will", "direction": "gerechtigkeit", "available": false },
+    { "id": "jesaja-trost", "title": "Jesaja 40–55", "subtitle": "Tröstet mein Volk", "direction": "hoffnung", "available": false },
+    { "id": "prediger", "title": "Prediger", "subtitle": "Wozu das alles?", "direction": "weisheit", "available": false },
+    { "id": "bergpredigt", "title": "Die Bergpredigt", "subtitle": "Jesus über das Leben", "direction": "jesus", "available": false }
+  ]
+}

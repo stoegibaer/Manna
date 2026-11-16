@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.Manna" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+    </style>
+    <color name="bg">#FAF7F0</color>
+    <color name="icon_bg">#F3E9CF</color>
+</resources>

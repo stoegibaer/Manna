@@ -1,0 +1,3030 @@
+{
+  "id": "grosse-geschichte",
+  "title": "Die große Geschichte",
+  "subtitle": "Der rote Faden der Bibel",
+  "description": "In 44 kurzen Abschnitten von der Schöpfung bis zur neuen Schöpfung: die wichtigsten Stationen der Bibel und wie sie zusammenhängen. Danach hat jede biblische Geschichte ihren Platz.",
+  "direction": "start",
+  "basis": "elbbk",
+  "stages": [
+    {
+      "id": "anfang",
+      "title": "Der Anfang"
+    },
+    {
+      "id": "verheissung",
+      "title": "Die Verheißung"
+    },
+    {
+      "id": "befreiung",
+      "title": "Befreiung und Bund"
+    },
+    {
+      "id": "koenige",
+      "title": "Könige"
+    },
+    {
+      "id": "exil",
+      "title": "Propheten und Exil"
+    },
+    {
+      "id": "jesus",
+      "title": "Jesus"
+    },
+    {
+      "id": "kreuz",
+      "title": "Kreuz und Auferstehung"
+    },
+    {
+      "id": "gemeinde",
+      "title": "Die Gemeinde und das Ziel"
+    }
+  ],
+  "cards": [
+    {
+      "id": "adam-eva",
+      "type": "person",
+      "name": "Adam und Eva",
+      "text": "Die ersten Menschen der Bibel. „Adam“ heißt auf Hebräisch einfach „Mensch“ und klingt an „adama“ (Erdboden) an; „Eva“ (Chawwa) erinnert an „Leben“. Ihre Geschichte erzählt, wer der Mensch ist: Gottes Ebenbild – und einer, der sich von Gott abwendet.",
+      "refs": "1Mo 1–3"
+    },
+    {
+      "id": "noah",
+      "type": "person",
+      "name": "Noah",
+      "text": "Er findet Gnade vor Gott, als die Welt voller Gewalt ist. Nach der Flut schließt Gott mit ihm und allem Leben einen Bund: Nie wieder soll eine Flut alles vernichten. Das Zeichen dafür ist der Bogen in den Wolken.",
+      "refs": "1Mo 6–9"
+    },
+    {
+      "id": "bund",
+      "type": "begriff",
+      "name": "Bund",
+      "text": "Eine feste, verbindliche Beziehung, die Gott mit Menschen eingeht – mit Noah, Abraham, Israel am Sinai, David. Die Propheten kündigen einen „neuen Bund“ an (Jer 31). Jesus nimmt das beim letzten Mahl auf. „Testament“ ist das lateinische Wort für Bund.",
+      "refs": "1Mo 9; 2Mo 19–24; Jer 31,31"
+    },
+    {
+      "id": "abraham",
+      "type": "person",
+      "name": "Abraham",
+      "text": "Stammvater Israels, zuerst Abram genannt. Auf Gottes Wort hin verlässt er seine Heimat und vertraut einer Zusage, deren Erfüllung er selbst kaum erlebt. Juden, Christen und Muslime berufen sich auf ihn.",
+      "refs": "1Mo 12–25"
+    },
+    {
+      "id": "jakob",
+      "type": "person",
+      "name": "Jakob / Israel",
+      "text": "Enkel Abrahams. Ein Mensch mit Ecken: Er betrügt seinen Bruder Esau und wird selbst betrogen. Am Jabbok ringt er mit Gott und erhält den Namen Israel. Seine zwölf Söhne werden die Stammväter der zwölf Stämme.",
+      "refs": "1Mo 25–50"
+    },
+    {
+      "id": "josef",
+      "type": "person",
+      "name": "Josef",
+      "text": "Lieblingssohn Jakobs, von seinen Brüdern als Sklave nach Ägypten verkauft. Dort steigt er zum zweitmächtigsten Mann des Landes auf und rettet in einer Hungersnot seine Familie. Seine Geschichte zeigt, wie Gott aus Bösem Gutes machen kann.",
+      "refs": "1Mo 37–50"
+    },
+    {
+      "id": "mose",
+      "type": "person",
+      "name": "Mose",
+      "text": "Als Säugling vor dem Tod gerettet, wächst er am Hof des Pharao auf. Gott beruft ihn am brennenden Dornbusch, Israel aus der Sklaverei zu führen. Am Sinai empfängt er die Gebote. Das versprochene Land sieht er nur noch von fern.",
+      "refs": "2Mo – 5Mo"
+    },
+    {
+      "id": "zehn-worte",
+      "type": "begriff",
+      "name": "Die Zehn Worte",
+      "text": "Die Zehn Gebote, auf Hebräisch „die zehn Worte“ (daher „Dekalog“). Sie beginnen nicht mit einer Forderung, sondern mit einer Erinnerung: Gott hat sein Volk aus der Sklaverei befreit. Sie stehen zweimal in der Bibel.",
+      "refs": "2Mo 20,1–17; 5Mo 5,6–21"
+    },
+    {
+      "id": "david",
+      "type": "person",
+      "name": "David",
+      "text": "Hirtenjunge aus Bethlehem, später König Israels (um 1000 v. Chr.) und Dichter vieler Psalmen. Er macht Jerusalem zur Hauptstadt. Die Bibel zeigt ihn mit großen Stärken und schwerer Schuld. Gott verspricht ihm einen Nachkommen, dessen Herrschaft kein Ende hat.",
+      "refs": "1Sam 16 – 1Kön 2"
+    },
+    {
+      "id": "messias",
+      "type": "begriff",
+      "name": "Messias / Christus",
+      "text": "Hebräisch „Maschiach“, griechisch „Christos“: der Gesalbte. Gesalbt wurden Könige und Priester. Nach dem Ende des Königtums hofften viele auf einen kommenden König aus Davids Familie. Christen bekennen Jesus als diesen Messias – daher der Name „Christus“.",
+      "refs": "2Sam 7; Jes 9; Mk 8,29"
+    },
+    {
+      "id": "elia",
+      "type": "person",
+      "name": "Elia",
+      "text": "Prophet im Nordreich Israel (9. Jh. v. Chr.) unter König Ahab und Königin Isebel. Er kämpft gegen die Verehrung des Gottes Baal. Nach seinem größten Sieg bricht er zusammen und will sterben – und Gott begegnet ihm ganz leise.",
+      "refs": "1Kön 17 – 2Kön 2"
+    },
+    {
+      "id": "exil",
+      "type": "ereignis",
+      "name": "Das Babylonische Exil",
+      "text": "587/586 v. Chr. erobern die Babylonier Jerusalem, zerstören den Tempel und verschleppen viele Menschen nach Babylon. Rund 50 Jahre später erlaubt der Perserkönig Kyrus die Rückkehr. In dieser Krise wurden viele Texte der Bibel gesammelt und neu gelesen.",
+      "refs": "2Kön 25; Ps 137; Esra 1"
+    },
+    {
+      "id": "reich-gottes",
+      "type": "begriff",
+      "name": "Reich Gottes",
+      "text": "Das zentrale Thema der Predigt Jesu. Gemeint ist kein Gebiet, sondern Gottes Herrschaft: wo Gott regiert, wird das Leben heil. Mit Jesus ist es angebrochen und doch noch nicht vollendet. Matthäus sagt meist „Reich der Himmel“ – aus Ehrfurcht vor dem Wort „Gott“.",
+      "refs": "Mk 1,15; Mt 5,3"
+    },
+    {
+      "id": "petrus",
+      "type": "person",
+      "name": "Petrus",
+      "text": "Fischer vom See Genezareth, eigentlich Simon. Jesus nennt ihn Petrus, „Fels“. Er bekennt Jesus als Messias, verleugnet ihn aber in der Nacht der Verhaftung dreimal. Nach Ostern wird er Sprecher der ersten Gemeinde. Nach alter Überlieferung starb er in Rom.",
+      "refs": "Mk 1,16; Joh 21; Apg 2"
+    },
+    {
+      "id": "kreuz",
+      "type": "ereignis",
+      "name": "Die Kreuzigung",
+      "text": "Die grausamste römische Hinrichtungsart, vor allem für Sklaven und Aufständische. Jesus wurde um das Jahr 30 n. Chr. unter dem Statthalter Pontius Pilatus vor Jerusalem gekreuzigt. Für Christen ist das Kreuz zum Zeichen geworden, dass Gott selbst Leid und Schuld trägt.",
+      "refs": "Mk 15; Lk 23"
+    },
+    {
+      "id": "auferstehung",
+      "type": "ereignis",
+      "name": "Die Auferstehung",
+      "text": "Am dritten Tag nach der Kreuzigung finden Frauen das Grab leer; danach begegnet der Auferstandene vielen Jüngern. Für die ersten Christen ist das der Kern des Glaubens (1Kor 15,3–8). Gefeiert wird es an Ostern – und an jedem Sonntag.",
+      "refs": "Lk 24; 1Kor 15"
+    },
+    {
+      "id": "heiliger-geist",
+      "type": "begriff",
+      "name": "Heiliger Geist",
+      "text": "Gottes Gegenwart und Kraft, die Menschen erfüllt und verändert. Schon am Anfang schwebt Gottes Geist über dem Wasser (1Mo 1,2). Jesus verspricht ihn seinen Jüngern; an Pfingsten kommt er auf sie. Christen bekennen ihn als dritte Person des dreieinigen Gottes.",
+      "refs": "1Mo 1,2; Apg 1,8; Apg 2"
+    },
+    {
+      "id": "pfingsten",
+      "type": "ereignis",
+      "name": "Pfingsten",
+      "text": "Ursprünglich das jüdische Wochenfest (Schawuot), 50 Tage nach Passa – „Pfingsten“ kommt vom griechischen „pentekoste“, der fünfzigste. An diesem Fest kommt der Heilige Geist auf die Jünger. Es gilt als Geburtstag der Kirche.",
+      "refs": "Apg 2"
+    },
+    {
+      "id": "paulus",
+      "type": "person",
+      "name": "Paulus",
+      "text": "Jüdischer Gelehrter aus Tarsus, zuerst Verfolger der Christen. Nach seiner Begegnung mit dem Auferstandenen vor Damaskus wird er zum wichtigsten Missionar der frühen Kirche. 13 Briefe im Neuen Testament tragen seinen Namen; bei einigen ist umstritten, ob er sie selbst schrieb.",
+      "refs": "Apg 9; Röm; 1Kor"
+    },
+    {
+      "id": "neue-schoepfung",
+      "type": "begriff",
+      "name": "Neue Schöpfung",
+      "text": "Das Ziel der großen Geschichte: Gott macht Himmel und Erde neu und wohnt selbst bei den Menschen. Die Bibel endet, wo sie begann – mit einem Baum des Lebens und einem Strom (Offb 22,1–2) –, aber jetzt in einer Stadt voller Menschen.",
+      "refs": "Jes 65,17; Offb 21–22"
+    }
+  ],
+  "sections": [
+    {
+      "id": "gg-01",
+      "stage": "anfang",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 1,
+          "from": 1,
+          "to": 5
+        },
+        {
+          "book": 1,
+          "chapter": 1,
+          "from": 26,
+          "to": 31
+        }
+      ],
+      "title": "Am Anfang",
+      "summary": "Gott schafft durch sein Wort Licht aus der Finsternis. Den Menschen schafft er als sein Bild – Mann und Frau – und am Ende ist alles sehr gut.",
+      "bridge": "Die Bibel ist eine Bibliothek aus 66 Büchern, geschrieben über mehr als tausend Jahre. Und doch erzählt sie eine zusammenhängende Geschichte. Sie beginnt ganz am Anfang.",
+      "focus": "Achte darauf, was Gott über den Menschen sagt – und was über alles am Ende.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wie schafft Gott in diesen Versen?",
+          "options": [
+            "Er spricht – und es geschieht",
+            "Er kämpft gegen ein Ungeheuer",
+            "Er formt alles aus Lehm",
+            "Er bittet die Engel um Hilfe"
+          ],
+          "answer": 0,
+          "explain": "V. 3: Gott spricht, und es wird Licht. Sein Wort genügt.",
+          "hint": "Schau, wie Vers 3 beginnt.",
+          "verse": 3
+        },
+        {
+          "type": "truefalse",
+          "q": "Gott schafft den Menschen als sein Bild – als Mann und Frau.",
+          "answer": true,
+          "explain": "V. 27: Beide, Mann und Frau, sind Gottes Ebenbild. Die Würde des Menschen hängt nicht an Geschlecht, Leistung oder Herkunft.",
+          "hint": "Lies Vers 27.",
+          "verse": 27
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „Bild Gottes“?",
+          "a": "Im Alten Orient stellten Könige Statuen von sich auf, um zu zeigen: Hier regiere ich. Die Bibel sagt: Jeder Mensch ist so ein Bild – Gottes Stellvertreter in der Welt, mit Würde und Verantwortung für die Schöpfung."
+        },
+        {
+          "q": "Sind das sieben echte Tage?",
+          "a": "Darüber denken Christen verschieden. Manche lesen die Schöpfungstage wörtlich als 24-Stunden-Tage (verbreitet in manchen Freikirchen). Viele andere – darunter die katholische Kirche, die meisten evangelischen Landeskirchen und viele Freikirchen – lesen 1. Mose 1 als kunstvoll gebauten Text, der sagt, wer die Welt geschaffen hat und warum, nicht in welcher Zeit. Einig sind sich alle: Die Welt ist kein Zufall, sondern Gottes gute Schöpfung."
+        },
+        {
+          "q": "Warum spricht Gott in der Mehrzahl (V. 26)?",
+          "a": "Jüdische Ausleger sehen darin oft eine feierliche Redeform oder Gottes Hofstaat aus Engeln. Christen haben darin seit der Alten Kirche auch einen Hinweis auf den dreieinigen Gott gesehen."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 1,
+          "chapter": 1,
+          "from": 27,
+          "to": 27
+        },
+        "text": "Und Gott schuf den Menschen in seinem Bild, im Bild Gottes schuf er ihn"
+      },
+      "fact": "Das hebräische Wort für „schaffen“ (bara) hat in der Bibel immer Gott als Subjekt. Menschen können vieles machen – „schaffen“ in diesem Sinn kann nur Gott.",
+      "teaser": "Ein Garten, zwei besondere Bäume und ein einziges Verbot.",
+      "prayer": {
+        "ref": {
+          "book": 19,
+          "chapter": 8,
+          "from": 4,
+          "to": 5
+        },
+        "source": "Psalm 8,4–5"
+      }
+    },
+    {
+      "id": "gg-02",
+      "stage": "anfang",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 2,
+          "from": 7,
+          "to": 9
+        },
+        {
+          "book": 1,
+          "chapter": 2,
+          "from": 15,
+          "to": 18
+        },
+        {
+          "book": 1,
+          "chapter": 2,
+          "from": 21,
+          "to": 25
+        }
+      ],
+      "title": "Der Mensch im Garten",
+      "summary": "Gott formt den Menschen aus Erde und haucht ihm Leben ein. Er gibt ihm einen Garten, eine Aufgabe, ein Verbot – und ein Gegenüber.",
+      "bridge": "Kapitel 2 erzählt die Erschaffung des Menschen ein zweites Mal – diesmal ganz nah, wie mit Gottes eigenen Händen.",
+      "quiz": [
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Gott setzte den Menschen in den Garten Eden, um ihn zu bebauen und zu [beherrschen].",
+          "fix": "bewahren",
+          "verse": 15,
+          "hint": "Lies Vers 15.",
+          "explain": "V. 15: bebauen und bewahren – der Mensch soll den Garten pflegen und schützen, nicht ausbeuten."
+        },
+        {
+          "type": "choice",
+          "q": "Was ist laut Gott „nicht gut“?",
+          "options": [
+            "Dass der Mensch allein ist",
+            "Dass der Mensch vom Baum isst",
+            "Dass der Garten keine Mauer hat",
+            "Dass die Tiere keine Namen haben"
+          ],
+          "answer": 0,
+          "explain": "V. 18: Zum ersten Mal ist etwas nicht gut: das Alleinsein. Der Mensch ist auf Beziehung hin geschaffen.",
+          "hint": "Vers 18.",
+          "verse": 18
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum aus Staub?",
+          "a": "Im Hebräischen ein Wortspiel: „Adam“ (Mensch) wird aus der „adama“ (Erdboden) geformt. Der Mensch gehört zur Erde – und lebt doch erst durch Gottes Atem (V. 7)."
+        },
+        {
+          "q": "Was heißt „Hilfe“ hier?",
+          "a": "Das hebräische Wort „ezer“ meint keine untergeordnete Gehilfin. Es wird sonst oft für Gott selbst gebraucht, der Israel hilft (z. B. Ps 121,1–2). Gemeint ist ein Gegenüber auf Augenhöhe."
+        },
+        {
+          "q": "Welche zwei Bäume stehen in der Mitte?",
+          "a": "Der Baum des Lebens und der Baum der Erkenntnis des Guten und Bösen (V. 9). „Gut und Böse erkennen“ meint wohl: selbst bestimmen wollen, was gut ist – unabhängig von Gott."
+        }
+      ],
+      "cards": [
+        "adam-eva"
+      ],
+      "fact": "Wo Eden lag, weiß niemand. 1. Mose 2 nennt vier Flüsse, darunter Euphrat und Tigris – das weist nach Mesopotamien, in den heutigen Irak.",
+      "teaser": "Die erste Frage, die in der Bibel gestellt wird, kommt nicht von Gott."
+    },
+    {
+      "id": "gg-03",
+      "stage": "anfang",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 3,
+          "from": 1,
+          "to": 13
+        }
+      ],
+      "title": "Der Bruch",
+      "summary": "Die Schlange sät Misstrauen gegen Gott. Die Menschen essen vom verbotenen Baum, verstecken sich – und schieben die Schuld weiter.",
+      "focus": "Achte darauf, wie sich die Beziehungen verändern – zu Gott und untereinander.",
+      "quiz": [
+        {
+          "type": "whosaid",
+          "quote": "Hat Gott wirklich gesagt",
+          "quote_ref": {
+            "book": 1,
+            "chapter": 3,
+            "from": 1,
+            "to": 1
+          },
+          "options": [
+            "Die Schlange",
+            "Die Frau",
+            "Adam",
+            "Gott"
+          ],
+          "answer": 0,
+          "hint": "Wer beginnt das Gespräch?",
+          "explain": "V. 1: Die erste Frage der Bibel stellt die Schlange – und sie zielt auf Misstrauen gegenüber Gott."
+        },
+        {
+          "type": "order",
+          "q": "In welcher Reihenfolge passiert es?",
+          "items": [
+            "Die Schlange stellt Gottes Wort in Frage",
+            "Die Frau isst und gibt dem Mann",
+            "Sie merken, dass sie nackt sind",
+            "Sie verstecken sich vor Gott",
+            "Gott ruft: Wo bist du?"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 1–9: Vom Zweifel zum Essen, von der Scham zum Verstecken – und dann sucht Gott den Menschen."
+        },
+        {
+          "type": "choice",
+          "q": "Wie antworten Adam und die Frau auf Gottes Fragen?",
+          "options": [
+            "Jeder schiebt die Schuld weiter",
+            "Sie bitten sofort um Vergebung",
+            "Sie schweigen",
+            "Sie laufen aus dem Garten"
+          ],
+          "answer": 0,
+          "explain": "V. 12–13: Der Mann zeigt auf die Frau (und auf Gott, der sie ihm gegeben hat), die Frau auf die Schlange.",
+          "hint": "Vers 12–13.",
+          "verse": 12
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer ist die Schlange?",
+          "a": "Der Text sagt nur: ein Tier, listiger als alle anderen. Spätere Texte deuten sie auf den Teufel (z. B. Offb 12,9). Auffällig: Die Bibel erklärt nicht, woher das Böse kommt – sie zeigt, wie es wirkt."
+        },
+        {
+          "q": "Wie verstehen das verschiedene Kirchen?",
+          "a": "Die westlichen Kirchen (katholisch und evangelisch) sprechen von „Erbsünde“: Seit diesem Bruch ist jeder Mensch von der Sünde geprägt und kann sich nicht selbst befreien. Die orthodoxe Kirche spricht lieber von „Ursünde“: Wir erben nicht Adams Schuld, wohl aber die Folgen – Sterblichkeit und eine Neigung zum Bösen. Einig sind sich alle: Der Mensch braucht Gottes Hilfe."
+        },
+        {
+          "q": "Warum fragt Gott „Wo bist du?“",
+          "a": "Gott weiß, wo der Mensch ist. Die Frage ist eine Einladung, sich zu zeigen und ehrlich zu werden – der erste Schritt zurück."
+        }
+      ],
+      "teaser": "Gott spricht ein Urteil – und tut danach etwas Überraschendes für die beiden."
+    },
+    {
+      "id": "gg-04",
+      "stage": "anfang",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 3,
+          "from": 14,
+          "to": 24
+        }
+      ],
+      "title": "Draußen vor dem Garten",
+      "summary": "Die Folgen: Mühe, Schmerz, ein gestörtes Miteinander und der Tod. Doch Gott macht den Menschen Kleider – und kündigt an, dass die Schlange nicht das letzte Wort behält.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was tut Gott, bevor er die Menschen aus dem Garten schickt?",
+          "options": [
+            "Er macht ihnen Kleider aus Fell",
+            "Er nimmt ihnen die Sprache",
+            "Er verflucht die Frau",
+            "Er baut ihnen ein Haus"
+          ],
+          "answer": 0,
+          "explain": "V. 21: Gott selbst kleidet sie – ein Zeichen der Fürsorge mitten im Gericht.",
+          "hint": "Vers 21.",
+          "verse": 21
+        },
+        {
+          "type": "truefalse",
+          "q": "Gott verflucht in diesem Abschnitt Adam und Eva selbst.",
+          "answer": false,
+          "explain": "V. 14 und 17: Verflucht werden die Schlange und der Erdboden – nicht die Menschen.",
+          "hint": "Wer oder was genau wird verflucht (V. 14 und 17)?",
+          "verse": 17
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was bedeutet Vers 15?",
+          "a": "Zwischen den Nachkommen der Frau und der Schlange soll Feindschaft sein; einer wird der Schlange den Kopf zertreten. Christen haben das seit der Alten Kirche als erste Ankündigung des Siegs Jesu über das Böse gelesen („Protevangelium“). Jüdische Ausleger lesen es meist allgemeiner: als dauernden Kampf des Menschen mit dem Bösen."
+        },
+        {
+          "q": "Ist das eine Strafe für alle Zeit?",
+          "a": "V. 16–19 beschreiben, wie die Welt nun ist: mühsam, schmerzvoll, mit Machtgefällen zwischen Mann und Frau. Viele Ausleger betonen: Das beschreibt die gebrochene Welt – es schreibt sie nicht als Gottes Ideal vor."
+        },
+        {
+          "q": "Warum die Cherubim?",
+          "a": "Cherubim sind himmlische Wächterwesen. Sie bewachen den Weg zum Baum des Lebens (V. 24). Der Weg zurück ist versperrt – ab jetzt erzählt die Bibel, wie Gott selbst einen neuen Weg öffnet. Ganz am Ende taucht der Baum des Lebens wieder auf (Offb 22,2)."
+        }
+      ],
+      "teaser": "Die Menschheit gerät aus den Fugen – und Gott ist darüber nicht kalt, sondern im Herzen getroffen."
+    },
+    {
+      "id": "gg-05",
+      "stage": "anfang",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 6,
+          "from": 5,
+          "to": 8
+        },
+        {
+          "book": 1,
+          "chapter": 9,
+          "from": 11,
+          "to": 16
+        }
+      ],
+      "title": "Neuanfang mit Noah",
+      "summary": "Gott sieht die Bosheit der Menschen, und es schmerzt ihn. Er rettet Noah durch die Flut und schließt danach einen Bund mit allem Leben: Nie wieder eine Flut. Das Zeichen ist der Bogen in den Wolken.",
+      "bridge": "Außerhalb des Gartens geht es bergab: Kain erschlägt seinen Bruder Abel, und die Gewalt breitet sich aus (1. Mose 4–6).",
+      "quiz": [
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Das Zeichen des Bundes ist ein [Stern] in den Wolken.",
+          "fix": "Bogen",
+          "verse": 13,
+          "hint": "Lies Vers 13 in Kapitel 9.",
+          "explain": "9,13: Gott setzt seinen Bogen in die Wolken."
+        },
+        {
+          "type": "truefalse",
+          "q": "Gott reagiert auf die Bosheit der Menschen mit kalter Gleichgültigkeit.",
+          "answer": false,
+          "explain": "6,6: Es reut Gott, und es schmerzt ihn bis ins Herz. Die Bibel zeigt einen Gott, der leidet, wenn Menschen Böses tun.",
+          "hint": "Lies Vers 6 in Kapitel 6.",
+          "verse": 6
+        },
+        {
+          "type": "choice",
+          "q": "Mit wem schließt Gott nach der Flut seinen Bund?",
+          "options": [
+            "Mit Noah, seinen Nachkommen und allen Lebewesen",
+            "Nur mit Noah",
+            "Nur mit Israel",
+            "Mit den Engeln"
+          ],
+          "answer": 0,
+          "explain": "9,12–16: Der Bund gilt Noah, seinen Nachkommen und allen Lebewesen auf der Erde.",
+          "hint": "Lies 9,12–16.",
+          "verse": 12
+        }
+      ],
+      "explain": [
+        {
+          "q": "Ist die Flut eine historische Geschichte?",
+          "a": "Flutgeschichten gibt es in vielen Kulturen des Alten Orients, etwa im babylonischen Gilgamesch-Epos. Manche Christen lesen die Sintflut als weltweites historisches Ereignis, andere als Erinnerung an eine regionale Katastrophe oder als theologische Erzählung. Die Bibel setzt einen eigenen Akzent: Gott leidet am Bösen – und bindet sich danach selbst mit einem Versprechen."
+        },
+        {
+          "q": "Was ist ein Bund?",
+          "a": "Eine feste, verbindliche Beziehung mit Zusagen. Hier verpflichtet sich Gott einseitig, ohne Bedingungen. Der Bogen erinnert nicht die Menschen, sondern Gott selbst an sein Versprechen (9,15–16)."
+        }
+      ],
+      "cards": [
+        "noah",
+        "bund"
+      ],
+      "fact": "Das hebräische Wort für den Regenbogen (qeschet) ist dasselbe wie für den Kriegsbogen. Manche Ausleger sehen darin ein Bild: Gott hängt seine Waffe an den Himmel.",
+      "teaser": "Einem einzelnen Mann wird ein Satz gesagt, der die ganze Weltgeschichte betreffen soll."
+    },
+    {
+      "id": "gg-06",
+      "stage": "verheissung",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 12,
+          "from": 1,
+          "to": 9
+        }
+      ],
+      "title": "Abraham: Geh!",
+      "summary": "Gott ruft Abram, alles hinter sich zu lassen, und verspricht: Ich will dich segnen – und durch dich alle Völker. Abram geht nach Kanaan.",
+      "bridge": "Nach der Flut verteilen sich die Völker über die Erde (1. Mose 10–11). Dann richtet sich der Blick auf einen einzigen Mann in der Stadt Haran: Abram.",
+      "place": "sichem",
+      "focus": "Achte darauf, wer am Ende durch Abram gesegnet werden soll.",
+      "quiz": [
+        {
+          "type": "estimate",
+          "q": "Wie alt ist Abram, als er aufbricht?",
+          "min": 20,
+          "max": 120,
+          "answer": 75,
+          "tolerance": 5,
+          "unit": "Jahre",
+          "explain": "V. 4: 75 Jahre – Gott beginnt etwas Neues mit einem Mann, der eigentlich schon alt ist.",
+          "hint": "Vers 4 verrät es.",
+          "verse": 4
+        },
+        {
+          "type": "choice",
+          "q": "Wer soll durch Abram gesegnet werden?",
+          "options": [
+            "Alle Geschlechter der Erde",
+            "Nur seine Familie",
+            "Nur die Bewohner Kanaans",
+            "Nur die Könige"
+          ],
+          "answer": 0,
+          "explain": "V. 3: Der Segen ist kein Selbstzweck – durch Abram sollen alle Völker gesegnet werden.",
+          "hint": "Vers 3.",
+          "verse": 3
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wo liegt Haran?",
+          "a": "Eine Handelsstadt im Norden Mesopotamiens (heute Südosttürkei). Abrams Familie kam ursprünglich aus Ur im Süden (1Mo 11,31). Von Haran nach Kanaan sind es rund 600 Kilometer – mit Herden eine Reise von Wochen."
+        },
+        {
+          "q": "Warum baut Abram Altäre?",
+          "a": "Ein Altar war ein Ort der Anbetung und des Opfers. Abram markiert damit: Dieses Land gehört dem Gott, der ihn gerufen hat – obwohl dort noch die Kanaaniter wohnen (V. 6–8)."
+        }
+      ],
+      "cards": [
+        "abraham"
+      ],
+      "fact": "Juden, Christen und Muslime berufen sich auf Abraham als Stammvater des Glaubens – deshalb spricht man von den „abrahamitischen Religionen“.",
+      "teaser": "Abram wartet und wartet auf den versprochenen Sohn. Dann zeigt Gott ihm den Nachthimmel."
+    },
+    {
+      "id": "gg-07",
+      "stage": "verheissung",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 15,
+          "from": 1,
+          "to": 6
+        }
+      ],
+      "title": "Zähl die Sterne",
+      "summary": "Abram klagt: Ich habe kein Kind. Gott führt ihn hinaus unter den Sternenhimmel: So zahlreich werden deine Nachkommen sein. Abram glaubt – und Gott rechnet es ihm als Gerechtigkeit an.",
+      "bridge": "Jahre vergehen. Abram lebt im Land und wird reich – aber er hat noch immer kein Kind.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was soll Abram zählen?",
+          "options": [
+            "Die Sterne",
+            "Den Sand am Meer",
+            "Seine Herden",
+            "Die Völker der Erde"
+          ],
+          "answer": 0,
+          "explain": "V. 5: Zähl die Sterne, wenn du kannst – so viele werden deine Nachkommen sein.",
+          "hint": "Vers 5.",
+          "verse": 5
+        },
+        {
+          "type": "truefalse",
+          "q": "Abram hat keine Zweifel und stellt Gott keine Fragen.",
+          "answer": false,
+          "explain": "V. 2–3: Abram spricht offen aus, was ihn quält. Glaube und ehrliche Fragen schließen sich in der Bibel nicht aus.",
+          "hint": "Lies Vers 2–3.",
+          "verse": 2
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „zur Gerechtigkeit rechnen“?",
+          "a": "Abram hat nichts geleistet – er vertraut nur Gottes Zusage. Und Gott sagt: Das macht ihn gerecht, also richtig mit Gott verbunden (V. 6). Paulus greift diesen Vers auf (Röm 4,3; Gal 3,6)."
+        },
+        {
+          "q": "Wer ist Elieser von Damaskus?",
+          "a": "Ein Verwalter in Abrams Haushalt. Ohne eigenes Kind wäre er nach damaligem Recht der Erbe gewesen (V. 2–3)."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 1,
+          "chapter": 15,
+          "from": 6,
+          "to": 6
+        },
+        "text": "Und er glaubte dem HERRN; und er rechnete es ihm zur Gerechtigkeit."
+      },
+      "teaser": "Endlich ist der Sohn da. Und dann verlangt Gott etwas Unbegreifliches."
+    },
+    {
+      "id": "gg-08",
+      "stage": "verheissung",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 22,
+          "from": 1,
+          "to": 14
+        }
+      ],
+      "title": "Abraham und Isaak",
+      "summary": "Gott stellt Abraham auf die Probe: Er soll Isaak opfern. Abraham geht – und im letzten Moment hält Gott ihn zurück. Ein Widder wird an Isaaks Stelle geopfert.",
+      "bridge": "Gott hält Wort: Sara bekommt im hohen Alter einen Sohn, Isaak (1. Mose 21). Abram heißt inzwischen Abraham – „Vater vieler Völker“.",
+      "place": "jerusalem",
+      "focus": "Achte auf die Frage, die Isaak unterwegs stellt.",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Bring die Ereignisse in die richtige Reihenfolge.",
+          "items": [
+            "Abraham sattelt früh am Morgen seinen Esel",
+            "Isaak trägt das Holz",
+            "Isaak fragt nach dem Schaf",
+            "Der Engel ruft vom Himmel",
+            "Abraham opfert einen Widder"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 3–13."
+        },
+        {
+          "type": "choice",
+          "q": "Was antwortet Abraham auf Isaaks Frage nach dem Schaf?",
+          "options": [
+            "Gott wird es sich selbst aussuchen",
+            "Wir kaufen unterwegs eins",
+            "Du bist das Opfer",
+            "Er schweigt"
+          ],
+          "answer": 0,
+          "explain": "V. 8: Gott wird selbst für das Opfer sorgen – und so kommt es auch (V. 13–14).",
+          "hint": "Vers 8.",
+          "verse": 8
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wie kann Gott so etwas verlangen?",
+          "a": "Die Geschichte ist eine der schwersten der Bibel. Im Umfeld Israels gab es Kinderopfer; diese Erzählung endet ausdrücklich damit, dass Gott kein Kinderopfer will. Juden nennen sie „Akeda“, die Bindung Isaaks, und lesen sie als Geschichte äußersten Vertrauens. Christen sehen darin auch ein Vorausbild: Gott selbst gibt seinen Sohn (vgl. Röm 8,32)."
+        },
+        {
+          "q": "Wo liegt Morija?",
+          "a": "Die Bibel verbindet den Berg Morija später mit dem Tempelberg in Jerusalem (2. Chronik 3,1). Wo Abraham fast seinen Sohn opfert, wird später der Tempel stehen."
+        }
+      ],
+      "fact": "Abraham gibt dem Ort einen Namen, der bedeutet: Gott sieht vor, Gott sorgt (V. 14). Das lateinische Wort für „vorhersehen, vorsorgen“ ist „providere“ – daher kommt der Begriff „Providenz“, Vorsehung.",
+      "teaser": "Abrahams Enkel ist ein Betrüger auf der Flucht – und in einer Nacht kämpft er mit einem Unbekannten."
+    },
+    {
+      "id": "gg-09",
+      "stage": "verheissung",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 32,
+          "from": 25,
+          "to": 31
+        }
+      ],
+      "title": "Jakob ringt mit Gott",
+      "summary": "In der Nacht vor der Begegnung mit Esau ringt ein Unbekannter mit Jakob bis zum Morgen. Jakob lässt nicht los, bis er gesegnet wird. Er bekommt einen neuen Namen: Israel.",
+      "bridge": "Isaak bekommt Zwillinge, Esau und Jakob. Jakob erschleicht sich den Segen seines Bruders und flieht (1. Mose 27–28). Zwanzig Jahre später kehrt er zurück – und Esau kommt ihm mit 400 Männern entgegen.",
+      "place": "pniel",
+      "quiz": [
+        {
+          "type": "whosaid",
+          "quote": "Ich lasse dich nicht los, du habest mich denn gesegnet",
+          "quote_ref": {
+            "book": 1,
+            "chapter": 32,
+            "from": 27,
+            "to": 27
+          },
+          "options": [
+            "Jakob",
+            "Der Unbekannte",
+            "Esau",
+            "Isaak"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 27: Jakob, der sich den Segen früher erschlichen hat, bittet jetzt offen darum."
+        },
+        {
+          "type": "choice",
+          "q": "Welchen neuen Namen bekommt Jakob?",
+          "options": [
+            "Israel",
+            "Abraham",
+            "Pniel",
+            "Juda"
+          ],
+          "answer": 0,
+          "explain": "V. 29: Israel – sinngemäß „der mit Gott ringt“. Das ganze Volk wird nach ihm benannt.",
+          "hint": "Vers 29.",
+          "verse": 29
+        }
+      ],
+      "explain": [
+        {
+          "q": "Mit wem ringt Jakob?",
+          "a": "Der Text sagt zuerst: ein Mann (V. 25). Am Ende sagt Jakob, er habe Gott von Angesicht gesehen (V. 31). Hosea 12,4–5 spricht von einem Engel. Die Geschichte lässt das bewusst geheimnisvoll."
+        },
+        {
+          "q": "Warum hinkt Jakob danach?",
+          "a": "Die Begegnung mit Gott verändert ihn – sichtbar und für immer. Er geht gesegnet, aber verwundet weiter (V. 32). Viele haben darin ein Bild für echten Glauben gesehen: nicht unverletzt, aber nicht mehr allein."
+        }
+      ],
+      "cards": [
+        "jakob"
+      ],
+      "fact": "Bis heute trägt der Staat Israel den Namen, den Jakob in dieser Nacht bekommt.",
+      "teaser": "Jakobs Lieblingssohn wird von den eigenen Brüdern verkauft. Jahre später liegt ihr Leben in seiner Hand."
+    },
+    {
+      "id": "gg-10",
+      "stage": "verheissung",
+      "refs": [
+        {
+          "book": 1,
+          "chapter": 50,
+          "from": 15,
+          "to": 21
+        }
+      ],
+      "title": "Josef: Gott wendet es zum Guten",
+      "summary": "Nach Jakobs Tod fürchten die Brüder Josefs Rache. Josef weint und vergibt: Ihr hattet Böses vor, Gott aber hat es zum Guten gewendet.",
+      "bridge": "Die Brüder verkaufen Josef als Sklaven nach Ägypten. Nach Jahren im Gefängnis wird er dort zum zweitmächtigsten Mann des Landes und rettet in einer Hungersnot auch seine Familie. Jakob zieht mit allen nach Ägypten (1. Mose 37–47).",
+      "place": "aegypten",
+      "focus": "Achte darauf, wie Josef auf die Angst seiner Brüder reagiert.",
+      "quiz": [
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Josef sagt: Ihr hattet Böses gegen mich im Sinn; Gott aber wollte es [bestrafen].",
+          "fix": "gut machen",
+          "verse": 20,
+          "hint": "Lies Vers 20.",
+          "explain": "V. 20: Gott hatte im Sinn, es gut zu machen – um viele Menschen am Leben zu erhalten."
+        },
+        {
+          "type": "choice",
+          "q": "Was tut Josef, als die Brüder um Vergebung bitten?",
+          "options": [
+            "Er weint und tröstet sie",
+            "Er lässt sie gefangen nehmen",
+            "Er schickt sie zurück nach Kanaan",
+            "Er verlangt eine Entschädigung"
+          ],
+          "answer": 0,
+          "explain": "V. 17 und 21: Josef weint, beruhigt sie und verspricht, für sie und ihre Kinder zu sorgen.",
+          "hint": "Lies Vers 17 und 21.",
+          "verse": 17
+        }
+      ],
+      "explain": [
+        {
+          "q": "Hat Jakob das wirklich befohlen?",
+          "a": "Davon wird vorher nichts erzählt. Viele Ausleger vermuten, dass die Brüder die Botschaft aus Angst erfunden haben (V. 16–17). Josef geht darauf gar nicht ein – er vergibt trotzdem."
+        },
+        {
+          "q": "Heißt das, Gott wollte das Böse?",
+          "a": "Josef sagt nicht, das Böse sei gut gewesen. Die Brüder bleiben verantwortlich. Aber Gott war stärker als ihre Pläne und hat daraus Rettung gemacht."
+        }
+      ],
+      "cards": [
+        "josef"
+      ],
+      "teaser": "Generationen später ist aus Jakobs Familie ein großes Volk geworden – und Ägypten hat Angst davor."
+    },
+    {
+      "id": "gg-11",
+      "stage": "befreiung",
+      "refs": [
+        {
+          "book": 2,
+          "chapter": 3,
+          "from": 1,
+          "to": 14
+        }
+      ],
+      "title": "Der brennende Dornbusch",
+      "summary": "Gott erscheint Mose in einem Dornbusch, der brennt und nicht verbrennt. Er hat das Elend seines Volkes gesehen und schickt Mose zum Pharao. Auf die Frage nach seinem Namen antwortet Gott: Ich bin, der ich bin.",
+      "bridge": "Rund 400 Jahre später: Die Nachkommen Jakobs sind in Ägypten zu einem großen Volk geworden – und der Pharao hat sie zu Sklaven gemacht. Mose, als Baby gerettet und am Hof aufgewachsen, musste nach einem Totschlag fliehen (2. Mose 1–2).",
+      "place": "horeb",
+      "focus": "Achte darauf, was Gott über das Leiden seines Volkes sagt.",
+      "quiz": [
+        {
+          "type": "whosaid",
+          "quote": "Wer bin ich, dass ich zu dem Pharao gehen",
+          "quote_ref": {
+            "book": 2,
+            "chapter": 3,
+            "from": 11,
+            "to": 11
+          },
+          "options": [
+            "Mose",
+            "Aaron",
+            "Jethro",
+            "Der Pharao"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 11: Mose fühlt sich zu klein für den Auftrag. Gottes Antwort: Ich werde mit dir sein (V. 12)."
+        },
+        {
+          "type": "choice",
+          "q": "Was sagt Gott über sein Volk in Ägypten?",
+          "options": [
+            "Er hat ihr Elend gesehen und ihr Schreien gehört",
+            "Sie sind selbst schuld an ihrer Lage",
+            "Sie sollen geduldig bleiben",
+            "Er hat sie vergessen"
+          ],
+          "answer": 0,
+          "explain": "V. 7–8: Gott sieht, hört und kennt ihre Schmerzen – und kommt herab, um sie zu retten.",
+          "hint": "Vers 7.",
+          "verse": 7
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was bedeutet „Ich bin, der ich bin“?",
+          "a": "Gott nennt seinen Namen JHWH und deutet ihn (V. 14). Das Hebräische lässt mehrere Übersetzungen zu: „Ich bin, der ich bin“, „Ich werde sein, der ich sein werde“ oder „Ich bin da“. Gemeint ist: Gott lässt sich nicht festlegen – aber er ist verlässlich da."
+        },
+        {
+          "q": "Warum soll Mose die Schuhe ausziehen?",
+          "a": "Der Ort ist heilig, weil Gott dort ist (V. 5). Schuhe auszuziehen war ein Zeichen der Ehrfurcht – in vielen Kulturen bis heute."
+        }
+      ],
+      "cards": [
+        "mose"
+      ],
+      "fact": "Der Berg heißt hier Horeb; an anderen Stellen heißt derselbe Berg Sinai. Wo genau er liegt, weiß man nicht.",
+      "teaser": "Das Volk ist frei – und steht nach wenigen Tagen mit dem Rücken zum Meer."
+    },
+    {
+      "id": "gg-12",
+      "stage": "befreiung",
+      "refs": [
+        {
+          "book": 2,
+          "chapter": 14,
+          "from": 10,
+          "to": 14
+        },
+        {
+          "book": 2,
+          "chapter": 14,
+          "from": 21,
+          "to": 22
+        },
+        {
+          "book": 2,
+          "chapter": 14,
+          "from": 30,
+          "to": 31
+        }
+      ],
+      "title": "Durchs Meer",
+      "summary": "Eingeschlossen zwischen Meer und ägyptischem Heer bekommt Israel Panik. Mose sagt: Fürchtet euch nicht – der HERR wird für euch kämpfen. Gott teilt das Meer, und Israel zieht hindurch.",
+      "bridge": "Nach zehn Plagen lässt der Pharao Israel ziehen. In der Nacht des Aufbruchs feiert Israel das erste Passa (2. Mose 5–13). Doch dann bereut der Pharao es und jagt ihnen mit seinem Heer nach.",
+      "place": "schilfmeer",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wie reagiert das Volk, als die Ägypter kommen?",
+          "options": [
+            "Es bekommt Angst und macht Mose Vorwürfe",
+            "Es betet ruhig",
+            "Es greift zu den Waffen",
+            "Es schickt Unterhändler"
+          ],
+          "answer": 0,
+          "explain": "V. 10–12: Große Angst – sie wünschen sich sogar zurück in die Sklaverei.",
+          "hint": "Lies Vers 10–12.",
+          "verse": 11
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Mose sagt: Der HERR wird für euch kämpfen, und ihr werdet [laut] sein.",
+          "fix": "still",
+          "verse": 14,
+          "hint": "Lies Vers 14.",
+          "explain": "V. 14: Gott kämpft – und das Volk darf still werden."
+        },
+        {
+          "type": "truefalse",
+          "q": "Gott trocknet das Meer mit einem starken Ostwind, die ganze Nacht hindurch.",
+          "answer": true,
+          "explain": "V. 21: Gott wirkt durch einen Ostwind, die ganze Nacht lang – ein Wunder mit den Mitteln der Natur.",
+          "hint": "Lies Vers 21.",
+          "verse": 21
+        }
+      ],
+      "explain": [
+        {
+          "q": "Welches Meer war das?",
+          "a": "Hebräisch heißt es „Jam Suf“, wörtlich „Schilfmeer“. Ob damit ein See im Norden des heutigen Golfs von Suez, ein Seitenarm oder das Rote Meer selbst gemeint ist, ist unsicher."
+        },
+        {
+          "q": "Was ist das Passa?",
+          "a": "Das Fest der Befreiung aus Ägypten. In der letzten Nacht vor dem Auszug aß Israel ein Lamm und strich sein Blut an die Türpfosten (2. Mose 12). Juden feiern Passa bis heute – und Jesus stirbt an einem Passafest."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 2,
+          "chapter": 14,
+          "from": 14,
+          "to": 14
+        },
+        "text": "Der HERR wird für euch kämpfen, und ihr werdet stille sein."
+      },
+      "teaser": "In der Wüste bekommt das befreite Volk zehn Worte – und das erste ist gar kein Gebot.",
+      "try": "Wenn dir heute etwas über den Kopf wächst: Sag dir Vers 14 einmal halblaut vor."
+    },
+    {
+      "id": "gg-13",
+      "stage": "befreiung",
+      "refs": [
+        {
+          "book": 2,
+          "chapter": 20,
+          "from": 1,
+          "to": 17
+        }
+      ],
+      "title": "Die Zehn Worte",
+      "summary": "Gott stellt sich vor als der, der Israel aus der Sklaverei befreit hat. Dann gibt er zehn Worte für ein Leben in Freiheit: Gott allein vertrauen, seinen Namen ehren, ruhen, die Eltern ehren und Leben, Ehe, Eigentum und Wahrheit schützen.",
+      "bridge": "Nach drei Monaten in der Wüste kommt Israel an den Berg Sinai. Gott bietet dem Volk einen Bund an (2. Mose 19).",
+      "place": "horeb",
+      "focus": "Achte auf Vers 2: Was sagt Gott, bevor das erste Gebot kommt?",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Womit beginnen die Zehn Worte?",
+          "options": [
+            "Mit der Erinnerung an die Befreiung aus Ägypten",
+            "Mit einer Drohung",
+            "Mit dem Gebot, nicht zu töten",
+            "Mit einer Liste von Opfern"
+          ],
+          "answer": 0,
+          "explain": "V. 2: Erst kommt die Befreiung, dann kommen die Gebote. Sie sind Regeln für Befreite – damit sie nicht wieder unfrei werden.",
+          "hint": "Vers 2.",
+          "verse": 2
+        },
+        {
+          "type": "truefalse",
+          "q": "Am Sabbat sollen nur die Israeliten ruhen, Knechte und Fremde aber weiterarbeiten.",
+          "answer": false,
+          "explain": "V. 10: Auch Knechte, Mägde, Fremde und sogar die Tiere sollen ruhen. Der Ruhetag schützt die Schwächsten.",
+          "hint": "Lies Vers 10.",
+          "verse": 10
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum zählen Kirchen die Gebote unterschiedlich?",
+          "a": "Der Bibeltext nennt keine Nummern. Katholiken und Lutheraner zählen nach Augustinus: Das Bilderverbot gehört zum ersten Gebot, das Begehren wird in zwei Gebote geteilt. Reformierte, Orthodoxe und die meisten Freikirchen zählen das Bilderverbot als eigenes zweites Gebot und das Begehren als eines. Im Judentum gilt schon Vers 2 als erstes „Wort“. Der Inhalt ist überall derselbe."
+        },
+        {
+          "q": "Sabbat oder Sonntag?",
+          "a": "Der Sabbat ist der siebte Tag, unser Samstag. Juden halten ihn bis heute. Die meisten Christen feiern seit der frühen Kirche den Sonntag als Tag der Auferstehung Jesu; einige, etwa die Siebenten-Tags-Adventisten, halten am Samstag fest."
+        },
+        {
+          "q": "Was heißt „eifernder Gott“?",
+          "a": "Das Wort beschreibt eine leidenschaftliche Liebe, die keine Konkurrenz duldet – wie in einer Ehe. Die Strafe reicht bis ins dritte und vierte Glied, die Güte aber auf Tausende (V. 5–6): Gottes Güte ist viel größer als sein Zorn.",
+          "translation": "elbbk"
+        }
+      ],
+      "cards": [
+        "zehn-worte"
+      ],
+      "fact": "Die Bibel nennt sie nie „die Zehn Gebote“, sondern „die zehn Worte“ (2. Mose 34,28). Daher kommt der Fachbegriff „Dekalog“.",
+      "teaser": "Mose bleibt 40 Tage auf dem Berg. Unten wird das Volk ungeduldig."
+    },
+    {
+      "id": "gg-14",
+      "stage": "befreiung",
+      "refs": [
+        {
+          "book": 2,
+          "chapter": 32,
+          "from": 1,
+          "to": 8
+        },
+        {
+          "book": 2,
+          "chapter": 34,
+          "from": 5,
+          "to": 7
+        }
+      ],
+      "title": "Das goldene Kalb – und Gottes Name",
+      "summary": "Während Mose auf dem Berg ist, lässt sich das Volk ein goldenes Kalb machen und bricht den Bund fast sofort. Doch Gott erneuert ihn und zeigt sein Wesen: barmherzig, gnädig, langsam zum Zorn und groß an Güte.",
+      "bridge": "Mose steigt auf den Berg, um von Gott die Gebote auf Steintafeln zu empfangen. Er bleibt vierzig Tage dort (2. Mose 24,18).",
+      "place": "horeb",
+      "quiz": [
+        {
+          "type": "whosaid",
+          "quote": "mache uns einen Gott, der vor uns hergehe",
+          "quote_ref": {
+            "book": 2,
+            "chapter": 32,
+            "from": 1,
+            "to": 1
+          },
+          "options": [
+            "Das Volk",
+            "Aaron",
+            "Mose",
+            "Der Pharao"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "32,1: Das Volk drängt Aaron. Ohne Mose fühlen sie sich verloren und wollen etwas Sichtbares."
+        },
+        {
+          "type": "choice",
+          "q": "Wie beschreibt Gott sich selbst in Kapitel 34?",
+          "options": [
+            "Barmherzig, gnädig und langsam zum Zorn",
+            "Streng und unnahbar",
+            "Gleichgültig gegenüber Schuld",
+            "Gerecht, aber ohne Gnade"
+          ],
+          "answer": 0,
+          "explain": "34,6–7: Barmherzig und gnädig, langsam zum Zorn, groß an Güte und Treue – und doch nimmt er Schuld ernst. Diese Selbstbeschreibung wird im Alten Testament immer wieder zitiert.",
+          "hint": "Lies 34,6–7.",
+          "verse": 6
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum ein Kalb?",
+          "a": "Stierbilder waren in Israels Umwelt Symbole für Kraft und Fruchtbarkeit. Bemerkenswert: Aaron ruft ein Fest für den HERRN aus (32,5). Das Volk will Gott nicht ersetzen – es will ihn sichtbar und verfügbar machen. Genau das verbietet das Bilderverbot."
+        },
+        {
+          "q": "Was passiert zwischen Kapitel 32 und 34?",
+          "a": "Mose zerbricht die Tafeln, tritt bei Gott für das Volk ein und bittet, Gottes Herrlichkeit sehen zu dürfen (2. Mose 32,19–33,23). Dann schreibt er die Gebote auf zwei neue Tafeln."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 2,
+          "chapter": 34,
+          "from": 6,
+          "to": 6
+        },
+        "text": "barmherzig und gnädig, langsam zum Zorn und groß an Güte und Wahrheit"
+      },
+      "teaser": "Vierzig Jahre Wüste später steht Israel an der Grenze des Landes. Mose hält seine letzte Rede."
+    },
+    {
+      "id": "gg-15",
+      "stage": "befreiung",
+      "refs": [
+        {
+          "book": 5,
+          "chapter": 6,
+          "from": 4,
+          "to": 9
+        },
+        {
+          "book": 5,
+          "chapter": 30,
+          "from": 15,
+          "to": 20
+        }
+      ],
+      "title": "Wähle das Leben",
+      "summary": "Das Herz des Glaubens Israels: Der HERR ist einer – liebe ihn mit allem, was du hast, und gib es weiter. Am Ende stellt Mose das Volk vor die Wahl: Leben oder Tod, Segen oder Fluch. Wähle das Leben!",
+      "bridge": "Israel bleibt 40 Jahre in der Wüste, bis eine neue Generation herangewachsen ist. In den Ebenen Moabs, kurz vor dem Einzug ins Land, erinnert Mose das Volk an alles, was Gott gesagt hat.",
+      "place": "moab",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Womit soll Israel Gott lieben?",
+          "options": [
+            "Mit ganzem Herzen, ganzer Seele und ganzer Kraft",
+            "Vor allem mit Opfern",
+            "Vor allem am Sabbat",
+            "Mit Worten, nicht mit Taten"
+          ],
+          "answer": 0,
+          "explain": "6,5: Mit allem, was man ist und hat.",
+          "hint": "Lies 6,5.",
+          "verse": 5
+        },
+        {
+          "type": "truefalse",
+          "q": "Mose sagt: Ob ihr leben werdet, ist reiner Zufall.",
+          "answer": false,
+          "explain": "30,19: Mose stellt das Volk vor eine echte Entscheidung – und rät eindeutig: Wähle das Leben.",
+          "hint": "Lies 30,19.",
+          "verse": 19
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist das „Schma Israel“?",
+          "a": "„Höre, Israel“ – hebräisch „Schma Jisrael“. Es ist bis heute das zentrale Bekenntnis des Judentums und wird morgens und abends gebetet. Fromme Juden befestigen diese Worte in einer kleinen Kapsel am Türpfosten (Mesusa) – so wie es 6,9 sagt."
+        },
+        {
+          "q": "Kann man Liebe befehlen?",
+          "a": "Im Alten Orient meinte „lieben“ in Verträgen auch: treu sein, sich verbindlich zur Seite stellen. Gemeint ist mehr als ein Gefühl – eine Entscheidung, die das ganze Leben prägt."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 5,
+          "chapter": 30,
+          "from": 19,
+          "to": 19
+        },
+        "text": "So wähle das Leben, damit du lebest"
+      },
+      "fact": "Jesus nennt 6,4–5 das wichtigste Gebot – und stellt ein zweites daneben: Liebe deinen Nächsten wie dich selbst (Mk 12,29–31).",
+      "teaser": "Israel will einen König wie alle anderen Völker. Gott sucht sich einen aus, den niemand auf dem Zettel hatte.",
+      "try": "Schreib dir einen Bibelvers, der dir wichtig ist, auf einen Zettel und kleb ihn an deine Tür oder deinen Spiegel – wie in 6,9."
+    },
+    {
+      "id": "gg-16",
+      "stage": "koenige",
+      "refs": [
+        {
+          "book": 9,
+          "chapter": 16,
+          "from": 1,
+          "to": 13
+        }
+      ],
+      "title": "David wird gesalbt",
+      "summary": "Gott schickt den Propheten Samuel nach Bethlehem, um einen Sohn Isais zum König zu salben. Nicht der Älteste und Stattlichste wird es, sondern der Jüngste, der draußen die Schafe hütet: David.",
+      "bridge": "Unter Josua kommt Israel ins Land. Es folgen Jahrhunderte unter „Richtern“, dann will das Volk einen König. Der erste, Saul, scheitert an seinem Ungehorsam (Josua bis 1. Samuel 15).",
+      "place": "bethlehem",
+      "focus": "Achte auf Vers 7: Worauf schaut Gott?",
+      "quiz": [
+        {
+          "type": "estimate",
+          "q": "Wie viele Söhne lässt Isai an Samuel vorbeigehen, bevor David geholt wird?",
+          "min": 1,
+          "max": 12,
+          "answer": 7,
+          "tolerance": 0,
+          "unit": "Söhne",
+          "explain": "V. 10: Sieben Söhne – und keiner ist der Richtige. David, der Jüngste, war nicht einmal eingeladen.",
+          "hint": "Vers 10.",
+          "verse": 10
+        },
+        {
+          "type": "choice",
+          "q": "Worauf sieht Gott laut Vers 7?",
+          "options": [
+            "Auf das Herz",
+            "Auf die Größe",
+            "Auf das Alter",
+            "Auf die Herkunft"
+          ],
+          "answer": 0,
+          "explain": "V. 7: Der Mensch sieht auf das Äußere, Gott aber sieht auf das Herz.",
+          "hint": "Vers 7.",
+          "verse": 7
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was bedeutet „salben“?",
+          "a": "Öl wurde auf den Kopf gegossen – ein Zeichen, dass Gott jemanden für eine Aufgabe auswählt und ausrüstet. Das hebräische Wort für „Gesalbter“ ist „Maschiach“ – Messias."
+        },
+        {
+          "q": "Warum hat Samuel Angst?",
+          "a": "Saul ist noch König. Einen neuen König zu salben, wäre Hochverrat (V. 2). David wird erst viele Jahre später, nach Sauls Tod, wirklich König."
+        }
+      ],
+      "cards": [
+        "david"
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 9,
+          "chapter": 16,
+          "from": 7,
+          "to": 7
+        },
+        "text": "der Mensch sieht auf das Äußere, aber der HERR sieht auf das Herz"
+      },
+      "teaser": "David ist König, hat Jerusalem erobert und will Gott ein Haus bauen. Gott dreht den Spieß um."
+    },
+    {
+      "id": "gg-17",
+      "stage": "koenige",
+      "refs": [
+        {
+          "book": 10,
+          "chapter": 7,
+          "from": 8,
+          "to": 16
+        }
+      ],
+      "title": "Ein Haus für immer",
+      "summary": "Durch den Propheten Nathan sagt Gott: Nicht du baust mir ein Haus – ich baue dir eins. Ein Nachkomme Davids soll regieren, und sein Königtum soll für immer bestehen.",
+      "bridge": "David besiegt Goliat, wird von Saul verfolgt und nach dessen Tod König. Er macht Jerusalem zur Hauptstadt und bringt die Bundeslade dorthin (1. Samuel 17 – 2. Samuel 6). Nun will er Gott einen Tempel bauen.",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Gott sagt David: Ich will dir ein [Heer] machen, und dein Thron soll fest sein auf ewig.",
+          "fix": "Haus",
+          "verse": 11,
+          "hint": "Lies Vers 11 und 16.",
+          "explain": "V. 11 und 16: Gott baut David ein Haus – gemeint ist eine Königsfamilie, eine Dynastie, die nicht endet."
+        },
+        {
+          "type": "truefalse",
+          "q": "Gott verspricht, dass Davids Nachkommen niemals Fehler machen werden.",
+          "answer": false,
+          "explain": "V. 14–15: Gott rechnet mit Fehlern und wird zurechtweisen – aber seine Güte wird nicht weichen.",
+          "hint": "Lies Vers 14–15.",
+          "verse": 14
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer ist der Nachkomme?",
+          "a": "Zunächst Davids Sohn Salomo, der den Tempel baut. Doch das Königtum endet 587 v. Chr. Darum hofften viele auf einen kommenden Sohn Davids, den Messias. Das Neue Testament sieht diese Zusage in Jesus erfüllt, der „Sohn Davids“ genannt wird."
+        },
+        {
+          "q": "Was ist ein „Haus“ hier?",
+          "a": "Das Wort hat zwei Bedeutungen: Gebäude (David will einen Tempel bauen) und Familie (Gott verspricht eine Dynastie). Dieses Wortspiel ist der Kern der Geschichte."
+        }
+      ],
+      "cards": [
+        "messias"
+      ],
+      "fact": "Das Neue Testament beginnt mit genau diesem Gedanken: Matthäus 1,1 nennt Jesus Christus den „Sohn Davids“.",
+      "teaser": "Der König, dem Gott so viel versprochen hat, wird zum Ehebrecher und Mörder."
+    },
+    {
+      "id": "gg-18",
+      "stage": "koenige",
+      "refs": [
+        {
+          "book": 10,
+          "chapter": 12,
+          "from": 1,
+          "to": 13
+        }
+      ],
+      "title": "„Du bist der Mann!“",
+      "summary": "Der Prophet Nathan erzählt David von einem Reichen, der einem Armen sein einziges Lamm wegnimmt. David ist empört – und Nathan sagt: Du bist der Mann! David bekennt seine Schuld.",
+      "bridge": "David schläft mit Batseba, der Frau seines Offiziers Uria. Als sie schwanger wird, lässt David Uria gezielt im Krieg sterben (2. Samuel 11).",
+      "place": "jerusalem",
+      "focus": "Achte darauf, wie David auf die Geschichte reagiert, bevor er merkt, dass es um ihn geht.",
+      "quiz": [
+        {
+          "type": "whosaid",
+          "quote": "Du bist der Mann",
+          "quote_ref": {
+            "book": 10,
+            "chapter": 12,
+            "from": 7,
+            "to": 7
+          },
+          "options": [
+            "Nathan",
+            "David",
+            "Uria",
+            "Batseba"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 7: Nathan hält dem König den Spiegel vor – mit großem Mut. Er hätte dafür sterben können."
+        },
+        {
+          "type": "choice",
+          "q": "Was hatte der arme Mann in Nathans Geschichte?",
+          "options": [
+            "Ein einziges kleines Lamm",
+            "Eine kleine Herde",
+            "Einen Weinberg",
+            "Gar nichts"
+          ],
+          "answer": 0,
+          "explain": "V. 3: Ein einziges Lamm, das er liebte wie eine Tochter.",
+          "hint": "Vers 3.",
+          "verse": 3
+        },
+        {
+          "type": "truefalse",
+          "q": "David versucht, sich herauszureden.",
+          "answer": false,
+          "explain": "V. 13: David bekennt schlicht, dass er gegen Gott gesündigt hat. Und Nathan sagt ihm Vergebung zu.",
+          "hint": "Lies Vers 13.",
+          "verse": 13
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was hatte David getan?",
+          "a": "Er nahm sich die Frau eines anderen und ließ ihren Mann töten, um es zu vertuschen (2. Samuel 11). Als König hatte er alle Macht – viele Ausleger sprechen deshalb heute von Machtmissbrauch. Die Bibel verschweigt das nicht, auch nicht bei ihrem größten König."
+        },
+        {
+          "q": "Warum erzählt Nathan eine Geschichte?",
+          "a": "Eine direkte Anklage hätte David vielleicht abgewehrt. Über den Mann in der Geschichte urteilt er selbst – und spricht so sein eigenes Urteil (V. 5–6)."
+        }
+      ],
+      "teaser": "Nach dieser Begegnung entsteht eines der ehrlichsten Gebete der Bibel."
+    },
+    {
+      "id": "gg-19",
+      "stage": "koenige",
+      "refs": [
+        {
+          "book": 19,
+          "chapter": 51,
+          "from": 3,
+          "to": 14
+        }
+      ],
+      "title": "Schaffe mir ein reines Herz",
+      "summary": "David bittet um Erbarmen, bekennt seine Schuld ohne Ausrede und bittet Gott um ein neues, reines Herz und die Freude, gerettet zu sein.",
+      "bridge": "Die Überschrift von Psalm 51 verbindet ihn mit genau diesem Moment: David, nachdem der Prophet Nathan bei ihm war.",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Worum bittet David vor allem?",
+          "options": [
+            "Um ein reines Herz und einen neuen Geist",
+            "Um den Sieg über seine Feinde",
+            "Dass niemand von seiner Schuld erfährt",
+            "Um ein langes Leben"
+          ],
+          "answer": 0,
+          "explain": "V. 12: Er will nicht nur der Strafe entgehen, sondern innerlich neu werden.",
+          "hint": "Vers 12.",
+          "verse": 12
+        },
+        {
+          "type": "truefalse",
+          "q": "David schiebt die Schuld auf andere.",
+          "answer": false,
+          "explain": "V. 5–6: Er nennt seine Schuld beim Namen. Kein Wort über Batseba oder die Umstände.",
+          "hint": "Lies Vers 5–6.",
+          "verse": 5
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist Ysop?",
+          "a": "Eine Pflanze, deren Zweige bei Reinigungsriten zum Besprengen dienten (2. Mose 12,22). David bittet: Reinige du mich (V. 9)."
+        },
+        {
+          "q": "„In Sünde geboren“ – was heißt Vers 7?",
+          "a": "David sagt: Meine Schuld ist kein Ausrutscher, sie reicht tief. In der westlichen Kirche wurde der Vers zu einem Beleg für die Lehre von der Erbsünde; jüdische und viele andere Ausleger lesen ihn als poetischen Ausdruck tiefer Reue."
+        },
+        {
+          "q": "Warum andere Versnummern?",
+          "a": "Deutsche Bibeln zählen die Überschrift eines Psalms mit. Darum steht die Bitte um ein reines Herz hier in Vers 12 – in englischen Bibeln in Vers 10."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 19,
+          "chapter": 51,
+          "from": 12,
+          "to": 12
+        },
+        "text": "Schaffe mir, Gott, ein reines Herz, und erneuere in meinem Innern einen festen Geist!"
+      },
+      "teaser": "Nach David zerbricht das Reich. Im Norden kämpft ein Prophet allein gegen alle – und bricht dann zusammen."
+    },
+    {
+      "id": "gg-20",
+      "stage": "koenige",
+      "refs": [
+        {
+          "book": 11,
+          "chapter": 19,
+          "from": 3,
+          "to": 8
+        },
+        {
+          "book": 11,
+          "chapter": 19,
+          "from": 11,
+          "to": 13
+        }
+      ],
+      "title": "Elia: Es ist genug",
+      "summary": "Elia flieht in die Wüste, ist am Ende und will sterben. Ein Engel weckt ihn: Steh auf, iss. Am Berg Horeb begegnet ihm Gott – nicht im Sturm, im Erdbeben oder im Feuer, sondern in einem leisen Säuseln.",
+      "bridge": "Nach Salomo zerbricht das Reich in Israel (Norden) und Juda (Süden). Im Norden lässt König Ahab den Gott Baal verehren. Der Prophet Elia tritt ihm entgegen und besiegt auf dem Karmel die Baalspropheten (1. Kön 12–18). Nun will Königin Isebel ihn töten.",
+      "place": "horeb",
+      "focus": "Achte darauf, was Gott zuerst für den erschöpften Elia tut.",
+      "quiz": [
+        {
+          "type": "whosaid",
+          "quote": "Es ist genug",
+          "quote_ref": {
+            "book": 11,
+            "chapter": 19,
+            "from": 4,
+            "to": 4
+          },
+          "options": [
+            "Elia",
+            "Der Engel",
+            "Isebel",
+            "Ahab"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 4: Elia ist völlig erschöpft und will nicht mehr leben. Die Bibel nimmt das ernst."
+        },
+        {
+          "type": "choice",
+          "q": "Was tut der Engel für Elia?",
+          "options": [
+            "Er weckt ihn und gibt ihm Essen und Wasser",
+            "Er tadelt ihn für seine Angst",
+            "Er schickt ihn sofort zurück",
+            "Er nimmt ihn mit in den Himmel"
+          ],
+          "answer": 0,
+          "explain": "V. 5–7: Zweimal: Steh auf und iss. Gottes erste Antwort auf Elias Verzweiflung ist Brot, Wasser und Schlaf – keine Predigt.",
+          "hint": "Lies Vers 5–7.",
+          "verse": 7
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Gott war nicht im Wind, nicht im Erdbeben und nicht im Feuer. Danach kam der Ton eines leisen [Donners].",
+          "fix": "Säuselns",
+          "verse": 12,
+          "hint": "Lies Vers 12.",
+          "explain": "V. 12: Nach Sturm, Erdbeben und Feuer kommt etwas ganz Leises."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Geht es Elia wie bei einer Depression?",
+          "a": "Die Bibel benutzt keine modernen Begriffe. Aber sie beschreibt einen Menschen nach enormer Anspannung, der völlig leer ist, sich wertlos fühlt und sterben will (V. 4). Gott wirft ihm das nicht vor. Wenn es dir selbst so geht: Sprich mit jemandem darüber – mit Freunden, in der Gemeinde, mit Ärzten oder der Telefonseelsorge (0800 111 0 111, kostenlos, rund um die Uhr)."
+        },
+        {
+          "q": "Was ist das „leise Säuseln“?",
+          "a": "Wörtlich etwa: „eine Stimme dünnen Schweigens“. Sturm, Erdbeben und Feuer waren klassische Zeichen einer Gotteserscheinung – doch Gott kommt ganz leise. Er ist größer als unsere Erwartungen."
+        }
+      ],
+      "cards": [
+        "elia"
+      ],
+      "teaser": "Die Propheten sagen Unbequemes: Gott hat genug von euren Gottesdiensten.",
+      "try": "Wenn du gerade erschöpft bist: Iss etwas, trink etwas, schlaf. Bei Elia ist das Gottes erste Antwort."
+    },
+    {
+      "id": "gg-21",
+      "stage": "exil",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 5,
+          "from": 21,
+          "to": 24
+        },
+        {
+          "book": 33,
+          "chapter": 6,
+          "from": 6,
+          "to": 8
+        }
+      ],
+      "title": "Was Gott wirklich will",
+      "summary": "Durch Amos sagt Gott: Eure Feste und Lieder will ich nicht – lasst Recht und Gerechtigkeit strömen wie Wasser. Micha fasst zusammen, was Gott vom Menschen will: Recht tun, Güte lieben und demütig mit Gott leben.",
+      "bridge": "Im 8. Jahrhundert v. Chr. geht es Israel wirtschaftlich gut – aber die Reichen beuten die Armen aus, und die Gottesdienste sind prächtig. Da treten Propheten wie Amos und Micha auf.",
+      "place": "bethel",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was soll laut Amos fließen wie ein Bach?",
+          "options": [
+            "Recht und Gerechtigkeit",
+            "Das Blut der Opfer",
+            "Wein für die Feste",
+            "Gold für den Tempel"
+          ],
+          "answer": 0,
+          "explain": "Am 5,24: Recht und Gerechtigkeit sollen strömen wie ein Bach, der nie austrocknet.",
+          "hint": "Amos 5,24.",
+          "verse": 24
+        },
+        {
+          "type": "truefalse",
+          "q": "Micha sagt: Gott will vor allem teure Opfer.",
+          "answer": false,
+          "explain": "Mi 6,6–8: Weder Tausende Widder noch Ströme von Öl – Gott will Recht, Güte und Demut.",
+          "hint": "Lies Micha 6,6–8.",
+          "verse": 8
+        }
+      ],
+      "explain": [
+        {
+          "q": "Ist Gott gegen Gottesdienste?",
+          "a": "Nein – gegen Gottesdienste, die mit Unrecht im Alltag einhergehen. Lieder und Opfer ohne Gerechtigkeit nennt er Lärm (Am 5,23)."
+        },
+        {
+          "q": "Wer waren Amos und Micha?",
+          "a": "Amos war Viehzüchter aus Tekoa in Juda, der im Nordreich predigte (Am 1,1; 7,14). Micha stammte aus einem Dorf in Juda. Beide wirkten im 8. Jahrhundert v. Chr. und stellten sich auf die Seite der Armen."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 33,
+          "chapter": 6,
+          "from": 8,
+          "to": 8
+        },
+        "text": "Recht zu üben und Güte zu lieben und demütig zu wandeln mit deinem Gott"
+      },
+      "fact": "Martin Luther King zitierte Amos 5,24 in seiner berühmten Rede „I Have a Dream“ (1963).",
+      "teaser": "Die Warnungen verhallen. Dann kommt der Tag, den niemand für möglich gehalten hat."
+    },
+    {
+      "id": "gg-22",
+      "stage": "exil",
+      "refs": [
+        {
+          "book": 12,
+          "chapter": 25,
+          "from": 8,
+          "to": 12
+        }
+      ],
+      "title": "Jerusalem fällt",
+      "summary": "Die Babylonier unter Nebukadnezar erobern Jerusalem. Tempel, Königspalast und Häuser werden verbrannt, die Mauern niedergerissen, die meisten Menschen nach Babylon verschleppt.",
+      "bridge": "722 v. Chr. erobern die Assyrer das Nordreich Israel. Juda im Süden hält sich noch über hundert Jahre – trotz der Warnungen von Propheten wie Jeremia. Dann kommen die Babylonier.",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was geschieht mit dem Tempel?",
+          "options": [
+            "Er wird verbrannt",
+            "Er wird zu einem Palast umgebaut",
+            "Er bleibt verschont",
+            "Er wird nach Babylon gebracht"
+          ],
+          "answer": 0,
+          "explain": "V. 9: Das Haus des HERRN wird niedergebrannt – das Zentrum des Glaubens Israels.",
+          "hint": "Vers 9.",
+          "verse": 9
+        },
+        {
+          "type": "truefalse",
+          "q": "Alle Menschen werden nach Babylon gebracht.",
+          "answer": false,
+          "explain": "V. 12: Die Ärmsten des Landes bleiben zurück, um Weinberge und Äcker zu bestellen.",
+          "hint": "Lies Vers 12.",
+          "verse": 12
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wann war das?",
+          "a": "Im Jahr 587 oder 586 v. Chr. (die Forschung schwankt um ein Jahr). Juden gedenken der Zerstörung bis heute am Fastentag Tischa beAv."
+        },
+        {
+          "q": "Warum ist das so schlimm?",
+          "a": "Land, König und Tempel – alles, was Gottes Zusagen sichtbar gemacht hatte, ist verloren. Viele fragten: Hat Gott uns verlassen? Gilt sein Versprechen an David noch? Viele Texte der Bibel ringen mit diesen Fragen."
+        }
+      ],
+      "cards": [
+        "exil"
+      ],
+      "teaser": "In Babylon sollen die Verschleppten fröhliche Lieder singen. Sie können es nicht."
+    },
+    {
+      "id": "gg-23",
+      "stage": "exil",
+      "refs": [
+        {
+          "book": 19,
+          "chapter": 137,
+          "from": 1,
+          "to": 6
+        }
+      ],
+      "title": "An den Flüssen Babels",
+      "summary": "Die Gefangenen sitzen an den Flüssen Babylons und weinen. Ihre Bewacher verlangen Lieder aus Zion. Doch wie soll man in der Fremde Gottes Lieder singen? Sie schwören: Jerusalem vergessen wir nie.",
+      "bridge": "Die Verschleppten leben nun in Babylon, fast 900 Kilometer Luftlinie von Jerusalem entfernt.",
+      "place": "babylon",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was tun die Gefangenen mit ihren Instrumenten?",
+          "options": [
+            "Sie hängen sie an die Weiden",
+            "Sie spielen für die Babylonier",
+            "Sie zerbrechen sie",
+            "Sie verkaufen sie"
+          ],
+          "answer": 0,
+          "explain": "V. 2: Sie hängen ihre Lauten in die Bäume – zum Singen ist ihnen nicht zumute.",
+          "hint": "Vers 2.",
+          "verse": 2
+        },
+        {
+          "type": "truefalse",
+          "q": "Die Babylonier verlangen, dass die Gefangenen Lieder aus Zion singen.",
+          "answer": true,
+          "explain": "V. 3: Ihre Bewacher wollen Unterhaltung – die heiligen Lieder werden zum Spott.",
+          "hint": "Lies Vers 3.",
+          "verse": 3
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist Zion?",
+          "a": "Ursprünglich der Hügel in Jerusalem mit Davids Burg, später der Tempelberg und schließlich ein Name für ganz Jerusalem – den Ort, an dem Gott wohnt."
+        },
+        {
+          "q": "Und die harten Verse am Ende?",
+          "a": "Der Psalm endet mit Rachewünschen gegen Babylon (V. 7–9), die wir hier nicht gelesen haben. Sie sind roh und verstörend. Die Bibel zeigt damit: Man darf auch Hass und Schmerz vor Gott bringen – statt sie selbst in die Tat umzusetzen."
+        }
+      ],
+      "fact": "Den Anfang dieses Psalms kennen viele aus dem Song „Rivers of Babylon“ (The Melodians 1970, Boney M. 1978).",
+      "teaser": "Ein Prophet schreibt den Verschleppten einen Brief. Sein Rat ist überraschend alltäglich."
+    },
+    {
+      "id": "gg-24",
+      "stage": "exil",
+      "refs": [
+        {
+          "book": 24,
+          "chapter": 29,
+          "from": 4,
+          "to": 14
+        }
+      ],
+      "title": "Sucht der Stadt Bestes",
+      "summary": "Jeremia schreibt den Verschleppten: Baut Häuser, gründet Familien, sucht das Wohl der Stadt und betet für sie. Nach siebzig Jahren wird Gott euch zurückbringen. Er hat Gedanken des Friedens über euch.",
+      "bridge": "Schon einige Jahre vor dem Fall Jerusalems waren erste Gruppen nach Babylon verschleppt worden. Falsche Propheten versprachen ihnen eine schnelle Rückkehr. An sie schreibt der Prophet Jeremia einen Brief.",
+      "place": "babylon",
+      "focus": "Achte darauf, wofür die Verschleppten beten sollen.",
+      "quiz": [
+        {
+          "type": "estimate",
+          "q": "Nach wie vielen Jahren will Gott die Verschleppten zurückbringen?",
+          "min": 1,
+          "max": 100,
+          "answer": 70,
+          "tolerance": 2,
+          "unit": "Jahren",
+          "explain": "V. 10: Nach siebzig Jahren – also nicht bald, sondern nach einem Menschenleben.",
+          "hint": "Vers 10.",
+          "verse": 10
+        },
+        {
+          "type": "choice",
+          "q": "Wofür sollen die Verschleppten beten?",
+          "options": [
+            "Für den Frieden der Stadt, in der sie leben",
+            "Für den Untergang Babylons",
+            "Für eine schnelle Flucht",
+            "Nur für sich selbst"
+          ],
+          "answer": 0,
+          "explain": "V. 7: Sie sollen für das Wohl der fremden Stadt beten – denn deren Frieden ist auch ihr Frieden.",
+          "hint": "Vers 7.",
+          "verse": 7
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum siebzig Jahre?",
+          "a": "Eine runde Zahl für ein Menschenleben. Tatsächlich erlaubte der Perserkönig Kyrus 539/538 v. Chr. die Rückkehr – etwa 60 Jahre nach der ersten Verschleppung."
+        },
+        {
+          "q": "Gilt Vers 11 mir?",
+          "a": "Zunächst gilt er dem verschleppten Volk in einer ganz konkreten Lage. Viele Christen beziehen ihn trotzdem auch auf sich – weil er zeigt, wie Gott zu Menschen steht: mit Gedanken des Friedens, nicht des Unheils."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 24,
+          "chapter": 29,
+          "from": 11,
+          "to": 11
+        },
+        "text": "Gedanken des Friedens und nicht zum Unglück, um euch Ausgang und Hoffnung zu gewähren"
+      },
+      "teaser": "Ein anderer Prophet sieht ein Tal voller Knochen. Gott fragt ihn: Können die wieder leben?",
+      "try": "Tu heute etwas Kleines für den Ort, an dem du lebst – für Nachbarn, Mitbewohner oder deine Straße."
+    },
+    {
+      "id": "gg-25",
+      "stage": "exil",
+      "refs": [
+        {
+          "book": 26,
+          "chapter": 37,
+          "from": 1,
+          "to": 14
+        }
+      ],
+      "title": "Die toten Gebeine",
+      "summary": "Hesekiel sieht ein Tal voller verdorrter Knochen. Auf Gottes Wort fügen sie sich zusammen, bekommen Sehnen, Fleisch und Haut – und als Gottes Atem kommt, werden sie lebendig. Gott sagt: Das ist Israel. Ich hole euch aus euren Gräbern.",
+      "bridge": "Unter den Verschleppten in Babylon lebt der Priester und Prophet Hesekiel. Viele dort haben die Hoffnung aufgegeben.",
+      "place": "babylon",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "In welcher Reihenfolge geschieht es?",
+          "items": [
+            "Die Knochen rücken zusammen",
+            "Sehnen, Fleisch und Haut kommen darüber",
+            "Der Atem kommt in sie",
+            "Sie stehen auf – ein großes Heer"
+          ],
+          "hint": "Lies Vers 7–10.",
+          "explain": "V. 7–10: Erst die Form, dann der Atem. Ohne Gottes Atem bleiben sie tot."
+        },
+        {
+          "type": "choice",
+          "q": "Wofür stehen die Knochen?",
+          "options": [
+            "Für das ganze Volk Israel",
+            "Für die Feinde Israels",
+            "Für die Toten der Sintflut",
+            "Für die Propheten"
+          ],
+          "answer": 0,
+          "explain": "V. 11: Die Gebeine sind das Haus Israel, das sagt: Unsere Hoffnung ist verloren.",
+          "hint": "Vers 11.",
+          "verse": 11
+        }
+      ],
+      "explain": [
+        {
+          "q": "Atem, Wind, Geist?",
+          "a": "Das hebräische Wort „ruach“ bedeutet alles drei: Atem, Wind und Geist. Der Text spielt damit: Der Wind aus den vier Himmelsrichtungen wird zum Lebensatem – und Gott sagt: Ich gebe euch meinen Geist (V. 14)."
+        },
+        {
+          "q": "Geht es um Auferstehung?",
+          "a": "Zunächst ist es ein Bild für die Wiederherstellung des Volkes nach dem Exil. Später haben Juden und Christen darin auch einen Hinweis auf die Auferstehung der Toten gesehen."
+        }
+      ],
+      "fact": "Der Spiritual „Dem Bones“ („Ezekiel connected dem dry bones“) erzählt genau diese Vision.",
+      "teaser": "Ein Unbekannter wird verachtet, geschlagen und getötet – und gerade so wird er zur Rettung für viele."
+    },
+    {
+      "id": "gg-26",
+      "stage": "exil",
+      "refs": [
+        {
+          "book": 23,
+          "chapter": 53,
+          "from": 1,
+          "to": 7
+        }
+      ],
+      "title": "Der leidende Knecht",
+      "summary": "Der Knecht ist unscheinbar, verachtet und voller Schmerzen. Man hielt ihn für von Gott gestraft – doch er trug unsere Schuld. Durch seine Wunden sind wir geheilt. Wie ein Lamm schweigt er.",
+      "bridge": "Im Buch Jesaja gibt es Lieder über einen geheimnisvollen „Knecht Gottes“ (Jes 42; 49; 50; 52–53). Das bekannteste beginnt mit einer Frage.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was trug der Knecht laut Vers 4–5?",
+          "options": [
+            "Unsere Leiden und unsere Schuld",
+            "Die Krone des Königs",
+            "Die Tafeln des Gesetzes",
+            "Die Opfer für den Tempel"
+          ],
+          "answer": 0,
+          "explain": "V. 4–5: Er trägt unsere Leiden und wird wegen unserer Schuld verwundet – zu unserem Frieden.",
+          "hint": "Lies Vers 4–5.",
+          "verse": 5
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Er wurde misshandelt, aber er [protestierte] laut – wie ein Lamm, das zur Schlachtung geführt wird.",
+          "fix": "schwieg",
+          "verse": 7,
+          "hint": "Lies Vers 7.",
+          "explain": "V. 7: Er tut seinen Mund nicht auf – wie ein Lamm."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer ist der Knecht?",
+          "a": "Darüber wird seit über 2000 Jahren nachgedacht. Jüdische Ausleger sehen im Knecht meist das leidende Volk Israel selbst. Christen haben in ihm von Anfang an Jesus erkannt – das Neue Testament zitiert Jesaja 53 mehrfach (z. B. Apg 8,32–35; 1. Petr 2,22–25). Der Text selbst nennt keinen Namen."
+        },
+        {
+          "q": "Wann wurde das geschrieben?",
+          "a": "Viele Forscher ordnen Jesaja 40–55 der Zeit des Exils zu, andere dem Propheten Jesaja selbst im 8. Jh. v. Chr. Sicher ist: Der Text ist Jahrhunderte älter als Jesus."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 23,
+          "chapter": 53,
+          "from": 5,
+          "to": 5
+        },
+        "text": "durch seine Striemen ist uns Heilung geworden"
+      },
+      "fact": "In Qumran am Toten Meer wurde eine vollständige Jesaja-Rolle gefunden, die etwa aus dem 2. Jahrhundert v. Chr. stammt – mit Kapitel 53 fast gleichlautend wie in unseren Bibeln.",
+      "teaser": "Gott kündigt einen neuen Bund an. Diesmal nicht auf Steintafeln."
+    },
+    {
+      "id": "gg-27",
+      "stage": "exil",
+      "refs": [
+        {
+          "book": 24,
+          "chapter": 31,
+          "from": 31,
+          "to": 34
+        }
+      ],
+      "title": "Ein neuer Bund",
+      "summary": "Gott verspricht einen neuen Bund. Sein Gesetz wird er nicht auf Stein, sondern ins Herz schreiben. Alle werden ihn kennen, vom Kleinsten bis zum Größten, und er wird ihre Schuld vergeben.",
+      "bridge": "Mitten in der Katastrophe kündigt Jeremia nicht nur Gericht an, sondern auch eine Zukunft.",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Gott sagt: Ich werde mein Gesetz auf neue [Steintafeln] schreiben.",
+          "fix": "ihr Herz",
+          "verse": 33,
+          "hint": "Lies Vers 33.",
+          "explain": "V. 33: Gottes Wille soll nicht mehr nur von außen kommen, sondern von innen."
+        },
+        {
+          "type": "choice",
+          "q": "Was wird Gott nach Vers 34 mit der Schuld tun?",
+          "options": [
+            "Vergeben und nicht mehr daran denken",
+            "Sie auf die Kinder übertragen",
+            "Sie gegen gute Taten aufrechnen",
+            "Sie aufschreiben"
+          ],
+          "answer": 0,
+          "explain": "V. 34: Er vergibt – und denkt nicht mehr daran.",
+          "hint": "Vers 34.",
+          "verse": 34
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was war am alten Bund falsch?",
+          "a": "Nicht Gottes Gebote waren schlecht – das Volk hat den Bund gebrochen (V. 32). Der neue Bund setzt tiefer an: beim Herzen."
+        },
+        {
+          "q": "Altes und Neues Testament",
+          "a": "„Testament“ ist das lateinische Wort für Bund. Jesus greift diese Verheißung beim letzten Mahl auf (Lk 22,20) – daher heißt der zweite Teil der Bibel „Neues Testament“. Wichtig: Es ersetzt das Alte nicht, sondern führt es weiter."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 24,
+          "chapter": 31,
+          "from": 33,
+          "to": 33
+        },
+        "text": "Ich werde mein Gesetz in ihr Inneres legen und werde es auf ihr Herz schreiben"
+      },
+      "teaser": "Johannes beginnt sein Evangelium mit denselben Worten wie die Bibel selbst."
+    },
+    {
+      "id": "gg-28",
+      "stage": "jesus",
+      "refs": [
+        {
+          "book": 43,
+          "chapter": 1,
+          "from": 1,
+          "to": 5
+        },
+        {
+          "book": 43,
+          "chapter": 1,
+          "from": 14,
+          "to": 14
+        }
+      ],
+      "title": "Das Wort wurde Mensch",
+      "summary": "Johannes beginnt sein Evangelium wie 1. Mose: Im Anfang war das Wort. Durch das Wort ist alles geworden, in ihm ist Leben und Licht. Und das Wort wurde Mensch und wohnte unter uns.",
+      "bridge": "Ab 538 v. Chr. kehren viele Juden zurück und bauen den Tempel wieder auf. Es folgen Jahrhunderte unter Persern, Griechen und Römern. Viele warten auf den Messias.",
+      "focus": "Achte darauf, mit welchen Worten das beginnt – du kennst sie aus dem allerersten Abschnitt.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Womit beginnt das Johannesevangelium?",
+          "options": [
+            "Mit denselben Worten wie die Bibel: Im Anfang",
+            "Mit Jesu Geburt in Bethlehem",
+            "Mit dem Stammbaum Jesu",
+            "Mit Johannes dem Täufer"
+          ],
+          "answer": 0,
+          "explain": "V. 1: Im Anfang – wie 1. Mose 1,1. Johannes erzählt Jesus als Neuanfang der Schöpfung.",
+          "hint": "Vers 1.",
+          "verse": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "Dass das Wort „Fleisch“ wird, heißt: Gott wurde ein echter Mensch.",
+          "answer": true,
+          "explain": "V. 14: Fleisch meint verletzlich, sterblich, ganz Mensch. Gott wohnt nicht mehr nur im Tempel, sondern unter uns.",
+          "hint": "Lies Vers 14.",
+          "verse": 14
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer ist „das Wort“?",
+          "a": "Griechisch „Logos“: Wort, Sinn, Vernunft. Jüdische Leser hörten darin Gottes schöpferisches Wort aus 1. Mose 1, griechische die Vernunft hinter der Welt. Johannes sagt: Dieses Wort ist eine Person – Jesus (V. 14–17)."
+        },
+        {
+          "q": "Was heißt „wohnte unter uns“?",
+          "a": "Wörtlich: Er „zeltete“ unter uns. Das erinnert an das Zelt der Begegnung, in dem Gott in der Wüste bei Israel wohnte (2. Mose 40,34)."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 43,
+          "chapter": 1,
+          "from": 14,
+          "to": 14
+        },
+        "text": "Und das Wort wurde Fleisch und wohnte unter uns"
+      },
+      "teaser": "Ein römischer Kaiser ordnet eine Volkszählung an – und setzt damit eine schwangere Frau in Bewegung."
+    },
+    {
+      "id": "gg-29",
+      "stage": "jesus",
+      "refs": [
+        {
+          "book": 42,
+          "chapter": 2,
+          "from": 1,
+          "to": 14
+        }
+      ],
+      "title": "Die Geburt",
+      "summary": "Wegen einer Volkszählung reisen Josef und Maria nach Bethlehem. Dort kommt Jesus zur Welt und wird in eine Krippe gelegt. Engel verkünden Hirten auf dem Feld: Euch ist heute der Retter geboren.",
+      "bridge": "Ein Engel kündigt Maria in Nazareth an, dass sie den Sohn Gottes zur Welt bringen wird (Lk 1,26–38).",
+      "place": "bethlehem",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Bring die Ereignisse in die richtige Reihenfolge.",
+          "items": [
+            "Kaiser Augustus ordnet eine Einschreibung an",
+            "Josef und Maria reisen nach Bethlehem",
+            "Jesus wird geboren und in eine Krippe gelegt",
+            "Ein Engel erscheint den Hirten",
+            "Viele Engel loben Gott"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 1–14."
+        },
+        {
+          "type": "choice",
+          "q": "Wem wird die Geburt zuerst verkündet?",
+          "options": [
+            "Hirten auf dem Feld",
+            "Dem König Herodes",
+            "Den Priestern im Tempel",
+            "Den Weisen aus dem Osten"
+          ],
+          "answer": 0,
+          "explain": "V. 8–11: Hirten – einfache Leute ohne Ansehen – hören die Nachricht als Erste. Die Weisen kommen bei Matthäus vor.",
+          "hint": "Lies Vers 8–11.",
+          "verse": 8
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum Bethlehem?",
+          "a": "Bethlehem ist die Stadt Davids (V. 4). Der Prophet Micha hatte angekündigt, dass dort ein Herrscher für Israel geboren wird (Mi 5,1)."
+        },
+        {
+          "q": "Wie sehen die Kirchen Maria?",
+          "a": "Alle Kirchen ehren Maria als Mutter Jesu. Katholische und orthodoxe Christen verehren sie besonders und bitten sie um ihre Fürsprache. Evangelische und freikirchliche Christen sehen in ihr vor allem ein Vorbild des Glaubens und richten ihre Gebete allein an Gott."
+        }
+      ],
+      "fact": "Kaiser Augustus ließ sich als Friedensbringer feiern. Eine Inschrift aus dem Jahr 9 v. Chr. nennt seinen Geburtstag den Beginn einer „frohen Botschaft“ für die Welt. Lukas verwendet für Jesus bewusst ähnliche Worte.",
+      "teaser": "Rund 30 Jahre später tritt Jesus öffentlich auf. Sein erster Satz fasst alles zusammen."
+    },
+    {
+      "id": "gg-30",
+      "stage": "jesus",
+      "refs": [
+        {
+          "book": 41,
+          "chapter": 1,
+          "from": 14,
+          "to": 20
+        }
+      ],
+      "title": "Die Zeit ist erfüllt",
+      "summary": "Jesus verkündet in Galiläa: Die Zeit ist erfüllt, das Reich Gottes ist nahe – kehrt um und glaubt. Er ruft vier Fischer, und sie lassen alles stehen und folgen ihm.",
+      "bridge": "Jesus wächst in Nazareth auf. Mit etwa 30 Jahren lässt er sich von Johannes dem Täufer im Jordan taufen (Mk 1,9–11; Lk 3,23).",
+      "place": "see-genezareth",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was sagt Jesus zu den Fischern?",
+          "options": [
+            "Folgt mir – ich mache euch zu Menschenfischern",
+            "Fangt mehr Fische für die Armen",
+            "Verkauft eure Boote",
+            "Geht nach Jerusalem"
+          ],
+          "answer": 0,
+          "explain": "V. 17: Ihr Können bleibt – aber es bekommt ein neues Ziel: Menschen.",
+          "hint": "Vers 17.",
+          "verse": 17
+        },
+        {
+          "type": "truefalse",
+          "q": "Jakobus und Johannes nehmen ihren Vater mit.",
+          "answer": false,
+          "explain": "V. 20: Sie lassen ihren Vater Zebedäus mit den Tagelöhnern im Boot zurück.",
+          "hint": "Lies Vers 20.",
+          "verse": 20
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „Buße tun“?",
+          "a": "Das griechische Wort „metanoia“ meint Umdenken, die Richtung ändern. Es geht nicht um Selbstbestrafung, sondern darum, sich Gott zuzuwenden."
+        },
+        {
+          "q": "Was ist das „Reich Gottes“?",
+          "a": "Kein Land, sondern Gottes Herrschaft: Wo Gott regiert, wird das Leben heil. Mit Jesus ist es nahe gekommen – in seinen Worten und Taten bricht es an."
+        }
+      ],
+      "cards": [
+        "reich-gottes",
+        "petrus"
+      ],
+      "teaser": "Auf einem Berg erklärt Jesus, wer wirklich glücklich ist. Seine Liste ist eine Provokation."
+    },
+    {
+      "id": "gg-31",
+      "stage": "jesus",
+      "refs": [
+        {
+          "book": 40,
+          "chapter": 5,
+          "from": 1,
+          "to": 12
+        }
+      ],
+      "title": "Die Seligpreisungen",
+      "summary": "Auf einem Berg nennt Jesus die glücklich, die arm im Geist sind, trauern, sanft sind, nach Gerechtigkeit hungern, barmherzig, reinen Herzens und Friedensstifter sind – und die, die deswegen verfolgt werden.",
+      "bridge": "Jesus zieht durch Galiläa, heilt Kranke und lehrt. Große Mengen folgen ihm (Mt 4,23–25).",
+      "place": "see-genezareth",
+      "focus": "Achte darauf, wen Jesus glücklich nennt – und ob du das selbst so sehen würdest.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was wird den Friedensstiftern versprochen?",
+          "options": [
+            "Sie werden Söhne Gottes heißen",
+            "Sie werden das Land erben",
+            "Sie werden getröstet",
+            "Sie werden Gott schauen"
+          ],
+          "answer": 0,
+          "explain": "V. 9: Wer Frieden stiftet, zeigt Gottes Wesen – so wie Kinder ihren Eltern ähneln.",
+          "hint": "Vers 9.",
+          "verse": 9
+        },
+        {
+          "type": "truefalse",
+          "q": "Jesus nennt die Trauernden glücklich.",
+          "answer": true,
+          "explain": "V. 4: Nicht weil Trauer gut wäre – sondern weil Gott sie trösten wird.",
+          "hint": "Lies Vers 4.",
+          "verse": 4
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „glückselig“?",
+          "a": "Das griechische Wort „makarios“ meint: Wohl dir! Gesegnet bist du! Jesus beschreibt keine Pflichten, sondern spricht Menschen etwas zu, die nach menschlichen Maßstäben eher Verlierer sind."
+        },
+        {
+          "q": "„Arm im Geist“?",
+          "a": "Gemeint sind Menschen, die wissen, dass sie vor Gott nichts vorzuweisen haben und auf ihn angewiesen sind. Lukas überliefert dieselbe Seligpreisung kürzer: Glückselig ihr Armen (Lk 6,20)."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 40,
+          "chapter": 5,
+          "from": 9,
+          "to": 9
+        },
+        "text": "Glückselig die Friedensstifter, denn sie werden Söhne Gottes heißen."
+      },
+      "teaser": "Ein Sohn wünscht seinem Vater praktisch den Tod. Was der Vater dann tut, erzählt Jesus als Gleichnis."
+    },
+    {
+      "id": "gg-32",
+      "stage": "jesus",
+      "refs": [
+        {
+          "book": 42,
+          "chapter": 15,
+          "from": 11,
+          "to": 24
+        }
+      ],
+      "title": "Der verlorene Sohn",
+      "summary": "Ein Sohn lässt sich sein Erbe auszahlen, verprasst alles und landet bei den Schweinen. Er kehrt um, um als Tagelöhner zu arbeiten. Doch der Vater läuft ihm entgegen, umarmt ihn und feiert ein Fest: Er war tot und lebt wieder.",
+      "bridge": "Fromme Kritiker beschweren sich, dass Jesus mit Zöllnern und Sündern isst. Er antwortet mit drei Geschichten über Verlorenes, das gefunden wird (Lk 15,1–3).",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Bring die Geschichte in die richtige Reihenfolge.",
+          "items": [
+            "Der Sohn lässt sich sein Erbe auszahlen",
+            "Er verprasst alles in einem fernen Land",
+            "Er hütet Schweine und hungert",
+            "Er macht sich auf den Weg nach Hause",
+            "Der Vater läuft ihm entgegen"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 12–20."
+        },
+        {
+          "type": "whosaid",
+          "quote": "Vater, ich habe gesündigt gegen den Himmel und vor dir",
+          "quote_ref": {
+            "book": 42,
+            "chapter": 15,
+            "from": 18,
+            "to": 18
+          },
+          "options": [
+            "Der jüngere Sohn",
+            "Der Vater",
+            "Der ältere Sohn",
+            "Ein Knecht"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 18 und 21: Er hat sich den Satz zurechtgelegt. Den Teil mit dem Tagelöhner lässt der Vater ihn gar nicht mehr sagen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum ist die Bitte um das Erbe so schlimm?",
+          "a": "Ein Erbe bekommt man nach dem Tod des Vaters. Wer es vorher fordert, sagt sinngemäß: Du bist für mich gestorben."
+        },
+        {
+          "q": "Warum ist das Laufen des Vaters so auffällig?",
+          "a": "Ein älterer Mann lief im Orient nicht – das galt als würdelos. Der Vater wartet nicht auf eine Entschuldigung, sondern rennt dem Sohn entgegen (V. 20). So, sagt Jesus, ist Gott."
+        },
+        {
+          "q": "Und der ältere Bruder?",
+          "a": "Die Geschichte geht weiter (V. 25–32): Der ältere Sohn ärgert sich über das Fest. Das Gleichnis bleibt offen – geht er mit hinein? Damit spricht Jesus seine frommen Kritiker an."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 42,
+          "chapter": 15,
+          "from": 24,
+          "to": 24
+        },
+        "text": "war verloren und ist gefunden worden"
+      },
+      "prayer": {
+        "text": "Du hast uns auf dich hin geschaffen, und unruhig ist unser Herz, bis es ruht in dir.",
+        "source": "Augustinus, Bekenntnisse I,1 (um 400)"
+      },
+      "teaser": "Zwei Jünger wollen die besten Plätze neben Jesus. Seine Antwort stellt alle Machtverhältnisse auf den Kopf."
+    },
+    {
+      "id": "gg-33",
+      "stage": "jesus",
+      "refs": [
+        {
+          "book": 41,
+          "chapter": 10,
+          "from": 35,
+          "to": 45
+        }
+      ],
+      "title": "Nicht bedient werden, sondern dienen",
+      "summary": "Jakobus und Johannes wollen die Ehrenplätze in Jesu Herrlichkeit. Die anderen ärgern sich. Jesus erklärt: Bei euch soll es anders sein als bei den Mächtigen – wer groß sein will, soll dienen. Er selbst ist gekommen, um zu dienen und sein Leben zu geben.",
+      "bridge": "Jesus ist mit seinen Jüngern auf dem Weg nach Jerusalem. Schon zum dritten Mal kündigt er an, dass er dort leiden und sterben wird (Mk 10,32–34).",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Worum bitten Jakobus und Johannes?",
+          "options": [
+            "Um die Plätze rechts und links neben Jesus",
+            "Um Geld für die Reise",
+            "Um die Heilung ihres Vaters",
+            "Darum, in Galiläa bleiben zu dürfen"
+          ],
+          "answer": 0,
+          "explain": "V. 37: Sie wollen die Ehrenplätze, wenn Jesus herrscht.",
+          "hint": "Vers 37.",
+          "verse": 37
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Jesus sagt: Wer unter euch groß werden will, soll euer [Anführer] sein.",
+          "fix": "Diener",
+          "verse": 43,
+          "hint": "Lies Vers 43.",
+          "explain": "V. 43–44: Größe zeigt sich im Dienen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was sind „Kelch“ und „Taufe“?",
+          "a": "Bilder für das Leiden, das Jesus bevorsteht (V. 38). Jakobus wurde später tatsächlich als Erster der Zwölf hingerichtet (Apg 12,2)."
+        },
+        {
+          "q": "Was heißt „Lösegeld für viele“?",
+          "a": "Mit Lösegeld kaufte man Gefangene oder Sklaven frei. Jesus deutet seinen Tod so: Er gibt sein Leben, damit andere frei werden (V. 45). „Viele“ meint im hebräischen Sprachgebrauch die große Menge – alle."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 41,
+          "chapter": 10,
+          "from": 45,
+          "to": 45
+        },
+        "text": "nicht gekommen, um bedient zu werden, sondern um zu dienen"
+      },
+      "teaser": "Am letzten Abend nimmt Jesus Brot und Wein und gibt ihnen eine neue Bedeutung.",
+      "try": "Tu heute jemandem einen kleinen Dienst, ohne dass er davon erfährt."
+    },
+    {
+      "id": "gg-34",
+      "stage": "kreuz",
+      "refs": [
+        {
+          "book": 42,
+          "chapter": 22,
+          "from": 14,
+          "to": 20
+        }
+      ],
+      "title": "Das letzte Mahl",
+      "summary": "Beim Passamahl nimmt Jesus Brot und sagt: Das ist mein Leib, für euch gegeben. Dann den Kelch: der neue Bund in meinem Blut. Tut dies zu meinem Gedächtnis.",
+      "bridge": "Jesus zieht unter Jubel in Jerusalem ein und vertreibt die Händler aus dem Tempel. Die religiöse Führung beschließt, ihn zu töten; Judas, einer der Zwölf, bietet an, ihn auszuliefern (Lk 19–22).",
+      "place": "jerusalem",
+      "focus": "Achte auf das Wort „Bund“ – du kennst es schon aus der großen Geschichte.",
+      "quiz": [
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Jesus nahm Brot, dankte, brach es und sagte: Das ist mein Leib, der für euch [gebrochen] wird.",
+          "fix": "gegeben",
+          "verse": 19,
+          "hint": "Lies Vers 19.",
+          "explain": "V. 19: mein Leib, der für euch gegeben wird."
+        },
+        {
+          "type": "choice",
+          "q": "Wie nennt Jesus den Kelch?",
+          "options": [
+            "Den neuen Bund in seinem Blut",
+            "Den Kelch des Zorns",
+            "Den Kelch der Freude",
+            "Den Kelch der Väter"
+          ],
+          "answer": 0,
+          "explain": "V. 20: Der neue Bund – Jesus nimmt die Verheißung aus Jeremia 31 auf.",
+          "hint": "Vers 20.",
+          "verse": 20
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wie verstehen das die Kirchen?",
+          "a": "Alle feiern dieses Mahl, verstehen es aber verschieden. Katholiken: Brot und Wein werden wirklich Leib und Blut Christi (Wandlung). Orthodoxe: Christus ist wirklich gegenwärtig – ein Geheimnis, das man nicht erklärt. Lutheraner: Christus ist in, mit und unter Brot und Wein gegenwärtig. Reformierte: Christus ist geistlich gegenwärtig. Viele Freikirchen: ein Gedächtnismahl, bei dem man sich an Jesu Tod erinnert und Gemeinschaft feiert."
+        },
+        {
+          "q": "Was ist das Passamahl?",
+          "a": "Das Festessen zur Erinnerung an die Befreiung aus Ägypten (2. Mose 12). Jesus deutet es neu: Jetzt geht es um eine Befreiung durch seinen Tod."
+        }
+      ],
+      "fact": "Abendmahl, Eucharistie (griechisch „Danksagung“), Kommunion, Herrenmahl, Brotbrechen – dieses Mahl hat viele Namen, fast alle aus dem Neuen Testament oder der frühen Kirche.",
+      "teaser": "Am nächsten Mittag wird es dunkel über dem ganzen Land."
+    },
+    {
+      "id": "gg-35",
+      "stage": "kreuz",
+      "refs": [
+        {
+          "book": 41,
+          "chapter": 15,
+          "from": 33,
+          "to": 39
+        }
+      ],
+      "title": "Der Tod",
+      "summary": "Von Mittag bis drei Uhr ist es finster. Jesus schreit: Mein Gott, mein Gott, warum hast du mich verlassen? – und stirbt. Der Vorhang im Tempel zerreißt, und ein römischer Hauptmann bekennt: Dieser Mensch war wirklich Gottes Sohn.",
+      "bridge": "In der Nacht wird Jesus im Garten Gethsemane verhaftet. Petrus verleugnet ihn dreimal. Der römische Statthalter Pontius Pilatus lässt ihn kreuzigen, obwohl er keine klare Schuld erkennen kann (Mk 14–15).",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "whosaid",
+          "quote": "Wahrhaftig, dieser Mensch war Gottes Sohn",
+          "quote_ref": {
+            "book": 41,
+            "chapter": 15,
+            "from": 39,
+            "to": 39
+          },
+          "options": [
+            "Der römische Hauptmann",
+            "Petrus",
+            "Pilatus",
+            "Ein Priester"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 39: Ausgerechnet der Römer, der die Hinrichtung beaufsichtigt, spricht das Bekenntnis aus."
+        },
+        {
+          "type": "choice",
+          "q": "Was geschieht im Tempel, als Jesus stirbt?",
+          "options": [
+            "Der Vorhang zerreißt von oben nach unten",
+            "Das Feuer auf dem Altar erlischt",
+            "Die Tore öffnen sich von selbst",
+            "Die Priester fliehen"
+          ],
+          "answer": 0,
+          "explain": "V. 38: Der Vorhang trennte das Allerheiligste ab. Er zerreißt von oben – wie von Gott selbst.",
+          "hint": "Vers 38.",
+          "verse": 38
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum ruft Jesus diesen Satz?",
+          "a": "Es ist der Anfang von Psalm 22 – einem Gebet, das in tiefster Verlassenheit beginnt und in Vertrauen endet. Jesus erlebt Gottverlassenheit und betet sie trotzdem zu Gott."
+        },
+        {
+          "q": "Sechste und neunte Stunde?",
+          "a": "Man zählte die Stunden ab Sonnenaufgang (etwa 6 Uhr). Die sechste Stunde ist also Mittag, die neunte etwa 15 Uhr."
+        },
+        {
+          "q": "Warum musste Jesus sterben?",
+          "a": "Historisch: Die religiöse Führung sah in ihm einen Gotteslästerer, Rom einen möglichen Aufrührer. Theologisch deutet das Neue Testament seinen Tod mit vielen Bildern: Lösegeld, Opfer, Sieg über das Böse, Gottes Liebe bis zum Äußersten. Die Kirchen gewichten diese Bilder unterschiedlich, halten aber gemeinsam fest: Er starb für uns."
+        }
+      ],
+      "cards": [
+        "kreuz"
+      ],
+      "prayer": {
+        "text": "Wenn ich einmal soll scheiden, so scheide nicht von mir; wenn ich den Tod soll leiden, so tritt du dann herfür. Wenn mir am allerbängsten wird um das Herze sein, so reiß mich aus den Ängsten kraft deiner Angst und Pein.",
+        "source": "Paul Gerhardt, „O Haupt voll Blut und Wunden“ (1656)"
+      },
+      "teaser": "Am dritten Tag gehen Frauen zum Grab, um einen Toten zu salben."
+    },
+    {
+      "id": "gg-36",
+      "stage": "kreuz",
+      "refs": [
+        {
+          "book": 42,
+          "chapter": 24,
+          "from": 1,
+          "to": 12
+        }
+      ],
+      "title": "Er ist nicht hier",
+      "summary": "Am Sonntagmorgen finden Frauen das Grab offen und leer. Zwei Männer in leuchtenden Kleidern fragen: Was sucht ihr den Lebendigen bei den Toten? Er ist auferstanden. Die Apostel halten es für Gerede – Petrus läuft hin und staunt.",
+      "bridge": "Josef von Arimathäa legt Jesus in ein Felsengrab. Dann beginnt der Sabbat, an dem man nicht arbeiten darf (Lk 23,50–56).",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "whosaid",
+          "quote": "Was sucht ihr den Lebendigen unter den Toten",
+          "quote_ref": {
+            "book": 42,
+            "chapter": 24,
+            "from": 5,
+            "to": 5
+          },
+          "options": [
+            "Zwei Männer in strahlenden Kleidern",
+            "Maria Magdalene",
+            "Petrus",
+            "Jesus selbst"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 4–5: Die Frage enthält schon die Antwort: Er ist kein Toter."
+        },
+        {
+          "type": "choice",
+          "q": "Wie reagieren die Apostel auf den Bericht der Frauen?",
+          "options": [
+            "Sie halten ihn für Geschwätz",
+            "Sie feiern sofort",
+            "Sie gehen alle zum Grab",
+            "Sie melden es den Priestern"
+          ],
+          "answer": 0,
+          "explain": "V. 11: Es kommt ihnen vor wie leeres Gerede. Die ersten Zeugen der Auferstehung sind Frauen – und man glaubt ihnen zunächst nicht.",
+          "hint": "Vers 11.",
+          "verse": 11
+        },
+        {
+          "type": "truefalse",
+          "q": "Petrus findet im Grab nur die Leinentücher.",
+          "answer": true,
+          "explain": "V. 12: Die Tücher liegen da, der Leib nicht. Petrus geht verwundert nach Hause.",
+          "hint": "Lies Vers 12.",
+          "verse": 12
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum ist wichtig, dass es Frauen waren?",
+          "a": "Das Zeugnis von Frauen galt damals vor Gericht wenig. Hätte jemand die Geschichte erfunden, hätte er wohl Männer als erste Zeugen gewählt. Viele Historiker sehen darin einen Hinweis, dass hier eine alte Erinnerung bewahrt wurde."
+        },
+        {
+          "q": "Was heißt Auferstehung?",
+          "a": "Nicht die Rückkehr ins alte Leben, sondern ein neues, verwandeltes Leben, über das der Tod keine Macht mehr hat. Für die ersten Christen war sie der Kern des Glaubens (1. Kor 15,14)."
+        }
+      ],
+      "cards": [
+        "auferstehung"
+      ],
+      "teaser": "Zwei Jünger gehen enttäuscht nach Hause. Ein Fremder begleitet sie – und sie erkennen ihn erst ganz am Ende."
+    },
+    {
+      "id": "gg-37",
+      "stage": "kreuz",
+      "refs": [
+        {
+          "book": 42,
+          "chapter": 24,
+          "from": 28,
+          "to": 35
+        }
+      ],
+      "title": "Emmaus",
+      "summary": "In Emmaus laden die beiden Jünger den Fremden ein zu bleiben. Als er das Brot bricht, erkennen sie Jesus – und er verschwindet. Sie laufen sofort zurück nach Jerusalem.",
+      "bridge": "Am selben Tag wandern zwei Jünger nach Emmaus. Ein Unbekannter schließt sich ihnen an und erklärt ihnen unterwegs die Schriften (Lk 24,13–27).",
+      "place": "emmaus",
+      "quiz": [
+        {
+          "type": "whosaid",
+          "quote": "Brannte nicht unser Herz in uns",
+          "quote_ref": {
+            "book": 42,
+            "chapter": 24,
+            "from": 32,
+            "to": 32
+          },
+          "options": [
+            "Die beiden Jünger",
+            "Die Elf in Jerusalem",
+            "Jesus",
+            "Petrus"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 32: Im Rückblick merken sie, was unterwegs schon in ihnen passiert war."
+        },
+        {
+          "type": "choice",
+          "q": "Woran erkennen sie Jesus?",
+          "options": [
+            "Am Brechen des Brotes",
+            "An seinen Wunden",
+            "An seiner Stimme",
+            "An seinem Gewand"
+          ],
+          "answer": 0,
+          "explain": "V. 30–31 und 35: Als er das Brot bricht – wie beim letzten Mahl.",
+          "hint": "Lies Vers 30–31 und 35.",
+          "verse": 35
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum erkennen sie ihn nicht früher?",
+          "a": "Lukas sagt nur, dass ihre Augen gehalten waren (V. 16). Die Geschichte zeigt: Den Auferstandenen erkennt man nicht einfach mit den Augen, sondern in der Begegnung – in den Schriften und im gemeinsamen Mahl."
+        },
+        {
+          "q": "Wo lag Emmaus?",
+          "a": "Das ist unbekannt. Lukas nennt eine Entfernung von 60 Stadien, gut 11 Kilometer, von Jerusalem (V. 13); mehrere Orte kommen in Frage."
+        }
+      ],
+      "fact": "Die Bitte der beiden an den Fremden, bei ihnen zu bleiben, weil es Abend wird (V. 29), ist zu einem bekannten Abendgebet geworden – unter anderem vertont von Johann Sebastian Bach (Kantate BWV 6).",
+      "teaser": "Petrus hatte Jesus dreimal verleugnet. Jetzt fragt Jesus ihn dreimal etwas.",
+      "try": "Iss heute eine Mahlzeit ohne Bildschirm – mit jemandem zusammen, wenn das geht."
+    },
+    {
+      "id": "gg-38",
+      "stage": "kreuz",
+      "refs": [
+        {
+          "book": 43,
+          "chapter": 21,
+          "from": 15,
+          "to": 19
+        }
+      ],
+      "title": "„Liebst du mich?“",
+      "summary": "Nach dem Frühstück fragt Jesus Petrus dreimal: Hast du mich lieb? Petrus wird traurig, antwortet aber jedes Mal: Du weißt es. Jesus gibt ihm den Auftrag, seine Schafe zu weiden – und sagt: Folge mir nach.",
+      "bridge": "Der Auferstandene begegnet seinen Jüngern mehrfach. Eines Morgens am See Genezareth hat er für sie gekocht – Fisch über einem Kohlenfeuer (Joh 21,1–14).",
+      "place": "see-genezareth",
+      "quiz": [
+        {
+          "type": "estimate",
+          "q": "Wie oft fragt Jesus Petrus, ob er ihn liebt?",
+          "min": 1,
+          "max": 7,
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "Mal",
+          "explain": "V. 15–17: Dreimal – so oft, wie Petrus ihn verleugnet hatte.",
+          "hint": "Lies Vers 15–17 noch einmal.",
+          "verse": 17
+        },
+        {
+          "type": "choice",
+          "q": "Welchen Auftrag bekommt Petrus?",
+          "options": [
+            "Für Jesu Schafe sorgen",
+            "Einen Tempel bauen",
+            "Ein Evangelium schreiben",
+            "Zurück zum Fischen gehen"
+          ],
+          "answer": 0,
+          "explain": "V. 15–17: Petrus soll sich um die Menschen kümmern, die zu Jesus gehören.",
+          "hint": "Vers 15–17.",
+          "verse": 17
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum dreimal?",
+          "a": "Petrus hatte Jesus in der Nacht der Verhaftung dreimal verleugnet – an einem Kohlenfeuer (Joh 18,18.25–27). Jetzt, wieder an einem Kohlenfeuer, darf er dreimal seine Liebe aussprechen. Jesus stellt ihn wieder her, ohne ihn bloßzustellen."
+        },
+        {
+          "q": "Wie verstehen das die Kirchen?",
+          "a": "Die katholische Kirche sieht in diesem Auftrag (zusammen mit Mt 16,18) eine Grundlage für das Amt des Papstes als Nachfolger des Petrus. Orthodoxe, evangelische und freikirchliche Christen sehen darin vor allem die persönliche Wiederherstellung des Petrus und einen Auftrag an alle, die in der Gemeinde Verantwortung tragen."
+        },
+        {
+          "q": "Was bedeuten Vers 18–19?",
+          "a": "Jesus deutet an, wie Petrus sterben wird. Nach alter Überlieferung wurde er um 64–67 n. Chr. in Rom gekreuzigt."
+        }
+      ],
+      "teaser": "Jesus verabschiedet sich – und gibt einen Auftrag, der bis ans Ende der Welt reicht."
+    },
+    {
+      "id": "gg-39",
+      "stage": "gemeinde",
+      "refs": [
+        {
+          "book": 44,
+          "chapter": 1,
+          "from": 6,
+          "to": 11
+        }
+      ],
+      "title": "Bis an das Ende der Erde",
+      "summary": "Die Jünger fragen, ob Jesus jetzt das Reich für Israel wiederherstellt. Er antwortet: Ihr werdet die Kraft des Heiligen Geistes empfangen und meine Zeugen sein – bis an das Ende der Erde. Dann wird er in den Himmel aufgenommen.",
+      "bridge": "Lukas schreibt nach seinem Evangelium einen zweiten Band: die Apostelgeschichte. Vierzig Tage lang zeigt sich der Auferstandene seinen Jüngern (Apg 1,3).",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Wohin sollen die Zeugen gehen? In der Reihenfolge von Vers 8:",
+          "items": [
+            "Jerusalem",
+            "Judäa und Samaria",
+            "Bis an das Ende der Erde"
+          ],
+          "hint": "Vers 8.",
+          "explain": "V. 8: Von der Stadt über das Land bis zu allen Völkern – das ist auch der Aufbau der ganzen Apostelgeschichte."
+        },
+        {
+          "type": "whosaid",
+          "quote": "Männer von Galiläa, was steht ihr",
+          "quote_ref": {
+            "book": 44,
+            "chapter": 1,
+            "from": 11,
+            "to": 11
+          },
+          "options": [
+            "Zwei Männer in weißen Kleidern",
+            "Jesus",
+            "Petrus",
+            "Die Mutter Jesu"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 10–11: Nicht in den Himmel starren – er kommt wieder, und bis dahin gibt es zu tun."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist die „Himmelfahrt“?",
+          "a": "Jesus wird von einer Wolke verhüllt (V. 9) – in der Bibel ein Zeichen für Gottes Gegenwart. „Himmel“ meint hier nicht einen Ort über den Wolken, sondern Gottes Wirklichkeit. Gefeiert wird das an Christi Himmelfahrt, 40 Tage nach Ostern."
+        },
+        {
+          "q": "Was heißt „Zeuge“?",
+          "a": "Ein Zeuge erzählt, was er selbst erlebt hat. Das griechische Wort „martys“ bekam später auch die Bedeutung „Märtyrer“ – weil viele Zeugen für ihr Zeugnis starben."
+        }
+      ],
+      "cards": [
+        "heiliger-geist"
+      ],
+      "teaser": "Zehn Tage später: ein Brausen, Feuer und Menschen aus aller Welt, die plötzlich ihre eigene Sprache hören."
+    },
+    {
+      "id": "gg-40",
+      "stage": "gemeinde",
+      "refs": [
+        {
+          "book": 44,
+          "chapter": 2,
+          "from": 1,
+          "to": 13
+        }
+      ],
+      "title": "Pfingsten",
+      "summary": "Am Pfingstfest kommt der Heilige Geist wie Sturm und Feuer auf die Jünger. Sie reden in anderen Sprachen, und Pilger aus vielen Völkern hören Gottes große Taten in ihrer eigenen Sprache. Manche staunen, andere spotten: Die sind betrunken.",
+      "bridge": "Die Jünger warten in Jerusalem, wie Jesus es ihnen gesagt hat. Es ist das jüdische Wochenfest, und Pilger aus vielen Ländern sind in der Stadt.",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was hören die Pilger?",
+          "options": [
+            "Gottes große Taten in ihrer eigenen Sprache",
+            "Eine Predigt auf Hebräisch",
+            "Lieder aus dem Tempel",
+            "Nur unverständliche Laute"
+          ],
+          "answer": 0,
+          "explain": "V. 6–11: Jeder hört sie in seiner Muttersprache – Gottes Botschaft gilt allen Völkern.",
+          "hint": "Lies Vers 6–11.",
+          "verse": 11
+        },
+        {
+          "type": "truefalse",
+          "q": "Alle Zuhörer sind sofort begeistert.",
+          "answer": false,
+          "explain": "V. 13: Manche spotten, die Jünger seien betrunken.",
+          "hint": "Lies Vers 13.",
+          "verse": 13
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wie verstehen das die Kirchen?",
+          "a": "Alle Kirchen glauben, dass der Heilige Geist bis heute wirkt. Pfingstkirchen und die charismatische Bewegung erwarten auch heute Gaben wie Zungenrede und Prophetie und betonen ein besonderes Erfülltwerden mit dem Geist. Andere Kirchen sehen die Sprachen von Pfingsten als einmaliges Zeichen am Anfang und betonen das stille Wirken des Geistes in Glaube, Liebe und Sakramenten. Dazwischen gibt es viele Haltungen."
+        },
+        {
+          "q": "Was hat das mit dem Turmbau zu Babel zu tun?",
+          "a": "In 1. Mose 11 verwirrt Gott die Sprachen, und die Menschen zerstreuen sich. An Pfingsten werden Menschen vieler Sprachen durch eine Botschaft verbunden. Viele Ausleger sehen darin eine bewusste Umkehrung."
+        }
+      ],
+      "cards": [
+        "pfingsten"
+      ],
+      "fact": "In Vers 9–11 werden Menschen aus 15 Völkern und Regionen genannt – vom heutigen Iran bis nach Rom.",
+      "teaser": "Petrus predigt – und am Ende entsteht eine Gemeinschaft, die die Stadt verändert."
+    },
+    {
+      "id": "gg-41",
+      "stage": "gemeinde",
+      "refs": [
+        {
+          "book": 44,
+          "chapter": 2,
+          "from": 37,
+          "to": 47
+        }
+      ],
+      "title": "Die erste Gemeinde",
+      "summary": "Die Zuhörer fragen: Was sollen wir tun? Petrus ruft zu Umkehr und Taufe. Dreitausend schließen sich an. Die Gemeinde bleibt bei der Lehre der Apostel, in der Gemeinschaft, beim Brotbrechen und im Gebet – und teilt ihren Besitz.",
+      "bridge": "Petrus erklärt der Menge, was geschehen ist: Jesus, der gekreuzigt wurde, hat Gott auferweckt (Apg 2,14–36).",
+      "place": "jerusalem",
+      "focus": "Achte auf die vier Dinge, bei denen die Gemeinde bleibt (V. 42).",
+      "quiz": [
+        {
+          "type": "estimate",
+          "q": "Wie viele Menschen kommen an diesem Tag dazu?",
+          "min": 0,
+          "max": 10000,
+          "answer": 3000,
+          "tolerance": 500,
+          "unit": "Menschen",
+          "explain": "V. 41: Etwa dreitausend.",
+          "hint": "Vers 41.",
+          "verse": 41
+        },
+        {
+          "type": "choice",
+          "q": "Wobei bleiben die ersten Christen beständig?",
+          "options": [
+            "Lehre, Gemeinschaft, Brotbrechen und Gebet",
+            "Fasten, Opfer, Wallfahrt und Almosen",
+            "Lesen, Singen, Wandern und Feiern",
+            "Predigt, Mission, Spenden und Bauen"
+          ],
+          "answer": 0,
+          "explain": "V. 42: Die Lehre der Apostel, die Gemeinschaft, das Brotbrechen und die Gebete.",
+          "hint": "Vers 42.",
+          "verse": 42
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wie verstehen die Kirchen die Taufe?",
+          "a": "Katholische, orthodoxe, landeskirchliche und viele andere Kirchen taufen auch Säuglinge: Die Taufe ist Gottes Geschenk, das dem eigenen Glauben vorausgeht. Baptisten und viele andere Freikirchen taufen nur Menschen, die selbst ihren Glauben bekennen: Die Taufe ist die Antwort auf Gottes Ruf. Beide Seiten berufen sich auf das Neue Testament."
+        },
+        {
+          "q": "Haben die ersten Christen alles geteilt?",
+          "a": "V. 44–45 erzählt, dass sie Besitz verkauften und nach Bedarf verteilten. Das war freiwillig (vgl. Apg 5,4). Es zeigt, wie sehr der Glaube ihr ganzes Leben verändert hat."
+        }
+      ],
+      "teaser": "Der gefährlichste Gegner der jungen Gemeinde ist unterwegs, um in Damaskus Christen zu verhaften.",
+      "try": "Schreib heute einem Menschen aus deiner Gemeinde oder Gruppe eine kurze Nachricht."
+    },
+    {
+      "id": "gg-42",
+      "stage": "gemeinde",
+      "refs": [
+        {
+          "book": 44,
+          "chapter": 9,
+          "from": 1,
+          "to": 9
+        }
+      ],
+      "title": "Saulus vor Damaskus",
+      "summary": "Saulus will die Christen in Damaskus verhaften. Unterwegs umstrahlt ihn ein Licht, er stürzt und hört: Warum verfolgst du mich? Ich bin Jesus. Blind wird er nach Damaskus geführt. Drei Tage isst und trinkt er nichts.",
+      "bridge": "Die Gemeinde wächst, aber auch der Widerstand. Stephanus wird gesteinigt; dabei ist ein junger Mann namens Saulus (Apg 7–8).",
+      "place": "damaskus",
+      "quiz": [
+        {
+          "type": "whosaid",
+          "quote": "Wer bist du, Herr",
+          "quote_ref": {
+            "book": 44,
+            "chapter": 9,
+            "from": 5,
+            "to": 5
+          },
+          "options": [
+            "Saulus",
+            "Hananias",
+            "Petrus",
+            "Ein Begleiter"
+          ],
+          "answer": 0,
+          "hint": "Wer spricht hier mit wem?",
+          "explain": "V. 5: Saulus fragt – und die Antwort stellt sein ganzes Leben auf den Kopf."
+        },
+        {
+          "type": "choice",
+          "q": "Wen verfolgt Saulus laut der Stimme?",
+          "options": [
+            "Jesus selbst",
+            "Nur die Apostel",
+            "Den Hohenpriester",
+            "Die Römer"
+          ],
+          "answer": 0,
+          "explain": "V. 4–5: Wer die Christen verfolgt, verfolgt Jesus selbst. So eng verbindet er sich mit seinen Leuten.",
+          "hint": "Lies Vers 4–5.",
+          "verse": 5
+        },
+        {
+          "type": "truefalse",
+          "q": "Saulus ist nach der Begegnung drei Tage blind.",
+          "answer": true,
+          "explain": "V. 9: Drei Tage ohne Sehen, Essen und Trinken. Dann besucht ihn Hananias (V. 10–19).",
+          "hint": "Lies Vers 9.",
+          "verse": 9
+        }
+      ],
+      "explain": [
+        {
+          "q": "Saulus oder Paulus?",
+          "a": "Saulus war sein jüdischer Name, Paulus sein römischer. Er wurde nicht wegen der Bekehrung umbenannt – die Apostelgeschichte nennt ihn ab Kapitel 13 einfach mit seinem römischen Namen, als er unter Nichtjuden wirkt."
+        },
+        {
+          "q": "Ist das eine Bekehrung?",
+          "a": "Paulus selbst spricht von einer Berufung (Gal 1,15–16): Er hat nicht die Religion gewechselt, sondern als Jude erkannt, dass Jesus der Messias ist – und wurde zum Apostel für die Völker."
+        }
+      ],
+      "cards": [
+        "paulus"
+      ],
+      "fact": "„Vom Saulus zum Paulus werden“ ist eine deutsche Redewendung – obwohl die beiden Namen in der Bibel gar nichts mit der Bekehrung zu tun haben.",
+      "teaser": "Jahre später schreibt Paulus einen Brief nach Rom, in dem einer der stärksten Sätze der Bibel steht."
+    },
+    {
+      "id": "gg-43",
+      "stage": "gemeinde",
+      "refs": [
+        {
+          "book": 45,
+          "chapter": 8,
+          "from": 31,
+          "to": 39
+        }
+      ],
+      "title": "Nichts kann uns trennen",
+      "summary": "Paulus fragt: Wenn Gott für uns ist, wer kann gegen uns sein? Gott hat seinen eigenen Sohn gegeben. Nichts – weder Tod noch Leben, weder Gegenwart noch Zukunft – kann uns von Gottes Liebe trennen.",
+      "bridge": "Paulus gründet Gemeinden im ganzen Mittelmeerraum. Um 57 n. Chr. schreibt er an die Christen in Rom, die er noch nie besucht hat, seinen längsten Brief.",
+      "place": "rom",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was kann uns laut Paulus von der Liebe Gottes trennen?",
+          "options": [
+            "Nichts",
+            "Nur der Tod",
+            "Nur schwere Schuld",
+            "Zweifel"
+          ],
+          "answer": 0,
+          "explain": "V. 38–39: Paulus zählt alles auf, was ihm einfällt – und sagt: Nichts davon.",
+          "hint": "Lies Vers 38–39.",
+          "verse": 39
+        },
+        {
+          "type": "truefalse",
+          "q": "Paulus verspricht, dass Christen kein Leid erleben werden.",
+          "answer": false,
+          "explain": "V. 35–36: Er nennt Angst, Verfolgung, Hunger, sogar das Schwert. Leid bleibt – aber es kann nicht von Gottes Liebe trennen.",
+          "hint": "Lies Vers 35–36.",
+          "verse": 35
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum fragt Paulus so viel?",
+          "a": "Er schreibt wie ein Redner vor Gericht: Wer klagt an? Wer verurteilt? Und gibt selbst die Antwort: Gott spricht gerecht, Christus tritt für uns ein (V. 33–34)."
+        },
+        {
+          "q": "Was sind „Fürstentümer“ und „Gewalten“?",
+          "a": "Unsichtbare Mächte, an die man damals glaubte – Geister, Schicksalsmächte, Sterne. Paulus sagt: Auch sie haben nicht das letzte Wort."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 45,
+          "chapter": 8,
+          "from": 31,
+          "to": 31
+        },
+        "text": "Wenn Gott für uns ist, wer gegen uns?"
+      },
+      "teaser": "Am Ende der Bibel sieht Johannes etwas, das zusammenführt, was mit einem Garten begann."
+    },
+    {
+      "id": "gg-44",
+      "stage": "gemeinde",
+      "refs": [
+        {
+          "book": 66,
+          "chapter": 21,
+          "from": 1,
+          "to": 7
+        }
+      ],
+      "title": "Alles neu",
+      "summary": "Johannes sieht einen neuen Himmel und eine neue Erde und das neue Jerusalem. Gott wohnt bei den Menschen. Er wischt jede Träne ab; Tod, Trauer und Schmerz sind vorbei. Gott sagt: Siehe, ich mache alles neu.",
+      "bridge": "Gegen Ende des 1. Jahrhunderts werden Christen im Römischen Reich verfolgt. Johannes, verbannt auf die Insel Patmos, sieht in Visionen, wohin Gottes Geschichte führt (Offb 1,9).",
+      "place": "patmos",
+      "focus": "Achte darauf, wo Gott am Ende wohnt.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wo wohnt Gott am Ende?",
+          "options": [
+            "Bei den Menschen",
+            "Weit über dem Himmel",
+            "Nur im Tempel",
+            "In einer anderen Welt ohne Menschen"
+          ],
+          "answer": 0,
+          "explain": "V. 3: Gottes Zelt ist bei den Menschen. Was im Garten Eden begann, wird vollendet.",
+          "hint": "Vers 3.",
+          "verse": 3
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Gott wird jede Träne abwischen, und das [Licht] wird nicht mehr sein, noch Trauer, noch Schmerz.",
+          "fix": "der Tod",
+          "verse": 4,
+          "hint": "Lies Vers 4.",
+          "explain": "V. 4: Der Tod wird nicht mehr sein."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wie liest man die Offenbarung?",
+          "a": "Die Offenbarung ist voller Bilder und Symbole, die Christen sehr verschieden deuten: als Blick auf die Zeit des Römischen Reiches, als Fahrplan der Endzeit oder als zeitlose Bilder für den Kampf zwischen Gut und Böse. Bei diesem Kapitel sind sich fast alle einig: Am Ende steht nicht die Zerstörung, sondern Gottes neue Welt."
+        },
+        {
+          "q": "Was heißt Alpha und Omega?",
+          "a": "Der erste und der letzte Buchstabe des griechischen Alphabets (V. 6) – wie „von A bis Z“. Gott steht am Anfang und am Ende der Geschichte."
+        },
+        {
+          "q": "Warum gibt es kein Meer mehr?",
+          "a": "Für Menschen der Antike war das Meer ein Bild für Chaos und Bedrohung. Dass es nicht mehr ist (V. 1), heißt: Nichts bedroht mehr das Leben."
+        }
+      ],
+      "cards": [
+        "neue-schoepfung"
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 66,
+          "chapter": 21,
+          "from": 5,
+          "to": 5
+        },
+        "text": "Siehe, ich mache alles neu"
+      },
+      "fact": "Die Bibel endet, wie sie begann: mit einem Baum des Lebens und einem Strom (Offb 22,1–2; vgl. 1. Mose 2,9–10). Was im Garten verloren ging, wird in Gottes Stadt neu geschenkt.",
+      "prayer": {
+        "ref": {
+          "book": 66,
+          "chapter": 22,
+          "from": 20,
+          "to": 20
+        },
+        "source": "Offenbarung 22,20 – der vorletzte Vers der Bibel"
+      }
+    }
+  ]
+}

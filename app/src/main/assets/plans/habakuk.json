@@ -1,0 +1,658 @@
+{
+  "id": "habakuk",
+  "title": "Habakuk",
+  "subtitle": "Warum, Gott?",
+  "description": "Ein Prophet, der nicht zum Volk predigt, sondern Gott zur Rede stellt: Warum lässt du das Unrecht zu? Drei kurze Kapitel – von der Anklage über Gottes Antwort bis zu einem der mutigsten Vertrauenslieder der Bibel.",
+  "direction": "ehrlich",
+  "basis": "elbbk",
+  "stages": [
+    {
+      "id": "klage",
+      "title": "Die Klage"
+    },
+    {
+      "id": "antwort",
+      "title": "Die Antwort"
+    },
+    {
+      "id": "gebet",
+      "title": "Das Lied"
+    }
+  ],
+  "cards": [
+    {
+      "id": "habakuk",
+      "type": "person",
+      "name": "Habakuk",
+      "text": "Prophet in Juda, wahrscheinlich kurz vor 600 v. Chr. Über sein Leben wissen wir fast nichts. Sein Buch ist ungewöhnlich: Er spricht nicht zum Volk, sondern stellt Gott zur Rede – und endet mit einem Lied des Vertrauens.",
+      "refs": "Hab 1,1; 3,1"
+    },
+    {
+      "id": "gottesname",
+      "type": "begriff",
+      "name": "Gottesname JHWH",
+      "text": "Der Eigenname Gottes im Alten Testament, rund 6800-mal. Gott nennt ihn Mose am brennenden Dornbusch (2. Mose 3,14–15). Viele Bibeln schreiben dafür „HERR“ in Großbuchstaben, manche „Jahwe“, ältere „Jehova“. Im Judentum wird der Name aus Ehrfurcht nicht ausgesprochen.",
+      "refs": "2Mo 3,14–15"
+    },
+    {
+      "id": "babylon",
+      "type": "ort",
+      "name": "Babylon",
+      "text": "Hauptstadt des babylonischen Reiches am Euphrat, rund 85 km südlich des heutigen Bagdad. Eine chaldäische Königsfamilie machte es um 600 v. Chr. zur Weltmacht. 587/586 v. Chr. zerstörten babylonische Truppen Jerusalem und den Tempel; viele Judäer wurden nach Babylon verschleppt.",
+      "refs": "Hab 1,6; 2Kön 25"
+    },
+    {
+      "id": "prophet",
+      "type": "begriff",
+      "name": "Prophet",
+      "text": "Jemand, der im Auftrag Gottes spricht. Propheten sagten nicht nur Zukunft voraus – vor allem deckten sie Unrecht auf und riefen zur Umkehr. Habakuk ist eine Ausnahme: Er spricht vor allem mit Gott selbst.",
+      "refs": "Hab 1,1"
+    },
+    {
+      "id": "glaube",
+      "type": "begriff",
+      "name": "Glaube (emuna)",
+      "text": "Das hebräische Wort „emuna“ bedeutet Treue, Verlässlichkeit, Festigkeit. Glauben heißt im Alten Testament nicht zuerst „etwas für wahr halten“, sondern sich auf Gott verlassen und ihm treu bleiben – gerade dann, wenn man noch nichts sieht.",
+      "refs": "Hab 2,4"
+    },
+    {
+      "id": "weheruf",
+      "type": "begriff",
+      "name": "Weheruf",
+      "text": "Eine feste Redeform der Propheten: „Wehe dem, der …“. Sie benennt ein Unrecht und kündigt seine Folgen an – ursprünglich verwandt mit der Totenklage. Auch Jesus gebraucht sie (z. B. Lukas 6,24–26).",
+      "refs": "Hab 2,6–19"
+    },
+    {
+      "id": "sela",
+      "type": "begriff",
+      "name": "Sela",
+      "text": "Ein Wort, das vor allem in den Psalmen vorkommt (über 70-mal) und dreimal in Habakuk 3. Die Bedeutung ist unsicher – wahrscheinlich eine Anweisung für Musik oder Gesang, etwa eine Pause oder ein Zwischenspiel.",
+      "refs": "Hab 3,3.9.13"
+    },
+    {
+      "id": "paran",
+      "type": "ort",
+      "name": "Paran",
+      "text": "Wüstengebiet zwischen dem Sinai und dem Süden Kanaans. Auf dem Weg vom Sinai zog Israel hier hindurch (4. Mose 10,12). In alten Liedern erscheint Gott „vom Berge Paran“ her – eine Erinnerung an den Sinai.",
+      "refs": "Hab 3,3; 5Mo 33,2"
+    }
+  ],
+  "sections": [
+    {
+      "id": "hab-01",
+      "stage": "klage",
+      "refs": [
+        {
+          "book": 35,
+          "chapter": 1,
+          "from": 1,
+          "to": 4
+        }
+      ],
+      "title": "Wie lange noch?",
+      "summary": "Habakuk klagt Gott an: Überall Gewalt und Unrecht – und Gott scheint weder zu hören noch einzugreifen.",
+      "place": "jerusalem",
+      "focus": "Achte darauf, wie direkt Habakuk mit Gott spricht.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was wirft Habakuk Gott vor?",
+          "options": [
+            "Dass er nicht hört und nicht rettet",
+            "Dass er die anderen Völker bevorzugt",
+            "Dass er zu streng straft",
+            "Dass er Habakuk zum Propheten gemacht hat"
+          ],
+          "answer": 0,
+          "hint": "Schau in Vers 2.",
+          "verse": 2,
+          "explain": "V. 2: Habakuk ruft und schreit – und erlebt, dass Gott nicht hört und nicht rettet."
+        },
+        {
+          "type": "truefalse",
+          "q": "Habakuk klagt hier über die Gewalt eines fremden Volkes.",
+          "answer": false,
+          "hint": "Wo geschieht das Unrecht, das er in Vers 3–4 beschreibt?",
+          "verse": 4,
+          "explain": "Noch nicht: In V. 3–4 geht es um Unrecht im eigenen Volk – das Gesetz ist kraftlos, und Gesetzlose umzingeln den Gerechten."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer ist mit „HERR“ gemeint?",
+          "a": "Wo „HERR“ in Großbuchstaben steht, steht im Hebräischen der Eigenname Gottes: JHWH. Aus Ehrfurcht wurde er nicht ausgesprochen, sondern durch „Herr“ ersetzt – daher die Großbuchstaben. Manche Bibeln schreiben „Jahwe“, ältere „Jehova“."
+        },
+        {
+          "q": "Wann lebte Habakuk?",
+          "a": "Das Buch nennt kein Datum. Wahrscheinlich wirkte er kurz vor 600 v. Chr. in Juda, als das babylonische Reich gerade zur Weltmacht aufstieg. Über sein Leben wissen wir fast nichts."
+        },
+        {
+          "q": "Darf man so mit Gott reden?",
+          "a": "Die Bibel enthält viele solcher Klagen, besonders in den Psalmen (z. B. Psalm 13 und 22). Habakuks Fragen wurden nicht gestrichen, sondern stehen in der Bibel – sie gelten offenbar als Teil des Gesprächs mit Gott."
+        }
+      ],
+      "cards": [
+        "habakuk",
+        "gottesname"
+      ],
+      "teaser": "Gott antwortet – aber ganz anders, als Habakuk es sich gewünscht hätte.",
+      "try": "Wenn du magst: Sag oder schreib Gott heute eine ehrliche Frage – ohne sie fromm zu verpacken.",
+      "prayer": {
+        "ref": {
+          "book": 19,
+          "chapter": 13,
+          "from": 2,
+          "to": 4
+        },
+        "source": "Psalm 13,2–4"
+      }
+    },
+    {
+      "id": "hab-02",
+      "stage": "klage",
+      "refs": [
+        {
+          "book": 35,
+          "chapter": 1,
+          "from": 5,
+          "to": 11
+        }
+      ],
+      "title": "Eine unerwartete Antwort",
+      "summary": "Gott antwortet: Er lässt die Chaldäer (Babylonier) kommen – ein brutales, unaufhaltsames Volk, dessen Gott die eigene Kraft ist.",
+      "place": "babylon",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wen will Gott „erwecken“?",
+          "options": [
+            "Die Chaldäer",
+            "Die Ägypter",
+            "Einen neuen König aus Juda",
+            "Ein Heer von Engeln"
+          ],
+          "answer": 0,
+          "hint": "Vers 6 nennt den Namen.",
+          "verse": 6,
+          "explain": "V. 6: Gott kündigt an, dass er die Chaldäer – die Babylonier – kommen lässt."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Die Chaldäer verspotten Könige und lachen über jede Festung. Ihre eigene Kraft ist ihr [König].",
+          "fix": "Gott",
+          "hint": "Lies den letzten Satz in Vers 11.",
+          "verse": 11,
+          "explain": "V. 11: Ihre eigene Kraft ist ihr Gott. Die Chaldäer verehren letztlich ihre eigene Macht."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer sind die Chaldäer?",
+          "a": "Ursprünglich Stämme im Süden Mesopotamiens (heute Irak). Ab etwa 625 v. Chr. herrschte eine chaldäische Königsfamilie in Babylon und baute ein Großreich auf. 587/586 v. Chr. eroberte es Jerusalem."
+        },
+        {
+          "q": "Was sind „Abendwölfe“?",
+          "a": "Wölfe, die in der Dämmerung auf Jagd gehen – hungrig und schnell.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Benutzt Gott hier böse Menschen?",
+          "a": "Der Text sagt, dass Gott die Chaldäer „erweckt“ – aber er nennt sie nicht gut: V. 11 sagt, dass sie sich schuldig machen. Wie Gottes Lenken der Geschichte und menschliche Schuld zusammenpassen, ist genau Habakuks nächste Frage."
+        }
+      ],
+      "cards": [
+        "babylon"
+      ],
+      "fact": "Das berühmte blaue Ischtar-Tor von Babylon wurde wenige Jahrzehnte später unter König Nebukadnezar II. gebaut. Eine Rekonstruktion aus Originalziegeln steht heute im Pergamonmuseum in Berlin.",
+      "teaser": "Habakuks zweite Frage ist noch schärfer als die erste."
+    },
+    {
+      "id": "hab-03",
+      "stage": "klage",
+      "refs": [
+        {
+          "book": 35,
+          "chapter": 1,
+          "from": 12,
+          "to": 17
+        }
+      ],
+      "title": "Warum ausgerechnet die?",
+      "summary": "Habakuk hält an Gott fest, fragt aber: Wie kann ein heiliger Gott zusehen, wie ein noch Schlimmerer die Gerechteren verschlingt?",
+      "place": "jerusalem",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Mit welchem Bild beschreibt Habakuk das Vorgehen der Chaldäer?",
+          "options": [
+            "Ein Fischer, der Menschen mit Angel und Netz fängt",
+            "Ein Hirte, der Schafe zusammentreibt",
+            "Ein Bauer, der ein Feld abmäht",
+            "Ein Löwe, der seine Beute reißt"
+          ],
+          "answer": 0,
+          "hint": "Schau in Vers 14–15.",
+          "verse": 15,
+          "explain": "V. 14–15: Er fängt Menschen wie Fische – mit Angel und Netz – und freut sich darüber."
+        },
+        {
+          "type": "truefalse",
+          "q": "Trotz seiner Zweifel nennt Habakuk Gott „mein Gott“ und „mein Heiliger“.",
+          "answer": true,
+          "hint": "Lies Vers 12.",
+          "verse": 12,
+          "explain": "V. 12: Habakuk zweifelt nicht daran, dass Gott da ist – er ringt damit, wie Gott handelt."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum opfert er seinem Netz?",
+          "a": "Ein Bild: Die Chaldäer verehren die Werkzeuge ihrer Macht – ihr Heer, ihren Erfolg. Das knüpft an V. 11 an: Ihre eigene Kraft ist ihr Gott."
+        },
+        {
+          "q": "„Wir werden nicht sterben“ – was meint das?",
+          "a": "Habakuk hält sich an Gottes Treue fest: Das Gericht durch die Chaldäer soll Juda „züchtigen“, also zurechtbringen – nicht auslöschen (V. 12)."
+        }
+      ],
+      "fact": "Habakuk fragt nicht, ob es Gott gibt, sondern warum Gott so handelt. Die Frage, wie ein guter Gott Leid und Unrecht zulassen kann, nennt man heute „Theodizee“ – Habakuk stellt sie schon vor 2600 Jahren.",
+      "teaser": "Habakuk bezieht Posten und wartet. Die Antwort wird Jahrhunderte später zu einem der meistzitierten Sätze des Neuen Testaments.",
+      "prayer": {
+        "text": "In mir ist es finster, aber bei dir ist das Licht … ich bin unruhig, aber bei dir ist der Friede … ich verstehe deine Wege nicht, aber du weißt den Weg für mich.",
+        "source": "Dietrich Bonhoeffer, Gebet aus dem Gefängnis (1943)"
+      }
+    },
+    {
+      "id": "hab-04",
+      "stage": "antwort",
+      "refs": [
+        {
+          "book": 35,
+          "chapter": 2,
+          "from": 1,
+          "to": 4
+        }
+      ],
+      "title": "Auf dem Wachturm",
+      "summary": "Habakuk wartet auf Gottes Antwort. Gott sagt: Schreib es auf – es kommt bestimmt. Der Gerechte wird durch seinen Glauben leben.",
+      "place": "jerusalem",
+      "focus": "Achte darauf, was Habakuk tun soll, während er wartet.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was soll Habakuk mit Gottes Antwort tun?",
+          "options": [
+            "Sie auf Tafeln schreiben, damit man sie gut lesen kann",
+            "Sie geheim halten, bis sie eintrifft",
+            "Sie dem König vortragen",
+            "Sie täglich vor dem Tempel ausrufen"
+          ],
+          "answer": 0,
+          "hint": "Vers 2.",
+          "verse": 2,
+          "explain": "V. 2: Er soll die Vision aufschreiben und in Tafeln eingraben, damit man sie gut lesen kann."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Gott sagt: Wenn es sich verzögert, dann [vergiss] es – denn es wird kommen und nicht ausbleiben.",
+          "fix": "erwarte",
+          "hint": "Vers 3: Was soll man tun, wenn es sich hinzieht?",
+          "verse": 3,
+          "explain": "V. 3: Wenn es sich hinzieht, soll man darauf warten – es kommt bestimmt und bleibt nicht aus."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist eine „Warte“?",
+          "a": "Ein Wachposten, z. B. auf der Stadtmauer, von dem aus man weit sehen kann. Habakuk hält Ausschau nach Gottes Antwort wie ein Wächter."
+        },
+        {
+          "q": "Was ist ein „Gesicht“?",
+          "a": "Gemeint ist eine Vision – etwas, das der Prophet von Gott „geschaut“ hat (vgl. 1,1).",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Was bedeutet „Glauben“ in Vers 4?",
+          "a": "Das hebräische Wort „emuna“ heißt Treue, Verlässlichkeit, Vertrauen. Gemeint ist: Wer zu Gott gehört, lebt davon, dass er sich auf Gott verlässt – auch wenn die Antwort noch aussteht."
+        },
+        {
+          "q": "Wie verstehen das verschiedene Kirchen?",
+          "a": "Paulus zitiert den Satz in Röm 1,17 und Gal 3,11. Für Martin Luther wurde er zum Schlüssel: Gott spricht den Menschen gerecht aus Gnade, allein durch den Glauben – so betonen es evangelische und freikirchliche Gemeinden. Die katholische und die orthodoxe Kirche betonen, dass zu diesem Glauben die Liebe gehört, die im Leben wirksam wird (Gal 5,6). 1999 haben Lutheraner und Katholiken gemeinsam erklärt: Rechtfertigung ist Gottes Geschenk, nicht menschliche Leistung."
+        }
+      ],
+      "cards": [
+        "prophet",
+        "glaube"
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 35,
+          "chapter": 2,
+          "from": 4,
+          "to": 4
+        },
+        "text": "Der Gerechte aber wird durch seinen Glauben leben."
+      },
+      "fact": "Im Talmud wird erzählt, wie die 613 Gebote der Tora immer weiter zusammengefasst wurden – bis Habakuk sie auf einen einzigen Satz gebracht habe: „Der Gerechte wird durch seinen Glauben leben.“",
+      "teaser": "Fünfmal hintereinander ruft der Text „Wehe“. Gegen wen eigentlich?",
+      "try": "Schreib dir einen Satz auf, auf dessen Antwort du gerade wartest – so wie Habakuk seine Vision aufschreiben sollte."
+    },
+    {
+      "id": "hab-05",
+      "stage": "antwort",
+      "refs": [
+        {
+          "book": 35,
+          "chapter": 2,
+          "from": 5,
+          "to": 11
+        }
+      ],
+      "title": "Wehe dem, der aufhäuft",
+      "summary": "Ein Spottlied auf den Gierigen beginnt: Wer andere ausplündert, wird selbst geplündert werden – sogar die Steine seines Hauses klagen ihn an.",
+      "place": "babylon",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was wird dem gierigen Eroberer angekündigt?",
+          "options": [
+            "Wer viele beraubt hat, wird selbst beraubt werden",
+            "Er wird reich und in Frieden alt werden",
+            "Er wird sich am Ende zu Gott bekehren",
+            "Er wird König über Juda werden"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 8.",
+          "verse": 8,
+          "explain": "V. 8: Weil er viele Völker beraubt hat, werden die übrigen Völker ihn berauben."
+        },
+        {
+          "type": "truefalse",
+          "q": "In Vers 11 heißt es, dass sogar die Steine aus der Mauer schreien werden.",
+          "answer": true,
+          "hint": "Schau dir Vers 11 an.",
+          "verse": 11,
+          "explain": "V. 11: Der Stein in der Mauer schreit, das Holz im Gebälk antwortet. Das Unrecht steckt in den Mauern seines Hauses – es lässt sich nicht verstecken."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer spricht hier?",
+          "a": "Die ausgeplünderten Völker stimmen ein Spottlied an (V. 6). So antwortet Gott auf Habakuks Frage: Das Unrecht der Chaldäer wird nicht das letzte Wort haben."
+        },
+        {
+          "q": "Was ist der „Scheol“?",
+          "a": "Hebräisch für das Totenreich. Hier ein Bild für die Gier des Eroberers: Er ist unersättlich wie der Tod (V. 5).",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Was ist eine „Pfandlast“?",
+          "a": "Pfänder, die man Schuldnern abnimmt. Gemeint ist: Er bereichert sich an dem, was ihm nicht gehört – wie ein Wucherer.",
+          "translation": "elbbk"
+        }
+      ],
+      "cards": [
+        "weheruf"
+      ],
+      "teaser": "Mitten zwischen den Weherufen steht ein Satz voller Hoffnung – und am Ende verlangt der Text Stille."
+    },
+    {
+      "id": "hab-06",
+      "stage": "antwort",
+      "refs": [
+        {
+          "book": 35,
+          "chapter": 2,
+          "from": 12,
+          "to": 20
+        }
+      ],
+      "title": "Schweige vor ihm",
+      "summary": "Weitere Weherufe gegen Gewalt, Bloßstellung und stumme Götzen. Dazwischen die Hoffnung: Die Erde wird voll werden von der Erkenntnis Gottes. Am Ende soll alle Welt vor Gott still werden.",
+      "place": "babylon",
+      "quiz": [
+        {
+          "type": "estimate",
+          "q": "Wie oft ruft der Text in Kapitel 2 insgesamt „Wehe“?",
+          "min": 1,
+          "max": 10,
+          "answer": 5,
+          "tolerance": 0,
+          "unit": "Mal",
+          "hint": "Zwei standen schon im letzten Abschnitt (V. 6 und 9).",
+          "explain": "Fünfmal: V. 6, 9, 12, 15 und 19 – gegen Ausbeutung, Raffgier, Gewalt, Bloßstellung und Götzendienst."
+        },
+        {
+          "type": "choice",
+          "q": "Was sagt der Text über die Götzenbilder?",
+          "options": [
+            "Sie sind stumm, und kein Atem ist in ihnen",
+            "Sie sind gefährlich mächtig",
+            "Sie sprechen nur zu ihren Priestern",
+            "Sie stellen den wahren Gott dar"
+          ],
+          "answer": 0,
+          "hint": "Vers 18–19.",
+          "verse": 19,
+          "explain": "V. 18–19: Die Götzen sind stumm, und es ist kein Atem in ihnen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist mit „Götzen“ gemeint?",
+          "a": "Gottesbilder aus Holz, Stein oder Metall. Der Text spottet: Der Bildhauer vertraut auf das, was er selbst gemacht hat (V. 18)."
+        },
+        {
+          "q": "Warum „schweige vor ihm“?",
+          "a": "Den stummen Götzen, die nichts sagen können, steht der lebendige Gott gegenüber (V. 20). Die Stille ist Ehrfurcht: Nicht die Mächtigen haben das letzte Wort, sondern Gott."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 35,
+          "chapter": 2,
+          "from": 20,
+          "to": 20
+        },
+        "text": "Aber der HERR ist in seinem heiligen Palast – schweige vor ihm, ganze Erde!"
+      },
+      "fact": "Vers 14 steht fast wortgleich auch in Jesaja 11,9. Die Hoffnung, dass einmal die ganze Erde Gott erkennt, verbindet viele Propheten.",
+      "teaser": "Jetzt ändert sich der Ton völlig: Aus der Klage wird ein Lied.",
+      "try": "Nimm dir heute eine Minute Stille – ohne Handy, ohne Musik."
+    },
+    {
+      "id": "hab-07",
+      "stage": "gebet",
+      "refs": [
+        {
+          "book": 35,
+          "chapter": 3,
+          "from": 1,
+          "to": 7
+        }
+      ],
+      "title": "Gott kommt",
+      "summary": "Habakuk betet: Gott, tu dein Werk wieder – und im Zorn denk an dein Erbarmen. Dann beschreibt er, wie Gott herankommt wie einst am Sinai.",
+      "place": "paran",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Worum bittet Habakuk in Vers 2?",
+          "options": [
+            "Dass Gott im Zorn an sein Erbarmen denkt",
+            "Dass Gott die Chaldäer sofort vernichtet",
+            "Dass Gott ihn aus Juda wegführt",
+            "Dass Gott ihm ein Zeichen schickt"
+          ],
+          "answer": 0,
+          "hint": "Lies das Ende von Vers 2.",
+          "verse": 2,
+          "explain": "V. 2: Er bittet Gott, sein Werk neu lebendig zu machen – und im Zorn an sein Erbarmen zu denken."
+        },
+        {
+          "type": "truefalse",
+          "q": "Gott kommt in diesem Lied aus dem Norden, aus Richtung Babylon.",
+          "answer": false,
+          "hint": "Woher kommt Gott in Vers 3?",
+          "verse": 3,
+          "explain": "V. 3: Gott kommt „von Teman“ und „vom Gebirge Paran“ – aus dem Süden, aus der Richtung des Sinai."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was bedeuten „Schigjonoth“ und „Sela“?",
+          "a": "Beides sind musikalische Fachbegriffe, deren genaue Bedeutung unsicher ist. Kapitel 3 ist also ein Lied, das gesungen wurde – ähnlich wie ein Psalm."
+        },
+        {
+          "q": "Warum Teman und Paran?",
+          "a": "Beides liegt im Süden, Richtung Sinai. Schon in 5. Mose 33,2 heißt es, Gott sei „von dem Berge Paran“ hervorgestrahlt. Habakuk erinnert an die Zeit, als Gott sein Volk befreite und am Sinai erschien."
+        },
+        {
+          "q": "Warum so dramatische Bilder?",
+          "a": "Licht, Pest, bebende Berge: Das ist die Bildsprache alter Siegeslieder (vgl. Richter 5,4–5) für Gottes überwältigende Macht. Es geht nicht um eine Naturbeschreibung, sondern darum: Niemand kann diesem Gott standhalten."
+        }
+      ],
+      "cards": [
+        "sela",
+        "paran"
+      ],
+      "teaser": "Ströme, Meer, Sonne und Mond – Habakuk ruft die großen Momente der Geschichte Israels auf."
+    },
+    {
+      "id": "hab-08",
+      "stage": "gebet",
+      "refs": [
+        {
+          "book": 35,
+          "chapter": 3,
+          "from": 8,
+          "to": 15
+        }
+      ],
+      "title": "Wie damals",
+      "summary": "Habakuk besingt Gott, der für sein Volk eintritt: Er spaltet Ströme, Sonne und Mond halten inne, er betritt das Meer – Bilder aus der Geschichte der Befreiung.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wozu zieht Gott laut Vers 13 aus?",
+          "options": [
+            "Zum Heil seines Volkes",
+            "Um die ganze Erde zu vernichten",
+            "Um Habakuk zu prüfen",
+            "Um sich einen neuen Tempel zu bauen"
+          ],
+          "answer": 0,
+          "hint": "Vers 13 sagt es direkt.",
+          "verse": 13,
+          "explain": "V. 13: Gott zieht aus, um sein Volk und seinen Gesalbten zu retten."
+        },
+        {
+          "type": "order",
+          "q": "In welcher Reihenfolge kommen diese Bilder im Text vor?",
+          "items": [
+            "Gott fährt auf Rossen und Wagen einher",
+            "Die Berge sehen ihn und zittern",
+            "Sonne und Mond treten in ihre Wohnung",
+            "Gott betritt mit seinen Rossen das Meer"
+          ],
+          "hint": "Lies den Abschnitt noch einmal von oben.",
+          "explain": "V. 8 (Rosse und Wagen), V. 10 (Berge zittern), V. 11 (Sonne und Mond), V. 15 (das Meer)."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Ist Gott hier gewalttätig?",
+          "a": "Die Bilder stammen aus alten Kampfliedern und sind heute oft schwer zu lesen. Im Zusammenhang wichtig: Gott kämpft hier gegen die Unterdrücker – „zum Heile deines Volkes“ (V. 13), für den „Elenden“ (V. 14). Genau das hatte Habakuk in Kapitel 1 vermisst."
+        },
+        {
+          "q": "Welche Geschichten stecken dahinter?",
+          "a": "Meer und Ströme erinnern an den Durchzug durchs Schilfmeer (2. Mose 14) und durch den Jordan (Josua 3), Sonne und Mond an Josua 10,12–13. Habakuk sagt: Der Gott von damals ist derselbe heute."
+        },
+        {
+          "q": "Wer ist „dein Gesalbter“?",
+          "a": "Im Alten Testament wurden Könige und Priester gesalbt. Hier ist wohl der König als Vertreter des Volkes gemeint. Christen haben solche Stellen oft auch auf Jesus bezogen, den „Christus“ – das heißt „Gesalbter“."
+        }
+      ],
+      "fact": "Unter den Schriftrollen vom Toten Meer, ab 1947 in Qumran gefunden, ist ein Kommentar zu Habakuk – aber nur zu Kapitel 1 und 2. Warum Kapitel 3 fehlt, ist bis heute umstritten.",
+      "teaser": "Und dann kommt vielleicht der mutigste Satz des ganzen Buches."
+    },
+    {
+      "id": "hab-09",
+      "stage": "gebet",
+      "refs": [
+        {
+          "book": 35,
+          "chapter": 3,
+          "from": 16,
+          "to": 19
+        }
+      ],
+      "title": "Und wenn nichts wächst",
+      "summary": "Habakuk zittert vor dem, was kommt. Und doch: Auch wenn alles ausfällt, will er sich an Gott freuen. Gott ist seine Kraft.",
+      "place": "jerusalem",
+      "focus": "Achte auf das kleine Wort „aber“ in Vers 18.",
+      "quiz": [
+        {
+          "type": "estimate",
+          "q": "Wie viele Dinge zählt Habakuk in Vers 17 auf, die ausbleiben könnten?",
+          "min": 1,
+          "max": 10,
+          "answer": 6,
+          "tolerance": 0,
+          "unit": "Dinge",
+          "hint": "Zähl noch einmal nach: Bäume, Felder und Tiere.",
+          "verse": 17,
+          "explain": "Feigenbaum, Reben, Olivenbaum, Getreidefelder, Kleinvieh, Rinder – die ganze Lebensgrundlage einer Bauernfamilie."
+        },
+        {
+          "type": "choice",
+          "q": "Wie reagiert Habakuk auf diese drohenden Verluste?",
+          "options": [
+            "Er will sich trotzdem in Gott freuen",
+            "Er sagt sich von Gott los",
+            "Er will nach Ägypten fliehen",
+            "Er verlangt eine bessere Antwort"
+          ],
+          "answer": 0,
+          "hint": "Vers 18.",
+          "verse": 18,
+          "explain": "V. 18: Trotz allem will er sich in Gott freuen und über den Gott seiner Rettung jubeln."
+        },
+        {
+          "type": "truefalse",
+          "q": "Am Ende hat Habakuk keine Angst mehr.",
+          "answer": false,
+          "hint": "Wie geht es ihm in Vers 16?",
+          "verse": 16,
+          "explain": "V. 16: Sein Leib zittert, seine Lippen beben. Sein Vertrauen in V. 18 kommt nicht ohne Angst – sondern mitten in ihr."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum Füße wie die einer Hirschkuh?",
+          "a": "Hirschkühe bewegen sich trittsicher im steilen Gebirge. Dasselbe Bild steht in Psalm 18: Gott gibt Halt, wo es eigentlich gefährlich ist."
+        },
+        {
+          "q": "„Dem Vorsänger, mit meinem Saitenspiel“?",
+          "a": "Eine Anweisung für die Musik, wie über vielen Psalmen. Habakuks Gebet wurde wohl im Gottesdienst gesungen."
+        },
+        {
+          "q": "Was hat sich seit Kapitel 1 verändert?",
+          "a": "Am Anfang: „Wie lange … du hörst nicht!“ Am Ende: „Ich aber will … frohlocken.“ Die Lage ist dieselbe – die Chaldäer kommen noch. Verändert hat sich Habakuks Blick auf Gott."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 35,
+          "chapter": 3,
+          "from": 18,
+          "to": 18
+        },
+        "text": "Ich aber, ich will in dem HERRN frohlocken, will jubeln in dem Gott meines Heils."
+      },
+      "fact": "In den Zusätzen zum Buch Daniel (in katholischen und orthodoxen Bibeln enthalten, bei Luther unter den Apokryphen) gibt es eine Legende: Ein Engel trägt Habakuk an den Haaren nach Babylon, damit er Daniel in der Löwengrube Essen bringt.",
+      "try": "Lies Vers 17–18 noch einmal und setz in Gedanken ein, was bei dir gerade nicht „blüht“."
+    }
+  ]
+}

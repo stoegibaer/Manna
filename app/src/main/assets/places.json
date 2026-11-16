@@ -1,0 +1,130 @@
+{
+ "places": [
+  {
+   "id": "jerusalem",
+   "name": "Jerusalem",
+   "lat": 31.778,
+   "lon": 35.235,
+   "text": "Hauptstadt von Juda mit dem Tempel auf dem Berg Zion."
+  },
+  {
+   "id": "babylon",
+   "name": "Babylon",
+   "lat": 32.536,
+   "lon": 44.421,
+   "text": "Hauptstadt des babylonischen Reiches am Euphrat, südlich des heutigen Bagdad."
+  },
+  {
+   "id": "paran",
+   "name": "Wüste Paran",
+   "lat": 30.2,
+   "lon": 34.6,
+   "text": "Wüstengebiet zwischen Sinai und dem Süden des Landes Kanaan."
+  },
+  {
+   "id": "teman",
+   "name": "Teman",
+   "lat": 30.73,
+   "lon": 35.6,
+   "text": "Gegend in Edom, südöstlich des Toten Meeres."
+  },
+  {
+   "id": "haran",
+   "name": "Haran",
+   "lat": 36.86,
+   "lon": 39.03,
+   "text": "Handelsstadt in Nordmesopotamien (heute Türkei). Von hier brach Abram auf."
+  },
+  {
+   "id": "sichem",
+   "name": "Sichem",
+   "lat": 32.21,
+   "lon": 35.28,
+   "text": "Alte Stadt im Bergland Kanaans, bei der heutigen Stadt Nablus."
+  },
+  {
+   "id": "pniel",
+   "name": "Pniel am Jabbok",
+   "lat": 32.18,
+   "lon": 35.68,
+   "text": "Furt am Fluss Jabbok, östlich des Jordan."
+  },
+  {
+   "id": "aegypten",
+   "name": "Ägypten",
+   "lat": 30.6,
+   "lon": 31.7,
+   "text": "Großreich am Nil. Israel lebte im Nildelta, im Land Gosen."
+  },
+  {
+   "id": "horeb",
+   "name": "Horeb / Sinai",
+   "lat": 28.54,
+   "lon": 33.98,
+   "text": "Der „Berg Gottes“. Die genaue Lage ist unsicher; die Tradition sucht ihn im Süden der Sinai-Halbinsel."
+  },
+  {
+   "id": "schilfmeer",
+   "name": "Schilfmeer",
+   "lat": 30.1,
+   "lon": 32.55,
+   "text": "Wo Israel das Meer durchquerte, ist unsicher – vorgeschlagen werden Seen im Norden des Golfs von Suez oder der Golf selbst."
+  },
+  {
+   "id": "moab",
+   "name": "Ebenen Moabs",
+   "lat": 31.85,
+   "lon": 35.62,
+   "text": "Ebene östlich des Jordan gegenüber von Jericho. Hier hält Mose seine letzten Reden."
+  },
+  {
+   "id": "bethlehem",
+   "name": "Bethlehem",
+   "lat": 31.705,
+   "lon": 35.2,
+   "text": "Kleine Stadt südlich von Jerusalem, Heimat Davids."
+  },
+  {
+   "id": "bethel",
+   "name": "Bethel",
+   "lat": 31.93,
+   "lon": 35.22,
+   "text": "Heiligtum im Nordreich Israel, nördlich von Jerusalem. Hier trat der Prophet Amos auf."
+  },
+  {
+   "id": "see-genezareth",
+   "name": "See Genezareth",
+   "lat": 32.82,
+   "lon": 35.59,
+   "text": "Süßwassersee in Galiläa, auch See von Galiläa oder Tiberias genannt. Hier wirkte Jesus vor allem."
+  },
+  {
+   "id": "emmaus",
+   "name": "Emmaus",
+   "lat": 31.84,
+   "lon": 35.0,
+   "text": "Dorf bei Jerusalem. Wo genau es lag, ist unbekannt; es gibt mehrere Vorschläge."
+  },
+  {
+   "id": "damaskus",
+   "name": "Damaskus",
+   "lat": 33.51,
+   "lon": 36.29,
+   "text": "Alte Stadt in Syrien, nordöstlich von Galiläa."
+  },
+  {
+   "id": "rom",
+   "name": "Rom",
+   "lat": 41.89,
+   "lon": 12.49,
+   "text": "Hauptstadt des Römischen Reiches. An die Gemeinde dort schrieb Paulus seinen längsten Brief."
+  },
+  {
+   "id": "patmos",
+   "name": "Patmos",
+   "lat": 37.31,
+   "lon": 26.55,
+   "text": "Kleine Insel in der Ägäis. Hier empfing Johannes seine Visionen."
+  }
+ ]
+}

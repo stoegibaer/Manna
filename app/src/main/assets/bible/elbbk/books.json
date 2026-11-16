@@ -1,0 +1,403 @@
+{
+ "id": "elbbk",
+ "name": "Offenbarung",
+ "license": "© 2019 Verbreitung des christlichen Glaubens e.V., CC BY-NC-ND 4.0 – Quelle: bibelkommentare.de / ebible.org",
+ "books": [
+  {
+   "nr": 1,
+   "name": "1. Mose",
+   "abbr": "1Mo",
+   "chapters": 50
+  },
+  {
+   "nr": 2,
+   "name": "2. Mose",
+   "abbr": "2Mo",
+   "chapters": 40
+  },
+  {
+   "nr": 3,
+   "name": "3. Mose",
+   "abbr": "3Mo",
+   "chapters": 27
+  },
+  {
+   "nr": 4,
+   "name": "4. Mose",
+   "abbr": "4Mo",
+   "chapters": 36
+  },
+  {
+   "nr": 5,
+   "name": "5. Mose",
+   "abbr": "5Mo",
+   "chapters": 34
+  },
+  {
+   "nr": 6,
+   "name": "Josua",
+   "abbr": "Jos",
+   "chapters": 24
+  },
+  {
+   "nr": 7,
+   "name": "Richter",
+   "abbr": "Ri",
+   "chapters": 21
+  },
+  {
+   "nr": 8,
+   "name": "Rut",
+   "abbr": "Rut",
+   "chapters": 4
+  },
+  {
+   "nr": 9,
+   "name": "1. Samuel",
+   "abbr": "1Sam",
+   "chapters": 31
+  },
+  {
+   "nr": 10,
+   "name": "2. Samuel",
+   "abbr": "2Sam",
+   "chapters": 24
+  },
+  {
+   "nr": 11,
+   "name": "1. Könige",
+   "abbr": "1Kön",
+   "chapters": 22
+  },
+  {
+   "nr": 12,
+   "name": "2. Könige",
+   "abbr": "2Kön",
+   "chapters": 25
+  },
+  {
+   "nr": 13,
+   "name": "1. Chronik",
+   "abbr": "1Chr",
+   "chapters": 29
+  },
+  {
+   "nr": 14,
+   "name": "2. Chronik",
+   "abbr": "2Chr",
+   "chapters": 36
+  },
+  {
+   "nr": 15,
+   "name": "Esra",
+   "abbr": "Esr",
+   "chapters": 10
+  },
+  {
+   "nr": 16,
+   "name": "Nehemia",
+   "abbr": "Neh",
+   "chapters": 13
+  },
+  {
+   "nr": 17,
+   "name": "Ester",
+   "abbr": "Est",
+   "chapters": 10
+  },
+  {
+   "nr": 18,
+   "name": "Hiob",
+   "abbr": "Hiob",
+   "chapters": 42
+  },
+  {
+   "nr": 19,
+   "name": "Psalmen",
+   "abbr": "Ps",
+   "chapters": 150
+  },
+  {
+   "nr": 20,
+   "name": "Sprüche",
+   "abbr": "Spr",
+   "chapters": 31
+  },
+  {
+   "nr": 21,
+   "name": "Prediger",
+   "abbr": "Pred",
+   "chapters": 12
+  },
+  {
+   "nr": 22,
+   "name": "Hoheslied",
+   "abbr": "Hld",
+   "chapters": 8
+  },
+  {
+   "nr": 23,
+   "name": "Jesaja",
+   "abbr": "Jes",
+   "chapters": 66
+  },
+  {
+   "nr": 24,
+   "name": "Jeremia",
+   "abbr": "Jer",
+   "chapters": 52
+  },
+  {
+   "nr": 25,
+   "name": "Klagelieder",
+   "abbr": "Klgl",
+   "chapters": 5
+  },
+  {
+   "nr": 26,
+   "name": "Hesekiel",
+   "abbr": "Hes",
+   "chapters": 48
+  },
+  {
+   "nr": 27,
+   "name": "Daniel",
+   "abbr": "Dan",
+   "chapters": 12
+  },
+  {
+   "nr": 28,
+   "name": "Hosea",
+   "abbr": "Hos",
+   "chapters": 14
+  },
+  {
+   "nr": 29,
+   "name": "Joel",
+   "abbr": "Joel",
+   "chapters": 4
+  },
+  {
+   "nr": 30,
+   "name": "Amos",
+   "abbr": "Am",
+   "chapters": 9
+  },
+  {
+   "nr": 31,
+   "name": "Obadja",
+   "abbr": "Obd",
+   "chapters": 1
+  },
+  {
+   "nr": 32,
+   "name": "Jona",
+   "abbr": "Jona",
+   "chapters": 4
+  },
+  {
+   "nr": 33,
+   "name": "Micha",
+   "abbr": "Mi",
+   "chapters": 7
+  },
+  {
+   "nr": 34,
+   "name": "Nahum",
+   "abbr": "Nah",
+   "chapters": 3
+  },
+  {
+   "nr": 35,
+   "name": "Habakuk",
+   "abbr": "Hab",
+   "chapters": 3
+  },
+  {
+   "nr": 36,
+   "name": "Zefanja",
+   "abbr": "Zef",
+   "chapters": 3
+  },
+  {
+   "nr": 37,
+   "name": "Haggai",
+   "abbr": "Hag",
+   "chapters": 2
+  },
+  {
+   "nr": 38,
+   "name": "Sacharja",
+   "abbr": "Sach",
+   "chapters": 14
+  },
+  {
+   "nr": 39,
+   "name": "Maleachi",
+   "abbr": "Mal",
+   "chapters": 3
+  },
+  {
+   "nr": 40,
+   "name": "Matthäus",
+   "abbr": "Mt",
+   "chapters": 28
+  },
+  {
+   "nr": 41,
+   "name": "Markus",
+   "abbr": "Mk",
+   "chapters": 16
+  },
+  {
+   "nr": 42,
+   "name": "Lukas",
+   "abbr": "Lk",
+   "chapters": 24
+  },
+  {
+   "nr": 43,
+   "name": "Johannes",
+   "abbr": "Joh",
+   "chapters": 21
+  },
+  {
+   "nr": 44,
+   "name": "Apostelgeschichte",
+   "abbr": "Apg",
+   "chapters": 28
+  },
+  {
+   "nr": 45,
+   "name": "Römer",
+   "abbr": "Röm",
+   "chapters": 16
+  },
+  {
+   "nr": 46,
+   "name": "1. Korinther",
+   "abbr": "1Kor",
+   "chapters": 16
+  },
+  {
+   "nr": 47,
+   "name": "2. Korinther",
+   "abbr": "2Kor",
+   "chapters": 13
+  },
+  {
+   "nr": 48,
+   "name": "Galater",
+   "abbr": "Gal",
+   "chapters": 6
+  },
+  {
+   "nr": 49,
+   "name": "Epheser",
+   "abbr": "Eph",
+   "chapters": 6
+  },
+  {
+   "nr": 50,
+   "name": "Philipper",
+   "abbr": "Phil",
+   "chapters": 4
+  },
+  {
+   "nr": 51,
+   "name": "Kolosser",
+   "abbr": "Kol",
+   "chapters": 4
+  },
+  {
+   "nr": 52,
+   "name": "1. Thessalonicher",
+   "abbr": "1Thess",
+   "chapters": 5
+  },
+  {
+   "nr": 53,
+   "name": "2. Thessalonicher",
+   "abbr": "2Thess",
+   "chapters": 3
+  },
+  {
+   "nr": 54,
+   "name": "1. Timotheus",
+   "abbr": "1Tim",
+   "chapters": 6
+  },
+  {
+   "nr": 55,
+   "name": "2. Timotheus",
+   "abbr": "2Tim",
+   "chapters": 4
+  },
+  {
+   "nr": 56,
+   "name": "Titus",
+   "abbr": "Tit",
+   "chapters": 3
+  },
+  {
+   "nr": 57,
+   "name": "Philemon",
+   "abbr": "Phlm",
+   "chapters": 1
+  },
+  {
+   "nr": 58,
+   "name": "Hebräer",
+   "abbr": "Hebr",
+   "chapters": 13
+  },
+  {
+   "nr": 59,
+   "name": "Jakobus",
+   "abbr": "Jak",
+   "chapters": 5
+  },
+  {
+   "nr": 60,
+   "name": "1. Petrus",
+   "abbr": "1Petr",
+   "chapters": 5
+  },
+  {
+   "nr": 61,
+   "name": "2. Petrus",
+   "abbr": "2Petr",
+   "chapters": 3
+  },
+  {
+   "nr": 62,
+   "name": "1. Johannes",
+   "abbr": "1Joh",
+   "chapters": 5
+  },
+  {
+   "nr": 63,
+   "name": "2. Johannes",
+   "abbr": "2Joh",
+   "chapters": 1
+  },
+  {
+   "nr": 64,
+   "name": "3. Johannes",
+   "abbr": "3Joh",
+   "chapters": 1
+  },
+  {
+   "nr": 65,
+   "name": "Judas",
+   "abbr": "Jud",
+   "chapters": 1
+  },
+  {
+   "nr": 66,
+   "name": "Offenbarung",
+   "abbr": "Offb",
+   "chapters": 22
+  }
+ ]
+}
