@@ -1,5 +1,6 @@
 package dev.tobi.manna.ui.settings
 
+import kotlin.math.roundToInt
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -73,7 +74,7 @@ fun SettingsScreen(settings: Settings, onChange: ((Settings) -> Settings) -> Uni
             Text("Der Gerechte aber wird durch seinen Glauben leben.", style = bibleTextStyle(settings.textScale))
 
             Text("Vorlese-Tempo", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 12.dp))
-            Slider(value = settings.ttsRate, onValueChange = { v -> onChange { it.copy(ttsRate = (v * 10).toInt() / 10f) } }, valueRange = 0.7f..1.4f, steps = 6)
+            Slider(value = settings.ttsRate, onValueChange = { v -> onChange { it.copy(ttsRate = (v * 10).roundToInt() / 10f) } }, valueRange = 0.7f..1.4f, steps = 6)
             Text(
                 when {
                     settings.ttsRate < 0.95f -> "Etwas langsamer"

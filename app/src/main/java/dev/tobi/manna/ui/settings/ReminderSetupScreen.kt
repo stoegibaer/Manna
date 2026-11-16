@@ -1,5 +1,6 @@
 package dev.tobi.manna.ui.settings
 
+import kotlin.math.roundToInt
 import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Build
@@ -167,7 +168,7 @@ fun ReminderSetupScreen(settings: Settings, onSave: ((Settings) -> Settings) -> 
 
             Section("Wochenziel")
             Text(if (goal == 7) "Jeden Tag" else "$goal von 7 Tagen", style = MaterialTheme.typography.titleMedium)
-            Slider(value = goal.toFloat(), onValueChange = { goal = it.toInt() }, valueRange = 1f..7f, steps = 5)
+            Slider(value = goal.toFloat(), onValueChange = { goal = it.roundToInt() }, valueRange = 1f..7f, steps = 5)
             Text("Verpasste Tage zählen nicht gegen dich – jede Woche fängt neu an.", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
 
             Section("Beim Lesen")
