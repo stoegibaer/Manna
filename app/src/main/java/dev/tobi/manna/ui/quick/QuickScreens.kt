@@ -51,6 +51,7 @@ import dev.tobi.manna.AppContainer
 import dev.tobi.manna.data.plan.Quiz
 import dev.tobi.manna.data.plan.resolve
 import dev.tobi.manna.data.settings.Settings
+import dev.tobi.manna.reminder.Reminders
 import dev.tobi.manna.ui.components.Confetti
 import dev.tobi.manna.ui.components.LocalFeedback
 import dev.tobi.manna.ui.session.refLabel
@@ -158,26 +159,47 @@ fun VerseScreen(vm: VerseViewModel, settings: Settings, onMore: () -> Unit, onCl
 data class AnswerState(
     val loading: Boolean = true,
     val quiz: Quiz? = null,
+    /** Passage and section title, e.g. "Habakuk 1,1–4 · Wie lange noch?" – the question needs this context. */
+    val where: String = "",
+    /** Not answered yet: the options to choose from (label, value). */
+    val asking: List<Pair<String, Int>> = emptyList(),
     val chosen: String = "",
     val correctText: String = "",
     val correct: Boolean = false,
-    val sectionTitle: String = "",
 )
 
-/** The user tapped an answer button in the reminder: show the result right away – a small win before reading. */
-class AnswerViewModel(c: AppContainer, planId: String, sectionId: String, index: Int, answer: Int) : ViewModel() {
+/**
+ * A review question from the reminder. Either the user already tapped an answer button (show the result right away –
+ * a small win before reading), or the answers were too long for buttons ([Reminders.ASK]): then ask here first.
+ */
+class AnswerViewModel(private val c: AppContainer, private val planId: String, private val sectionId: String, private val index: Int, answer: Int) : ViewModel() {
     val state = MutableStateFlow(AnswerState())
 
     init {
         viewModelScope.launch {
             val section = c.plans.plan(planId).sections.firstOrNull { it.id == sectionId }
             val q = section?.quiz?.getOrNull(index) ?: return@launch
-            val correct = if (q.type == "truefalse") (answer == 1) == q.answerBool else answer == q.answerIndex
-            val chosen = if (q.type == "truefalse") (if (answer == 1) "Stimmt" else "Stimmt nicht") else q.options.getOrElse(answer) { "" }
-            val right = if (q.type == "truefalse") (if (q.answerBool) "Stimmt" else "Stimmt nicht") else q.options.getOrElse(q.answerIndex) { "" }
-            c.progress.recordReview(planId, sectionId, index, correct)
-            state.value = AnswerState(false, q, chosen, right, correct, section.title)
+            val books = c.text.info().books.associateBy { it.nr }
+            val where = refLabel(section.refs) { books[it]?.name ?: "" } + " · " + section.title
+            if (answer == Reminders.ASK) {
+                val options = if (q.type == "truefalse") listOf("Stimmt" to 1, "Stimmt nicht" to 0)
+                    else q.options.mapIndexed { i, o -> o to i }.shuffled()
+                state.value = AnswerState(false, q, where, asking = options)
+            } else answer(q, where, answer)
         }
+    }
+
+    fun choose(value: Int) {
+        val q = state.value.quiz ?: return
+        viewModelScope.launch { answer(q, state.value.where, value) }
+    }
+
+    private suspend fun answer(q: Quiz, where: String, answer: Int) {
+        val correct = if (q.type == "truefalse") (answer == 1) == q.answerBool else answer == q.answerIndex
+        val chosen = if (q.type == "truefalse") (if (answer == 1) "Stimmt" else "Stimmt nicht") else q.options.getOrElse(answer) { "" }
+        val right = if (q.type == "truefalse") (if (q.answerBool) "Stimmt" else "Stimmt nicht") else q.options.getOrElse(q.answerIndex) { "" }
+        c.progress.recordReview(planId, sectionId, index, correct)
+        state.value = AnswerState(false, q, where, chosen = chosen, correctText = right, correct = correct)
     }
 }
 
@@ -186,7 +208,8 @@ fun AnswerScreen(vm: AnswerViewModel, settings: Settings, onRead: () -> Unit, on
     val s by vm.state.collectAsStateWithLifecycle()
     val fb = LocalFeedback.current
     var confetti by remember { mutableIntStateOf(0) }
-    LaunchedEffect(s.loading) { if (!s.loading) { if (s.correct) { fb.correct(); confetti++ } else fb.tryAgain() } }
+    val answered = !s.loading && s.quiz != null && s.asking.isEmpty()
+    LaunchedEffect(answered) { if (answered) { if (s.correct) { fb.correct(); confetti++ } else fb.tryAgain() } }
     BackHandler(onBack = onClose)
     Box(Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding()) {
         val q = s.quiz
@@ -199,8 +222,20 @@ fun AnswerScreen(vm: AnswerViewModel, settings: Settings, onRead: () -> Unit, on
                 verticalArrangement = Arrangement.spacedBy(16.dp),
             ) {
                 Text("Erinnerst du dich?", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
-                if (q.type == "whosaid") Text("„${q.quote}“", style = MaterialTheme.typography.titleLarge.copy(fontFamily = BibleFont, fontStyle = FontStyle.Italic))
-                else Text(q.q.orEmpty(), style = MaterialTheme.typography.titleLarge)
+                Text(s.where, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                if (q.type == "whosaid") {
+                    Text("Wer hat das gesagt?", style = MaterialTheme.typography.titleMedium)
+                    Text("„${q.quote}“", style = MaterialTheme.typography.titleLarge.copy(fontFamily = BibleFont, fontStyle = FontStyle.Italic))
+                } else Text(q.q.orEmpty(), style = MaterialTheme.typography.titleLarge)
+                if (s.asking.isNotEmpty()) {
+                    for ((label, value) in s.asking) {
+                        OutlinedButton(onClick = { vm.choose(value) }, modifier = Modifier.fillMaxWidth()) {
+                            Text(label, modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp), textAlign = TextAlign.Start)
+                        }
+                    }
+                    TextButton(onClick = onClose, modifier = Modifier.align(Alignment.CenterHorizontally)) { Text("Später") }
+                    return@Column
+                }
                 Surface(
                     color = if (s.correct) MaterialTheme.colorScheme.primaryContainer else MaterialTheme.colorScheme.secondaryContainer,
                     shape = RoundedCornerShape(16.dp), modifier = Modifier.fillMaxWidth(),
@@ -215,7 +250,6 @@ fun AnswerScreen(vm: AnswerViewModel, settings: Settings, onRead: () -> Unit, on
                         }
                         if (!s.correct) Text("Richtig ist: ${s.correctText}")
                         if (q.explain.isNotBlank()) Text(q.explain)
-                        Text("Aus „${s.sectionTitle}“", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                 }
                 Spacer(Modifier.height(4.dp))

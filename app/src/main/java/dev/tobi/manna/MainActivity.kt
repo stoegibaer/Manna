@@ -66,7 +66,14 @@ class MainActivity : ComponentActivity() {
         // Debug-only: `--ei debugReminder 1` shows the quiz reminder, `2` the teaser reminder (for testing the notifications).
         if (debuggable && intent.hasExtra("debugReminder")) {
             val n = intent.getIntExtra("debugReminder", 1)
-            c.scope.launch { Reminders.show(this@MainActivity, c, n, isLast = true, anyReview = true) }
+            // `--es debugQuiz plan/section/index` forces a specific review question
+            val forced = intent.getStringExtra("debugQuiz")?.split("/")
+            c.scope.launch {
+                val pick = forced?.let { (p, sec, i) ->
+                    c.plans.plan(p).sections.firstOrNull { it.id == sec }?.quiz?.getOrNull(i.toInt())?.let { Reminders.ReviewPick(p, sec, i.toInt(), it) }
+                }
+                Reminders.show(this@MainActivity, c, n, isLast = true, anyReview = true, forced = pick)
+            }
         }
 
         setContent {

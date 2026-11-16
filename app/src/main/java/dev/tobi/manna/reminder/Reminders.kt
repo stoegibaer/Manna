@@ -11,6 +11,7 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import androidx.core.app.NotificationCompat
+import dev.tobi.manna.ui.session.refLabel
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
 import dev.tobi.manna.AppContainer
@@ -108,7 +109,12 @@ object Reminders {
     }
 
     /** Builds and shows the reminder. [number] = how many reminders today including this one. */
-    suspend fun show(context: Context, c: AppContainer, number: Int, isLast: Boolean, anyReview: Boolean = false) {
+    /** Button labels longer than this get cut off by Android. */
+    const val MAX_BUTTON_CHARS = 18
+    /** Answer value meaning: not answered yet – show the question with all options in the app. */
+    const val ASK = -1
+
+    suspend fun show(context: Context, c: AppContainer, number: Int, isLast: Boolean, anyReview: Boolean = false, forced: ReviewPick? = null) {
         if (Build.VERSION.SDK_INT >= 33 &&
             ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
         ) return
@@ -122,31 +128,33 @@ object Reminders {
             .setCategory(NotificationCompat.CATEGORY_REMINDER)
             .setOnlyAlertOnce(true)
 
-        val review = if (number == 1) pickReview(c, anyReview) else null
+        val review = forced ?: if (number == 1) pickReview(c, anyReview) else null
         if (review != null) {
             val (planId, sectionId, index, quiz) = review
-            val question = if (quiz.type == "whosaid") "Wer hat’s gesagt? „${quiz.quote}“" else quiz.q.orEmpty()
-            // Android cuts button labels after a few characters – so the answers go into the text as A/B/C
-            val answers: List<Pair<String, Int>> = if (quiz.type == "truefalse") {
+            // The question was written to be asked right after reading – in a notification it needs its context:
+            // passage and section title go into the title, so "hier" or "V. 5" make sense.
+            val section = c.plans.plan(planId).sections.firstOrNull { it.id == sectionId }
+            val books = c.text.info().books.associateBy { it.nr }
+            val where = section?.let { refLabel(it.refs) { n -> books[n]?.name ?: "" } + " · " + it.title }.orEmpty()
+            val question = if (quiz.type == "whosaid") "Wer hat das gesagt? „${quiz.quote}“" else quiz.q.orEmpty()
+            // Only answers that fit completely on a button; otherwise one "Antworten" button that opens the question in the app.
+            val buttons: List<Pair<String, Int>>? = if (quiz.type == "truefalse") {
                 listOf("Stimmt" to 1, "Stimmt nicht" to 0)
             } else {
-                // max. 3 buttons: the right answer + up to two others, shuffled
                 val wrong = quiz.options.indices.filter { it != quiz.answerIndex }.shuffled().take(2)
-                (wrong + quiz.answerIndex).shuffled().map { quiz.options[it] to it }
+                val pick = (wrong + quiz.answerIndex).shuffled()
+                if (pick.all { quiz.options[it].length <= MAX_BUTTON_CHARS }) pick.map { quiz.options[it] to it } else null
             }
-            val letters = listOf("A", "B", "C")
-            val body = if (quiz.type == "truefalse") question
-                else question + "\n" + answers.mapIndexed { i, (label, _) -> "${letters[i]})  $label" }.joinToString("\n")
-            builder.setContentTitle("Erinnerst du dich?")
+            builder.setContentTitle(where.ifBlank { "Erinnerst du dich?" })
+                .setSubText("Erinnerst du dich?")
                 .setContentText(question)
-                .setStyle(NotificationCompat.BigTextStyle().bigText(body))
-            answers.forEachIndexed { i, (label, value) ->
-                val buttonLabel = if (quiz.type == "truefalse") label else letters[i]
-                builder.addAction(0, buttonLabel, openApp(context, 10 + i) {
-                    putExtra(EXTRA_TARGET, "review"); putExtra(EXTRA_PLAN, planId); putExtra(EXTRA_SECTION, sectionId)
-                    putExtra(EXTRA_QUIZ, index); putExtra(EXTRA_ANSWER, value)
-                })
+                .setStyle(NotificationCompat.BigTextStyle().bigText(question).setBigContentTitle(where.ifBlank { null }))
+            fun answerIntent(code: Int, value: Int) = openApp(context, code) {
+                putExtra(EXTRA_TARGET, "review"); putExtra(EXTRA_PLAN, planId); putExtra(EXTRA_SECTION, sectionId)
+                putExtra(EXTRA_QUIZ, index); putExtra(EXTRA_ANSWER, value)
             }
+            if (buttons != null) buttons.forEachIndexed { i, (label, value) -> builder.addAction(0, label, answerIntent(10 + i, value)) }
+            else builder.addAction(0, "Antworten", answerIntent(13, ASK))
         } else {
             val idx = c.plans.index()
             val planId = idx.resolve(s.activePlan)
