@@ -70,6 +70,7 @@ Lies zuerst **`format.md`** in diesem Ordner (Datenformat) und `docs/KONZEPT.md`
 
 **„Heute ausprobieren“ (`try`)**
 - Konkret, klein und in unter 5 Minuten machbar, nicht moralisierend.
+- Am besten eine Lese- oder Beobachtungsaufgabe zum Text (zwei Stellen vergleichen, einen Vers in einer anderen Übersetzung lesen, etwas nachzählen). Keine Verhaltensappelle („Tu heute jemandem etwas Gutes“).
 - Nur, wo es sich natürlich aus dem Text ergibt.
 
 ## Sachliche Sorgfalt

@@ -69,7 +69,7 @@
       "id": "pharisaeer",
       "type": "begriff",
       "name": "Pharisäer",
-      "text": "Eine fromme Laienbewegung, die das Gesetz Gottes im Alltag genau halten wollte, auch mit vielen überlieferten Regeln. Sie glaubten an die Auferstehung. Jesus stand ihnen in vielem nahe – und stritt gerade deshalb heftig mit ihnen.",
+      "text": "Eine fromme Laienbewegung, die das Gesetz Gottes im Alltag genau halten wollte, auch mit vielen überlieferten Regeln. Sie glaubten an die Auferstehung. Jesus stritt oft mit ihnen, teilte aber auch manche ihrer Überzeugungen, etwa den Glauben an die Auferstehung.",
       "refs": "Mk 2,16; 7,1–13"
     },
     {
@@ -83,14 +83,14 @@
       "id": "die-zwoelf",
       "type": "begriff",
       "name": "Die Zwölf",
-      "text": "Der engste Jüngerkreis: Simon Petrus, Jakobus, Johannes, Andreas, Philippus, Bartholomäus, Matthäus, Thomas, Jakobus (Sohn des Alphäus), Thaddäus, Simon Kananäus, Judas Iskariot. Zwölf wie die zwölf Stämme Israels – ein Zeichen für das erneuerte Gottesvolk.",
+      "text": "Der engste Jüngerkreis: Simon Petrus, Jakobus, Johannes, Andreas, Philippus, Bartholomäus, Matthäus, Thomas, Jakobus (Sohn des Alphäus), Thaddäus, Simon Kananäus, Judas Iskariot. Viele Ausleger sehen in der Zahl eine Anspielung auf die zwölf Stämme Israels (vgl. Mt 19,28).",
       "refs": "Mk 3,13–19"
     },
     {
       "id": "gleichnis",
       "type": "begriff",
       "name": "Gleichnis",
-      "text": "Eine Bildgeschichte aus dem Alltag – Saat, Lampe, Weinberg –, die etwas über Gott und sein Reich zeigt. Gleichnisse erklären nicht alles, sie laden ein, selbst weiterzudenken – und fordern heraus.",
+      "text": "Eine Bildgeschichte aus dem Alltag – Saat, Lampe, Weinberg –, die etwas über Gott und sein Reich zeigt.",
       "refs": "Mk 4,1–34"
     },
     {
@@ -185,7 +185,7 @@
             "Was die Leute ihm brachten"
           ],
           "answer": 0,
-          "explain": "V. 6: Heuschrecken und wilder Honig – und Kleidung aus Kamelhaar. Er lebt wie der Prophet Elia (vgl. 2. Kön 1,8).",
+          "explain": "V. 6: Heuschrecken und wilder Honig – und Kleidung aus Kamelhaar. Ähnlich wird der Prophet Elia beschrieben (2Kön 1,8).",
           "hint": "Vers 6.",
           "verse": 6
         },
@@ -215,7 +215,7 @@
         },
         {
           "q": "Was bedeutet „Buße“?",
-          "a": "Umkehr, eine neue Richtung im Leben. Die Taufe im Jordan war ein sichtbares Zeichen dafür: Man ließ das Alte hinter sich."
+          "a": "Umkehr, eine neue Richtung im Leben. Die Taufe im Jordan war ein sichtbares Zeichen dafür:"
         }
       ],
       "cards": [
@@ -248,7 +248,7 @@
             "Kehrt um"
           ],
           "answer": 0,
-          "explain": "V. 11: Bevor Jesus irgendetwas getan hat, hört er, dass er geliebt ist.",
+          "explain": "V. 11: Die Stimme nennt ihn den geliebten Sohn, an dem Gott Gefallen hat.",
           "hint": "Vers 11.",
           "verse": 11
         },
@@ -268,11 +268,11 @@
       "explain": [
         {
           "q": "Warum lässt Jesus sich taufen?",
-          "a": "Johannes taufte zur Vergebung der Sünden. Christen glauben, dass Jesus ohne Sünde war. Schon die frühe Kirche verstand seine Taufe so: Er stellt sich ganz an die Seite der Menschen, die Umkehr brauchen."
+          "a": "Johannes taufte zur Vergebung der Sünden. Christen glauben, dass Jesus ohne Sünde war. Matthäus überliefert Jesu Begründung: um alle Gerechtigkeit zu erfüllen (Mt 3,15). Oft wird das so verstanden, dass er sich an die Seite der Menschen stellt, die Umkehr brauchen."
         },
         {
           "q": "Wilde Tiere und Engel?",
-          "a": "Markus erzählt die Versuchung in zwei Versen. Die Tiere erinnern an die Gefahr der Wüste, die Engel an Gottes Fürsorge – vielleicht auch an den Frieden des Paradieses (vgl. Jes 11,6–9)."
+          "a": "Markus erzählt die Versuchung in zwei Versen. Er deutet die Tiere und Engel nicht. Ausleger denken an die Gefahr der Wüste, an Gottes Fürsorge oder an den Frieden des Paradieses (vgl. Jes 11,6–9)."
         }
       ],
       "fact": "Bei der Taufe kommen Vater (Stimme), Sohn und Geist (Taube) zusammen vor. Die Alte Kirche hat diese Stelle oft als frühen Hinweis auf die Dreieinigkeit gelesen.",
@@ -319,11 +319,11 @@
       "explain": [
         {
           "q": "Warum folgen sie so schnell?",
-          "a": "Markus erzählt knapp. Johannes 1,35–42 deutet an, dass manche Jesus schon vorher kannten. Markus geht es um den Ruf selbst: Wenn Jesus ruft, entsteht etwas Neues."
+          "a": "Markus erzählt knapp. Johannes 1,35–42 deutet an, dass manche Jesus schon vorher kannten."
         },
         {
           "q": "Was heißt „Menschenfischer“?",
-          "a": "Ein Wortspiel mit ihrem Beruf. Bei den Propheten ist „fischen“ manchmal ein Bild für Gericht (Jer 16,16); bei Jesus wird es ein Bild dafür, Menschen für Gottes Reich zu gewinnen."
+          "a": "Ein Wortspiel mit ihrem Beruf. Bei den Propheten ist „fischen“ manchmal ein Bild für Gericht (Jer 16,16); bei Jesus wird es meist als Bild dafür verstanden, Menschen für Gottes Reich zu gewinnen."
         }
       ],
       "teaser": "In der Synagoge schreit ein Mann auf – und weiß genau, wer Jesus ist."
@@ -353,7 +353,7 @@
             "Dass er Griechisch spricht"
           ],
           "answer": 0,
-          "explain": "V. 22: Er zitiert nicht nur Autoritäten wie die Schriftgelehrten – er spricht mit eigener Autorität.",
+          "explain": "V. 22: Er lehrt wie einer, der Vollmacht hat – nicht wie die Schriftgelehrten.",
           "hint": "Vers 22.",
           "verse": 22
         },
@@ -380,11 +380,11 @@
       "explain": [
         {
           "q": "Was ist ein „unreiner Geist“?",
-          "a": "So nennt das Neue Testament dämonische Mächte, die Menschen beherrschen. Manche Ausleger sehen darin auch Krankheiten, die man damals nicht anders erklären konnte; andere betonen die Wirklichkeit geistlicher Mächte. Der Text zeigt vor allem: Jesus ist stärker als alles, was Menschen gefangen hält."
+          "a": "So nennt das Neue Testament dämonische Mächte, die Menschen beherrschen. Viele Christen betonen die Wirklichkeit geistlicher Mächte; manche denken auch an Krankheiten, die man damals so beschrieb. Mehr dazu im Plan „Die unsichtbare Welt“."
         },
         {
           "q": "Warum soll der Geist schweigen?",
-          "a": "Jesus will nicht, dass Dämonen ihn bekannt machen. Bei Markus verbietet er oft, über ihn zu reden – man nennt das das „Messiasgeheimnis“: Wer Jesus ist, versteht man erst vom Kreuz her richtig."
+          "a": "Jesus will nicht, dass Dämonen ihn bekannt machen. Bei Markus verbietet er oft, über ihn zu reden – man nennt das das „Messiasgeheimnis“. Erklärt wird es verschieden: um falsche Erwartungen an einen politischen Messias zu vermeiden, oder weil sich erst am Kreuz zeigt, wer er ist (vgl. 15,39)."
         }
       ],
       "cards": [
@@ -419,7 +419,7 @@
             "Er schläft lange"
           ],
           "answer": 0,
-          "explain": "V. 35: Nach dem Trubel sucht Jesus die Stille mit Gott.",
+          "explain": "V. 35: Er geht an einen einsamen Ort und betet.",
           "hint": "Vers 35.",
           "verse": 35
         },
@@ -439,11 +439,10 @@
         },
         {
           "q": "Warum zieht Jesus sich zurück?",
-          "a": "Markus erwähnt Jesu Gebet nur an wenigen, entscheidenden Stellen (1,35; 6,46; 14,32). Selbst Jesus braucht Zeiten allein mit Gott – gerade wenn viel los ist."
+          "a": "Markus erwähnt Jesu Gebet nur an wenigen, entscheidenden Stellen (1,35; 6,46; 14,32)."
         }
       ],
-      "teaser": "Ein Aussätziger kniet nieder. Seine Bitte beginnt mit „wenn“.",
-      "try": "Nimm dir heute fünf Minuten an einem ruhigen Ort – ohne etwas zu leisten."
+      "teaser": "Ein Aussätziger kniet nieder. Seine Bitte beginnt mit „wenn“."
     },
     {
       "id": "mk-06",
@@ -489,7 +488,7 @@
         },
         {
           "q": "Warum soll er zum Priester?",
-          "a": "Nur ein Priester konnte offiziell feststellen, dass jemand wieder rein war – dann durfte er zurück in die Gemeinschaft (3. Mose 14). Jesus will, dass der Mann auch sozial wieder dazugehört."
+          "a": "Nur ein Priester konnte offiziell feststellen, dass jemand wieder rein war – dann durfte er zurück in die Gemeinschaft (3. Mose 14)."
         }
       ],
       "cards": [
@@ -523,7 +522,7 @@
             "Was willst du?"
           ],
           "answer": 0,
-          "explain": "V. 5: Zuerst die Vergebung, dann die Heilung. Jesus sieht mehr als das, wofür man ihn gebracht hat.",
+          "explain": "V. 5: Zuerst die Vergebung, dann die Heilung.",
           "hint": "Vers 5.",
           "verse": 5
         },
@@ -547,8 +546,7 @@
           "translation": "elbbk"
         }
       ],
-      "teaser": "Jesus lädt sich zu jemandem ein, den alle anderen meiden.",
-      "try": "Gibt es jemanden, den du heute – im übertragenen Sinn – zu Jesus „tragen“ kannst? Ein Gebet für ihn reicht."
+      "teaser": "Jesus lädt sich zu jemandem ein, den alle anderen meiden."
     },
     {
       "id": "mk-08",
@@ -596,7 +594,7 @@
         },
         {
           "q": "Was bedeutet das gemeinsame Essen?",
-          "a": "Im Orient bedeutete Tischgemeinschaft Zugehörigkeit und Annahme. Mit Sündern zu essen hieß: Ich gehöre zu euch. Genau das empört die Frommen."
+          "a": "Im Orient bedeutete Tischgemeinschaft Zugehörigkeit und Annahme. Darum empört es die Schriftgelehrten, dass Jesus mit Zöllnern und Sündern isst (V. 16)."
         }
       ],
       "cards": [
@@ -637,7 +635,7 @@
           "type": "truefalse",
           "q": "Jesus sagt, dass seine Jünger niemals fasten werden.",
           "answer": false,
-          "explain": "V. 20: Es kommen Tage, an denen der Bräutigam weggenommen wird – dann werden sie fasten. Ein erster leiser Hinweis auf seinen Tod.",
+          "explain": "V. 20: Es kommen Tage, an denen der Bräutigam weggenommen wird – dann werden sie fasten. Viele Ausleger sehen darin einen ersten Hinweis auf seinen Tod.",
           "hint": "Lies Vers 20.",
           "verse": 20
         }
@@ -645,7 +643,7 @@
       "explain": [
         {
           "q": "Was ist mit den Schläuchen gemeint?",
-          "a": "Wein wurde in Schläuchen aus Tierhaut aufbewahrt. Junger Wein gärt noch und dehnt sich aus – alte, spröde Schläuche platzen. Das Neue, das mit Jesus kommt, passt nicht einfach in alte Formen."
+          "a": "Wein wurde in Schläuchen aus Tierhaut aufbewahrt. Junger Wein gärt noch und dehnt sich aus – alte, spröde Schläuche platzen. Was Jesus mit dem Bild meint, deuten Ausleger verschieden: das Neue seiner Botschaft gegenüber den gewohnten Formen der Frömmigkeit, oder die neue Zeit, die mit ihm beginnt."
         },
         {
           "q": "Fasten Christen heute?",
@@ -675,7 +673,7 @@
           "fix": "Menschen",
           "verse": 27,
           "hint": "Lies Vers 27 genau.",
-          "explain": "V. 27: Andersherum! Der Sabbat ist ein Geschenk für den Menschen."
+          "explain": "V. 27: Der Sabbat ist für den Menschen gemacht – nicht umgekehrt."
         },
         {
           "type": "choice",
@@ -699,7 +697,7 @@
         },
         {
           "q": "Was heißt „Herr des Sabbats“?",
-          "a": "Jesus beansprucht, auslegen zu dürfen, wozu Gott den Sabbat gegeben hat. Für Markus ist das ein weiterer Hinweis darauf, wer Jesus ist."
+          "a": "Jesus beansprucht, auslegen zu dürfen, wozu Gott den Sabbat gegeben hat."
         }
       ],
       "cards": [
@@ -732,7 +730,7 @@
             "Sie zitieren Mose"
           ],
           "answer": 0,
-          "explain": "V. 4: Sie schweigen – obwohl die Antwort eigentlich klar ist.",
+          "explain": "V. 4: Sie schweigen.",
           "hint": "Vers 4.",
           "verse": 4
         },
@@ -746,7 +744,7 @@
             "Gleichgültigkeit"
           ],
           "answer": 0,
-          "explain": "V. 5: Er blickt sie zornig an und ist zugleich traurig. Markus zeigt Jesus mit echten Gefühlen.",
+          "explain": "V. 5: Er blickt sie zornig an und ist zugleich traurig.",
           "hint": "Vers 5.",
           "verse": 5
         }
@@ -754,11 +752,11 @@
       "explain": [
         {
           "q": "Wer sind die Herodianer?",
-          "a": "Anhänger des Herodes Antipas. Normalerweise hatten sie mit den frommen Pharisäern wenig gemeinsam. Dass sie sich verbünden, zeigt, wie bedrohlich Jesus für beide ist."
+          "a": "Anhänger des Herodes Antipas. Normalerweise hatten sie mit den frommen Pharisäern wenig gemeinsam. Hier beraten sie gemeinsam gegen Jesus (V. 6)."
         },
         {
           "q": "Warum schon jetzt Mordpläne?",
-          "a": "Schon im 3. Kapitel steht das Kreuz am Horizont. Markus erzählt die ganze Geschichte auf das Ende in Jerusalem zu."
+          "a": "Markus erwähnt den Plan schon in Kapitel 3 (V. 6). Sechs seiner sechzehn Kapitel erzählen dann von der letzten Woche in Jerusalem."
         }
       ],
       "teaser": "Auf einem Berg wählt Jesus zwölf Männer – darunter einen, der ihn verraten wird."
@@ -788,7 +786,7 @@
             "Damit sie ein Reich gründen"
           ],
           "answer": 0,
-          "explain": "V. 14: Zuerst „bei ihm sein“, dann ausgesandt werden. Beziehung kommt vor Auftrag.",
+          "explain": "V. 14: Zuerst „bei ihm sein“, dann ausgesandt werden.",
           "hint": "Vers 14.",
           "verse": 14
         },
@@ -810,11 +808,11 @@
       "explain": [
         {
           "q": "Warum gerade zwölf?",
-          "a": "Israel bestand aus zwölf Stämmen. Mit zwölf Jüngern zeigt Jesus: Hier beginnt Gottes Volk neu."
+          "a": "Israel bestand aus zwölf Stämmen. Viele Ausleger sehen in den zwölf Jüngern eine Anspielung darauf."
         },
         {
           "q": "Warum nimmt Jesus Judas auf?",
-          "a": "Markus nennt ihn schon jetzt den, der Jesus später ausliefert (V. 19). Warum Jesus ihn trotzdem wählt, sagt der Text nicht. Die Zwölf sind keine perfekten Menschen – das zeigt Markus immer wieder."
+          "a": "Markus nennt ihn schon jetzt den, der Jesus später ausliefert (V. 19). Warum Jesus ihn trotzdem wählt, sagt der Text nicht."
         }
       ],
       "cards": [
@@ -846,7 +844,7 @@
             "Er ist der Messias"
           ],
           "answer": 0,
-          "explain": "V. 22: Sie können die Macht Jesu nicht leugnen – also erklären sie sie für teuflisch.",
+          "explain": "V. 22: Er habe den Beelzebul und treibe die Dämonen durch deren Obersten aus.",
           "hint": "Vers 22.",
           "verse": 22
         },
@@ -854,7 +852,7 @@
           "type": "truefalse",
           "q": "Jesu Angehörige wollen ihn holen, weil sie ihn für verrückt halten.",
           "answer": true,
-          "explain": "V. 21: Selbst die eigene Familie versteht ihn nicht.",
+          "explain": "V. 21:",
           "hint": "Lies Vers 21.",
           "verse": 21
         }
@@ -866,7 +864,7 @@
         },
         {
           "q": "Wer ist der „Starke“?",
-          "a": "Satan. Jesus ist der Stärkere, der ihn bindet und ihm seine „Beute“ – die gefangenen Menschen – abnimmt (V. 27)."
+          "a": "Im Zusammenhang Satan (V. 23–26). Wer das Haus des Starken plündern will, muss ihn erst binden (V. 27). Die meisten Ausleger beziehen das Binden auf Jesus selbst."
         }
       ],
       "teaser": "Draußen stehen seine Mutter und seine Brüder. Jesu Antwort ist überraschend."
@@ -895,7 +893,7 @@
             "Alle Bewohner Nazareths"
           ],
           "answer": 0,
-          "explain": "V. 35: Wer Gottes Willen tut – eine Familie, zu der jeder gehören kann.",
+          "explain": "V. 35: Wer Gottes Willen tut.",
           "hint": "Vers 35.",
           "verse": 35
         },
@@ -911,7 +909,7 @@
       "explain": [
         {
           "q": "Lehnt Jesus seine Familie ab?",
-          "a": "Nein. Er weitet den Begriff Familie. Später gehört seine Mutter zu den Jüngern (Apg 1,14), sein Bruder Jakobus wird ein Leiter der Gemeinde in Jerusalem."
+          "a": "Der Text sagt es nicht. Viele Ausleger lesen V. 35 als Erweiterung, nicht als Absage. Später gehört seine Mutter zu den Jüngern (Apg 1,14), sein Bruder Jakobus wird ein Leiter der Gemeinde in Jerusalem."
         },
         {
           "q": "Wie verstehen die Kirchen „Brüder Jesu“?",
@@ -978,7 +976,7 @@
         },
         {
           "q": "Ist hundertfach realistisch?",
-          "a": "Eine gute Ernte brachte vielleicht das Zehnfache. Hundertfach ist eine übertriebene, wunderbare Ernte – ein Bild für Gottes Reich, das am Ende alles übertrifft."
+          "a": "Eine gute Ernte brachte vielleicht das Zehnfache. Hundertfach wäre eine außergewöhnliche Ernte."
         }
       ],
       "cards": [
@@ -1033,15 +1031,14 @@
       "explain": [
         {
           "q": "Warum sollen manche nicht verstehen (V. 12)?",
-          "a": "Ein schwieriger Vers, ein Zitat aus Jesaja 6,9–10. Viele Ausleger verstehen es so: Gleichnisse öffnen sich denen, die sich darauf einlassen und nachfragen – wer nur von außen zuschaut, sieht nur eine Geschichte. Gerade die Jünger fragen nach (V. 10)."
+          "a": "Ein schwieriger Vers, ein Zitat aus Jesaja 6,9–10. Viele Ausleger verstehen es so: Gleichnisse öffnen sich denen, die nachfragen – wie die Jünger in V. 10. Andere sehen darin, wie bei Jesaja, ein Gericht über verhärtete Herzen."
         },
         {
           "q": "Welcher Boden bin ich?",
-          "a": "Eine naheliegende Frage – aber das Gleichnis lädt nicht zur Selbstverurteilung ein. Die meisten Menschen erleben alle vier Böden in verschiedenen Zeiten ihres Lebens."
+          "a": "Der Text stellt die Frage nicht direkt. Ausleger lesen das Gleichnis verschieden: als Beschreibung verschiedener Hörer, als Ermutigung für die Säenden, dass trotz Verlust Frucht wächst, oder als Spiegel für den eigenen Umgang mit dem Wort."
         }
       ],
-      "teaser": "Eine Lampe, ein Maß und ein Bauer, der schläft, während die Saat wächst.",
-      "try": "Was ist heute deine größte „Dorne“ – eine Sorge, die dir den Kopf füllt? Benenne sie einfach einmal vor Gott."
+      "teaser": "Eine Lampe, ein Maß und ein Bauer, der schläft, während die Saat wächst."
     },
     {
       "id": "mk-17",
@@ -1085,7 +1082,7 @@
         },
         {
           "q": "Was sagt die wachsende Saat?",
-          "a": "Gottes Reich wächst nicht durch menschlichen Druck. Wir dürfen säen und schlafen – Gott lässt wachsen. Für Menschen, die sich unter Leistungsdruck setzen, ein befreiender Gedanke."
+          "a": "Das Gleichnis steht nur bei Markus. Ausleger beziehen es auf das Wachsen von Gottes Reich, auf das Wirken des Wortes oder auf die Geduld bis zur Ernte (V. 29)."
         }
       ],
       "fact": "Das griechische Wort für „von selbst“ in V. 28 ist „automatē“ – daher kommt unser Wort „automatisch“.",
@@ -1124,7 +1121,7 @@
           "type": "truefalse",
           "q": "Jesus erklärt seinen Jüngern die Gleichnisse besonders.",
           "answer": true,
-          "explain": "V. 34: Den Jüngern erklärt er alles – wer nachfragt, bekommt Antwort.",
+          "explain": "V. 34: Den Jüngern erklärt er alles.",
           "hint": "Lies Vers 34.",
           "verse": 34
         }
@@ -1136,7 +1133,7 @@
         },
         {
           "q": "Warum gerade die Vögel?",
-          "a": "Im Alten Testament ist ein großer Baum, in dem Vögel nisten, ein Bild für ein Reich, das vielen Völkern Schutz gibt (Hes 17,23; Dan 4,9). Gottes Reich wird ein Ort für alle."
+          "a": "Im Alten Testament ist ein großer Baum, in dem Vögel nisten, ein Bild für ein Reich, das vielen Völkern Schutz gibt (Hes 17,23; Dan 4,9)."
         }
       ],
       "memory_verse": {
@@ -1195,7 +1192,7 @@
             "Seht ihr nun, wer ich bin?"
           ],
           "answer": 0,
-          "explain": "V. 40: Er fragt nach ihrem Vertrauen – nicht nach ihrer Seglerkunst.",
+          "explain": "V. 40: Er fragt nach ihrem Vertrauen.",
           "hint": "Vers 40.",
           "verse": 40
         }
@@ -1203,7 +1200,7 @@
       "explain": [
         {
           "q": "Warum schläft Jesus?",
-          "a": "Markus zeigt Jesus ganz menschlich: erschöpft nach einem langen Tag. Sein Schlaf mitten im Sturm wird aber auch zum Bild seines Vertrauens auf Gott (vgl. Ps 4,9)."
+          "a": "Markus sagt nur, dass er hinten im Boot auf einem Kissen schlief (V. 38). Manche Ausleger sehen darin auch ein Bild des Vertrauens (vgl. Ps 4,9)."
         },
         {
           "q": "Warum ist die Frage in V. 41 so wichtig?",
@@ -1253,7 +1250,7 @@
           ],
           "answer": 0,
           "hint": "Wer spricht hier mit wem?",
-          "explain": "V. 9: Eine Legion war eine römische Heereseinheit mit Tausenden Soldaten – ein Bild für eine überwältigende Macht."
+          "explain": "V. 9: Eine Legion war eine römische Heereseinheit mit Tausenden Soldaten."
         },
         {
           "type": "estimate",
@@ -1305,7 +1302,7 @@
             "Sie wollen Jesus zum König machen"
           ],
           "answer": 0,
-          "explain": "V. 15–17: Furcht statt Freude – vielleicht auch wegen des wirtschaftlichen Verlusts.",
+          "explain": "V. 15–17: Furcht statt Freude.",
           "hint": "Lies Vers 15–17.",
           "verse": 17
         },
@@ -1321,14 +1318,13 @@
       "explain": [
         {
           "q": "Warum darf er hier erzählen?",
-          "a": "Sonst verbietet Jesus oft, von ihm zu reden. Hier im nichtjüdischen Gebiet bestand nicht die Gefahr, dass man ihn als politischen Messias missverstand. Der Mann wird zu einem der ersten Boten unter Nichtjuden."
+          "a": "Sonst verbietet Jesus oft, von ihm zu reden. Eine häufige Erklärung: Im nichtjüdischen Gebiet bestand nicht die Gefahr, dass man ihn als politischen Messias missverstand. Der Mann wird zu einem der ersten Boten unter Nichtjuden."
         }
       ],
       "cards": [
         "dekapolis"
       ],
-      "teaser": "Ein angesehener Mann bittet für seine sterbende Tochter. Und dann wird Jesus aufgehalten.",
-      "try": "Erzähl heute einer Person von etwas Gutem, das du erlebt hast – es muss nichts Großes sein."
+      "teaser": "Ein angesehener Mann bittet für seine sterbende Tochter. Und dann wird Jesus aufgehalten."
     },
     {
       "id": "mk-22",
@@ -1367,7 +1363,7 @@
             "Fremde"
           ],
           "answer": 0,
-          "explain": "V. 34: „Tochter“ – eine Ausgestoßene wird in die Familie aufgenommen.",
+          "explain": "V. 34: „Tochter“.",
           "hint": "Vers 34.",
           "verse": 34
         }
@@ -1375,11 +1371,11 @@
       "explain": [
         {
           "q": "Warum berührt sie ihn heimlich?",
-          "a": "Mit ihren Blutungen galt sie als unrein; wer sie berührte, wurde es auch (3. Mose 15,25–27). Sie durfte eigentlich nicht in die Menge. Jesus holt sie aus der Heimlichkeit – nicht um sie bloßzustellen, sondern um sie öffentlich als geheilt und angenommen zu erklären."
+          "a": "Mit ihren Blutungen galt sie als unrein; wer sie berührte, wurde es auch (3. Mose 15,25–27). Sie durfte eigentlich nicht in die Menge."
         },
         {
           "q": "Warum sucht Jesus sie, obwohl es eilt?",
-          "a": "Ein sterbendes Kind wartet – und Jesus bleibt stehen. Markus verschachtelt die beiden Geschichten bewusst: Für Jesus ist keiner unwichtiger als der andere."
+          "a": "Ein sterbendes Kind wartet – und Jesus bleibt stehen. Markus verschachtelt die beiden Geschichten. Das tut er öfter (z. B. 3,20–35; 11,12–25); Ausleger sprechen von „Sandwich-Technik“."
         }
       ],
       "teaser": "Boten kommen: Zu spät, das Mädchen ist tot. Jesus hört es – und geht trotzdem weiter."
@@ -1431,7 +1427,7 @@
             "Einen neuen Namen"
           ],
           "answer": 0,
-          "explain": "V. 43: Etwas zu essen – ganz praktische Fürsorge nach dem Wunder.",
+          "explain": "V. 43: Etwas zu essen.",
           "hint": "Vers 43.",
           "verse": 43
         }
@@ -1443,7 +1439,7 @@
         },
         {
           "q": "Warum aramäisch?",
-          "a": "Aramäisch war die Alltagssprache Jesu. Dass Markus, der griechisch schreibt, die Worte original überliefert, zeigt, wie wertvoll die Erinnerung daran war."
+          "a": "Aramäisch war die Alltagssprache Jesu. Markus, der griechisch schreibt, überliefert die Worte im Original und übersetzt sie gleich."
         }
       ],
       "teaser": "In seiner Heimatstadt kennen ihn alle. Genau das wird zum Problem."
@@ -1493,7 +1489,7 @@
         },
         {
           "q": "Warum konnte Jesus dort nichts tun?",
-          "a": "Markus sagt ehrlich, dass Jesus „nicht konnte“. Seine Wunder sind keine Zaubershow; sie geschehen in einer Beziehung des Vertrauens."
+          "a": "V. 5–6 verbindet das „nicht können“ mit ihrem Unglauben. Ausleger deuten es verschieden: als Grenze, die Jesus sich selbst setzt, oder als Hinweis, dass er ohne Vertrauen keine Zeichen tun wollte. Matthäus schreibt: Er tat dort nicht viele Wunder (Mt 13,58)."
         }
       ],
       "teaser": "Die Zwölf werden ausgesandt – mit erstaunlich wenig Gepäck."
@@ -1522,7 +1518,7 @@
             "Zwei Gewänder"
           ],
           "answer": 0,
-          "explain": "V. 8–9: Nur Stab und Sandalen. Sie sollen sich auf Gott und die Gastfreundschaft anderer verlassen.",
+          "explain": "V. 8–9: Nur Stab und Sandalen – kein Brot, keine Tasche, kein Geld.",
           "hint": "Lies Vers 8–9.",
           "verse": 8
         },
@@ -1530,7 +1526,7 @@
           "type": "truefalse",
           "q": "Jesus schickt die Zwölf einzeln los.",
           "answer": false,
-          "explain": "V. 7: zu zweit – niemand ist allein unterwegs.",
+          "explain": "V. 7: zu zweit.",
           "hint": "Vers 7.",
           "verse": 7
         }
@@ -1538,7 +1534,7 @@
       "explain": [
         {
           "q": "Was heißt „Staub abschütteln“?",
-          "a": "Fromme Juden schüttelten den Staub ab, wenn sie aus heidnischem Gebiet zurückkamen. Hier ist es ein Zeichen: Wir lassen euch die Verantwortung für eure Ablehnung – ohne Gewalt oder Rache."
+          "a": "Fromme Juden schüttelten den Staub ab, wenn sie aus heidnischem Gebiet zurückkamen. Hier nennt Jesus es „ihnen zum Zeugnis“ (V. 11)."
         },
         {
           "q": "Warum mit Öl salben?",
@@ -1579,7 +1575,7 @@
           "type": "truefalse",
           "q": "Herodes hörte Johannes gern zu.",
           "answer": true,
-          "explain": "V. 20: Er wusste, dass Johannes gerecht war – und war zugleich ratlos. Ein innerlich zerrissener Mann.",
+          "explain": "V. 20: Er wusste, dass Johannes gerecht war – und war zugleich ratlos.",
           "hint": "Lies Vers 20.",
           "verse": 20
         }
@@ -1619,7 +1615,7 @@
             "Ohne jede Grenze"
           ],
           "answer": 0,
-          "explain": "V. 23: bis zur Hälfte seines Reiches – ein großspuriger Schwur vor Gästen.",
+          "explain": "V. 23: bis zur Hälfte seines Reiches.",
           "hint": "Vers 23.",
           "verse": 23
         },
@@ -1633,7 +1629,7 @@
             "Weil Johannes geflohen war"
           ],
           "answer": 0,
-          "explain": "V. 26: Aus Angst, vor den Gästen sein Gesicht zu verlieren. Menschenfurcht siegt über das Gewissen.",
+          "explain": "V. 26: Aus Angst, vor den Gästen sein Gesicht zu verlieren.",
           "hint": "Vers 26.",
           "verse": 26
         }
@@ -1641,7 +1637,7 @@
       "explain": [
         {
           "q": "Warum steht diese Geschichte hier?",
-          "a": "Markus erzählt sie zwischen Aussendung und Rückkehr der Jünger. Das ist ein Hinweis: Wer Gottes Botschaft ausrichtet, kann wie Johannes Widerstand erfahren – und Jesu eigenes Schicksal kündigt sich an."
+          "a": "Markus erzählt sie zwischen Aussendung und Rückkehr der Jünger. Ausleger sehen darin oft einen Hinweis auf das, was den Jüngern und Jesus selbst bevorsteht."
         }
       ],
       "fact": "Der jüdische Historiker Flavius Josephus berichtet ebenfalls von der Hinrichtung Johannes des Täufers durch Herodes Antipas – in der Festung Machärus östlich des Toten Meeres.",
@@ -1672,7 +1668,7 @@
             "Fastet drei Tage"
           ],
           "answer": 0,
-          "explain": "V. 31: Ausruhen ist kein Luxus – Jesus selbst lädt dazu ein.",
+          "explain": "V. 31: an einen einsamen Ort kommen und ein wenig ausruhen.",
           "hint": "Vers 31.",
           "verse": 31
         },
@@ -1686,7 +1682,7 @@
             "Mit Fischen im Netz"
           ],
           "answer": 0,
-          "explain": "V. 34: Ohne Hirte – orientierungslos. Das erinnert an Hesekiel 34, wo Gott selbst sein Volk weiden will.",
+          "explain": "V. 34: wie Schafe ohne Hirten. Das Bild kommt im Alten Testament öfter vor (4Mo 27,17; Hes 34).",
           "hint": "Vers 34.",
           "verse": 34
         }
@@ -1706,8 +1702,7 @@
         },
         "text": "Kommt ihr selbst her an einen öden Ort besonders und ruht ein wenig aus"
       },
-      "teaser": "Fünftausend hungrige Menschen. Fünf Brote. Und Jesus sagt: Gebt ihr ihnen zu essen.",
-      "try": "Plan dir heute bewusst eine kleine Pause ein – ohne schlechtes Gewissen. Jesus hat es seinen Jüngern verordnet."
+      "teaser": "Fünftausend hungrige Menschen. Fünf Brote. Und Jesus sagt: Gebt ihr ihnen zu essen."
     },
     {
       "id": "mk-29",
@@ -1743,7 +1738,7 @@
           "answer": 12,
           "tolerance": 0,
           "unit": "Körbe",
-          "explain": "V. 43: zwölf – so viele wie die Stämme Israels und die Jünger.",
+          "explain": "V. 43: zwölf.",
           "hint": "Vers 43.",
           "verse": 43
         }
@@ -1751,7 +1746,7 @@
       "explain": [
         {
           "q": "Warum lagern sie in Gruppen zu 100 und 50?",
-          "a": "Das erinnert an Israels Ordnung in der Wüste (2. Mose 18,21). Auch das „grüne Gras“ (V. 39) erinnert an Psalm 23: Der gute Hirte lässt lagern auf grüner Weide."
+          "a": "Manche Ausleger denken an Israels Ordnung in der Wüste (2. Mose 18,21) und beim „grünen Gras“ (V. 39) an Psalm 23,2."
         },
         {
           "q": "Wie viele Menschen waren es wirklich?",
@@ -1810,7 +1805,7 @@
         },
         {
           "q": "Warum „wollte er vorübergehen“?",
-          "a": "Ein seltsamer Satz (V. 48). Er erinnert an Gotteserscheinungen im Alten Testament: Gott „ging vorüber“ an Mose und Elia (2. Mose 33,22; 1. Kön 19,11). Jesus zeigt sich hier mit göttlicher Würde."
+          "a": "Ein seltsamer Satz (V. 48). Er erinnert an Gotteserscheinungen im Alten Testament: Gott „ging vorüber“ an Mose und Elia (2. Mose 33,22; 1. Kön 19,11). Viele Ausleger lesen V. 48 deshalb als Hinweis darauf, wer Jesus ist."
         }
       ],
       "teaser": "Ungewaschene Hände lösen einen Grundsatzstreit aus."
@@ -1894,7 +1889,7 @@
             "Aus dem Tempel"
           ],
           "answer": 0,
-          "explain": "V. 21: Aus dem Herzen. Jesus verlagert die Frage nach Reinheit vom Teller ins Innere.",
+          "explain": "V. 21: Aus dem Herzen.",
           "hint": "Vers 21.",
           "verse": 21
         },
@@ -1947,7 +1942,7 @@
           ],
           "answer": 0,
           "hint": "Wer spricht hier mit wem?",
-          "explain": "V. 28: Eine schlagfertige, demütige und zugleich mutige Antwort."
+          "explain": "V. 28: Sie greift Jesu Bild auf und führt es weiter."
         },
         {
           "type": "choice",
@@ -1959,7 +1954,7 @@
             "Weil sie Jüdin wird"
           ],
           "answer": 0,
-          "explain": "V. 29: Wegen ihrer Antwort – ihr Vertrauen überzeugt ihn.",
+          "explain": "V. 29: um dieses Wortes willen.",
           "hint": "Vers 29.",
           "verse": 29
         }
@@ -1967,7 +1962,7 @@
       "explain": [
         {
           "q": "Warum spricht Jesus so hart?",
-          "a": "Eine schwierige Stelle. „Kinder“ meint Israel, zu dem Jesus zuerst gesandt ist; „Hunde“ war ein gängiges abwertendes Wort für Nichtjuden. Manche Ausleger meinen, Jesus prüfe die Frau; andere, er lasse sich von ihr bewegen. Auf jeden Fall endet die Geschichte damit, dass auch Nichtjuden Anteil an Gottes Brot bekommen."
+          "a": "Eine schwierige Stelle. „Kinder“ meint Israel, zu dem Jesus zuerst gesandt ist; „Hunde“ war ein gängiges abwertendes Wort für Nichtjuden. Manche Ausleger meinen, Jesus prüfe die Frau; andere, er lasse sich von ihr bewegen. Am Ende ist die Tochter gesund (V. 30)."
         }
       ],
       "fact": "Die Frau ist die einzige Person im Markusevangelium, die mit Jesus diskutiert und dabei recht bekommt.",
@@ -2006,7 +2001,7 @@
           "type": "truefalse",
           "q": "Jesus heilt den Mann vor der ganzen Menge.",
           "answer": false,
-          "explain": "V. 33: Er nimmt ihn beiseite – eine persönliche, behutsame Heilung.",
+          "explain": "V. 33: Er nimmt ihn beiseite.",
           "hint": "Lies Vers 33.",
           "verse": 33
         }
@@ -2014,11 +2009,11 @@
       "explain": [
         {
           "q": "Warum diese Gesten?",
-          "a": "Finger in die Ohren, Speichel auf die Zunge: Jesus „spricht“ mit dem Mann in einer Sprache, die er versteht – durch Berührung. Speichel galt damals auch als Heilmittel."
+          "a": "Finger in die Ohren, Speichel auf die Zunge. Wofür die Gesten stehen, sagt der Text nicht. Speichel galt damals auch als Heilmittel."
         },
         {
           "q": "Was bedeutet der Ausruf in V. 37?",
-          "a": "Dass er alles gut gemacht hat, erinnert an die Schöpfung (1. Mose 1,31), „Taube hören, Stumme reden“ an Jesaja 35,5–6: Gottes neue Welt bricht an."
+          "a": "Manche Ausleger hören darin Anklänge an 1. Mose 1,31 und an Jesaja 35,5–6."
         }
       ],
       "fact": "In manchen Kirchen berührt der Pfarrer bei der Taufe Ohren und Mund des Täuflings und spricht „Effata“ – nach dieser Geschichte.",
@@ -2060,7 +2055,7 @@
             "Warum hast du so lange gewartet?"
           ],
           "answer": 0,
-          "explain": "V. 4: Als hätten sie nichts erlebt. Markus zeigt ehrlich, wie langsam die Jünger verstehen.",
+          "explain": "V. 4: Als hätten sie nichts erlebt.",
           "hint": "Vers 4.",
           "verse": 4
         }
@@ -2068,7 +2063,7 @@
       "explain": [
         {
           "q": "Ist das nicht dieselbe Geschichte zweimal?",
-          "a": "Manche Ausleger vermuten zwei Fassungen desselben Ereignisses. Markus erzählt sie bewusst als zwei Ereignisse (vgl. 8,19–20): einmal wohl am jüdischen Westufer, einmal im nichtjüdischen Gebiet. Brot für beide."
+          "a": "Markus erzählt sie als zwei Ereignisse, und Jesus nennt beide in 8,19–20. Die zweite spielt wohl im nichtjüdischen Gebiet (vgl. 7,31)."
         }
       ],
       "teaser": "Die Jünger haben nur ein Brot im Boot – und verstehen Jesu Warnung völlig falsch."
@@ -2097,7 +2092,7 @@
             "Vor zu viel Essen"
           ],
           "answer": 0,
-          "explain": "V. 15: Sauerteig durchdringt alles – ein Bild für eine Haltung, die sich ausbreitet.",
+          "explain": "V. 15: vor dem Sauerteig der Pharisäer und des Herodes.",
           "hint": "Vers 15.",
           "verse": 15
         },
@@ -2113,11 +2108,11 @@
       "explain": [
         {
           "q": "Was ist der „Sauerteig“?",
-          "a": "Sauerteig lässt den ganzen Teig gären. Gemeint ist wohl eine Grundhaltung: bei den Pharisäern die Forderung nach Beweisen, bei Herodes Machtstreben. Beides macht blind für Gott."
+          "a": "Sauerteig lässt den ganzen Teig gären. Ausleger denken an eine Grundhaltung: bei den Pharisäern die Forderung nach Zeichen (V. 11), bei Herodes Machtstreben."
         },
         {
           "q": "Warum fragt Jesus nach den Körben?",
-          "a": "Zwölf und sieben Körbe übrig (V. 19–20) – es war immer mehr als genug. Wer das erlebt hat, muss sich um ein fehlendes Brot keine Sorgen machen."
+          "a": "Zwölf und sieben Körbe übrig (V. 19–20) – es war immer mehr als genug."
         }
       ],
       "teaser": "Ein Blinder sieht zunächst nur halb. Jesus legt ein zweites Mal die Hände auf."
@@ -2227,7 +2222,7 @@
             "Weil er zu laut war"
           ],
           "answer": 0,
-          "explain": "V. 33: Petrus denkt wie Menschen denken: Ein Messias leidet nicht. Das ist dieselbe Versuchung wie in der Wüste – den leichteren Weg zu gehen.",
+          "explain": "V. 33: Er denkt nicht, was Gottes ist, sondern was der Menschen ist.",
           "hint": "Vers 33.",
           "verse": 33
         }
@@ -2235,11 +2230,11 @@
       "explain": [
         {
           "q": "Was heißt „Christus“?",
-          "a": "Griechisch für „Messias“, der Gesalbte – der erwartete König. Viele erwarteten einen politischen Befreier von Rom. Deshalb soll niemand es weitersagen (V. 30): Jesus ist ein anderer Messias."
+          "a": "Griechisch für „Messias“, der Gesalbte – der erwartete König. Viele erwarteten einen politischen Befreier von Rom. Warum niemand es weitersagen soll (V. 30), sagt der Text nicht; viele Ausleger denken an diese Erwartung."
         },
         {
           "q": "Ist Petrus jetzt „der Satan“?",
-          "a": "Nein – „Satan“ heißt „Widersacher“. Jesus weist den Gedanken zurück, nicht die Person. Petrus bleibt Jünger."
+          "a": "„Satan“ heißt „Widersacher“. V. 33 nennt den Grund: Petrus denkt nicht, was Gottes ist, sondern was der Menschen ist. Petrus bleibt im Kreis der Jünger."
         }
       ],
       "cards": [
@@ -2277,7 +2272,7 @@
             "Es macht einen zum König"
           ],
           "answer": 0,
-          "explain": "V. 36: Das Wichtigste lässt sich nicht kaufen.",
+          "explain": "V. 36: Es nützt nichts, wenn man dabei sein Leben einbüßt.",
           "hint": "Vers 36.",
           "verse": 36
         },
@@ -2285,7 +2280,7 @@
           "type": "truefalse",
           "q": "Jesus richtet diese Worte nur an die Zwölf.",
           "answer": false,
-          "explain": "V. 34: Er ruft die Menge samt den Jüngern – die Einladung gilt allen.",
+          "explain": "V. 34: Er ruft die Volksmenge samt seinen Jüngern zu sich.",
           "hint": "Lies Vers 34.",
           "verse": 34
         }
@@ -2293,7 +2288,7 @@
       "explain": [
         {
           "q": "Was heißt „sein Kreuz aufnehmen“?",
-          "a": "Verurteilte mussten den Querbalken ihres Kreuzes selbst zum Hinrichtungsort tragen. Jesus meint: bereit sein, für ihn auch Nachteile, Ablehnung, sogar den Tod in Kauf zu nehmen. Es meint nicht, jedes Unglück als gottgewollt hinzunehmen."
+          "a": "Verurteilte mussten den Querbalken ihres Kreuzes selbst zum Hinrichtungsort tragen. Die meisten Ausleger verstehen das als Bereitschaft, für Jesus Nachteile, Ablehnung oder sogar den Tod in Kauf zu nehmen."
         },
         {
           "q": "Was bedeutet 9,1?",
@@ -2335,7 +2330,7 @@
             "Zwei Engel"
           ],
           "answer": 0,
-          "explain": "V. 4: Mose steht für das Gesetz, Elia für die Propheten – beide bestätigen Jesus.",
+          "explain": "V. 4: Elia mit Mose. Oft gedeutet: Mose für das Gesetz, Elia für die Propheten.",
           "hint": "Vers 4.",
           "verse": 4
         },
@@ -2357,7 +2352,7 @@
       "explain": [
         {
           "q": "Was ist eine „Verklärung“?",
-          "a": "Jesus wird „umgestaltet“ (griechisch metamorphoō): Für einen Moment sehen die Jünger seine göttliche Herrlichkeit. Die Ostkirche feiert dieses Ereignis als eines der großen Feste."
+          "a": "Jesus wird „umgestaltet“ (griechisch metamorphoō). Christen verstehen das meist so: Für einen Moment sehen die Jünger seine göttliche Herrlichkeit. Die Ostkirche feiert dieses Ereignis als eines der großen Feste."
         },
         {
           "q": "Was hat Elia mit Johannes zu tun?",
@@ -2399,7 +2394,7 @@
           "type": "truefalse",
           "q": "Jesus ist von der Lage frustriert.",
           "answer": true,
-          "explain": "V. 19: Er fragt, wie lange er sie noch ertragen soll. Auch Jesu Ungeduld verschweigt Markus nicht.",
+          "explain": "V. 19: Er fragt, wie lange er sie noch ertragen soll.",
           "hint": "Lies Vers 19.",
           "verse": 19
         }
@@ -2407,7 +2402,7 @@
       "explain": [
         {
           "q": "Welche Krankheit hatte der Junge?",
-          "a": "Die Beschreibung (Krämpfe, Schaum, Zähneknirschen) erinnert an Epilepsie. Matthäus nennt ihn „mondsüchtig“. Der Text spricht von einem Geist. Für Markus wichtig: Das Leiden ist schlimm, alt und hat menschliche Hilfe überfordert."
+          "a": "Die Beschreibung (Krämpfe, Schaum, Zähneknirschen) erinnert an Epilepsie. Matthäus nennt ihn „mondsüchtig“. Der Text spricht von einem Geist."
         }
       ],
       "teaser": "Der Vater sagt den vielleicht ehrlichsten Satz des Neuen Testaments."
@@ -2444,13 +2439,13 @@
           ],
           "answer": 0,
           "hint": "Wer spricht hier mit wem?",
-          "explain": "V. 24: Glaube und Zweifel in einem Satz – und Jesus hilft trotzdem."
+          "explain": "V. 24: Glaube und Unglaube in einem Satz. Danach heilt Jesus den Jungen (V. 25)."
         },
         {
           "type": "truefalse",
           "q": "Jesus wartet mit der Heilung, bis der Vater keine Zweifel mehr hat.",
           "answer": false,
-          "explain": "V. 24–25: Der Vater gesteht seinen Unglauben – und Jesus heilt sofort. Ein schwacher Glaube reicht.",
+          "explain": "V. 24–25: Der Vater gesteht seinen Unglauben – und Jesus heilt sofort.",
           "hint": "Lies Vers 24–25.",
           "verse": 25
         }
@@ -2458,7 +2453,7 @@
       "explain": [
         {
           "q": "Was ist mit „Gebet und Fasten“?",
-          "a": "V. 29: Diese Art kann nur durch Gebet ausfahren. „Und Fasten“ fehlt in vielen alten Handschriften – deshalb steht es in manchen Bibeln in Klammern. Gemeint ist: Nicht Technik, sondern die Verbindung zu Gott ist entscheidend."
+          "a": "V. 29: Diese Art kann nur durch Gebet ausfahren. „Und Fasten“ fehlt in vielen alten Handschriften – deshalb steht es in manchen Bibeln in Klammern."
         }
       ],
       "memory_verse": {
@@ -2506,7 +2501,7 @@
             "Über die Römer"
           ],
           "answer": 0,
-          "explain": "V. 34: Während Jesus vom Leiden spricht, geht es ihnen um Rang – deshalb schweigen sie verlegen.",
+          "explain": "V. 34: darüber, wer der Größte sei. Als Jesus fragt, schweigen sie.",
           "hint": "Vers 34.",
           "verse": 34
         },
@@ -2517,17 +2512,16 @@
           "fix": "Diener",
           "verse": 35,
           "hint": "Lies Vers 35.",
-          "explain": "V. 35: Diener aller – Größe auf den Kopf gestellt."
+          "explain": "V. 35: Diener aller."
         }
       ],
       "explain": [
         {
           "q": "Warum ein Kind?",
-          "a": "Kinder hatten damals keine Rechte und keinen Status. Wer ein Kind aufnimmt, bekommt nichts zurück. Genau so, sagt Jesus, nimmt man ihn und Gott auf (V. 37)."
+          "a": "Kinder hatten damals keine Rechte und keinen Status. V. 37: Wer ein solches Kind in Jesu Namen aufnimmt, nimmt ihn auf – und den, der ihn gesandt hat."
         }
       ],
-      "teaser": "Jemand treibt in Jesu Namen Dämonen aus – ohne zu den Jüngern zu gehören. Darf er das?",
-      "try": "Achte heute auf eine Person, die leicht übersehen wird – und schenk ihr Aufmerksamkeit."
+      "teaser": "Jemand treibt in Jesu Namen Dämonen aus – ohne zu den Jüngern zu gehören. Darf er das?"
     },
     {
       "id": "mk-44",
@@ -2553,7 +2547,7 @@
             "Er ist ein falscher Prophet"
           ],
           "answer": 0,
-          "explain": "V. 40: Jesus ist großzügiger als seine Jünger.",
+          "explain": "V. 40: Wer nicht gegen sie ist, ist für sie.",
           "hint": "Vers 40.",
           "verse": 40
         },
@@ -2561,7 +2555,7 @@
           "type": "truefalse",
           "q": "Ein Becher Wasser in Jesu Namen bleibt nicht unbelohnt.",
           "answer": true,
-          "explain": "V. 41: Selbst die kleinste Hilfe ist vor Gott nicht vergessen.",
+          "explain": "V. 41: Er wird seinen Lohn nicht verlieren.",
           "hint": "Lies Vers 41.",
           "verse": 41
         }
@@ -2569,11 +2563,11 @@
       "explain": [
         {
           "q": "Soll man sich wirklich die Hand abhauen?",
-          "a": "Nein, das ist bewusste Übertreibung – ein orientalisches Stilmittel. Gemeint ist: Nimm ernst, was dich oder andere von Gott wegbringt, und trenne dich davon, auch wenn es weh tut."
+          "a": "Fast alle Ausleger lesen das als bewusste Übertreibung, ein bekanntes Stilmittel. V. 43–47 nennen selbst den Bezug: das, was einen zu Fall bringt."
         },
         {
           "q": "Was bedeutet „Salz“?",
-          "a": "Salz würzt und konserviert. Jesu Jünger sollen etwas Wertvolles in sich tragen – und es zeigt sich darin, dass sie Frieden halten (V. 50)."
+          "a": "Salz würzt und konserviert. V. 50 verbindet das Bild mit dem Frieden untereinander. Was „mit Feuer gesalzen“ (V. 49) meint, gehört zu den schwierigsten Stellen des Buches."
         }
       ],
       "memory_verse": {
@@ -2611,7 +2605,7 @@
             "Wegen des Krieges"
           ],
           "answer": 0,
-          "explain": "V. 5: Ein Zugeständnis an die Wirklichkeit, nicht Gottes ursprüngliche Absicht.",
+          "explain": "V. 5: wegen der Herzenshärte – vom Anfang der Schöpfung an war es anders (V. 6).",
           "hint": "Vers 5.",
           "verse": 5
         },
@@ -2625,7 +2619,7 @@
             "Auf das Buch Jona"
           ],
           "answer": 0,
-          "explain": "V. 6–8: 1. Mose 1,27 und 2,24 – Gottes ursprüngliche Absicht.",
+          "explain": "V. 6–8: 1. Mose 1,27 und 2,24.",
           "hint": "Lies Vers 6–8.",
           "verse": 6
         }
@@ -2633,7 +2627,7 @@
       "explain": [
         {
           "q": "Wie gehen die Kirchen mit Scheidung um?",
-          "a": "Die katholische Kirche hält eine gültig geschlossene sakramentale Ehe für unauflöslich; eine Wiederheirat ist kirchlich nur nach einer Annullierung möglich. Orthodoxe Kirchen erlauben in Ausnahmen eine zweite Ehe als Zugeständnis. Evangelische und viele Freikirchen sehen die Ehe als lebenslang gedacht, ermöglichen aber Scheidung und Wiederheirat als Weg in zerbrochenen Situationen. Allen ist wichtig: Gott meint die Ehe auf Dauer – und Gottes Gnade gilt auch nach dem Scheitern."
+          "a": "Die katholische Kirche hält eine gültig geschlossene sakramentale Ehe für unauflöslich; eine Wiederheirat ist kirchlich nur nach einer Annullierung möglich. Orthodoxe Kirchen erlauben in Ausnahmen eine zweite Ehe als Zugeständnis. Evangelische und viele Freikirchen sehen die Ehe als lebenslang gedacht, ermöglichen aber Scheidung und Wiederheirat als Weg in zerbrochenen Situationen. Allen ist wichtig: Gott meint die Ehe auf Dauer."
         },
         {
           "q": "Warum fragen sie das?",
@@ -2682,7 +2676,7 @@
       "explain": [
         {
           "q": "Was heißt, das Reich „wie ein Kind“ aufnehmen?",
-          "a": "Kinder können sich nichts verdienen – sie empfangen. So, sagt Jesus, empfängt man Gottes Reich: als Geschenk, nicht als Leistung."
+          "a": "Der Text sagt nur: wie ein Kind (V. 15). Ausleger denken an Empfangen ohne eigene Leistung, an Vertrauen, an Abhängigkeit oder an Demut."
         },
         {
           "q": "Hat das etwas mit der Kindertaufe zu tun?",
@@ -2716,7 +2710,7 @@
             "Er prüft sein Vermögen"
           ],
           "answer": 0,
-          "explain": "V. 21: Die Forderung kommt aus Liebe, nicht aus Härte.",
+          "explain": "V. 21: Jesus sieht ihn an und liebt ihn.",
           "hint": "Vers 21.",
           "verse": 21
         },
@@ -2738,11 +2732,11 @@
       "explain": [
         {
           "q": "Gab es ein „Nadelöhr-Tor“ in Jerusalem?",
-          "a": "Diese oft erzählte Erklärung ist nicht belegt. Jesus benutzt ein absichtlich absurdes Bild: Aus eigener Kraft schafft es keiner – nur Gott macht es möglich (V. 27)."
+          "a": "Diese oft erzählte Erklärung ist nicht belegt. Die meisten Ausleger lesen es als bewusst unmögliches Bild; V. 27 verbindet es mit dem Satz, dass bei Gott alles möglich ist."
         },
         {
           "q": "Müssen alle Christen ihren Besitz verkaufen?",
-          "a": "Jesus sagt das zu diesem Mann, dessen Besitz ihn festhielt. Mönchsorden haben es wörtlich genommen; die meisten Christen verstehen es als Frage an sich selbst: Was hält mich davon ab, Jesus ganz zu folgen?"
+          "a": "Jesus sagt es hier zu diesem einen Mann. Mönchsorden und Bewegungen wie die des Franz von Assisi haben es wörtlich genommen; die meisten Kirchen verstehen es nicht als Gebot für alle."
         }
       ],
       "teaser": "Petrus sagt: Wir haben alles verlassen. Was haben wir davon?"
@@ -2765,7 +2759,7 @@
           "type": "truefalse",
           "q": "Jesus verspricht seinen Nachfolgern ein Leben ohne Schwierigkeiten.",
           "answer": false,
-          "explain": "V. 30: hundertfach – „mit Verfolgungen“. Ehrlich, nicht naiv.",
+          "explain": "V. 30: hundertfach – „mit Verfolgungen“.",
           "hint": "Lies Vers 30 genau.",
           "verse": 30
         },
@@ -2776,7 +2770,7 @@
           "fix": "Letzte",
           "verse": 31,
           "hint": "Lies Vers 31.",
-          "explain": "V. 31: Viele Erste werden Letzte und Letzte Erste sein – Gottes Maßstäbe sind andere."
+          "explain": "V. 31: Viele Erste werden Letzte und Letzte Erste sein."
         }
       ],
       "explain": [
@@ -2805,7 +2799,7 @@
           "type": "truefalse",
           "q": "Jesus geht den Jüngern auf dem Weg nach Jerusalem voraus.",
           "answer": true,
-          "explain": "V. 32: Er geht vorne – entschlossen, obwohl er weiß, was kommt.",
+          "explain": "V. 32: Er geht vor ihnen her, und sie entsetzen sich.",
           "hint": "Lies Vers 32.",
           "verse": 32
         },
@@ -2861,7 +2855,7 @@
           ],
           "answer": 0,
           "hint": "Wer spricht hier mit wem?",
-          "explain": "V. 39: Sie überschätzen sich – und doch werden sie später tatsächlich für Jesus leiden."
+          "explain": "V. 39: Jesus sagt ihnen, sie werden den Kelch trinken. Jakobus wurde später hingerichtet (Apg 12,2)."
         },
         {
           "type": "choice",
@@ -2873,7 +2867,7 @@
             "Um den Tempel neu zu bauen"
           ],
           "answer": 0,
-          "explain": "V. 45: einer der wichtigsten Verse des Markusevangeliums.",
+          "explain": "V. 45: um zu dienen und sein Leben hinzugeben – als Lösegeld.",
           "hint": "Vers 45.",
           "verse": 45
         }
@@ -2928,7 +2922,7 @@
           ],
           "answer": 0,
           "hint": "Wer spricht hier mit wem?",
-          "explain": "V. 47: Er nennt Jesus „Sohn Davids“ – den Messias-Titel. Der Blinde sieht, wer Jesus ist."
+          "explain": "V. 47: Er nennt Jesus „Sohn Davids“ – den Messias-Titel."
         },
         {
           "type": "choice",
@@ -2940,7 +2934,7 @@
             "Er bittet um Geld"
           ],
           "answer": 0,
-          "explain": "V. 50: Der Mantel war vielleicht sein einziger Besitz und Schutz – er lässt ihn zurück.",
+          "explain": "V. 50: Er wirft seinen Mantel ab, springt auf und kommt.",
           "hint": "Vers 50.",
           "verse": 50
         }
@@ -2948,11 +2942,11 @@
       "explain": [
         {
           "q": "Warum fragt Jesus „Was willst du?“",
-          "a": "Es ist offensichtlich, was ein Blinder will. Doch Jesus nimmt ihn als Person ernst und lässt ihn seinen Wunsch selbst aussprechen. Dieselbe Frage hatte er kurz vorher Jakobus und Johannes gestellt (10,36) – mit ganz anderer Antwort."
+          "a": "Es ist offensichtlich, was ein Blinder will. Dieselbe Frage hatte er kurz vorher Jakobus und Johannes gestellt (10,36) – mit ganz anderer Antwort."
         },
         {
           "q": "Warum steht diese Geschichte hier?",
-          "a": "Sie schließt den Weg nach Jerusalem ab, der mit der Heilung eines Blinden begann (8,22–26). Bartimäus ist am Ende das Vorbild: Er sieht und folgt Jesus „auf dem Weg“ – nach Jerusalem."
+          "a": "Sie schließt den Weg nach Jerusalem ab, der mit der Heilung eines Blinden begann (8,22–26). Am Ende folgt Bartimäus Jesus „auf dem Weg“ (V. 52) – nach Jerusalem."
         }
       ],
       "prayer": {
@@ -3008,7 +3002,7 @@
       "explain": [
         {
           "q": "Warum auf einem Fohlen?",
-          "a": "Der Prophet Sacharja hatte angekündigt: Dein König kommt zu dir, sanftmütig, auf einem Esel (Sach 9,9). Ein Kriegsherr ritt auf einem Pferd – Jesus kommt als Friedenskönig."
+          "a": "Der Prophet Sacharja hatte angekündigt: Dein König kommt zu dir, sanftmütig, auf einem Esel (Sach 9,9). Ein Kriegsherr ritt eher auf einem Pferd. Matthäus und Johannes zitieren Sach 9,9 hier ausdrücklich (Mt 21,5; Joh 12,15), Markus nicht."
         },
         {
           "q": "Was heißt „Hosanna“?",
@@ -3040,7 +3034,7 @@
           "type": "truefalse",
           "q": "Laut Markus war gerade keine Zeit für Feigen.",
           "answer": true,
-          "explain": "V. 13: Ein seltsames Detail – es zeigt: Es geht um ein Zeichen, nicht um Jesu Hunger.",
+          "explain": "V. 13: Es war nicht die Zeit der Feigen. Ein Detail, das Ausleger seit jeher beschäftigt.",
           "hint": "Lies Vers 13 genau.",
           "verse": 13
         },
@@ -3051,17 +3045,17 @@
           "fix": "Nationen",
           "verse": 17,
           "hint": "Lies Vers 17.",
-          "explain": "V. 17: für alle Nationen (Jes 56,7). Der Handel fand wohl im Vorhof der Nichtjuden statt – ihr Gebetsort wurde zum Markt."
+          "explain": "V. 17: für alle Nationen (Jes 56,7). Der Handel fand wohl im Vorhof der Nichtjuden statt."
         }
       ],
       "explain": [
         {
           "q": "Warum verflucht Jesus einen Baum?",
-          "a": "Markus verschachtelt die Feigenbaum-Geschichte mit der Tempelreinigung. Der Baum hat Blätter, aber keine Frucht – wie ein Tempelbetrieb, der prächtig aussieht, aber nicht bringt, wofür er da ist. Es ist eine Zeichenhandlung wie bei den Propheten."
+          "a": "Markus verschachtelt die Feigenbaum-Geschichte mit der Tempelreinigung. Viele Ausleger lesen beides zusammen: den Baum mit Blättern, aber ohne Frucht, als Zeichen für den Tempel. Zeichenhandlungen kennt man auch von Propheten (z. B. Jer 13; 19)."
         },
         {
           "q": "Warum gab es Händler im Tempel?",
-          "a": "Pilger brauchten Opfertiere und mussten Geld in die Tempelwährung umtauschen. Das war legal – aber Jesus kritisiert, dass das Haus des Gebets zum Geschäft geworden ist."
+          "a": "Pilger brauchten Opfertiere und mussten Geld in die Tempelwährung umtauschen. Das war legal. V. 17 nennt Jesu Vorwurf mit Worten aus Jesaja und Jeremia."
         }
       ],
       "teaser": "Der Feigenbaum ist verdorrt. Jesus redet über Berge, die ins Meer fallen – und übers Vergeben."
@@ -3090,7 +3084,7 @@
             "Fasten"
           ],
           "answer": 0,
-          "explain": "V. 25: Gebet und Vergebung gehören zusammen.",
+          "explain": "V. 25: Wenn ihr betet, vergebt.",
           "hint": "Vers 25.",
           "verse": 25
         },
@@ -3106,15 +3100,14 @@
       "explain": [
         {
           "q": "Bekomme ich alles, worum ich bete?",
-          "a": "Jesus ermutigt zu vertrauensvollem Gebet (V. 24). Er selbst betet in Gethsemane um etwas, das nicht geschieht – und fügt hinzu: Nicht was ich will, sondern was du willst (14,36). Vertrauen heißt nicht, Gott zu steuern."
+          "a": "Jesus ermutigt zu vertrauensvollem Gebet (V. 24). Er selbst betet in Gethsemane um etwas, das nicht geschieht – und fügt hinzu: Nicht was ich will, sondern was du willst (14,36)."
         },
         {
           "q": "Warum fehlt Vers 26 manchmal?",
           "a": "Er steht nicht in den ältesten Handschriften und ist vermutlich aus Matthäus 6,15 übernommen. Manche Bibeln setzen ihn deshalb in Klammern oder lassen ihn weg."
         }
       ],
-      "teaser": "Die Mächtigen fragen nach Jesu Vollmacht. Er antwortet mit einer Gegenfrage, die sie in die Falle lockt.",
-      "try": "Gibt es jemanden, dem du etwas nachträgst? Du musst heute nichts lösen – bring den Namen nur einmal vor Gott."
+      "teaser": "Die Mächtigen fragen nach Jesu Vollmacht. Er antwortet mit einer Gegenfrage, die sie in die Falle lockt."
     },
     {
       "id": "mk-55",
@@ -3141,7 +3134,7 @@
             "Sie schweigen und gehen"
           ],
           "answer": 0,
-          "explain": "V. 33: Jede ehrliche Antwort hätte ihnen geschadet – also weichen sie aus.",
+          "explain": "V. 31–33: Beide Antworten hätten ihnen geschadet. Sie sagen: Wir wissen es nicht.",
           "hint": "Vers 33.",
           "verse": 33
         },
@@ -3149,7 +3142,7 @@
           "type": "truefalse",
           "q": "Die Gegner fürchten das Volk, das Johannes für einen Propheten hält.",
           "answer": true,
-          "explain": "V. 32: Sie denken taktisch, nicht ehrlich.",
+          "explain": "V. 32:",
           "hint": "Lies Vers 32.",
           "verse": 32
         }
@@ -3157,7 +3150,7 @@
       "explain": [
         {
           "q": "Warum diese Gegenfrage?",
-          "a": "Wer Johannes als Gottes Propheten anerkennt, müsste auch auf ihn hören – und Johannes hatte auf Jesus hingewiesen. Die Frage nach Johannes beantwortet also die Frage nach Jesu Vollmacht."
+          "a": "Wer Johannes als Gottes Propheten anerkennt, müsste auch auf ihn hören – und Johannes hatte auf Jesus hingewiesen. Viele Ausleger sehen darin eine indirekte Antwort auf die Frage nach Jesu Vollmacht."
         }
       ],
       "cards": [
@@ -3210,7 +3203,7 @@
         },
         {
           "q": "Was ist ein „Eckstein“?",
-          "a": "Der wichtigste Stein eines Gebäudes, an dem sich alles ausrichtet (Ps 118,22). Der Verworfene wird zum Fundament – ein Hinweis auf Kreuz und Auferstehung."
+          "a": "Der wichtigste Stein eines Gebäudes, an dem sich alles ausrichtet (Ps 118,22). Die ersten Christen haben den Vers auf Jesu Tod und Auferstehung bezogen (Apg 4,11; 1Petr 2,7)."
         }
       ],
       "teaser": "Eine Fangfrage über Steuern – egal wie Jesus antwortet, er scheint zu verlieren."
@@ -3261,7 +3254,7 @@
           ],
           "answer": 0,
           "hint": "Wer spricht hier mit wem?",
-          "explain": "V. 17: Eine Antwort, die beide Seiten sprachlos macht."
+          "explain": "V. 17: Sie wundern sich über ihn."
         }
       ],
       "explain": [
@@ -3299,7 +3292,7 @@
           "answer": 7,
           "tolerance": 0,
           "unit": "Brüder",
-          "explain": "V. 20–22: sieben – eine bewusst übertriebene Geschichte.",
+          "explain": "V. 20–22: sieben.",
           "hint": "Lies Vers 20.",
           "verse": 20
         },
@@ -3313,7 +3306,7 @@
             "Sie schlafen bis zum Ende der Welt"
           ],
           "answer": 0,
-          "explain": "V. 25: Das neue Leben ist kein bloßes Weiter-so des alten.",
+          "explain": "V. 25: Sie heiraten nicht, sondern sind wie Engel.",
           "hint": "Vers 25.",
           "verse": 25
         }
@@ -3364,7 +3357,7 @@
             "Halte den Sabbat"
           ],
           "answer": 0,
-          "explain": "V. 31: aus 3. Mose 19,18. Gottesliebe und Nächstenliebe gehören zusammen.",
+          "explain": "V. 31: aus 3. Mose 19,18.",
           "hint": "Vers 31.",
           "verse": 31
         },
@@ -3372,7 +3365,7 @@
           "type": "truefalse",
           "q": "Jesus lobt den Schriftgelehrten.",
           "answer": true,
-          "explain": "V. 34: Er sei nicht fern vom Reich Gottes. Nicht alle Schriftgelehrten sind Gegner.",
+          "explain": "V. 34: Er sei nicht fern vom Reich Gottes.",
           "hint": "Lies Vers 34.",
           "verse": 34
         }
@@ -3380,7 +3373,7 @@
       "explain": [
         {
           "q": "Woher stammen die beiden Gebote?",
-          "a": "Das erste ist das Schma Israel aus 5. Mose 6,4–5, das fromme Juden täglich beten. Das zweite stammt aus 3. Mose 19,18. Jesus verbindet beide zu einer Einheit."
+          "a": "Das erste ist das Schma Israel aus 5. Mose 6,4–5, das fromme Juden täglich beten. Das zweite stammt aus 3. Mose 19,18. Jesus nennt beide zusammen."
         }
       ],
       "memory_verse": {
@@ -3392,8 +3385,7 @@
         },
         "text": "Du sollst deinen Nächsten lieben wie dich selbst"
       },
-      "teaser": "Jetzt stellt Jesus eine Frage, die niemand beantworten kann – und warnt vor frommer Show.",
-      "try": "Was wäre heute eine kleine, konkrete Art, deinen Nächsten zu lieben? Mach es."
+      "teaser": "Jetzt stellt Jesus eine Frage, die niemand beantworten kann – und warnt vor frommer Show."
     },
     {
       "id": "mk-60",
@@ -3420,7 +3412,7 @@
             "Freundschaft mit Römern"
           ],
           "answer": 0,
-          "explain": "V. 38–40: Fromme Fassade, aber Rücksichtslosigkeit gegenüber den Schwächsten.",
+          "explain": "V. 38–40: Sie lieben Ehrenplätze, beten lange zum Schein und bringen Witwen um ihre Häuser.",
           "hint": "Lies Vers 38–40.",
           "verse": 40
         },
@@ -3436,7 +3428,7 @@
       "explain": [
         {
           "q": "Was will Jesus mit Psalm 110 zeigen?",
-          "a": "Der Messias ist mehr als ein Nachkomme Davids – David selbst nennt ihn „Herr“. Jesus deutet an, dass der Messias zugleich Davids Sohn und Davids Herr ist. Psalm 110 ist der im Neuen Testament am häufigsten zitierte Psalm."
+          "a": "Jesus fragt, wie der Messias Davids Sohn sein kann, wenn David ihn „Herr“ nennt (V. 37). Er beantwortet die Frage nicht; Christen haben die Antwort darin gesehen, dass der Messias beides ist. Psalm 110 ist der im Neuen Testament am häufigsten zitierte Psalm."
         }
       ],
       "teaser": "Viele Reiche geben viel. Eine arme Witwe gibt fast nichts – und Jesus sagt: Sie hat mehr gegeben als alle."
@@ -3521,7 +3513,7 @@
             "Verlasst sofort die Stadt"
           ],
           "answer": 0,
-          "explain": "V. 5: Seine erste Sorge ist nicht der Zeitplan, sondern dass die Jünger nicht in die Irre gehen.",
+          "explain": "V. 5: mit einer Warnung vor Verführung.",
           "hint": "Vers 5.",
           "verse": 5
         },
@@ -3541,7 +3533,7 @@
         },
         {
           "q": "Wie lesen Christen Markus 13?",
-          "a": "Die Rede verbindet die nahe Zerstörung Jerusalems mit dem fernen Ende der Welt. Manche beziehen fast alles auf das Jahr 70, andere vieles auf die Zukunft; viele sehen beide Ebenen ineinander verwoben. Allen gemeinsam: Jesus will Mut machen zum Durchhalten, nicht Angst."
+          "a": "Die Rede verbindet die Zerstörung Jerusalems mit dem Ende. Präteristische Ausleger beziehen fast alles auf das Jahr 70. Dispensationalistische Ausleger beziehen große Teile auf eine künftige Trübsal vor der Wiederkunft. Viele andere, auch amillenniale Ausleger, sehen beide Ebenen ineinander: das Jahr 70 als Vorschau auf das Ende."
         }
       ],
       "teaser": "Jesus spricht von einem „Gräuel der Verwüstung“ – und gibt sehr praktische Ratschläge zur Flucht."
@@ -3578,7 +3570,7 @@
           "type": "truefalse",
           "q": "Jesus warnt vor falschen Christussen, die Zeichen tun.",
           "answer": true,
-          "explain": "V. 22: Wunder allein beweisen nichts.",
+          "explain": "V. 22: Sie tun Zeichen und Wunder, um zu verführen.",
           "hint": "Lies Vers 22.",
           "verse": 22
         }
@@ -3586,7 +3578,7 @@
       "explain": [
         {
           "q": "Was ist der „Gräuel der Verwüstung“?",
-          "a": "Ein Ausdruck aus Daniel (9,27; 11,31). Er erinnerte an 167 v. Chr., als ein syrischer König im Tempel einen heidnischen Altar errichtete. Jesus kündigt eine ähnliche Entweihung an. Nach alter Überlieferung flohen die Christen vor der Zerstörung 70 n. Chr. nach Pella östlich des Jordan."
+          "a": "Ein Ausdruck aus Daniel (9,27; 11,31). Er erinnerte an 167 v. Chr., als ein syrischer König im Tempel einen heidnischen Altar errichtete. Jesus kündigt eine ähnliche Entweihung an. Ob damit die Ereignisse um das Jahr 70 gemeint sind oder (auch) ein künftiger Antichrist, verstehen Ausleger verschieden. Nach alter Überlieferung flohen die Christen vor der Zerstörung 70 n. Chr. nach Pella östlich des Jordan."
         }
       ],
       "teaser": "Sonne und Mond verdunkeln sich – und dann kommt der Menschensohn in den Wolken."
@@ -3632,7 +3624,7 @@
       "explain": [
         {
           "q": "Was bedeutet „Dieses Geschlecht wird nicht vergehen“?",
-          "a": "V. 30 ist schwierig. Viele beziehen ihn auf die Zerstörung Jerusalems, die noch zu Lebzeiten der Zuhörer geschah. Andere übersetzen „Geschlecht“ als „Menschenart“ oder „Volk“. Einfache Antworten gibt es hier nicht."
+          "a": "V. 30 ist schwierig. Viele beziehen ihn auf die Zerstörung Jerusalems, die noch zu Lebzeiten der Zuhörer geschah. Andere übersetzen „Geschlecht“ als „Menschenart“ oder „Volk“. Dispensationalisten beziehen es oft auf die Generation, die die Zeichen erlebt. Einfache Antworten gibt es hier nicht."
         }
       ],
       "memory_verse": {
@@ -3670,7 +3662,7 @@
             "Die Propheten"
           ],
           "answer": 0,
-          "explain": "V. 32: Nicht einmal der Sohn. Wer heute Termine für das Weltende berechnet, weiß mehr als Jesus selbst beanspruchte.",
+          "explain": "V. 32: Nicht einmal der Sohn.",
           "hint": "Vers 32.",
           "verse": 32
         },
@@ -3678,7 +3670,7 @@
           "type": "truefalse",
           "q": "Jesus richtet den Aufruf zum Wachen nur an die vier Jünger.",
           "answer": false,
-          "explain": "V. 37: „Was ich euch sage, sage ich allen“ – also auch dir.",
+          "explain": "V. 37: „Was ich euch sage, sage ich allen“.",
           "hint": "Lies Vers 37.",
           "verse": 37
         }
@@ -3686,7 +3678,7 @@
       "explain": [
         {
           "q": "Was heißt „wachen“?",
-          "a": "Nicht ängstlich auf Zeichen starren, sondern treu die eigene Aufgabe erfüllen (V. 34) – wie Knechte, die ihr Werk tun, solange der Herr weg ist."
+          "a": "V. 34 erzählt von Knechten, die jeweils ihre Arbeit haben, und einem Türhüter, der wachen soll, solange der Herr weg ist."
         }
       ],
       "teaser": "Zwei Tage vor dem Passa salbt eine Frau Jesus mit einem Vermögen – und erntet Empörung."
@@ -3737,11 +3729,11 @@
       "explain": [
         {
           "q": "Warum ist die Salbung so bedeutend?",
-          "a": "„Christus“ heißt „der Gesalbte“. Ausgerechnet eine namenlose Frau salbt Jesus – nicht zum König, sondern zum Begräbnis. Sie versteht, was die Jünger nicht verstehen wollen."
+          "a": "„Christus“ heißt „der Gesalbte“. Ausgerechnet eine namenlose Frau salbt Jesus – nicht zum König, sondern zum Begräbnis."
         },
         {
           "q": "„Die Armen habt ihr allezeit bei euch“?",
-          "a": "Jesus spielt nicht Hilfe für Arme gegen Liebe zu ihm aus. Er zitiert 5. Mose 15,11, wo es weitergeht: Darum öffne deine Hand für den Armen. Jetzt aber ist ein einmaliger Moment."
+          "a": "Jesus greift wohl 5. Mose 15,11 auf. Dort geht der Satz weiter mit der Aufforderung, dem Armen die Hand zu öffnen."
         }
       ],
       "teaser": "Die Jünger sollen einem Mann mit einem Wasserkrug folgen. Beim Essen sagt Jesus: Einer von euch wird mich verraten."
@@ -3881,7 +3873,7 @@
             "Er wird sofort in den Himmel fahren"
           ],
           "answer": 0,
-          "explain": "V. 28: Schon vor dem Versagen der Jünger steht die Zusage eines Neuanfangs.",
+          "explain": "V. 28: Er will ihnen nach Galiläa vorausgehen.",
           "hint": "Vers 28.",
           "verse": 28
         },
@@ -3897,7 +3889,7 @@
       "explain": [
         {
           "q": "Was ist mit dem Hirten gemeint?",
-          "a": "Jesus zitiert Sacharja 13,7: Ich werde den Hirten schlagen, und die Schafe werden zerstreut. Er sieht sein Schicksal in der Schrift vorgezeichnet."
+          "a": "Jesus zitiert Sacharja 13,7: Ich werde den Hirten schlagen, und die Schafe werden zerstreut."
         }
       ],
       "teaser": "In einem Garten betet Jesus in Todesangst. Seine Freunde schlafen."
@@ -3937,17 +3929,17 @@
           "fix": "schwach",
           "verse": 38,
           "hint": "Lies Vers 38.",
-          "explain": "V. 38: Der Geist ist willig, das Fleisch schwach – Jesus kennt die Grenzen seiner Freunde."
+          "explain": "V. 38: Der Geist ist willig, das Fleisch schwach."
         }
       ],
       "explain": [
         {
           "q": "Was heißt „Abba“?",
-          "a": "Aramäisch für „Vater“ – das Wort, mit dem Kinder ihren Vater ansprachen. Jesus betet in seiner tiefsten Angst so vertraut."
+          "a": "Aramäisch für „Vater“, eine vertraute Anrede, die Kinder wie Erwachsene benutzten. Markus überliefert das Wort im Original."
         },
         {
           "q": "Hatte Jesus wirklich Angst?",
-          "a": "Markus beschönigt nichts: Jesus ist erschüttert und geängstigt (V. 33–34). Für Christen ist das tröstlich: Jesus kennt Angst von innen – und betet trotzdem."
+          "a": "Markus beschönigt nichts: Jesus ist erschüttert und geängstigt (V. 33–34)."
         }
       ],
       "memory_verse": {
@@ -3995,7 +3987,7 @@
             "Eine Fackel"
           ],
           "answer": 0,
-          "explain": "V. 44–45: Ein Zeichen der Freundschaft wird zum Zeichen des Verrats.",
+          "explain": "V. 44–45: einen Kuss.",
           "hint": "Vers 44.",
           "verse": 44
         },
@@ -4011,11 +4003,11 @@
       "explain": [
         {
           "q": "Wer ist der junge Mann?",
-          "a": "Nur Markus erzählt von ihm (V. 51–52). Eine alte Vermutung lautet: Markus selbst. Sicher ist das nicht. Das Bild ist stark: Selbst wer zuletzt noch folgt, lässt alles zurück und flieht."
+          "a": "Nur Markus erzählt von ihm (V. 51–52). Eine alte Vermutung lautet: Markus selbst. Sicher ist das nicht."
         },
         {
           "q": "Warum mit Schwertern und Stöcken?",
-          "a": "Jesus fragt selbst: Bin ich ein Räuber (V. 48)? Er hatte offen im Tempel gelehrt. Die nächtliche Verhaftung zeigt die Angst seiner Gegner vor dem Volk."
+          "a": "Jesus fragt selbst: Bin ich ein Räuber (V. 48)? Er hatte offen im Tempel gelehrt. Nach 14,1–2 wollten seine Gegner einen Aufruhr im Volk vermeiden."
         }
       ],
       "teaser": "Vor dem Hohen Rat schweigt Jesus lange. Dann sagt er zwei Worte, die alles entscheiden."
@@ -4052,7 +4044,7 @@
           ],
           "answer": 0,
           "hint": "Wer spricht hier mit wem?",
-          "explain": "V. 62: Das Messiasgeheimnis ist zu Ende. Jetzt, wo es ihn das Leben kostet, sagt Jesus offen, wer er ist."
+          "explain": "V. 62: Hier sagt Jesus bei Markus zum ersten Mal öffentlich, wer er ist."
         },
         {
           "type": "truefalse",
@@ -4117,7 +4109,7 @@
       "explain": [
         {
           "q": "Warum erzählt das Evangelium davon?",
-          "a": "Petrus war später der wichtigste Leiter der Gemeinde. Dass sein Versagen erzählt wird, zeigt Ehrlichkeit – und Hoffnung: Auch nach tiefem Versagen gibt es einen Neuanfang (vgl. 16,7)."
+          "a": "Petrus war später der wichtigste Leiter der Gemeinde. Das Evangelium erzählt sein Versagen trotzdem ausführlich. In 16,7 wird Petrus eigens genannt."
         }
       ],
       "fact": "Nach alter Überlieferung (Papias, um 120 n. Chr.) schrieb Markus auf, was Petrus über Jesus predigte. Dann hätte Petrus diese peinliche Geschichte selbst erzählt.",
@@ -4148,7 +4140,7 @@
             "Wegen eines Mordes"
           ],
           "answer": 0,
-          "explain": "V. 10: Pilatus durchschaut die Motive – und handelt trotzdem nicht gerecht.",
+          "explain": "V. 10: aus Neid.",
           "hint": "Vers 10.",
           "verse": 10
         },
@@ -4209,7 +4201,7 @@
           "type": "truefalse",
           "q": "Die Soldaten verspotten Jesus als König der Juden.",
           "answer": true,
-          "explain": "V. 18: Ohne es zu wissen, sprechen sie aus, was Markus seinen Lesern sagen will: Jesus ist wirklich König – ein gekreuzigter König.",
+          "explain": "V. 18: Sie grüßen ihn als König der Juden. Derselbe Titel steht später als Anklage über dem Kreuz (V. 26).",
           "hint": "Lies Vers 18.",
           "verse": 18
         }
@@ -4268,7 +4260,7 @@
           ],
           "answer": 0,
           "hint": "Wer spricht hier mit wem?",
-          "explain": "V. 31: Ein Spott, der unfreiwillig wahr ist: Gerade weil er andere retten will, rettet er sich nicht selbst."
+          "explain": "V. 31: Die Hohenpriester spotten untereinander."
         }
       ],
       "explain": [
@@ -4278,7 +4270,7 @@
         },
         {
           "q": "Warum verteilen sie seine Kleider?",
-          "a": "Die Kleider eines Hingerichteten gehörten den Soldaten. Markus erinnert damit an Psalm 22,19 – denselben Psalm, den Jesus gleich betet."
+          "a": "Die Kleider eines Hingerichteten gehörten den Soldaten. Der Vorgang erinnert an Psalm 22,19 – denselben Psalm, den Jesus gleich betet."
         }
       ],
       "teaser": "Mittags wird es dunkel. Jesus schreit einen Psalm."
@@ -4330,11 +4322,11 @@
       "explain": [
         {
           "q": "Was bedeutet der zerrissene Vorhang?",
-          "a": "Der Vorhang trennte das Allerheiligste, wo Gott gegenwärtig gedacht wurde. Er zerreißt „von oben nach unten“ – wie von Gott selbst. Viele verstehen das so: Durch Jesu Tod ist der Weg zu Gott offen (vgl. Hebr 10,19–20)."
+          "a": "Der Vorhang trennte das Allerheiligste, wo Gott gegenwärtig gedacht wurde. Er zerreißt „von oben nach unten“. Viele verstehen das so: Durch Jesu Tod ist der Weg zu Gott offen (vgl. Hebr 10,19–20)."
         },
         {
           "q": "Warum gerade ein Römer?",
-          "a": "Am Anfang nennt Markus Jesus „Sohn Gottes“ (1,1). Kein Jünger spricht das im Evangelium aus – erst ein heidnischer Offizier, unter dem Kreuz. Das ist der Höhepunkt des Buches."
+          "a": "Am Anfang nennt Markus Jesus „Sohn Gottes“ (1,1). Kein Jünger spricht das im Evangelium aus – erst ein heidnischer Offizier, unter dem Kreuz."
         }
       ],
       "cards": [
@@ -4371,7 +4363,7 @@
             "Maria Magdalena"
           ],
           "answer": 0,
-          "explain": "V. 43: ein Ratsherr, der das Reich Gottes erwartete – er wagt, was die Jünger nicht wagen.",
+          "explain": "V. 43: ein Ratsherr, der das Reich Gottes erwartete. Er wagt es, zu Pilatus zu gehen.",
           "hint": "Vers 43.",
           "verse": 43
         },
@@ -4429,7 +4421,7 @@
           ],
           "answer": 0,
           "hint": "Wer spricht hier mit wem?",
-          "explain": "V. 3: Sie machen sich Sorgen über etwas, das Gott längst gelöst hat."
+          "explain": "V. 3–4: Als sie aufblicken, ist der Stein schon weggewälzt."
         },
         {
           "type": "choice",
@@ -4441,7 +4433,7 @@
             "Pilatus"
           ],
           "answer": 0,
-          "explain": "V. 7: Neben den Jüngern wird Petrus extra genannt – ausgerechnet der, der ihn verleugnet hat. Ein stilles Zeichen der Vergebung.",
+          "explain": "V. 7: Neben den Jüngern wird Petrus eigens genannt.",
           "hint": "Vers 7.",
           "verse": 7
         },
@@ -4457,7 +4449,7 @@
       "explain": [
         {
           "q": "Warum endet Markus so abrupt?",
-          "a": "Die ältesten Handschriften enden mit V. 8: Furcht und Schweigen. Manche meinen, der ursprüngliche Schluss sei verloren gegangen. Andere sehen darin Absicht: Das Ende bleibt offen – und die Leser sollen weitertragen, was die Frauen erst nicht wagten. Dass wir die Geschichte kennen, zeigt: Die Frauen haben später doch erzählt."
+          "a": "Die ältesten Handschriften enden mit V. 8: Furcht und Schweigen. Manche meinen, der ursprüngliche Schluss sei verloren gegangen. Andere sehen darin Absicht: Das Ende bleibt offen. Der längere Schluss (16,9–20) folgt im nächsten Abschnitt."
         },
         {
           "q": "Wer ist der junge Mann?",

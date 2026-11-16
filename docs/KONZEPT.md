@@ -190,6 +190,8 @@ Aufgenommen (Reihenfolge offen, außer den nächsten vier): Wie liest man die Bi
 
 Als Nächstes: **Wie liest man die Bibel?**, **Texte, die man lieber überspringt**, **Die Offenbarung ohne Angst**, **Die unsichtbare Welt**.
 
+**Neue Idee (16.11.2026, Nutzer):** Plan **„Mit Gott leben“** (Richtung Leben): biblisch erarbeiten, wie (Alltags-)Leben und Beziehung mit Gott aussehen kann, soll oder muss – was Gott wichtig ist, was Menschen ausmacht, die „Freunde Gottes“ genannt werden (Abraham, Mose, die Jünger in Joh 15). Ziel: ein Gefühl dafür bekommen, wie man mit Gott in Beziehung lebt. Nur Bibeltext; Karten und Erklärungen führen zum Text hin, geben Kontext und stellen Fragen – kein Predigen.
+
 **Endzeit:** Die Leser kommen in der Regel mit einer dispensationalistischen Sicht. Das ist ihr Vorwissen, nicht die Sicht, die der Plan vertritt. Ziel ist, andere Verständnisse kennenzulernen, besonders den Amillenialismus (daneben historischer Prämillenialismus, Postmillenialismus, Präterismus). Der Plan zeigt, wo die vertraute Sicht eine Deutung ist, und stellt die anderen fair und gründlich daneben.
 
 **Ton (Nutzerwunsch):** nicht predigen. Karten, Erklärungen und Fragen vermitteln nichts, was man nicht selbst im Text finden kann. Gute Fragen zum Text stellen, sachliche Informationen geben, wo sie helfen, keine Bedeutung nahelegen, die nicht eindeutig im Text steht. Die Verständnisarbeit macht der Leser.

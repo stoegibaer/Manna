@@ -2,7 +2,7 @@
   "id": "habakuk",
   "title": "Habakuk",
   "subtitle": "Warum, Gott?",
-  "description": "Ein Prophet, der nicht zum Volk predigt, sondern Gott zur Rede stellt: Warum lässt du das Unrecht zu? Drei kurze Kapitel – von der Anklage über Gottes Antwort bis zu einem der mutigsten Vertrauenslieder der Bibel.",
+  "description": "Ein Prophet, der nicht zum Volk predigt, sondern Gott zur Rede stellt: Warum lässt du das Unrecht zu? Drei kurze Kapitel: Anklage, Gottes Antwort und ein Lied.",
   "direction": "ehrlich",
   "basis": "elbbk",
   "stages": [
@@ -52,7 +52,7 @@
       "id": "glaube",
       "type": "begriff",
       "name": "Glaube (emuna)",
-      "text": "Das hebräische Wort „emuna“ bedeutet Treue, Verlässlichkeit, Festigkeit. Glauben heißt im Alten Testament nicht zuerst „etwas für wahr halten“, sondern sich auf Gott verlassen und ihm treu bleiben – gerade dann, wenn man noch nichts sieht.",
+      "text": "Das hebräische Wort „emuna“ bedeutet Treue, Verlässlichkeit, Festigkeit. Glauben heißt im Alten Testament nicht zuerst „etwas für wahr halten“, sondern sich auf Gott verlassen und ihm treu bleiben.",
       "refs": "Hab 2,4"
     },
     {
@@ -128,7 +128,7 @@
         },
         {
           "q": "Darf man so mit Gott reden?",
-          "a": "Die Bibel enthält viele solcher Klagen, besonders in den Psalmen (z. B. Psalm 13 und 22). Habakuks Fragen wurden nicht gestrichen, sondern stehen in der Bibel – sie gelten offenbar als Teil des Gesprächs mit Gott."
+          "a": "Die Bibel enthält viele solcher Klagen, besonders in den Psalmen (z. B. Psalm 13 und 22). Gott antwortet in 1,5 auf Habakuks Klage, ohne sie zurückzuweisen."
         }
       ],
       "cards": [
@@ -136,7 +136,7 @@
         "gottesname"
       ],
       "teaser": "Gott antwortet – aber ganz anders, als Habakuk es sich gewünscht hätte.",
-      "try": "Wenn du magst: Sag oder schreib Gott heute eine ehrliche Frage – ohne sie fromm zu verpacken.",
+      "try": "Wenn du magst: Schreib eine Frage an Gott auf, die dich gerade beschäftigt.",
       "prayer": {
         "ref": {
           "book": 19,
@@ -242,17 +242,17 @@
           "answer": true,
           "hint": "Lies Vers 12.",
           "verse": 12,
-          "explain": "V. 12: Habakuk zweifelt nicht daran, dass Gott da ist – er ringt damit, wie Gott handelt."
+          "explain": "V. 12: Er redet Gott mit „mein Gott“ und „mein Heiliger“ an – mitten in seiner Frage."
         }
       ],
       "explain": [
         {
           "q": "Warum opfert er seinem Netz?",
-          "a": "Ein Bild: Die Chaldäer verehren die Werkzeuge ihrer Macht – ihr Heer, ihren Erfolg. Das knüpft an V. 11 an: Ihre eigene Kraft ist ihr Gott."
+          "a": "Wohl ein Bild: Das Netz steht für die Mittel, mit denen der Eroberer Beute macht (V. 15–16). Vergleiche V. 11."
         },
         {
           "q": "„Wir werden nicht sterben“ – was meint das?",
-          "a": "Habakuk hält sich an Gottes Treue fest: Das Gericht durch die Chaldäer soll Juda „züchtigen“, also zurechtbringen – nicht auslöschen (V. 12)."
+          "a": "V. 12 nennt das Kommen der Chaldäer ein Gericht und eine „Züchtigung“. Die jüdische Überlieferung zählt den Vers zu den 18 „Verbesserungen der Schreiber“: Ursprünglich habe dort gestanden „Du stirbst nicht“ – aus Ehrfurcht sei daraus die Wir-Form geworden."
         }
       ],
       "fact": "Habakuk fragt nicht, ob es Gott gibt, sondern warum Gott so handelt. Die Frage, wie ein guter Gott Leid und Unrecht zulassen kann, nennt man heute „Theodizee“ – Habakuk stellt sie schon vor 2600 Jahren.",
@@ -314,7 +314,7 @@
         },
         {
           "q": "Was bedeutet „Glauben“ in Vers 4?",
-          "a": "Das hebräische Wort „emuna“ heißt Treue, Verlässlichkeit, Vertrauen. Gemeint ist: Wer zu Gott gehört, lebt davon, dass er sich auf Gott verlässt – auch wenn die Antwort noch aussteht."
+          "a": "Das hebräische Wort „emuna“ heißt Treue, Verlässlichkeit, Vertrauen; manche übersetzen „durch seine Treue“. Die Septuaginta liest „durch meine Treue“, also Gottes Treue. Wessen Treue gemeint ist, verstehen Ausleger unterschiedlich."
         },
         {
           "q": "Wie verstehen das verschiedene Kirchen?",
@@ -373,13 +373,13 @@
           "answer": true,
           "hint": "Schau dir Vers 11 an.",
           "verse": 11,
-          "explain": "V. 11: Der Stein in der Mauer schreit, das Holz im Gebälk antwortet. Das Unrecht steckt in den Mauern seines Hauses – es lässt sich nicht verstecken."
+          "explain": "V. 11: Der Stein in der Mauer schreit, das Holz im Gebälk antwortet – es ist das Haus, das mit unrechtem Gewinn gebaut wurde (V. 9)."
         }
       ],
       "explain": [
         {
           "q": "Wer spricht hier?",
-          "a": "Die ausgeplünderten Völker stimmen ein Spottlied an (V. 6). So antwortet Gott auf Habakuks Frage: Das Unrecht der Chaldäer wird nicht das letzte Wort haben."
+          "a": "Die ausgeplünderten Völker stimmen ein Spottlied an (V. 6). Die Weherufe gehören zu der Antwort, die in 2,2 beginnt."
         },
         {
           "q": "Was ist der „Scheol“?",
@@ -445,7 +445,7 @@
         },
         {
           "q": "Warum „schweige vor ihm“?",
-          "a": "Den stummen Götzen, die nichts sagen können, steht der lebendige Gott gegenüber (V. 20). Die Stille ist Ehrfurcht: Nicht die Mächtigen haben das letzte Wort, sondern Gott."
+          "a": "Der Text stellt die stummen Götzen (V. 18–19) direkt neben den HERRN in seinem heiligen Tempel (V. 20). Denselben Ruf zur Stille gibt es in Zef 1,7 und Sach 2,17."
         }
       ],
       "memory_verse": {
@@ -510,7 +510,7 @@
         },
         {
           "q": "Warum so dramatische Bilder?",
-          "a": "Licht, Pest, bebende Berge: Das ist die Bildsprache alter Siegeslieder (vgl. Richter 5,4–5) für Gottes überwältigende Macht. Es geht nicht um eine Naturbeschreibung, sondern darum: Niemand kann diesem Gott standhalten."
+          "a": "Licht, Pest, bebende Berge: Das ist die Bildsprache alter Siegeslieder (vgl. Richter 5,4–5) für Gottes überwältigende Macht. Ausleger lesen sie meist als Bildsprache, nicht als Naturbeschreibung."
         }
       ],
       "cards": [
@@ -563,11 +563,11 @@
       "explain": [
         {
           "q": "Ist Gott hier gewalttätig?",
-          "a": "Die Bilder stammen aus alten Kampfliedern und sind heute oft schwer zu lesen. Im Zusammenhang wichtig: Gott kämpft hier gegen die Unterdrücker – „zum Heile deines Volkes“ (V. 13), für den „Elenden“ (V. 14). Genau das hatte Habakuk in Kapitel 1 vermisst."
+          "a": "Die Bilder stammen aus alten Kampfliedern und sind heute oft schwer zu lesen. Im Zusammenhang wichtig: Gott kämpft hier gegen die Unterdrücker – „zum Heile deines Volkes“ (V. 13), für den „Elenden“ (V. 14)."
         },
         {
           "q": "Welche Geschichten stecken dahinter?",
-          "a": "Meer und Ströme erinnern an den Durchzug durchs Schilfmeer (2. Mose 14) und durch den Jordan (Josua 3), Sonne und Mond an Josua 10,12–13. Habakuk sagt: Der Gott von damals ist derselbe heute."
+          "a": "Meer und Ströme erinnern an den Durchzug durchs Schilfmeer (2. Mose 14) und durch den Jordan (Josua 3), Sonne und Mond an Josua 10,12–13."
         },
         {
           "q": "Wer ist „dein Gesalbter“?",
@@ -575,7 +575,7 @@
         }
       ],
       "fact": "Unter den Schriftrollen vom Toten Meer, ab 1947 in Qumran gefunden, ist ein Kommentar zu Habakuk – aber nur zu Kapitel 1 und 2. Warum Kapitel 3 fehlt, ist bis heute umstritten.",
-      "teaser": "Und dann kommt vielleicht der mutigste Satz des ganzen Buches."
+      "teaser": "Was bleibt, wenn alles ausfällt?"
     },
     {
       "id": "hab-09",
@@ -625,7 +625,7 @@
           "answer": false,
           "hint": "Wie geht es ihm in Vers 16?",
           "verse": 16,
-          "explain": "V. 16: Sein Leib zittert, seine Lippen beben. Sein Vertrauen in V. 18 kommt nicht ohne Angst – sondern mitten in ihr."
+          "explain": "V. 16: Sein Leib zittert, seine Lippen beben – und in V. 18 will er trotzdem jubeln."
         }
       ],
       "explain": [
@@ -636,10 +636,6 @@
         {
           "q": "„Dem Vorsänger, mit meinem Saitenspiel“?",
           "a": "Eine Anweisung für die Musik, wie über vielen Psalmen. Habakuks Gebet wurde wohl im Gottesdienst gesungen."
-        },
-        {
-          "q": "Was hat sich seit Kapitel 1 verändert?",
-          "a": "Am Anfang: „Wie lange … du hörst nicht!“ Am Ende: „Ich aber will … frohlocken.“ Die Lage ist dieselbe – die Chaldäer kommen noch. Verändert hat sich Habakuks Blick auf Gott."
         }
       ],
       "memory_verse": {
@@ -652,7 +648,7 @@
         "text": "Ich aber, ich will in dem HERRN frohlocken, will jubeln in dem Gott meines Heils."
       },
       "fact": "In den Zusätzen zum Buch Daniel (in katholischen und orthodoxen Bibeln enthalten, bei Luther unter den Apokryphen) gibt es eine Legende: Ein Engel trägt Habakuk an den Haaren nach Babylon, damit er Daniel in der Löwengrube Essen bringt.",
-      "try": "Lies Vers 17–18 noch einmal und setz in Gedanken ein, was bei dir gerade nicht „blüht“."
+      "try": "Lies 1,2–4 und 3,16–19 direkt nacheinander. Die Lage ist dieselbe – die Chaldäer kommen noch. Was ist anders?"
     }
   ]
 }
