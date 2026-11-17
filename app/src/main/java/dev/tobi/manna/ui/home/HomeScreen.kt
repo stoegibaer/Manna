@@ -1,10 +1,13 @@
 package dev.tobi.manna.ui.home
 
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -37,11 +40,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.Layout
+import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import kotlin.math.roundToInt
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
@@ -173,110 +179,129 @@ fun HomeScreen(
     onSettings: () -> Unit, onPlans: () -> Unit, onAlbum: () -> Unit, onReminders: () -> Unit,
 ) {
     val s by vm.state.collectAsStateWithLifecycle()
-    Column(
-        Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding().padding(horizontal = 24.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-    ) {
-        Row(Modifier.fillMaxWidth().padding(top = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-            Text("Manna", style = MaterialTheme.typography.headlineSmall, modifier = Modifier.weight(1f))
-            IconButton(onClick = onAlbum) { Icon(Icons.Outlined.Style, "Sammlung") }
-            IconButton(onClick = onPlans) { Icon(Icons.AutoMirrored.Outlined.MenuBook, "Lesepläne") }
-            IconButton(onClick = onSettings) { Icon(Icons.Outlined.Settings, "Einstellungen") }
-        }
+    BoxWithConstraints(Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding()) {
+        val viewport = constraints.maxHeight
+        Layout(
+            modifier = Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp),
+            content = {
+                Row(Modifier.fillMaxWidth().padding(top = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Text("Manna", style = MaterialTheme.typography.headlineSmall, modifier = Modifier.weight(1f))
+                    IconButton(onClick = onAlbum) { Icon(Icons.Outlined.Style, "Sammlung") }
+                    IconButton(onClick = onPlans) { Icon(Icons.AutoMirrored.Outlined.MenuBook, "Lesepläne") }
+                    IconButton(onClick = onSettings) { Icon(Icons.Outlined.Settings, "Einstellungen") }
+                }
 
-        MustardTree(
-            sections = (if (debugTree >= 0) debugTree else s.total).toFloat(),
-            animate = settings.animations,
-            modifier = Modifier.fillMaxWidth().weight(1f).padding(vertical = 8.dp),
-        )
-
-        if (!s.loading) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(
-                    when (s.total) {
-                        0 -> "Ein Senfkorn. Mit jedem Abschnitt wächst es."
-                        1 -> "1 Abschnitt gelesen"
-                        else -> "${s.total} Abschnitte gelesen"
-                    },
-                    style = MaterialTheme.typography.bodyLarge,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    textAlign = TextAlign.Center,
+                MustardTree(
+                    sections = (if (debugTree >= 0) debugTree else s.total).toFloat(),
+                    animate = settings.animations,
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
                 )
-                if (s.readToday) {
-                    Spacer(Modifier.width(10.dp))
-                    Surface(color = MaterialTheme.colorScheme.primaryContainer, shape = RoundedCornerShape(50)) {
-                        Row(Modifier.padding(horizontal = 10.dp, vertical = 3.dp), verticalAlignment = Alignment.CenterVertically) {
-                            Icon(Icons.Rounded.Check, null, Modifier.size(14.dp), tint = MaterialTheme.colorScheme.primary)
-                            Spacer(Modifier.width(4.dp))
-                            Text("heute", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onPrimaryContainer)
+
+                Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
+                    if (!s.loading) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text(
+                                when (s.total) {
+                                    0 -> "Ein Senfkorn. Mit jedem Abschnitt wächst es."
+                                    1 -> "1 Abschnitt gelesen"
+                                    else -> "${s.total} Abschnitte gelesen"
+                                },
+                                style = MaterialTheme.typography.bodyLarge,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                textAlign = TextAlign.Center,
+                            )
+                            if (s.readToday) {
+                                Spacer(Modifier.width(10.dp))
+                                Surface(color = MaterialTheme.colorScheme.primaryContainer, shape = RoundedCornerShape(50)) {
+                                    Row(Modifier.padding(horizontal = 10.dp, vertical = 3.dp), verticalAlignment = Alignment.CenterVertically) {
+                                        Icon(Icons.Rounded.Check, null, Modifier.size(14.dp), tint = MaterialTheme.colorScheme.primary)
+                                        Spacer(Modifier.width(4.dp))
+                                        Text("heute", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onPrimaryContainer)
+                                    }
+                                }
+                            }
                         }
+                        Spacer(Modifier.height(10.dp))
+                        WeekRow(s)
+                        Spacer(Modifier.height(16.dp))
+
+                        // at most one hint at a time – too many cards make starting harder
+                        when {
+                            s.energy == null && s.nextTitle != null -> EnergyCard(onPick = { vm.setEnergy(it) })
+                            s.reEntry != null -> HintCard(
+                                title = "Schön, dass du da bist.",
+                                text = "Zuletzt hast du „${s.reEntry!!.lastTitle}“ gelesen: ${s.reEntry!!.lastSummary}",
+                            )
+                            s.suggestMinute != null -> HintCard(
+                                title = "Du liest meistens gegen ${formatMinute(s.suggestMinute!!)} Uhr.",
+                                text = "Soll die Erinnerung dorthin wandern?",
+                                primary = "Ja, verschieben" to { vm.acceptSuggestion(s.suggestMinute!!) },
+                                secondary = "Nein danke" to { vm.hideSuggestion() },
+                            )
+                            s.showReminderInvite -> HintCard(
+                                title = "Soll Manna dich erinnern?",
+                                text = "Ein Vers am Tag reicht. Leg fest, wann du liest – Manna erinnert dich freundlich.",
+                                primary = "Einrichten" to onReminders,
+                                secondary = "Nicht jetzt" to { vm.dismissInvite() },
+                            )
+                        }
+
+                        Surface(
+                            color = MaterialTheme.colorScheme.surfaceContainer,
+                            shape = RoundedCornerShape(24.dp),
+                            modifier = Modifier.fillMaxWidth(),
+                        ) {
+                            Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                                Text(s.planTitle, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                                if (s.nextTitle != null) {
+                                    s.teaser?.let {
+                                        Text(it, fontFamily = BibleFont, fontStyle = FontStyle.Italic, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                    }
+                                    Text(s.nextTitle!!, style = MaterialTheme.typography.titleLarge)
+                                    Text(s.nextRef, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                    Spacer(Modifier.height(4.dp))
+                                    // the big button follows today's energy; the other two ways stay available below
+                                    val (mainLabel, mainAction) = when (s.energy) {
+                                        "low" -> "Heute: 1 Vers" to onOneVerse
+                                        "high" -> "Mehr am Stück" to onStartMore
+                                        else -> (if (s.doneInPlan == 0) "Los geht’s" else "Weiterlesen") to onStart
+                                    }
+                                    Button(onClick = mainAction, modifier = Modifier.fillMaxWidth().height(60.dp)) {
+                                        Text(mainLabel, style = MaterialTheme.typography.titleMedium)
+                                    }
+                                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+                                        if (s.energy != "low") TextButton(onClick = onOneVerse) { Text("Nur 1 Vers") }
+                                        if (s.energy == "low" || s.energy == "high") TextButton(onClick = onStart) { Text("Ein Abschnitt") }
+                                        if (s.energy != "high") TextButton(onClick = onStartMore) { Text("Mehr am Stück") }
+                                    }
+                                } else {
+                                    Text("Plan abgeschlossen", style = MaterialTheme.typography.titleLarge)
+                                    Text("Stark. Such dir aus, wie es weitergeht.", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                    Spacer(Modifier.height(4.dp))
+                                    Button(onClick = onPlans, modifier = Modifier.fillMaxWidth().height(60.dp)) {
+                                        Text("Wohin als Nächstes?", style = MaterialTheme.typography.titleMedium)
+                                    }
+                                }
+                            }
+                        }
+                        Spacer(Modifier.height(16.dp))
                     }
                 }
+            },
+        ) { m, c ->
+            // the tree takes the free space, but never less than a third of the screen –
+            // if hint and plan card need more, the page scrolls instead of squeezing the plant
+            val w = c.maxWidth
+            val loose = Constraints(minWidth = w, maxWidth = w)
+            val header = m[0].measure(loose)
+            val bottom = m[2].measure(loose)
+            val treeH = maxOf((viewport * 0.35f).roundToInt(), viewport - header.height - bottom.height)
+            val tree = m[1].measure(Constraints.fixed(w, treeH))
+            layout(w, header.height + treeH + bottom.height) {
+                header.place(0, 0)
+                tree.place(0, header.height)
+                bottom.place(0, header.height + treeH)
             }
-            Spacer(Modifier.height(10.dp))
-            WeekRow(s)
-            Spacer(Modifier.height(16.dp))
-
-            // at most one hint at a time – too many cards make starting harder
-            when {
-                s.energy == null && s.nextTitle != null -> EnergyCard(onPick = { vm.setEnergy(it) })
-                s.reEntry != null -> HintCard(
-                    title = "Schön, dass du da bist.",
-                    text = "Zuletzt hast du „${s.reEntry!!.lastTitle}“ gelesen: ${s.reEntry!!.lastSummary}",
-                )
-                s.suggestMinute != null -> HintCard(
-                    title = "Du liest meistens gegen ${formatMinute(s.suggestMinute!!)} Uhr.",
-                    text = "Soll die Erinnerung dorthin wandern?",
-                    primary = "Ja, verschieben" to { vm.acceptSuggestion(s.suggestMinute!!) },
-                    secondary = "Nein danke" to { vm.hideSuggestion() },
-                )
-                s.showReminderInvite -> HintCard(
-                    title = "Soll Manna dich erinnern?",
-                    text = "Ein Vers am Tag reicht. Leg fest, wann du liest – Manna erinnert dich freundlich.",
-                    primary = "Einrichten" to onReminders,
-                    secondary = "Nicht jetzt" to { vm.dismissInvite() },
-                )
-            }
-
-            Surface(
-                color = MaterialTheme.colorScheme.surfaceContainer,
-                shape = RoundedCornerShape(24.dp),
-                modifier = Modifier.fillMaxWidth(),
-            ) {
-                Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Text(s.planTitle, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
-                    if (s.nextTitle != null) {
-                        s.teaser?.let {
-                            Text(it, fontFamily = BibleFont, fontStyle = FontStyle.Italic, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        }
-                        Text(s.nextTitle!!, style = MaterialTheme.typography.titleLarge)
-                        Text(s.nextRef, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        Spacer(Modifier.height(4.dp))
-                        // the big button follows today's energy; the other two ways stay available below
-                        val (mainLabel, mainAction) = when (s.energy) {
-                            "low" -> "Heute: 1 Vers" to onOneVerse
-                            "high" -> "Mehr am Stück" to onStartMore
-                            else -> (if (s.doneInPlan == 0) "Los geht’s" else "Weiterlesen") to onStart
-                        }
-                        Button(onClick = mainAction, modifier = Modifier.fillMaxWidth().height(60.dp)) {
-                            Text(mainLabel, style = MaterialTheme.typography.titleMedium)
-                        }
-                        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-                            if (s.energy != "low") TextButton(onClick = onOneVerse) { Text("Nur 1 Vers") }
-                            if (s.energy == "low" || s.energy == "high") TextButton(onClick = onStart) { Text("Ein Abschnitt") }
-                            if (s.energy != "high") TextButton(onClick = onStartMore) { Text("Mehr am Stück") }
-                        }
-                    } else {
-                        Text("Plan abgeschlossen", style = MaterialTheme.typography.titleLarge)
-                        Text("Stark. Such dir aus, wie es weitergeht.", color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        Spacer(Modifier.height(4.dp))
-                        Button(onClick = onPlans, modifier = Modifier.fillMaxWidth().height(60.dp)) {
-                            Text("Wohin als Nächstes?", style = MaterialTheme.typography.titleMedium)
-                        }
-                    }
-                }
-            }
-            Spacer(Modifier.height(16.dp))
         }
     }
 }
