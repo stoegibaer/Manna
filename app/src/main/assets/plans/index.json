@@ -116,9 +116,9 @@
     {
       "id": "bergpredigt",
       "title": "Die Bergpredigt",
-      "subtitle": "Jesus über das Leben",
+      "subtitle": "Ich aber sage euch",
       "direction": "jesus",
-      "available": false
+      "available": true
     },
     {
       "id": "bibel-lesen",
