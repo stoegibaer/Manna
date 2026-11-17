@@ -286,6 +286,34 @@
    "lat": 31.565,
    "lon": 34.849,
    "text": "Festungsstadt im Hügelland Judas, etwa 40 km südwestlich von Jerusalem."
+  },
+  {
+   "id": "smyrna",
+   "name": "Smyrna",
+   "lat": 38.42,
+   "lon": 27.14,
+   "text": "Hafenstadt an der Westküste Kleinasiens, heute İzmir in der Türkei."
+  },
+  {
+   "id": "pergamon",
+   "name": "Pergamon",
+   "lat": 39.13,
+   "lon": 27.18,
+   "text": "Alte Königsstadt im Westen Kleinasiens mit berühmtem Zeusaltar, heute Bergama in der Türkei."
+  },
+  {
+   "id": "philadelphia",
+   "name": "Philadelphia",
+   "lat": 38.35,
+   "lon": 28.52,
+   "text": "Stadt im Westen Kleinasiens an einer wichtigen Handelsstraße, heute Alaşehir in der Türkei."
+  },
+  {
+   "id": "laodizea",
+   "name": "Laodizea",
+   "lat": 37.84,
+   "lon": 29.11,
+   "text": "Reiche Handelsstadt im Lykostal in Kleinasien, nahe dem heutigen Denizli in der Türkei."
   }
  ]
 }

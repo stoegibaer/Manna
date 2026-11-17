@@ -104,7 +104,7 @@
       "title": "Jesaja 40–55",
       "subtitle": "Tröstet mein Volk",
       "direction": "hoffnung",
-      "available": false
+      "available": true
     },
     {
       "id": "prediger",
@@ -129,10 +129,10 @@
     },
     {
       "id": "offenbarung",
-      "title": "Die Offenbarung ohne Angst",
-      "subtitle": "Daniel, Johannes und das Ende",
+      "title": "Offenbarung",
+      "subtitle": "Das Lamm auf dem Thron",
       "direction": "glauben",
-      "available": false
+      "available": true
     },
     {
       "id": "unsichtbare-welt",
