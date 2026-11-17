@@ -12,9 +12,12 @@ import androidx.datastore.preferences.preferencesDataStore
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
+import kotlinx.serialization.Serializable
 
+@Serializable
 enum class ThemeMode { SYSTEM, LIGHT, DARK }
 
+@Serializable
 data class Settings(
     // reading & feedback
     val focusMode: Boolean = true,

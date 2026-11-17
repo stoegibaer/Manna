@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the compact base map for the "Wo sind wir?" mini map from Natural Earth (public domain).
+"""Build the compact base map for the "Wo sind wir?" mini map and the atlas from Natural Earth (public domain).
 
 Usage: python3 -I tools/build_map.py <dir with ne_10m_land.json, ne_10m_lakes.json, ne_10m_rivers_lake_centerlines.json>
 Download: https://github.com/nvkelso/natural-earth-vector/tree/master/geojson
@@ -12,6 +12,9 @@ BBOX = (10.0, 22.0, 50.0, 43.0)  # Rome .. Persia, Egypt .. Asia Minor
 RIVERS = {"Nile", "Rosetta Branch", "Damietta Branch", "Euphrates", "Tigris", "Shatt al Arab", "Jordan"}
 LAKES = {"Dead Sea", "Sea of Galilee"}
 TOL = 0.02  # simplification tolerance in degrees
+# Holy Land core: the atlas zooms in far here (places 1–2 km apart), so keep nearly all detail
+DETAIL = (34.0, 29.5, 37.0, 34.0)
+DETAIL_TOL = 0.001
 
 
 def clip_poly(pts, bbox):
@@ -51,6 +54,11 @@ def clip_line(pts, bbox):
     return [p for p in parts if len(p) > 1]
 
 
+def tol_at(p, tol):
+    w, s, e, n = DETAIL
+    return min(tol, DETAIL_TOL) if w <= p[0] <= e and s <= p[1] <= n else tol
+
+
 def simplify(pts, tol):
     if len(pts) < 3: return pts
     def dist(p, a, b):
@@ -64,7 +72,7 @@ def simplify(pts, tol):
         for k in range(i + 1, j):
             d = dist(pts[k], pts[i], pts[j])
             if d > best: best, idx = d, k
-        if idx is not None and best > tol:
+        if idx is not None and best > tol_at(pts[idx], tol):
             keep.add(idx); stack += [(i, idx), (idx, j)]
     return [pts[k] for k in sorted(keep)]
 
@@ -96,7 +104,7 @@ def main(src):
     for f in json.loads((src / "ne_10m_lakes.json").read_text())["features"]:
         if (f["properties"].get("name") or "") in LAKES:
             for r in rings(f["geometry"]):
-                out["lakes"].append(rnd(simplify([tuple(p[:2]) for p in r], TOL / 4)))
+                out["lakes"].append(rnd([tuple(p[:2]) for p in r]))  # few points, keep all
     for f in json.loads((src / "ne_10m_rivers_lake_centerlines.json").read_text())["features"]:
         name = f["properties"].get("name")
         if name in RIVERS:

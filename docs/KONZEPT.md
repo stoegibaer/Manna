@@ -200,5 +200,5 @@ Als Nächstes: **Wie liest man die Bibel?**, **Texte, die man lieber überspring
 
 ## 15. Für die nächste Version vorgemerkt
 
-- **Export und Import** (Nutzerwunsch 16.11.2026): Fortschritt, Karten, Lieblingsverse, Tagebuch und Einstellungen als Datei sichern und wieder einlesen, damit beim Wechsel von Installationen (z. B. Debug → Release, neues Handy) nichts verloren geht.
+- **Export und Import** (Nutzerwunsch 16.11.2026, umgesetzt 17.11.2026 in Einstellungen → „Daten sichern“; Import führt zusammen): Fortschritt, Karten, Lieblingsverse, Tagebuch und Einstellungen als Datei sichern und wieder einlesen, damit beim Wechsel von Installationen (z. B. Debug → Release, neues Handy) nichts verloren geht.
 - **iPhone** (später besprechen): realistisch als Web-App (PWA); Erinnerungen bräuchten dort einen Push-Server.

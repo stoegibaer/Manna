@@ -149,13 +149,12 @@ class PlanRepository(private val context: Context) {
         plans[id] ?: io { json.decodeFromString<Plan>(read("plans/$id.json")) }.also { plans[id] = it }
     }
 
-    suspend fun place(id: String?): Place? {
-        if (id == null) return null
-        val map = mutex.withLock {
-            places ?: io { json.decodeFromString<Places>(read("places.json")).places.associateBy { it.id } }
-                .also { places = it }
-        }
-        return map[id]
+    suspend fun place(id: String?): Place? = id?.let { places()[it] }
+
+    /** All places by id (assets/places.json). */
+    suspend fun places(): Map<String, Place> = mutex.withLock {
+        places ?: io { json.decodeFromString<Places>(read("places.json")).places.associateBy { it.id } }
+            .also { places = it }
     }
 
     private suspend fun <T> io(block: () -> T) = withContext(Dispatchers.IO) { block() }

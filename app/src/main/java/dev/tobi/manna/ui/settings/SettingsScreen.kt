@@ -1,6 +1,11 @@
 package dev.tobi.manna.ui.settings
 
 import kotlin.math.roundToInt
+import android.net.Uri
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.FilledTonalButton
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -35,7 +40,12 @@ import dev.tobi.manna.ui.theme.bibleTextStyle
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SettingsScreen(settings: Settings, onChange: ((Settings) -> Settings) -> Unit, onReminders: () -> Unit, onBack: () -> Unit) {
+fun SettingsScreen(
+    settings: Settings, onChange: ((Settings) -> Settings) -> Unit, onReminders: () -> Unit, onBack: () -> Unit,
+    backupFileName: String, backupMessage: String?, busy: Boolean, onExport: (Uri) -> Unit, onImport: (Uri) -> Unit,
+) {
+    val exportLauncher = rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/json")) { uri -> uri?.let(onExport) }
+    val importLauncher = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri -> uri?.let(onImport) }
     Scaffold(
         topBar = {
             TopAppBar(
@@ -101,6 +111,16 @@ fun SettingsScreen(settings: Settings, onChange: ((Settings) -> Settings) -> Uni
                     ) { Text(label) }
                 }
             }
+
+            Group("Daten sichern")
+            Text(
+                "Speichert Fortschritt, Karten, Verse, Tagebuch und Einstellungen in einer Datei – etwa für ein neues Handy. " +
+                    "Beim Einlesen wird zusammengeführt: Was schon auf dem Gerät ist, bleibt erhalten.",
+                style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            FilledTonalButton(onClick = { exportLauncher.launch(backupFileName) }, enabled = !busy, modifier = Modifier.fillMaxWidth().padding(top = 8.dp)) { Text("Sicherung speichern") }
+            OutlinedButton(onClick = { importLauncher.launch(arrayOf("application/json", "application/octet-stream", "text/plain")) }, enabled = !busy, modifier = Modifier.fillMaxWidth()) { Text("Sicherung einlesen") }
+            backupMessage?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.secondary, modifier = Modifier.padding(top = 4.dp)) }
 
             HorizontalDivider(Modifier.padding(vertical = 16.dp))
             Text(

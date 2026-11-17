@@ -86,6 +86,22 @@ class AlbumViewModel(private val c: AppContainer) : ViewModel() {
 
     fun removeVerse(v: SavedVerse) = viewModelScope.launch { c.progress.setFavorite(v.book, v.chapter, v.verse, false) }
 
+    val atlas = c.progress.allSectionsDone.map { done ->
+        val have = done.map { it.planId to it.sectionId }.toSet()
+        val places = c.plans.places()
+        val occ = LinkedHashMap<String, MutableList<AtlasOccurrence>>()
+        for (e in c.plans.index().plans.filter { it.available }) {
+            val plan = c.plans.plan(e.id)
+            for (sec in plan.sections) {
+                val id = sec.place ?: continue
+                if (id !in places) continue
+                occ.getOrPut(id) { mutableListOf() } += AtlasOccurrence(plan.title, sec.title, (plan.id to sec.id) in have)
+            }
+        }
+        val collator = java.text.Collator.getInstance(java.util.Locale.GERMAN)
+        occ.map { (id, list) -> AtlasPlace(places.getValue(id), list) }.sortedWith(compareBy(collator) { it.place.name })
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
+
     val state = c.progress.cards.map { unlocked ->
         val have = unlocked.map { it.planId to it.cardId }.toSet()
         val groups = c.plans.index().plans.filter { it.available }.map { e ->
@@ -102,6 +118,7 @@ fun AlbumScreen(vm: AlbumViewModel, onBack: () -> Unit) {
     val s by vm.state.collectAsStateWithLifecycle()
     val verses by vm.verses.collectAsStateWithLifecycle()
     val journal by vm.journal.collectAsStateWithLifecycle()
+    val atlas by vm.atlas.collectAsStateWithLifecycle()
     var open by remember { mutableStateOf<Card?>(null) }
     var tab by rememberSaveable { mutableIntStateOf(0) }
     Scaffold(
@@ -117,13 +134,14 @@ fun AlbumScreen(vm: AlbumViewModel, onBack: () -> Unit) {
         if (s.loading) return@Scaffold
         Column(Modifier.fillMaxSize().padding(pad)) {
         PrimaryTabRow(selectedTabIndex = tab, containerColor = MaterialTheme.colorScheme.background) {
-            listOf("Karten", "Verse", "Tagebuch").forEachIndexed { i, t ->
+            listOf("Karten", "Verse", "Tagebuch", "Atlas").forEachIndexed { i, t ->
                 Tab(selected = tab == i, onClick = { tab = i }, text = { Text(t) })
             }
         }
         when (tab) {
             1 -> VersesTab(verses, vm::removeVerse)
             2 -> JournalTab(journal)
+            3 -> AtlasTab(atlas)
             else -> LazyVerticalGrid(
             columns = GridCells.Fixed(2),
             modifier = Modifier.fillMaxSize(),

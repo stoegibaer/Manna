@@ -40,7 +40,7 @@ data class MapData(
 @Serializable
 data class River(val name: String, val line: List<List<Double>>)
 
-private object MapCache {
+internal object MapCache {
     var data: MapData? = null
     suspend fun load(context: Context): MapData = data ?: withContext(Dispatchers.IO) {
         Json { ignoreUnknownKeys = true }.decodeFromString<MapData>(

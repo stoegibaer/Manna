@@ -12,6 +12,9 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
@@ -21,6 +24,7 @@ import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
+import dev.tobi.manna.data.backup.BackupException
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
@@ -165,11 +169,32 @@ class MainActivity : ComponentActivity() {
                                 AlbumScreen(vm, onBack = { nav.popBackStack() })
                             }
                             composable("settings") {
+                                var backupMessage by remember { mutableStateOf<String?>(null) }
+                                var busy by remember { mutableStateOf(false) }
+                                fun backupJob(block: suspend () -> String) = scope.launch {
+                                    busy = true
+                                    backupMessage = try { block() } catch (e: BackupException) { e.message } catch (e: Exception) { "Das hat nicht geklappt: ${e.localizedMessage}" }
+                                    busy = false
+                                }
                                 SettingsScreen(
                                     settings,
                                     onChange = { f -> scope.launch { c.settings.update(f) } },
                                     onReminders = { nav.navigate("reminders") },
                                     onBack = { nav.popBackStack() },
+                                    backupFileName = c.backup.suggestedFileName(),
+                                    backupMessage = backupMessage,
+                                    busy = busy,
+                                    onExport = { uri -> backupJob { c.backup.export(uri); "Sicherung gespeichert." } },
+                                    onImport = { uri ->
+                                        backupJob {
+                                            val r = c.backup.import(uri)
+                                            c.rescheduleReminders()
+                                            val needsPermission = android.os.Build.VERSION.SDK_INT >= 33 && c.settings.current().remindersOn &&
+                                                androidx.core.content.ContextCompat.checkSelfPermission(this@MainActivity, android.Manifest.permission.POST_NOTIFICATIONS) != android.content.pm.PackageManager.PERMISSION_GRANTED
+                                            r.message() +
+                                                if (needsPermission) " Damit die Erinnerungen kommen, öffne einmal „Erinnerungen & Wochenziel“ und erlaube Benachrichtigungen." else ""
+                                        }
+                                    },
                                 )
                             }
                             composable("reminders") {

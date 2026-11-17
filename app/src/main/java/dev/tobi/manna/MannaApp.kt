@@ -1,6 +1,7 @@
 package dev.tobi.manna
 
 import android.app.Application
+import dev.tobi.manna.data.backup.Backup
 import dev.tobi.manna.data.bible.AssetTextProvider
 import dev.tobi.manna.data.bible.TextProvider
 import dev.tobi.manna.data.plan.PlanRepository
@@ -17,8 +18,10 @@ import kotlinx.coroutines.launch
 class AppContainer(private val app: Application) {
     val text: TextProvider = AssetTextProvider(app)
     val plans = PlanRepository(app)
-    val progress = ProgressRepository(MannaDb.create(app).progress())
+    private val db = MannaDb.create(app)
+    val progress = ProgressRepository(db.progress())
     val settings = SettingsRepository(app)
+    val backup = Backup(app, db, settings)
     /** Lives as long as the process – for small fire-and-forget jobs like rescheduling. */
     val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
 

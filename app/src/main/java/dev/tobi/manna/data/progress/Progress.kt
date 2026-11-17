@@ -12,9 +12,11 @@ import androidx.room.RoomDatabase
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
 import kotlinx.coroutines.flow.Flow
+import kotlinx.serialization.Serializable
 import java.time.LocalDate
 import java.time.LocalTime
 
+@Serializable
 @Entity(primaryKeys = ["planId", "sectionId"])
 data class SectionDone(val planId: String, val sectionId: String, val completedAt: Long)
 
@@ -22,6 +24,7 @@ data class SectionDone(val planId: String, val sectionId: String, val completedA
  * One answered quiz question, also used for spaced repetition (Leitner boxes).
  * [box] 0..4 selects the next interval, [dueAt] is when it may come back as „Erinnerst du dich?“.
  */
+@Serializable
 @Entity(primaryKeys = ["planId", "sectionId", "quizIndex"])
 data class QuizResult(
     val planId: String,
@@ -33,6 +36,7 @@ data class QuizResult(
     val dueAt: Long = 0,
 )
 
+@Serializable
 @Entity(primaryKeys = ["planId", "cardId"])
 data class CardUnlock(val planId: String, val cardId: String, val unlockedAt: Long)
 
@@ -40,14 +44,17 @@ data class CardUnlock(val planId: String, val cardId: String, val unlockedAt: Lo
  * Per-day reading log (date = ISO yyyy-MM-dd). Basis for daily minimum and weekly goal.
  * [firstMinute] = minute of the day of the first reading (for the reminder-time suggestion), -1 unknown.
  */
+@Serializable
 @Entity(primaryKeys = ["date"])
 data class ReadingDay(val date: String, val verses: Int, val sections: Int, val firstMinute: Int = -1)
 
 /** A saved verse. [source] = "favorite" (long-press) or "memory" (learned in the memory-verse game). */
+@Serializable
 @Entity(primaryKeys = ["book", "chapter", "verse"])
 data class FavoriteVerse(val book: Int, val chapter: Int, val verse: Int, val savedAt: Long, val source: String = "favorite")
 
 /** One-tap reflection after a section („Was nimmst du mit?“). [tags] comma separated chip ids. */
+@Serializable
 @Entity(primaryKeys = ["planId", "sectionId"])
 data class JournalEntry(val planId: String, val sectionId: String, val sectionTitle: String, val tags: String, val note: String, val savedAt: Long)
 
@@ -122,6 +129,17 @@ interface ProgressDao {
 
     @Query("SELECT MAX(date) FROM ReadingDay WHERE verses > 0 OR sections > 0")
     fun lastReadDate(): Flow<String?>
+
+    // ── backup (export/import) ──
+    @Query("SELECT * FROM SectionDone") suspend fun exportSections(): List<SectionDone>
+    @Query("SELECT * FROM QuizResult") suspend fun exportQuiz(): List<QuizResult>
+    @Query("SELECT * FROM CardUnlock") suspend fun exportCards(): List<CardUnlock>
+    @Query("SELECT * FROM ReadingDay") suspend fun exportDays(): List<ReadingDay>
+    @Query("SELECT * FROM FavoriteVerse") suspend fun exportFavorites(): List<FavoriteVerse>
+    @Query("SELECT * FROM JournalEntry") suspend fun exportJournal(): List<JournalEntry>
+
+    @Query("SELECT * FROM FavoriteVerse WHERE book = :book AND chapter = :chapter AND verse = :verse")
+    suspend fun favorite(book: Int, chapter: Int, verse: Int): FavoriteVerse?
 }
 
 private val MIGRATION_1_2 = object : Migration(1, 2) {
