@@ -356,6 +356,83 @@
    "lat": 35.24,
    "lon": 24.8,
    "text": "Große Insel im Mittelmeer, auf der Titus Älteste einsetzen soll."
+  },
+  {
+   "id": "schur",
+   "name": "Wüste Sur",
+   "lat": 30.8,
+   "lon": 33.3,
+   "text": "Wüstengebiet im Nordwesten der Sinai-Halbinsel, an der Grenze zu Ägypten."
+  },
+  {
+   "id": "beerseba",
+   "name": "Beerseba",
+   "lat": 31.245,
+   "lon": 34.841,
+   "text": "Brunnenort am Rand der Negev-Wüste, die südlichste Stadt Judas („von Dan bis Beerseba“)."
+  },
+  {
+   "id": "mara",
+   "name": "Mara",
+   "lat": 29.35,
+   "lon": 32.95,
+   "text": "Ort mit bitterem Wasser. Die Lage ist unsicher; die Tradition sucht ihn an Quellen an der Westküste des Sinai."
+  },
+  {
+   "id": "wueste-sin",
+   "name": "Wüste Sin",
+   "lat": 29.0,
+   "lon": 33.3,
+   "text": "Wüste zwischen Elim und dem Sinai (2Mo 16,1). Die Lage ist unsicher, wohl an der Westseite der Sinai-Halbinsel."
+  },
+  {
+   "id": "rephidim",
+   "name": "Refidim",
+   "lat": 28.7,
+   "lon": 33.65,
+   "text": "Lagerplatz Israels vor dem Sinai. Die Lage ist unsicher; oft im Wadi Feiran im Süden des Sinai vermutet."
+  },
+  {
+   "id": "wueste-juda",
+   "name": "Wüste Juda",
+   "lat": 31.6,
+   "lon": 35.32,
+   "text": "Trockenes Bergland zwischen Jerusalem und dem Toten Meer."
+  },
+  {
+   "id": "achor",
+   "name": "Tal Achor",
+   "lat": 31.75,
+   "lon": 35.42,
+   "text": "Tal bei Jericho (Jos 7,24–26). Die Lage ist unsicher; oft mit der Ebene el-Buqei'a westlich des Toten Meeres gleichgesetzt."
+  },
+  {
+   "id": "tekoa",
+   "name": "Tekoa",
+   "lat": 31.635,
+   "lon": 35.22,
+   "text": "Heimatort des Propheten Amos am Rand der Wüste Juda, südlich von Bethlehem."
+  },
+  {
+   "id": "rabba",
+   "name": "Rabba",
+   "lat": 31.954,
+   "lon": 35.934,
+   "text": "Hauptstadt der Ammoniter, das heutige Amman in Jordanien."
+  },
+  {
+   "id": "gilgal",
+   "name": "Gilgal",
+   "lat": 31.86,
+   "lon": 35.5,
+   "text": "Altes Heiligtum bei Jericho, an dem Josua zwölf Steine aus dem Jordan aufstellte; die genaue Lage ist unsicher."
+  },
+  {
+   "id": "dan",
+   "name": "Dan",
+   "lat": 33.249,
+   "lon": 35.652,
+   "text": "Stadt an den Jordanquellen im äußersten Norden Israels; Jerobeam I. stellte hier ein goldenes Kalb auf."
   }
  ]
 }

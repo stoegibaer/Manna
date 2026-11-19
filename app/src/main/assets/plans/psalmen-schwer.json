@@ -1,0 +1,1268 @@
+{
+  "id": "psalmen-schwer",
+  "title": "Psalmen für schwere Tage",
+  "subtitle": "Ehrliche Gebete",
+  "description": "Neun Psalmen, in denen Menschen Gott ihre Not, ihre Fragen und ihre Vorwürfe sagen – manche finden zum Vertrauen zurück, einer nicht. Ein Gebetbuch für Tage, an denen fromme Worte nicht passen.",
+  "direction": "ehrlich",
+  "basis": "elbbk",
+  "stages": [
+    { "id": "bis-wann", "title": "Bis wann?" },
+    { "id": "verlassen", "title": "Verlassen" },
+    { "id": "seele", "title": "Mit der eigenen Seele reden" },
+    { "id": "dunkel", "title": "Ohne Auflösung" },
+    { "id": "hand", "title": "In deine Hand" }
+  ],
+  "cards": [
+    {
+      "id": "klagepsalm",
+      "type": "begriff",
+      "name": "Klagepsalm",
+      "text": "Die größte Gruppe unter den Psalmen. Typische Teile: Anrede Gottes, Klage (über die eigene Not, über Feinde, oft auch über Gott), Bitte, Bekenntnis des Vertrauens und häufig ein Lobversprechen. Die meisten Klagepsalmen wenden sich am Ende zum Vertrauen – nicht alle (Ps 88).",
+      "refs": "Ps 13; 22; 88"
+    },
+    {
+      "id": "chesed",
+      "type": "begriff",
+      "name": "Güte (chesed)",
+      "text": "Ein Schlüsselwort der Psalmen, rund 250-mal im Alten Testament. Übersetzt mit Güte, Gnade, Huld oder Treue. Gemeint ist eine Zuwendung, die zu einer Beziehung steht und mehr gibt, als man verlangen kann. Klagende Beter berufen sich oft gerade darauf (Ps 6,5; 13,6).",
+      "refs": "Ps 6,5; 13,6; 77,9"
+    },
+    {
+      "id": "scheol",
+      "type": "begriff",
+      "name": "Scheol",
+      "text": "Hebräisches Wort für das Totenreich, unter der Erde gedacht. Alle Toten kommen dorthin. In vielen Psalmen ist es ein Ort der Stille, an dem man Gott nicht mehr lobt (Ps 6,6; 88,11–13). Einzelne Texte sprechen von Hoffnung über den Tod hinaus (Ps 49,16; Dan 12,2). Manche Bibeln lassen das Wort stehen, andere übersetzen „Totenreich“.",
+      "refs": "Ps 6,6; 88,4; 49,16"
+    },
+    {
+      "id": "busspsalmen",
+      "type": "begriff",
+      "name": "Die sieben Bußpsalmen",
+      "text": "Sieben Psalmen, die die Kirche seit der Antike besonders als Gebete der Umkehr betet: Ps 6, 32, 38, 51, 102, 130 und 143. Die Zusammenstellung ist mindestens seit Cassiodor (6. Jh.) belegt. Luthers erste eigene Druckschrift war 1517 eine Auslegung dieser sieben Psalmen – noch vor den 95 Thesen.",
+      "refs": "Ps 6; 51; 130"
+    },
+    {
+      "id": "ueberschriften",
+      "type": "begriff",
+      "name": "Psalmüberschriften",
+      "text": "Viele Psalmen beginnen mit einer Überschrift: Verfasser, Anlass, Melodie oder Instrument. In der hebräischen Bibel gehören sie zum Text und werden als Vers 1 gezählt. „Von David“ (hebr. le-David) kann „von“, „für“ oder „über David“ heißen. Viele Fachwörter darin (Maskil, Scheminith, Sela) versteht man heute nicht mehr sicher.",
+      "refs": "Ps 6,1; 142,1"
+    },
+    {
+      "id": "david-hoehle",
+      "type": "ereignis",
+      "name": "David in der Höhle",
+      "text": "Auf der Flucht vor König Saul versteckte sich David in Höhlen: in der Höhle Adullam, wo sich ihm Bedrängte, Verschuldete und Verbitterte anschlossen (1Sam 22,1–2), und in einer Höhle bei En-Gedi, wo er Saul verschonte (1Sam 24). Zwei Psalmüberschriften verweisen auf diese Zeit (Ps 57; 142).",
+      "refs": "1Sam 22,1–2; 24,1–8; Ps 142,1"
+    },
+    {
+      "id": "kreuzesworte",
+      "type": "ereignis",
+      "name": "Psalmen am Kreuz",
+      "text": "Zwei der Worte Jesu am Kreuz sind Psalmverse: Nach Markus und Matthäus ruft er Ps 22,2 auf Aramäisch (Mk 15,34; Mt 27,46), nach Lukas betet er Ps 31,6 (Lk 23,46). Außerdem erzählen alle vier Evangelien, wie die Soldaten um seine Kleider losten – Johannes zitiert dazu Ps 22,19.",
+      "refs": "Ps 22,2; 31,6; Mk 15,34; Lk 23,46; Joh 19,24"
+    },
+    {
+      "id": "korachiter",
+      "type": "begriff",
+      "name": "Söhne Korahs",
+      "text": "Eine Familie von Tempelsängern aus dem Stamm Levi. Elf Psalmen tragen ihren Namen: Ps 42; 44–49; 84–85; 87–88. Ihr Stammvater Korah hatte sich gegen Mose aufgelehnt (4Mo 16) – seine Söhne aber starben nicht (4Mo 26,11).",
+      "refs": "Ps 42,1; 88,1; 4Mo 26,11"
+    },
+    {
+      "id": "psalmbuecher",
+      "type": "begriff",
+      "name": "Die fünf Bücher der Psalmen",
+      "text": "Der Psalter ist in fünf Bücher gegliedert: Ps 1–41, 42–72, 73–89, 90–106 und 107–150. Jedes Buch endet mit einem kurzen Lobpreis (z. B. Ps 41,14; 72,18–19). Ein alter jüdischer Midrasch vergleicht diese Gliederung mit den fünf Büchern Mose.",
+      "refs": "Ps 41,14; 72,19; 89,53; 106,48"
+    },
+    {
+      "id": "asaf",
+      "type": "person",
+      "name": "Asaf",
+      "text": "Ein Levit und Sänger zur Zeit Davids (1Chr 16,4–7). Zwölf Psalmen tragen seinen Namen (Ps 50; 73–83), viele davon ringen mit der Frage, warum Gottes Volk leidet und Gott zu schweigen scheint.",
+      "refs": "Ps 77,1; 1Chr 16,5"
+    },
+    {
+      "id": "jeduthun",
+      "type": "person",
+      "name": "Jeduthun",
+      "text": "Einer der drei Leiter der Tempelmusik unter David, neben Asaf und Heman (1Chr 16,41–42; 25,1). Drei Psalmüberschriften nennen ihn (Ps 39; 62; 77) – ob als Verfasser, Chorleiter oder Name einer Singweise, ist unklar.",
+      "refs": "1Chr 25,1; Ps 39,1; 77,1"
+    },
+    {
+      "id": "sela",
+      "type": "begriff",
+      "name": "Sela",
+      "text": "Ein Wort, das 71-mal in den Psalmen vorkommt und dreimal in Habakuk 3. Die Bedeutung ist unsicher – wahrscheinlich eine Anweisung für Musik oder Gesang, etwa eine Pause, ein Zwischenspiel oder ein Anheben der Stimme.",
+      "refs": "Ps 77,4.10.16; 88,8.11"
+    },
+    {
+      "id": "hebel",
+      "type": "begriff",
+      "name": "Hauch (hebel)",
+      "text": "Hebräisch für Atemhauch, Dunst: etwas, das da ist und sofort vergeht. Es ist das Leitwort des Predigerbuchs (Pred 1,2), dort oft mit „Eitelkeit“ oder „Windhauch“ übersetzt. Ps 39 gebraucht es für das menschliche Leben, Ps 31,7 für Götzen. Der Name Abel heißt hebräisch Hevel – dasselbe Wort.",
+      "refs": "Ps 39,6.7.12; Pred 1,2; 1Mo 4,2"
+    },
+    {
+      "id": "heman",
+      "type": "person",
+      "name": "Heman",
+      "text": "Tempelsänger zur Zeit Davids, Enkel des Propheten Samuel und Nachkomme Korahs (1Chr 6,18–23), einer der drei Leiter der Tempelmusik (1Chr 25,1). Ein Heman wird auch als berühmter Weiser genannt (1Kön 5,11). Ps 88 nennt ihn „den Esrachiter“. Ob alle Angaben dieselbe Person meinen, ist unsicher.",
+      "refs": "Ps 88,1; 1Chr 6,18; 1Kön 5,11"
+    },
+    {
+      "id": "stufenlieder",
+      "type": "begriff",
+      "name": "Stufenlieder",
+      "text": "Ps 120–134 tragen die Überschrift „Stufenlied“ (auch „Wallfahrtslied“). Wahrscheinlich sangen Pilger sie auf dem Weg hinauf nach Jerusalem zu den Festen. Die Mischna (Sukka 5,4) verbindet die 15 Lieder mit 15 Stufen im Tempel, auf denen die Leviten sangen.",
+      "refs": "Ps 121,1; 130,1"
+    }
+  ],
+  "sections": [
+    {
+      "id": "psa-01",
+      "stage": "bis-wann",
+      "refs": [ { "book": 19, "chapter": 13, "from": 1, "to": 6 } ],
+      "title": "Bis wann?",
+      "summary": "David fragt Gott immer wieder, bis wann er ihn vergisst und sich vor ihm verbirgt. Er bittet um eine Antwort und endet mit Vertrauen auf Gottes Güte.",
+      "focus": "Achte darauf, an welcher Stelle der Ton kippt – und ob der Psalm einen Grund dafür nennt.",
+      "quiz": [
+        {
+          "type": "estimate",
+          "q": "Wie oft fragt David „Bis wann?“",
+          "min": 1,
+          "max": 8,
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "-mal",
+          "hint": "Zähle in Vers 2 und 3.",
+          "verse": 2,
+          "explain": "Zweimal in V. 2, zweimal in V. 3 – gegen Gott, gegen das eigene Grübeln und gegen den Feind."
+        },
+        {
+          "type": "choice",
+          "q": "Worum bittet David in V. 4?",
+          "options": [
+            "Dass Gott herschaut und ihm antwortet",
+            "Dass Gott seine Feinde vernichtet",
+            "Dass Gott ihm seine Schuld vergibt",
+            "Dass Gott ihm ein langes Leben schenkt"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 4.",
+          "verse": 4,
+          "explain": "V. 4: Gott soll herschauen, antworten und seine Augen erleuchten."
+        },
+        {
+          "type": "truefalse",
+          "q": "Zwischen der Bitte (V. 4–5) und dem Vertrauen (V. 6) erzählt der Psalm von einem Ereignis, das alles verändert.",
+          "answer": false,
+          "hint": "Was steht direkt vor Vers 6?",
+          "verse": 6,
+          "explain": "Ein Ereignis wird nicht erzählt. V. 6 beginnt einfach mit einem betonten „Ich aber“. Wodurch die Wende kam, lässt der Text offen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „Ratschläge hegen in meiner Seele“?",
+          "a": "Gemeint ist das endlose Hin-und-her-Überlegen: Pläne schmieden, grübeln, keine Lösung finden (V. 3).",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Was bedeutet es, dass Gott die Augen „erleuchten“ soll?",
+          "a": "Glanzlose Augen sind im Alten Testament ein Zeichen von Schwäche, helle Augen ein Zeichen von Lebenskraft (vgl. 1Sam 14,27). David fürchtet, sonst zu sterben (V. 4). Ob er krank ist oder verfolgt wird, sagt der Psalm nicht."
+        },
+        {
+          "q": "Wie verstehen Ausleger die plötzliche Wende in V. 6?",
+          "a": "Dazu gibt es mehrere Sichtweisen. Manche vermuten, dass im Tempel ein Priester dem Beter ein Heilswort zusprach, das nicht aufgeschrieben ist. Andere lesen V. 6 als Entschluss mitten in der Not, bevor sich etwas ändert. Der Text selbst lässt das offen."
+        }
+      ],
+      "cards": ["klagepsalm", "chesed"],
+      "memory_verse": { "ref": { "book": 19, "chapter": 13, "from": 6, "to": 6 }, "text": "Ich aber, ich habe auf deine Güte vertraut" },
+      "teaser": "Im nächsten Psalm steht ein Satz, den Jesus in der Bergpredigt aufgreift – in einem ganz anderen Zusammenhang."
+    },
+    {
+      "id": "psa-02",
+      "stage": "bis-wann",
+      "refs": [ { "book": 19, "chapter": 6, "from": 1, "to": 11 } ],
+      "title": "Jede Nacht",
+      "summary": "David bittet Gott, ihn nicht im Zorn zu strafen, sondern zu heilen. Er ist erschöpft vom Weinen. Ab V. 9 ist er gewiss: Gott hat sein Weinen gehört.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Worauf beruft sich David in V. 5, als er um Rettung bittet?",
+          "options": [
+            "Auf Gottes Güte",
+            "Auf seine eigene Unschuld",
+            "Auf seine Opfer im Tempel",
+            "Auf den Bund mit Abraham"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 5.",
+          "verse": 5,
+          "explain": "V. 5: Gott soll ihn retten um seiner Güte willen."
+        },
+        {
+          "type": "order",
+          "q": "Bring den Verlauf des Psalms in die richtige Reihenfolge.",
+          "items": [
+            "Bitte: Strafe mich nicht im Zorn",
+            "Klage über Tränen jede Nacht",
+            "Gewissheit: Der HERR hat gehört"
+          ],
+          "hint": "Schau in V. 2, V. 7 und V. 9.",
+          "explain": "V. 2–6 Bitte, V. 7–8 Klage über die Nächte, ab V. 9 die Gewissheit, gehört worden zu sein."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Der HERR hat die Stimme meines [Lachens] gehört.",
+          "fix": "Weinens",
+          "hint": "Lies Vers 9.",
+          "verse": 9,
+          "explain": "V. 9: die Stimme seines Weinens. In V. 9–10 sagt David dreimal hintereinander, dass Gott gehört hat."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum spricht David von Gottes Zorn?",
+          "a": "Im Alten Testament wird Krankheit oft als mögliche Strafe gedeutet. David bittet in V. 2 nicht um Freispruch, sondern darum, dass Gott nicht im Zorn handelt. Ein konkretes Vergehen nennt der Psalm nicht. Das Buch Hiob und Jesus (Joh 9,2–3) widersprechen dem einfachen Schluss von Leid auf Schuld."
+        },
+        {
+          "q": "Was ist der Scheol?",
+          "a": "Das hebräische Wort für das Totenreich (V. 6). Davids Argument: Tote loben Gott nicht mehr – lass mich also leben."
+        },
+        {
+          "q": "Was ist „die Scheminith“?",
+          "a": "Wörtlich „die Achte“. Vielleicht eine Tonlage oder ein Instrument mit acht Saiten – die Bedeutung ist unsicher (V. 1)."
+        }
+      ],
+      "cards": ["scheol", "busspsalmen"],
+      "try": "Lies V. 9 und dann Matthäus 7,23. Wer sagt den Satz jeweils – und zu wem?",
+      "teaser": "Wenn der nächste Psalm in der Höhle Adullam spielt, hatte David dort bald 400 Männer um sich. Trotzdem schreibt er etwas Überraschendes."
+    },
+    {
+      "id": "psa-03",
+      "stage": "bis-wann",
+      "refs": [ { "book": 19, "chapter": 142, "from": 1, "to": 8 } ],
+      "title": "In der Höhle",
+      "summary": "In der Höhle schüttet David seine Klage vor Gott aus. Niemand kümmert sich um ihn, Gott allein ist seine Zuflucht. Er bittet: Führe mich aus dem Gefängnis.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was beklagt David in V. 5?",
+          "options": [
+            "Niemand kennt ihn und fragt nach ihm",
+            "Gott hat ihn bestraft",
+            "Seine Brüder haben ihn verraten",
+            "Er hat nichts mehr zu essen"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 5.",
+          "verse": 5,
+          "explain": "V. 5: Er hat niemanden, der ihn erkennt, keine Zuflucht, niemand fragt nach ihm."
+        },
+        {
+          "type": "truefalse",
+          "q": "David hält seine Not vor Gott lieber zurück.",
+          "answer": false,
+          "hint": "Lies Vers 3.",
+          "verse": 3,
+          "explain": "V. 3: Er schüttet seine Klage vor Gott aus und spricht seine Bedrängnis aus."
+        },
+        {
+          "type": "choice",
+          "q": "Wozu soll Gott ihn laut V. 8 aus dem Gefängnis führen?",
+          "options": [
+            "Damit er Gottes Namen preist",
+            "Damit er sich an seinen Verfolgern rächt",
+            "Damit er endlich König wird",
+            "Damit er nach Hause zurückkehrt"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 8.",
+          "verse": 8,
+          "explain": "V. 8: damit er Gottes Namen preist – und die Gerechten sich um ihn sammeln."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Welche Höhle ist gemeint?",
+          "a": "Die Überschrift nennt nur „die Höhle“. Aus 1. Samuel kennt man zwei: die Höhle Adullam, in die David vor Saul floh (1Sam 22,1), und eine Höhle bei En-Gedi, in der er Saul verschonte (1Sam 24). Psalm 57 hat eine ähnliche Überschrift."
+        },
+        {
+          "q": "Stammen die Überschriften von David selbst?",
+          "a": "Das ist umstritten. Die Überschriften sind sehr alt und gehören in der hebräischen Bibel zum Text. Viele Gläubige verstehen sie als verlässliche Angabe zur Entstehung; andere als frühe Zuordnung, in welcher Lage der Psalm gebetet wurde."
+        },
+        {
+          "q": "Was ist mein „Teil im Land der Lebendigen“?",
+          "a": "„Teil“ meint den Erbanteil am Land, den jede Familie in Israel bekam. Zu Aaron, der kein Land erbte, sagt Gott: Ich bin dein Teil (4Mo 18,20). David sagt das in V. 6 von sich."
+        },
+        {
+          "q": "Was ist ein „Maskil“?",
+          "a": "Eine Psalmüberschrift, deren Bedeutung unsicher ist – vielleicht „Lehrgedicht“ oder ein kunstvolles Lied."
+        }
+      ],
+      "cards": ["ueberschriften", "david-hoehle"],
+      "try": "Lies 1. Samuel 22,1–2. Wer kam zu David in die Höhle? Lies danach noch einmal Ps 142,5.",
+      "teaser": "Der nächste Psalm beginnt mit dem Satz, den Jesus nach Markus am Kreuz schreit. Wie geht der Psalm danach weiter?"
+    },
+    {
+      "id": "psa-04",
+      "stage": "verlassen",
+      "refs": [ { "book": 19, "chapter": 22, "from": 1, "to": 12 } ],
+      "title": "Warum hast du mich verlassen?",
+      "summary": "Der Beter schreit Tag und Nacht und bekommt keine Antwort. Er erinnert Gott daran, dass er die Väter gerettet und ihn selbst von Geburt an getragen hat – und wird verspottet.",
+      "focus": "Achte darauf, wie Klage und „Doch du …“ einander abwechseln.",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Bring die Teile in die richtige Reihenfolge.",
+          "items": [
+            "Klage: Du antwortest nicht",
+            "Erinnerung an die Väter, die gerettet wurden",
+            "Der Spott der Leute",
+            "Erinnerung: Du bist mein Gott seit meiner Geburt"
+          ],
+          "hint": "Schau in V. 3, 5, 8 und 10.",
+          "explain": "V. 2–3 Klage, V. 4–6 die Väter, V. 7–9 Spott, V. 10–11 Gott seit dem Mutterleib, V. 12 die Bitte."
+        },
+        {
+          "type": "whosaid",
+          "quote": "Er vertraut auf den HERRN! Der errette ihn",
+          "quote_ref": { "book": 19, "chapter": 22, "from": 9, "to": 9 },
+          "options": [
+            "Die Spötter",
+            "Die Väter Israels",
+            "Der Beter selbst",
+            "Ein Priester im Tempel"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 8 und 9.",
+          "verse": 9,
+          "explain": "V. 8–9: So spotten die Leute, die ihn sehen. Matthäus 27,43 erzählt von einem ähnlichen Spott unter dem Kreuz."
+        },
+        {
+          "type": "truefalse",
+          "q": "In seiner Klage hört der Beter auf, Gott „mein Gott“ zu nennen.",
+          "answer": false,
+          "hint": "Lies Vers 2, 3 und 11.",
+          "verse": 11,
+          "explain": "Gerade nicht: V. 2 zweimal, V. 3 und V. 11 – er klagt Gott an und nennt ihn dabei seinen Gott."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Hat Jesus am Kreuz Psalm 22 gebetet?",
+          "a": "Markus 15,34 und Matthäus 27,46 berichten, dass Jesus V. 2 auf Aramäisch ruft. Viele Ausleger meinen: Wer damals den Anfang eines Psalms zitierte, rief den ganzen Psalm in Erinnerung – auch seinen hoffnungsvollen Schluss. Andere, etwa Luther, betonen, dass Jesus die Gottverlassenheit wirklich erlitten hat."
+        },
+        {
+          "q": "Wie liest das Judentum diesen Psalm?",
+          "a": "Als Gebet eines leidenden Gerechten, nach der Überschrift als Gebet Davids. Der Talmud (Megilla 15b) legt V. 2 der Königin Ester in den Mund, als sie ungerufen zum König geht. Christen lesen den Psalm seit dem Neuen Testament zugleich als Gebet Jesu."
+        },
+        {
+          "q": "Was heißt es, dass Gott unter den Lobgesängen wohnt?",
+          "a": "Wörtlich etwa: der auf den Lobgesängen Israels thront (V. 4). Sonst gilt die Bundeslade als Thron Gottes, hier ist es das Lob des Volkes."
+        },
+        {
+          "q": "„Hirschkuh der Morgenröte“?",
+          "a": "Wahrscheinlich der Name einer bekannten Melodie, nach der der Psalm gesungen wurde (V. 1)."
+        }
+      ],
+      "cards": ["kreuzesworte"],
+      "teaser": "Stiere, Löwen, Hunde, Büffel – im nächsten Abschnitt ist der Beter umzingelt. Lies bis zum letzten Wort."
+    },
+    {
+      "id": "psa-05",
+      "stage": "verlassen",
+      "refs": [ { "book": 19, "chapter": 22, "from": 13, "to": 22 } ],
+      "title": "Umzingelt",
+      "summary": "Der Beter beschreibt seine Feinde als wilde Tiere und seinen Körper als ausgeschüttet und vertrocknet. Man verlost seine Kleider. Er bittet: Sei nicht fern! – und am Ende von V. 22 heißt es: Du hast mich erhört.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was tun die Leute laut V. 19 mit seinen Kleidern?",
+          "options": [
+            "Sie teilen sie und losen um sein Gewand",
+            "Sie verbrennen sie",
+            "Sie geben sie den Armen",
+            "Sie zerreißen sie"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 19.",
+          "verse": 19,
+          "explain": "V. 19. Johannes 19,24 erzählt, dass die Soldaten unter dem Kreuz genau das taten, und zitiert diesen Vers."
+        },
+        {
+          "type": "truefalse",
+          "q": "Dieser Abschnitt endet mit einer Bitte, auf die keine Antwort kommt.",
+          "answer": false,
+          "hint": "Lies das Ende von Vers 22.",
+          "verse": 22,
+          "explain": "V. 22 endet mit: Du hast mich erhört. Im Hebräischen ist das ein einziges Wort, das mitten in die Bitte hineinbricht."
+        },
+        {
+          "type": "choice",
+          "q": "Womit vergleicht der Beter in V. 15 sein Herz?",
+          "options": [
+            "Mit Wachs, das zerschmilzt",
+            "Mit einem Stein",
+            "Mit einem leeren Krug",
+            "Mit trockenem Gras"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 15.",
+          "verse": 15,
+          "explain": "V. 15: Sein Herz ist wie Wachs geworden und zerschmolzen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was sind die Stiere von Basan?",
+          "a": "Basan ist die fruchtbare Hochebene östlich des Sees Genezareth, etwa die heutigen Golanhöhen. Ihre Rinder galten als besonders stark und gut genährt (5Mo 32,14; Am 4,1)."
+        },
+        {
+          "q": "Was steht in V. 17 über Hände und Füße im Hebräischen?",
+          "a": "Hier gibt es eine echte Textfrage. Der übliche hebräische Text (Masoretischer Text) liest „wie ein Löwe meine Hände und Füße“. Die alte griechische Übersetzung (Septuaginta) und einige hebräische Handschriften, darunter ein Fund vom Toten Meer, haben ein Verb, das „graben“ oder „durchbohren“ bedeuten kann. Darum übersetzen Bibeln den Vers verschieden."
+        },
+        {
+          "q": "„Meine einzige“?",
+          "a": "Gemeint ist das eigene Leben – das eine, das man hat (V. 21). Parallel dazu steht „meine Seele“.",
+          "translation": "elbbk"
+        }
+      ],
+      "fact": "Alle vier Evangelien erzählen, dass um die Kleider Jesu gelost wurde (Mk 15,24; Mt 27,35; Lk 23,34; Joh 19,24). Nur Johannes zitiert dazu ausdrücklich V. 19.",
+      "teaser": "Nach der Wende: Wer alles soll am Ende des Psalms mitloben? Die Liste wird immer länger."
+    },
+    {
+      "id": "psa-06",
+      "stage": "verlassen",
+      "refs": [ { "book": 19, "chapter": 22, "from": 23, "to": 32 } ],
+      "title": "Die große Versammlung",
+      "summary": "Der Beter will Gott in der Versammlung loben, weil Gott das Elend des Elenden nicht verachtet hat. Das Lob weitet sich aus: auf die Armen, alle Völker, die Toten und kommende Generationen.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Warum soll man den HERRN laut V. 25 loben?",
+          "options": [
+            "Er hat das Elend des Elenden nicht verachtet und ihn gehört",
+            "Er hat Israel ein Land gegeben",
+            "Er hat alle Feinde vernichtet",
+            "Er hat den Tempel erwählt"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 25.",
+          "verse": 25,
+          "explain": "V. 25: Gott hat das Elend nicht verachtet, sein Angesicht nicht verborgen und gehört, als der Elende schrie."
+        },
+        {
+          "type": "order",
+          "q": "Wie weitet sich das Lob aus? Bring es in die Reihenfolge des Textes.",
+          "items": [
+            "Die Brüder in der Versammlung",
+            "Alle Nachkommen Jakobs",
+            "Alle Enden der Erde",
+            "Ein Volk, das noch geboren wird"
+          ],
+          "hint": "Schau in V. 23, 24, 28 und 32.",
+          "explain": "V. 23 die Brüder, V. 24 Israel, V. 28 alle Völker, V. 30 sogar die Sterbenden, V. 32 kommende Generationen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „Gelübde bezahlen“?",
+          "a": "Wer in Not war, versprach Gott oft ein Opfer für den Fall der Rettung. Nach der Rettung brachte man es im Tempel dar; zu diesem Opfer gehörte ein Mahl (3Mo 7,16). Das könnte erklären, warum in V. 27 die Sanftmütigen essen und satt werden."
+        },
+        {
+          "q": "Wer sind „alle Fetten der Erde“?",
+          "a": "Die Reichen und Mächtigen. In V. 30 stehen sie neben denen, die in den Staub hinabfahren, also den Sterbenden.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Wie lesen Christen und Juden das Ende des Psalms?",
+          "a": "Der Hebräerbrief legt V. 23 dem auferstandenen Christus in den Mund (Hebr 2,12). Viele Kirchenväter lasen V. 23–32 deshalb als Bild für Auferstehung und die Ausbreitung des Glaubens unter den Völkern. In jüdischer Lesart ist es das Dankgebet eines Geretteten, das Israel und die Völker einbezieht."
+        }
+      ],
+      "fact": "Der Psalm endet im Hebräischen mit zwei Wörtern: „denn er hat gehandelt“ (V. 32). Was genau Gott getan hat, sagt er nicht.",
+      "memory_verse": { "ref": { "book": 19, "chapter": 22, "from": 25, "to": 25 }, "text": "als er zu ihm schrie, hörte er" },
+      "teaser": "Ein Hirsch, Tränen als Brot – und ein Mann, der seiner eigenen Seele Fragen stellt."
+    },
+    {
+      "id": "psa-07",
+      "stage": "seele",
+      "refs": [ { "book": 19, "chapter": 42, "from": 1, "to": 6 } ],
+      "title": "Durst",
+      "summary": "Der Beter dürstet nach Gott und kann nicht zum Tempel. Tränen sind sein Brot, die Leute fragen: Wo ist dein Gott? Er erinnert sich an frühere Feste und redet seiner Seele zu.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was ist dem Beter laut V. 4 zur Speise geworden?",
+          "options": [
+            "Seine Tränen",
+            "Asche",
+            "Bittere Kräuter",
+            "Der Spott seiner Feinde"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 4.",
+          "verse": 4,
+          "explain": "V. 4: Tag und Nacht sind Tränen seine Speise."
+        },
+        {
+          "type": "truefalse",
+          "q": "Der Beter erinnert sich daran, wie er mit vielen anderen zum Haus Gottes zog.",
+          "answer": true,
+          "hint": "Lies Vers 5.",
+          "verse": 5,
+          "explain": "V. 5: mit der feiernden Menge, mit Jubel und Lob. Gerade diese Erinnerung schmerzt."
+        },
+        {
+          "type": "choice",
+          "q": "Was fragen die Leute den Beter immer wieder?",
+          "options": [
+            "Wo ist dein Gott?",
+            "Warum gehst du nicht mehr in den Tempel?",
+            "Was hast du verbrochen?",
+            "Wann kehrst du heim?"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 4.",
+          "verse": 4,
+          "explain": "V. 4 – und noch einmal in V. 11."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „erscheinen vor Gottes Angesicht“?",
+          "a": "Ein fester Ausdruck für den Besuch im Tempel an den großen Festen (vgl. 2Mo 23,17). Der Beter kann offenbar nicht dorthin (V. 3)."
+        },
+        {
+          "q": "Warum steht hier so oft „Gott“ und kaum „HERR“?",
+          "a": "Mit Psalm 42 beginnt das zweite der fünf Psalmbücher (Ps 42–72). In vielen Psalmen dieses Teils steht auffällig oft „Gott“ (Elohim) statt des Gottesnamens JHWH. Man spricht deshalb vom „elohistischen Psalter“. Warum das so ist, weiß man nicht sicher."
+        }
+      ],
+      "cards": ["korachiter", "psalmbuecher"],
+      "teaser": "Im nächsten Abschnitt ist der Beter weit im Norden. Und ein Psalm ohne Überschrift gehört vielleicht noch dazu."
+    },
+    {
+      "id": "psa-08",
+      "stage": "seele",
+      "refs": [
+        { "book": 19, "chapter": 42, "from": 7, "to": 12 },
+        { "book": 19, "chapter": 43, "from": 1, "to": 5 }
+      ],
+      "title": "Sende dein Licht",
+      "summary": "Fern vom Tempel fragt der Beter Gott: Warum hast du mich vergessen? In Ps 43 bittet er um Recht und um Gottes Licht und Wahrheit, die ihn zum Altar zurückführen. Dazwischen kommt immer wieder derselbe Kehrvers.",
+      "place": "hermon",
+      "focus": "Achte auf den Satz, der in beiden Psalmen wiederkehrt. Was steht jeweils davor?",
+      "quiz": [
+        {
+          "type": "estimate",
+          "q": "Wie oft kommt der Kehrvers aus Ps 42,6 („Harre auf Gott“) in Ps 42 und 43 insgesamt vor?",
+          "min": 1,
+          "max": 6,
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "-mal",
+          "hint": "Denk auch an den vorigen Abschnitt (Ps 42,6).",
+          "verse": 12,
+          "explain": "Dreimal: Ps 42,6; 42,12 und 43,5."
+        },
+        {
+          "type": "choice",
+          "q": "Was soll Gott laut Ps 43,3 senden?",
+          "options": [
+            "Sein Licht und seine Wahrheit",
+            "Seinen Engel und sein Heer",
+            "Regen und Brot",
+            "Einen Propheten"
+          ],
+          "answer": 0,
+          "hint": "Lies Psalm 43,3.",
+          "explain": "Ps 43,3: Licht und Wahrheit sollen ihn leiten und zum heiligen Berg bringen."
+        },
+        {
+          "type": "truefalse",
+          "q": "Psalm 43 hat eine eigene Überschrift, die einen anderen Verfasser nennt.",
+          "answer": false,
+          "hint": "Wie beginnt Psalm 43?",
+          "explain": "Ps 43 hat gar keine Überschrift – ein Grund, warum viele ihn als Fortsetzung von Ps 42 lesen. In manchen hebräischen Handschriften stehen beide als ein Psalm."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wo ist der Berg Mizhar?",
+          "a": "Unbekannt. Der Name bedeutet „klein“. Wahrscheinlich ein Hügel im Hermongebiet an den Quellen des Jordan – weit im Norden, fern vom Tempel in Jerusalem (Ps 42,7)."
+        },
+        {
+          "q": "„Tiefe ruft der Tiefe“?",
+          "a": "Am Hermon stürzen Wasser in Kaskaden herab. Für den Beter wird daraus ein Bild der Überflutung: Alle Wellen gehen über ihn hinweg (Ps 42,8)."
+        },
+        {
+          "q": "Warum ist der Kehrvers in 42,6 etwas anders als in 42,12?",
+          "a": "Im hebräischen Text steht in 42,6 „seines Angesichts“, in 42,12 und 43,5 „meines Angesichts und mein Gott“. Viele Ausleger vermuten, dass beim Abschreiben in 42,6 eine Wortgrenze verrutscht ist; andere halten den Unterschied für bewusst.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Wer ist die „lieblose Nation“?",
+          "a": "Der Psalm sagt es nicht. Das hebräische „lo chasid“ heißt etwa: ohne Güte, ohne Treue (Ps 43,1)."
+        }
+      ],
+      "teaser": "Ein Mann kann nachts nicht schlafen und weigert sich, sich trösten zu lassen. Wogegen wehrt er sich?"
+    },
+    {
+      "id": "psa-09",
+      "stage": "seele",
+      "refs": [ { "book": 19, "chapter": 77, "from": 1, "to": 10 } ],
+      "title": "Nachts wach",
+      "summary": "Asaf schreit zu Gott und findet keinen Trost, nachts kann er nicht schlafen. Er denkt an frühere Zeiten und stellt Fragen: Ist Gottes Güte zu Ende? Hat Gott vergessen, gnädig zu sein?",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was tut die Seele des Beters laut V. 3?",
+          "options": [
+            "Sie weigert sich, getröstet zu werden",
+            "Sie findet Ruhe im Gebet",
+            "Sie wird zornig auf die Feinde",
+            "Sie vergisst ihren Kummer"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 3.",
+          "verse": 3,
+          "explain": "V. 3: Seine Hand ist nachts ausgestreckt, und seine Seele will sich nicht trösten lassen."
+        },
+        {
+          "type": "truefalse",
+          "q": "Der Beter sagt zu Gott: Du hältst meine Augen offen.",
+          "answer": true,
+          "hint": "Lies Vers 5.",
+          "verse": 5,
+          "explain": "V. 5: Gott hält seine Lider fest. Er spricht Gott direkt auf seine Schlaflosigkeit an."
+        },
+        {
+          "type": "choice",
+          "q": "Welche Frage stellt der Beter in V. 10?",
+          "options": [
+            "Ob Gott vergessen hat, gnädig zu sein",
+            "Ob Gott überhaupt existiert",
+            "Ob er selbst schuld an seinem Unglück ist",
+            "Ob die anderen Götter stärker sind"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 10.",
+          "verse": 10,
+          "explain": "V. 10: Hat Gott vergessen, gnädig zu sein, und sein Erbarmen im Zorn verschlossen?"
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „Erbarmungen“?",
+          "a": "Das hebräische Wort (rachamim) hängt mit dem Wort für Mutterleib zusammen (rechem). Es beschreibt ein Mitgefühl, das aus dem Innersten kommt (V. 10)."
+        },
+        {
+          "q": "Was ist das „Saitenspiel in der Nacht“?",
+          "a": "Vielleicht erinnert er sich an Lieder, die er früher nachts gesungen hat (V. 7). Das hebräische Wort kann auch „mein Lied“ heißen.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Was bedeutet „Sela“?",
+          "a": "Eine Anweisung für Musik oder Gesang, deren genaue Bedeutung unsicher ist – vielleicht eine Pause (V. 4.10)."
+        }
+      ],
+      "cards": ["asaf", "jeduthun", "sela"],
+      "prayer": { "ref": { "book": 41, "chapter": 9, "from": 24, "to": 24 }, "source": "Markus 9,24" },
+      "teaser": "Der nächste Vers gehört zu den rätselhaftesten des Psalms – Übersetzungen geben ihn ganz verschieden wieder. Danach ändert sich die Blickrichtung."
+    },
+    {
+      "id": "psa-10",
+      "stage": "seele",
+      "refs": [ { "book": 19, "chapter": 77, "from": 11, "to": 21 } ],
+      "title": "Dein Weg im Meer",
+      "summary": "Der Beter will an Gottes Taten von früher denken: an den Auszug aus Ägypten und den Weg durchs Meer. Gottes Spuren waren dort nicht zu sehen, und doch führte er sein Volk durch Mose und Aaron.",
+      "place": "schilfmeer",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "An welches Ereignis erinnert sich der Beter in V. 16–21?",
+          "options": [
+            "An den Auszug aus Ägypten und den Weg durchs Meer",
+            "An die Erschaffung der Welt",
+            "An die Sintflut",
+            "An den Bau des Tempels"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 16 und 21.",
+          "verse": 21,
+          "explain": "V. 16–21: Gott hat sein Volk erlöst, die Wasser bebten, und er führte es durch Mose und Aaron."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Gottes Weg ging durchs Meer, und seine Fußspuren waren [überall] zu erkennen.",
+          "fix": "nirgends",
+          "hint": "Lies Vers 20.",
+          "verse": 20,
+          "explain": "V. 20: Sein Weg ging durchs Meer, aber seine Fußstapfen kannte niemand."
+        },
+        {
+          "type": "truefalse",
+          "q": "Ab V. 14 spricht der Beter vor allem Gott mit „du“ an statt von sich selbst zu reden.",
+          "answer": true,
+          "hint": "Vergleiche V. 12–13 mit V. 14–16.",
+          "verse": 14,
+          "explain": "Bis V. 13 steht fast in jedem Satz ein „ich“. Ab V. 14 heißt es: dein Weg, du bist der Gott, du hast erlöst."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was bedeutet V. 11?",
+          "a": "Der hebräische Vers ist schwer zu übersetzen, und Bibeln geben ihn sehr verschieden wieder. Etwa: Das ist mein Schmerz, dass die rechte Hand des Höchsten sich geändert hat. Oder: Das ist meine Krankheit – doch ich will an die Jahre der Rechten des Höchsten denken. Je nach Lesart ist V. 11 noch Klage oder schon der Wendepunkt."
+        },
+        {
+          "q": "Wer ist „Jah“?",
+          "a": "Eine Kurzform des Gottesnamens JHWH. Man kennt sie aus „Halleluja“ – lobt Jah (V. 12).",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Was haben Wasser, Wolken und Blitze mit dem Auszug zu tun?",
+          "a": "V. 17–19 beschreiben den Durchzug durchs Meer als Gewitter, in dem Gott selbst erscheint. 2. Mose 14–15 erzählt davon in Prosa und Lied."
+        }
+      ],
+      "try": "Lies V. 11 in zwei anderen Übersetzungen, zum Beispiel auf einer Bibel-Website. Ist der Vers dort Klage oder Wende?",
+      "teaser": "Der nächste Beter hat sich vorgenommen, den Mund zu halten. Es gelingt ihm nicht lange."
+    },
+    {
+      "id": "psa-11",
+      "stage": "dunkel",
+      "refs": [ { "book": 19, "chapter": 39, "from": 1, "to": 7 } ],
+      "title": "Eine Handbreit",
+      "summary": "David will schweigen, solange Gottlose vor ihm stehen, doch es brennt in ihm. Dann bittet er Gott, ihm sein Ende zu zeigen: Das Leben ist nur ein Hauch.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Warum will David laut V. 2 schweigen?",
+          "options": [
+            "Um nicht mit seiner Zunge zu sündigen, solange der Gottlose vor ihm ist",
+            "Weil Gott es ihm befohlen hat",
+            "Weil er krank ist und nicht sprechen kann",
+            "Weil ihm niemand zuhört"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 2.",
+          "verse": 2,
+          "explain": "V. 2: Er will seine Zunge hüten, solange der Gottlose vor ihm ist."
+        },
+        {
+          "type": "truefalse",
+          "q": "Das Schweigen lindert seinen Schmerz.",
+          "answer": false,
+          "hint": "Lies Vers 3 und 4.",
+          "verse": 3,
+          "explain": "V. 3–4: Der Schmerz wird stärker, das Herz brennt – bis er doch spricht."
+        },
+        {
+          "type": "choice",
+          "q": "Wie lang sind die Tage des Menschen laut V. 6?",
+          "options": [
+            "Wie Handbreiten",
+            "Wie siebzig Jahre",
+            "Wie ein Tag vor Gott",
+            "Wie eine Nachtwache"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 6.",
+          "verse": 6,
+          "explain": "V. 6: Gott hat die Tage wie Handbreiten gemacht – jeder Mensch ist nur ein Hauch."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „eitel Hauch“?",
+          "a": "Das hebräische Wort ist „hebel“: Atemhauch, Dunst. Es ist das Leitwort des Predigerbuchs (Pred 1,2). Gemeint ist: flüchtig, nicht festzuhalten (V. 6–7).",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Warum will er sein Ende wissen?",
+          "a": "V. 5 nennt den Grund: Er will wissen, wie vergänglich er ist. Psalm 90,12 bittet ähnlich darum, die eigenen Tage zählen zu lernen."
+        },
+        {
+          "q": "Ein „Maulkorb“?",
+          "a": "Ein Bild: Er will seinen Mund verschließen wie das Maul eines Tieres, damit nichts Falsches herauskommt (V. 2).",
+          "translation": "elbbk"
+        }
+      ],
+      "cards": ["hebel"],
+      "fact": "Eine Handbreit (V. 6) war eines der kleinsten Längenmaße im alten Israel – die Breite von vier Fingern, etwa 7–8 cm.",
+      "teaser": "Im nächsten Abschnitt nennt David sich einen Fremden – obwohl er zu Hause ist."
+    },
+    {
+      "id": "psa-12",
+      "stage": "dunkel",
+      "refs": [ { "book": 19, "chapter": 39, "from": 8, "to": 14 } ],
+      "title": "Ein Gast bei dir",
+      "summary": "David setzt seine Hoffnung auf Gott und bittet um Vergebung und um ein Ende der Plage. Er nennt sich einen Fremden bei Gott und bittet am Ende, dass Gott von ihm wegblickt, bevor er stirbt.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Worauf hofft David laut V. 8?",
+          "options": [
+            "Auf Gott",
+            "Auf ein langes Leben",
+            "Auf seine Freunde",
+            "Auf ein gerechtes Urteil"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 8.",
+          "verse": 8,
+          "explain": "V. 8: Seine Hoffnung ist auf Gott – mitten in der Erkenntnis, wie flüchtig er ist."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Ein [König] bin ich bei dir, ein Gast wie alle meine Väter.",
+          "fix": "Fremder",
+          "hint": "Lies Vers 13.",
+          "verse": 13,
+          "explain": "V. 13: ein Fremder und Beisasse bei Gott, wie seine Väter."
+        },
+        {
+          "type": "truefalse",
+          "q": "Der Psalm endet mit einem Lobversprechen.",
+          "answer": false,
+          "hint": "Lies Vers 14.",
+          "verse": 14,
+          "explain": "V. 14: Gott soll von ihm wegblicken, damit er aufatmet, bevor er geht und nicht mehr ist. Ein Lob folgt nicht."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was sind ein „Fremder“ und ein „Beisasse“?",
+          "a": "Ein Fremder (hebr. ger) und ein Beisasse (toschav) lebten in Israel ohne eigenes Land – geduldet und auf Schutz angewiesen. Abraham nennt sich so gegenüber den Hethitern (1Mo 23,4). Von Israel sagt Gott: Das Land gehört mir, ihr seid Fremde bei mir (3Mo 25,23)."
+        },
+        {
+          "q": "Warum bittet er Gott, wegzuschauen?",
+          "a": "In V. 11–12 erlebt David seine Not als Gottes Hand, die ihn schlägt. Wenn Gott wegblickt, hört die Plage auf. Hiob bittet ganz ähnlich (Hiob 7,19; 10,20–21). In V. 13 bittet David zugleich, dass Gott hört und nicht schweigt."
+        },
+        {
+          "q": "Was hat die Motte damit zu tun?",
+          "a": "Motten zerfressen Stoff unbemerkt. So, sagt V. 12, lässt Gottes Strafe die Schönheit eines Menschen vergehen."
+        }
+      ],
+      "prayer": { "ref": { "book": 19, "chapter": 90, "from": 12, "to": 12 }, "source": "Psalm 90,12" },
+      "teaser": "Der nächste Psalm gilt als der dunkelste der Bibel. Trotzdem haben ihn Tempelsänger gesungen."
+    },
+    {
+      "id": "psa-13",
+      "stage": "dunkel",
+      "refs": [ { "book": 19, "chapter": 88, "from": 1, "to": 10 } ],
+      "title": "Satt von Leiden",
+      "summary": "Heman schreit Tag und Nacht. Er fühlt sich schon zu den Toten gezählt und sagt: Gott selbst hat ihn in die Tiefe gelegt und seine Bekannten von ihm entfernt.",
+      "focus": "Achte darauf, wie Heman Gott in V. 2 anredet – und wen er in V. 7–9 als Handelnden nennt.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wie redet Heman Gott in V. 2 an?",
+          "options": [
+            "Gott meiner Rettung",
+            "Gott, der mich verlassen hat",
+            "Richter der ganzen Erde",
+            "Gott meiner Väter"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 2.",
+          "verse": 2,
+          "explain": "V. 2: HERR, Gott meiner Rettung – so beginnt der dunkelste Psalm."
+        },
+        {
+          "type": "truefalse",
+          "q": "Heman sagt, seine Feinde hätten ihn in die Grube gestoßen.",
+          "answer": false,
+          "hint": "Lies Vers 7.",
+          "verse": 7,
+          "explain": "V. 7: Du hast mich in die tiefste Grube gelegt. Feinde kommen in diesem Psalm nicht vor."
+        },
+        {
+          "type": "choice",
+          "q": "Was ist laut V. 9 mit seinen Bekannten geschehen?",
+          "options": [
+            "Gott hat sie von ihm entfernt",
+            "Sie trösten ihn jeden Tag",
+            "Sie sind gestorben",
+            "Sie spotten über seinen Gott"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 9.",
+          "verse": 9,
+          "explain": "V. 9: Gott hat seine Bekannten entfernt, er ist ihnen ein Gräuel geworden und eingeschlossen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Grube, Scheol, Tiefen?",
+          "a": "Alles Wörter für den Bereich der Toten. Heman beschreibt sich als jemand, der schon dort liegt (V. 4–7)."
+        },
+        {
+          "q": "Was heißt „Machalat Leannoth“?",
+          "a": "Wahrscheinlich eine Angabe zu Melodie oder Aufführung. „Machalat“ könnte mit Krankheit oder mit einem Flöteninstrument zu tun haben – die Bedeutung ist unsicher (V. 1)."
+        },
+        {
+          "q": "War Heman krank?",
+          "a": "Vielleicht. V. 16 sagt, er sei elend von Jugend an. Manche Ausleger denken an eine lange Krankheit, etwa Aussatz, weil seine Bekannten sich von ihm fernhalten (V. 9). Der Psalm sagt es nicht ausdrücklich."
+        }
+      ],
+      "cards": ["heman"],
+      "teaser": "Im nächsten Abschnitt stellt Heman Gott Fragen über die Toten – Fragen, die wie ein Argument klingen."
+    },
+    {
+      "id": "psa-14",
+      "stage": "dunkel",
+      "refs": [ { "book": 19, "chapter": 88, "from": 11, "to": 19 } ],
+      "title": "Finsternis",
+      "summary": "Heman fragt, ob Gott an den Toten Wunder tut. Er betet jeden Morgen weiter und fragt, warum Gott sich verbirgt. Der Psalm endet ohne Wende: Seine Vertrauten sind Finsternis.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was tut Heman trotz allem jeden Morgen?",
+          "options": [
+            "Sein Gebet kommt Gott zuvor",
+            "Er geht in den Tempel",
+            "Er bringt ein Opfer",
+            "Er liest im Gesetz"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 14.",
+          "verse": 14,
+          "explain": "V. 14: Am Morgen kommt sein Gebet Gott zuvor – er betet weiter."
+        },
+        {
+          "type": "truefalse",
+          "q": "Psalm 88 endet wie Psalm 13 mit einem Satz des Vertrauens.",
+          "answer": false,
+          "hint": "Lies Vers 19.",
+          "verse": 19,
+          "explain": "V. 19 endet mit Finsternis – im Hebräischen ist das das letzte Wort des Psalms."
+        },
+        {
+          "type": "choice",
+          "q": "Womit begründet Heman in V. 11–13, dass Gott ihn retten sollte?",
+          "options": [
+            "Tote können Gottes Güte und Treue nicht erzählen",
+            "Er hat nie gesündigt",
+            "Seine Väter haben Gott treu gedient",
+            "Er hat Gott ein Opfer versprochen"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 11 bis 13.",
+          "verse": 12,
+          "explain": "V. 11–13: Werden im Grab Gottes Güte, Treue und Wunder erzählt? Seine Fragen erwarten ein Nein."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was sind die „Schatten“ und der „Abgrund“?",
+          "a": "„Schatten“ (hebr. refaim) sind die Toten im Scheol, kraftlose Gestalten. Für „Abgrund“ steht „Abaddon“, ein Name für den Ort des Verderbens (vgl. Hiob 26,6). In der Offenbarung wird Abaddon zum Namen des Engels des Abgrunds (Offb 9,11).",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Warum steht ein solcher Psalm in der Bibel?",
+          "a": "Darauf gibt es verschiedene Antworten. Jüdische und christliche Ausleger weisen darauf hin, dass Heman trotz allem zu Gott redet (V. 14). Andere sehen darin Raum für Menschen, die keine Wende erleben."
+        },
+        {
+          "q": "Hatte man im Alten Testament keine Hoffnung über den Tod hinaus?",
+          "a": "In vielen Texten ist der Scheol ein Ort, an dem man Gott nicht mehr lobt (V. 11–13; Ps 6,6). Einzelne Texte sprechen ausdrücklich von Auferstehung (Jes 26,19; Dan 12,2). Im Neuen Testament steht sie im Mittelpunkt."
+        }
+      ],
+      "fact": "In der katholischen Stundenliturgie wird Psalm 88 jede Woche am Freitag im Nachtgebet (Komplet) gebetet – an dem Wochentag, an dem Christen an Jesu Tod denken.",
+      "prayer": { "text": "Gott, zu dir rufe ich in der Frühe des Tages. Hilf mir beten und meine Gedanken sammeln zu dir; ich kann es nicht allein. In mir ist es finster, aber bei dir ist das Licht; ich bin einsam, aber du verlässt mich nicht; ich bin kleinmütig, aber bei dir ist die Hilfe; ich bin unruhig, aber bei dir ist der Friede; in mir ist Bitterkeit, aber bei dir ist die Geduld; ich verstehe deine Wege nicht, aber du weißt den Weg für mich.", "source": "Dietrich Bonhoeffer, Morgengebet aus den „Gebeten für Mitgefangene“, Tegel 1943 (Auszug)" },
+      "teaser": "Im nächsten Psalm steht das letzte Wort, das Jesus nach Lukas am Kreuz spricht. Im Judentum war es auch ein Satz für den Abend."
+    },
+    {
+      "id": "psa-15",
+      "stage": "hand",
+      "refs": [ { "book": 19, "chapter": 31, "from": 1, "to": 9 } ],
+      "title": "In deine Hand",
+      "summary": "David sucht Zuflucht bei Gott, seinem Fels und seiner Burg. Er legt seinen Geist in Gottes Hand und erinnert sich: Gott hat sein Elend gesehen und ihn in weiten Raum gestellt.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Welche Bilder gebraucht David in V. 3–4 für Gott?",
+          "options": [
+            "Fels und Burg",
+            "Hirte und Herde",
+            "Licht und Lampe",
+            "Quelle und Brunnen"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 3 und 4.",
+          "verse": 4,
+          "explain": "V. 3–4: Fels der Zuflucht, befestigtes Haus, Burg."
+        },
+        {
+          "type": "truefalse",
+          "q": "David sagt in V. 8–9, Gott habe sein Elend nicht bemerkt.",
+          "answer": false,
+          "hint": "Lies Vers 8.",
+          "verse": 8,
+          "explain": "V. 8: Gott hat sein Elend angesehen und die Bedrängnisse seiner Seele gekannt."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Du hast meine Füße in einen [engen] Raum gestellt.",
+          "fix": "weiten",
+          "hint": "Lies Vers 9.",
+          "verse": 9,
+          "explain": "V. 9: in weiten Raum – das Gegenteil von Bedrängnis, die im Hebräischen „Enge“ heißt."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „befehlen“ hier?",
+          "a": "Anvertrauen, in Obhut geben (V. 6). David übergibt sein Leben in Gottes Hand.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Wer hat V. 6 später gebetet?",
+          "a": "Nach Lukas 23,46 betet Jesus diesen Vers, als er stirbt, und setzt „Vater“ davor. Stephanus betet bei seinem Tod ähnlich (Apg 7,59)."
+        },
+        {
+          "q": "„Nichtige Götzen“?",
+          "a": "Wörtlich etwa „Hauch der Leere“ – wieder das Wort hebel wie in Ps 39 (V. 7). Gemeint sind Götter, die nichts tragen.",
+          "translation": "elbbk"
+        }
+      ],
+      "fact": "V. 6 ist bis heute ein Abendgebet: Das jüdische Lied „Adon Olam“ endet mit diesem Gedanken, das kirchliche Nachtgebet (Komplet) singt „In manus tuas“, und Luthers Abendsegen schließt mit der Bitte, sich Gott ganz in die Hände zu befehlen.",
+      "memory_verse": { "ref": { "book": 19, "chapter": 31, "from": 6, "to": 6 }, "text": "In deine Hand befehle ich meinen Geist." },
+      "teaser": "Im nächsten Abschnitt fallen zwei Wörter, die ein Prophet später wörtlich wieder aufgreift."
+    },
+    {
+      "id": "psa-16",
+      "stage": "hand",
+      "refs": [ { "book": 19, "chapter": 31, "from": 10, "to": 19 } ],
+      "title": "Meine Zeiten",
+      "summary": "David ist von Kummer zerfressen, verspottet, vergessen wie ein Toter und bedroht. Doch er sagt zu Gott: Du bist mein Gott, in deiner Hand sind meine Zeiten.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Womit vergleicht sich David in V. 13?",
+          "options": [
+            "Mit einem zertrümmerten Gefäß",
+            "Mit einem verdorrten Baum",
+            "Mit einem verirrten Schaf",
+            "Mit einem leeren Brunnen"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 13.",
+          "verse": 13,
+          "explain": "V. 13: vergessen wie ein Toter, wie ein zertrümmertes Gefäß."
+        },
+        {
+          "type": "truefalse",
+          "q": "Auch seine Nachbarn und Bekannten wenden sich von ihm ab.",
+          "answer": true,
+          "hint": "Lies Vers 12.",
+          "verse": 12,
+          "explain": "V. 12: Er ist den Nachbarn zum Hohn geworden, den Bekannten zum Schrecken; wer ihn sieht, flieht."
+        },
+        {
+          "type": "choice",
+          "q": "Was sagt David in V. 15–16 zu Gott?",
+          "options": [
+            "Er sei sein Gott, und seine Zeit liege in Gottes Hand",
+            "Gott habe ihn verlassen",
+            "Gott solle ihm ein langes Leben schenken",
+            "Gott solle seine Feinde verfluchen"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 15 und 16.",
+          "verse": 16,
+          "explain": "V. 15–16: Du bist mein Gott – in deiner Hand sind meine Zeiten."
+        }
+      ],
+      "explain": [
+        {
+          "q": "„Schrecken ringsum“?",
+          "a": "Ein fester Ausdruck (hebr. magor missaviv, V. 14). Der Prophet Jeremia gebraucht ihn mehrfach, einmal in einem fast gleichen Satz (Jer 20,10). Ob Jeremia den Psalm kannte oder beide eine verbreitete Redewendung nutzen, ist unklar."
+        },
+        {
+          "q": "Hat David Schuld an seiner Lage?",
+          "a": "V. 11 nennt seine Schuld als einen Grund für seine Schwäche, ohne Einzelheiten. Die alte griechische Übersetzung liest an dieser Stelle „Elend“ statt „Schuld“."
+        },
+        {
+          "q": "„Lass dein Angesicht leuchten“?",
+          "a": "Ein Bild für Gottes freundliche Zuwendung (V. 17), bekannt aus dem aaronitischen Segen (4Mo 6,25)."
+        }
+      ],
+      "try": "Lies Jeremia 20,7–10. Welche Sätze erinnern dich an Psalm 31?",
+      "teaser": "Am Ende des Psalms gibt David zu, was er in seiner Bestürzung gesagt hat."
+    },
+    {
+      "id": "psa-17",
+      "stage": "hand",
+      "refs": [ { "book": 19, "chapter": 31, "from": 20, "to": 25 } ],
+      "title": "Dennoch hörtest du",
+      "summary": "David preist Gottes Güte für alle, die bei ihm Zuflucht suchen. Er gesteht: In seiner Bestürzung hielt er sich für abgeschnitten – und doch hat Gott sein Flehen gehört. Am Ende ermutigt er andere.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was hatte David laut V. 23 in seiner Bestürzung gesagt?",
+          "options": [
+            "Er sei von Gottes Augen abgeschnitten",
+            "Gott sei nicht gerecht",
+            "Er wolle nie wieder beten",
+            "Seine Feinde hätten gewonnen"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 23.",
+          "verse": 23,
+          "explain": "V. 23: Er dachte, er sei von Gottes Augen abgeschnitten – dennoch hat Gott sein Flehen gehört."
+        },
+        {
+          "type": "order",
+          "q": "Bring den Schluss des Psalms in die richtige Reihenfolge.",
+          "items": [
+            "Lob über Gottes aufbewahrte Güte",
+            "Rückblick: Ich dachte, ich sei abgeschnitten",
+            "Aufruf an alle, die auf den HERRN harren"
+          ],
+          "hint": "Schau in V. 20, 23 und 25.",
+          "explain": "V. 20–22 Lob, V. 23 Rückblick, V. 24–25 Aufruf an die anderen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "„In einer festen Stadt“?",
+          "a": "Ein Bild für Schutz (V. 22). Manche denken an eine konkrete Rettung, etwa in einer befestigten Stadt auf der Flucht vor Saul. Andere lesen es nur als Bild."
+        },
+        {
+          "q": "Für wen ist der Schluss gedacht?",
+          "a": "V. 24–25 wenden sich an andere: an die Frommen und an alle, die auf Gott harren. Das persönliche Gebet wird zu einem Wort für eine Gemeinschaft."
+        }
+      ],
+      "prayer": { "text": "Ich danke dir, mein himmlischer Vater, durch Jesus Christus, deinen lieben Sohn, dass du mich diesen Tag gnädiglich behütet hast, und bitte dich, du wollest mir vergeben alle meine Sünden, wo ich unrecht getan habe, und mich diese Nacht gnädiglich behüten. Denn ich befehle mich, meinen Leib und Seele und alles in deine Hände. Dein heiliger Engel sei mit mir, dass der böse Feind keine Macht an mir finde. Amen.", "source": "Martin Luther, Abendsegen (Kleiner Katechismus, 1529)" },
+      "teaser": "Der nächste Psalm wurde zu einem der bekanntesten Lieder der Reformation. Warum warten darin Wächter?"
+    },
+    {
+      "id": "psa-18",
+      "stage": "hand",
+      "refs": [ { "book": 19, "chapter": 130, "from": 1, "to": 8 } ],
+      "title": "Aus der Tiefe",
+      "summary": "Aus der Tiefe ruft der Beter zu Gott. Wenn Gott Schuld anrechnete, könnte niemand bestehen – doch bei ihm ist Vergebung. Der Beter wartet auf Gott mehr als die Wächter auf den Morgen und ruft Israel auf, ebenso zu hoffen.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was ist laut V. 4 bei Gott?",
+          "options": [
+            "Vergebung",
+            "Vergeltung",
+            "Schweigen",
+            "Strenge"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 4.",
+          "verse": 4,
+          "explain": "V. 4: Bei Gott ist Vergebung – nach der Frage in V. 3, wer bestehen könnte, wenn Gott Schuld anrechnet."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Meine Seele wartet auf den Herrn mehr als die Wächter auf den [Abend].",
+          "fix": "Morgen",
+          "hint": "Lies Vers 6.",
+          "verse": 6,
+          "explain": "V. 6: mehr als die Wächter auf den Morgen – und der Satz wird gleich zweimal gesagt."
+        },
+        {
+          "type": "truefalse",
+          "q": "Am Ende bleibt der Beter bei sich und seiner eigenen Not.",
+          "answer": false,
+          "hint": "Lies Vers 7 und 8.",
+          "verse": 7,
+          "explain": "V. 7–8: Er ruft ganz Israel auf, auf den HERRN zu harren, der Israel erlösen wird."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist ein „Stufenlied“?",
+          "a": "Eines von 15 Liedern (Ps 120–134), die wahrscheinlich Pilger auf dem Weg hinauf nach Jerusalem sangen."
+        },
+        {
+          "q": "Warum folgt auf Vergebung „Furcht“ (V. 4)?",
+          "a": "„Gottesfurcht“ meint im Alten Testament vor allem Ehrfurcht, nicht Angst. Manche Ausleger erklären: Wer Vergebung erfährt, begegnet Gott mit Ehrfurcht, statt vor ihm zu fliehen. Der Psalm selbst begründet den Zusammenhang nicht."
+        },
+        {
+          "q": "Welche Tiefe ist gemeint?",
+          "a": "Das Wort meint sonst die Tiefen des Meeres (z. B. Jes 51,10). Der Psalm sagt nicht, worin die Not besteht; nur V. 3 und 8 sprechen von Schuld."
+        }
+      ],
+      "cards": ["stufenlieder"],
+      "fact": "Luther dichtete Psalm 130 im Jahr 1523/24 zu dem Lied „Aus tiefer Not schrei ich zu dir“. Die lateinischen Anfangsworte „De profundis“ wurden zum Titel vieler Werke – auch eines langen Briefs, den Oscar Wilde 1897 im Gefängnis schrieb.",
+      "try": "Lies die erste Strophe von „Aus tiefer Not schrei ich zu dir“ (Gesangbuch oder online) und vergleiche sie mit V. 1–4. Was hat Luther hinzugefügt?",
+      "teaser": "Zum Schluss ein Psalm, den viele auswendig können. Nach all den Klagen klingt eines seiner Verben vielleicht anders."
+    },
+    {
+      "id": "psa-19",
+      "stage": "hand",
+      "refs": [ { "book": 19, "chapter": 23, "from": 1, "to": 6 } ],
+      "title": "Im finsteren Tal",
+      "summary": "Der HERR ist mein Hirte: Er führt, versorgt und ist auch im Tal des Todesschattens dabei. Er deckt einen Tisch vor den Augen der Feinde, und Güte und Huld folgen dem Beter.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was sagt der Beter über das Tal des Todesschattens?",
+          "options": [
+            "Er fürchtet nichts Übles, denn Gott ist bei ihm",
+            "Er muss nie hindurchgehen",
+            "Ein Engel trägt ihn darüber hinweg",
+            "Es ist nur ein kurzer Weg"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 4.",
+          "verse": 4,
+          "explain": "V. 4: Auch wenn er durch das Tal geht, fürchtet er nichts Übles, denn Gott ist bei ihm. Das Tal bleibt."
+        },
+        {
+          "type": "truefalse",
+          "q": "Als der Tisch gedeckt wird, sind die Feinde verschwunden.",
+          "answer": false,
+          "hint": "Lies Vers 5.",
+          "verse": 5,
+          "explain": "V. 5: Gott deckt den Tisch angesichts der Feinde – sie sind noch da."
+        },
+        {
+          "type": "order",
+          "q": "Bring die Bilder des Psalms in die richtige Reihenfolge.",
+          "items": [
+            "Grüne Auen und stille Wasser",
+            "Das Tal des Todesschattens",
+            "Ein Tisch vor den Feinden",
+            "Wohnen im Haus des HERRN"
+          ],
+          "hint": "Lies den Psalm noch einmal von oben nach unten.",
+          "explain": "V. 2 Auen und Wasser, V. 4 das Tal, V. 5 der Tisch, V. 6 das Haus des HERRN."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „Todesschatten“?",
+          "a": "Das hebräische Wort (zalmawet) kann „Schatten des Todes“ oder einfach „tiefste Finsternis“ bedeuten. Daher übersetzen manche Bibeln „finsteres Tal“ (V. 4)."
+        },
+        {
+          "q": "Stecken und Stab?",
+          "a": "Werkzeuge des Hirten: ein Knüppel zur Abwehr wilder Tiere und ein Stab zum Führen und Stützen (V. 4)."
+        },
+        {
+          "q": "„Folgen“ – ein harmloses Wort?",
+          "a": "Das hebräische Verb (radaf) heißt meist „verfolgen, nachjagen“ – so wie Feinde jemanden jagen (vgl. Ps 31,16). In V. 6 sind es Güte und Huld, die dem Beter nachjagen."
+        },
+        {
+          "q": "Warum ein Hirte?",
+          "a": "Im Alten Orient nannten sich Könige oft „Hirten“ ihres Volkes. David hütete selbst Schafe, bevor er König wurde (1Sam 16,11). Jesus nennt sich im Johannesevangelium den guten Hirten (Joh 10,11)."
+        }
+      ],
+      "memory_verse": { "ref": { "book": 19, "chapter": 23, "from": 4, "to": 4 }, "text": "fürchte ich nichts Übles, denn du bist bei mir" },
+      "try": "Lies Psalm 22, 23 und 24 hintereinander. Was fällt dir an der Reihenfolge auf?"
+    }
+  ]
+}

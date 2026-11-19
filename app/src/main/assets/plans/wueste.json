@@ -1,0 +1,1282 @@
+{
+  "id": "wueste",
+  "title": "Wüste",
+  "subtitle": "Wo Gott begegnet, wenn nichts mehr da ist",
+  "description": "Hagar, Mose, Israel, David, Elia und Jesus: Sie alle landen in der Wüste – geflohen, weggeschickt, geführt oder erschöpft. Ein Weg durch die Bibel an die Orte, an denen nichts mehr da ist außer Gott.",
+  "direction": "hoffnung",
+  "basis": "elbbk",
+  "stages": [
+    { "id": "weggeschickt", "title": "Weggelaufen, weggeschickt" },
+    { "id": "vierzig", "title": "Vierzig Jahre" },
+    { "id": "allein", "title": "Allein in der Wüste" },
+    { "id": "bluehen", "title": "Die Wüste blüht" }
+  ],
+  "cards": [
+    {
+      "id": "hagar",
+      "type": "person",
+      "name": "Hagar",
+      "text": "Ägyptische Magd Sarais und Mutter Ismaels. Zweimal begegnet ihr Gott in der Wüste: auf der Flucht (1Mo 16) und als sie mit ihrem Sohn fortgeschickt wird (1Mo 21). Paulus deutet sie in Galater 4 bildlich auf den Bund vom Sinai. Im Islam wird sie als Mutter Ismaels hoch geehrt.",
+      "refs": "1Mo 16; 21,9–21; Gal 4,24–25"
+    },
+    {
+      "id": "beer-lachai-roi",
+      "type": "ort",
+      "name": "Beer-Lachai-Roi",
+      "text": "„Brunnen des Lebendigen, der mich sieht“. Ein Brunnen in der Wüste zwischen Kadesch und Bered, benannt nach Hagars Gottesbegegnung (1Mo 16,13–14). Später wohnte Isaak dort (1Mo 24,62; 25,11). Die genaue Lage ist unbekannt.",
+      "refs": "1Mo 16,14; 25,11"
+    },
+    {
+      "id": "midbar",
+      "type": "begriff",
+      "name": "Wüste (midbar)",
+      "text": "Das hebräische Wort meint selten Sanddünen, sondern meist Steppe und karges Bergland: wenig Regen, kaum Siedlungen, aber Weide für Herden. Das vierte Buch Mose heißt auf Hebräisch Bemidbar, „In der Wüste“.",
+      "refs": "2Mo 3,1; 4Mo 1,1"
+    },
+    {
+      "id": "mose",
+      "type": "person",
+      "name": "Mose",
+      "text": "Anführer Israels beim Auszug aus Ägypten. Am Hof des Pharao aufgewachsen, floh er nach einem Totschlag nach Midian und hütete dort Schafe, bis Gott ihn am Dornbusch berief. Er führte das Volk 40 Jahre durch die Wüste und starb kurz vor dem Ziel auf dem Berg Nebo (5Mo 34).",
+      "refs": "2Mo 2–3; 5Mo 34; Apg 7,23–36"
+    },
+    {
+      "id": "manna",
+      "type": "begriff",
+      "name": "Manna",
+      "text": "Das Brot, mit dem Gott Israel 40 Jahre in der Wüste versorgte (2Mo 16; Jos 5,12). Der Name kommt wohl von der Frage „man hu?“ – „Was ist das?“. Es fiel jeden Morgen außer am Sabbat und verdarb, wenn man es aufhob. Jesus nennt sich in Johannes 6 das wahre Brot vom Himmel.",
+      "refs": "2Mo 16,15.31; Jos 5,12; Joh 6,31–35"
+    },
+    {
+      "id": "sabbat",
+      "type": "begriff",
+      "name": "Sabbat",
+      "text": "Der siebte Tag der Woche als Ruhetag, vom hebräischen schabat, „aufhören, ruhen“. Erstmals genannt bei der Mannagabe (2Mo 16,23). Das Gebot am Sinai begründet ihn mit Gottes Ruhe nach der Schöpfung (2Mo 20,8–11), die Wiederholung in 5. Mose mit der Befreiung aus der Sklaverei (5Mo 5,12–15).",
+      "refs": "2Mo 16,23; 20,8–11; 5Mo 5,12–15"
+    },
+    {
+      "id": "massa-meriba",
+      "type": "ort",
+      "name": "Massa und Meriba",
+      "text": "Ort bei Refidim, an dem Israel um Wasser stritt und Gott auf die Probe stellte (2Mo 17,7). Massa heißt „Probe“, Meriba „Streit“. Der Name wurde zur Warnung (5Mo 6,16; Ps 95,8; Hebr 3,8). Ein zweites Meriba nennt 4Mo 20,13.",
+      "refs": "2Mo 17,7; Ps 95,8; 4Mo 20,13"
+    },
+    {
+      "id": "vierzig",
+      "type": "begriff",
+      "name": "Die Zahl 40",
+      "text": "In der Bibel oft eine Zeit der Prüfung oder des Übergangs: 40 Tage Regen bei der Flut (1Mo 7,12), 40 Jahre in der Wüste, 40 Tage Moses auf dem Berg (2Mo 24,18), Elias Weg zum Horeb (1Kön 19,8) und Jesu Fasten (Mt 4,2). Oft steht sie auch einfach für eine lange Zeit, etwa eine Generation.",
+      "refs": "2Mo 16,35; 1Kön 19,8; Mt 4,2"
+    },
+    {
+      "id": "wueste-juda",
+      "type": "ort",
+      "name": "Wüste Juda",
+      "text": "Trockenes Bergland östlich von Jerusalem und Bethlehem, das steil zum Toten Meer abfällt. Nur wenige Kilometer vom fruchtbaren Land entfernt fällt kaum Regen. Hier versteckte sich David vor Saul, hier predigte Johannes der Täufer (Mt 3,1), und hier lebten später viele christliche Einsiedler.",
+      "refs": "Ps 63,1; 1Sam 23,14; Mt 3,1"
+    },
+    {
+      "id": "elia",
+      "type": "person",
+      "name": "Elia",
+      "text": "Prophet im Nordreich Israel im 9. Jh. v. Chr., Gegenspieler von König Ahab und Königin Isebel. Er trat für den HERRN gegen den Baalskult ein (1Kön 17–19). Er starb nicht, sondern fuhr im Sturmwind zum Himmel (2Kön 2,11). Bei der Verklärung Jesu erscheint er mit Mose (Mk 9,4).",
+      "refs": "1Kön 17–19; 2Kön 2,11; Mk 9,4"
+    },
+    {
+      "id": "tal-achor",
+      "type": "ort",
+      "name": "Tal Achor",
+      "text": "Tal bei Jericho, in dem Achan gesteinigt wurde, weil er gebannte Beute genommen hatte (Jos 7,24–26). „Achor“ heißt Trübsal. Hosea und Jesaja (Jes 65,10) kündigen an, dass gerade dieses Tal ein Ort der Hoffnung und der Weide wird. Die genaue Lage ist unsicher.",
+      "refs": "Jos 7,26; Hos 2,17; Jes 65,10"
+    },
+    {
+      "id": "wuestenvaeter",
+      "type": "ereignis",
+      "name": "Wüstenväter und Wüstenmütter",
+      "text": "Christen, die ab dem 3. Jahrhundert in die Wüsten Ägyptens, Syriens und Palästinas zogen, um dort im Gebet zu leben. Als einer der ersten gilt Antonius der Große (gest. 356). Ihre kurzen Sprüche wurden gesammelt (Apophthegmata Patrum). Aus ihren Gemeinschaften entstand das christliche Mönchtum.",
+      "refs": "Lk 5,16"
+    },
+    {
+      "id": "ich-bin-worte",
+      "type": "begriff",
+      "name": "Die Ich-bin-Worte",
+      "text": "Sieben Bildworte Jesu im Johannesevangelium: Ich bin das Brot des Lebens (6,35), das Licht der Welt (8,12), die Tür (10,9), der gute Hirte (10,11), die Auferstehung und das Leben (11,25), der Weg, die Wahrheit und das Leben (14,6), der Weinstock (15,5). Viele Ausleger hören darin Gottes Namen vom Dornbusch (2Mo 3,14).",
+      "refs": "Joh 6,35; 2Mo 3,14"
+    }
+  ],
+  "sections": [
+    {
+      "id": "wue-01",
+      "stage": "weggeschickt",
+      "refs": [ { "book": 1, "chapter": 16, "from": 6, "to": 14 } ],
+      "title": "Woher kommst du?",
+      "summary": "Hagar flieht vor Sarais Härte in die Wüste. Der Engel des HERRN findet sie an einer Quelle, fragt nach ihrem Woher und Wohin und kündigt ihr einen Sohn an: Ismael, „Gott hört“. Hagar nennt Gott einen Gott, der sich schauen lässt.",
+      "bridge": "Abram und Sarai warten seit zehn Jahren im Land Kanaan auf das versprochene Kind. Sarai gibt Abram ihre ägyptische Magd Hagar zur Frau. Als Hagar schwanger wird, entsteht Streit zwischen den Frauen (1Mo 16,1–5).",
+      "place": "schur",
+      "focus": "Achte darauf, wer in diesem Abschnitt wem einen Namen gibt.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wo findet der Engel des HERRN Hagar?",
+          "options": [
+            "An einer Wasserquelle in der Wüste",
+            "Im Zelt Abrams",
+            "Unter einem Baum bei Mamre",
+            "An der Grenze zu Ägypten bei einer Stadt"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 7.",
+          "verse": 7,
+          "explain": "V. 7: an einer Wasserquelle in der Wüste, auf dem Weg nach Sur – Richtung Ägypten, ihrer Heimat."
+        },
+        {
+          "type": "truefalse",
+          "q": "Der Engel spricht Hagar mit ihrem Namen an.",
+          "answer": true,
+          "hint": "Lies Vers 8.",
+          "verse": 8,
+          "explain": "V. 8: Hagar, Magd Sarais. In V. 1–6 reden Sarai und Abram nur über sie, niemand redet mit ihr."
+        },
+        {
+          "type": "choice",
+          "q": "Womit begründet der Engel den Namen Ismael?",
+          "options": [
+            "Der HERR hat auf ihr Elend gehört",
+            "Gott ist stark",
+            "Er wird in der Wüste wohnen",
+            "Gott hat sie gesehen"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 11.",
+          "verse": 11,
+          "explain": "V. 11: Der HERR hat auf dein Elend gehört. Ismael heißt wörtlich „Gott hört“. Vom Sehen spricht erst Hagar selbst in V. 13."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer ist „der Engel des HERRN“?",
+          "a": "Ein Bote Gottes, der hier zum ersten Mal in der Bibel auftritt. In V. 13 sagt der Text, dass der HERR selbst zu Hagar redete. Jüdische Ausleger verstehen den Engel meist als Boten, der in Gottes Namen spricht; viele christliche Ausleger seit der Alten Kirche sehen in ihm eine Erscheinung des Sohnes Gottes vor seiner Menschwerdung."
+        },
+        {
+          "q": "Warum soll Hagar zurückkehren?",
+          "a": "V. 9 ist für viele Leser schwer: Der Engel schickt sie zurück zu der Frau, die sie hart behandelt hat. Der Text begründet das nicht. Manche Ausleger verweisen darauf, dass eine schwangere Frau allein in der Wüste kaum überleben konnte; andere lassen die Härte des Verses stehen."
+        },
+        {
+          "q": "Was heißt „ein Gott, der sich schauen lässt“?",
+          "a": "Hebräisch El Roi, oft übersetzt: „Gott, der mich sieht“. Der Satz in V. 13 ist im Hebräischen schwer zu verstehen. Er kann heißen, dass Gott Hagar sieht, oder dass sie Gott gesehen hat und lebt. Davon kommt der Name des Brunnens in V. 14."
+        },
+        {
+          "q": "Ein „Wildesel von Mensch“?",
+          "a": "Der Wildesel lebt frei in der Steppe und lässt sich nicht zähmen (vgl. Hiob 39,5–8). Das Bild beschreibt Ismael als freien, kämpferischen Menschen, der für sich selbst einsteht (V. 12)."
+        }
+      ],
+      "cards": ["hagar", "beer-lachai-roi"],
+      "fact": "Hagar gilt als einzige Person in der Bibel, die Gott selbst einen Namen gibt (V. 13). Andere benennen Orte nach einer Gottesbegegnung – Hagar benennt Gott.",
+      "teaser": "Jahre später ist Hagar wieder in der Wüste – diesmal nicht geflohen, sondern weggeschickt."
+    },
+    {
+      "id": "wue-02",
+      "stage": "weggeschickt",
+      "refs": [ { "book": 1, "chapter": 21, "from": 9, "to": 21 } ],
+      "title": "Einen Bogenschuss weit",
+      "summary": "Sara verlangt, dass Hagar und Ismael gehen. Abraham schickt sie mit Brot und Wasser fort. Als das Wasser ausgeht, setzt sich Hagar weit weg, um das Kind nicht sterben zu sehen. Gott hört die Stimme des Jungen und öffnet Hagar die Augen für einen Brunnen.",
+      "bridge": "Hagar kehrte zurück, und Ismael wurde geboren. Vierzehn Jahre später bekam Sara selbst einen Sohn: Isaak (1Mo 21,1–7).",
+      "place": "beerseba",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Bring die Ereignisse in die richtige Reihenfolge.",
+          "items": [
+            "Sara verlangt, die Magd zu vertreiben",
+            "Abraham gibt Hagar Brot und Wasser",
+            "Hagar setzt sich weit weg vom Kind",
+            "Gott öffnet Hagar die Augen"
+          ],
+          "hint": "Schau in V. 10, 14, 16 und 19.",
+          "explain": "V. 10 Saras Forderung, V. 14 der Abschied am Morgen, V. 16 Hagar weint abseits, V. 19 der Brunnen."
+        },
+        {
+          "type": "choice",
+          "q": "Wessen Stimme hört Gott laut V. 17?",
+          "options": [
+            "Die Stimme des Knaben",
+            "Die Stimme Hagars",
+            "Die Stimme Abrahams",
+            "Die Stimme Saras"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 17.",
+          "verse": 17,
+          "explain": "V. 17: Gott hört die Stimme des Knaben, da, wo er ist – obwohl in V. 16 Hagar weint."
+        },
+        {
+          "type": "truefalse",
+          "q": "Der Text sagt, dass der Brunnen in diesem Moment durch ein Wunder entsteht.",
+          "answer": false,
+          "hint": "Lies Vers 19 genau.",
+          "verse": 19,
+          "explain": "V. 19 sagt nicht, dass der Brunnen neu entsteht, sondern dass Gott Hagar die Augen öffnet und sie ihn sieht."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wie alt war Ismael?",
+          "a": "Nach 1Mo 16,16 und 21,5 müsste er etwa 16 Jahre alt sein. Die Erzählung beschreibt ihn aber wie ein Kind, das man unter einen Strauch legt (V. 14–15). Raschi, ein jüdischer Ausleger des Mittelalters, erklärt nach einem alten Midrasch, Ismael habe Fieber gehabt und nicht laufen können. Andere verweisen darauf, dass das hebräische Wort für „Kind“ auch Jugendliche meint."
+        },
+        {
+          "q": "Warum stimmt Gott Sara zu?",
+          "a": "V. 12: Die Verheißung soll über Isaak weitergehen. Zugleich verspricht Gott, auch Ismael zu einem Volk zu machen (V. 13). Der Text verschweigt nicht, dass Abraham die Sache sehr übel fand (V. 11)."
+        },
+        {
+          "q": "Wie lesen Christen, Juden und Muslime Hagars Geschichte?",
+          "a": "Paulus deutet Hagar und Sara in Galater 4,21–31 bildlich auf zwei Bünde. In der jüdischen Tradition gilt Ismael als Stammvater arabischer Völker. Im Islam wird Hagar (Hadschar) als Mutter Ismaels hoch geehrt; beim Haddsch erinnern die Pilger mit dem Lauf zwischen den Hügeln Safa und Marwa an ihre Suche nach Wasser."
+        }
+      ],
+      "fact": "Einen „Bogenschuss weit“ setzt sich Hagar von ihrem Sohn weg (V. 16). Am Ende des Abschnitts wird genau dieser Sohn ein Bogenschütze (V. 20).",
+      "teaser": "Ein Mann, der am Hof des Pharao aufwuchs, hütet fremde Schafe in der Wüste. Wie lange schon?"
+    },
+    {
+      "id": "wue-03",
+      "stage": "weggeschickt",
+      "refs": [
+        { "book": 2, "chapter": 2, "from": 15, "to": 15 },
+        { "book": 2, "chapter": 2, "from": 21, "to": 22 },
+        { "book": 2, "chapter": 3, "from": 1, "to": 8 }
+      ],
+      "title": "Hinter der Wüste",
+      "summary": "Mose flieht nach Midian, heiratet und nennt seinen Sohn Gersom: Ich bin ein Fremder geworden. Als er die Herde hinter die Wüste treibt, ruft Gott ihn aus einem brennenden Dornbusch: Ich habe das Elend meines Volkes gesehen.",
+      "bridge": "Hunderte Jahre später leben Abrahams Nachkommen als Sklaven in Ägypten. Mose, am Hof des Pharao aufgewachsen, erschlägt einen Ägypter, der einen Hebräer misshandelt (2Mo 2,11–14).",
+      "place": "horeb",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Warum nennt Mose seinen Sohn Gersom?",
+          "options": [
+            "Weil er ein Fremder in fremdem Land geworden ist",
+            "Weil er endlich Ruhe gefunden hat",
+            "Weil Gott ihn vor dem Pharao gerettet hat",
+            "Weil er nach Ägypten zurückkehren will"
+          ],
+          "answer": 0,
+          "hint": "Lies 2. Mose 2,22.",
+          "explain": "2Mo 2,22: Ein Fremder bin ich geworden in fremdem Land. Der Name klingt im Hebräischen nach „ger“, Fremder."
+        },
+        {
+          "type": "truefalse",
+          "q": "Mose geht zum Berg Horeb, um dort Gott zu suchen.",
+          "answer": false,
+          "hint": "Lies 2. Mose 3,1.",
+          "explain": "2Mo 3,1: Er ist mit der Herde seines Schwiegervaters unterwegs und kommt dabei an den Berg. Er sucht Gott nicht – Gott ruft ihn."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Gott sagt: Ich habe das Elend meines Volkes gesehen und sein Schreien [überhört].",
+          "fix": "gehört",
+          "hint": "Lies 2. Mose 3,7.",
+          "explain": "2Mo 3,7: Gott hat das Elend gesehen, das Schreien gehört und kennt die Schmerzen seines Volkes."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „hinter die Wüste“?",
+          "a": "Das hebräische Wort für Wüste (midbar) meint oft Steppe: karges Land, auf dem man Herden weiden kann. Mose zieht über die üblichen Weideplätze hinaus. Weil man sich im Hebräischen nach Osten ausrichtet, kann „hinten“ auch „westlich“ heißen."
+        },
+        {
+          "q": "Wie lange war Mose in Midian?",
+          "a": "2. Mose nennt keine Zahl. Stephanus sagt in Apg 7,23.30: Mose war 40 Jahre alt, als er floh, und weitere 40 Jahre vergingen bis zum Dornbusch."
+        },
+        {
+          "q": "Warum soll Mose die Schuhe ausziehen?",
+          "a": "Als Zeichen der Ehrfurcht an einem heiligen Ort (2Mo 3,5). Dasselbe wird später Josua gesagt (Jos 5,15)."
+        }
+      ],
+      "cards": ["midbar", "mose"],
+      "teaser": "Drei Tage nach dem großen Wunder am Meer gibt es kein Wasser. Und das Wasser, das sie dann finden, kann man nicht trinken."
+    },
+    {
+      "id": "wue-04",
+      "stage": "vierzig",
+      "refs": [ { "book": 2, "chapter": 15, "from": 22, "to": 27 } ],
+      "title": "Bitteres Wasser",
+      "summary": "Drei Tage nach dem Wunder am Meer findet Israel kein Wasser, und in Mara ist es bitter. Das Volk murrt, Mose schreit zu Gott, und ein Holz macht das Wasser süß. Gott stellt sich vor als der HERR, der heilt. Dann kommt Elim mit zwölf Quellen.",
+      "bridge": "Gott hat Israel durch Mose aus Ägypten geführt und am Schilfmeer vor dem Heer des Pharao gerettet. Mose und Mirjam haben ein Siegeslied gesungen (2Mo 4–15).",
+      "place": "mara",
+      "quiz": [
+        {
+          "type": "estimate",
+          "q": "Wie viele Tage wanderte Israel nach dem Meer ohne Wasser?",
+          "min": 1,
+          "max": 10,
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "Tage",
+          "hint": "Lies Vers 22.",
+          "verse": 22,
+          "explain": "V. 22: drei Tage in der Wüste Sur, ohne Wasser."
+        },
+        {
+          "type": "choice",
+          "q": "Was macht das Wasser in Mara süß?",
+          "options": [
+            "Ein Holz, das Gott Mose zeigt",
+            "Ein Schlag mit Moses Stab",
+            "Ein Gebet Aarons",
+            "Regen vom Himmel"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 25.",
+          "verse": 25,
+          "explain": "V. 25: Mose schreit zu Gott, Gott zeigt ihm ein Holz, Mose wirft es ins Wasser."
+        },
+        {
+          "type": "truefalse",
+          "q": "In Elim fand Israel zwölf Wasserquellen und siebzig Palmen.",
+          "answer": true,
+          "hint": "Lies Vers 27.",
+          "verse": 27,
+          "explain": "V. 27 – nur eine kurze Strecke hinter dem bitteren Wasser."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt Mara?",
+          "a": "Bitter (V. 23). Noomi nennt sich später selbst so, als sie verbittert heimkehrt (Rut 1,20)."
+        },
+        {
+          "q": "„Der HERR, der dich heilt“?",
+          "a": "Hebräisch JHWH rofe'cha (V. 26). Luther übersetzte: Ich bin der HERR, dein Arzt."
+        },
+        {
+          "q": "Was heißt „dort versuchte er es“?",
+          "a": "„Versuchen“ heißt hier prüfen, auf die Probe stellen (V. 25). Das Wort kommt in den Wüstengeschichten immer wieder vor (2Mo 16,4; 17,2; 5Mo 8,2)."
+        }
+      ],
+      "teaser": "Einen Monat nach dem Auszug sehnt sich das Volk nach Ägypten zurück. Was genau vermissen sie?"
+    },
+    {
+      "id": "wue-05",
+      "stage": "vierzig",
+      "refs": [ { "book": 2, "chapter": 16, "from": 1, "to": 12 } ],
+      "title": "Die Fleischtöpfe",
+      "summary": "In der Wüste Sin murrt die ganze Gemeinde: In Ägypten saßen wir wenigstens bei den Fleischtöpfen. Gott kündigt Brot vom Himmel an, das man täglich sammeln soll, und seine Herrlichkeit erscheint in der Wolke.",
+      "place": "wueste-sin",
+      "focus": "Achte darauf, gegen wen sich das Murren laut Mose eigentlich richtet.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wonach sehnt sich das Volk laut V. 3?",
+          "options": [
+            "Nach den Fleischtöpfen Ägyptens",
+            "Nach dem versprochenen Land",
+            "Nach dem Schutz des Pharao",
+            "Nach den Wasserquellen von Elim"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 3.",
+          "verse": 3,
+          "explain": "V. 3: Lieber in Ägypten bei den Fleischtöpfen gestorben als hier verhungern."
+        },
+        {
+          "type": "truefalse",
+          "q": "Gott wirft dem Volk sein Murren vor und kündigt eine Strafe an.",
+          "answer": false,
+          "hint": "Lies Vers 12.",
+          "verse": 12,
+          "explain": "V. 12: Gott hat das Murren gehört – und antwortet mit Fleisch am Abend und Brot am Morgen. Eine Strafe kündigt er hier nicht an."
+        },
+        {
+          "type": "choice",
+          "q": "Warum soll das Volk laut V. 4 nur den täglichen Bedarf sammeln?",
+          "options": [
+            "Damit Gott prüft, ob es nach seinem Gesetz lebt",
+            "Weil das Brot in der Sonne schmilzt",
+            "Damit keiner reicher wird als der andere",
+            "Weil nicht genug für alle da ist"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 4.",
+          "verse": 4,
+          "explain": "V. 4: Gott will es prüfen, ob es in seinem Gesetz wandelt oder nicht."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wann ist das?",
+          "a": "Am 15. Tag des 2. Monats (V. 1). Der Auszug war am 15. Tag des 1. Monats (4Mo 33,3) – das Volk ist also genau einen Monat unterwegs."
+        },
+        {
+          "q": "Was ist mit „murren“ gemeint?",
+          "a": "Ein lautes Klagen und Sich-Beschweren, oft gegen die Anführer. Allein in diesem Kapitel kommt es achtmal vor.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Was ist die „Herrlichkeit des HERRN“?",
+          "a": "Hebräisch kavod, wörtlich „Gewicht, Schwere“. Gemeint ist die sichtbare Gegenwart Gottes, hier in der Wolke, die Israel durch die Wüste führte (V. 10; 2Mo 13,21)."
+        }
+      ],
+      "teaser": "Am nächsten Morgen liegt etwas auf dem Boden, und niemand weiß, was es ist. Die Frage wird zu seinem Namen."
+    },
+    {
+      "id": "wue-06",
+      "stage": "vierzig",
+      "refs": [ { "book": 2, "chapter": 16, "from": 13, "to": 21 } ],
+      "title": "Was ist das?",
+      "summary": "Am Abend kommen Wachteln, am Morgen liegt etwas Feines auf dem Boden. Die Israeliten fragen: Was ist das? Jeder sammelt, viel oder wenig, und jeder hat genug. Was man bis zum Morgen aufhebt, verdirbt.",
+      "place": "wueste-sin",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was fragen die Israeliten, als sie das Brot zum ersten Mal sehen?",
+          "options": [
+            "Was ist das?",
+            "Woher kommt das?",
+            "Darf man das essen?",
+            "Wie lange reicht das?"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 15.",
+          "verse": 15,
+          "explain": "V. 15. Auf Hebräisch klingt die Frage „man hu“ – daher der Name Man oder Manna (V. 31)."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Wer viel gesammelt hatte, hatte [reichlich] übrig, und wer wenig gesammelt hatte, dem fehlte nichts.",
+          "fix": "nichts",
+          "hint": "Lies Vers 18.",
+          "verse": 18,
+          "explain": "V. 18: Wer viel gesammelt hatte, hatte nichts übrig; wer wenig gesammelt hatte, dem fehlte nichts."
+        },
+        {
+          "type": "truefalse",
+          "q": "Was einige bis zum nächsten Morgen aufhoben, blieb frisch.",
+          "answer": false,
+          "hint": "Lies Vers 20.",
+          "verse": 20,
+          "explain": "V. 20: Es wurde wurmig und stank, und Mose wurde zornig."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was war das Manna?",
+          "a": "Die Bibel beschreibt es als fein und körnig, weiß wie Koriandersamen, mit einem Geschmack wie Honigkuchen (V. 14.31). Manche haben versucht, es natürlich zu erklären, etwa mit süßen Ausscheidungen von Schildläusen an Tamarisken im Sinai. Der Text nennt es das Brot, das Gott gibt (V. 15)."
+        },
+        {
+          "q": "Was ist ein Gomer?",
+          "a": "Ein Hohlmaß, ein Zehntel Epha (2Mo 16,36), wahrscheinlich etwa 2 bis 4 Liter – die Tagesration für eine Person (V. 16)."
+        },
+        {
+          "q": "Wachteln?",
+          "a": "Zugvögel, die im Frühjahr und Herbst in großen Schwärmen über den Sinai ziehen und erschöpft landen (V. 13). 4. Mose 11 erzählt noch einmal von Wachteln."
+        }
+      ],
+      "fact": "Paulus zitiert V. 18 in 2. Korinther 8,15 – als Begründung für eine Geldsammlung für die Gemeinde in Jerusalem: Es soll ein Ausgleich entstehen.",
+      "prayer": { "ref": { "book": 40, "chapter": 6, "from": 11, "to": 11 }, "source": "Matthäus 6,11" },
+      "try": "Lies V. 19–20 und dann Matthäus 6,11 und 6,34. Was verbindet die Stellen?",
+      "teaser": "Am sechsten Tag liegt plötzlich die doppelte Menge da. Und am siebten?"
+    },
+    {
+      "id": "wue-07",
+      "stage": "vierzig",
+      "refs": [
+        { "book": 2, "chapter": 16, "from": 22, "to": 31 },
+        { "book": 2, "chapter": 16, "from": 35, "to": 35 }
+      ],
+      "title": "Der erste Sabbat",
+      "summary": "Am sechsten Tag sammeln alle die doppelte Menge, und was sie aufheben, verdirbt diesmal nicht. Mose erklärt: Morgen ist Sabbat. Wer trotzdem sammeln geht, findet nichts. 40 Jahre lang isst Israel das Manna.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was ist am sechsten Tag anders?",
+          "options": [
+            "Sie sammeln das Doppelte, und das Aufbewahrte verdirbt nicht",
+            "Es fällt gar kein Manna",
+            "Das Manna schmeckt bitter",
+            "Es kommen wieder Wachteln"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 22 und 24.",
+          "verse": 24,
+          "explain": "V. 22–24: zwei Gomer pro Person, und was bis zum Morgen bleibt, stinkt nicht und hat keine Würmer."
+        },
+        {
+          "type": "truefalse",
+          "q": "Einige, die am siebten Tag trotzdem sammeln gingen, fanden eine kleine Menge.",
+          "answer": false,
+          "hint": "Lies Vers 27.",
+          "verse": 27,
+          "explain": "V. 27: Sie fanden nichts."
+        },
+        {
+          "type": "estimate",
+          "q": "Wie viele Jahre aß Israel das Manna?",
+          "min": 1,
+          "max": 80,
+          "answer": 40,
+          "tolerance": 0,
+          "unit": "Jahre",
+          "hint": "Lies Vers 35.",
+          "verse": 35,
+          "explain": "V. 35: 40 Jahre, bis sie an die Grenze des Landes Kanaan kamen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Ist das der erste Sabbat?",
+          "a": "Hier kommt das Wort „Sabbat“ zum ersten Mal in der Bibel vor (V. 23). Gottes Ruhe am siebten Tag kennt schon die Schöpfungsgeschichte (1Mo 2,2–3); als Gebot für Israel folgt der Sabbat am Sinai (2Mo 20,8–11)."
+        },
+        {
+          "q": "Wie halten Juden und Christen den Ruhetag?",
+          "a": "Juden feiern den Sabbat von Freitag- bis Samstagabend. Die meisten Kirchen feiern seit frühester Zeit den Sonntag als Tag der Auferstehung (vgl. Apg 20,7); manche verstehen ihn als Erfüllung des Sabbatgebots, andere als eigenen Tag. Siebenten-Tags-Adventisten und einige andere Gemeinden halten am Samstag als Ruhetag fest."
+        },
+        {
+          "q": "Bis wann gab es Manna?",
+          "a": "Laut Josua 5,12 hörte es auf, als Israel zum ersten Mal vom Ertrag des Landes Kanaan aß. Ein Krug mit Manna wurde zur Erinnerung aufbewahrt (2Mo 16,33–34; Hebr 9,4)."
+        }
+      ],
+      "cards": ["manna", "sabbat"],
+      "teaser": "Wieder gibt es kein Wasser. Diesmal stellt das Volk eine Frage, die über das Wasser hinausgeht."
+    },
+    {
+      "id": "wue-08",
+      "stage": "vierzig",
+      "refs": [ { "book": 2, "chapter": 17, "from": 1, "to": 7 } ],
+      "title": "Ist der HERR unter uns?",
+      "summary": "In Refidim fehlt Wasser. Das Volk streitet mit Mose, und er fürchtet, gesteinigt zu werden. Gott will vor ihm auf dem Felsen am Horeb stehen; Mose schlägt den Felsen, und Wasser kommt heraus. Der Ort heißt Massa und Meriba.",
+      "place": "rephidim",
+      "focus": "Achte auf die Frage am Ende des Abschnitts.",
+      "quiz": [
+        {
+          "type": "whosaid",
+          "quote": "Was soll ich mit diesem Volk tun?",
+          "quote_ref": { "book": 2, "chapter": 17, "from": 4, "to": 4 },
+          "options": [
+            "Mose",
+            "Aaron",
+            "Der HERR",
+            "Einer der Ältesten"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 4.",
+          "verse": 4,
+          "explain": "V. 4: Mose schreit zu Gott – noch ein wenig, und sie steinigen mich."
+        },
+        {
+          "type": "choice",
+          "q": "Wo will Gott vor Mose stehen?",
+          "options": [
+            "Auf dem Felsen am Horeb",
+            "In der Wolkensäule über dem Lager",
+            "Im Zelt der Begegnung",
+            "Am Ufer des Schilfmeers"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 6.",
+          "verse": 6,
+          "explain": "V. 6: Gott steht auf dem Felsen, den Mose schlagen soll."
+        },
+        {
+          "type": "truefalse",
+          "q": "Am Ende fragt das Volk, ob der HERR in seiner Mitte ist oder nicht.",
+          "answer": true,
+          "hint": "Lies Vers 7.",
+          "verse": 7,
+          "explain": "V. 7: Mit dieser Frage haben sie Gott auf die Probe gestellt – daher der Name Massa."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißen Massa und Meriba?",
+          "a": "Massa heißt Probe oder Versuchung, Meriba Streit (V. 7). Psalm 95,8 und Hebräer 3,8–11 erinnern daran, 5. Mose 6,16 warnt: Versucht Gott nicht wie in Massa."
+        },
+        {
+          "q": "Gibt es zwei Felsen-Geschichten?",
+          "a": "Ja. In 4. Mose 20 schlägt Mose bei Meriba noch einmal einen Felsen, obwohl er zu ihm reden sollte, und darf deshalb nicht ins Land (4Mo 20,8–12)."
+        },
+        {
+          "q": "Wie lesen Juden und Christen den Felsen?",
+          "a": "Paulus schreibt in 1. Korinther 10,4, Israel habe aus einem geistlichen Felsen getrunken, der sie begleitete – und der Fels sei Christus gewesen. Jüdische Überlieferungen erzählen von einem Brunnen, der Israel durch die Wüste folgte."
+        }
+      ],
+      "cards": ["massa-meriba"],
+      "teaser": "Später hat das Volk sogar das Manna satt – und Mose sagt Gott etwas, das man von ihm nicht erwartet."
+    },
+    {
+      "id": "wue-09",
+      "stage": "vierzig",
+      "refs": [
+        { "book": 4, "chapter": 11, "from": 4, "to": 6 },
+        { "book": 4, "chapter": 11, "from": 10, "to": 17 }
+      ],
+      "title": "Mir ist es zu schwer",
+      "summary": "Das Volk weint nach Fisch, Gurken und Melonen aus Ägypten; es gibt nur noch Manna. Mose ist am Ende: Er kann das Volk nicht allein tragen und bittet Gott, ihn lieber zu töten. Gott antwortet: 70 Älteste sollen die Last mittragen.",
+      "bridge": "Fast ein Jahr lang hat Israel am Sinai gelagert, Gottes Gebote empfangen und das Heiligtum gebaut. Nun ist es wieder unterwegs Richtung Wüste Paran (4Mo 10,11–12).",
+      "place": "paran",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Worüber klagt das Volk in V. 6?",
+          "options": [
+            "Dass es nichts als Manna gibt",
+            "Dass es kein Wasser gibt",
+            "Dass Feinde näher kommen",
+            "Dass Mose sie verlassen hat"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 6.",
+          "verse": 6,
+          "explain": "V. 6: Ihre Seele ist dürr, sie sehen nur noch Manna."
+        },
+        {
+          "type": "truefalse",
+          "q": "Mose bittet Gott, ihn lieber sterben zu lassen, als so weiterzumachen.",
+          "answer": true,
+          "hint": "Lies Vers 15.",
+          "verse": 15,
+          "explain": "V. 15: Bring mich lieber um, damit ich mein Unglück nicht ansehen muss."
+        },
+        {
+          "type": "choice",
+          "q": "Wie antwortet Gott auf Moses Klage?",
+          "options": [
+            "Er gibt ihm 70 Älteste, die die Last mittragen",
+            "Er tadelt Mose für seinen Unglauben",
+            "Er nimmt ihm das Amt ab",
+            "Er schickt einen Engel, der das Volk führt"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 16 und 17.",
+          "verse": 17,
+          "explain": "V. 16–17: Gott nimmt von dem Geist, der auf Mose ist, und legt ihn auf die Ältesten, damit Mose nicht allein trägt."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist das „Mischvolk“?",
+          "a": "Menschen aus anderen Völkern, die mit Israel aus Ägypten auszogen (2Mo 12,38).",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Was ist Bdellion?",
+          "a": "Ein hellgelbes, durchscheinendes Baumharz (V. 7). Es kommt auch in der Paradiesgeschichte vor (1Mo 2,12).",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Darf man so mit Gott reden?",
+          "a": "Mose wirft Gott vor, ihm übel getan zu haben (V. 11), und gebraucht Bilder von Schwangerschaft und Säuglingspflege (V. 12). Gott weist ihn in diesem Abschnitt nicht zurecht, sondern verteilt die Last (V. 16–17). Ähnlich offen klagen Elia (1Kön 19,4), Jeremia (Jer 20,14–18) und Hiob."
+        }
+      ],
+      "fact": "Wenig später wünscht sich Mose, dass das ganze Volk Propheten wären und Gott seinen Geist auf alle legte (4Mo 11,29). Joel 3,1 kündigt das an, und Petrus zitiert es in der Pfingstpredigt (Apg 2,17).",
+      "teaser": "Kurz vor dem Ziel blickt Mose auf die 40 Jahre zurück. Er nennt einen Grund für die Wüste, den man nicht erwartet."
+    },
+    {
+      "id": "wue-10",
+      "stage": "vierzig",
+      "refs": [ { "book": 5, "chapter": 8, "from": 1, "to": 10 } ],
+      "title": "Nicht vom Brot allein",
+      "summary": "Mose erinnert an den Weg durch die Wüste: Gott hat Israel gedemütigt, geprüft und mit Manna gespeist, damit es lernt, dass der Mensch nicht vom Brot allein lebt. Die Kleider zerfielen nicht. Vor ihnen liegt ein gutes Land.",
+      "bridge": "Vierzig Jahre sind vergangen. Israel lagert im Land Moab, östlich des Jordan. Mose hält seine letzten Reden, bevor das Volk ins Land zieht.",
+      "place": "moab",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wozu hat Gott Israel laut V. 3 mit Manna gespeist?",
+          "options": [
+            "Damit es lernt, dass der Mensch nicht vom Brot allein lebt",
+            "Damit es stark für den Krieg wird",
+            "Damit es Ägypten vergisst",
+            "Damit es nie wieder Hunger hat"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 3.",
+          "verse": 3,
+          "explain": "V. 3: Der Mensch lebt von allem, was aus dem Mund des HERRN hervorgeht."
+        },
+        {
+          "type": "truefalse",
+          "q": "Mose sagt, in den 40 Jahren seien die Kleider zerfallen und die Füße geschwollen.",
+          "answer": false,
+          "hint": "Lies Vers 4.",
+          "verse": 4,
+          "explain": "V. 4: Gerade nicht – die Kleider zerfielen nicht, und die Füße schwollen nicht an (vgl. 5Mo 29,4)."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „demütigen“ hier?",
+          "a": "Das hebräische Wort meint: klein machen, in Not bringen, beugen (V. 2–3). Mose deutet die Wüste rückblickend als Zeit, in der Gott prüfte, was in Israels Herzen war."
+        },
+        {
+          "q": "„Züchtigen“ wie ein Vater?",
+          "a": "Gemeint ist Erziehung (V. 5). Der Hebräerbrief greift das Bild auf (Hebr 12,5–11)."
+        },
+        {
+          "q": "Wer zitiert V. 3 später?",
+          "a": "Jesus antwortet mit diesem Vers dem Versucher in der Wüste (Mt 4,4; Lk 4,4)."
+        }
+      ],
+      "fact": "Aus V. 10 leitet das Judentum das Tischgebet nach dem Essen ab (Birkat ha-Mason): Wer gegessen hat und satt ist, dankt Gott.",
+      "memory_verse": { "ref": { "book": 5, "chapter": 8, "from": 3, "to": 3 }, "text": "dass der Mensch nicht von Brot allein lebt" },
+      "teaser": "Die Wüste ist fast vorbei – aber Mose warnt vor einer Gefahr, die erst danach kommt."
+    },
+    {
+      "id": "wue-11",
+      "stage": "vierzig",
+      "refs": [ { "book": 5, "chapter": 8, "from": 11, "to": 18 } ],
+      "title": "Wenn du satt bist",
+      "summary": "Mose warnt: Wenn du satt bist, Häuser baust und reich wirst, könnte dein Herz sich erheben und Gott vergessen. Erinnere dich an die Wüste mit Schlangen, Skorpionen und Wasser aus dem Felsen.",
+      "place": "moab",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wovor warnt Mose in V. 12–14?",
+          "options": [
+            "Dass Israel im Wohlstand Gott vergisst",
+            "Dass Israel in der Wüste verhungert",
+            "Dass die Kanaaniter Israel besiegen",
+            "Dass das Manna aufhört"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 12 bis 14.",
+          "verse": 14,
+          "explain": "V. 12–14: Wenn alles sich vermehrt, könnte das Herz sich erheben und Gott vergessen."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Meine Kraft und die Stärke meiner [Freunde] hat mir dieses Vermögen geschafft.",
+          "fix": "Hand",
+          "hint": "Lies Vers 17.",
+          "verse": 17,
+          "explain": "V. 17: Die Stärke meiner Hand – das ist der Satz, vor dem Mose warnt. V. 18 hält dagegen: Gott gibt die Kraft."
+        },
+        {
+          "type": "truefalse",
+          "q": "Laut V. 15 war die Wüste ein Ort ohne Gefahren.",
+          "answer": false,
+          "hint": "Lies Vers 15.",
+          "verse": 15,
+          "explain": "V. 15: groß und schrecklich, mit feurigen Schlangen, Skorpionen und Dürre."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Feurige Schlangen?",
+          "a": "Giftschlangen, deren Biss brennt (V. 15). 4. Mose 21,6–9 erzählt von ihnen und von der kupfernen Schlange, auf die Jesus in Johannes 3,14 verweist."
+        },
+        {
+          "q": "Was ist ein „Kieselfelsen“?",
+          "a": "Harter Feuerstein (V. 15). Wasser aus so einem Stein ist besonders unwahrscheinlich.",
+          "translation": "elbbk"
+        }
+      ],
+      "try": "Vergleiche V. 3 und V. 16. Welche Wörter wiederholen sich?",
+      "teaser": "Ein König auf der Flucht im trockenen Bergland. Was fehlt ihm am meisten?"
+    },
+    {
+      "id": "wue-12",
+      "stage": "allein",
+      "refs": [ { "book": 19, "chapter": 63, "from": 1, "to": 12 } ],
+      "title": "Dürres Land",
+      "summary": "In einem dürren Land ohne Wasser dürstet David nach Gott. Gottes Güte ist ihm besser als das Leben. Nachts denkt er an Gott, im Schatten seiner Flügel will er jubeln.",
+      "bridge": "Hunderte Jahre später: Laut Überschrift betet David diesen Psalm in der Wüste Juda – wohl auf der Flucht vor Saul oder vor seinem Sohn Absalom (1Sam 23,14; 2Sam 15,23).",
+      "place": "wueste-juda",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was ist für David laut V. 4 besser als das Leben?",
+          "options": [
+            "Gottes Güte",
+            "Ein sicherer Zufluchtsort",
+            "Der Sieg über seine Feinde",
+            "Wasser in der Wüste"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 4.",
+          "verse": 4,
+          "explain": "V. 4: Deine Güte ist besser als Leben."
+        },
+        {
+          "type": "truefalse",
+          "q": "David vergleicht sein Verlangen nach Gott mit dem Land um ihn herum.",
+          "answer": true,
+          "hint": "Lies Vers 2.",
+          "verse": 2,
+          "explain": "V. 2: Seine Seele dürstet nach Gott wie in einem dürren, lechzenden Land ohne Wasser."
+        },
+        {
+          "type": "choice",
+          "q": "Wann denkt David laut V. 7 an Gott?",
+          "options": [
+            "Auf seinem Lager, in den Nachtwachen",
+            "Bei den Opfern im Tempel",
+            "Mitten im Kampf",
+            "In der Mittagshitze"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 7.",
+          "verse": 7,
+          "explain": "V. 7: auf seinem Lager, in den Nachtwachen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „Frühe suche ich dich“?",
+          "a": "Das hebräische Verb hängt mit dem Wort für Morgenröte zusammen (schachar). Man kann übersetzen: Ich suche dich sehnsüchtig – oder: schon früh am Morgen (V. 2).",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Der „Schatten deiner Flügel“?",
+          "a": "Ein Bild für Schutz, wie ein Vogel seine Jungen birgt (V. 8; vgl. Ps 91,4; 5Mo 32,11). Manche Ausleger denken auch an die Flügel der Cherubim über der Bundeslade."
+        },
+        {
+          "q": "Warum endet der Psalm mit Feinden und einem König?",
+          "a": "V. 10–12 sprechen von denen, die David nach dem Leben trachten, und vom König, der sich in Gott freut. Wer den Psalm in die Zeit von Absaloms Aufstand legt, sieht darin David selbst als König auf der Flucht."
+        }
+      ],
+      "cards": ["wueste-juda"],
+      "fact": "In der orthodoxen Kirche gehört Psalm 63 zu den sechs Psalmen (Hexapsalmos), die jeden Morgen im Morgengottesdienst gebetet werden. Auch Psalm 88 gehört dazu.",
+      "prayer": { "text": "Du hast uns zu dir hin geschaffen, und unruhig ist unser Herz, bis es Ruhe findet in dir.", "source": "Augustinus, Bekenntnisse I,1 (eigene Übersetzung)" },
+      "teaser": "Ein Prophet hat gerade seinen größten Erfolg erlebt – und will einen Tag später sterben."
+    },
+    {
+      "id": "wue-13",
+      "stage": "allein",
+      "refs": [ { "book": 11, "chapter": 19, "from": 1, "to": 8 } ],
+      "title": "Es ist genug",
+      "summary": "Isebel droht Elia mit dem Tod. Er flieht nach Beerseba und eine Tagereise weiter in die Wüste, setzt sich unter einen Ginster und bittet um den Tod. Ein Engel weckt ihn zweimal: Steh auf, iss. In der Kraft dieser Speise geht er 40 Tage bis zum Horeb.",
+      "bridge": "Rund 130 Jahre nach David hat sich das Reich geteilt. Im Norden fördern König Ahab und seine Frau Isebel den Baalskult. Auf dem Karmel hat Elia gerade die Propheten Baals besiegt (1Kön 18).",
+      "place": "beerseba",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was sagt der Engel beim zweiten Mal zusätzlich?",
+          "options": [
+            "Der Weg ist zu weit für dich",
+            "Du hast genug geschlafen",
+            "Kehre nach Israel zurück",
+            "Fürchte dich nicht vor Isebel"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 7.",
+          "verse": 7,
+          "explain": "V. 7: Steh auf, iss! Denn der Weg ist zu weit für dich."
+        },
+        {
+          "type": "order",
+          "q": "Bring die Ereignisse in die richtige Reihenfolge.",
+          "items": [
+            "Isebel droht Elia",
+            "Elia setzt sich unter den Ginster",
+            "Ein Engel weckt ihn zum ersten Mal",
+            "Elia geht 40 Tage bis zum Horeb"
+          ],
+          "hint": "Schau in V. 2, 4, 5 und 8.",
+          "explain": "V. 2 Drohung, V. 4 unter dem Ginster, V. 5–7 zweimal der Engel, V. 8 der Weg zum Horeb."
+        },
+        {
+          "type": "truefalse",
+          "q": "Elia nimmt seinen Diener mit in die Wüste.",
+          "answer": false,
+          "hint": "Lies Vers 3 und 4.",
+          "verse": 3,
+          "explain": "V. 3–4: Er lässt seinen Diener in Beerseba zurück und geht allein weiter."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist ein Ginsterstrauch?",
+          "a": "Der Weiße Ginster (Retama) wächst in der Negev-Wüste bis zu drei Meter hoch und ist oft der einzige Schatten weit und breit (V. 4)."
+        },
+        {
+          "q": "„Nicht besser als meine Väter“?",
+          "a": "Der Text erklärt den Satz nicht (V. 4). Viele Ausleger verstehen ihn so: Elia hat nicht mehr erreicht als die Propheten vor ihm – das Volk hat sich trotz allem nicht geändert."
+        },
+        {
+          "q": "Warum 40 Tage?",
+          "a": "Die Zahl erinnert an Mose, der 40 Tage und Nächte auf dem Berg war (2Mo 24,18), und an Israels 40 Jahre. Elia geht zum selben Berg wie Mose (V. 8)."
+        }
+      ],
+      "cards": ["elia", "vierzig"],
+      "prayer": { "ref": { "book": 19, "chapter": 61, "from": 3, "to": 3 }, "source": "Psalm 61,3" },
+      "teaser": "Am Berg Gottes stellt Gott Elia zweimal dieselbe Frage. Bekommt er zweimal dieselbe Antwort?"
+    },
+    {
+      "id": "wue-14",
+      "stage": "allein",
+      "refs": [ { "book": 11, "chapter": 19, "from": 9, "to": 18 } ],
+      "title": "Ein leises Säuseln",
+      "summary": "In der Höhle fragt Gott: Was tust du hier, Elia? Elia klagt, er allein sei übrig. Gott ist nicht im Sturm, nicht im Erdbeben und nicht im Feuer – dann kommt ein leises Säuseln. Elia antwortet noch einmal dasselbe. Gott schickt ihn mit neuen Aufträgen zurück: 7000 sind übrig.",
+      "place": "horeb",
+      "quiz": [
+        {
+          "type": "truefalse",
+          "q": "Nach dem leisen Säuseln gibt Elia Gott eine andere Antwort als vorher.",
+          "answer": false,
+          "hint": "Vergleiche Vers 10 und Vers 14.",
+          "verse": 14,
+          "explain": "V. 14 wiederholt V. 10 Wort für Wort. Gott antwortet darauf nicht mit einem Vorwurf, sondern mit Aufträgen (V. 15–18)."
+        },
+        {
+          "type": "choice",
+          "q": "Wen soll Elia laut V. 16 zum Propheten an seiner Stelle salben?",
+          "options": [
+            "Elisa",
+            "Jehu",
+            "Hasael",
+            "Obadja"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 16.",
+          "verse": 16,
+          "explain": "V. 16: Elisa, den Sohn Saphats. Jehu und Hasael soll er zu Königen salben."
+        },
+        {
+          "type": "estimate",
+          "q": "Wie viele Menschen in Israel haben sich laut Gott nicht vor Baal gebeugt?",
+          "min": 0,
+          "max": 20000,
+          "answer": 7000,
+          "tolerance": 0,
+          "unit": "Menschen",
+          "hint": "Lies Vers 18.",
+          "verse": 18,
+          "explain": "V. 18: 7000. Elia ist nicht allein übrig, wie er dachte."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist der „Ton eines leisen Säuselns“?",
+          "a": "Hebräisch qol demama daqqa, wörtlich etwa: eine Stimme feiner Stille. Martin Buber übersetzte: eine Stimme verschwebenden Schweigens. Andere übersetzen: ein sanftes, leises Wehen (V. 12)."
+        },
+        {
+          "q": "Warum verhüllt Elia sein Gesicht?",
+          "a": "Aus Ehrfurcht: Niemand kann Gott sehen und leben (2Mo 33,20). Auch Mose verbarg sein Gesicht am Dornbusch (2Mo 3,6) und stand am selben Berg in einer Felskluft, als Gott vorüberging (2Mo 33,22)."
+        },
+        {
+          "q": "War Elia wirklich allein?",
+          "a": "Nein: Gott nennt 7000, die Baal nicht verehrt haben (V. 18), und schon vorher hatte Obadja 100 Propheten versteckt (1Kön 18,13). Paulus greift V. 18 auf (Röm 11,4)."
+        }
+      ],
+      "try": "Lies V. 10 und V. 14 nebeneinander. Was ist zwischen den beiden Sätzen geschehen – und was hat sich nicht verändert?",
+      "teaser": "Ein Prophet sagt, Gott wolle sein untreues Volk in die Wüste locken. Wozu?"
+    },
+    {
+      "id": "wue-15",
+      "stage": "bluehen",
+      "refs": [ { "book": 28, "chapter": 2, "from": 16, "to": 25 } ],
+      "title": "Tür der Hoffnung",
+      "summary": "Gott will Israel in die Wüste locken und ihr zu Herzen reden. Das Unglückstal Achor wird zur Tür der Hoffnung. Israel wird Gott „mein Mann“ nennen, nicht mehr „mein Baal“. Gott verlobt sich mit ihr in Gerechtigkeit, Güte, Erbarmen und Treue.",
+      "bridge": "Etwa hundert Jahre nach Elia vergleicht der Prophet Hosea Israel mit einer untreuen Ehefrau, die anderen Göttern nachläuft. Gott klagt sie an (Hos 2,4–15).",
+      "place": "achor",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was soll das Tal Achor werden?",
+          "options": [
+            "Eine Tür der Hoffnung",
+            "Ein Ort des Gerichts",
+            "Ein Weinberg für die Armen",
+            "Der Ort eines neuen Tempels"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 17.",
+          "verse": 17,
+          "explain": "V. 17: Das Tal Achor wird zur Tür der Hoffnung."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler in der Nacherzählung.",
+          "text": "Ich will dich mir verloben in Gerechtigkeit, in Güte, in Barmherzigkeit und in [Furcht].",
+          "fix": "Treue",
+          "hint": "Lies Vers 21 und 22.",
+          "verse": 22,
+          "explain": "V. 21–22: in Gerechtigkeit, Gericht, Güte, Barmherzigkeit und Treue."
+        },
+        {
+          "type": "truefalse",
+          "q": "Laut V. 17 erinnert die Zeit in der Wüste an den Auszug aus Ägypten.",
+          "answer": true,
+          "hint": "Lies Vers 17.",
+          "verse": 17,
+          "explain": "V. 17: Israel wird dort singen wie in den Tagen ihrer Jugend, als sie aus Ägypten heraufzog."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was war im Tal Achor?",
+          "a": "Dort wurde nach der Eroberung Jerichos Achan gesteinigt, der sich an der Beute vergriffen hatte (Jos 7,24–26). „Achor“ heißt Trübsal, Unglück."
+        },
+        {
+          "q": "Warum nicht mehr „mein Baal“?",
+          "a": "„Baal“ ist der Name des kanaanäischen Wettergottes, heißt aber auch einfach „Herr, Besitzer, Ehemann“. Israel soll Gott nicht mehr so anreden, sondern „mein Mann“ (hebr. ischi) (V. 18)."
+        },
+        {
+          "q": "Wer sind Lo-Ruchama und Lo-Ammi?",
+          "a": "Hoseas Kinder: „Nicht-Erbarmen“ und „Nicht-mein-Volk“ (Hos 1,6.9). In V. 25 dreht Gott die Namen um. Paulus und Petrus beziehen das auf die Gemeinde aus Juden und Nichtjuden (Röm 9,25–26; 1Petr 2,10)."
+        },
+        {
+          "q": "„Locken“ und „zum Herzen reden“?",
+          "a": "Das hebräische Wort für „locken“ (pata) kann auch „überreden, betören“ heißen. „Zum Herzen reden“ heißt: liebevoll, tröstend zusprechen – dieselbe Wendung steht in Jesaja 40,2 (V. 16)."
+        }
+      ],
+      "cards": ["tal-achor"],
+      "teaser": "Und wenn die Wüste selbst sich verändert?"
+    },
+    {
+      "id": "wue-16",
+      "stage": "bluehen",
+      "refs": [ { "book": 23, "chapter": 35, "from": 1, "to": 10 } ],
+      "title": "Wasser in der Steppe",
+      "summary": "Die Wüste blüht auf, Wasser bricht hervor. Blinde sehen, Lahme springen. Eine heilige Straße führt die Befreiten des HERRN mit Jubel nach Zion zurück.",
+      "bridge": "Jesaja wirkte in Jerusalem, etwa zur selben Zeit wie Hosea. In Kapitel 34 kündigt er Gericht über die Völker an; Kapitel 35 malt das Gegenbild.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was geschieht laut V. 5–6 mit Blinden, Tauben und Lahmen?",
+          "options": [
+            "Blinde sehen, Taube hören, Lahme springen",
+            "Sie bekommen einen Ehrenplatz in Zion",
+            "Sie werden auf der Straße getragen",
+            "Sie bleiben in der Stadt zurück"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 5 und 6.",
+          "verse": 6,
+          "explain": "V. 5–6: Augen und Ohren werden geöffnet, der Lahme springt wie ein Hirsch, der Stumme jubelt."
+        },
+        {
+          "type": "truefalse",
+          "q": "Auf der heiligen Straße verirren sich selbst Einfältige nicht.",
+          "answer": true,
+          "hint": "Lies Vers 8.",
+          "verse": 8,
+          "explain": "V. 8: Wer auf dem Weg geht, kann nicht irregehen – selbst wenn er einfältig ist."
+        },
+        {
+          "type": "choice",
+          "q": "Wer geht auf der Straße nach Zion?",
+          "options": [
+            "Die Befreiten des HERRN",
+            "Die Könige der Völker",
+            "Die Priester und Leviten",
+            "Die Händler aus dem Osten"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 9 und 10.",
+          "verse": 10,
+          "explain": "V. 9–10: die Erlösten und Befreiten des HERRN, mit ewiger Freude."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist die „Kimmung“?",
+          "a": "Ein altes Wort für die Luftspiegelung über heißem Boden, die Fata Morgana. Hier wird die Täuschung zu echtem Wasser (V. 7).",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Libanon, Karmel, Saron?",
+          "a": "Die grünsten Gegenden, die man in Israel kannte: die Zedernwälder des Libanon, das bewaldete Karmelgebirge und die fruchtbare Saron-Ebene an der Küste (V. 2)."
+        },
+        {
+          "q": "Wie verstehen Juden und Christen diese Verheißung?",
+          "a": "Jüdische Ausleger beziehen sie auf die Rückkehr nach Zion und die messianische Zeit. Jesus antwortet Johannes dem Täufer mit Worten, die an V. 5–6 erinnern (Mt 11,4–5). Viele christliche Ausleger lesen den Text deshalb auf mehreren Ebenen: Heimkehr aus dem Exil, Jesu Wirken und die neue Schöpfung."
+        }
+      ],
+      "memory_verse": { "ref": { "book": 23, "chapter": 35, "from": 4, "to": 4 }, "text": "Seid stark, fürchtet euch nicht!" },
+      "teaser": "Jesus wird nach seiner Taufe in die Wüste geführt. Von wem?"
+    },
+    {
+      "id": "wue-17",
+      "stage": "bluehen",
+      "refs": [ { "book": 40, "chapter": 4, "from": 1, "to": 11 } ],
+      "title": "Vierzig Tage",
+      "summary": "Der Geist führt Jesus in die Wüste. Nach 40 Tagen Fasten versucht ihn der Teufel dreimal: Brot aus Steinen, Sprung vom Tempel, alle Reiche der Welt. Jesus antwortet jedes Mal mit einem Schriftwort. Dann dienen ihm Engel.",
+      "bridge": "Johannes der Täufer predigt in der Wüste von Judäa. Jesus lässt sich von ihm taufen, und eine Stimme aus dem Himmel nennt ihn: mein geliebter Sohn (Mt 3).",
+      "place": "wueste-juda",
+      "focus": "Achte darauf, woher Jesu drei Antworten stammen.",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Bring die drei Versuchungen in die Reihenfolge bei Matthäus.",
+          "items": [
+            "Steine zu Brot",
+            "Sprung von der Zinne des Tempels",
+            "Alle Reiche der Welt"
+          ],
+          "hint": "Schau in V. 3, 6 und 8.",
+          "explain": "V. 3 Brot, V. 5–6 Tempel, V. 8–9 die Reiche der Welt."
+        },
+        {
+          "type": "choice",
+          "q": "Wer führt Jesus in die Wüste?",
+          "options": [
+            "Der Geist",
+            "Der Teufel",
+            "Johannes der Täufer",
+            "Ein Engel"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 1.",
+          "verse": 1,
+          "explain": "V. 1: Der Geist führt ihn hinauf in die Wüste."
+        },
+        {
+          "type": "truefalse",
+          "q": "Auch der Teufel zitiert die Schrift.",
+          "answer": true,
+          "hint": "Lies Vers 6.",
+          "verse": 6,
+          "explain": "V. 6: Er zitiert Psalm 91,11–12."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Woher stammen Jesu Antworten?",
+          "a": "Alle drei aus dem 5. Buch Mose, aus Moses Reden über die Wüstenzeit: 5Mo 8,3 (V. 4), 5Mo 6,16 (V. 7) – dort mit Bezug auf Massa – und 5Mo 6,13 (V. 10)."
+        },
+        {
+          "q": "Was zitiert der Teufel?",
+          "a": "Psalm 91,11–12, einen Vertrauenspsalm. Er zitiert ihn wörtlich, aber als Aufforderung, Gott herauszufordern (V. 6)."
+        },
+        {
+          "q": "Wo war das?",
+          "a": "Der Text nennt keinen Ort. Die Tradition sucht ihn in der Wüste Juda bei Jericho, wo heute ein griechisch-orthodoxes Kloster am „Berg der Versuchung“ steht."
+        },
+        {
+          "q": "Warum ist die Reihenfolge bei Lukas anders?",
+          "a": "Lukas erzählt den Tempel als letzte Versuchung (Lk 4,1–13). Viele Ausleger erklären das damit, dass Jerusalem bei Lukas das Ziel des ganzen Weges Jesu ist."
+        }
+      ],
+      "fact": "Die 40 Tage der Fastenzeit vor Ostern erinnern an Jesu 40 Tage in der Wüste. Auch das Wort „Quarantäne“ kommt von der Zahl 40 (italienisch quaranta) – ursprünglich 40 Tage Isolation für Schiffe in Venedig.",
+      "teaser": "Jesus wird bekannt, und die Menschen strömen zu ihm. Wohin geht er?"
+    },
+    {
+      "id": "wue-18",
+      "stage": "bluehen",
+      "refs": [
+        { "book": 42, "chapter": 4, "from": 42, "to": 44 },
+        { "book": 42, "chapter": 5, "from": 15, "to": 16 }
+      ],
+      "title": "An einsame Orte",
+      "summary": "Am Morgen geht Jesus an einen öden Ort. Die Menge sucht ihn und will ihn festhalten, doch er muss weiter in andere Städte. Als der Andrang immer größer wird, zieht er sich in die Wüste zurück und betet.",
+      "bridge": "Jesus hat in Kapernaum gelehrt und viele Kranke geheilt, darunter die Schwiegermutter des Simon (Lk 4,31–41).",
+      "place": "kapernaum",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was tut Jesus laut Lk 5,16, als der Andrang immer größer wird?",
+          "options": [
+            "Er zieht sich in die Wüste zurück und betet",
+            "Er heilt alle bis tief in die Nacht",
+            "Er schickt seine Jünger zu den Kranken",
+            "Er fährt über den See"
+          ],
+          "answer": 0,
+          "hint": "Lies Lukas 5,16.",
+          "explain": "Lk 5,16: Er zog sich zurück, war in den einsamen Gegenden und betete."
+        },
+        {
+          "type": "truefalse",
+          "q": "Die Menge lässt Jesus gern weiterziehen.",
+          "answer": false,
+          "hint": "Lies Lukas 4,42.",
+          "explain": "Lk 4,42: Sie suchen ihn auf und wollen ihn festhalten."
+        },
+        {
+          "type": "choice",
+          "q": "Warum bleibt Jesus nicht in Kapernaum?",
+          "options": [
+            "Er muss auch anderen Städten das Evangelium verkünden",
+            "Die Leute wollen ihn töten",
+            "Er muss nach Jerusalem zum Fest",
+            "Seine Familie holt ihn nach Hause"
+          ],
+          "answer": 0,
+          "hint": "Lies Lukas 4,43.",
+          "explain": "Lk 4,43: Dazu ist er gesandt."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was für Orte sind das?",
+          "a": "Im Griechischen steht in Lk 4,42 und 5,16 dasselbe Wort (erēmos): einsam, unbewohnt, Wüste. Davon kommt „Eremit“ – jemand, der in der Einsamkeit lebt."
+        },
+        {
+          "q": "Wie oft betet Jesus bei Lukas?",
+          "a": "Lukas erwähnt Jesu Gebet besonders oft: bei der Taufe (3,21), vor der Wahl der Zwölf (6,12), bei der Verklärung (9,28–29) und am Ölberg (22,41)."
+        }
+      ],
+      "cards": ["wuestenvaeter"],
+      "prayer": { "ref": { "book": 19, "chapter": 62, "from": 2, "to": 2 }, "source": "Psalm 62,2" },
+      "try": "Such dir für drei Minuten einen Ort, an dem dich niemand anspricht, und lies dort nur Lukas 5,16.",
+      "teaser": "Zum Schluss geht es noch einmal um Manna – und Jesus sagt darüber etwas Unerhörtes."
+    },
+    {
+      "id": "wue-19",
+      "stage": "bluehen",
+      "refs": [
+        { "book": 43, "chapter": 6, "from": 30, "to": 35 },
+        { "book": 43, "chapter": 6, "from": 48, "to": 51 }
+      ],
+      "title": "Brot vom Himmel",
+      "summary": "Die Menge erinnert an das Manna der Väter und verlangt ein Zeichen. Jesus sagt: Nicht Mose, sondern mein Vater gibt das wahre Brot aus dem Himmel. Ich bin das Brot des Lebens. Die Väter aßen Manna und starben; wer von diesem Brot isst, wird leben.",
+      "bridge": "Am Tag zuvor hat Jesus am See Genezareth Tausende mit fünf Broten und zwei Fischen satt gemacht. Die Menge ist ihm nach Kapernaum gefolgt (Joh 6,1–25).",
+      "place": "kapernaum",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wer hat laut Jesus das wahre Brot aus dem Himmel gegeben?",
+          "options": [
+            "Sein Vater",
+            "Mose",
+            "Aaron",
+            "Die Engel"
+          ],
+          "answer": 0,
+          "hint": "Lies Johannes 6,32.",
+          "explain": "Joh 6,32: Nicht Mose, sondern mein Vater gibt euch das wahre Brot aus dem Himmel."
+        },
+        {
+          "type": "whosaid",
+          "quote": "Herr, gib uns allezeit dieses Brot!",
+          "quote_ref": { "book": 43, "chapter": 6, "from": 34, "to": 34 },
+          "options": [
+            "Die Menge",
+            "Petrus",
+            "Die Pharisäer",
+            "Die Samariterin"
+          ],
+          "answer": 0,
+          "hint": "Lies Johannes 6,30–34.",
+          "explain": "Joh 6,34: Die Menge, die ihm gefolgt ist. Jesus antwortet: Ich bin das Brot des Lebens (V. 35)."
+        },
+        {
+          "type": "truefalse",
+          "q": "Jesus sagt, die Väter, die das Manna aßen, seien gestorben.",
+          "answer": true,
+          "hint": "Lies Johannes 6,49.",
+          "explain": "Joh 6,49–50: Sie aßen Manna und starben. Wer vom Brot aus dem Himmel isst, stirbt nicht."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was zitiert die Menge in V. 31?",
+          "a": "Ein Schriftwort über das Manna, wahrscheinlich Psalm 78,24 (vgl. 2Mo 16,4.15)."
+        },
+        {
+          "q": "Wie verstehen die Kirchen „das Brot des Lebens“?",
+          "a": "Hier gibt es echte Unterschiede. Katholische und orthodoxe Ausleger lesen besonders Joh 6,51–58 auch als Rede über die Eucharistie, in der Christus sich selbst gibt. Luther und viele evangelische und freikirchliche Ausleger beziehen die Rede vor allem auf den Glauben: Zu Jesus kommen und an ihn glauben heißt, dieses Brot zu essen (V. 35). Schon Augustinus schrieb: Glaube, und du hast gegessen (Johannes-Traktate 25,12)."
+        },
+        {
+          "q": "Was bedeutet „Ich bin …“?",
+          "a": "Es ist das erste von sieben „Ich-bin-Worten“ im Johannesevangelium. Viele Ausleger hören darin Gottes Selbstvorstellung am Dornbusch: Ich bin, der ich bin (2Mo 3,14)."
+        }
+      ],
+      "cards": ["ich-bin-worte"],
+      "memory_verse": { "ref": { "book": 43, "chapter": 6, "from": 35, "to": 35 }, "text": "Ich bin das Brot des Lebens" },
+      "try": "Lies 2. Mose 16,4 und Johannes 6,32 nebeneinander. Wer gibt jeweils das Brot, und woher kommt es?"
+    }
+  ]
+}

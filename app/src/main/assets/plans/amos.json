@@ -1,0 +1,1566 @@
+{
+  "id": "amos",
+  "title": "Amos",
+  "subtitle": "Es ströme das Recht wie Wasser",
+  "description": "Ein Viehhirte aus Juda geht in das reiche Nordreich Israel und sagt dort, was Gott von Festen und Opfern ohne Gerechtigkeit hält. Neun Kapitel über Recht und Armut, falsche Sicherheit, fünf Visionen – und eine Hoffnung ganz am Ende.",
+  "direction": "gerechtigkeit",
+  "basis": "elbbk",
+  "stages": [
+    {
+      "id": "loewe",
+      "title": "Der Löwe brüllt"
+    },
+    {
+      "id": "hoert",
+      "title": "Hört dieses Wort"
+    },
+    {
+      "id": "sucht",
+      "title": "Sucht mich und lebt"
+    },
+    {
+      "id": "visionen",
+      "title": "Was siehst du, Amos?"
+    }
+  ],
+  "cards": [
+    {
+      "id": "amos",
+      "type": "person",
+      "name": "Amos",
+      "text": "Prophet aus Tekoa in Juda, Viehhirte und Maulbeerfeigenzüchter. Er trat um 760 v. Chr. im Nordreich Israel auf, unter König Jerobeam II., vor allem in Bethel. Der Name kommt vermutlich vom hebräischen Wort für „tragen, aufladen“. Amos gilt als einer der frühesten Propheten, deren Worte als eigenes Buch überliefert sind.",
+      "refs": "Am 1,1; 7,10–15"
+    },
+    {
+      "id": "tekoa",
+      "type": "ort",
+      "name": "Tekoa",
+      "text": "Kleiner Ort am Rand der Wüste Juda, etwa 8 km südlich von Bethlehem. Von hier stammt Amos. Aus Tekoa kam auch die kluge Frau, die Joab zu David schickte (2Sam 14). Östlich des Ortes beginnt das karge Weideland, das zum Toten Meer hin abfällt.",
+      "refs": "Am 1,1; 2Sam 14,2; 2Chr 11,6"
+    },
+    {
+      "id": "erdbeben",
+      "type": "ereignis",
+      "name": "Das Erdbeben",
+      "text": "Amos datiert sein Auftreten „zwei Jahre vor dem Erdbeben“. Das Beben unter König Usija muss so schwer gewesen sein, dass man sich noch Jahrhunderte später daran erinnerte (Sach 14,5). Archäologen haben in mehreren Orten, etwa in Hazor, Zerstörungsschichten durch ein starkes Erdbeben um die Mitte des 8. Jahrhunderts v. Chr. gefunden.",
+      "refs": "Am 1,1; Sach 14,5"
+    },
+    {
+      "id": "nasiraeer",
+      "type": "begriff",
+      "name": "Nasiräer",
+      "text": "Menschen, die sich mit einem Gelübde Gott besonders weihten (4Mo 6): Sie tranken keinen Wein, schnitten ihre Haare nicht und mieden Tote. Meist galt das Gelübde für eine bestimmte Zeit, bei Simson und Samuel lebenslang. Amos nennt sie in einem Atemzug mit den Propheten als Gabe Gottes an Israel.",
+      "refs": "4Mo 6,1–21; Ri 13,5; Am 2,11–12"
+    },
+    {
+      "id": "samaria",
+      "type": "ort",
+      "name": "Samaria",
+      "text": "Hauptstadt des Nordreichs Israel, gegründet von König Omri um 880 v. Chr. auf einem Hügel (1Kön 16,24). Unter Jerobeam II. war die Stadt reich; Ausgrabungen fanden dort Paläste und geschnitzte Elfenbeinplättchen. 722 v. Chr. eroberten die Assyrer Samaria und führten große Teile der Bevölkerung weg.",
+      "refs": "1Kön 16,24; Am 3,9–15; 2Kön 17,5–6"
+    },
+    {
+      "id": "bethel",
+      "type": "ort",
+      "name": "Bethel",
+      "text": "„Haus Gottes“, etwa 17 km nördlich von Jerusalem. Hier sah Jakob die Himmelsleiter (1Mo 28). Jerobeam I. stellte in Bethel und Dan goldene Kälber auf, damit sein Volk nicht mehr nach Jerusalem pilgerte (1Kön 12,28–29). Zur Zeit des Amos war Bethel das wichtigste Heiligtum des Nordreichs.",
+      "refs": "1Mo 28,19; 1Kön 12,28–33; Am 7,13"
+    },
+    {
+      "id": "tor",
+      "type": "begriff",
+      "name": "Das Tor",
+      "text": "Das Stadttor war in Israel mehr als ein Durchgang: Dort trafen sich die Ältesten, wurden Verträge geschlossen und Streitfälle entschieden (Rut 4,1–11). „Recht im Tor“ heißt also: ein faires Verfahren für alle, auch für Arme. Ausgegrabene Tore, etwa in Dan, haben Sitzbänke an den Seiten.",
+      "refs": "Rut 4,1–11; 5Mo 21,19; Am 5,10–15"
+    },
+    {
+      "id": "tag-des-herrn",
+      "type": "begriff",
+      "name": "Der Tag des HERRN",
+      "text": "Ein Tag, an dem Gott eingreift und richtet. Am 5,18–20 gilt als die älteste Stelle, an der der Ausdruck vorkommt. Offenbar erwartete man ihn als Tag des Sieges für Israel. Spätere Propheten (Joel, Zefanja) greifen ihn auf, im Neuen Testament wird er mit der Wiederkunft Christi verbunden (1Thess 5,2).",
+      "refs": "Am 5,18–20; Joel 2,1–11; Zef 1,14–18; 1Thess 5,2"
+    },
+    {
+      "id": "recht-gerechtigkeit",
+      "type": "begriff",
+      "name": "Recht und Gerechtigkeit",
+      "text": "Hebräisch „mischpat“ und „zedaka“, oft als Paar gebraucht. Mischpat meint das Recht und gerechte Urteile, zedaka das Verhalten, das einer Beziehung gerecht wird – Treue gegenüber Gott und Mitmenschen. Bei Amos geht es dabei immer auch um den Umgang mit Armen und Schwachen.",
+      "refs": "Am 5,7.24; 6,12; Jes 5,7"
+    },
+    {
+      "id": "jerobeam",
+      "type": "person",
+      "name": "Jerobeam II.",
+      "text": "König des Nordreichs Israel, regierte 41 Jahre im 8. Jahrhundert v. Chr. (2Kön 14,23). Er eroberte verlorene Gebiete zurück, vom Eingang Hamats bis zum Toten Meer (2Kön 14,25). Unter ihm erlebte Israel Wohlstand und Sicherheit. Nicht zu verwechseln mit Jerobeam I., dem ersten König des Nordreichs.",
+      "refs": "2Kön 14,23–29; Am 1,1; 7,9–11"
+    },
+    {
+      "id": "amazja",
+      "type": "person",
+      "name": "Amazja",
+      "text": "Priester am Königsheiligtum in Bethel zur Zeit Jerobeams II. Er meldet dem König Amos' Worte als Verschwörung und weist den Propheten aus. Er ist nicht derselbe wie Amazja, der König von Juda (2Kön 14,1).",
+      "refs": "Am 7,10–17"
+    },
+    {
+      "id": "maulbeerfeige",
+      "type": "begriff",
+      "name": "Maulbeerfeige",
+      "text": "Die Sykomore (Ficus sycomorus) ist ein Feigenbaum mit kleinen, wenig süßen Früchten, eine Nahrung eher für einfache Leute. Sie wächst in warmen, tiefer gelegenen Gegenden wie der Jordansenke oder dem Hügelland im Westen Judas. Auf einen solchen Baum stieg Zachäus (Lk 19,4).",
+      "refs": "Am 7,14; 1Kön 10,27; Lk 19,4"
+    },
+    {
+      "id": "huette-davids",
+      "type": "begriff",
+      "name": "Die Hütte Davids",
+      "text": "Hebräisch „sukka“: Laubhütte, ein einfacher Unterstand. Amos 9,11 kündigt an, dass Gott die verfallene Hütte Davids wieder aufrichtet. Jakobus zitiert die Stelle beim Apostelkonzil (Apg 15,16–17). Juden und Christen, aber auch christliche Traditionen untereinander verstehen unterschiedlich, worauf sich die Verheißung bezieht.",
+      "refs": "Am 9,11–12; Apg 15,16–17"
+    }
+  ],
+  "sections": [
+    {
+      "id": "am-01",
+      "stage": "loewe",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 1,
+          "from": 1,
+          "to": 8
+        }
+      ],
+      "title": "Zwei Jahre vor dem Erdbeben",
+      "summary": "Amos, ein Hirte aus Tekoa, kündigt an: Der HERR brüllt aus Zion. Zuerst trifft das Gericht die Nachbarn Damaskus und Gaza – wegen Grausamkeit im Krieg und Menschenhandel.",
+      "place": "tekoa",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Woher stammt Amos?",
+          "options": [
+            "Aus Tekoa",
+            "Aus Bethel",
+            "Aus Samaria",
+            "Aus Jerusalem"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 1.",
+          "verse": 1,
+          "explain": "V. 1: Amos war unter den Hirten von Tekoa, einem Ort in Juda. Seine Worte gelten aber Israel, dem Nordreich."
+        },
+        {
+          "type": "choice",
+          "q": "Wie beschreibt V. 2 das Reden des HERRN aus Zion?",
+          "options": [
+            "Er brüllt",
+            "Er flüstert",
+            "Er singt",
+            "Er schweigt"
+          ],
+          "answer": 0,
+          "hint": "Schau in Vers 2.",
+          "verse": 2,
+          "explain": "V. 2: Der HERR brüllt aus Zion – das Bild eines Löwen. Ein Hirte wie Amos weiß, was es heißt, wenn ein Löwe brüllt (vgl. 3,8)."
+        },
+        {
+          "type": "truefalse",
+          "q": "Gaza wird angeklagt, weil es Gefangene an Edom ausgeliefert hat.",
+          "answer": true,
+          "hint": "Lies Vers 6.",
+          "verse": 6,
+          "explain": "V. 6: Gaza hat ganze Bevölkerungen gefangen weggeführt und an Edom verkauft – Menschenhandel im großen Stil."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was bedeutet „wegen drei Freveltaten und wegen vier“?",
+          "a": "Ein hebräischer Zahlenspruch wie in Spr 30,15–31: Das Maß ist voll und mehr als voll. Auffällig ist, dass Amos danach jeweils nur eine Tat nennt."
+        },
+        {
+          "q": "Was will Gott „nicht rückgängig machen“?",
+          "a": "Das Hebräische sagt nur „Ich werde es nicht zurückwenden“. Was „es“ ist, bleibt offen: wahrscheinlich das angekündigte Gericht oder das Wort, das Gott gesprochen hat."
+        },
+        {
+          "q": "Wer sind Hasael und Ben-Hadad, und was ist ein Dreschschlitten?",
+          "a": "Hasael und Ben-Hadad waren Könige von Damaskus, die das Ostjordanland Gilead mehrfach verwüsteten (2Kön 10,32–33; 13,3–7). Ein Dreschschlitten ist ein schweres Holzbrett mit Zähnen aus Stein oder Eisen, das man über das Getreide zog. Hier ist er ein Bild für brutale Kriegsführung."
+        }
+      ],
+      "cards": [
+        "amos",
+        "tekoa",
+        "erdbeben"
+      ],
+      "fact": "Das Erdbeben aus V. 1 war offenbar unvergessen: Noch Sacharja erwähnt es lange danach (Sach 14,5). In Hazor und anderen Orten fanden Archäologen Spuren eines schweren Bebens aus der Mitte des 8. Jahrhunderts v. Chr.",
+      "teaser": "Bei einem der nächsten Völker geht es um ein Verbrechen an einem Toten, der kein Israelit war. Warum kümmert das den Gott Israels?"
+    },
+    {
+      "id": "am-02",
+      "stage": "loewe",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 1,
+          "from": 9,
+          "to": 15
+        },
+        {
+          "book": 30,
+          "chapter": 2,
+          "from": 1,
+          "to": 3
+        }
+      ],
+      "title": "Bruderbund und Knochen",
+      "summary": "Tyrus, Edom, Ammon und Moab werden angeklagt: wegen gebrochener Bündnisse, unversöhnlichem Hass, Grausamkeit gegen Schwangere und der Schändung eines toten Königs.",
+      "place": "rabba",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "In welcher Reihenfolge kommen die Völker im ganzen ersten Teil (1,3–2,3) dran?",
+          "items": [
+            "Damaskus",
+            "Tyrus",
+            "Edom",
+            "Ammon",
+            "Moab"
+          ],
+          "hint": "Damaskus kennst du schon. Gaza (1,6) fehlt in der Liste.",
+          "explain": "Damaskus (1,3), Gaza (1,6), Tyrus (1,9), Edom (1,11), Ammon (1,13), Moab (2,1)."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler.",
+          "text": "Die Ammoniter schlitzten die Schwangeren von Gilead auf, um ihre [Schatzkammern] zu erweitern.",
+          "fix": "Grenze",
+          "hint": "Lies 1,13.",
+          "explain": "1,13: Es ging um Landgewinn – sie wollten ihre Grenze erweitern."
+        },
+        {
+          "type": "choice",
+          "q": "Was wirft Gott Moab vor?",
+          "options": [
+            "Es hat die Gebeine des Königs von Edom zu Kalk verbrannt",
+            "Es hat Gefangene an Edom ausgeliefert",
+            "Es hat das Gesetz des HERRN verworfen",
+            "Es hat Gilead mit Dreschschlitten gedroschen"
+          ],
+          "answer": 0,
+          "hint": "Lies 2,1.",
+          "explain": "2,1: Moab hat die Gebeine des Königs von Edom verbrannt. Das Opfer ist kein Israelit – und trotzdem klagt Gott an."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Welcher „Bruderbund“ ist gemeint?",
+          "a": "Bei Tyrus wohl ein Vertrag mit Israel; schon König Hiram von Tyrus und Salomo schlossen einen Bund (1Kön 5,26). Bei Edom ist der Bruder Israel selbst: Edom stammt von Esau ab, Israel von seinem Zwillingsbruder Jakob (1Mo 25,24–26)."
+        },
+        {
+          "q": "Warum ist das Verbrennen von Knochen so schlimm?",
+          "a": "Ein Grab und die Ruhe der Toten galten im Alten Orient als unantastbar. Wer Gebeine verbrannte, wollte den Toten über den Tod hinaus auslöschen."
+        },
+        {
+          "q": "Wo liegen Teman, Bozra, Rabba und Kerijot?",
+          "a": "Teman und Bozra sind Orte in Edom, südlich des Toten Meeres. Rabba war die Hauptstadt der Ammoniter, das heutige Amman in Jordanien. Kerijot war eine Stadt in Moab östlich des Toten Meeres."
+        }
+      ],
+      "teaser": "Wer in Israel bis hierher zugehört hat, konnte zustimmen. Doch die Reihe ist noch nicht zu Ende."
+    },
+    {
+      "id": "am-03",
+      "stage": "loewe",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 2,
+          "from": 4,
+          "to": 8
+        }
+      ],
+      "title": "Ein Paar Schuhe",
+      "summary": "Jetzt trifft das Gericht Juda – und dann Israel selbst. Dort werden Gerechte und Arme verkauft, Schwache unterdrückt, und neben den Altären liegen gepfändete Kleider.",
+      "place": "samaria",
+      "focus": "Achte darauf, worin sich die Vorwürfe gegen Juda und Israel von denen gegen die anderen Völker unterscheiden.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was wirft Gott Juda vor?",
+          "options": [
+            "Es hat das Gesetz des HERRN verworfen",
+            "Es hat Gefangene verkauft",
+            "Es hat einen Bruderbund gebrochen",
+            "Es hat Gräber geschändet"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 4.",
+          "verse": 4,
+          "explain": "V. 4: Juda hat das Gesetz des HERRN verworfen und ist Lügen nachgelaufen. Bei den anderen Völkern ging es um Kriegsverbrechen, bei Juda um das Verhältnis zu Gott."
+        },
+        {
+          "type": "estimate",
+          "q": "Wie viele Völker (Israel mitgezählt) klagt Amos in Kapitel 1–2 an?",
+          "min": 1,
+          "max": 12,
+          "answer": 8,
+          "tolerance": 0,
+          "unit": "Völker",
+          "hint": "Zähle: Damaskus, Gaza, …",
+          "explain": "Damaskus, Gaza, Tyrus, Edom, Ammon, Moab, Juda und Israel – acht. Israel kommt als letztes und bekommt die längste Anklage."
+        },
+        {
+          "type": "choice",
+          "q": "Worauf strecken sie sich neben den Altären aus?",
+          "options": [
+            "Auf gepfändeten Oberkleidern",
+            "Auf Polstern aus Elfenbein",
+            "Auf Fellen der Opfertiere",
+            "Auf Teppichen aus Damaskus"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 8.",
+          "verse": 8,
+          "explain": "V. 8: Sie liegen auf gepfändeten Oberkleidern – also auf dem Besitz von Schuldnern."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt es, Arme für ein Paar Schuhe zu verkaufen?",
+          "a": "Wahrscheinlich: Menschen wurden schon wegen einer winzigen Schuld in die Schuldsklaverei verkauft. Andere denken an Rut 4,7, wo das Überreichen eines Schuhs einen Landkauf besiegelt: Dann ginge es darum, Armen ihr Land abzunehmen."
+        },
+        {
+          "q": "Was ist schlimm an gepfändeten Oberkleidern?",
+          "a": "Das Gesetz verlangte, einen gepfändeten Mantel vor Sonnenuntergang zurückzugeben, weil er für Arme die einzige Decke in der Nacht war (2Mo 22,25–26). Hier liegen die Pfänder dagegen beim Gottesdienst unter den Gläubigern."
+        },
+        {
+          "q": "Was ist „Wein von Strafgeldern“?",
+          "a": "Wein, der mit Geldbußen bezahlt oder als Buße eingetrieben wurde. Das Geld der Verurteilten wird im Heiligtum getrunken."
+        }
+      ],
+      "try": "Öffne den Atlas und such Damaskus, Gaza, Tyrus, Teman, Rabba, Moab und Jerusalem. Wie springt Amos auf der Karte um Israel herum, bevor er bei Israel selbst ankommt?",
+      "teaser": "Gott erinnert Israel an alles, was er für das Volk getan hat. Eine Gruppe junger Männer spielt dabei eine überraschende Rolle."
+    },
+    {
+      "id": "am-04",
+      "stage": "loewe",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 2,
+          "from": 9,
+          "to": 16
+        }
+      ],
+      "title": "Wie ein voller Erntewagen",
+      "summary": "Gott zählt auf, was er für Israel getan hat: den Auszug aus Ägypten, die Führung durch die Wüste, Propheten und Nasiräer. Israel aber hat die Nasiräer zum Wein verführt und den Propheten das Reden verboten. Am Tag des Gerichts wird auch der Stärkste nicht entkommen.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was haben die Israeliten den Nasiräern angetan?",
+          "options": [
+            "Sie gaben ihnen Wein zu trinken",
+            "Sie schoren ihnen die Haare",
+            "Sie verjagten sie aus dem Land",
+            "Sie verboten ihnen das Beten"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 12.",
+          "verse": 12,
+          "explain": "V. 12: Sie gaben den Nasiräern Wein – genau das, worauf diese durch ihr Gelübde verzichteten (4Mo 6,3)."
+        },
+        {
+          "type": "truefalse",
+          "q": "Nach V. 12 haben die Israeliten den Propheten verboten zu weissagen.",
+          "answer": true,
+          "hint": "Lies Vers 12 zu Ende.",
+          "verse": 12,
+          "explain": "V. 12: Sie sagten den Propheten, sie sollten nicht weissagen. Genau das wird Amos später selbst erleben (7,12–13)."
+        },
+        {
+          "type": "choice",
+          "q": "Womit vergleicht Gott in V. 13 das, was er mit Israel tun wird?",
+          "options": [
+            "Mit einem Wagen voll Garben, der niederdrückt",
+            "Mit einem Mühlstein, der mahlt",
+            "Mit einem Joch auf dem Nacken",
+            "Mit einer Kelter, die Trauben presst"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 13.",
+          "verse": 13,
+          "explain": "V. 13: Wie ein voll beladener Erntewagen drückt. Das Bild stammt aus der Landwirtschaft, die Amos kennt."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wer sind die Amoriter?",
+          "a": "Ein Sammelname für die Völker, die vor Israel im Land wohnten. Die Kundschafter beschrieben sie als riesig (4Mo 13,32–33). V. 9 greift das auf: groß wie Zedern, stark wie Eichen."
+        },
+        {
+          "q": "Warum zählt Gott hier seine Taten auf?",
+          "a": "So begann man im Alten Orient auch Bundesurkunden: Zuerst nennt der Herr, was er für den anderen getan hat, dann folgen die Pflichten. Die Aufzählung in V. 9–11 erinnert an diese Form."
+        }
+      ],
+      "cards": [
+        "nasiraeer"
+      ],
+      "teaser": "Ein Löwe, ein Vogel, eine Posaune: Amos stellt eine Kette von Fragen, deren Antwort jeder kennt. Worauf läuft sie hinaus?"
+    },
+    {
+      "id": "am-05",
+      "stage": "hoert",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 3,
+          "from": 1,
+          "to": 8
+        }
+      ],
+      "title": "Der Löwe hat gebrüllt",
+      "summary": "Gott hat nur Israel „erkannt“ – und gerade deshalb zieht er es zur Rechenschaft. In einer Kette von Fragen nach Ursache und Wirkung erklärt Amos, warum er reden muss.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Welche Folge zieht Gott in V. 2 daraus, dass er nur Israel erkannt hat?",
+          "options": [
+            "Er wird alle seine Ungerechtigkeiten heimsuchen",
+            "Er wird es vor allen Feinden schützen",
+            "Er wird ihm alle Schuld vergeben",
+            "Er wird es über die Völker setzen"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 2 bis zum Ende.",
+          "verse": 2,
+          "explain": "V. 2: „Darum“ wird Gott Israels Ungerechtigkeiten heimsuchen."
+        },
+        {
+          "type": "estimate",
+          "q": "Wie viele Fragen stellt Amos in V. 3–6?",
+          "min": 1,
+          "max": 12,
+          "answer": 7,
+          "tolerance": 1,
+          "unit": "Fragen",
+          "hint": "Zähle die Fragezeichen in V. 3–6.",
+          "explain": "V. 3 eine, V. 4 zwei, V. 5 zwei, V. 6 zwei: sieben Fragen. Dann folgt in V. 8 die eigentliche Pointe."
+        },
+        {
+          "type": "choice",
+          "q": "Worauf läuft die Fragenkette in V. 8 hinaus?",
+          "options": [
+            "Wenn Gott redet, muss der Prophet weissagen",
+            "Wer sündigt, wird bestraft",
+            "Jedes Unglück kommt vom Feind",
+            "Ein Löwe greift nur an, wenn er hungrig ist"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 8.",
+          "verse": 8,
+          "explain": "V. 8: So wie man sich fürchtet, wenn ein Löwe brüllt, muss der Prophet reden, wenn Gott geredet hat. Amos erklärt damit, warum er überhaupt auftritt."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was bedeutet „erkannt“ in V. 2?",
+          "a": "Das hebräische „jada“ meint mehr als Wissen: eine enge, persönliche Beziehung, auch die Erwählung (1Mo 18,19; Hos 13,5). Gemeint ist: Nur mit euch habe ich mich so verbunden."
+        },
+        {
+          "q": "Was ist ein „Sprenkel“?",
+          "a": "Das Stellholz einer Vogelfalle: Berührt der Vogel es, schnappt die Schlinge zu.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Bewirkt Gott jedes Unglück (V. 6)?",
+          "a": "Im Zusammenhang geht es um das Unheil, das Amos ankündigt: Wenn es kommt, ist es kein Zufall. Ob man den Satz verallgemeinern kann, wird verschieden beantwortet. Die reformierte Tradition betont mit Stellen wie Jes 45,7 Gottes Lenkung aller Dinge; viele katholische, orthodoxe und arminianisch geprägte Ausleger unterscheiden stärker zwischen dem, was Gott tut, und dem, was er zulässt."
+        }
+      ],
+      "teaser": "Ein Hirte rettet aus dem Maul eines Löwen zwei Beine und ein Ohrläppchen. Warum macht er sich diese Mühe?"
+    },
+    {
+      "id": "am-06",
+      "stage": "hoert",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 3,
+          "from": 9,
+          "to": 15
+        }
+      ],
+      "title": "Ein Ohrzipfel",
+      "summary": "Fremde Völker sollen sich die Unterdrückung in Samaria ansehen. Ein Feind wird kommen. Übrig bleiben nur Reste, und die Altäre von Bethel und die prächtigen Häuser der Reichen werden zerstört.",
+      "place": "samaria",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wer soll sich laut V. 9 auf den Bergen von Samaria versammeln?",
+          "options": [
+            "Die Paläste von Asdod und Ägypten",
+            "Die Könige von Juda und Edom",
+            "Die Heere Assyriens und Babylons",
+            "Die Priester von Bethel und Dan"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 9.",
+          "verse": 9,
+          "explain": "V. 9: Ausgerechnet die Philister (Asdod) und Ägypter sollen als Zeugen kommen und sehen, wie es in Samaria zugeht."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler.",
+          "text": "Gott wird auch die Altäre von [Jerusalem] heimsuchen, und die Hörner des Altars sollen abgehauen werden.",
+          "fix": "Bethel",
+          "hint": "Lies Vers 14.",
+          "explain": "V. 14: Es sind die Altäre von Bethel, dem Königsheiligtum des Nordreichs."
+        },
+        {
+          "type": "choice",
+          "q": "Was rettet der Hirte in V. 12 aus dem Rachen des Löwen?",
+          "options": [
+            "Zwei Beine oder einen Ohrzipfel",
+            "Ein ganzes Lamm",
+            "Das Fell eines Schafes",
+            "Gar nichts"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 12.",
+          "verse": 12,
+          "explain": "V. 12: Nur zwei Beine oder ein Ohrzipfel. So werden auch die Israeliten in Samaria „gerettet“, die auf ihren Polstern sitzen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum rettet der Hirte solche Reste?",
+          "a": "Nach 2Mo 22,12 musste ein Hirte, der fremde Tiere hütete, bei einem Raubtierangriff Reste als Beweis vorzeigen, sonst musste er Ersatz leisten. Die Reste beweisen dann, dass das Tier tot ist."
+        },
+        {
+          "q": "Was sind die Hörner des Altars?",
+          "a": "Hornartige Aufsätze an den vier Ecken des Altars. Wer sie festhielt, konnte Schutz suchen (1Kön 1,50). Werden sie abgehauen, gibt es diesen Zufluchtsort nicht mehr."
+        },
+        {
+          "q": "Was sind Winter-, Sommer- und Elfenbeinhäuser?",
+          "a": "Reiche Familien besaßen mehrere Häuser für die verschiedenen Jahreszeiten. Elfenbeinhäuser waren mit Elfenbeinschnitzereien ausgestattet, schon König Ahab baute eines (1Kön 22,39). „Damast“ meint kostbare Stoffe, vielleicht aus Damaskus.",
+          "translation": "elbbk"
+        }
+      ],
+      "cards": [
+        "samaria"
+      ],
+      "fact": "Bei Ausgrabungen in Samaria in den 1930er-Jahren fanden Archäologen Tausende Bruchstücke geschnitzter Elfenbeinplättchen, die einst vor allem Möbel verzierten – aus der Zeit, über die Amos spricht.",
+      "teaser": "Als Nächstes redet Amos die Frauen der Oberschicht an – mit dem Namen einer bekannten Viehrasse."
+    },
+    {
+      "id": "am-07",
+      "stage": "hoert",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 4,
+          "from": 1,
+          "to": 5
+        }
+      ],
+      "title": "Geht nach Bethel!",
+      "summary": "Die reichen Frauen Samarias unterdrücken die Armen und lassen sich von ihren Männern bedienen. Sie werden weggeschleppt. Dann folgt eine bittere Einladung zum Gottesdienst in Bethel und Gilgal.",
+      "place": "bethel",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wie nennt Amos die Frauen auf dem Berg Samarias?",
+          "options": [
+            "Kühe Basans",
+            "Töchter Zions",
+            "Löwinnen Judas",
+            "Tauben Ephraims"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 1.",
+          "verse": 1,
+          "explain": "V. 1: Kühe Basans. Basan war für sein wohlgenährtes Vieh berühmt."
+        },
+        {
+          "type": "whosaid",
+          "quote": "Bring her, dass wir trinken!",
+          "quote_ref": {
+            "book": 30,
+            "chapter": 4,
+            "from": 1,
+            "to": 1
+          },
+          "options": [
+            "Die Kühe Basans zu ihren Herren",
+            "Die Priester von Bethel zum Volk",
+            "Die Händler zu den Armen",
+            "Jerobeam zu seinen Dienern"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 1 zu Ende.",
+          "explain": "V. 1: Die Frauen sagen das zu ihren „Herren“, ihren Ehemännern – während sie selbst die Armen bedrücken."
+        },
+        {
+          "type": "choice",
+          "q": "Wie oft sollen sie laut V. 4 ihre Zehnten bringen?",
+          "options": [
+            "Alle drei Tage",
+            "Jedes Jahr",
+            "Alle drei Jahre",
+            "An jedem Sabbat"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 4.",
+          "verse": 4,
+          "explain": "V. 4: alle drei Tage. Das Gesetz kannte einen besonderen Zehnten alle drei Jahre (5Mo 14,28). Amos übertreibt hier offenbar bewusst."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist Basan?",
+          "a": "Eine fruchtbare Hochebene östlich des Sees Genezareth, heute etwa der Golan und Teile Südsyriens. Basan war für fette Rinder und starke Stiere bekannt (5Mo 32,14; Ps 22,13)."
+        },
+        {
+          "q": "Ist V. 4 wirklich eine Aufforderung zur Sünde?",
+          "a": "Amos ahmt den Ruf eines Priesters zur Wallfahrt nach, ersetzt aber „betet an“ durch „übertretet“. Die Ausleger lesen das fast einhellig als bittere Ironie."
+        },
+        {
+          "q": "Was war Gilgal?",
+          "a": "Ein altes Heiligtum in der Nähe von Jericho. Dort stellte Josua die zwölf Steine aus dem Jordan auf (Jos 4,19–20). Seine genaue Lage ist bis heute unsicher."
+        }
+      ],
+      "cards": [
+        "bethel"
+      ],
+      "teaser": "Hunger, Dürre, Heuschrecken, Pest: Gott zählt auf, was er schon geschickt hat. Wozu eigentlich?"
+    },
+    {
+      "id": "am-08",
+      "stage": "hoert",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 4,
+          "from": 6,
+          "to": 13
+        }
+      ],
+      "title": "Dennoch nicht umgekehrt",
+      "summary": "Gott zählt Plagen auf, die Israel schon erlebt hat: Hunger, Dürre, Missernten, Pest und Krieg, Zerstörung. Nach jeder heißt es: Ihr seid nicht umgekehrt. Am Ende: Mach dich bereit, deinem Gott zu begegnen.",
+      "focus": "Achte auf den Satz, der sich immer wiederholt.",
+      "quiz": [
+        {
+          "type": "estimate",
+          "q": "Wie oft steht in V. 6–11 der Satz, dass Israel nicht umgekehrt ist?",
+          "min": 1,
+          "max": 10,
+          "answer": 5,
+          "tolerance": 0,
+          "unit": "Mal",
+          "hint": "Zähle am Ende jedes Verses von 6 bis 11.",
+          "explain": "Fünfmal: V. 6, 8, 9, 10 und 11. Der Kehrvers gibt dem Abschnitt seinen Rhythmus."
+        },
+        {
+          "type": "order",
+          "q": "Bring die Plagen in die Reihenfolge des Textes.",
+          "items": [
+            "Mangel an Brot",
+            "Kein Regen",
+            "Kornbrand und Heuschrecken",
+            "Pest und Schwert",
+            "Umkehrung wie Sodom"
+          ],
+          "hint": "Geh die Verse 6 bis 11 durch.",
+          "explain": "V. 6 Hunger, V. 7–8 Dürre, V. 9 Pflanzenkrankheit und Heuschrecken, V. 10 Pest und Krieg, V. 11 Zerstörung wie Sodom und Gomorra."
+        },
+        {
+          "type": "choice",
+          "q": "Wozu soll Israel sich laut V. 12 bereit machen?",
+          "options": [
+            "Seinem Gott zu begegnen",
+            "In die Verbannung zu ziehen",
+            "In den Krieg zu ziehen",
+            "Ein großes Fasten zu halten"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 12.",
+          "verse": 12,
+          "explain": "V. 12: Israel soll sich bereit machen, seinem Gott zu begegnen. Was diese Begegnung bedeutet, sagt der Text nicht ausdrücklich."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „reine Zähne“?",
+          "a": "Es gab nichts zu essen, also blieb nichts zwischen den Zähnen. Gemeint ist Hungersnot.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Was bedeutet „umkehren“?",
+          "a": "Das hebräische „schuv“ ist eines der Hauptwörter der Propheten: sich umwenden, zurückkommen. Dasselbe Verb steht schon in 1,3 und den folgenden Sprüchen: Gott wird das Gericht nicht „zurückwenden“."
+        },
+        {
+          "q": "Was ist V. 13 für ein Text?",
+          "a": "Ein kurzer Lobpreis Gottes als Schöpfer, ähnlich wie 5,8–9 und 9,5–6. Viele Ausleger halten diese drei Stücke für Teile eines Hymnus, der im Buch an markanten Stellen steht. Alle drei enden mit dem Namen des HERRN."
+        }
+      ],
+      "teaser": "Der Prophet stimmt ein Begräbnislied an. Doch die Tote lebt noch."
+    },
+    {
+      "id": "am-09",
+      "stage": "sucht",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 5,
+          "from": 1,
+          "to": 9
+        }
+      ],
+      "title": "Ein Klagelied für Lebende",
+      "summary": "Amos singt ein Totenklagelied über Israel, das noch lebt. Mitten darin der Ruf: Sucht den HERRN und lebt – nicht die Heiligtümer Bethel, Gilgal und Beerseba. Ein Lobpreis auf den Schöpfer schließt sich an.",
+      "place": "gilgal",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was für ein Lied stimmt Amos in V. 1 an?",
+          "options": [
+            "Ein Klagelied",
+            "Ein Loblied",
+            "Ein Siegeslied",
+            "Ein Wallfahrtslied"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 1.",
+          "verse": 1,
+          "explain": "V. 1–2: ein Klagelied, wie man es bei einer Beerdigung sang. Die „Jungfrau Israel“ wird betrauert, als wäre sie schon tot."
+        },
+        {
+          "type": "estimate",
+          "q": "Eine Stadt zieht mit 1.000 Mann aus. Wie viele bleiben laut V. 3 übrig?",
+          "min": 0,
+          "max": 1000,
+          "answer": 100,
+          "tolerance": 0,
+          "unit": "Mann",
+          "hint": "Lies Vers 3.",
+          "verse": 3,
+          "explain": "V. 3: Von 1.000 bleiben 100, von 100 bleiben 10 – jeweils nur ein Zehntel."
+        },
+        {
+          "type": "choice",
+          "q": "Welche Orte sollen die Israeliten nicht aufsuchen?",
+          "options": [
+            "Bethel, Gilgal und Beerseba",
+            "Jerusalem, Bethel und Dan",
+            "Samaria, Gilgal und Tekoa",
+            "Silo, Sichem und Bethel"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 5.",
+          "verse": 5,
+          "explain": "V. 5: Bethel, Gilgal und Beerseba – drei bekannte Heiligtümer. Stattdessen sollen sie den HERRN selbst suchen (V. 4 und 6)."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Wie klingt ein hebräisches Klagelied?",
+          "a": "Das Totenklagelied (hebräisch „qina“) hat einen eigenen Rhythmus: Auf eine längere Zeile folgt eine kürzere, wie ein stockender Schritt. V. 2 ist im Hebräischen genau so gebaut."
+        },
+        {
+          "q": "Was ist das „Haus Josephs“?",
+          "a": "Das Nordreich Israel. Seine größten Stämme, Ephraim und Manasse, stammen von Josefs Söhnen ab."
+        },
+        {
+          "q": "Was sind das Siebengestirn und der Orion?",
+          "a": "Zwei auffällige Sternbilder: die Plejaden und der Orion. Sie werden in der Bibel auch in Hiob 9,9 und 38,31 als Werk des Schöpfers genannt."
+        },
+        {
+          "q": "Was ist Wermut?",
+          "a": "Eine sehr bittere Pflanze. In der Bibel ist sie ein Bild für etwas Bitteres und Zerstörerisches (5Mo 29,17; Offb 8,11)."
+        }
+      ],
+      "memory_verse": {
+        "ref": {
+          "book": 30,
+          "chapter": 5,
+          "from": 4,
+          "to": 4
+        },
+        "text": "Denn so spricht der HERR zum Haus Israel: Sucht mich und lebt."
+      },
+      "prayer": {
+        "ref": {
+          "book": 19,
+          "chapter": 27,
+          "from": 8,
+          "to": 8
+        },
+        "source": "Psalm 27,8"
+      },
+      "teaser": "Wo sprach man in einer israelitischen Stadt Recht? Nicht in einem Gerichtsgebäude."
+    },
+    {
+      "id": "am-10",
+      "stage": "sucht",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 5,
+          "from": 10,
+          "to": 17
+        }
+      ],
+      "title": "Recht im Tor",
+      "summary": "Im Tor, wo Recht gesprochen wird, hassen sie den, der die Wahrheit sagt, nehmen Bestechung und beugen das Recht der Armen. Darum werden sie ihre neuen Häuser und Weinberge nicht genießen. Vielleicht ist Gott dem Rest noch gnädig.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wen hassen sie laut V. 10?",
+          "options": [
+            "Den, der im Tor Recht spricht",
+            "Die Propheten aus Juda",
+            "Die Fremden im Land",
+            "Die Priester von Bethel"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 10.",
+          "verse": 10,
+          "explain": "V. 10: Sie hassen den, der im Tor Recht spricht, und verabscheuen den, der die Wahrheit sagt."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler.",
+          "text": "Ihr habt Häuser aus behauenen Steinen gebaut und werdet [lange] darin wohnen.",
+          "fix": "nicht",
+          "hint": "Lies Vers 11.",
+          "explain": "V. 11: Sie werden nicht darin wohnen und den Wein ihrer Weinberge nicht trinken."
+        },
+        {
+          "type": "truefalse",
+          "q": "V. 15 verspricht fest, dass Gott dem Überrest Josephs gnädig sein wird.",
+          "answer": false,
+          "hint": "Achte in Vers 15 auf ein kleines Wort.",
+          "verse": 15,
+          "explain": "V. 15: „Vielleicht“ wird der HERR gnädig sein. Amos verspricht nichts, er lässt die Möglichkeit offen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist mit „Lösegeld“ gemeint?",
+          "a": "Bestechungsgeld: Wer zahlte, kam vor Gericht davon. Das Gesetz verbot das ausdrücklich (4Mo 35,31; 5Mo 16,19).",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Warum schweigt der Einsichtige (V. 13)?",
+          "a": "Das wird unterschiedlich verstanden. Die einen lesen: Wer klug ist, hält in einer solchen Zeit aus Vorsicht den Mund. Andere übersetzen das Verb mit „verstummen, umkommen“ oder lesen den Satz als Klage über eine Zeit, in der niemand mehr widerspricht."
+        },
+        {
+          "q": "Warum ruft man den Ackermann und Klagekundige?",
+          "a": "Bei einer Beerdigung gab es professionelle Klagefrauen und -männer (Jer 9,16). V. 16–17 malen eine Trauer, die so groß ist, dass selbst die Bauern vom Feld geholt werden."
+        }
+      ],
+      "cards": [
+        "tor"
+      ],
+      "teaser": "Viele in Israel freuen sich auf einen bestimmten Tag. Amos nicht.",
+      "memory_verse": {
+        "ref": {
+          "book": 30,
+          "chapter": 5,
+          "from": 14,
+          "to": 14
+        },
+        "text": "Trachtet nach dem Guten und nicht nach dem Bösen, damit ihr lebt"
+      }
+    },
+    {
+      "id": "am-11",
+      "stage": "sucht",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 5,
+          "from": 18,
+          "to": 27
+        }
+      ],
+      "title": "Wie ein Bach, der nie versiegt",
+      "summary": "Der Tag des HERRN, auf den Israel hofft, wird Finsternis sein. Gott hasst ihre Feste, Opfer und Lieder. Er will, dass Recht und Gerechtigkeit fließen wie Wasser.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wie wird der Tag des HERRN laut V. 18 sein?",
+          "options": [
+            "Finsternis und nicht Licht",
+            "Ein Tag des Lichts für Israel",
+            "Ein großes Erntefest",
+            "Ein Tag der Rache an den Feinden"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 18.",
+          "verse": 18,
+          "explain": "V. 18 und 20: Finsternis, nicht Licht. Die Erwartung der Zuhörer wird umgedreht."
+        },
+        {
+          "type": "order",
+          "q": "Bring das Bild aus V. 19 in die richtige Reihenfolge.",
+          "items": [
+            "Er flieht vor dem Löwen",
+            "Ein Bär begegnet ihm",
+            "Er stützt sich zu Hause an die Mauer",
+            "Eine Schlange beißt ihn"
+          ],
+          "hint": "Lies Vers 19.",
+          "explain": "V. 19: Löwe, Bär, Mauer, Schlange."
+        },
+        {
+          "type": "choice",
+          "q": "Was will Gott statt Opfern und Liedern?",
+          "options": [
+            "Recht und Gerechtigkeit, die fließen wie Wasser",
+            "Größere und bessere Opfer",
+            "Neue, ernstere Lieder",
+            "Ein strenges Fasten"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 24.",
+          "verse": 24,
+          "explain": "V. 24: Recht wie Wasser und Gerechtigkeit wie ein Bach, der immer fließt."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Lehnt Gott hier Gottesdienst überhaupt ab?",
+          "a": "Jüdische und christliche Ausleger verstehen das überwiegend so: Gott lehnt einen Gottesdienst ab, der mit Unrecht im Alltag einhergeht – nicht Gebet und Feier an sich (vgl. Jes 1,11–17; Mi 6,6–8). Manche lesen V. 25 so, dass Amos das Opferwesen grundsätzlich hinterfragt. Das bleibt umstritten."
+        },
+        {
+          "q": "Was ist ein „immerfließender Bach“?",
+          "a": "Die meisten Bäche in Israel sind Wadis: Im Winter strömen sie, im Sommer liegen sie trocken. Ein Bach, der das ganze Jahr Wasser führt, ist selten und kostbar."
+        },
+        {
+          "q": "Was sind die „Hütte eures Königs“ und das „Sternbild“ in V. 26?",
+          "a": "Der hebräische Text ist schwer zu deuten. Viele lesen darin die Namen zweier Sterngötter, Sakkut und Kewan (Saturn). Die griechische Übersetzung machte daraus Moloch und Raiphan. In dieser Form zitiert Stephanus die Stelle in Apg 7,42–43."
+        }
+      ],
+      "cards": [
+        "tag-des-herrn",
+        "recht-gerechtigkeit"
+      ],
+      "fact": "Martin Luther King zitierte V. 24 mehrmals, unter anderem 1963 in seiner Rede „I Have a Dream“. Seine Worte stehen heute am Civil Rights Memorial in Montgomery (Alabama), über das Wasser fließt.",
+      "memory_verse": {
+        "ref": {
+          "book": 30,
+          "chapter": 5,
+          "from": 24,
+          "to": 24
+        },
+        "text": "Aber das Recht wälze sich einher wie Wasser, und die Gerechtigkeit wie ein immerfließender Bach!"
+      },
+      "try": "Lies V. 24 in einer anderen Übersetzung, zum Beispiel Luther 2017 oder BasisBibel. Welches Verb benutzt sie für das Wasser, und welches Bild entsteht dadurch?",
+      "teaser": "Die nächste Rede gilt nicht nur Samaria, sondern auch Zion. Es geht um teure Möbel und um eine Wunde, die niemand bemerkt."
+    },
+    {
+      "id": "am-12",
+      "stage": "sucht",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 6,
+          "from": 1,
+          "to": 7
+        }
+      ],
+      "title": "Die Sorglosen",
+      "summary": "Wehe den Sicheren in Zion und Samaria: Sie liegen auf Elfenbeinbetten, essen das Beste, trinken Wein aus Schalen – und es kümmert sie nicht, wie es um ihr Volk steht. Sie werden als Erste in die Verbannung gehen.",
+      "place": "samaria",
+      "quiz": [
+        {
+          "type": "truefalse",
+          "q": "Das Wehe in V. 1 gilt nur den Bewohnern von Samaria.",
+          "answer": false,
+          "hint": "Lies Vers 1 genau.",
+          "verse": 1,
+          "explain": "V. 1: Es trifft die Sorglosen in Zion, also Jerusalem, und die Sicheren in Samaria. Amos spricht hier auch sein eigenes Juda an."
+        },
+        {
+          "type": "choice",
+          "q": "Worauf liegen die Sorglosen laut V. 4?",
+          "options": [
+            "Auf Polstern von Elfenbein",
+            "Auf gepfändeten Mänteln",
+            "Auf Teppichen aus Ägypten",
+            "Auf Fellen von Mastkälbern"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 4.",
+          "verse": 4,
+          "explain": "V. 4: auf Polstern von Elfenbein, ausgestreckt auf Ruhebetten."
+        },
+        {
+          "type": "choice",
+          "q": "Worüber grämen sie sich nicht?",
+          "options": [
+            "Über die Wunde Josephs",
+            "Über ihre eigenen Sünden",
+            "Über den Verlust ihrer Herden",
+            "Über den Tod des Königs"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 6.",
+          "verse": 6,
+          "explain": "V. 6: Über den Schaden Josephs, also den Zustand des Nordreichs, machen sie sich keine Sorgen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum werden Kalne, Hamat und Gat genannt?",
+          "a": "Es waren bekannte Städte, die von Eroberern eingenommen worden waren (Gat zum Beispiel von Hasael, 2Kön 12,18). V. 2 fragt: Seid ihr besser oder größer als sie? Wer meint, ihm könne nichts passieren, soll dorthin schauen."
+        },
+        {
+          "q": "Was ist am Trinken „aus Schalen“ besonders?",
+          "a": "Das hebräische Wort meint sonst große Schalen, die im Heiligtum verwendet wurden, etwa für Opferblut. Hier wird daraus gezecht."
+        },
+        {
+          "q": "Was ist das „Gejauchze“ in V. 7?",
+          "a": "Im Hebräischen steht „mirzach“. Das Wort ist auch aus Texten aus Ugarit und Phönizien bekannt: ein Festgelage einer geschlossenen Gesellschaft, oft mit religiösem Anlass. Ein solches Gelage beschreiben V. 4–6.",
+          "translation": "elbbk"
+        }
+      ],
+      "prayer": {
+        "ref": {
+          "book": 19,
+          "chapter": 72,
+          "from": 1,
+          "to": 2
+        },
+        "source": "Psalm 72,1–2"
+      },
+      "teaser": "Zehn Männer in einem Haus. Und ein Name, den man plötzlich nicht mehr aussprechen will."
+    },
+    {
+      "id": "am-13",
+      "stage": "sucht",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 6,
+          "from": 8,
+          "to": 14
+        }
+      ],
+      "title": "Pferde auf Felsen",
+      "summary": "Gott schwört, die Stadt preiszugeben. Selbst in den Häusern sterben die Übriggebliebenen. Israel hat das Recht in Gift verwandelt und rühmt sich seiner eigenen Stärke – darum wird ein fremdes Volk es bedrängen.",
+      "quiz": [
+        {
+          "type": "estimate",
+          "q": "Wie viele Männer bleiben laut V. 9 in einem Haus übrig?",
+          "min": 1,
+          "max": 20,
+          "answer": 10,
+          "tolerance": 0,
+          "unit": "Männer",
+          "hint": "Lies Vers 9.",
+          "verse": 9,
+          "explain": "V. 9: zehn Männer – und auch sie werden sterben."
+        },
+        {
+          "type": "choice",
+          "q": "Warum soll man in V. 10 still sein?",
+          "options": [
+            "Der Name des HERRN darf nicht erwähnt werden",
+            "Die Feinde könnten sie hören",
+            "Die Toten sollen nicht gestört werden",
+            "Der König hat Trauer verboten"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 10 bis zum Ende.",
+          "verse": 10,
+          "explain": "V. 10: Den Namen des HERRN soll man nicht nennen. Ob aus Angst, ihn noch mehr herauszufordern, oder aus anderem Grund, sagt der Text nicht."
+        },
+        {
+          "type": "whosaid",
+          "quote": "Haben wir uns nicht durch unsere Stärke Hörner erworben?",
+          "quote_ref": {
+            "book": 30,
+            "chapter": 6,
+            "from": 13,
+            "to": 13
+          },
+          "options": [
+            "Das Haus Israel",
+            "Die Philister in Gat",
+            "Die Hirten von Tekoa",
+            "Der König von Hamat"
+          ],
+          "answer": 0,
+          "hint": "Schau, wer in V. 12–14 angeredet wird.",
+          "explain": "V. 13: Das sagt Israel über sich selbst. Hörner sind ein Bild für Kraft und Macht."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was soll die Frage nach den Pferden auf Felsen?",
+          "a": "Niemand lässt Pferde über Felsen rennen oder pflügt dort mit Rindern – das ist widersinnig. Ebenso widersinnig ist es, das Recht in Gift zu verwandeln (V. 12). Manche Übersetzungen ändern die Wörter leicht und lesen: Pflügt man das Meer mit Rindern?"
+        },
+        {
+          "q": "Was ist das „Nichtige“ in V. 13?",
+          "a": "Im Hebräischen steckt ein Wortspiel. Lo-Dabar und Karnajim waren Städte im Ostjordanland, die Israel unter Jerobeam II. erobert hatte. „Lo-Dabar“ klingt wie „Nichts“, „Karnajim“ bedeutet „Hörner“. Israel rühmt sich also eines Sieges über „Nichts“."
+        },
+        {
+          "q": "Was ist mit dem Eingang Hamats bis zum Bach der Ebene gemeint?",
+          "a": "Das sind die Grenzen, die Jerobeam II. zurückerobert hatte, im Norden bis Hamat in Syrien, im Süden bis zum Toten Meer (2Kön 14,25). Genau über dieses Gebiet soll nun ein fremdes Volk herrschen."
+        }
+      ],
+      "teaser": "Drei Bilder bekommt Amos zu sehen. Nach den ersten beiden bittet er für sein Volk. Was geschieht nach dem dritten?"
+    },
+    {
+      "id": "am-14",
+      "stage": "visionen",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 7,
+          "from": 1,
+          "to": 9
+        }
+      ],
+      "title": "Heuschrecken, Feuer, Senkblei",
+      "summary": "Amos sieht drei Visionen. Bei den Heuschrecken und beim Feuer bittet er für Israel, und Gott lässt ab. Bei der dritten, dem Senkblei, bittet er nicht mehr: Gott wird nicht länger schonend vorübergehen.",
+      "focus": "Achte darauf, wie Amos auf jede Vision reagiert und was Gott jeweils antwortet.",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Bring die Visionen in die richtige Reihenfolge.",
+          "items": [
+            "Heuschrecken",
+            "Feuer",
+            "Senkblei"
+          ],
+          "hint": "Lies V. 1, 4 und 7.",
+          "explain": "V. 1 Heuschrecken, V. 4 Feuer, V. 7 Senkblei. Später folgen noch zwei weitere Visionen (8,1 und 9,1)."
+        },
+        {
+          "type": "truefalse",
+          "q": "Auch nach der zweiten Vision ließ sich der HERR das Gericht gereuen.",
+          "answer": true,
+          "hint": "Lies Vers 6.",
+          "verse": 6,
+          "explain": "V. 6: Auch das soll nicht geschehen. Zweimal ändert Amos' Bitte etwas."
+        },
+        {
+          "type": "choice",
+          "q": "Was hält der Herr in der dritten Vision in der Hand?",
+          "options": [
+            "Ein Senkblei",
+            "Ein Schwert",
+            "Eine Messschnur",
+            "Eine Sichel"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 7.",
+          "verse": 7,
+          "explain": "V. 7–8: ein Senkblei. Gott legt es an sein Volk an, wie man eine Mauer auf Schiefstand prüft."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was heißt „Senkblei“, und ist das sicher?",
+          "a": "Ein Gewicht an einer Schnur, mit dem man prüft, ob eine Mauer senkrecht steht. Das hebräische Wort „anach“ kommt aber nur hier vor. Einige Ausleger meinen, es bedeute „Zinn“, und deuten das Bild anders, etwa als Waffe oder als Wortspiel. Die meisten Übersetzungen bleiben beim Senkblei."
+        },
+        {
+          "q": "Wie kann Gott etwas „gereuen“?",
+          "a": "Jüdische und christliche Ausleger haben das oft als menschliche Redeweise erklärt: Gott ändert nicht seinen Plan, aber sein Handeln entspricht der veränderten Lage. Andere betonen stärker, dass die Bibel hier eine echte Beziehung zeigt, in der Fürbitte etwas bewirkt (vgl. 2Mo 32,14; Jona 3,10)."
+        },
+        {
+          "q": "Was ist das „Königsmähen“?",
+          "a": "Wahrscheinlich der erste Schnitt des Grases, der als Abgabe an den König ging. Fressen danach Heuschrecken das nachwachsende Gras, bleibt für die Bauern nichts.",
+          "translation": "elbbk"
+        }
+      ],
+      "prayer": {
+        "ref": {
+          "book": 30,
+          "chapter": 7,
+          "from": 5,
+          "to": 5
+        },
+        "source": "Amos 7,5"
+      },
+      "teaser": "Ein Priester schickt dem König einen Bericht über Amos. Gibt er richtig wieder, was Amos gesagt hat?"
+    },
+    {
+      "id": "am-15",
+      "stage": "visionen",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 7,
+          "from": 10,
+          "to": 17
+        }
+      ],
+      "title": "Kein Prophet",
+      "summary": "Amazja, der Priester von Bethel, meldet Amos dem König als Verschwörer und weist ihn aus. Amos antwortet: Er war kein Berufsprophet, sondern Hirte. Gott hat ihn von der Herde weggeholt und geschickt.",
+      "place": "bethel",
+      "quiz": [
+        {
+          "type": "error",
+          "q": "Finde den Fehler.",
+          "text": "Amazja ließ Jerobeam ausrichten, Amos habe eine [Hungersnot] gegen ihn angestiftet.",
+          "fix": "Verschwörung",
+          "hint": "Lies Vers 10.",
+          "explain": "V. 10: Amazja nennt Amos' Worte eine Verschwörung gegen den König."
+        },
+        {
+          "type": "whosaid",
+          "quote": "Seher, geh, entfliehe in das Land Juda",
+          "quote_ref": {
+            "book": 30,
+            "chapter": 7,
+            "from": 12,
+            "to": 12
+          },
+          "options": [
+            "Amazja",
+            "Jerobeam",
+            "Amos",
+            "Ein Prophet aus Bethel"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 12.",
+          "explain": "V. 12: Amazja schickt Amos zurück nach Juda. Dort soll er sein Brot verdienen und weissagen – nur nicht in Bethel."
+        },
+        {
+          "type": "choice",
+          "q": "Was war Amos, bevor Gott ihn rief?",
+          "options": [
+            "Viehhirte und Maulbeerfeigenzüchter",
+            "Priester in Jerusalem",
+            "Schüler einer Prophetengruppe",
+            "Händler und Kaufmann"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 14.",
+          "verse": 14,
+          "explain": "V. 14–15: Er war Viehhirte und las Maulbeerfeigen. Gott nahm ihn hinter der Herde weg."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist ein „Prophetensohn“?",
+          "a": "Ein Mitglied einer Prophetengruppe, wie sie zur Zeit Elias und Elisas bestanden (2Kön 2,3–5). Amos sagt: Ich gehöre keiner solchen Zunft an und lebe nicht vom Prophezeien."
+        },
+        {
+          "q": "Sagt Amos „Ich war kein Prophet“ oder „Ich bin kein Prophet“?",
+          "a": "Im Hebräischen steht kein Verb: „Nicht Prophet ich.“ Ob es Vergangenheit oder Gegenwart meint, ist umstritten. Je nachdem sagt Amos: Ich war früher keiner, oder: Ich bin keiner von euren Berufspropheten."
+        },
+        {
+          "q": "Hat Amazja Amos richtig zitiert?",
+          "a": "In V. 9 hatte Amos angekündigt, Gott werde mit dem Schwert gegen das Haus Jerobeams aufstehen. Amazja macht daraus: Jerobeam selbst wird durchs Schwert sterben (V. 11). Jerobeam starb nach 2Kön 14,29 eines natürlichen Todes, sein Sohn Secharja wurde nach sechs Monaten ermordet (2Kön 15,8–10)."
+        }
+      ],
+      "cards": [
+        "jerobeam",
+        "amazja",
+        "maulbeerfeige"
+      ],
+      "fact": "Maulbeerfeigen reifen besser und werden süßer, wenn man jede Frucht anritzt. Die alte griechische Übersetzung beschreibt Amos' Arbeit genau so: als einen, der Maulbeerfeigen anritzt.",
+      "try": "Lies V. 9 und dann V. 11. Was hat Amos gesagt, und was berichtet Amazja dem König? Notiere die Unterschiede.",
+      "teaser": "Die nächste Vision ist ganz harmlos: ein Korb mit Obst. Doch im Hebräischen steckt darin ein Wortspiel."
+    },
+    {
+      "id": "am-16",
+      "stage": "visionen",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 8,
+          "from": 1,
+          "to": 8
+        }
+      ],
+      "title": "Ein Korb mit reifem Obst",
+      "summary": "Amos sieht einen Korb mit Sommerobst – und hört: Das Ende ist gekommen. Dann wendet er sich an die Händler, die das Ende des Feiertags kaum erwarten können, um mit falschen Maßen zu betrügen und Arme aufzukaufen.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Worauf warten die Händler ungeduldig (V. 5)?",
+          "options": [
+            "Dass Neumond und Sabbat vorüber sind",
+            "Dass die Ernte beginnt",
+            "Dass die Karawanen ankommen",
+            "Dass der König ein Fest ausruft"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 5.",
+          "verse": 5,
+          "explain": "V. 5: An Neumond und Sabbat ruhte der Handel. Die Händler halten den Feiertag ein, denken dabei aber nur ans Geschäft."
+        },
+        {
+          "type": "choice",
+          "q": "Wie betrügen die Händler laut V. 5?",
+          "options": [
+            "Sie verkleinern das Epha und vergrößern den Sekel",
+            "Sie mischen Wasser in den Wein",
+            "Sie bezahlen mit falschem Silber",
+            "Sie versetzen die Grenzsteine"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 5 zu Ende.",
+          "verse": 5,
+          "explain": "V. 5: Ein kleineres Epha heißt weniger Getreide für den Käufer, ein größerer Sekel heißt mehr Silber, das er zahlen muss. Dazu fälschen sie die Waage."
+        },
+        {
+          "type": "truefalse",
+          "q": "In V. 6 kehrt ein Ausdruck aus Kapitel 2 wieder: Arme für Geld und Dürftige für ein Paar Schuhe.",
+          "answer": true,
+          "hint": "Vergleiche 8,6 mit 2,6.",
+          "verse": 6,
+          "explain": "8,6 greift 2,6 fast wörtlich auf. Dort wurden Arme verkauft, hier werden sie gekauft."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was hat ein Obstkorb mit dem Ende zu tun?",
+          "a": "Ein Wortspiel: Sommerobst heißt hebräisch „qajiz“, Ende heißt „qez“. Beide Wörter klingen fast gleich. Das reife Obst am Ende des Jahres wird zum Bild für das Ende Israels."
+        },
+        {
+          "q": "Was sind Epha und Sekel?",
+          "a": "Das Epha ist ein Hohlmaß für Getreide, etwa 20 bis 40 Liter (die Angaben schwanken). Der Sekel ist ein Gewicht von etwa 11 Gramm, mit dem Silber abgewogen wurde – Münzen gab es noch nicht."
+        },
+        {
+          "q": "Was ist das Bild vom Nil in V. 8?",
+          "a": "Der Nil steigt jedes Jahr an, überschwemmt das Land und sinkt wieder. So soll das Land beben und wogen. Amos greift das Bild in 9,5 noch einmal auf."
+        }
+      ],
+      "fact": "Im Gezer-Kalender, einer der ältesten hebräischen Inschriften (wohl 10. Jahrhundert v. Chr.), endet das Bauernjahr mit dem Monat des „qajiz“ – des Sommerobstes. Danach beginnt das Jahr von vorn.",
+      "teaser": "Die Sonne geht am Mittag unter. Und Menschen laufen von Meer zu Meer, ohne zu finden, was sie suchen."
+    },
+    {
+      "id": "am-17",
+      "stage": "visionen",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 8,
+          "from": 9,
+          "to": 14
+        }
+      ],
+      "title": "Hunger nach dem Wort",
+      "summary": "Am Tag des Gerichts wird es mittags dunkel, Feste werden zu Trauer. Dann kommt ein Hunger, nicht nach Brot, sondern nach Gottes Wort – und man wird es nicht finden.",
+      "place": "dan",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Wann lässt Gott laut V. 9 die Sonne untergehen?",
+          "options": [
+            "Am Mittag",
+            "Am frühen Morgen",
+            "Um Mitternacht",
+            "Am Neumond"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 9.",
+          "verse": 9,
+          "explain": "V. 9: am Mittag – Finsternis am hellen Tag."
+        },
+        {
+          "type": "choice",
+          "q": "Wonach wird der Hunger in V. 11 sein?",
+          "options": [
+            "Nach den Worten des HERRN",
+            "Nach Brot",
+            "Nach Wasser",
+            "Nach Frieden"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 11.",
+          "verse": 11,
+          "explain": "V. 11: Nicht nach Brot oder Wasser, sondern danach, die Worte des HERRN zu hören. In V. 12 suchen sie überall und finden nichts."
+        },
+        {
+          "type": "whosaid",
+          "quote": "So wahr dein Gott lebt, Dan!",
+          "quote_ref": {
+            "book": 30,
+            "chapter": 8,
+            "from": 14,
+            "to": 14
+          },
+          "options": [
+            "Die, die bei der Schuld Samarias schwören",
+            "Die Händler mit falschen Waagen",
+            "Der Priester Amazja",
+            "Die Kühe Basans"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 14.",
+          "explain": "V. 14: So schwören die, die bei der Schuld Samarias schwören. Sie werden fallen und nicht wieder aufstehen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Warum schwört man bei Dan und Beerseba?",
+          "a": "Dan im Norden und Beerseba im Süden waren Heiligtümer und zugleich die äußersten Enden des Landes. In Dan hatte Jerobeam I. eines der goldenen Kälber aufgestellt (1Kön 12,28–30). Beerseba lag in Juda, wurde aber offenbar auch von Pilgern aus dem Norden besucht (5,5)."
+        },
+        {
+          "q": "Was ist die „Schuld Samarias“?",
+          "a": "Vielleicht ein spöttischer Name für eine Gottheit oder ein Kultbild in Samaria. Manche lesen stattdessen „Aschima“, den Namen einer Göttin (2Kön 17,30)."
+        },
+        {
+          "q": "Was bedeuten Sacktuch und Glatze?",
+          "a": "Zeichen der Trauer: Man trug ein grobes Tuch um die Hüften und schor sich das Haar (Jes 15,2–3)."
+        }
+      ],
+      "fact": "Am 15. Juni 763 v. Chr. gab es eine Sonnenfinsternis, die über Assyrien total war; eine assyrische Liste vermerkt sie. Manche Ausleger denken bei V. 9 an dieses Ereignis, das Amos' Zeitgenossen erlebt haben könnten.",
+      "prayer": {
+        "ref": {
+          "book": 19,
+          "chapter": 119,
+          "from": 18,
+          "to": 18
+        },
+        "source": "Psalm 119,18"
+      },
+      "teaser": "In der letzten Vision gibt es kein Versteck: nicht im Himmel, nicht im Meer. Erinnert dich das an einen Psalm?"
+    },
+    {
+      "id": "am-18",
+      "stage": "visionen",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 9,
+          "from": 1,
+          "to": 10
+        }
+      ],
+      "title": "Wie Getreide im Sieb",
+      "summary": "In der fünften Vision steht der Herr am Altar. Niemand kann sich vor ihm verstecken, weder im Totenreich noch im Meer. Israel ist für Gott nicht mehr wert als andere Völker. Doch das Haus Jakob wird nicht ganz vernichtet.",
+      "place": "bethel",
+      "quiz": [
+        {
+          "type": "order",
+          "q": "Wo könnten sie sich verstecken? Bring die Orte in die Reihenfolge des Textes.",
+          "items": [
+            "Scheol",
+            "Himmel",
+            "Gipfel des Karmel",
+            "Grund des Meeres"
+          ],
+          "hint": "Lies V. 2–3.",
+          "explain": "V. 2–3: Scheol, Himmel, Karmel, Meeresgrund – von ganz unten bis ganz oben und wieder hinunter. Überall findet Gott sie."
+        },
+        {
+          "type": "choice",
+          "q": "Mit wem vergleicht Gott Israel in V. 7?",
+          "options": [
+            "Mit den Kindern der Äthiopier",
+            "Mit den Amoritern",
+            "Mit den Ägyptern",
+            "Mit den Edomitern"
+          ],
+          "answer": 0,
+          "hint": "Lies Vers 7.",
+          "verse": 7,
+          "explain": "V. 7: Israel ist wie die Äthiopier. Gott hat auch Philister und Syrer aus ihren Ursprungsländern geführt."
+        },
+        {
+          "type": "truefalse",
+          "q": "Laut V. 8 will Gott das Haus Jakob ganz und gar vertilgen.",
+          "answer": false,
+          "hint": "Lies Vers 8 zu Ende.",
+          "verse": 8,
+          "explain": "V. 8: Das sündige Königreich wird vertilgt, aber das Haus Jakob nicht gänzlich."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was sind Kaphtor und Kir?",
+          "a": "Kaphtor ist wahrscheinlich Kreta, woher die Philister kamen. Kir lag in Mesopotamien; von dort kamen die Aramäer (Syrer), und dorthin sollen sie zurückgeführt werden (1,5; 2Kön 16,9)."
+        },
+        {
+          "q": "Was ist der Scheol?",
+          "a": "Das Totenreich, der Ort aller Verstorbenen in der Vorstellung des Alten Testaments.",
+          "translation": "elbbk"
+        },
+        {
+          "q": "Was bedeutet das Bild vom Sieb in V. 9?",
+          "a": "Das wird verschieden verstanden. Die einen denken an ein grobes Sieb, das Steine und Schmutz zurückhält: Kein Schuldiger entkommt. Andere lesen es als Hoffnung: Kein einziges Körnchen geht verloren. V. 10 spricht vom Gericht über die Sünder, V. 8 von einem Rest."
+        }
+      ],
+      "try": "Lies V. 2–4 und dann Psalm 139,7–10. Was ist in beiden Texten gleich, und was ist anders?",
+      "teaser": "Das Buch endet mit einer Hütte. Ein Apostel wird sie rund 800 Jahre später zitieren – mit einem anderen Wortlaut."
+    },
+    {
+      "id": "am-19",
+      "stage": "visionen",
+      "refs": [
+        {
+          "book": 30,
+          "chapter": 9,
+          "from": 11,
+          "to": 15
+        },
+        {
+          "book": 44,
+          "chapter": 15,
+          "from": 13,
+          "to": 18
+        }
+      ],
+      "title": "Die Hütte Davids",
+      "summary": "Gott wird die verfallene Hütte Davids wieder aufrichten. Das Land bringt Überfluss, die Weggeführten kehren zurück und bauen auf. Beim Apostelkonzil in Jerusalem zitiert Jakobus diese Verheißung.",
+      "place": "jerusalem",
+      "focus": "Achte darauf, worin sich Amos 9,12 und das Zitat in Apostelgeschichte 15,17 unterscheiden.",
+      "quiz": [
+        {
+          "type": "choice",
+          "q": "Was wird Gott mit der verfallenen Hütte Davids tun?",
+          "options": [
+            "Sie aufrichten und ihre Risse vermauern",
+            "Sie endgültig abreißen",
+            "Sie den Völkern überlassen",
+            "Sie nach Bethel versetzen"
+          ],
+          "answer": 0,
+          "hint": "Lies Amos 9,11.",
+          "explain": "Am 9,11: Gott richtet sie auf, vermauert die Risse und baut sie wie in alten Zeiten."
+        },
+        {
+          "type": "error",
+          "q": "Finde den Fehler.",
+          "text": "Die Weggeführten werden Weinberge pflanzen und deren Wein [verkaufen].",
+          "fix": "trinken",
+          "hint": "Lies Amos 9,14.",
+          "explain": "Am 9,14: Sie werden den Wein trinken. In 5,11 hatte es geheißen, dass sie den Wein ihrer Weinberge nicht trinken werden."
+        },
+        {
+          "type": "truefalse",
+          "q": "Im Zitat in Apg 15,17 ist vom Überrest Edoms die Rede.",
+          "answer": false,
+          "hint": "Vergleiche Amos 9,12 mit Apg 15,17.",
+          "explain": "Amos 9,12 nennt den Überrest Edoms. In Apg 15,17 heißt es dagegen: damit die übrigen Menschen den Herrn suchen."
+        }
+      ],
+      "explain": [
+        {
+          "q": "Was ist das Apostelkonzil?",
+          "a": "Um 48/49 n. Chr. berieten die Apostel und Ältesten in Jerusalem, ob Christen aus den Völkern beschnitten werden und das ganze Gesetz halten müssen (Apg 15,1–6). Jakobus, der Bruder Jesu, leitete die Gemeinde in Jerusalem. Mit dem Amos-Zitat begründet er, dass Gott Menschen aus den Völkern als solche annimmt."
+        },
+        {
+          "q": "Warum lautet das Zitat anders als Amos 9,12?",
+          "a": "Jakobus zitiert nach der griechischen Übersetzung (Septuaginta). Sie las im Hebräischen statt „Edom“ das ähnlich geschriebene „adam“ (Mensch) und statt „in Besitz nehmen“ ein ähnliches Wort für „suchen“. So wurde aus dem Überrest Edoms der Rest der Menschen, der den Herrn sucht."
+        },
+        {
+          "q": "Wie verstehen verschiedene Traditionen die Hütte Davids?",
+          "a": "Dispensationalisten sehen hier eine noch ausstehende Wiederherstellung Israels und des Königtums Davids im Tausendjährigen Reich; Apg 15 zeige nur, dass Heiden dazugehören werden. Amillenialisten und die meisten reformatorischen Kirchen verstehen Jesus, den Sohn Davids, als den, der die Hütte aufrichtet; die Gemeinde aus Juden und Heiden ist ihre Erfüllung. Ähnlich lesen katholische und orthodoxe Ausleger. Die Bilder von Most und Weinbergen in V. 13–15 werden dann auf die neue Schöpfung bezogen."
+        },
+        {
+          "q": "Wie lesen Juden diese Stelle?",
+          "a": "Im Judentum gilt Amos 9,11 als Verheißung des Messias und der Wiederherstellung des davidischen Königtums, die noch aussteht."
+        }
+      ],
+      "cards": [
+        "huette-davids"
+      ],
+      "fact": "Im Talmud (Sanhedrin 96b) heißt der Messias einmal „Bar Nafle“, etwa: Sohn des Verfallenen. Der Name wird mit Amos 9,11 begründet, wo von der verfallenen Hütte Davids die Rede ist.",
+      "try": "Leg Amos 9,11–12 und Apg 15,16–17 nebeneinander. Welche Wörter sind gleich, welche anders? Welcher Unterschied ist für die Frage des Apostelkonzils entscheidend?"
+    }
+  ]
+}

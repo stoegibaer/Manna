@@ -69,7 +69,7 @@
       "title": "Psalmen für schwere Tage",
       "subtitle": "Ehrliche Gebete",
       "direction": "ehrlich",
-      "available": false
+      "available": true
     },
     {
       "id": "hiob",
@@ -90,7 +90,7 @@
       "title": "Amos",
       "subtitle": "Es ströme das Recht wie Wasser",
       "direction": "gerechtigkeit",
-      "available": false
+      "available": true
     },
     {
       "id": "hosea",
@@ -125,7 +125,7 @@
       "title": "Wüste",
       "subtitle": "Wo Gott begegnet, wenn nichts mehr da ist",
       "direction": "hoffnung",
-      "available": false
+      "available": true
     },
     {
       "id": "prediger",
