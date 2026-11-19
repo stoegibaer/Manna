@@ -134,10 +134,11 @@ class SessionViewModel(private val c: AppContainer, private val more: Boolean = 
     }
 
     private suspend fun load() {
-        val planId = c.plans.index().resolve(c.settings.settings.first().activePlan)
+        val settings = c.settings.settings.first()
+        val planId = c.plans.index().resolve(settings.activePlan)
         val plan = c.plans.plan(planId)
         val done = c.progress.sectionsDone(planId).first().map { it.sectionId }.toSet()
-        val idx = plan.sections.indexOfFirst { it.id !in done }
+        val idx = plan.nextIndex(done, settings.rereads[planId])
         if (idx < 0) {
             _state.value = SessionState(loading = false, plan = plan, nothingLeft = true, step = Step.DONE, planFinished = true, more = more)
             return
@@ -201,8 +202,14 @@ class SessionViewModel(private val c: AppContainer, private val more: Boolean = 
         val plan = s.plan ?: return
         val section = s.section ?: return
         val before = c.progress.totalSections.first()
-        val isNew = c.progress.completeSection(plan.id, section.id)
-        if (isNew) c.logReading(verses = 0, sections = 1)
+        c.progress.completeSection(plan.id, section.id)
+        // reading a finished plan again: advance the run (re-reads count for the garden as well)
+        val rereading = plan.id in c.settings.current().rereads
+        if (rereading) {
+            val nextPos = plan.sections.indexOf(section) + 1
+            c.settings.update { st -> st.copy(rereads = if (nextPos < plan.sections.size) st.rereads + (plan.id to nextPos) else st.rereads - plan.id) }
+        }
+        c.logReading(verses = 0, sections = 1)
         val newCardIds = c.progress.unlockCards(plan.id, section.cards)
         val (recap, stageTitle) = buildRecap(plan, section)
         val journal = c.progress.journalFor(plan.id, section.id)
@@ -212,7 +219,7 @@ class SessionViewModel(private val c: AppContainer, private val more: Boolean = 
                 step = Step.REWARD,
                 newCards = newCardIds.mapNotNull { id -> plan.card(id) },
                 totalBefore = before,
-                totalAfter = if (isNew) before + 1 else before,
+                totalAfter = before + 1,
                 planted = planted,
                 recap = recap,
                 recapStageTitle = stageTitle,

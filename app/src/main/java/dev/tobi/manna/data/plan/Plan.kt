@@ -55,6 +55,14 @@ data class Plan(
 ) {
     fun card(id: String) = cards.firstOrNull { it.id == id }
     fun stage(id: String?) = stages.firstOrNull { it.id == id }
+
+    /**
+     * Index of the next section to read, or -1 if the plan is finished.
+     * [rereadPos] is set while a finished plan is read again from the start (Settings.rereads).
+     */
+    fun nextIndex(done: Set<String>, rereadPos: Int?): Int =
+        if (rereadPos != null) rereadPos.takeIf { it in sections.indices } ?: -1
+        else sections.indexOfFirst { it.id !in done }
 }
 
 @Serializable

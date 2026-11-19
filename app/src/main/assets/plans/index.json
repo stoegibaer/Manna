@@ -79,6 +79,13 @@
       "available": false
     },
     {
+      "id": "krankheit",
+      "title": "Krankheit und Heilung",
+      "subtitle": "Und wenn Gott nicht heilt?",
+      "direction": "ehrlich",
+      "available": false
+    },
+    {
       "id": "amos",
       "title": "Amos",
       "subtitle": "Es ströme das Recht wie Wasser",
@@ -100,11 +107,25 @@
       "available": true
     },
     {
+      "id": "israel-voelker",
+      "title": "Israel und die Völker",
+      "subtitle": "Ein Volk – zum Segen für alle",
+      "direction": "gerechtigkeit",
+      "available": false
+    },
+    {
       "id": "jesaja-trost",
       "title": "Jesaja 40–55",
       "subtitle": "Tröstet mein Volk",
       "direction": "hoffnung",
       "available": true
+    },
+    {
+      "id": "wueste",
+      "title": "Wüste",
+      "subtitle": "Wo Gott begegnet, wenn nichts mehr da ist",
+      "direction": "hoffnung",
+      "available": false
     },
     {
       "id": "prediger",
@@ -198,6 +219,34 @@
       "available": false
     },
     {
+      "id": "fruehe-kirche",
+      "title": "Wie alles anfing",
+      "subtitle": "Die frühe Kirche von Pfingsten bis Patmos",
+      "direction": "glauben",
+      "available": true
+    },
+    {
+      "id": "herz-gottes",
+      "title": "Das Herz Gottes",
+      "subtitle": "Freude, Schmerz, Zorn – und doch treu",
+      "direction": "glauben",
+      "available": false
+    },
+    {
+      "id": "essen-mit-gott",
+      "title": "Essen mit Gott",
+      "subtitle": "Von Mamre bis zum Hochzeitsmahl",
+      "direction": "glauben",
+      "available": false
+    },
+    {
+      "id": "kuehlschrank-verse",
+      "title": "Kühlschrank-Verse",
+      "subtitle": "Bekannte Verse im Zusammenhang",
+      "direction": "glauben",
+      "available": false
+    },
+    {
       "id": "schwierige-texte",
       "title": "Texte, die man lieber überspringt",
       "subtitle": "Ehrlich gelesen",
@@ -226,6 +275,20 @@
       "available": false
     },
     {
+      "id": "boesewichte",
+      "title": "Die Bösewichte",
+      "subtitle": "Kain, Isebel, Judas – und Gott",
+      "direction": "schwierig",
+      "available": false
+    },
+    {
+      "id": "zorn",
+      "title": "Zorn",
+      "subtitle": "Gottes Zorn und unserer",
+      "direction": "schwierig",
+      "available": false
+    },
+    {
       "id": "mit-gott-leben",
       "title": "Mit Gott leben",
       "subtitle": "Wie Beziehung mit Gott aussieht",
@@ -249,7 +312,7 @@
     {
       "id": "koerper-liebe",
       "title": "Körper, Liebe, Sexualität",
-      "subtitle": "Genesis, Hohelied, Korinther",
+      "subtitle": "Was die Bibel über Sex sagt",
       "direction": "leben",
       "available": false
     },
@@ -270,7 +333,7 @@
     {
       "id": "alltag",
       "title": "Bibel im Alltag",
-      "subtitle": "Kurze Pläne für Arbeit, Geld, Angst …",
+      "subtitle": "Kurze Pläne für Angst, Sorgen, Entscheidungen …",
       "direction": "leben",
       "available": false
     },
@@ -299,6 +362,34 @@
       "id": "frauen",
       "title": "Die vergessenen Frauen",
       "subtitle": "Debora, Hulda, Junia …",
+      "direction": "leben",
+      "available": false
+    },
+    {
+      "id": "geld",
+      "title": "Geld",
+      "subtitle": "Besitz, Reichtum und Verwalten",
+      "direction": "leben",
+      "available": false
+    },
+    {
+      "id": "arbeit",
+      "title": "Arbeit",
+      "subtitle": "Von Eden bis Kolosser 3,23",
+      "direction": "leben",
+      "available": false
+    },
+    {
+      "id": "freundschaft",
+      "title": "Freundschaft",
+      "subtitle": "David und Jonatan, Rut und Noomi",
+      "direction": "leben",
+      "available": false
+    },
+    {
+      "id": "psalm-119",
+      "title": "Psalm 119 in 7 Tagen",
+      "subtitle": "Von Alef bis Taw",
       "direction": "leben",
       "available": false
     }

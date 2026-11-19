@@ -55,6 +55,8 @@ data class Settings(
     /** ISO date of today's energy answer and the answer itself: low | normal | high. */
     val energyDate: String = "",
     val energy: String = "normal",
+    /** Finished plans read again: plan id → index of the next section in this run. */
+    val rereads: Map<String, Int> = emptyMap(),
 ) {
     val showConfetti get() = confetti && !calm
     val playSound get() = sound && !calm
@@ -86,6 +88,7 @@ class SettingsRepository(private val context: Context) {
         val dnd = booleanPreferencesKey("dnd_while_reading")
         val energyDate = stringPreferencesKey("energy_date")
         val energy = stringPreferencesKey("energy")
+        val rereads = stringPreferencesKey("rereads")
         // internal state, not part of Settings
         val dndRestore = intPreferencesKey("dnd_restore_filter")
         val reminderDate = stringPreferencesKey("reminder_last_date")
@@ -124,6 +127,7 @@ class SettingsRepository(private val context: Context) {
             dndWhileReading = p[K.dnd] ?: d.dndWhileReading,
             energyDate = p[K.energyDate] ?: d.energyDate,
             energy = p[K.energy] ?: d.energy,
+            rereads = p[K.rereads]?.let(::decodeRereads) ?: d.rereads,
         )
     }
 
@@ -149,7 +153,14 @@ class SettingsRepository(private val context: Context) {
         p[K.dnd] = n.dndWhileReading
         p[K.energyDate] = n.energyDate
         p[K.energy] = n.energy
+        p[K.rereads] = n.rereads.entries.joinToString(";") { "${it.key}=${it.value}" }
     }
+
+    /** "markus=3;habakuk=0" → map; broken entries are skipped. */
+    private fun decodeRereads(s: String): Map<String, Int> = s.split(';').mapNotNull { e ->
+        val (id, pos) = e.split('=').takeIf { it.size == 2 } ?: return@mapNotNull null
+        pos.toIntOrNull()?.let { id to it }
+    }.toMap()
 
     // ── internal state ──
 

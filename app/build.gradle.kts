@@ -15,8 +15,8 @@ android {
         applicationId = "dev.tobi.manna"
         minSdk = 26
         targetSdk = 37
-        versionCode = 10
-        versionName = "0.1.9"
+        versionCode = 11
+        versionName = "0.2.0"
     }
 
     // Release key stays outside the repo: keystore.properties (git-ignored) points to it.

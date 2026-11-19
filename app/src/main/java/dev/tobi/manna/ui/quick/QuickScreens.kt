@@ -80,10 +80,11 @@ class VerseViewModel(private val c: AppContainer) : ViewModel() {
 
     init {
         viewModelScope.launch {
-            val planId = c.plans.index().resolve(c.settings.current().activePlan)
+            val settings = c.settings.current()
+            val planId = c.plans.index().resolve(settings.activePlan)
             val plan = c.plans.plan(planId)
             val done = c.progress.sectionsDone(planId).first().map { it.sectionId }.toSet()
-            val section = plan.sections.firstOrNull { it.id !in done }
+            val section = plan.sections.getOrNull(plan.nextIndex(done, settings.rereads[planId]))
             if (section == null) {
                 state.value = VerseState(loading = false, planFinished = true)
                 return@launch

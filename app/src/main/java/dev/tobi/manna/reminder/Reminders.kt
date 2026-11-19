@@ -166,7 +166,7 @@ object Reminders {
             val plan = c.plans.plan(planId)
             val done = c.progress.allSectionsDone.first()
                 .filter { it.planId == planId }.map { it.sectionId }.toSet()
-            val nextIdx = plan.sections.indexOfFirst { it.id !in done }
+            val nextIdx = plan.nextIndex(done, s.rereads[planId])
             val next = plan.sections.getOrNull(nextIdx)
             val teaser = plan.sections.getOrNull(nextIdx - 1)?.teaser
             val title = when {

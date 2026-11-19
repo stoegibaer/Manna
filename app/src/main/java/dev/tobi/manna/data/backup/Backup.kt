@@ -11,6 +11,7 @@ import dev.tobi.manna.data.progress.MannaDb
 import dev.tobi.manna.data.progress.QuizResult
 import dev.tobi.manna.data.progress.ReadingDay
 import dev.tobi.manna.data.progress.SectionDone
+import dev.tobi.manna.data.progress.SectionReread
 import dev.tobi.manna.data.settings.Settings
 import dev.tobi.manna.data.settings.SettingsRepository
 import kotlinx.coroutines.Dispatchers
@@ -27,6 +28,7 @@ data class BackupFile(
     val appVersion: String = "",
     val exportedAt: Long = 0,
     val sections: List<SectionDone> = emptyList(),
+    val rereads: List<SectionReread> = emptyList(),
     val quiz: List<QuizResult> = emptyList(),
     val cards: List<CardUnlock> = emptyList(),
     val days: List<ReadingDay> = emptyList(),
@@ -69,6 +71,7 @@ class Backup(private val context: Context, private val db: MannaDb, private val 
                 appVersion = appVersion(),
                 exportedAt = System.currentTimeMillis(),
                 sections = dao.exportSections(),
+                rereads = dao.exportRereads(),
                 quiz = dao.exportQuiz(),
                 cards = dao.exportCards(),
                 days = dao.exportDays(),
@@ -99,7 +102,7 @@ class Backup(private val context: Context, private val db: MannaDb, private val 
     private suspend fun merge(f: BackupFile): ImportResult {
         val dao = db.progress()
         return db.withTransaction {
-            val sections = f.sections.count { dao.insertSection(it) != -1L }
+            val sections = f.sections.count { dao.insertSection(it) != -1L } + f.rereads.count { dao.insertReread(it) != -1L }
             val cards = f.cards.count { dao.insertCard(it) != -1L }
             // trees already planted on the device stay; positions still free are taken from the file
             f.garden.forEach { dao.insertTree(it) }

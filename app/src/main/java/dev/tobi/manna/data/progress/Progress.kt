@@ -23,6 +23,11 @@ import java.time.LocalTime
 @Entity(primaryKeys = ["planId", "sectionId"])
 data class SectionDone(val planId: String, val sectionId: String, val completedAt: Long)
 
+/** A section read again (e.g. a finished plan read a second time). Counts for the garden like a new one. */
+@Serializable
+@Entity(primaryKeys = ["planId", "sectionId", "readAt"])
+data class SectionReread(val planId: String, val sectionId: String, val readAt: Long)
+
 /**
  * One answered quiz question, also used for spaced repetition (Leitner boxes).
  * [box] 0..4 selects the next interval, [dueAt] is when it may come back as „Erinnerst du dich?“.
@@ -101,11 +106,15 @@ interface ProgressDao {
     @Query("SELECT * FROM SectionDone ORDER BY completedAt DESC LIMIT 1")
     suspend fun lastSection(): SectionDone?
 
-    @Query("SELECT COUNT(*) FROM SectionDone")
+    /** All sections ever read, re-reads included – the garden grows with every one of them. */
+    @Query("SELECT (SELECT COUNT(*) FROM SectionDone) + (SELECT COUNT(*) FROM SectionReread)")
     fun totalSections(): Flow<Int>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insertSection(s: SectionDone): Long
+
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insertReread(r: SectionReread): Long
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertQuiz(r: QuizResult)
@@ -146,6 +155,7 @@ interface ProgressDao {
 
     // ── backup (export/import) ──
     @Query("SELECT * FROM SectionDone") suspend fun exportSections(): List<SectionDone>
+    @Query("SELECT * FROM SectionReread") suspend fun exportRereads(): List<SectionReread>
     @Query("SELECT * FROM QuizResult") suspend fun exportQuiz(): List<QuizResult>
     @Query("SELECT * FROM CardUnlock") suspend fun exportCards(): List<CardUnlock>
     @Query("SELECT * FROM ReadingDay") suspend fun exportDays(): List<ReadingDay>
@@ -174,6 +184,12 @@ private val MIGRATION_2_3 = object : Migration(2, 3) {
     }
 }
 
+private val MIGRATION_4_5 = object : Migration(4, 5) {
+    override fun migrate(db: SupportSQLiteDatabase) {
+        db.execSQL("CREATE TABLE IF NOT EXISTS `SectionReread` (`planId` TEXT NOT NULL, `sectionId` TEXT NOT NULL, `readAt` INTEGER NOT NULL, PRIMARY KEY(`planId`, `sectionId`, `readAt`))")
+    }
+}
+
 private val MIGRATION_3_4 = object : Migration(3, 4) {
     override fun migrate(db: SupportSQLiteDatabase) {
         db.execSQL("CREATE TABLE IF NOT EXISTS `GardenTree` (`position` INTEGER NOT NULL, `species` TEXT NOT NULL, `plantedAt` INTEGER NOT NULL, PRIMARY KEY(`position`))")
@@ -181,15 +197,15 @@ private val MIGRATION_3_4 = object : Migration(3, 4) {
 }
 
 @Database(
-    entities = [SectionDone::class, QuizResult::class, CardUnlock::class, ReadingDay::class, FavoriteVerse::class, JournalEntry::class, GardenTree::class],
-    version = 4,
+    entities = [SectionDone::class, QuizResult::class, CardUnlock::class, ReadingDay::class, FavoriteVerse::class, JournalEntry::class, GardenTree::class, SectionReread::class],
+    version = 5,
 )
 abstract class MannaDb : RoomDatabase() {
     abstract fun progress(): ProgressDao
 
     companion object {
         fun create(context: Context) = Room.databaseBuilder(context, MannaDb::class.java, "manna.db")
-            .addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4)
+            .addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4, MIGRATION_4_5)
             .build()
     }
 }
@@ -209,9 +225,16 @@ class ProgressRepository(private val dao: ProgressDao) {
     suspend fun daysSinceNow(from: LocalDate) = dao.daysSinceNow(from.toString())
     suspend fun lastSection() = dao.lastSection()
 
-    /** @return true if the section was newly completed (not a re-read). */
-    suspend fun completeSection(planId: String, sectionId: String): Boolean =
-        dao.insertSection(SectionDone(planId, sectionId, System.currentTimeMillis())) != -1L
+    /**
+     * Marks a section as read. A section read before is logged as a re-read, so it still counts for the garden.
+     * @return true if the section was newly completed (not a re-read).
+     */
+    suspend fun completeSection(planId: String, sectionId: String): Boolean {
+        val now = System.currentTimeMillis()
+        val isNew = dao.insertSection(SectionDone(planId, sectionId, now)) != -1L
+        if (!isNew) dao.insertReread(SectionReread(planId, sectionId, now))
+        return isNew
+    }
 
     /** Answer in a reading session: new questions come back for review tomorrow; re-reads keep the review progress. */
     suspend fun recordQuiz(planId: String, sectionId: String, index: Int, firstTry: Boolean) {

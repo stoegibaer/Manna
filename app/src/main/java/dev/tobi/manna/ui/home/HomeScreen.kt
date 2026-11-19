@@ -114,7 +114,8 @@ class HomeViewModel(private val c: AppContainer) : ViewModel() {
         ) { done, total, days, (all, planted) ->
             val plan = c.plans.plan(planId)
             val doneIds = done.map { it.sectionId }.toSet()
-            val idx = plan.sections.indexOfFirst { it.id !in doneIds }
+            val rereadPos = s.rereads[planId]
+            val idx = plan.nextIndex(doneIds, rereadPos)
             val next = plan.sections.getOrNull(idx)
             val books = c.text.info().books.associateBy { it.nr }
             val active = days.filter { it.verses > 0 || it.sections > 0 }
@@ -140,7 +141,7 @@ class HomeViewModel(private val c: AppContainer) : ViewModel() {
                 teaser = if (idx > 0) plan.sections[idx - 1].teaser else null,
                 total = total,
                 planted = planted,
-                doneInPlan = doneIds.size,
+                doneInPlan = rereadPos ?: doneIds.size,
                 readToday = today.toString() in activeDates,
                 week = List(7) { monday.plusDays(it.toLong()).toString() in activeDates },
                 todayIndex = today.dayOfWeek.value - 1,

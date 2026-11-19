@@ -1,0 +1,2233 @@
+{
+ "id": "fruehe-kirche",
+ "title": "Wie alles anfing",
+ "subtitle": "Die frühe Kirche von Pfingsten bis Patmos",
+ "description": "Wie wird aus ein paar Jüngern in einem Obersaal eine Kirche mit Ältesten, Diakonen und Gemeinden von Jerusalem bis Rom? 31 Abschnitte über Streit und Einigung, Hausgemeinden, Geld und die ersten Ämter – und darüber, wie verschiedene Kirchen diese Anfänge heute lesen.",
+ "direction": "glauben",
+ "basis": "elbbk",
+ "stages": [
+  {
+   "id": "anfang",
+   "title": "Warten und Feuer"
+  },
+  {
+   "id": "druck",
+   "title": "Gemeinsam und unter Druck"
+  },
+  {
+   "id": "grenzen",
+   "title": "Über die Grenzen"
+  },
+  {
+   "id": "streit",
+   "title": "Die große Streitfrage"
+  },
+  {
+   "id": "haeuser",
+   "title": "Gemeinde im Wohnzimmer"
+  },
+  {
+   "id": "aemter",
+   "title": "Ämter und Abschied"
+  }
+ ],
+ "cards": [
+  {
+   "id": "lukas",
+   "type": "person",
+   "name": "Lukas",
+   "text": "Nach altkirchlicher Überlieferung Arzt und Begleiter des Paulus (Kol 4,14). Er schrieb das Lukasevangelium und als zweiten Band die Apostelgeschichte, beide an einen Theophilus. In manchen Abschnitten erzählt er in der Wir-Form, als wäre er dabei gewesen (ab Apg 16,10).",
+   "refs": "Lk 1,1–4; Apg 1,1; Kol 4,14"
+  },
+  {
+   "id": "petrus",
+   "type": "person",
+   "name": "Petrus",
+   "text": "Eigentlich Simon, Fischer aus Galiläa. Jesus nennt ihn Kephas (aramäisch) bzw. Petrus (griechisch): Fels. In der ersten Hälfte der Apostelgeschichte ist er der Sprecher der Zwölf. Nach alter Überlieferung starb er unter Nero in Rom als Märtyrer.",
+   "refs": "Apg 1–12; 15; Gal 2"
+  },
+  {
+   "id": "pfingsten",
+   "type": "ereignis",
+   "name": "Pfingsten",
+   "text": "Griechisch „pentekoste“, der fünfzigste Tag nach dem Passa. Jüdisch ist es Schawuot, das Wochenfest zur Weizenernte, zu dem viele Pilger nach Jerusalem kamen. An diesem Fest kommt nach Apg 2 der Heilige Geist auf die Jünger. Viele sehen darin den Geburtstag der Kirche.",
+   "refs": "3Mo 23,15–21; Apg 2"
+  },
+  {
+   "id": "barnabas",
+   "type": "person",
+   "name": "Barnabas",
+   "text": "Eigentlich Josef, ein Levit aus Zypern. Die Apostel nennen ihn Barnabas, „Sohn des Trostes“. Er verkauft einen Acker für die Gemeinde, bürgt für den frisch bekehrten Saulus, leitet die Gemeinde in Antiochia mit und geht mit Paulus auf die erste Missionsreise. Später trennen sich die beiden im Streit.",
+   "refs": "Apg 4,36–37; 9,27; 11,22–26; 13–15"
+  },
+  {
+   "id": "hellenisten",
+   "type": "begriff",
+   "name": "Hellenisten und Hebräer",
+   "text": "Zwei Gruppen in der ersten Gemeinde in Jerusalem. Hellenisten sind Juden, die Griechisch sprechen und oft aus der Diaspora stammen, Hebräer sprechen Aramäisch und sind im Land verwurzelt. Aus den Hellenisten kommen Stephanus und Philippus, die das Evangelium als Erste über Jerusalem hinaustragen.",
+   "refs": "Apg 6,1; 9,29"
+  },
+  {
+   "id": "stephanus",
+   "type": "person",
+   "name": "Stephanus",
+   "text": "Einer der Sieben, die für die Versorgung der Witwen gewählt werden. Er tut Zeichen, streitet mit Gegnern aus den griechischsprachigen Synagogen und wird nach einer langen Rede vor dem Hohen Rat gesteinigt. Sein Name bedeutet „Kranz“. Er gilt als erster christlicher Märtyrer.",
+   "refs": "Apg 6–7"
+  },
+  {
+   "id": "philippus",
+   "type": "person",
+   "name": "Philippus",
+   "text": "Nicht der Apostel, sondern einer der Sieben aus Apg 6. Nach der Verfolgung verkündigt er in Samaria, tauft den Kämmerer aus Äthiopien und lässt sich in Cäsarea nieder. Dort heißt er später „der Evangelist“ und hat vier Töchter, die prophetisch reden.",
+   "refs": "Apg 6,5; 8; 21,8–9"
+  },
+  {
+   "id": "paulus",
+   "type": "person",
+   "name": "Paulus",
+   "text": "Hebräisch Saul(us), römisch Paulus. Jude aus Tarsus, Pharisäer, zuerst Verfolger der Gemeinde. Vor Damaskus begegnet er dem auferstandenen Jesus. Danach gründet er Gemeinden in Kleinasien und Griechenland und schreibt die ältesten Schriften des Neuen Testaments. Nach alter Überlieferung starb er in Rom.",
+   "refs": "Apg 7,58; 9; 13–28; Gal 1–2"
+  },
+  {
+   "id": "kornelius",
+   "type": "person",
+   "name": "Kornelius",
+   "text": "Römischer Hauptmann in Cäsarea, ein „Gottesfürchtiger“: Er betet zum Gott Israels und gibt Almosen, ist aber kein Jude. In seinem Haus kommt der Heilige Geist zum ersten Mal auf Menschen aus den Nationen. Die Gemeinde in Jerusalem muss danach neu nachdenken, wer dazugehört.",
+   "refs": "Apg 10–11"
+  },
+  {
+   "id": "antiochia",
+   "type": "ort",
+   "name": "Antiochia",
+   "text": "Hauptstadt der römischen Provinz Syrien am Orontes, eine der größten Städte des Reiches, heute Antakya in der Türkei. Hier entsteht die erste Gemeinde aus Juden und Nichtjuden, hier heißen die Jünger zuerst „Christen“, und von hier aus beginnen die Reisen des Paulus.",
+   "refs": "Apg 11,19–30; 13,1–3; 15; Gal 2,11"
+  },
+  {
+   "id": "aelteste",
+   "type": "begriff",
+   "name": "Älteste und Aufseher",
+   "text": "Älteste (griechisch presbyteroi) leiteten schon Synagogen und Städte. In den Gemeinden heißen die Leiter auch Aufseher (episkopoi) – daraus wurde das Wort „Bischof“, aus presbyteros das Wort „Priester“. Im Neuen Testament sind meist mehrere zugleich zuständig. Erst um 110 ist ein einzelner Bischof an der Spitze einer Gemeinde klar bezeugt.",
+   "refs": "Apg 11,30; 14,23; 20,17.28; Tit 1,5–7"
+  },
+  {
+   "id": "apostelkonzil",
+   "type": "ereignis",
+   "name": "Apostelkonzil",
+   "text": "Versammlung der Apostel, Ältesten und der Gemeinde in Jerusalem, wahrscheinlich um 48/49. Die Frage: Müssen Christen aus den Nationen beschnitten werden und das Gesetz des Mose halten? Das Ergebnis ist ein Brief mit wenigen Regeln. Spätere Konzilien der Kirche sehen hier ihr Vorbild.",
+   "refs": "Apg 15; Gal 2,1–10"
+  },
+  {
+   "id": "jakobus",
+   "type": "person",
+   "name": "Jakobus, Bruder Jesu",
+   "text": "Ein Bruder Jesu, der zu dessen Lebzeiten nicht an ihn glaubte (Joh 7,5). Der Auferstandene erscheint ihm (1 Kor 15,7). Später ist er die führende Gestalt der Gemeinde in Jerusalem, bekannt als „der Gerechte“. Nach dem jüdischen Historiker Josephus wurde er um 62 gesteinigt.",
+   "refs": "Apg 12,17; 15,13–21; 21,18; Gal 1,19; 2,9"
+  },
+  {
+   "id": "priska-aquila",
+   "type": "person",
+   "name": "Priska und Aquila",
+   "text": "Ein jüdisches Ehepaar von Zeltmachern, das wegen eines Erlasses des Kaisers Claudius Rom verlassen muss. In Korinth wohnt und arbeitet Paulus bei ihnen. Später leben sie in Ephesus und wieder in Rom, und an jedem Ort trifft sich eine Gemeinde in ihrem Haus. Priska wird meist zuerst genannt.",
+   "refs": "Apg 18; Röm 16,3–5; 1Kor 16,19"
+  },
+  {
+   "id": "hausgemeinde",
+   "type": "begriff",
+   "name": "Hausgemeinde",
+   "text": "Die ersten Christen hatten keine Kirchengebäude. Sie trafen sich in Privathäusern, oft bei wohlhabenderen Mitgliedern mit einem größeren Raum. Zu einem „Haus“ gehörten Familie, Sklaven und Angestellte. Eine Stadtgemeinde bestand oft aus mehreren solchen Hausgemeinden. Eigene Kirchenbauten gab es erst ab dem 3. Jahrhundert.",
+   "refs": "Apg 2,46; 16,15; Röm 16,5; 1Kor 16,19"
+  }
+ ],
+ "sections": [
+  {
+   "id": "fk-01",
+   "stage": "anfang",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 1,
+     "from": 1,
+     "to": 11
+    }
+   ],
+   "title": "Der Auftrag",
+   "summary": "Lukas setzt seinen Bericht über Jesus fort. Die Jünger fragen, ob Jesus jetzt das Reich für Israel wiederherstellt. Er antwortet: Die Zeiten kennt der Vater; ihr werdet die Kraft des Geistes empfangen und meine Zeugen sein, von Jerusalem bis an das Ende der Erde. Dann wird er aufgenommen.",
+   "place": "oelberg",
+   "focus": "Achte in Vers 8 auf die Reihenfolge der Orte. Nach ihr ist die ganze Apostelgeschichte aufgebaut.",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Was fragen die Jünger Jesus in Vers 6?",
+     "options": [
+      "Ob er jetzt das Reich für Israel wiederherstellt",
+      "Wer von ihnen den Judas ersetzen soll",
+      "Ob sie mit ihm in den Himmel kommen dürfen",
+      "Wann sie Jerusalem verlassen sollen"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 6.",
+     "verse": 6,
+     "explain": "V. 6: Sie fragen nach dem Reich für Israel. Jesus antwortet nicht mit einem Termin, sondern mit einem Auftrag (V. 7–8)."
+    },
+    {
+     "type": "truefalse",
+     "q": "Jesus nennt den Jüngern einen Zeitpunkt, wann das Reich kommt.",
+     "answer": false,
+     "hint": "Lies Vers 7.",
+     "verse": 7,
+     "explain": "V. 7: Zeiten und Zeitpunkte hat der Vater in seiner eigenen Macht festgesetzt. Die Jünger sollen sie nicht wissen."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Wer ist Theophilus?",
+     "a": "Der Name bedeutet „Freund Gottes“. Lukas widmet ihm schon sein Evangelium und nennt ihn dort „hochedel“ (Lk 1,3). Vielleicht war er ein angesehener Förderer. Manche lesen den Namen auch als Anrede an jeden, der Gott liebt."
+    },
+    {
+     "q": "Was ist mit dem „ersten Bericht“ gemeint?",
+     "a": "Das Lukasevangelium. Die Apostelgeschichte ist der zweite Band: Das Evangelium erzählt, was Jesus anfing (V. 1), die Apostelgeschichte, wie es weitergeht."
+    },
+    {
+     "q": "Was heißt „mit Heiligem Geist getauft“?",
+     "a": "„Taufen“ heißt wörtlich „eintauchen“. Johannes der Täufer hatte angekündigt, dass nach ihm einer kommt, der mit dem Heiligen Geist tauft (Lk 3,16). Jesus nimmt das in V. 5 auf. Erfüllt wird es an Pfingsten (Apg 2)."
+    }
+   ],
+   "cards": [
+    "lukas"
+   ],
+   "try": "Schlag Apg 8,5, Apg 10,1 und Apg 28,14 auf. Zu welchem Teil von Vers 8 passt jede Stelle?",
+   "teaser": "Bevor der Geist kommt, kümmern sich die Jünger um eine Lücke in ihrem Kreis. Warum ist ihnen ausgerechnet die so wichtig?"
+  },
+  {
+   "id": "fk-02",
+   "stage": "anfang",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 1,
+     "from": 12,
+     "to": 17
+    },
+    {
+     "book": 44,
+     "chapter": 1,
+     "from": 21,
+     "to": 26
+    }
+   ],
+   "title": "Ein leerer Platz",
+   "summary": "Zurück in Jerusalem beten die Elf im Obersaal, zusammen mit Frauen, Maria und den Brüdern Jesu. Petrus schlägt vor, den Platz des Judas neu zu besetzen. Es muss jemand sein, der von der Taufe des Johannes an dabei war. Zwei werden aufgestellt, sie beten und losen: Matthias.",
+   "place": "jerusalem",
+   "quiz": [
+    {
+     "type": "estimate",
+     "q": "Wie viele Menschen sind ungefähr beisammen, als Petrus aufsteht?",
+     "min": 10,
+     "max": 500,
+     "answer": 120,
+     "tolerance": 10,
+     "unit": "Personen",
+     "hint": "Lies Vers 15.",
+     "verse": 15,
+     "explain": "V. 15: etwa 120 Personen – die ganze Gemeinde passt noch in einen Raum."
+    },
+    {
+     "type": "choice",
+     "q": "Welche Bedingung muss der Nachfolger erfüllen?",
+     "options": [
+      "Er muss von der Taufe des Johannes an mit Jesus unterwegs gewesen sein",
+      "Er muss wie Jesus aus dem Stamm Juda kommen",
+      "Er muss Priester im Tempel gewesen sein",
+      "Er muss von den Ältesten des Volkes anerkannt sein"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 21–22.",
+     "verse": 22,
+     "explain": "V. 21–22: Er soll mit den anderen Zeuge der Auferstehung werden – also jemand, der die ganze Zeit mit Jesus dabei war."
+    },
+    {
+     "type": "truefalse",
+     "q": "Unter den Betenden im Obersaal sind auch Frauen und die Brüder Jesu.",
+     "answer": true,
+     "hint": "Lies Vers 14.",
+     "verse": 14,
+     "explain": "V. 14: Mit den Elf beten Frauen, Maria, die Mutter Jesu, und seine Brüder."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Warum müssen es zwölf sein?",
+     "a": "Israel bestand aus zwölf Stämmen. Jesus hatte zwölf Apostel berufen (Lk 6,13) und ihnen verheißen, auf Thronen zu sitzen und die zwölf Stämme Israels zu richten (Lk 22,30). Als später der Apostel Jakobus getötet wird (Apg 12,2), wählt niemand nach. Viele Ausleger erklären das so: Judas hat seinen Platz verlassen, Jakobus nicht."
+    },
+    {
+     "q": "Was ist ein „Sabbatweg“?",
+     "a": "Die Strecke, die man am Sabbat nach jüdischer Auslegung gehen durfte: etwa 2000 Ellen, knapp ein Kilometer."
+    },
+    {
+     "q": "Warum wird gelost?",
+     "a": "Das Los war in Israel ein bekannter Weg, Gottes Entscheidung zu erfragen (Spr 16,33). Hier wählen die Jünger zuerst zwei geeignete Männer aus und beten. Nach Pfingsten erzählt das Neue Testament von keinem Losentscheid mehr."
+    }
+   ],
+   "cards": [
+    "petrus"
+   ],
+   "prayer": {
+    "ref": {
+     "book": 44,
+     "chapter": 1,
+     "from": 24,
+     "to": 24
+    },
+    "source": "Apostelgeschichte 1,24"
+   },
+   "teaser": "Ein jüdisches Erntefest, die Stadt voller Pilger. Wer die Liste der Völker, die gleich kommt, neben 1. Mose 10–11 legt, findet ein Echo."
+  },
+  {
+   "id": "fk-03",
+   "stage": "anfang",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 2,
+     "from": 1,
+     "to": 13
+    }
+   ],
+   "title": "Pfingsten",
+   "summary": "Am Pfingstfest kommt ein Brausen wie von Wind, und Zungen wie von Feuer setzen sich auf jeden. Die Jünger reden in anderen Sprachen. Juden und Proselyten aus vielen Ländern hören Gottes große Taten in ihrer eigenen Sprache. Manche staunen, andere spotten.",
+   "bridge": "Zehn Tage nach der Himmelfahrt. Die Gemeinde trifft sich weiter in Jerusalem.",
+   "place": "jerusalem",
+   "quiz": [
+    {
+     "type": "error",
+     "q": "Finde den Fehler:",
+     "text": "Die Jünger redeten in anderen Sprachen, und jeder Pilger hörte sie in der [griechischen] Sprache.",
+     "fix": "eigenen",
+     "hint": "Lies Vers 6–8.",
+     "verse": 8,
+     "explain": "V. 6–8: Jeder hört sie in seiner eigenen Sprache, in der er geboren ist."
+    },
+    {
+     "type": "choice",
+     "q": "Wer sind die Zuhörer?",
+     "options": [
+      "Juden und Proselyten aus vielen Ländern",
+      "Vor allem Römer, die nie von Gott gehört haben",
+      "Nur die Bewohner von Jerusalem",
+      "Römische Soldaten aus der Burg"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 5 und 11.",
+     "verse": 11,
+     "explain": "V. 5.11: Es sind Juden und Proselyten, die in Jerusalem wohnen oder zum Fest gekommen sind. Die Botschaft erreicht zuerst Israel in seiner ganzen Weite."
+    },
+    {
+     "type": "truefalse",
+     "q": "Lukas schreibt, dass ein Sturm durch das Haus fegte.",
+     "answer": false,
+     "hint": "Achte auf das kleine Wort „wie“ in Vers 2 und 3.",
+     "verse": 2,
+     "explain": "V. 2–3: Lukas vergleicht: ein Brausen wie von Wind, Zungen wie von Feuer. Er sucht Bilder für etwas, das sich schwer beschreiben lässt."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Was sind Proselyten?",
+     "a": "Nichtjuden, die zum Judentum übergetreten sind: Sie haben sich beschneiden lassen (Männer) und halten die Tora."
+    },
+    {
+     "q": "Ist das dieselbe Zungenrede wie in Korinth?",
+     "a": "Hier verstehen die Zuhörer die Sprachen ohne Übersetzung (V. 8). In 1 Kor 14 braucht die Zungenrede einen Ausleger. Manche sehen darin zwei verschiedene Gaben, andere dieselbe Gabe in verschiedener Form. Pfingstkirchen und charismatische Gemeinden erwarten Zungenrede auch heute. Viele andere Kirchen sehen in Pfingsten ein einmaliges Zeichen am Anfang."
+    },
+    {
+     "q": "Wie wird das Fest heute gefeiert?",
+     "a": "Pfingsten ist in allen großen Kirchen eines der Hauptfeste, 50 Tage nach Ostern. In der orthodoxen Kirche ist es zugleich das Fest der Dreieinigkeit."
+    }
+   ],
+   "cards": [
+    "pfingsten"
+   ],
+   "try": "Lies 1. Mose 11,1–9 und dann noch einmal Apg 2,6–11. Was wird dort getrennt, was wird hier verbunden?",
+   "teaser": "Nach der Predigt fragen die Zuhörer nur eines: Was sollen wir tun? Danach muss eine Gemeinde entstehen, die es so noch nicht gab."
+  },
+  {
+   "id": "fk-04",
+   "stage": "anfang",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 2,
+     "from": 37,
+     "to": 47
+    }
+   ],
+   "title": "Die erste Gemeinde",
+   "summary": "Die Zuhörer fragen, was sie tun sollen. Petrus ruft zur Umkehr und zur Taufe auf. Etwa 3000 lassen sich taufen. Sie bleiben bei der Lehre der Apostel, der Gemeinschaft, dem Brotbrechen und den Gebeten, teilen ihren Besitz und treffen sich im Tempel und in den Häusern.",
+   "bridge": "Petrus hat gepredigt: Was hier geschieht, hat der Prophet Joel angekündigt. Gott hat den gekreuzigten Jesus auferweckt und zum Herrn und Christus gemacht (2,14–36).",
+   "place": "jerusalem",
+   "focus": "Achte auf Vers 42: vier Dinge, bei denen die erste Gemeinde bleibt.",
+   "quiz": [
+    {
+     "type": "order",
+     "q": "Bei welchen vier Dingen bleiben sie? In der Reihenfolge von Vers 42:",
+     "items": [
+      "Lehre der Apostel",
+      "Gemeinschaft",
+      "Brechen des Brotes",
+      "Gebete"
+     ],
+     "hint": "Lies Vers 42.",
+     "verse": 42,
+     "explain": "V. 42: Lehre, Gemeinschaft, Brotbrechen, Gebet. Viele Gemeinden nehmen diesen Vers bis heute als Kurzbeschreibung von Gemeinde."
+    },
+    {
+     "type": "choice",
+     "q": "Wo trifft sich die Gemeinde laut Vers 46?",
+     "options": [
+      "Im Tempel und in den Häusern",
+      "In einem eigenen Gemeindehaus",
+      "Nur in den Synagogen",
+      "Draußen auf dem Ölberg"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 46.",
+     "verse": 46,
+     "explain": "V. 46: Täglich im Tempel, und zu Hause brechen sie das Brot. Die ersten Christen verstehen sich weiter als Teil Israels."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Was heißt „Buße tun“?",
+     "a": "Griechisch „metanoia“: umdenken, die Richtung ändern. Gemeint ist weniger ein Gefühl der Reue als eine Umkehr des ganzen Lebens zu Gott."
+    },
+    {
+     "q": "Was ist das „Brechen des Brotes“?",
+     "a": "Bei jüdischen Mahlzeiten brach der Hausvater das Brot nach einem Dankgebet. Lukas meint gemeinsame Mahlzeiten. Ob darin schon das Abendmahl gefeiert wurde (vgl. Lk 24,30.35), wird verschieden gesehen; viele nehmen es an."
+    },
+    {
+     "q": "Wie verstehen Kirchen Vers 38–39?",
+     "a": "Katholische, orthodoxe und lutherische Kirchen sehen in der Taufe ein Sakrament, in dem Gott selbst Vergebung schenkt; sie taufen auch Säuglinge und verweisen dabei unter anderem auf „euren Kindern“ (V. 39). Baptisten und viele Freikirchen verstehen die Taufe als Antwort des Glaubens und taufen nur, wer selbst glaubt; V. 39 meint für sie die Nachkommen, die später selbst glauben."
+    }
+   ],
+   "memory_verse": {
+    "ref": {
+     "book": 44,
+     "chapter": 2,
+     "from": 42,
+     "to": 42
+    },
+    "text": "Sie verharrten aber in der Lehre der Apostel und in der Gemeinschaft"
+   },
+   "fact": "Das griechische Wort für „Gemeinschaft“ in V. 42, koinonia, heißt auch „Teilhabe“. Paulus nennt später sogar die Geldsammlung für Jerusalem so (Röm 15,26; 2 Kor 8,4).",
+   "teaser": "Die Behörden verbieten den Aposteln, im Namen Jesu zu reden. Die Gemeinde betet daraufhin – aber nicht um das, was man erwarten würde."
+  },
+  {
+   "id": "fk-05",
+   "stage": "druck",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 4,
+     "from": 18,
+     "to": 20
+    },
+    {
+     "book": 44,
+     "chapter": 4,
+     "from": 23,
+     "to": 31
+    }
+   ],
+   "title": "Unter Druck",
+   "summary": "Der Hohe Rat verbietet Petrus und Johannes, im Namen Jesu zu reden. Sie antworten, dass sie nicht schweigen können. Zurück bei der Gemeinde beten alle mit Psalm 2 und bitten um Freimut. Der Ort bebt, und sie reden das Wort mit Freimut.",
+   "bridge": "Petrus und Johannes haben am Tempel einen Gelähmten geheilt und gepredigt (Apg 3). Sie werden verhaftet und am nächsten Tag vor den Hohen Rat gestellt (4,1–17).",
+   "place": "jerusalem",
+   "quiz": [
+    {
+     "type": "whosaid",
+     "quote": "es ist uns unmöglich, von dem, was wir gesehen und gehört haben, nicht zu reden",
+     "quote_ref": {
+      "book": 44,
+      "chapter": 4,
+      "from": 20,
+      "to": 20
+     },
+     "options": [
+      "Petrus und Johannes",
+      "Der Hohe Rat",
+      "Die betende Gemeinde",
+      "Der geheilte Mann"
+     ],
+     "answer": 0,
+     "hint": "Wer steht vor dem Hohen Rat?",
+     "explain": "V. 19–20: Petrus und Johannes überlassen dem Rat das Urteil, ob man Menschen mehr gehorchen soll als Gott."
+    },
+    {
+     "type": "choice",
+     "q": "Worum bittet die Gemeinde in ihrem Gebet?",
+     "options": [
+      "Um Freimut, Gottes Wort zu reden",
+      "Dass Gott die Gegner bestraft",
+      "Um Schutz vor neuen Verhaftungen",
+      "Dass sie Jerusalem verlassen dürfen"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 29–30.",
+     "verse": 29,
+     "explain": "V. 29–30: Sie bitten Gott, die Drohungen anzusehen, und um Freimut zum Reden – und um Zeichen durch den Namen Jesu."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Was ist der Hohe Rat (Synedrium)?",
+     "a": "Das oberste jüdische Gremium in Jerusalem unter dem Vorsitz des Hohenpriesters. Nach späterer jüdischer Überlieferung hatte es 71 Mitglieder. Unter römischer Oberhoheit entschied es über religiöse und viele innere Angelegenheiten."
+    },
+    {
+     "q": "Welchen Psalm beten sie?",
+     "a": "Psalm 2,1–2: Völker und Könige lehnen sich gegen Gott und seinen Gesalbten auf. Die Gemeinde bezieht das auf Herodes und Pilatus (V. 27)."
+    },
+    {
+     "q": "Was heißt „Freimütigkeit“?",
+     "a": "Griechisch „parrhesia“: offen und ohne Angst alles sagen. In den griechischen Städten war das das Recht des freien Bürgers, in der Volksversammlung zu reden."
+    }
+   ],
+   "prayer": {
+    "ref": {
+     "book": 44,
+     "chapter": 4,
+     "from": 29,
+     "to": 29
+    },
+    "source": "Apostelgeschichte 4,29"
+   },
+   "teaser": "Keiner unter ihnen leidet Mangel. Wie geht das in einer Stadtgemeinde mit Tausenden?"
+  },
+  {
+   "id": "fk-06",
+   "stage": "druck",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 4,
+     "from": 32,
+     "to": 37
+    }
+   ],
+   "title": "Ein Herz und eine Seele",
+   "summary": "Die Gläubigen halten nichts für ihr Eigentum und teilen alles. Wer Äcker oder Häuser besitzt, verkauft sie und legt den Erlös den Aposteln zu Füßen, und jeder bekommt, was er braucht. Ein Beispiel ist Josef aus Zypern, den die Apostel Barnabas nennen.",
+   "place": "jerusalem",
+   "quiz": [
+    {
+     "type": "error",
+     "q": "Finde den Fehler:",
+     "text": "Die Besitzer verkauften Äcker und Häuser und legten den Erlös zu den Füßen der [Ältesten] nieder.",
+     "fix": "Apostel",
+     "hint": "Lies Vers 35.",
+     "verse": 35,
+     "explain": "V. 35: Das Geld wird den Aposteln zu Füßen gelegt. Sie sind in dieser Zeit noch für alles zuständig – auch für die Verteilung."
+    },
+    {
+     "type": "choice",
+     "q": "Was bedeutet der Beiname Barnabas laut Lukas?",
+     "options": [
+      "Sohn des Trostes",
+      "Sohn des Friedens",
+      "Mann des Gebets",
+      "Sohn der Verheißung"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 36.",
+     "verse": 36,
+     "explain": "V. 36: Die Apostel geben Josef den Namen Barnabas, „Sohn des Trostes“ (oder „der Ermutigung“). Wie gut der Name passt, zeigt sich später noch."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Mussten alle ihren Besitz abgeben?",
+     "a": "Lukas erzählt von freiwilligem Teilen. In 5,4 sagt Petrus ausdrücklich, dass der Besitz eigen bleiben durfte, und in 12,12 hat Maria, die Mutter des Markus, weiter ein Haus. Klöster, Orden und die Hutterer haben die Gütergemeinschaft als Vorbild genommen. Andere sehen hier eine großzügige Antwort auf die Not in Jerusalem, kein Modell für alle."
+    },
+    {
+     "q": "Was ist ein Levit?",
+     "a": "Ein Nachkomme Levis, zuständig für Dienste am Tempel. Nach dem Gesetz bekamen die Leviten kein Land als Erbe (4 Mo 18,20). Zur Zeit Jesu konnten sie aber Grund besitzen – wie Barnabas."
+    }
+   ],
+   "cards": [
+    "barnabas"
+   ],
+   "fact": "V. 34 klingt an 5. Mose 15,4 an: Es soll unter euch keinen Armen geben. Das griechische Wort für „bedürftig“ steht im ganzen Neuen Testament nur hier – und in der griechischen Übersetzung von 5. Mose 15,4.",
+   "teaser": "Nicht alle, die verkaufen, bringen alles. Das allein wäre kein Problem – sagt Petrus selbst."
+  },
+  {
+   "id": "fk-07",
+   "stage": "druck",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 5,
+     "from": 1,
+     "to": 11
+    }
+   ],
+   "title": "Hananias und Saphira",
+   "summary": "Hananias verkauft ein Grundstück, behält mit Wissen seiner Frau einen Teil und bringt den Rest, als wäre es alles. Petrus wirft ihm vor, nicht Menschen, sondern Gott belogen zu haben. Hananias stirbt, drei Stunden später auch Saphira. Große Furcht kommt über die ganze Gemeinde.",
+   "place": "jerusalem",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Was wirft Petrus Hananias vor?",
+     "options": [
+      "Dass er Gott belogen hat",
+      "Dass er nicht alles abgegeben hat",
+      "Dass er das Feld ohne Erlaubnis verkauft hat",
+      "Dass er das Geld für sich ausgegeben hat"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 3–4.",
+     "verse": 4,
+     "explain": "V. 4: Der Acker blieb sein, auch der Erlös war in seiner Hand. Das Problem ist die Lüge – nicht Menschen, sondern Gott gegenüber."
+    },
+    {
+     "type": "truefalse",
+     "q": "Saphira wusste von dem Plan.",
+     "answer": true,
+     "hint": "Lies Vers 2 und 9.",
+     "verse": 9,
+     "explain": "V. 2.9: Sie wusste davon; Petrus sagt, die beiden seien übereingekommen."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Warum ist die Strafe so hart?",
+     "a": "Lukas erzählt, ohne zu deuten, und Petrus spricht kein Todesurteil über Hananias. Viele Ausleger vergleichen die Geschichte mit Achan (Jos 7), der am Anfang der Landnahme heimlich etwas für sich behielt. Andere betonen: Es ist ein einmaliges Gericht am Anfang, keine Regel für Gemeinden. Auch für viele Gläubige bleibt die Stelle schwer."
+    },
+    {
+     "q": "Was ist eine „Versammlung“?",
+     "a": "Elberfelder übersetzt griechisch „ekklesia“ mit „Versammlung“, andere Bibeln mit „Gemeinde“ oder „Kirche“. In griechischen Städten hieß so die Bürgerversammlung, in der griechischen Übersetzung des Alten Testaments die Gemeinde Israels.",
+     "translation": "elbbk"
+    }
+   ],
+   "fact": "In V. 11 steht zum ersten Mal in der Apostelgeschichte das Wort ekklesia, „Gemeinde“ – ausgerechnet nach dieser Geschichte. In 2,47 findet es sich nur in einem Teil der Handschriften.",
+   "teaser": "Die Gemeinde wächst, und mit ihr ein Problem, das viele wachsende Gemeinden kennen: Manche fallen durchs Raster."
+  },
+  {
+   "id": "fk-08",
+   "stage": "druck",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 6,
+     "from": 1,
+     "to": 7
+    }
+   ],
+   "title": "Die übersehenen Witwen",
+   "summary": "Die griechisch sprechenden Gläubigen beschweren sich: Ihre Witwen werden bei der täglichen Versorgung übersehen. Die Zwölf rufen alle zusammen und schlagen vor, sieben Männer für diese Aufgabe zu wählen. Die Gemeinde wählt Stephanus, Philippus und fünf weitere, die Apostel legen ihnen die Hände auf.",
+   "place": "jerusalem",
+   "focus": "Achte darauf, wer was tut: Wer schlägt vor, wer wählt, wer setzt ein?",
+   "quiz": [
+    {
+     "type": "order",
+     "q": "Bring den Ablauf in die richtige Reihenfolge:",
+     "items": [
+      "Die Hellenisten beschweren sich",
+      "Die Zwölf rufen alle Jünger zusammen",
+      "Die Menge wählt sieben Männer",
+      "Die Apostel beten und legen ihnen die Hände auf"
+     ],
+     "hint": "Lies Vers 1–6.",
+     "explain": "V. 1–6: Die Apostel machen einen Vorschlag, die Gemeinde wählt, die Apostel setzen ein. So entsteht die erste neue Aufgabe neben den Zwölf."
+    },
+    {
+     "type": "choice",
+     "q": "Welche Voraussetzungen sollen die Sieben haben?",
+     "options": [
+      "Guter Ruf, voll Geist und Weisheit",
+      "Reich und angesehen in der Stadt",
+      "Verheiratet und über vierzig Jahre alt",
+      "Aramäisch sprechend und aus Jerusalem"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 3.",
+     "verse": 3,
+     "explain": "V. 3: ein gutes Zeugnis, voll Geist und Weisheit. Für das Verteilen von Essen werden geistliche Voraussetzungen genannt."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Warum gerade Witwen?",
+     "a": "Witwen ohne Söhne hatten oft kein Einkommen. Das Alte Testament nennt sie immer wieder neben Waisen und Fremden als Menschen, für die Gott sorgt (5 Mo 10,18). Wer aus der Diaspora nach Jerusalem gezogen war, hatte oft keine Familie in der Nähe."
+    },
+    {
+     "q": "Sind die Sieben die ersten Diakone?",
+     "a": "Lukas nennt sie nicht „Diakone“, aber in V. 2 steht das verwandte Verb „diakonein“, bedienen. Seit Irenäus (um 180) gelten sie als die ersten Diakone. Die katholische, orthodoxe und anglikanische Kirche sehen hier den Ursprung des Diakonats. Viele andere Ausleger sehen eher ein eigenes Leitungsgremium für die Griechischsprachigen – Stephanus und Philippus predigen bald selbst."
+    },
+    {
+     "q": "Was bedeutet das Händeauflegen?",
+     "a": "Im Alten Testament ein Zeichen für Segen und für die Übertragung einer Aufgabe – so legt Mose Josua die Hände auf (4 Mo 27,18–23). In vielen Kirchen ist es bis heute das Zeichen der Ordination oder Einsegnung."
+    }
+   ],
+   "cards": [
+    "hellenisten"
+   ],
+   "try": "Lies die Namen in Vers 5 laut. Wie viele davon klingen hebräisch, wie viele griechisch?",
+   "teaser": "Einer der Sieben bleibt nicht lange bei den Tischen. Und unter den Zuschauern seines Endes steht ein junger Mann, dessen Namen man sich merken sollte."
+  },
+  {
+   "id": "fk-09",
+   "stage": "druck",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 7,
+     "from": 54,
+     "to": 60
+    },
+    {
+     "book": 44,
+     "chapter": 8,
+     "from": 1,
+     "to": 4
+    }
+   ],
+   "title": "Stephanus",
+   "summary": "Stephanus sieht den Himmel offen und Jesus zur Rechten Gottes stehen. Die Zuhörer stürzen sich auf ihn und steinigen ihn; er betet für sie. Saulus ist einverstanden. Eine Verfolgung beginnt, die Gemeinde wird bis auf die Apostel zerstreut – und die Zerstreuten verkündigen überall.",
+   "bridge": "Stephanus wird vor dem Hohen Rat angeklagt, gegen Tempel und Gesetz zu reden (6,8–15). In einer langen Rede geht er die Geschichte Israels durch und wirft den Ratsmitgliedern vor, dem Geist zu widerstehen wie ihre Väter (Kap. 7).",
+   "place": "jerusalem",
+   "quiz": [
+    {
+     "type": "whosaid",
+     "quote": "Herr, rechne ihnen diese Sünde nicht zu!",
+     "quote_ref": {
+      "book": 44,
+      "chapter": 7,
+      "from": 60,
+      "to": 60
+     },
+     "options": [
+      "Stephanus",
+      "Jesus am Kreuz",
+      "Petrus",
+      "Saulus"
+     ],
+     "answer": 0,
+     "hint": "Wer kniet hier nieder?",
+     "explain": "V. 60: Stephanus betet für die, die ihn töten – fast wie Jesus am Kreuz (Lk 23,34). Auch V. 59 erinnert an Jesu letztes Wort (Lk 23,46)."
+    },
+    {
+     "type": "truefalse",
+     "q": "Bei der Verfolgung verlassen auch die Apostel Jerusalem.",
+     "answer": false,
+     "hint": "Lies Kapitel 8, Vers 1.",
+     "explain": "8,1: Alle werden zerstreut – ausgenommen die Apostel. Sie bleiben in der Stadt."
+    },
+    {
+     "type": "choice",
+     "q": "Was tun die Zerstreuten?",
+     "options": [
+      "Sie ziehen umher und verkündigen das Wort",
+      "Sie verstecken sich, bis die Verfolgung vorbei ist",
+      "Sie kehren in die Synagogen zurück",
+      "Sie gehen nach Rom, um Hilfe zu holen"
+     ],
+     "answer": 0,
+     "hint": "Lies Kapitel 8, Vers 4.",
+     "explain": "8,4: Die Verfolgung trägt die Botschaft hinaus – genau in die Gebiete, die Jesus in 1,8 genannt hat."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Wer ist Saulus?",
+     "a": "Hier wird er zum ersten Mal genannt. Saul ist sein hebräischer Name, Paulus sein römischer. Er stammt aus Tarsus in Kilikien und ist Pharisäer (Apg 22,3; Phil 3,5)."
+    },
+    {
+     "q": "Warum „stehend“ zur Rechten Gottes?",
+     "a": "Sonst heißt es, Jesus sitzt zur Rechten Gottes (Ps 110,1; Lk 22,69). Ausleger deuten das Stehen verschieden: Jesus steht auf, um Stephanus zu empfangen, oder er tritt als Zeuge für ihn auf – während Stephanus vor einem irdischen Gericht steht."
+    },
+    {
+     "q": "Was heißt „entschlief“?",
+     "a": "Eine Umschreibung für das Sterben, die das Neue Testament oft für Christen verwendet (1 Thess 4,13). Der Tod wird mit einem Schlaf verglichen, aus dem man wieder aufwacht."
+    }
+   ],
+   "cards": [
+    "stephanus"
+   ],
+   "teaser": "Ausgerechnet in Samaria, bei den alten Rivalen der Juden, geschieht etwas Merkwürdiges: Menschen glauben, lassen sich taufen – und haben doch etwas noch nicht empfangen."
+  },
+  {
+   "id": "fk-10",
+   "stage": "grenzen",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 8,
+     "from": 5,
+     "to": 17
+    }
+   ],
+   "title": "Samaria",
+   "summary": "Philippus verkündigt in Samaria, heilt und treibt Geister aus. Viele lassen sich taufen, sogar der Zauberer Simon. Die Apostel in Jerusalem schicken Petrus und Johannes. Sie beten für die Getauften und legen ihnen die Hände auf, und sie empfangen den Heiligen Geist.",
+   "place": "samaria",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Was fehlt den Getauften in Samaria noch?",
+     "options": [
+      "Der Heilige Geist ist noch auf keinen von ihnen gekommen",
+      "Sie sind noch nicht auf den Namen Jesu getauft",
+      "Sie haben noch nichts über Jesus gehört",
+      "Sie müssen sich noch beschneiden lassen"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 16.",
+     "verse": 16,
+     "explain": "V. 16: Sie sind getauft, aber der Geist ist noch nicht auf sie gefallen. Erst durch das Gebet und Händeauflegen der Apostel empfangen sie ihn (V. 17)."
+    },
+    {
+     "type": "truefalse",
+     "q": "Auch der Zauberer Simon kommt zum Glauben und lässt sich taufen.",
+     "answer": true,
+     "hint": "Lies Vers 13.",
+     "verse": 13,
+     "explain": "V. 13: Simon glaubt, wird getauft und hält sich zu Philippus. Was danach passiert, zeigt, dass damit nicht alles geklärt ist (V. 18–24)."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Wer sind die Samariter?",
+     "a": "Die Bewohner der Gegend zwischen Judäa und Galiläa. Sie hatten ihr eigenes Heiligtum auf dem Berg Garizim und erkannten nur die fünf Bücher Mose an. Juden und Samariter waren seit Jahrhunderten verfeindet (Joh 4,9)."
+    },
+    {
+     "q": "Warum kommt der Geist hier erst später?",
+     "a": "Die katholische Kirche sieht hier einen Hinweis auf die Firmung, die mit dem Bischof als Nachfolger der Apostel verbunden ist; die orthodoxe Kirche auf die Myronsalbung. Pfingstkirchen sehen eine Geistestaufe nach der Bekehrung. Viele evangelische Ausleger halten es für eine Ausnahme: Die Gemeinde in Samaria sollte mit Jerusalem verbunden sein, statt eine eigene Kirche neben ihr zu werden."
+    },
+    {
+     "q": "Was wollte Simon?",
+     "a": "Er bietet den Aposteln Geld, um selbst durch Handauflegen den Geist geben zu können, und Petrus weist ihn scharf ab (V. 18–24). Nach ihm heißt der Kauf von kirchlichen Ämtern bis heute „Simonie“."
+    }
+   ],
+   "cards": [
+    "philippus"
+   ],
+   "teaser": "Ein Engel schickt Philippus auf eine einsame Straße nach Süden. Dort liest jemand im Wagen laut aus einer Schriftrolle – und kommt nicht weiter."
+  },
+  {
+   "id": "fk-11",
+   "stage": "grenzen",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 8,
+     "from": 26,
+     "to": 40
+    }
+   ],
+   "title": "Der Mann aus Äthiopien",
+   "summary": "Auf der Straße nach Gaza trifft Philippus einen hohen Beamten der Königin von Äthiopien, der Jesaja liest. Er fragt, von wem der Prophet spricht. Philippus erklärt ihm von dieser Stelle aus das Evangelium. Am nächsten Wasser lässt sich der Mann taufen und zieht fröhlich weiter.",
+   "place": "gaza",
+   "quiz": [
+    {
+     "type": "whosaid",
+     "quote": "Wie könnte ich denn, wenn nicht jemand mich anleitet?",
+     "quote_ref": {
+      "book": 44,
+      "chapter": 8,
+      "from": 31,
+      "to": 31
+     },
+     "options": [
+      "Der Kämmerer",
+      "Philippus",
+      "Der Engel",
+      "Simon der Zauberer"
+     ],
+     "answer": 0,
+     "hint": "Wer sitzt im Wagen und liest?",
+     "explain": "V. 30–31: Philippus fragt, ob er versteht, was er liest. Der Kämmerer antwortet, er brauche jemanden, der ihn anleitet."
+    },
+    {
+     "type": "choice",
+     "q": "Was fragt der Kämmerer über die Jesaja-Stelle?",
+     "options": [
+      "Ob der Prophet von sich selbst spricht oder von einem anderen",
+      "Wann diese Prophezeiung erfüllt wird",
+      "Warum das Lamm geschlachtet werden muss",
+      "Ob er als Nichtjude den Text lesen darf"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 34.",
+     "verse": 34,
+     "explain": "V. 34: Er fragt, von wem der Prophet redet. Von dieser Frage aus erzählt Philippus ihm von Jesus (V. 35)."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Wo liegt dieses Äthiopien?",
+     "a": "Gemeint ist das Reich Kusch mit der Hauptstadt Meroe am Nil, im heutigen Sudan – nicht das heutige Äthiopien. „Kandake“ ist kein Name, sondern der Titel der Königin bzw. Königinmutter."
+    },
+    {
+     "q": "Was ist ein Kämmerer?",
+     "a": "Griechisch „eunouchos“: meist ein entmannter Hofbeamter, manchmal nur ein Amtstitel. Nach 5. Mose 23,2 durfte ein Verschnittener nicht in die Gemeinde des HERRN kommen. Jesaja 56,3–5 verheißt solchen Menschen dagegen einen Platz in Gottes Haus."
+    },
+    {
+     "q": "Warum fehlt Vers 37?",
+     "a": "Die ältesten Handschriften haben ihn nicht. Er wurde später ergänzt: Philippus nennt den Glauben als Bedingung, und der Kämmerer bekennt Jesus als Sohn Gottes. Viele Bibeln bringen ihn deshalb nur in einer Fußnote."
+    }
+   ],
+   "fact": "Der Kämmerer liest in Jesaja 53. Nur drei Kapitel weiter, in Jesaja 56,3–5, steht die Verheißung für Verschnittene und Fremde, die zum HERRN halten.",
+   "try": "Lies Jesaja 56,3–5. Was hätte der Kämmerer bei dieser Stelle wohl gedacht?",
+   "teaser": "Der gefürchtetste Verfolger der Gemeinde steht plötzlich in Jerusalem vor ihrer Tür und will dazugehören. Wer würde ihm trauen?"
+  },
+  {
+   "id": "fk-12",
+   "stage": "grenzen",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 9,
+     "from": 26,
+     "to": 31
+    }
+   ],
+   "title": "Einer bürgt für Saulus",
+   "summary": "Saulus kommt nach Jerusalem, aber die Jünger fürchten sich vor ihm. Barnabas nimmt ihn mit zu den Aposteln und erzählt seine Geschichte. Saulus predigt freimütig, bis Hellenisten ihn töten wollen. Die Brüder bringen ihn nach Tarsus. Die Gemeinden haben Frieden und wachsen.",
+   "bridge": "Saulus wollte in Damaskus Christen verhaften. Unterwegs begegnet ihm Jesus. Er wird getauft, predigt in Damaskus und muss nachts in einem Korb über die Stadtmauer fliehen (9,1–25).",
+   "place": "jerusalem",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Warum wollen die Jünger Saulus zuerst nicht aufnehmen?",
+     "options": [
+      "Sie fürchten sich und glauben nicht, dass er ein Jünger ist",
+      "Er ist kein Jude",
+      "Er hat sich noch nicht taufen lassen",
+      "Die Apostel haben es verboten"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 26.",
+     "verse": 26,
+     "explain": "V. 26: Alle fürchten sich vor ihm. Erst Barnabas stellt die Verbindung zu den Aposteln her (V. 27)."
+    },
+    {
+     "type": "truefalse",
+     "q": "Am Ende des Abschnitts haben die Gemeinden in Judäa, Galiläa und Samaria Frieden und wachsen.",
+     "answer": true,
+     "hint": "Lies Vers 31.",
+     "verse": 31,
+     "explain": "V. 31: Mit solchen kurzen Zusammenfassungen schließt Lukas immer wieder einen Teil seines Buches ab (vgl. 6,7)."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Erzählt Paulus das selbst anders?",
+     "a": "In Gal 1,18–19 schreibt Paulus, er sei erst drei Jahre nach seiner Bekehrung nach Jerusalem gekommen und habe dort nur Kephas und Jakobus gesehen. Lukas fasst knapper zusammen. Viele Ausleger meinen: „Die Apostel“ in V. 27 sind die, die gerade in der Stadt waren."
+    },
+    {
+     "q": "Was ist Tarsus?",
+     "a": "Die Heimatstadt des Paulus in Kilikien, im Süden der heutigen Türkei. Sie war eine wohlhabende Handelsstadt und für ihre Schulen bekannt."
+    }
+   ],
+   "cards": [
+    "paulus"
+   ],
+   "fact": "In V. 31 haben die ältesten Handschriften die Einzahl: die eine Gemeinde in ganz Judäa, Galiläa und Samaria. Zum ersten Mal bezeichnet „Gemeinde“ hier mehr als die Christen einer Stadt.",
+   "teaser": "Ein römischer Offizier betet, ein Apostel hat auf einem Dach Hunger und sieht unreine Tiere. Beides gehört zusammen."
+  },
+  {
+   "id": "fk-13",
+   "stage": "grenzen",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 10,
+     "from": 27,
+     "to": 29
+    },
+    {
+     "book": 44,
+     "chapter": 10,
+     "from": 34,
+     "to": 35
+    },
+    {
+     "book": 44,
+     "chapter": 10,
+     "from": 44,
+     "to": 48
+    }
+   ],
+   "title": "Im Haus des Kornelius",
+   "summary": "Petrus betritt das Haus des römischen Hauptmanns Kornelius, obwohl das für einen Juden als unerlaubt galt. Er sagt: Gott sieht die Person nicht an. Noch während er predigt, kommt der Heilige Geist auf alle Zuhörer. Die mitgereisten jüdischen Gläubigen sind fassungslos. Petrus lässt sie taufen.",
+   "bridge": "Ein Engel sagt Kornelius in Cäsarea, er solle Petrus holen lassen. Zur selben Zeit sieht Petrus in Joppe eine Vision mit unreinen Tieren und hört: Was Gott gereinigt hat, nenne du nicht unrein (10,1–26).",
+   "place": "caesarea",
+   "focus": "Achte darauf, in welcher Reihenfolge Geist und Taufe kommen – und wer davon überrascht wird.",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Was hat Gott Petrus laut Vers 28 gezeigt?",
+     "options": [
+      "Keinen Menschen gemein oder unrein zu nennen",
+      "Dass er kein Fleisch mehr essen soll",
+      "Dass er nach Rom gehen soll",
+      "Dass Kornelius sich beschneiden lassen muss"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 28.",
+     "verse": 28,
+     "explain": "V. 28: Die Vision handelte von Tieren, aber Petrus versteht sie auf Menschen hin."
+    },
+    {
+     "type": "order",
+     "q": "Bring die Ereignisse in die richtige Reihenfolge:",
+     "items": [
+      "Petrus betritt das Haus",
+      "Petrus predigt",
+      "Der Heilige Geist kommt auf die Zuhörer",
+      "Sie werden getauft"
+     ],
+     "hint": "Achte auf Vers 44 und 47–48.",
+     "explain": "V. 44–48: Der Geist kommt noch während der Predigt, die Taufe folgt danach. Damit ist für Petrus die Frage entschieden (V. 47)."
+    },
+    {
+     "type": "truefalse",
+     "q": "Die jüdischen Gläubigen, die mit Petrus gekommen sind, haben damit gerechnet.",
+     "answer": false,
+     "hint": "Lies Vers 45.",
+     "verse": 45,
+     "explain": "V. 45: Sie geraten außer sich, dass auch auf die Nationen der Geist ausgegossen wird."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Warum war es „unerlaubt“?",
+     "a": "Die Tora verbietet es nicht ausdrücklich. Aber nach den Reinheitsregeln der Zeit machte das Haus und das Essen eines Nichtjuden unrein. Gemeinsame Mahlzeiten waren deshalb für viele fromme Juden ausgeschlossen."
+    },
+    {
+     "q": "Was ist ein Hauptmann?",
+     "a": "Ein Zenturio, Offizier über etwa 80 bis 100 Soldaten. Kornelius gehört zur „italischen Kohorte“ (10,1) in Cäsarea, dem Sitz des römischen Statthalters."
+    },
+    {
+     "q": "Erst Geist, dann Taufe – wie verstehen das die Kirchen?",
+     "a": "Lukas kennt verschiedene Reihenfolgen (2,38; 8,16–17; 10,44–48; 19,5–6). Katholische, orthodoxe und lutherische Kirchen sagen: Gott ist frei, die Kirche aber bleibt an die Taufe gewiesen – Petrus tauft ja trotzdem. Pfingstkirchen sehen in der Zungenrede (V. 46) das Zeichen der Geistestaufe. Baptisten sehen bestätigt, dass die Taufe dem Glauben und dem Geist folgt."
+    }
+   ],
+   "cards": [
+    "kornelius"
+   ],
+   "fact": "Petrus hatte die Vision in Joppe, dem heutigen Jaffa. Von genau diesem Hafen aus wollte Jona einst vor seinem Auftrag zu den Nichtjuden in Ninive fliehen (Jona 1,3).",
+   "teaser": "Zurück in Jerusalem wird Petrus nicht gefeiert. Man wirft ihm vor allem eines vor: mit wem er gegessen hat."
+  },
+  {
+   "id": "fk-14",
+   "stage": "grenzen",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 11,
+     "from": 1,
+     "to": 4
+    },
+    {
+     "book": 44,
+     "chapter": 11,
+     "from": 15,
+     "to": 18
+    }
+   ],
+   "title": "Petrus muss sich erklären",
+   "summary": "In Jerusalem werfen jüdische Gläubige Petrus vor, bei Unbeschnittenen eingekehrt zu sein und mit ihnen gegessen zu haben. Petrus erzählt alles der Reihe nach. Gott hat ihnen dieselbe Gabe gegeben – wer war er, Gott zu wehren? Die Kritiker beruhigen sich und loben Gott.",
+   "place": "jerusalem",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Was werfen sie Petrus vor?",
+     "options": [
+      "Er ist bei Unbeschnittenen eingekehrt und hat mit ihnen gegessen",
+      "Er hat ohne Erlaubnis der Apostel getauft",
+      "Er hat gegen den Tempel gepredigt",
+      "Er hat von Kornelius Geld angenommen"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 3.",
+     "verse": 3,
+     "explain": "V. 3: Der Vorwurf betrifft das Essen. Die Taufe der Nichtjuden wird gar nicht zuerst genannt."
+    },
+    {
+     "type": "whosaid",
+     "quote": "wer war ich, dass ich vermocht hätte, Gott zu wehren?",
+     "quote_ref": {
+      "book": 44,
+      "chapter": 11,
+      "from": 17,
+      "to": 17
+     },
+     "options": [
+      "Petrus",
+      "Jakobus",
+      "Barnabas",
+      "Kornelius"
+     ],
+     "answer": 0,
+     "hint": "Wer muss sich hier verteidigen?",
+     "explain": "V. 17: Petrus argumentiert mit dem, was Gott getan hat: Er gab ihnen dieselbe Gabe wie uns."
+    },
+    {
+     "type": "truefalse",
+     "q": "Am Ende geben sich die Kritiker zufrieden und loben Gott.",
+     "answer": true,
+     "hint": "Lies Vers 18.",
+     "verse": 18,
+     "explain": "V. 18: Sie beruhigen sich und sagen, Gott habe auch den Nationen die Umkehr zum Leben gegeben."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Wer sind „die aus der Beschneidung“?",
+     "a": "Jüdische Christen, die darauf bestehen, dass Nachfolger Jesu die Tora halten, besonders Beschneidung und Speisegebote. Die Frage, was das für Nichtjuden bedeutet, wird die Gemeinde noch lange beschäftigen."
+    },
+    {
+     "q": "Warum erzählt Lukas die Geschichte noch einmal?",
+     "a": "In V. 5–14 (hier übersprungen) wiederholt Petrus fast die ganze Kornelius-Geschichte. Lukas wiederholt, was ihm wichtig ist: Auch die Bekehrung des Paulus erzählt er dreimal (Kap. 9; 22; 26)."
+    }
+   ],
+   "teaser": "Ein paar Namenlose aus Zypern und Kyrene tun in Antiochia, was bis dahin niemand gewagt hat – ohne Auftrag der Apostel."
+  },
+  {
+   "id": "fk-15",
+   "stage": "grenzen",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 11,
+     "from": 19,
+     "to": 30
+    }
+   ],
+   "title": "Antiochia",
+   "summary": "Zerstreute Gläubige erzählen in Antiochia auch Griechen von Jesus, und viele glauben. Jerusalem schickt Barnabas, der sich freut und Saulus aus Tarsus holt. Ein Jahr lang lehren sie, und hier heißen die Jünger zuerst Christen. Als eine Hungersnot angekündigt wird, schicken sie Hilfe nach Judäa.",
+   "place": "antiochia",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Was ist in Antiochia neu?",
+     "options": [
+      "Einige erzählen auch Griechen von Jesus",
+      "Die Apostel gründen dort ihre erste Gemeinde",
+      "Die Gemeinde baut ein eigenes Gotteshaus",
+      "Die Juden der Stadt werden alle gläubig"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 19–20.",
+     "verse": 20,
+     "explain": "V. 19–20: Bis dahin redeten die Zerstreuten nur zu Juden. Männer aus Zypern und Kyrene reden auch zu Griechen."
+    },
+    {
+     "type": "error",
+     "q": "Finde den Fehler:",
+     "text": "Jeder gab nach seinem Vermögen, und sie schickten die Hilfe durch Barnabas und Saulus an die [Apostel] in Judäa.",
+     "fix": "Ältesten",
+     "hint": "Lies Vers 30.",
+     "verse": 30,
+     "explain": "V. 30: Die Hilfe geht an die Ältesten. Hier werden zum ersten Mal Älteste in einer christlichen Gemeinde erwähnt."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Was heißt „Christen“?",
+     "a": "Griechisch „Christianoi“, Leute des Christus. Die Endung ist lateinisch, so wie man Anhänger eines Politikers bezeichnete. Wahrscheinlich gaben Außenstehende den Namen. Im Neuen Testament kommt er nur dreimal vor (Apg 11,26; 26,28; 1 Petr 4,16)."
+    },
+    {
+     "q": "Wer sind die Ältesten?",
+     "a": "Lukas erklärt nicht, wann sie eingesetzt wurden. Auch Synagogen und Städte wurden von Ältesten geleitet; die Gemeinden übernehmen offenbar diese bekannte Form."
+    }
+   ],
+   "cards": [
+    "antiochia"
+   ],
+   "fact": "Die Hungersnot unter Kaiser Claudius bestätigt der jüdische Historiker Josephus: Um 46–48 litt Judäa schwer, und die Königin Helena von Adiabene ließ Getreide aus Ägypten nach Jerusalem bringen.",
+   "teaser": "Unter den Leitern in Antiochia: ein Mann mit dem Beinamen „der Schwarze“ und ein Jugendgefährte eines Königs. Sie fasten – und dann redet der Geist."
+  },
+  {
+   "id": "fk-16",
+   "stage": "streit",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 13,
+     "from": 1,
+     "to": 4
+    },
+    {
+     "book": 44,
+     "chapter": 14,
+     "from": 21,
+     "to": 28
+    }
+   ],
+   "title": "Ausgesandt",
+   "summary": "In Antiochia gibt es Propheten und Lehrer. Beim Gottesdienst und Fasten sagt der Geist, sie sollen Barnabas und Saulus aussenden. Nach ihrer Reise durch Zypern und Kleinasien setzen die beiden in jeder Gemeinde Älteste ein und erzählen in Antiochia, dass Gott den Nationen eine Tür geöffnet hat.",
+   "place": "antiochia",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Wer gibt den Anstoß, Barnabas und Saulus auszusenden?",
+     "options": [
+      "Der Heilige Geist, während sie dem Herrn dienen und fasten",
+      "Die Apostel in Jerusalem",
+      "Barnabas und Saulus melden sich selbst",
+      "Die Ältesten entscheiden per Los"
+     ],
+     "answer": 0,
+     "hint": "Lies Kapitel 13, Vers 2.",
+     "explain": "13,2–3: Der Geist spricht, die Gemeinde fastet, betet, legt die Hände auf und entlässt sie."
+    },
+    {
+     "type": "truefalse",
+     "q": "Auf dem Rückweg setzen Paulus und Barnabas in jeder Gemeinde Älteste ein.",
+     "answer": true,
+     "hint": "Lies Kapitel 14, Vers 23.",
+     "explain": "14,23: In jeder Gemeinde Älteste, mit Gebet und Fasten. Junge Gemeinden bekommen schnell eine eigene Leitung vor Ort."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Wer sind die Leiter in Antiochia?",
+     "a": "Simeon mit dem Beinamen Niger („der Schwarze“), Luzius aus Kyrene in Nordafrika, Manaen, der mit Herodes Antipas aufgewachsen war, Barnabas aus Zypern und Saulus aus Tarsus (13,1). Die Leitung ist so gemischt wie die Gemeinde."
+    },
+    {
+     "q": "„Gewählt“ oder „eingesetzt“?",
+     "a": "Das griechische Wort in 14,23 bedeutete ursprünglich „durch Handaufheben wählen“, später auch „einsetzen“. Bibeln übersetzen es deshalb verschieden. Katholische, orthodoxe und anglikanische Ausleger betonen die Einsetzung durch die Apostel, viele Freikirchen die Wahl durch die Gemeinde."
+    }
+   ],
+   "cards": [
+    "aelteste"
+   ],
+   "fact": "Mitten in dieser Reise, auf Zypern, wechselt Lukas den Namen: Ab Apg 13,9 heißt Saulus nur noch Paulus.",
+   "teaser": "Besucher aus Judäa bringen einen Satz mit, der Antiochia in Aufruhr versetzt: Ohne Beschneidung keine Rettung."
+  },
+  {
+   "id": "fk-17",
+   "stage": "streit",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 15,
+     "from": 1,
+     "to": 12
+    }
+   ],
+   "title": "Der Streit",
+   "summary": "Leute aus Judäa lehren in Antiochia, ohne Beschneidung könne man nicht gerettet werden. Paulus und Barnabas widersprechen heftig, und die Gemeinde schickt sie nach Jerusalem. Dort fordern gläubige Pharisäer dasselbe. Apostel und Älteste beraten, Petrus erinnert an Kornelius, Paulus und Barnabas erzählen.",
+   "place": "jerusalem",
+   "focus": "Achte darauf, wer spricht und womit sie argumentieren: mit Bibelstellen oder mit Erfahrungen?",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Was verlangen einige gläubig gewordene Pharisäer?",
+     "options": [
+      "Die Nichtjuden müssen beschnitten werden und das Gesetz halten",
+      "Die Nichtjuden dürfen nicht getauft werden",
+      "Paulus soll nicht mehr predigen",
+      "Alle Christen sollen nach Jerusalem ziehen"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 5.",
+     "verse": 5,
+     "explain": "V. 5: Beschneidung und das Gesetz des Mose. Sie sind Gläubige – der Streit findet innerhalb der Gemeinde statt."
+    },
+    {
+     "type": "whosaid",
+     "quote": "in derselben Weise errettet zu werden wie auch jene",
+     "quote_ref": {
+      "book": 44,
+      "chapter": 15,
+      "from": 11,
+      "to": 11
+     },
+     "options": [
+      "Petrus",
+      "Paulus",
+      "Jakobus",
+      "Barnabas"
+     ],
+     "answer": 0,
+     "hint": "Wer erinnert an das, was Gott „vor längerer Zeit“ durch ihn getan hat?",
+     "explain": "V. 7–11: Petrus. Er dreht die Frage um: Nicht die Nichtjuden werden wie wir gerettet, sondern wir wie sie – durch die Gnade."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Warum war das so umstritten?",
+     "a": "Die Beschneidung war seit Abraham das Zeichen des Bundes (1 Mo 17,10–14). Für viele jüdische Christen war klar: Wer zum Messias Israels gehört, gehört zu Israel und lebt nach seinem Gesetz. Gestritten wurde nicht über Jesus, sondern über die Bedingungen der Zugehörigkeit."
+    },
+    {
+     "q": "Was meint Petrus mit dem „Joch“?",
+     "a": "Jüdische Lehrer sprachen positiv vom „Joch der Tora“, das man auf sich nimmt. Petrus sagt in V. 10, weder die Väter noch sie selbst hätten es tragen können. Ausleger verstehen das verschieden: als Last der Gebote insgesamt oder als die vielen zusätzlichen Auslegungen."
+    },
+    {
+     "q": "Wer entscheidet in der Kirche?",
+     "a": "Hier beraten Apostel und Älteste, die Gemeinde hört zu und ist am Ende beteiligt (V. 12.22). Katholische und orthodoxe Kirche sehen darin das Vorbild der Konzilien, auf denen die Bischöfe gemeinsam entscheiden. Reformierte und presbyterianische Kirchen berufen sich für ihre Synoden darauf, viele Freikirchen für Gemeindeversammlungen."
+    }
+   ],
+   "cards": [
+    "apostelkonzil"
+   ],
+   "teaser": "Jetzt spricht Jakobus, ein Bruder Jesu, der zu dessen Lebzeiten nicht an ihn glaubte. Sein Argument: ein Prophetenwort über eine verfallene Hütte."
+  },
+  {
+   "id": "fk-18",
+   "stage": "streit",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 15,
+     "from": 13,
+     "to": 21
+    }
+   ],
+   "title": "Die verfallene Hütte",
+   "summary": "Jakobus fasst zusammen: Gott hat sich aus den Nationen ein Volk genommen, und das stimmt mit dem Propheten Amos überein. Deshalb soll man die Nichtjuden nicht beunruhigen. Sie sollen sich nur von Götzenopfern, Unzucht, Ersticktem und Blut fernhalten.",
+   "place": "jerusalem",
+   "quiz": [
+    {
+     "type": "error",
+     "q": "Finde den Fehler:",
+     "text": "Jakobus urteilt, man solle die Nichtjuden, die sich zu Gott bekehren, nicht [beschneiden].",
+     "fix": "beunruhigen",
+     "hint": "Lies Vers 19.",
+     "verse": 19,
+     "explain": "V. 19: Man soll sie nicht beunruhigen – also keine weiteren Lasten auflegen."
+    },
+    {
+     "type": "choice",
+     "q": "Wovon sollen sich die Nichtjuden fernhalten?",
+     "options": [
+      "Götzenopfer, Unzucht, Ersticktes und Blut",
+      "Schweinefleisch, Wein, Arbeit am Sabbat und Zinsen",
+      "Götzenopfer, Lüge, Diebstahl und Mord",
+      "Unreine Tiere, Mischehen, Feste der Heiden und Spiele"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 20.",
+     "verse": 20,
+     "explain": "V. 20: vier Dinge. Drei davon betreffen das Essen, eines die Sexualität."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Warum gerade diese vier Regeln?",
+     "a": "Viele Ausleger verweisen auf 3. Mose 17–18. Dort stehen Regeln, die auch für Fremde in Israel galten: keine Götzenopfer, kein Blut, kein nicht ausgeblutetes Fleisch (Ersticktes), keine verbotenen sexuellen Verbindungen. Sie machen gemeinsame Mahlzeiten von Juden- und Heidenchristen möglich. Andere sehen eine Verbindung zu den Geboten, die das Judentum für alle Nachkommen Noahs annahm."
+    },
+    {
+     "q": "Gelten diese Regeln heute noch?",
+     "a": "Die meisten Kirchen halten die Speiseregeln für zeitgebunden: Paulus erlaubt später sogar Götzenopferfleisch, solange niemand dadurch verletzt wird (1 Kor 8–10). Die Ostkirche hat das Blutverbot lange beibehalten. Das Verbot der Unzucht gilt in allen Kirchen weiter."
+    },
+    {
+     "q": "Was ist die „Hütte Davids“?",
+     "a": "Bei Amos (9,11) ein Bild für das zerfallene Königtum Davids. Jakobus versteht den Wiederaufbau als erfüllt in Jesus, dem Sohn Davids, und in einem Volk, zu dem auch die Nationen gehören."
+    }
+   ],
+   "cards": [
+    "jakobus"
+   ],
+   "fact": "Jakobus zitiert Amos 9,11–12 in der griechischen Übersetzung. Im hebräischen Text heißt es, Israel werde den Rest von Edom besitzen. Im Griechischen sucht der Rest der Menschen den Herrn. Hebräisch „Edom“ und „Adam“ (Mensch) sehen fast gleich aus.",
+   "try": "Lies Amos 9,11–12 in deiner Bibel und vergleiche mit Apg 15,16–17. Was ist gleich, was anders?",
+   "teaser": "Der Beschluss geht als Brief nach Antiochia. Ein Satz darin klingt erstaunlich selbstbewusst."
+  },
+  {
+   "id": "fk-19",
+   "stage": "streit",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 15,
+     "from": 22,
+     "to": 33
+    }
+   ],
+   "title": "Der Brief",
+   "summary": "Apostel, Älteste und die ganze Gemeinde schicken Judas und Silas mit Paulus und Barnabas nach Antiochia. Sie bringen einen Brief: Die, die Unruhe stifteten, hatten keinen Auftrag; der Heilige Geist und wir haben beschlossen, euch nur das Nötige aufzuerlegen. In Antiochia freut man sich über den Trost.",
+   "place": "antiochia",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Wie beschreibt der Brief, wer den Beschluss gefasst hat?",
+     "options": [
+      "Der Heilige Geist und wir",
+      "Petrus als Erster der Apostel",
+      "Der Hohe Rat in Jerusalem",
+      "Jakobus nach einer Abstimmung"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 28.",
+     "verse": 28,
+     "explain": "V. 28: Die Versammlung versteht ihre Entscheidung als Entscheidung des Geistes – und zugleich als ihre eigene."
+    },
+    {
+     "type": "truefalse",
+     "q": "Die Gemeinde in Antiochia ist über den Brief enttäuscht.",
+     "answer": false,
+     "hint": "Lies Vers 31.",
+     "verse": 31,
+     "explain": "V. 31: Sie freuen sich über den Trost. Die Last, die man ihnen auflegen wollte, bleibt aus."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Wer schreibt den Brief?",
+     "a": "Absender sind die Apostel, die Ältesten und die Brüder (V. 23). Beschlossen haben Apostel und Älteste zusammen mit der ganzen Gemeinde (V. 22)."
+    },
+    {
+     "q": "Wer ist Silas?",
+     "a": "Ein Leiter und Prophet der Gemeinde in Jerusalem (V. 22.32). Er wird bald der Reisebegleiter des Paulus (15,40). Wahrscheinlich ist er derselbe wie der Silvanus in den Briefen (1 Thess 1,1; 1 Petr 5,12)."
+    },
+    {
+     "q": "Warum folgt auf Vers 33 kein Vers 34?",
+     "a": "Einige späte Handschriften ergänzen, dass Silas in Antiochia blieb. Die ältesten Handschriften haben den Vers nicht; deshalb fehlt er in vielen Bibeln."
+    }
+   ],
+   "fact": "In einer alten Handschriftenfamilie (dem „westlichen Text“) fehlt „Ersticktes“, dafür steht die Goldene Regel in verneinter Form da: Was ihr nicht wollt, dass man euch tut, das tut auch anderen nicht. Aus Speiseregeln werden dort ethische Regeln.",
+   "teaser": "Paulus erzählt selbst von einer Reise nach Jerusalem und einer Abmachung per Handschlag. Ob es dieselbe Reise ist, darüber wird bis heute gestritten."
+  },
+  {
+   "id": "fk-20",
+   "stage": "streit",
+   "refs": [
+    {
+     "book": 48,
+     "chapter": 2,
+     "from": 1,
+     "to": 10
+    }
+   ],
+   "title": "Ein Handschlag",
+   "summary": "Paulus zieht mit Barnabas und Titus nach Jerusalem und legt den angesehenen Leitern sein Evangelium vor. Titus, ein Grieche, muss sich nicht beschneiden lassen. Jakobus, Kephas und Johannes geben Paulus und Barnabas die Hand: Sie gehen zu den Nationen, die anderen zu den Juden. Nur an die Armen sollen sie denken.",
+   "bridge": "Paulus schreibt an die Gemeinden in Galatien, weil dort Leute fordern, sich beschneiden zu lassen. Zuerst erzählt er, wie er sein Evangelium von Jesus selbst empfangen hat (Gal 1).",
+   "place": "jerusalem",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Wen nennt Paulus in Vers 9 „Säulen“?",
+     "options": [
+      "Jakobus, Kephas und Johannes",
+      "Petrus, Andreas und Johannes",
+      "Barnabas, Titus und Silas",
+      "Jakobus, Johannes und Matthias"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 9.",
+     "verse": 9,
+     "explain": "V. 9: Jakobus, Kephas (Petrus) und Johannes. Jakobus steht hier an erster Stelle."
+    },
+    {
+     "type": "truefalse",
+     "q": "Titus, ein Grieche, wird in Jerusalem gezwungen, sich beschneiden zu lassen.",
+     "answer": false,
+     "hint": "Lies Vers 3.",
+     "verse": 3,
+     "explain": "V. 3: Titus wird nicht gezwungen. Für Paulus ist er der lebende Beweis für die Freiheit des Evangeliums (V. 4–5)."
+    },
+    {
+     "type": "choice",
+     "q": "Um welche eine Sache bitten die Säulen Paulus?",
+     "options": [
+      "An die Armen zu denken",
+      "Die Speisegebote zu halten",
+      "Regelmäßig nach Jerusalem zu berichten",
+      "Keine Juden zu taufen"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 10.",
+     "verse": 10,
+     "explain": "V. 10: An die Armen denken – und Paulus schreibt, dass er sich genau darum bemüht hat."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Wer ist Kephas?",
+     "a": "Petrus. „Kephas“ ist das aramäische Wort für Fels, „Petrus“ die griechische Form. Paulus verwendet meist den aramäischen Namen."
+    },
+    {
+     "q": "Ist das dieselbe Reise wie in Apg 15?",
+     "a": "Die meisten Ausleger sagen ja: Es geht um dieselbe Frage, dieselben Personen und dasselbe Ergebnis. Andere denken an den Besuch mit der Hungerhilfe (Apg 11,30). Ein Grund dafür: Paulus erwähnt die vier Regeln aus Apg 15 nicht."
+    },
+    {
+     "q": "Was sind „falsche Brüder“?",
+     "a": "Paulus meint Leute, die sich als Gläubige ausgaben und durchsetzen wollten, dass Nichtjuden das Gesetz übernehmen müssen (V. 4). Er spricht von ihnen sehr scharf, weil er die Freiheit des Evangeliums bedroht sieht."
+    }
+   ],
+   "teaser": "Ein Abendessen in Antiochia. Petrus steht auf und setzt sich an einen anderen Tisch – und Paulus macht daraus eine öffentliche Szene."
+  },
+  {
+   "id": "fk-21",
+   "stage": "streit",
+   "refs": [
+    {
+     "book": 48,
+     "chapter": 2,
+     "from": 11,
+     "to": 21
+    }
+   ],
+   "title": "Ein Streit am Esstisch",
+   "summary": "In Antiochia isst Petrus mit den Nichtjuden. Als Leute von Jakobus kommen, zieht er sich aus Angst zurück; die anderen Juden und sogar Barnabas machen mit. Paulus stellt Petrus vor allen zur Rede: Gerecht wird man nicht durch Werke des Gesetzes, sondern durch den Glauben an Christus.",
+   "place": "antiochia",
+   "focus": "Achte darauf, wie Paulus von einem Esstisch zur Grundfrage des Glaubens kommt.",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Was tut Petrus, als Leute von Jakobus kommen?",
+     "options": [
+      "Er isst nicht mehr mit den Nichtjuden",
+      "Er verlässt Antiochia",
+      "Er lässt die Nichtjuden beschneiden",
+      "Er predigt gegen Paulus"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 12.",
+     "verse": 12,
+     "explain": "V. 12: Er sondert sich ab, weil er sich vor denen aus der Beschneidung fürchtet."
+    },
+    {
+     "type": "truefalse",
+     "q": "Barnabas bleibt auf der Seite von Paulus.",
+     "answer": false,
+     "hint": "Lies Vers 13.",
+     "verse": 13,
+     "explain": "V. 13: Selbst Barnabas lässt sich mitreißen – der Mann, der Paulus einst in Jerusalem den Weg geebnet hatte."
+    },
+    {
+     "type": "whosaid",
+     "quote": "nicht mehr lebe ich, sondern Christus lebt in mir",
+     "quote_ref": {
+      "book": 48,
+      "chapter": 2,
+      "from": 20,
+      "to": 20
+     },
+     "options": [
+      "Paulus",
+      "Petrus",
+      "Barnabas",
+      "Jakobus"
+     ],
+     "answer": 0,
+     "hint": "Wer schreibt den Galaterbrief?",
+     "explain": "V. 20: Paulus beschreibt, was die Rechtfertigung durch Glauben für ihn persönlich bedeutet."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Warum ist das Essen so wichtig?",
+     "a": "Wer miteinander isst, gehört zusammen. Wenn Juden- und Heidenchristen getrennt essen, gibt es zwei Gemeinden – auch beim Herrenmahl. Paulus wirft Petrus vor, die Nichtjuden so indirekt zu zwingen, jüdisch zu leben (V. 14)."
+    },
+    {
+     "q": "Was heißt „gerechtfertigt“?",
+     "a": "Ein Begriff aus dem Gericht: für gerecht erklärt, freigesprochen. Paulus sagt, das geschieht durch den Glauben an Christus, nicht durch Werke des Gesetzes (V. 16)."
+    },
+    {
+     "q": "Wie verstehen die Kirchen die Rechtfertigung?",
+     "a": "Luther betonte: allein aus Gnade, allein durch den Glauben. Die katholische Kirche lehrt, dass Gott den Menschen gerecht spricht und ihn auch innerlich gerecht macht, und betont den Glauben, der in der Liebe wirkt. 1999 unterzeichneten Lutherischer Weltbund und katholische Kirche die Gemeinsame Erklärung zur Rechtfertigungslehre: Konsens in den Grundwahrheiten. Methodisten, Reformierte und Anglikaner haben sich später angeschlossen. Die orthodoxe Kirche spricht eher von der Vergöttlichung (Theosis), dem Hineinwachsen in Gottes Leben."
+    },
+    {
+     "q": "Wie ging der Streit aus?",
+     "a": "Paulus erzählt es nicht. In späteren Briefen nennt er Kephas ohne Groll (1 Kor 3,22; 9,5), und im 2. Petrusbrief heißt Paulus „unser geliebter Bruder“ (2 Petr 3,15)."
+    }
+   ],
+   "teaser": "Eine Purpurhändlerin und ein Ehepaar von Zeltmachern: Die nächsten Gemeinden treffen sich weder in Synagogen noch in Kirchen."
+  },
+  {
+   "id": "fk-22",
+   "stage": "haeuser",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 16,
+     "from": 11,
+     "to": 15
+    },
+    {
+     "book": 44,
+     "chapter": 18,
+     "from": 1,
+     "to": 4
+    }
+   ],
+   "title": "Lydia, Priska und Aquila",
+   "summary": "In Philippi trifft Paulus am Fluss betende Frauen. Lydia, eine Purpurhändlerin aus Thyatira, lässt sich mit ihrem Haus taufen und nimmt die Missionare bei sich auf. In Korinth wohnt und arbeitet Paulus bei Aquila und Priszilla, die wie er Zeltmacher sind.",
+   "bridge": "Nach einem Streit trennen sich Paulus und Barnabas (15,36–41). Paulus reist mit Silas, später kommt Timotheus dazu. Ein nächtlicher Ruf in einer Vision führt sie nach Europa (16,9–10).",
+   "place": "philippi",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Was tut Lydia nach ihrer Taufe?",
+     "options": [
+      "Sie nimmt Paulus und seine Begleiter in ihrem Haus auf",
+      "Sie reist mit Paulus weiter",
+      "Sie wird zur Ältesten gewählt",
+      "Sie kehrt nach Thyatira zurück"
+     ],
+     "answer": 0,
+     "hint": "Lies Kapitel 16, Vers 15.",
+     "explain": "16,15: Sie drängt sie, bei ihr zu bleiben. Ihr Haus wird zum ersten Treffpunkt der Gemeinde in Philippi (vgl. 16,40)."
+    },
+    {
+     "type": "truefalse",
+     "q": "In Korinth lebt Paulus von den Spenden der Gemeinde.",
+     "answer": false,
+     "hint": "Lies Kapitel 18, Vers 3.",
+     "explain": "18,3: Er arbeitet mit Aquila und Priszilla als Zeltmacher."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Was ist eine Purpurhändlerin?",
+     "a": "Purpur war ein teurer Farbstoff für Stoffe, die sich nur Reiche leisten konnten. Thyatira in Kleinasien war für seine Färber bekannt. Lydia ist eine „Gottesfürchtige“: Sie betet zum Gott Israels, ohne Jüdin zu sein."
+    },
+    {
+     "q": "Warum mussten Aquila und Priszilla Rom verlassen?",
+     "a": "Kaiser Claudius vertrieb um 49 Juden aus Rom. Der römische Geschichtsschreiber Sueton erwähnt Unruhen um einen „Chrestus“ – vielleicht Streit um Jesus als Christus in den Synagogen."
+    },
+    {
+     "q": "„Sie und ihr Haus“ wurden getauft – auch Kinder?",
+     "a": "Zu einem Haus gehörten Familie, Sklaven und Angestellte. Kirchen, die Säuglinge taufen, verweisen auf solche Haustaufen (16,15.33; 1 Kor 1,16). Kirchen, die nur Glaubende taufen, sagen: Von Kindern ist hier nicht die Rede."
+    }
+   ],
+   "cards": [
+    "priska-aquila"
+   ],
+   "fact": "Paulus' Aufenthalt in Korinth lässt sich ziemlich genau datieren: Eine in Delphi gefundene Inschrift nennt den Statthalter Gallio (Apg 18,12) und weist seine Amtszeit auf etwa 51/52.",
+   "teaser": "In der längsten Grußliste der Bibel stecken Hinweise darauf, wie eine Gemeinde in der Hauptstadt des Reiches organisiert war."
+  },
+  {
+   "id": "fk-23",
+   "stage": "haeuser",
+   "refs": [
+    {
+     "book": 45,
+     "chapter": 16,
+     "from": 3,
+     "to": 5
+    },
+    {
+     "book": 45,
+     "chapter": 16,
+     "from": 10,
+     "to": 16
+    }
+   ],
+   "title": "Grüße nach Rom",
+   "summary": "Paulus grüßt Priska und Aquila und die Gemeinde in ihrem Haus. Er grüßt die Leute aus dem Haus des Aristobulus und des Narzissus, Frauen, die im Herrn arbeiten, Rufus und seine Mutter und Gruppen von Geschwistern, die bei bestimmten Personen zusammenkommen.",
+   "bridge": "Paulus schreibt um 56/57 von Korinth aus an die Christen in Rom, die er noch nie besucht hat. Am Ende des Briefes stehen Grüße. Phöbe und Junia (V. 1–2.7) kommen im Plan „Texte, die man lieber überspringt“ ausführlich vor.",
+   "place": "rom",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Wo trifft sich eine der Gemeinden in Rom?",
+     "options": [
+      "Im Haus von Priska und Aquila",
+      "In der Synagoge am Tiber",
+      "Im Palast des Kaisers",
+      "In einer gemieteten Schule"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 5.",
+     "verse": 5,
+     "explain": "V. 5: die Gemeinde in ihrem Haus. Das Ehepaar ist inzwischen nach Rom zurückgekehrt."
+    },
+    {
+     "type": "truefalse",
+     "q": "Paulus grüßt in Rom nur einzelne Personen, keine Gruppen.",
+     "answer": false,
+     "hint": "Lies Vers 10–11 und 14–15.",
+     "verse": 14,
+     "explain": "V. 10–11.14–15: Er grüßt auch die aus dem Haus des Aristobulus und Narzissus und die Brüder und Heiligen „bei ihnen“ – wahrscheinlich mehrere Hausgemeinden."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Was heißt „die aus dem Haus des Aristobulus“?",
+     "a": "Wahrscheinlich Sklaven oder Freigelassene aus einem großen Haushalt, dessen Herr selbst nicht Christ war – sonst würde Paulus ihn grüßen. Christen gab es also auch unter dem Personal vornehmer Häuser."
+    },
+    {
+     "q": "Wie viele Gemeinden gab es in Rom?",
+     "a": "Paulus nennt mindestens fünf Gruppen (V. 5.10.11.14.15). Viele Ausleger schließen daraus: Die Christen in Rom trafen sich in mehreren Hausgemeinden, die zusammen die Gemeinde der Stadt bildeten."
+    },
+    {
+     "q": "Was ist der „heilige Kuss“?",
+     "a": "Ein Begrüßungskuss unter Geschwistern, wie er in der Familie üblich war (V. 16). In der orthodoxen und katholischen Liturgie lebt er als Friedensgruß weiter."
+    }
+   ],
+   "cards": [
+    "hausgemeinde"
+   ],
+   "fact": "Viele Namen in dieser Liste, etwa Hermes, Persis oder Ampliatus, waren in Rom typische Namen von Sklaven und Freigelassenen. Rufus ist vielleicht der Sohn des Simon von Kyrene, der Jesu Kreuz trug – Markus, der nach alter Überlieferung für Rom schrieb, nennt ihn eigens (Mk 15,21).",
+   "try": "Lies die ganze Liste Röm 16,3–16 und zähle die Frauen. Wie viele findest du?",
+   "teaser": "In Korinth essen manche schon, wenn andere noch arbeiten. Paulus findet dafür harte Worte – beim Mahl, das ihnen am heiligsten ist."
+  },
+  {
+   "id": "fk-24",
+   "stage": "haeuser",
+   "refs": [
+    {
+     "book": 46,
+     "chapter": 11,
+     "from": 17,
+     "to": 26
+    }
+   ],
+   "title": "Das Mahl des Herrn",
+   "summary": "Paulus kann die Korinther nicht loben: Wenn sie zusammenkommen, isst jeder sein eigenes Mahl. Die einen hungern, die anderen sind betrunken, und die Armen werden beschämt. Er erinnert an die Überlieferung, die er vom Herrn empfangen hat: Brot und Kelch in der Nacht des Verrats.",
+   "bridge": "Paulus hat die Gemeinde in Korinth gegründet. Einige Jahre später schreibt er aus Ephesus, weil er von Spaltungen und Missständen gehört hat.",
+   "place": "korinth",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Was kritisiert Paulus?",
+     "options": [
+      "Jeder isst sein eigenes Mahl; die einen hungern, die anderen sind betrunken",
+      "Sie feiern das Mahl zu selten",
+      "Sie verwenden das falsche Brot",
+      "Sie lassen Ungetaufte mitessen"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 21–22.",
+     "verse": 21,
+     "explain": "V. 21–22: Es geht um die Armen, die beschämt werden. Das ist für Paulus nicht mehr das Mahl des Herrn (V. 20)."
+    },
+    {
+     "type": "truefalse",
+     "q": "Paulus sagt, er habe die Worte über das Mahl vom Herrn empfangen und weitergegeben.",
+     "answer": true,
+     "hint": "Lies Vers 23.",
+     "verse": 23,
+     "explain": "V. 23: „Empfangen“ und „überliefert“ sind Fachwörter für die Weitergabe einer festen Überlieferung."
+    },
+    {
+     "type": "whosaid",
+     "quote": "Dies ist mein Leib, der für euch ist",
+     "quote_ref": {
+      "book": 46,
+      "chapter": 11,
+      "from": 24,
+      "to": 24
+     },
+     "options": [
+      "Jesus in der Nacht, in der er überliefert wurde",
+      "Paulus in seiner eigenen Deutung",
+      "Petrus beim ersten Brotbrechen",
+      "Ein Prophet in Korinth"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 23–24.",
+     "explain": "V. 23–24: Paulus zitiert die Worte Jesu beim letzten Mahl."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Wie sah das Mahl damals aus?",
+     "a": "Es war eine richtige Abendmahlzeit, meist im Haus eines wohlhabenden Mitglieds. Wer frei über seine Zeit verfügte, kam früher; Sklaven und Tagelöhner kamen nach der Arbeit. Im 2. Jahrhundert wurden die Sättigungsmahlzeit (Agape) und die Feier von Brot und Wein nach und nach getrennt."
+    },
+    {
+     "q": "Wie verstehen die Kirchen das Abendmahl?",
+     "a": "Die katholische Kirche lehrt, dass Brot und Wein in Leib und Blut Christi gewandelt werden und das Opfer Christi gegenwärtig wird. Die orthodoxe Kirche bekennt dieselbe wirkliche Gegenwart als Geheimnis, ohne sie philosophisch zu erklären. Lutheraner sagen: Christus ist in, mit und unter Brot und Wein gegenwärtig. Reformierte betonen die geistliche Gegenwart Christi. Viele Freikirchen feiern es als Gedächtnismahl und Bekenntnis, mit Verweis auf „zu meinem Gedächtnis“ (V. 24–25)."
+    }
+   ],
+   "fact": "Der 1. Korintherbrief wurde um 54 geschrieben, wahrscheinlich vor allen Evangelien. Die Worte in V. 23–25 sind damit die älteste schriftliche Fassung der Abendmahlsworte.",
+   "prayer": {
+    "text": "Wie dieses gebrochene Brot zerstreut war auf den Bergen und zusammengebracht eins wurde, so werde deine Kirche zusammengebracht von den Enden der Erde in dein Reich. Denn dein ist die Herrlichkeit und die Kraft durch Jesus Christus in Ewigkeit.",
+    "source": "Didache 9,4 (um 100), eigene Übersetzung"
+   },
+   "teaser": "In Korinth hält man manche Gaben für wertvoller als andere. Paulus antwortet mit einer Liste – und mit einem Körper."
+  },
+  {
+   "id": "fk-25",
+   "stage": "haeuser",
+   "refs": [
+    {
+     "book": 46,
+     "chapter": 12,
+     "from": 4,
+     "to": 13
+    }
+   ],
+   "title": "Viele Gaben, ein Geist",
+   "summary": "Es gibt verschiedene Gaben, Dienste und Wirkungen, aber denselben Geist, denselben Herrn, denselben Gott. Jedem wird etwas zum Nutzen aller gegeben: Weisheit, Erkenntnis, Glaube, Heilungen, Prophetie, Sprachen. Der Geist teilt aus, wie er will. Wie ein Körper viele Glieder hat, so sind alle zu einem Leib getauft.",
+   "place": "korinth",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Wozu wird jedem eine Gabe des Geistes gegeben?",
+     "options": [
+      "Zum Nutzen",
+      "Als Belohnung für starken Glauben",
+      "Damit man sieht, wer geistlich reif ist",
+      "Damit jeder für sich wachsen kann"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 7.",
+     "verse": 7,
+     "explain": "V. 7: zum Nutzen – gemeint ist der Nutzen der ganzen Gemeinde."
+    },
+    {
+     "type": "truefalse",
+     "q": "Laut Vers 11 sucht sich jeder seine Gabe selbst aus.",
+     "answer": false,
+     "hint": "Lies Vers 11.",
+     "verse": 11,
+     "explain": "V. 11: Der eine Geist teilt jedem aus, wie er will."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Was sind „Gnadengaben“?",
+     "a": "Griechisch „charismata“, von „charis“, Gnade: Geschenke. Paulus spricht von Fähigkeiten, die man nicht verdient, sondern bekommt."
+    },
+    {
+     "q": "Geist, Herr, Gott – warum drei?",
+     "a": "In V. 4–6 nennt Paulus nacheinander den Geist, den Herrn (Jesus) und Gott. Viele Ausleger sehen darin eine frühe Dreierformel, wie in 2 Kor 13,13 – lange bevor die Kirche die Lehre von der Dreieinigkeit ausformulierte."
+    },
+    {
+     "q": "Gibt es diese Gaben heute noch?",
+     "a": "Pfingstkirchen und die charismatische Bewegung, die es auch in katholischen und landeskirchlichen Gemeinden gibt, erwarten alle Gaben bis heute. Andere, etwa viele reformierte Ausleger und Brüdergemeinden, halten Wundergaben wie Sprachen und Prophetie für an die Zeit der Apostel gebunden. Viele Christen sind offen, aber vorsichtig."
+    }
+   ],
+   "memory_verse": {
+    "ref": {
+     "book": 46,
+     "chapter": 12,
+     "from": 7,
+     "to": 7
+    },
+    "text": "Jedem aber wird die Offenbarung des Geistes zum Nutzen gegeben."
+   },
+   "teaser": "Ein fester Tag in der Woche, ein Haus, das sich selbst in Dienst stellt, und ein aramäischer Gebetsruf: Am Ende des Briefes verrät Paulus nebenbei viel über den Alltag der Gemeinde."
+  },
+  {
+   "id": "fk-26",
+   "stage": "haeuser",
+   "refs": [
+    {
+     "book": 46,
+     "chapter": 16,
+     "from": 1,
+     "to": 4
+    },
+    {
+     "book": 46,
+     "chapter": 16,
+     "from": 15,
+     "to": 20
+    }
+   ],
+   "title": "Sonntag, Sammlung, Stephanas",
+   "summary": "Paulus regelt die Sammlung für Jerusalem: Am ersten Tag der Woche legt jeder etwas zurück, und die Gemeinde bestimmt selbst, wer das Geld überbringt. Er empfiehlt das Haus des Stephanas, das sich in den Dienst gestellt hat, und grüßt von Aquila und Priszilla und der Gemeinde in ihrem Haus.",
+   "place": "korinth",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Wann sollen die Korinther etwas für die Sammlung zurücklegen?",
+     "options": [
+      "An jedem ersten Wochentag",
+      "Am Sabbat in der Synagoge",
+      "Einmal im Jahr an Pfingsten",
+      "Erst wenn Paulus kommt"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 2.",
+     "verse": 2,
+     "explain": "V. 2: am ersten Tag der Woche – dem Tag der Auferstehung. Nicht erst, wenn Paulus kommt."
+    },
+    {
+     "type": "truefalse",
+     "q": "Paulus bestimmt selbst, wer das Geld nach Jerusalem bringt.",
+     "answer": false,
+     "hint": "Lies Vers 3.",
+     "verse": 3,
+     "explain": "V. 3: Die Gemeinde wählt die Überbringer, Paulus gibt ihnen Briefe mit. Beim Geld soll alles nachprüfbar sein."
+    },
+    {
+     "type": "choice",
+     "q": "Warum sollen die Korinther sich dem Haus des Stephanas unterordnen?",
+     "options": [
+      "Weil sie sich selbst in den Dienst für die Heiligen gestellt haben",
+      "Weil Stephanas der reichste in der Gemeinde ist",
+      "Weil Paulus ihn zum Bischof geweiht hat",
+      "Weil er aus Jerusalem stammt"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 15–16.",
+     "verse": 15,
+     "explain": "V. 15–16: Sie sind die Ersten in Achaja und haben sich selbst dem Dienst gewidmet. Ihre Autorität kommt aus diesem Dienst, nicht aus einem Titel."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Warum der „erste Wochentag“?",
+     "a": "Der jüdische Sabbat ist der siebte Tag. Der Tag danach ist der Tag der Auferstehung Jesu. Hier und in Apg 20,7 kommen Christen an diesem Tag zusammen. Daraus wurde der Sonntag; Offb 1,10 nennt ihn wohl schon „Tag des Herrn“."
+    },
+    {
+     "q": "Was ist „Achaja“?",
+     "a": "Die römische Provinz im Süden Griechenlands mit der Hauptstadt Korinth. Das Haus des Stephanas ist ihr „Erstling“: die ersten, die dort zum Glauben kamen."
+    },
+    {
+     "q": "Was bedeutet „Maranatha“?",
+     "a": "Ein aramäischer Gebetsruf, den Paulus kurz danach in V. 22 sogar unübersetzt in einen griechischen Brief schreibt: „Unser Herr, komm!“ oder „Unser Herr ist gekommen“. Offenbar beteten schon die ersten aramäisch sprechenden Christen so (vgl. Offb 22,20)."
+    }
+   ],
+   "fact": "Um 150 beschreibt Justin der Märtyrer einen Gottesdienst in Rom: Am Sonntag kommen alle zusammen, lesen aus den „Erinnerungen der Apostel“ (den Evangelien) und den Propheten, der Vorsteher predigt, man betet, feiert Brot und Wein und sammelt für Witwen, Waisen, Kranke und Gefangene.",
+   "teaser": "Arme Gemeinden in Mazedonien bitten darum, Geld geben zu dürfen. Paulus begründet die Sammlung mit einer Geschichte, nach der diese App benannt ist."
+  },
+  {
+   "id": "fk-27",
+   "stage": "haeuser",
+   "refs": [
+    {
+     "book": 47,
+     "chapter": 8,
+     "from": 1,
+     "to": 5
+    },
+    {
+     "book": 47,
+     "chapter": 8,
+     "from": 9,
+     "to": 9
+    },
+    {
+     "book": 47,
+     "chapter": 8,
+     "from": 13,
+     "to": 15
+    }
+   ],
+   "title": "Ausgleich",
+   "summary": "Die armen Gemeinden in Mazedonien haben trotz Bedrängnis über ihr Vermögen gegeben und darum gebeten, mithelfen zu dürfen. Paulus erinnert die Korinther an Christus, der reich war und arm wurde. Es geht nicht darum, dass die einen entlastet und die anderen belastet werden, sondern um einen Ausgleich.",
+   "bridge": "Ein Jahr später: Die Sammlung in Korinth ist ins Stocken geraten. Paulus schreibt aus Mazedonien einen weiteren Brief.",
+   "place": "korinth",
+   "quiz": [
+    {
+     "type": "truefalse",
+     "q": "Die Gemeinden in Mazedonien geben aus großem Reichtum.",
+     "answer": false,
+     "hint": "Lies Vers 2–3.",
+     "verse": 2,
+     "explain": "V. 2–3: aus tiefer Armut und über ihr Vermögen – und aus eigenem Antrieb."
+    },
+    {
+     "type": "choice",
+     "q": "Was ist das Ziel der Sammlung laut Vers 13–14?",
+     "options": [
+      "Ausgleich: Der Überfluss der einen hilft dem Mangel der anderen",
+      "Die Korinther sollen selbst in Not geraten",
+      "Jerusalem soll eine Kirche bauen können",
+      "Die Apostel sollen versorgt werden"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 13–14.",
+     "verse": 14,
+     "explain": "V. 13–14: Gleichheit. Und es kann sich umdrehen: Später hilft vielleicht ihr Überfluss eurem Mangel."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Worum geht es bei der Sammlung?",
+     "a": "Über Jahre sammelt Paulus in seinen Gemeinden Geld für die armen Christen in Jerusalem (Röm 15,25–27; 1 Kor 16,1–4). Er löst damit ein, was er beim Handschlag in Jerusalem zugesagt hat (Gal 2,10). Für ihn verbindet die Gabe Heidenchristen und Judenchristen."
+    },
+    {
+     "q": "Wer sind die Gemeinden Mazedoniens?",
+     "a": "Die Gemeinden im Norden Griechenlands, die Paulus gegründet hat: Philippi, Thessalonich und Beröa. Sie lebten selbst unter Druck und in Armut."
+    },
+    {
+     "q": "Warum „Gnade“?",
+     "a": "Paulus nennt die Gabe immer wieder „Gnade“ (V. 1.4.6.7.9). Dasselbe Wort steht für Gottes Geschenk an die Menschen und für das Geben der Gemeinden."
+    }
+   ],
+   "memory_verse": {
+    "ref": {
+     "book": 47,
+     "chapter": 8,
+     "from": 9,
+     "to": 9
+    },
+    "text": "dass er, da er reich war, um euretwillen arm wurde"
+   },
+   "fact": "Das Zitat in V. 15 stammt aus 2. Mose 16,18 – aus der Geschichte vom Manna in der Wüste: Wer viel sammelte, hatte nicht zu viel, wer wenig sammelte, nicht zu wenig.",
+   "try": "Lies 2. Mose 16,16–18. Was passiert dort mit dem, der zu viel sammelt?",
+   "prayer": {
+    "text": "Wir bitten dich, Herr: Sei unser Helfer und Beschützer. Rette die Bedrängten unter uns, erbarme dich der Niedrigen, richte die Gefallenen auf, zeige dich den Bedürftigen, führe die Verirrten deines Volkes zurück, sättige die Hungernden, befreie unsere Gefangenen, tröste die Mutlosen.",
+    "source": "1. Clemensbrief 59,4 (um 96), eigene Übersetzung"
+   },
+   "teaser": "Die Liste der Anforderungen an einen Gemeindeleiter ist lang. Nur eine Eigenschaft darin hat mit Reden zu tun."
+  },
+  {
+   "id": "fk-28",
+   "stage": "aemter",
+   "refs": [
+    {
+     "book": 50,
+     "chapter": 1,
+     "from": 1,
+     "to": 1
+    },
+    {
+     "book": 54,
+     "chapter": 3,
+     "from": 1,
+     "to": 13
+    }
+   ],
+   "title": "Aufseher und Diener",
+   "summary": "Paulus grüßt in Philippi die Heiligen mit den Aufsehern und Dienern. An Timotheus schreibt er, wie Aufseher sein sollen: untadelig, Mann einer Frau, nüchtern, gastfrei, lehrfähig, nicht geldgierig, ein guter Hausvater, kein Neuling. Ähnliches gilt für die Diener, die zuerst erprobt werden sollen.",
+   "bridge": "Paulus hat Timotheus, seinen langjährigen Mitarbeiter, in Ephesus zurückgelassen, damit er dort für Ordnung sorgt (1 Tim 1,3).",
+   "place": "ephesus",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Welche Eigenschaft für Aufseher hat mit Reden und Lehren zu tun?",
+     "options": [
+      "lehrfähig",
+      "redegewandt",
+      "schriftgelehrt",
+      "prophetisch begabt"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 2.",
+     "verse": 2,
+     "explain": "V. 2: lehrfähig. Fast alle anderen Punkte beschreiben Charakter und Lebensführung."
+    },
+    {
+     "type": "truefalse",
+     "q": "Ein Aufseher soll kein Neuling im Glauben sein.",
+     "answer": true,
+     "hint": "Lies Vers 6.",
+     "verse": 6,
+     "explain": "V. 6: damit er nicht hochmütig wird."
+    },
+    {
+     "type": "error",
+     "q": "Finde den Fehler:",
+     "text": "Wer dem eigenen [Geschäft] nicht vorzustehen weiß, wie soll er für die Gemeinde Gottes sorgen?",
+     "fix": "Haus",
+     "hint": "Lies Vers 5.",
+     "verse": 5,
+     "explain": "V. 5: Das eigene Haus ist die Probe für die Gemeinde, die sich ja auch in Häusern trifft."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Aufseher und Diener – Bischöfe und Diakone?",
+     "a": "Griechisch „episkopos“ (Aufseher) ist das Wort, aus dem „Bischof“ wurde, „diakonos“ (Diener) wurde zum „Diakon“. Im Neuen Testament sind es noch Aufgaben in einer Ortsgemeinde, meist mehrere Personen zugleich (Phil 1,1)."
+    },
+    {
+     "q": "Was heißt „Mann einer Frau“?",
+     "a": "Die Deutungen gehen auseinander: nicht mehrere Frauen zugleich; nicht wieder verheiratet; treu in der Ehe. In der orthodoxen Kirche dürfen Priester bis heute nur einmal verheiratet sein. Die lateinische katholische Kirche weiht in der Regel nur unverheiratete Männer zu Priestern, die Ostkirchen auch verheiratete. Evangelische Kirchen kennen keine solche Regel."
+    },
+    {
+     "q": "Wer sind die „Frauen“ in Vers 11?",
+     "a": "Das griechische Wort kann „Frauen“ und „Ehefrauen“ heißen. Manche denken an die Frauen der Diener, andere an Dienerinnen, also Diakoninnen – wie Phöbe in Röm 16,1."
+    },
+    {
+     "q": "Wer schrieb die Briefe an Timotheus?",
+     "a": "Sie nennen Paulus als Verfasser, und so hat die Kirche sie immer gelesen. Wegen Wortschatz und Gemeindeordnung halten viele Forscher es für möglich, dass ein Schüler sie später in seinem Namen schrieb. Die Frage ist umstritten."
+    }
+   ],
+   "teaser": "Älteste, Aufseher, Hirten: drei Titel. In zwei Bibelstellen scheinen sie dieselben Leute zu meinen."
+  },
+  {
+   "id": "fk-29",
+   "stage": "aemter",
+   "refs": [
+    {
+     "book": 56,
+     "chapter": 1,
+     "from": 5,
+     "to": 9
+    },
+    {
+     "book": 44,
+     "chapter": 20,
+     "from": 17,
+     "to": 17
+    },
+    {
+     "book": 44,
+     "chapter": 20,
+     "from": 28,
+     "to": 28
+    }
+   ],
+   "title": "Älteste, Aufseher, Hirten",
+   "summary": "Titus soll auf Kreta in jeder Stadt Älteste einsetzen, die untadelig sind – denn der Aufseher ist Gottes Verwalter. Paulus ruft in Milet die Ältesten aus Ephesus zu sich und sagt ihnen: Der Geist hat euch als Aufseher eingesetzt, um die Gemeinde zu hüten.",
+   "bridge": "Titus ist ein griechischer Mitarbeiter des Paulus – derselbe, der in Jerusalem nicht beschnitten werden musste (Gal 2,3).",
+   "place": "kreta",
+   "focus": "Achte darauf, wie dieselben Leute genannt werden: in Titus 1,5 und 1,7, in Apostelgeschichte 20,17 und 20,28.",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Wen soll Titus in jeder Stadt auf Kreta einsetzen?",
+     "options": [
+      "Älteste",
+      "Apostel",
+      "Propheten",
+      "Evangelisten"
+     ],
+     "answer": 0,
+     "hint": "Lies Titus 1,5.",
+     "explain": "Tit 1,5: Älteste. Zwei Verse später heißt derselbe Mann „Aufseher“ (1,7)."
+    },
+    {
+     "type": "truefalse",
+     "q": "Paulus ruft die Ältesten von Ephesus und nennt sie dann Aufseher, die die Gemeinde hüten sollen.",
+     "answer": true,
+     "hint": "Vergleiche Apg 20,17 mit 20,28.",
+     "explain": "Apg 20,17.28: Älteste – Aufseher – hüten (wie ein Hirte). Drei Bezeichnungen für dieselben Personen."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Warum „hüten“?",
+     "a": "Das griechische Wort meint die Arbeit eines Hirten (poimen). Daraus wurde über das Lateinische unser Wort „Pastor“ (Hirte). Gott selbst ist im Alten Testament der Hirte Israels (Ps 23; Hes 34)."
+    },
+    {
+     "q": "Wie verstehen die Kirchen das Amt?",
+     "a": "Katholische, orthodoxe und anglikanische Kirche kennen das dreifache Amt von Bischof, Priester und Diakon, bezeugt seit Ignatius von Antiochia (um 110). Die Bischöfe stehen für sie in der apostolischen Sukzession, einer ununterbrochenen Kette von Handauflegungen seit den Aposteln, verbunden mit der treuen Lehre. Lutherische und andere Landeskirchen kennen ein ordiniertes Amt für Verkündigung und Sakramente; Bischöfe sind dort leitende Pfarrer, und die Nachfolge in der Lehre zählt mehr als die Kette der Weihen. Viele Freikirchen werden von gewählten Ältesten und Pastoren geleitet und betonen das Priestertum aller Gläubigen (1 Petr 2,9). Brüdergemeinden haben mehrere Älteste und oft keinen angestellten Pastor."
+    },
+    {
+     "q": "Was heißt „Verwalter“?",
+     "a": "Griechisch „oikonomos“: der Verwalter eines großen Hauses, oft ein Sklave mit viel Verantwortung. Ihm gehört nichts, aber ihm ist alles anvertraut (Tit 1,7)."
+    }
+   ],
+   "fact": "Schon der Kirchenvater Hieronymus (um 400) hat in seinem Titus-Kommentar aus diesen Stellen geschlossen, dass Presbyter und Bischof ursprünglich dasselbe waren. Erst später sei einer über die anderen gestellt worden, um Spaltungen zu vermeiden.",
+   "try": "Lege 1 Tim 3,2–7 und Tit 1,6–9 nebeneinander. Welche Eigenschaften stehen in beiden Listen?",
+   "teaser": "Die letzten Worte des Paulus an die Ältesten von Ephesus sind eine Warnung. Die Gefahr kommt nicht nur von außen."
+  },
+  {
+   "id": "fk-30",
+   "stage": "aemter",
+   "refs": [
+    {
+     "book": 44,
+     "chapter": 20,
+     "from": 29,
+     "to": 38
+    }
+   ],
+   "title": "Abschied in Milet",
+   "summary": "Paulus warnt die Ältesten: Nach seinem Abschied kommen reißende Wölfe, und auch aus ihrer Mitte werden Männer Jünger an sich ziehen. Er befiehlt sie Gott und dem Wort seiner Gnade an. Er hat von niemandem etwas genommen, sondern mit den eigenen Händen gearbeitet. Sie beten, weinen und begleiten ihn zum Schiff.",
+   "bridge": "Paulus ist mit der Sammlung auf dem Weg nach Jerusalem und weiß nicht, was ihn dort erwartet. Er erinnert die Ältesten an seine drei Jahre in Ephesus (20,18–27).",
+   "place": "milet",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Woher kommt laut Paulus die Gefahr für die Gemeinde?",
+     "options": [
+      "Von außen und aus ihrer eigenen Mitte",
+      "Nur von den römischen Behörden",
+      "Nur von den Juden in Ephesus",
+      "Von falschen Aposteln aus Jerusalem"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 29–30.",
+     "verse": 30,
+     "explain": "V. 29–30: Wölfe, die hereinkommen – und Männer aus ihren eigenen Reihen."
+    },
+    {
+     "type": "whosaid",
+     "quote": "Geben ist seliger als Nehmen",
+     "quote_ref": {
+      "book": 44,
+      "chapter": 20,
+      "from": 35,
+      "to": 35
+     },
+     "options": [
+      "Jesus – Paulus zitiert ihn",
+      "Paulus selbst",
+      "Salomo in den Sprüchen",
+      "Mose im Gesetz"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 35 genau.",
+     "verse": 35,
+     "explain": "V. 35: Paulus erinnert an ein Wort des Herrn Jesus."
+    },
+    {
+     "type": "truefalse",
+     "q": "Paulus hat sich in Ephesus von der Gemeinde versorgen lassen.",
+     "answer": false,
+     "hint": "Lies Vers 33–34.",
+     "verse": 34,
+     "explain": "V. 33–34: Seine eigenen Hände haben für ihn und seine Begleiter gesorgt."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Wölfe und Herde – woher kommt das Bild?",
+     "a": "Gott klagt in Hesekiel 34 Hirten an, die die Herde ausnutzen. Jesus spricht vom Mietling, der flieht, wenn der Wolf kommt (Joh 10,12), und von Wölfen in Schafskleidern (Mt 7,15)."
+    },
+    {
+     "q": "Wer leitete nach den Aposteln?",
+     "a": "Paulus setzt hier keinen Nachfolger ein, sondern befiehlt die Ältesten Gott und dem Wort seiner Gnade an (V. 32). Um 96 schreibt die Gemeinde in Rom (1. Clemensbrief) an Korinth, wo man die Ältesten abgesetzt hatte: Die Apostel hätten Aufseher eingesetzt und angeordnet, dass nach ihrem Tod andere bewährte Männer folgen (1 Clem 44). Katholische und orthodoxe Kirche sehen darin ein frühes Zeugnis der apostolischen Sukzession."
+    }
+   ],
+   "fact": "Das Jesuswort in V. 35 steht in keinem der vier Evangelien. Es ist eines der wenigen Jesusworte, die nur außerhalb der Evangelien überliefert sind.",
+   "teaser": "Eine Generation später bekommt Ephesus einen Brief vom auferstandenen Christus. Die Gemeinde hat auf Paulus gehört – und doch fehlt ihr etwas."
+  },
+  {
+   "id": "fk-31",
+   "stage": "aemter",
+   "refs": [
+    {
+     "book": 66,
+     "chapter": 2,
+     "from": 1,
+     "to": 7
+    }
+   ],
+   "title": "Die erste Liebe",
+   "summary": "Christus kennt die Gemeinde in Ephesus: ihre Arbeit, ihr Ausharren, dass sie falsche Apostel entlarvt hat. Aber sie hat ihre erste Liebe verlassen. Sie soll sich erinnern, umkehren und die ersten Werke tun, sonst wird ihr Leuchter weggerückt. Wer überwindet, darf vom Baum des Lebens essen.",
+   "bridge": "Etwa 35 bis 40 Jahre nach Milet, meist um 95 datiert: Johannes ist auf die Insel Patmos verbannt und sieht den erhöhten Christus. Der erste von sieben Briefen geht nach Ephesus.",
+   "place": "ephesus",
+   "quiz": [
+    {
+     "type": "choice",
+     "q": "Wofür lobt Christus die Gemeinde in Ephesus?",
+     "options": [
+      "Sie hat falsche Apostel geprüft und ausgeharrt",
+      "Für ihre Liebe untereinander",
+      "Für ihre große Sammlung für Jerusalem",
+      "Für ihre vielen neuen Mitglieder"
+     ],
+     "answer": 0,
+     "hint": "Lies Vers 2–3.",
+     "verse": 2,
+     "explain": "V. 2–3: Sie prüft, sie harrt aus, sie wird nicht müde. Was ihr fehlt, steht in V. 4."
+    },
+    {
+     "type": "truefalse",
+     "q": "Christus droht, den Leuchter der Gemeinde wegzurücken, wenn sie nicht umkehrt.",
+     "answer": true,
+     "hint": "Lies Vers 5.",
+     "verse": 5,
+     "explain": "V. 5: Der Leuchter steht für die Gemeinde selbst (1,20). Ohne Umkehr verliert sie ihren Platz."
+    }
+   ],
+   "explain": [
+    {
+     "q": "Wer ist der „Engel der Gemeinde“?",
+     "a": "Manche verstehen einen himmlischen Engel, der für die Gemeinde zuständig ist. Andere übersetzen „Bote“ und denken an den Leiter der Gemeinde oder an den Überbringer des Briefes. Die Frage ist offen."
+    },
+    {
+     "q": "Wer sind die Nikolaiten?",
+     "a": "Das ist unbekannt. Irenäus (um 180) führte sie auf Nikolaus zurück, einen der Sieben aus Apg 6,5 – ob das stimmt, ist sehr unsicher. Aus Offb 2,14–15 lässt sich schließen, dass es um Götzenopfer und Unzucht ging."
+    },
+    {
+     "q": "Was ist die „erste Liebe“?",
+     "a": "Ausleger denken an die Liebe zu Christus, an die Liebe untereinander oder an beides. Der Text sagt es nicht ausdrücklich, nennt als Weg zurück aber die „ersten Werke“ (V. 5)."
+    }
+   ],
+   "fact": "Ephesus blieb lange ein Zentrum der Kirche: 431 tagte dort ein großes Konzil. Heute ist die Stadt eine Ruinenstätte bei Selçuk in der Türkei; der Hafen ist längst verlandet.",
+   "try": "Lies Apg 20,29–30 und Offb 2,2 nebeneinander. Was ist aus der Warnung des Paulus geworden?"
+  }
+ ]
+}

@@ -321,6 +321,41 @@
    "lat": 32.881,
    "lon": 35.556,
    "text": "Hügel am Nordwestufer des Sees Genezareth bei Tabgha, der traditionell als Ort der Bergpredigt gilt."
+  },
+  {
+   "id": "caesarea",
+   "name": "Cäsarea",
+   "lat": 32.5,
+   "lon": 34.89,
+   "text": "Römische Hafenstadt am Mittelmeer, Sitz des Statthalters von Judäa."
+  },
+  {
+   "id": "antiochia",
+   "name": "Antiochia",
+   "lat": 36.2,
+   "lon": 36.16,
+   "text": "Hauptstadt der Provinz Syrien am Orontes, heute Antakya in der Türkei."
+  },
+  {
+   "id": "philippi",
+   "name": "Philippi",
+   "lat": 41.01,
+   "lon": 24.29,
+   "text": "Römische Kolonie in Mazedonien, erste Gemeinde des Paulus in Europa."
+  },
+  {
+   "id": "milet",
+   "name": "Milet",
+   "lat": 37.53,
+   "lon": 27.28,
+   "text": "Hafenstadt an der Westküste Kleinasiens, südlich von Ephesus."
+  },
+  {
+   "id": "kreta",
+   "name": "Kreta",
+   "lat": 35.24,
+   "lon": 24.8,
+   "text": "Große Insel im Mittelmeer, auf der Titus Älteste einsetzen soll."
   }
  ]
 }
