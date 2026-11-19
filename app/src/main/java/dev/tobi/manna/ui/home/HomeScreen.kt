@@ -24,9 +24,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.MenuBook
 import androidx.compose.material.icons.outlined.Settings
-import androidx.compose.material.icons.outlined.BatteryAlert
-import androidx.compose.material.icons.outlined.BatteryStd
-import androidx.compose.material.icons.outlined.Bolt
 import androidx.compose.material.icons.outlined.Style
 import androidx.compose.material.icons.rounded.Check
 import androidx.compose.material3.Button
@@ -55,7 +52,16 @@ import dev.tobi.manna.AppContainer
 import dev.tobi.manna.data.plan.resolve
 import dev.tobi.manna.data.progress.ReadingDay
 import dev.tobi.manna.data.settings.Settings
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
+import dev.tobi.manna.data.garden.Garden
 import dev.tobi.manna.ui.components.MustardTree
+import dev.tobi.manna.ui.garden.GardenView
+import dev.tobi.manna.ui.garden.SCENE_ASPECT
+import dev.tobi.manna.ui.garden.TreeChoice
 import dev.tobi.manna.ui.session.refLabel
 import dev.tobi.manna.ui.settings.formatMinute
 import dev.tobi.manna.ui.theme.BibleFont
@@ -79,6 +85,8 @@ data class HomeState(
     val nextRef: String = "",
     val teaser: String? = null,
     val total: Int = 0,
+    /** Garden: planted species by position. */
+    val planted: List<String> = listOf(Garden.ORDER.first()),
     val doneInPlan: Int = 0,
     val readToday: Boolean = false,
     /** Monday..Sunday of the current week: read on that day? */
@@ -89,8 +97,6 @@ data class HomeState(
     val showReminderInvite: Boolean = false,
     /** Suggested reminder minute based on when the user actually reads. */
     val suggestMinute: Int? = null,
-    /** Today's energy (low | normal | high), or null if not asked yet today. */
-    val energy: String? = null,
 ) {
     val weekCount get() = week.count { it }
 }
@@ -104,8 +110,8 @@ class HomeViewModel(private val c: AppContainer) : ViewModel() {
             c.progress.sectionsDone(planId),
             c.progress.totalSections,
             c.progress.daysSince(today.minusDays(14)),
-            c.progress.allSectionsDone,
-        ) { done, total, days, all ->
+            combine(c.progress.allSectionsDone, c.progress.garden, ::Pair),
+        ) { done, total, days, (all, planted) ->
             val plan = c.plans.plan(planId)
             val doneIds = done.map { it.sectionId }.toSet()
             val idx = plan.sections.indexOfFirst { it.id !in doneIds }
@@ -133,6 +139,7 @@ class HomeViewModel(private val c: AppContainer) : ViewModel() {
                 // the curiosity question of the previous section leads into the next one
                 teaser = if (idx > 0) plan.sections[idx - 1].teaser else null,
                 total = total,
+                planted = planted,
                 doneInPlan = doneIds.size,
                 readToday = today.toString() in activeDates,
                 week = List(7) { monday.plusDays(it.toLong()).toString() in activeDates },
@@ -141,7 +148,6 @@ class HomeViewModel(private val c: AppContainer) : ViewModel() {
                 reEntry = reEntry,
                 showReminderInvite = !s.reminderSetupSeen && total > 0,
                 suggestMinute = suggestion(s, active, today),
-                energy = s.energy.takeIf { s.energyDate == today.toString() },
             )
         }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), HomeState())
@@ -156,11 +162,10 @@ class HomeViewModel(private val c: AppContainer) : ViewModel() {
         return rounded.takeIf { abs(it - s.anchorMinute) >= 45 }
     }
 
-    fun setEnergy(level: String) = viewModelScope.launch {
-        c.settings.update { it.copy(energy = level, energyDate = LocalDate.now().toString()) }
-    }
-
     fun dismissInvite() = viewModelScope.launch { c.settings.update { it.copy(reminderSetupSeen = true) } }
+
+    /** Plants the next tree after one was fully grown. */
+    fun plant(species: String) = viewModelScope.launch { c.progress.plant(state.value.planted.size, species) }
 
     fun acceptSuggestion(minute: Int) = viewModelScope.launch {
         c.settings.update { it.copy(anchorMinute = minute) }
@@ -174,11 +179,28 @@ class HomeViewModel(private val c: AppContainer) : ViewModel() {
 
 @Composable
 fun HomeScreen(
-    vm: HomeViewModel, settings: Settings, debugTree: Int = -1,
+    vm: HomeViewModel, settings: Settings, debugTree: Int = -1, debugChoice: Boolean = false,
     onStart: () -> Unit, onStartMore: () -> Unit, onOneVerse: () -> Unit,
     onSettings: () -> Unit, onPlans: () -> Unit, onAlbum: () -> Unit, onReminders: () -> Unit,
 ) {
     val s by vm.state.collectAsStateWithLifecycle()
+    // a tree is grown but the next one is not chosen yet (e.g. after an update with many sections read)
+    var choiceHidden by rememberSaveable { mutableStateOf(false) }
+    val debugPlanted = if (debugChoice) s.planted else Garden.ORDER + Garden.LIFE
+    val pending = if (debugTree >= 0) debugChoice && Garden.choicePending(debugTree, s.planted) else Garden.choicePending(s.total, s.planted)
+    if (!s.loading && !choiceHidden && pending) {
+        Dialog(onDismissRequest = { choiceHidden = true }, properties = DialogProperties(usePlatformDefaultWidth = false)) {
+            Surface(shape = RoundedCornerShape(28.dp), color = MaterialTheme.colorScheme.surface, modifier = Modifier.padding(16.dp)) {
+                TreeChoice(
+                    s.planted.last(), Garden.offers(s.planted), settings.animations, onPick = { vm.plant(it) },
+                    modifier = Modifier.verticalScroll(rememberScrollState()).padding(20.dp),
+                )
+            }
+        }
+    }
+    val shownTotal = if (debugTree >= 0) debugTree else s.total
+    // while the first tree grows, the mustard tree is shown alone, as before; then the garden
+    val firstTree = Garden.progress(shownTotal).done == 0
     BoxWithConstraints(Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding()) {
         val viewport = constraints.maxHeight
         Layout(
@@ -191,10 +213,17 @@ fun HomeScreen(
                     IconButton(onClick = onSettings) { Icon(Icons.Outlined.Settings, "Einstellungen") }
                 }
 
-                MustardTree(
-                    sections = (if (debugTree >= 0) debugTree else s.total).toFloat(),
+                // debug preview (--ei debugTree N): a garden with all trees in their usual order
+                if (firstTree) MustardTree(
+                    sections = shownTotal.toFloat(),
                     animate = settings.animations,
                     modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
+                ) else GardenView(
+                    total = shownTotal,
+                    planted = if (debugTree >= 0) debugPlanted else s.planted,
+                    animate = settings.animations,
+                    corner = 0.dp,
+                    modifier = Modifier.fillMaxWidth(),
                 )
 
                 Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
@@ -227,7 +256,6 @@ fun HomeScreen(
 
                         // at most one hint at a time – too many cards make starting harder
                         when {
-                            s.energy == null && s.nextTitle != null -> EnergyCard(onPick = { vm.setEnergy(it) })
                             s.reEntry != null -> HintCard(
                                 title = "Schön, dass du da bist.",
                                 text = "Zuletzt hast du „${s.reEntry!!.lastTitle}“ gelesen: ${s.reEntry!!.lastSummary}",
@@ -260,19 +288,13 @@ fun HomeScreen(
                                     Text(s.nextTitle!!, style = MaterialTheme.typography.titleLarge)
                                     Text(s.nextRef, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                                     Spacer(Modifier.height(4.dp))
-                                    // the big button follows today's energy; the other two ways stay available below
-                                    val (mainLabel, mainAction) = when (s.energy) {
-                                        "low" -> "Heute: 1 Vers" to onOneVerse
-                                        "high" -> "Mehr am Stück" to onStartMore
-                                        else -> (if (s.doneInPlan == 0) "Los geht’s" else "Weiterlesen") to onStart
-                                    }
-                                    Button(onClick = mainAction, modifier = Modifier.fillMaxWidth().height(60.dp)) {
+                                    val mainLabel = if (s.doneInPlan == 0) "Los geht’s" else "Weiterlesen"
+                                    Button(onClick = onStart, modifier = Modifier.fillMaxWidth().height(60.dp)) {
                                         Text(mainLabel, style = MaterialTheme.typography.titleMedium)
                                     }
                                     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-                                        if (s.energy != "low") TextButton(onClick = onOneVerse) { Text("Nur 1 Vers") }
-                                        if (s.energy == "low" || s.energy == "high") TextButton(onClick = onStart) { Text("Ein Abschnitt") }
-                                        if (s.energy != "high") TextButton(onClick = onStartMore) { Text("Mehr am Stück") }
+                                        TextButton(onClick = onOneVerse) { Text("Nur 1 Vers") }
+                                        TextButton(onClick = onStartMore) { Text("Mehr am Stück") }
                                     }
                                 } else {
                                     Text("Plan abgeschlossen", style = MaterialTheme.typography.titleLarge)
@@ -289,17 +311,21 @@ fun HomeScreen(
                 }
             },
         ) { m, c ->
-            // the tree takes the free space, but never less than a third of the screen –
-            // if hint and plan card need more, the page scrolls instead of squeezing the plant
             val w = c.maxWidth
             val loose = Constraints(minWidth = w, maxWidth = w)
             val header = m[0].measure(loose)
             val bottom = m[2].measure(loose)
-            val treeH = maxOf((viewport * 0.35f).roundToInt(), viewport - header.height - bottom.height)
-            val tree = m[1].measure(Constraints.fixed(w, treeH))
+            // the mustard tree takes the free space, but never less than a third of the screen;
+            // the garden spans the full screen width (beyond the side padding) in its own proportions.
+            // If hint and plan card need more room, the page scrolls instead of squeezing the plant.
+            val pad = if (firstTree) 0 else 24.dp.roundToPx()
+            val treeW = w + 2 * pad
+            val treeH = if (firstTree) maxOf((viewport * 0.35f).roundToInt(), viewport - header.height - bottom.height)
+                else (treeW * SCENE_ASPECT).roundToInt()
+            val tree = m[1].measure(Constraints.fixed(treeW, treeH))
             layout(w, header.height + treeH + bottom.height) {
                 header.place(0, 0)
-                tree.place(0, header.height)
+                tree.place(-pad, header.height)
                 bottom.place(0, header.height + treeH)
             }
         }
@@ -330,35 +356,6 @@ private fun WeekRow(s: HomeState) {
             style = MaterialTheme.typography.bodyMedium,
             color = if (s.weekCount >= s.weeklyGoal) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
         )
-    }
-}
-
-/** Asked once a day, on the first open. Ignoring it is fine – then nothing changes. */
-@Composable
-private fun EnergyCard(onPick: (String) -> Unit) {
-    Surface(color = MaterialTheme.colorScheme.secondaryContainer, shape = RoundedCornerShape(20.dp), modifier = Modifier.fillMaxWidth().padding(bottom = 12.dp)) {
-        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-            Text("Wie viel Kraft hast du heute?", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSecondaryContainer)
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                listOf(
-                    Triple("low", "Wenig", Icons.Outlined.BatteryAlert),
-                    Triple("normal", "Normal", Icons.Outlined.BatteryStd),
-                    Triple("high", "Viel", Icons.Outlined.Bolt),
-                ).forEach { (id, label, icon) ->
-                    Surface(
-                        onClick = { onPick(id) },
-                        shape = RoundedCornerShape(14.dp),
-                        color = MaterialTheme.colorScheme.surface,
-                        modifier = Modifier.weight(1f),
-                    ) {
-                        Column(Modifier.padding(vertical = 12.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                            Icon(icon, null, tint = MaterialTheme.colorScheme.primary)
-                            Text(label, style = MaterialTheme.typography.labelLarge, modifier = Modifier.padding(top = 4.dp))
-                        }
-                    }
-                }
-            }
-        }
     }
 }
 

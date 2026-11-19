@@ -11,7 +11,10 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
+import dev.tobi.manna.data.garden.Garden
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
 import kotlinx.serialization.Serializable
 import java.time.LocalDate
 import java.time.LocalTime
@@ -58,8 +61,19 @@ data class FavoriteVerse(val book: Int, val chapter: Int, val verse: Int, val sa
 @Entity(primaryKeys = ["planId", "sectionId"])
 data class JournalEntry(val planId: String, val sectionId: String, val sectionTitle: String, val tags: String, val note: String, val savedAt: Long)
 
+/** A tree planted in the garden. Position 0 (mustard tree) is implicit and never stored. */
+@Serializable
+@Entity(primaryKeys = ["position"])
+data class GardenTree(val position: Int, val species: String, val plantedAt: Long)
+
 @Dao
 interface ProgressDao {
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insertTree(t: GardenTree): Long
+
+    @Query("SELECT * FROM GardenTree ORDER BY position")
+    fun garden(): Flow<List<GardenTree>>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertFavorite(f: FavoriteVerse)
 
@@ -137,6 +151,7 @@ interface ProgressDao {
     @Query("SELECT * FROM ReadingDay") suspend fun exportDays(): List<ReadingDay>
     @Query("SELECT * FROM FavoriteVerse") suspend fun exportFavorites(): List<FavoriteVerse>
     @Query("SELECT * FROM JournalEntry") suspend fun exportJournal(): List<JournalEntry>
+    @Query("SELECT * FROM GardenTree") suspend fun exportGarden(): List<GardenTree>
 
     @Query("SELECT * FROM FavoriteVerse WHERE book = :book AND chapter = :chapter AND verse = :verse")
     suspend fun favorite(book: Int, chapter: Int, verse: Int): FavoriteVerse?
@@ -159,16 +174,22 @@ private val MIGRATION_2_3 = object : Migration(2, 3) {
     }
 }
 
+private val MIGRATION_3_4 = object : Migration(3, 4) {
+    override fun migrate(db: SupportSQLiteDatabase) {
+        db.execSQL("CREATE TABLE IF NOT EXISTS `GardenTree` (`position` INTEGER NOT NULL, `species` TEXT NOT NULL, `plantedAt` INTEGER NOT NULL, PRIMARY KEY(`position`))")
+    }
+}
+
 @Database(
-    entities = [SectionDone::class, QuizResult::class, CardUnlock::class, ReadingDay::class, FavoriteVerse::class, JournalEntry::class],
-    version = 3,
+    entities = [SectionDone::class, QuizResult::class, CardUnlock::class, ReadingDay::class, FavoriteVerse::class, JournalEntry::class, GardenTree::class],
+    version = 4,
 )
 abstract class MannaDb : RoomDatabase() {
     abstract fun progress(): ProgressDao
 
     companion object {
         fun create(context: Context) = Room.databaseBuilder(context, MannaDb::class.java, "manna.db")
-            .addMigrations(MIGRATION_1_2, MIGRATION_2_3)
+            .addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4)
             .build()
     }
 }
@@ -236,6 +257,20 @@ class ProgressRepository(private val dao: ProgressDao) {
     suspend fun journalFor(planId: String, sectionId: String) = dao.journal(planId, sectionId)
     suspend fun saveJournal(planId: String, sectionId: String, title: String, tags: Set<String>, note: String) =
         dao.upsertJournal(JournalEntry(planId, sectionId, title, tags.joinToString(","), note.trim(), System.currentTimeMillis()))
+
+    /** Debug only: adds placeholder sections (plan „debug“) until [total] sections are completed. */
+    suspend fun debugSeed(total: Int) {
+        var i = 0
+        while (totalSections.first() < total) dao.insertSection(SectionDone("debug", "s${i++}", System.currentTimeMillis()))
+    }
+
+    /** Planted species by position, starting with the mustard tree. */
+    val garden: Flow<List<String>> = dao.garden().map { trees -> listOf(Garden.ORDER.first()) + trees.sortedBy { it.position }.map { it.species } }
+
+    /** Plants [species] at [position]. Ignored if that position is already planted (e.g. a double tap). */
+    suspend fun plant(position: Int, species: String) {
+        dao.insertTree(GardenTree(position, species, System.currentTimeMillis()))
+    }
 
     suspend fun readToday(): Boolean = dao.day(LocalDate.now().toString())?.let { it.verses > 0 || it.sections > 0 } == true
 }

@@ -15,14 +15,17 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.graphics.drawscope.translate
+import dev.tobi.manna.data.garden.Garden
 import dev.tobi.manna.ui.theme.LocalMannaColors
 import kotlin.math.cos
-import kotlin.math.exp
 import kotlin.math.sin
 import kotlin.random.Random
 
-/** Growth 0..1 from number of completed sections. Never shrinks. */
-fun treeGrowth(sections: Float): Float = (1f - exp(-sections / 22f)).coerceIn(0f, 1f)
+/**
+ * Growth 0..1 from the number of completed sections: fast at first, fully grown after
+ * [Garden.FIRST] sections – then the view changes to the garden. Never shrinks.
+ */
+fun treeGrowth(sections: Float): Float = (sections / Garden.FIRST).coerceIn(0f, 1f).let { 1f - (1f - it) * (1f - it) }
 
 private class Branch(
     val x0: Float, val y0: Float, val x1: Float, val y1: Float,
@@ -83,6 +86,7 @@ private fun frac(t: Float, birth: Float, span: Float) = ((t - birth) / span).coe
 
 /**
  * The mustard seed (Mk 4,30–32) that grows into a tree with every completed section.
+ * Shown alone while the first tree grows; after that the garden takes over (see ui.garden).
  * [sections] may be fractional while animating.
  */
 @Composable

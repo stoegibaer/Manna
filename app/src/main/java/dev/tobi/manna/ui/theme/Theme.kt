@@ -68,6 +68,7 @@ private val Dark = darkColorScheme(
 data class MannaColors(
     val leaf: Color, val leafDark: Color, val trunk: Color, val blossom: Color, val ground: Color, val success: Color,
     val sea: Color = Color.Blue, val land: Color = Color.LightGray, val river: Color = Color.Blue, val marker: Color = Color.Red,
+    val dark: Boolean = false,
 )
 
 val LocalMannaColors = staticCompositionLocalOf {
@@ -83,6 +84,7 @@ private val DarkExtra = MannaColors(
     leaf = Color(0xFF7FBF84), leafDark = Color(0xFF5A9B66), trunk = Color(0xFFB08A63),
     blossom = Color(0xFFF2C94C), ground = Color(0xFF3A3631), success = Color(0xFF8FCDAA),
     sea = Color(0xFF15212B), land = Color(0xFF3B372F), river = Color(0xFF5B8BA8), marker = Color(0xFFF0A27E),
+    dark = true,
 )
 
 val BibleFont = FontFamily.Serif

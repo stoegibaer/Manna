@@ -57,6 +57,8 @@ data class SessionState(
     val newCards: List<Card> = emptyList(),
     val totalBefore: Int = 0,
     val totalAfter: Int = 0,
+    /** Garden: planted species by position (see Garden). */
+    val planted: List<String> = emptyList(),
     val recap: Quiz? = null,
     val recapStageTitle: String? = null,
     val next: Section? = null,
@@ -204,18 +206,29 @@ class SessionViewModel(private val c: AppContainer, private val more: Boolean = 
         val newCardIds = c.progress.unlockCards(plan.id, section.cards)
         val (recap, stageTitle) = buildRecap(plan, section)
         val journal = c.progress.journalFor(plan.id, section.id)
+        val planted = c.progress.garden.first()
         _state.update {
             it.copy(
                 step = Step.REWARD,
                 newCards = newCardIds.mapNotNull { id -> plan.card(id) },
                 totalBefore = before,
                 totalAfter = if (isNew) before + 1 else before,
+                planted = planted,
                 recap = recap,
                 recapStageTitle = stageTitle,
                 planFinished = it.next == null,
                 reflectionTags = journal?.tags?.split(',')?.filter { t -> t.isNotBlank() }?.toSet().orEmpty(),
                 reflectionNote = journal?.note.orEmpty(),
             )
+        }
+    }
+
+    /** Plants the next tree in the garden (after one was fully grown). */
+    fun plant(species: String) {
+        val planted = _state.value.planted
+        viewModelScope.launch {
+            c.progress.plant(planted.size, species)
+            _state.update { it.copy(planted = c.progress.garden.first()) }
         }
     }
 

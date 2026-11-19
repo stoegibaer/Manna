@@ -92,7 +92,13 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.LocalMinimumInteractiveComponentSize
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.draw.clip
+import dev.tobi.manna.data.garden.Garden
 import dev.tobi.manna.ui.components.MustardTree
+import dev.tobi.manna.ui.garden.GardenView
+import dev.tobi.manna.ui.garden.SingleTree
+import dev.tobi.manna.ui.garden.TreeChoice
+import dev.tobi.manna.ui.garden.fruitText
+import dev.tobi.manna.ui.garden.treeTitle
 import dev.tobi.manna.ui.theme.BibleFont
 import dev.tobi.manna.ui.theme.bibleTextStyle
 
@@ -143,7 +149,7 @@ fun SessionScreen(vm: SessionViewModel, settings: Settings, onClose: () -> Unit,
                         Step.REVIEW -> ReviewStep(state, onSolved = { first -> vm.reviewSolved(first); bigConfetti = false; confetti++ }, onDone = vm::reviewDone)
                         Step.READ -> ReadStep(state, settings, favorites, onToggleFavorite = vm::toggleFavorite, onMap = { showMap = true }, onDone = vm::finishReading)
                         Step.QUIZ -> QuizStep(state, onSolved = { first -> vm.quizSolved(first); bigConfetti = false; confetti++ }, onNext = vm::nextQuiz)
-                        Step.REWARD -> RewardStep(state, settings, onShown = { bigConfetti = true; confetti++ }, onNext = vm::rewardContinue)
+                        Step.REWARD -> RewardStep(state, settings, onShown = { bigConfetti = true; confetti++ }, onNext = vm::rewardContinue, onPlant = vm::plant)
                         Step.MEMORY -> MemoryStep(state, onLearned = { bigConfetti = true; confetti++ }, onDone = vm::memoryDone)
                         Step.RECAP -> RecapStep(state, onSolved = { bigConfetti = false; confetti++ }, onNext = vm::recapDone)
                         Step.DONE -> DoneStep(
@@ -420,28 +426,72 @@ private fun QuizStep(state: SessionState, onSolved: (Boolean) -> Unit, onNext: (
 
 // ───────────────────────── Reward ─────────────────────────
 
+/** The garden part of the reward: the growing tree, a tree's finale and the choice of the next one, or the fruits. */
 @Composable
-private fun RewardStep(state: SessionState, settings: Settings, onShown: () -> Unit, onNext: () -> Unit) {
+private fun GardenReward(state: SessionState, animate: Boolean, onPlant: (String) -> Unit) {
+    val planted = state.planted
+    if (planted.isEmpty()) return
+    val before = Garden.progress(state.totalBefore)
+    val after = Garden.progress(state.totalAfter)
+    val grew = state.totalAfter > state.totalBefore
+    val title = @Composable { Text("Abschnitt geschafft", style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center) }
+    val line = @Composable { text: String -> Text(text, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center) }
+    when {
+        Garden.choicePending(state.totalAfter, planted) -> {
+            title()
+            TreeChoice(planted.last(), Garden.offers(planted), animate, onPlant, Modifier.fillMaxWidth())
+        }
+        after.done > Garden.TREES && before.done == Garden.TREES -> {
+            SingleTree(Garden.LIFE, before.t, 1f, animate, finale = true, modifier = Modifier.fillMaxWidth().height(260.dp))
+            title()
+            line("Dein Baum des Lebens ist ausgewachsen. ${fruitText(0)}")
+        }
+        after.done > Garden.TREES -> {
+            GardenView(state.totalAfter, planted, animate, Modifier.fillMaxWidth().height(300.dp))
+            title()
+            line(
+                when {
+                    after.fruits > before.fruits -> "Eine neue Frucht ist gereift. ${fruitText(after.fruits)}"
+                    grew -> "Die nächste Frucht reift schon."
+                    else -> "Nochmal gelesen – gut so."
+                }
+            )
+        }
+        after.done == 0 -> {
+            // the first tree: the mustard tree alone, as before
+            MustardTree(
+                sections = state.totalAfter.toFloat(), animateFrom = state.totalBefore.toFloat(), animate = animate,
+                modifier = Modifier.fillMaxWidth().height(260.dp),
+            )
+            title()
+            line(if (grew) "Dein Senfkorn ist gewachsen." else "Nochmal gelesen – gut so.")
+        }
+        else -> {
+            val id = planted.getOrNull(after.done) ?: return
+            val from = if (before.done == after.done) before.t else 0f
+            SingleTree(id, from, after.t, animate, finale = false, modifier = Modifier.fillMaxWidth().height(260.dp))
+            title()
+            line(
+                when {
+                    after.done > before.done -> "${treeTitle(id)} ist gepflanzt."
+                    grew -> "${treeTitle(id)} ist gewachsen."
+                    else -> "Nochmal gelesen – gut so."
+                }
+            )
+        }
+    }
+}
+
+@Composable
+private fun RewardStep(state: SessionState, settings: Settings, onShown: () -> Unit, onNext: () -> Unit, onPlant: (String) -> Unit) {
     val fb = LocalFeedback.current
     LaunchedEffect(Unit) { fb.sectionDone(); onShown() }
-    val grew = state.totalAfter > state.totalBefore
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp, vertical = 8.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        MustardTree(
-            sections = state.totalAfter.toFloat(),
-            animateFrom = state.totalBefore.toFloat(),
-            animate = settings.animations,
-            modifier = Modifier.fillMaxWidth().height(260.dp),
-        )
-        Text("Abschnitt geschafft", style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
-        Text(
-            if (grew) "Dein Senfkorn ist gewachsen." else "Nochmal gelesen – gut so.",
-            style = MaterialTheme.typography.bodyLarge,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
+        GardenReward(state, settings.animations, onPlant)
         if (state.newCards.isNotEmpty()) {
             Text(
                 if (state.newCards.size == 1) "Neue Karte für deine Sammlung" else "Neue Karten für deine Sammlung",

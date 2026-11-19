@@ -5,6 +5,7 @@ import android.net.Uri
 import androidx.room.withTransaction
 import dev.tobi.manna.data.progress.CardUnlock
 import dev.tobi.manna.data.progress.FavoriteVerse
+import dev.tobi.manna.data.progress.GardenTree
 import dev.tobi.manna.data.progress.JournalEntry
 import dev.tobi.manna.data.progress.MannaDb
 import dev.tobi.manna.data.progress.QuizResult
@@ -31,6 +32,7 @@ data class BackupFile(
     val days: List<ReadingDay> = emptyList(),
     val favorites: List<FavoriteVerse> = emptyList(),
     val journal: List<JournalEntry> = emptyList(),
+    val garden: List<GardenTree> = emptyList(),
     val settings: Settings? = null,
 )
 
@@ -72,6 +74,7 @@ class Backup(private val context: Context, private val db: MannaDb, private val 
                 days = dao.exportDays(),
                 favorites = dao.exportFavorites(),
                 journal = dao.exportJournal(),
+                garden = dao.exportGarden(),
                 settings = current,
             )
         }
@@ -98,6 +101,8 @@ class Backup(private val context: Context, private val db: MannaDb, private val 
         return db.withTransaction {
             val sections = f.sections.count { dao.insertSection(it) != -1L }
             val cards = f.cards.count { dao.insertCard(it) != -1L }
+            // trees already planted on the device stay; positions still free are taken from the file
+            f.garden.forEach { dao.insertTree(it) }
 
             val quiz = dao.exportQuiz().associateBy { Triple(it.planId, it.sectionId, it.quizIndex) }
             f.quiz.forEach { q ->

@@ -8,7 +8,7 @@ Eine Android-App, die Menschen mit ADHS und Schwierigkeiten bei der Umsetzung vo
 
 - **Lesen in Sinnabschnitten** (5–12 Verse) mit Fokusmodus (Vers für Vers) und Erklärungen („Versteh ich nicht“)
 - **Sechs Quiz-Typen** nach jedem Abschnitt – Fehler kosten nichts
-- **Belohnung:** wachsendes Senfkorn, Sammelkarten, Konfetti/Ton/Haptik (abschaltbar), Etappen-Rückblick
+- **Belohnung:** ein wachsender Garten aus zwölf biblischen Bäumen am Strom des Lebens, danach Baum des Lebens und goldene Stadt; Sammelkarten, Konfetti/Ton/Haptik (abschaltbar), Etappen-Rückblick
 - **Lesepläne:** *Die große Geschichte* (44 Abschnitte, Start für alle), *Habakuk*; Auswahl nach Richtungen
 - **Mini-Karte** „Wo sind wir?“
 - **Gewohnheit:** Tagesminimum 1 Vers, Wenn-dann-Anker, Plan B, stündliche Erinnerung bis gelesen wurde (erste mit Quizfrage), „Heute aussetzen“, Wochenziel statt Streak, verteilte Wiederholung, Wiedereinstieg nach Pausen, „Nicht stören“ beim Lesen

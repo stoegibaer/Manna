@@ -66,6 +66,13 @@ class MainActivity : ComponentActivity() {
         // Debug-only: `adb shell am start -n dev.tobi.manna/.MainActivity --ei debugTree 40` previews the tree at 40 sections.
         val debuggable = (applicationInfo.flags and android.content.pm.ApplicationInfo.FLAG_DEBUGGABLE) != 0
         val debugTree = if (debuggable) intent.getIntExtra("debugTree", -1) else -1
+        // Debug-only: `--ez debugChoice true` (with debugTree) shows the choice of the next tree with only the mustard tree planted.
+        val debugChoice = debuggable && intent.getBooleanExtra("debugChoice", false)
+        // Debug-only: `--ei debugSeed N` fills up the (test) app's completed sections with placeholders up to N, to test the garden transitions.
+        if (debuggable && intent.hasExtra("debugSeed")) {
+            val n = intent.getIntExtra("debugSeed", 0)
+            c.scope.launch { c.progress.debugSeed(n) }
+        }
         if (savedInstanceState == null) pendingRoute.value = routeFor(intent)
         // Debug-only: `--ei debugReminder 1` shows the quiz reminder, `2` the teaser reminder (for testing the notifications).
         if (debuggable && intent.hasExtra("debugReminder")) {
@@ -96,7 +103,7 @@ class MainActivity : ComponentActivity() {
                             composable("home") {
                                 val vm: HomeViewModel = viewModel(factory = viewModelFactory { initializer { HomeViewModel(c) } })
                                 HomeScreen(
-                                    vm, settings, debugTree = debugTree,
+                                    vm, settings, debugTree = debugTree, debugChoice = debugChoice,
                                     onStart = { nav.navigate("session") },
                                     onStartMore = { nav.navigate("session?more=true") },
                                     onOneVerse = { nav.navigate("verse") },

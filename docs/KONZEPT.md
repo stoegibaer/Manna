@@ -82,12 +82,12 @@ Die Lesepläne werden mit einem **wiederverwendbaren Skill** geschrieben (`.clau
 ```
 App öffnen
   → [nach längerer Pause] Wiedereinstieg: „Schön, dass du da bist“ + was bisher geschah
-  → Energie-Check:  wenig Kraft → 1 Vers · normal → 1 Abschnitt · viel → bis zum Etappen- bzw. Kapitelende
+  → Startknopf „Weiterlesen“, darunter „Nur 1 Vers“ (wenig Kraft) und „Mehr am Stück“ (bis zum Etappen- bzw. Kapitelende). Eine eigene Energiefrage gibt es nicht mehr: Sie stand jeden Tag im Weg, und beide Wege sind ohnehin mit einem Tipp erreichbar.
   → [optional] 1 „Erinnerst du dich?“-Frage
   → Vorbereitung: Ort auf der Mini-Karte, ggf. „Achte auf …“
   → Lesen: Vollansicht oder Fokusmodus Vers für Vers (abschaltbar), Vorlesen mit Markierung
   → Quiz: sofortiges Feedback, bei Fehlern Hinweis und Versstelle, nochmal versuchen
-  → Belohnung: Senfkorn wächst, ggf. neue Karte oder „Wusstest du?“
+  → Belohnung: der Baum wächst, ggf. neue Karte oder „Wusstest du?“
   → [Kapitel- oder Etappenende] Rückblick: Ereignisse ordnen
   → Ein-Tipp-Reflexion (überspringbar) · ggf. „Heute ausprobieren“ · ggf. Gebetswort
   → Stoppsignal: „Für heute geschafft ✓“, darunter klein „Noch einer?“ und die Neugierfrage
@@ -102,7 +102,10 @@ App öffnen
 - **Quiz-Typen:** Multiple Choice, Wahr/Falsch, „Wer hat’s gesagt?“, Reihenfolge sortieren, „Finde den Fehler“ (falsches Wort in einer Nacherzählung antippen), Schätzfrage mit Schieberegler. Emoji-Rätsel gibt es nicht.
 - **Kein Punktabzug.** Bei einem Fehler kommen Hinweis und Versstelle, dann ein neuer Versuch.
 - **Feedback:** Vibration, Ton und Konfetti, einzeln und leicht abschaltbar.
-- **Senfkorn** (vgl. Mk 4,30–32): Es wächst mit jedem Abschnitt zum Baum und schrumpft nie.
+- **Garten** (statt eines einzelnen Baums, der irgendwann nicht mehr sichtbar wächst): Jeder Abschnitt lässt den aktuellen Baum sichtbar wachsen. Der erste, das Senfkorn (Mk 4,30–32), ist nach 30 Abschnitten ausgewachsen, jeder weitere nach 40. Dann kommt ein eigener Abschlussmoment (z. B. die Vögel in Mk 4,32, die Taube mit dem Olivenblatt in 1 Mo 8,11), der Baum rückt in den Garten, und man wählt aus bis zu drei Bäumen den nächsten. Das Auswahlfenster erscheint auch, wenn weniger übrig sind, damit man weiß, was als Nächstes kommt.
+  - Zwölf Bäume, jeweils mit Vers: Senfbaum, Ölbaum, Feigenbaum, Mandelbaum, Palme, Zeder, Baum am Wasser, Granatapfel, Maulbeerfeigenbaum, Tamariske, Terebinthe, Akazie. Sie stehen an beiden Ufern eines Stroms, der mit jedem Baum länger und breiter wird (Hes 47,3–12). Jeder Baum behält seinen Platz für immer.
+  - Als 13. Baum wächst vorn am Wasser der Baum des Lebens (Offb 22,2). Danach reift alle 4 Abschnitte eine Frucht, und mit jeder Frucht kommt die goldene Stadt am Horizont ein Stück herab (Offb 21,2). Nach 36 Früchten steht sie da; die Früchte reifen danach weiter. So gibt es keinen Punkt, an dem nichts mehr wächst.
+  - Alles wird aus der Zahl der Abschnitte berechnet und kann nicht schrumpfen. Gespeichert wird nur, welcher Baum an welcher Stelle gepflanzt wurde.
 - **Sammelalbum:** schön gestaltete Karten zu Personen, Orten, Begriffen und Ereignissen, die Sammellust wecken. Keine Glücksspiel-Mechanik.
 - **„Wusstest du?“-Karten** tauchen unvorhersehbar auf.
 - **Merkvers-Spiel:** Wörter in der richtigen Reihenfolge antippen.
@@ -165,7 +168,7 @@ App öffnen
 |---|---|---|
 | **M1** | Grundgerüst, Bibeltext, Session-Ablauf, Lesen inkl. Fokusmodus, alle Quiz-Typen, Senfkorn, Stoppsignal, Skill und **Habakuk** als ersten Plan | Ein Plan ist komplett durchspielbar |
 | **M2** | **Die große Geschichte**, Planauswahl (Richtungen), Karten, Sammelalbum, Mini-Karte, „Versteh ich nicht“, Rückblicke | Das Kernerlebnis steht |
-| **M3** | Erinnerungen (Quiz in der Benachrichtigung), Anker, Plan B, Lernen, Wiederholung, Wochenziel, Wiedereinstieg, Energie-Check, Nicht stören | Hilfe beim Dranbleiben |
+| **M3** | Erinnerungen (Quiz in der Benachrichtigung), Anker, Plan B, Lernen, Wiederholung, Wochenziel, Wiedereinstieg, Nicht stören | Hilfe beim Dranbleiben |
 | **M4** | Audios einbinden, **Markus**, Reflexion, Tagebuch, Favoriten, freies Lesen, Merkvers-Spiel, Einstellungen | Version 1 komplett |
 
 ## 13. Noch offen
