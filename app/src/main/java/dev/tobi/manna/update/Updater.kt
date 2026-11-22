@@ -30,7 +30,8 @@ sealed interface UpdateState {
     data object Idle : UpdateState
     data object Checking : UpdateState
     data object UpToDate : UpdateState
-    data class Available(val release: Release) : UpdateState
+    /** [ready]: the APK is already downloaded, a tap installs it right away. */
+    data class Available(val release: Release, val ready: Boolean = false) : UpdateState
     /** Installing from unknown sources must be allowed once in the system settings. */
     data class NeedsPermission(val release: Release) : UpdateState
     data class Downloading(val release: Release, val progress: Float) : UpdateState
@@ -53,6 +54,27 @@ class Updater(private val app: Application, private val settings: SettingsReposi
 
     private var lastCheck = 0L
     private var job: Job? = null
+    /** Installer session waiting for the user; abandoned when they start over. */
+    private var sessionId = -1
+    private val dir get() = File(app.cacheDir, "update")
+
+    init {
+        // after an update the APK is not needed any more – no leftovers in the cache
+        scope.launch(Dispatchers.IO) { cleanUp() }
+    }
+
+    /** Deletes downloaded APKs that are not newer than the installed version (or unfinished downloads). */
+    private fun cleanUp() {
+        dir.listFiles()?.forEach { f ->
+            val version = f.name.removePrefix("manna-").removeSuffix(".apk")
+            if (!f.name.endsWith(".apk") || !Versions.isNewer(version, currentVersion)) f.delete()
+        }
+    }
+
+    private fun apkFile(release: Release) = File(dir, "manna-${release.version}.apk")
+
+    /** Complete download of this release already on the device? */
+    private fun downloaded(release: Release) = apkFile(release).let { it.exists() && (release.size <= 0 || it.length() == release.size) }
 
     /** On app start: at most every few hours, quietly, if the user did not switch it off. */
     fun checkOccasionally() {
@@ -71,14 +93,17 @@ class Updater(private val app: Application, private val settings: SettingsReposi
             _state.value = try {
                 val release = withContext(Dispatchers.IO) { fetchLatest() }
                 lastCheck = SystemClock.elapsedRealtime()
-                if (release != null && Versions.isNewer(release.version, currentVersion)) UpdateState.Available(release) else UpdateState.UpToDate
+                if (release != null && Versions.isNewer(release.version, currentVersion)) UpdateState.Available(release, downloaded(release)) else UpdateState.UpToDate
             } catch (e: Exception) {
                 if (quiet) UpdateState.Idle else UpdateState.Failed("Keine Verbindung zu GitHub. Bist du online?", null)
             }
         }
     }
 
-    /** Downloads the APK and hands it to Android's installer (which asks the user to confirm). */
+    /**
+     * Downloads the APK (unless it is already there) and hands it to Android's installer, which asks the user to confirm.
+     * Can be called again at any time, e.g. after the installation was cancelled or got stuck – it starts over with the same file.
+     */
     fun install(release: Release) {
         if (job?.isActive == true) return
         if (!app.packageManager.canRequestPackageInstalls()) {
@@ -87,10 +112,16 @@ class Updater(private val app: Application, private val settings: SettingsReposi
         }
         job = scope.launch {
             try {
-                _state.value = UpdateState.Downloading(release, 0f)
-                val apk = withContext(Dispatchers.IO) { download(release) { p -> _state.value = UpdateState.Downloading(release, p) } }
+                val apk = if (downloaded(release)) apkFile(release) else {
+                    _state.value = UpdateState.Downloading(release, 0f)
+                    withContext(Dispatchers.IO) { download(release) { p -> _state.value = UpdateState.Downloading(release, p) } }
+                }
                 _state.value = UpdateState.Installing(release)
-                withContext(Dispatchers.IO) { commit(apk) }
+                try {
+                    withContext(Dispatchers.IO) { commit(apk) }
+                } catch (e: Exception) {
+                    _state.value = UpdateState.Failed("Die Installation ließ sich nicht starten. Versuch es gleich noch mal.", release)
+                }
             } catch (e: Exception) {
                 _state.value = UpdateState.Failed("Der Download hat nicht geklappt. Versuch es gleich noch mal.", release)
             }
@@ -123,9 +154,10 @@ class Updater(private val app: Application, private val settings: SettingsReposi
     }
 
     private fun download(release: Release, onProgress: (Float) -> Unit): File {
-        val dir = File(app.cacheDir, "update").apply { mkdirs() }
+        dir.mkdirs()
         dir.listFiles()?.forEach { it.delete() }
-        val file = File(dir, "manna-${release.version}.apk")
+        val file = apkFile(release)
+        val part = File(dir, "${file.name}.part")
         val con = (URL(release.apkUrl).openConnection() as HttpURLConnection).apply {
             connectTimeout = 15_000
             readTimeout = 30_000
@@ -136,7 +168,7 @@ class Updater(private val app: Application, private val settings: SettingsReposi
             if (con.responseCode != 200) throw IOException("HTTP ${con.responseCode}")
             val total = con.contentLengthLong.takeIf { it > 0 } ?: release.size
             con.inputStream.use { input ->
-                file.outputStream().use { out ->
+                part.outputStream().use { out ->
                     val buf = ByteArray(64 * 1024)
                     var read = 0L
                     var shown = -1
@@ -152,7 +184,8 @@ class Updater(private val app: Application, private val settings: SettingsReposi
                     }
                 }
             }
-            if (release.size > 0 && file.length() != release.size) throw IOException("incomplete download")
+            if (release.size > 0 && part.length() != release.size) throw IOException("incomplete download")
+            if (!part.renameTo(file)) throw IOException("rename failed")
             return file
         } finally {
             con.disconnect()
@@ -161,12 +194,16 @@ class Updater(private val app: Application, private val settings: SettingsReposi
 
     private fun commit(apk: File) {
         val installer = app.packageManager.packageInstaller
+        // an earlier attempt may still be waiting (e.g. Play Protect did not answer) – start over cleanly
+        if (sessionId >= 0) runCatching { installer.abandonSession(sessionId) }
+        installer.mySessions.filter { it.appPackageName == app.packageName }.forEach { runCatching { installer.abandonSession(it.sessionId) } }
         val params = PackageInstaller.SessionParams(PackageInstaller.SessionParams.MODE_FULL_INSTALL).apply {
             setAppPackageName(app.packageName)
             // Android may skip the confirmation once Manna installed itself; otherwise it asks
             if (Build.VERSION.SDK_INT >= 31) setRequireUserAction(PackageInstaller.SessionParams.USER_ACTION_NOT_REQUIRED)
         }
         val id = installer.createSession(params)
+        sessionId = id
         installer.openSession(id).use { session ->
             try {
                 session.openWrite("manna.apk", 0, apk.length()).use { out ->
@@ -185,6 +222,9 @@ class Updater(private val app: Application, private val settings: SettingsReposi
 
     /** Result from Android's installer. On success the app is replaced and restarted anyway. */
     internal fun onStatus(context: Context, intent: Intent) {
+        // late answer of an abandoned attempt (after „Neu starten“) – ignore
+        val id = intent.getIntExtra(PackageInstaller.EXTRA_SESSION_ID, -1)
+        if (sessionId >= 0 && id >= 0 && id != sessionId) return
         val release = when (val s = _state.value) {
             is UpdateState.Installing -> s.release
             is UpdateState.Available -> s.release
@@ -195,8 +235,13 @@ class Updater(private val app: Application, private val settings: SettingsReposi
                 val confirm = IntentCompat.getParcelableExtra(intent, Intent.EXTRA_INTENT, Intent::class.java)
                 if (confirm != null) context.startActivity(confirm.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
             }
-            PackageInstaller.STATUS_SUCCESS -> _state.value = UpdateState.UpToDate
-            PackageInstaller.STATUS_FAILURE_ABORTED -> _state.value = release?.let { UpdateState.Available(it) } ?: UpdateState.Idle
+            PackageInstaller.STATUS_SUCCESS -> {
+                sessionId = -1
+                _state.value = UpdateState.UpToDate
+                scope.launch(Dispatchers.IO) { dir.deleteRecursively() }
+            }
+            // cancelled (or Play Protect said „Nicht installieren“): the APK stays, one tap starts again
+            PackageInstaller.STATUS_FAILURE_ABORTED -> _state.value = release?.let { UpdateState.Available(it, downloaded(it)) } ?: UpdateState.Idle
             else -> _state.value = UpdateState.Failed(
                 when (status) {
                     PackageInstaller.STATUS_FAILURE_STORAGE -> "Auf dem Handy ist nicht genug Platz für das Update."

@@ -45,9 +45,12 @@ fun UpdateCard(state: UpdateState, updater: Updater, onLater: (() -> Unit)? = nu
                 is UpdateState.NeedsPermission ->
                     "Erlaube Manna einmal, Apps zu installieren: Schalter „Dieser Quelle vertrauen“ (oder ähnlich) antippen, dann zurück."
                 is UpdateState.Downloading -> "Wird geladen … ${(state.progress * 100).toInt()} %"
-                is UpdateState.Installing -> "Wird installiert … Bitte bestätige gleich mit „Aktualisieren“."
+                is UpdateState.Installing ->
+                    "Bitte bestätige mit „Aktualisieren“. Fragt Play Protect nach einem Scan und es geht nicht weiter: dort „Nicht installieren“ wählen und hier neu starten."
                 is UpdateState.Failed -> state.message
-                else -> "Ein Tippen genügt. Dein Fortschritt und deine Einstellungen bleiben erhalten."
+                is UpdateState.Available -> if (state.ready) "Schon geladen – ein Tippen installiert es. Dein Fortschritt bleibt erhalten."
+                    else "Ein Tippen genügt. Dein Fortschritt und deine Einstellungen bleiben erhalten."
+                else -> ""
             }
             Text(text, style = MaterialTheme.typography.bodyMedium, color = fg)
             if (state is UpdateState.Downloading) {
@@ -61,7 +64,8 @@ fun UpdateCard(state: UpdateState, updater: Updater, onLater: (() -> Unit)? = nu
             }
             val (label, action) = when (state) {
                 is UpdateState.NeedsPermission -> "Erlauben" to { context.startActivity(updater.permissionIntent()) }
-                is UpdateState.Available -> "Aktualisieren" to { updater.install(release) }
+                is UpdateState.Available -> (if (state.ready) "Installieren" else "Aktualisieren") to { updater.install(release) }
+                is UpdateState.Installing -> "Neu starten" to { updater.install(release) }
                 is UpdateState.Failed -> "Noch mal" to { updater.install(release) }
                 else -> null to {}
             }
