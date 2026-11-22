@@ -37,11 +37,17 @@ import androidx.compose.ui.unit.dp
 import dev.tobi.manna.data.settings.Settings
 import dev.tobi.manna.data.settings.ThemeMode
 import dev.tobi.manna.ui.theme.bibleTextStyle
+import dev.tobi.manna.update.UpdateCard
+import dev.tobi.manna.update.UpdateState
+import dev.tobi.manna.update.Updater
+import dev.tobi.manna.update.showOnHome
+import androidx.compose.runtime.getValue
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SettingsScreen(
-    settings: Settings, onChange: ((Settings) -> Settings) -> Unit, onReminders: () -> Unit, onBack: () -> Unit,
+    settings: Settings, updater: Updater, onChange: ((Settings) -> Settings) -> Unit, onReminders: () -> Unit, onBack: () -> Unit,
     backupFileName: String, backupMessage: String?, busy: Boolean, onExport: (Uri) -> Unit, onImport: (Uri) -> Unit,
 ) {
     val exportLauncher = rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/json")) { uri -> uri?.let(onExport) }
@@ -122,6 +128,9 @@ fun SettingsScreen(
             OutlinedButton(onClick = { importLauncher.launch(arrayOf("application/json", "application/octet-stream", "text/plain")) }, enabled = !busy, modifier = Modifier.fillMaxWidth()) { Text("Sicherung einlesen") }
             backupMessage?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.secondary, modifier = Modifier.padding(top = 4.dp)) }
 
+            Group("Updates")
+            UpdateSection(settings, updater, onChange)
+
             HorizontalDivider(Modifier.padding(vertical = 16.dp))
             Text(
                 "Bibeltext: Elberfelder Übersetzung, Edition bibelkommentare.de. © 2019 Verbreitung des christlichen Glaubens e.V., lizenziert unter CC BY-NC-ND 4.0. Karte: Natural Earth (gemeinfrei).",
@@ -130,6 +139,36 @@ fun SettingsScreen(
                 modifier = Modifier.padding(bottom = 32.dp),
             )
         }
+    }
+}
+
+@Composable
+private fun UpdateSection(settings: Settings, updater: Updater, onChange: ((Settings) -> Settings) -> Unit) {
+    val state by updater.state.collectAsStateWithLifecycle()
+    val muted = MaterialTheme.colorScheme.onSurfaceVariant
+    if (!updater.available) {
+        Text("Version ${updater.currentVersion} – in der Testversion gibt es keine Updates.", style = MaterialTheme.typography.bodyMedium, color = muted)
+        return
+    }
+    Toggle(
+        "Nach Updates suchen",
+        "Manna fragt ab und zu bei GitHub nach, ob es eine neue Version gibt. Dabei werden keine Daten von dir gesendet.",
+        settings.updateCheck,
+    ) { v -> onChange { it.copy(updateCheck = v) } }
+    // a failed check (no internet) is only a line of text; anything with a release gets the card
+    val checkFailed = (state as? UpdateState.Failed)?.takeIf { it.release == null }
+    if (state.showOnHome()) UpdateCard(state, updater, showNotes = true, modifier = Modifier.padding(vertical = 4.dp))
+    Text(
+        when {
+            state == UpdateState.Checking -> "Suche …"
+            state == UpdateState.UpToDate -> "Version ${updater.currentVersion} – das ist die neueste."
+            checkFailed != null -> checkFailed.message
+            else -> "Installiert: Version ${updater.currentVersion}"
+        },
+        style = MaterialTheme.typography.bodyMedium, color = muted,
+    )
+    if (state == UpdateState.Idle || state == UpdateState.UpToDate || checkFailed != null) {
+        OutlinedButton(onClick = { updater.check() }, modifier = Modifier.fillMaxWidth().padding(top = 4.dp)) { Text("Jetzt nach Updates suchen") }
     }
 }
 

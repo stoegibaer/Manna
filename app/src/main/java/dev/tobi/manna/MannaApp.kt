@@ -10,6 +10,7 @@ import dev.tobi.manna.data.progress.ProgressRepository
 import dev.tobi.manna.data.settings.SettingsRepository
 import dev.tobi.manna.reminder.Dnd
 import dev.tobi.manna.reminder.Reminders
+import dev.tobi.manna.update.Updater
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -24,6 +25,7 @@ class AppContainer(private val app: Application) {
     val backup = Backup(app, db, settings)
     /** Lives as long as the process – for small fire-and-forget jobs like rescheduling. */
     val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    val updater = Updater(app, settings, scope)
 
     /** Call whenever something was read or reminder settings changed. */
     fun rescheduleReminders() {

@@ -57,6 +57,12 @@ data class Settings(
     val energy: String = "normal",
     /** Finished plans read again: plan id → index of the next section in this run. */
     val rereads: Map<String, Int> = emptyMap(),
+
+    // app updates from GitHub
+    /** Look for a new version now and then (only asks GitHub, sends nothing). */
+    val updateCheck: Boolean = true,
+    /** ISO date until which the update hint on the home screen stays hidden („Später“). */
+    val updateHiddenUntil: String = "",
 ) {
     val showConfetti get() = confetti && !calm
     val playSound get() = sound && !calm
@@ -89,6 +95,8 @@ class SettingsRepository(private val context: Context) {
         val energyDate = stringPreferencesKey("energy_date")
         val energy = stringPreferencesKey("energy")
         val rereads = stringPreferencesKey("rereads")
+        val updateCheck = booleanPreferencesKey("update_check")
+        val updateHiddenUntil = stringPreferencesKey("update_hidden_until")
         // internal state, not part of Settings
         val dndRestore = intPreferencesKey("dnd_restore_filter")
         val reminderDate = stringPreferencesKey("reminder_last_date")
@@ -128,6 +136,8 @@ class SettingsRepository(private val context: Context) {
             energyDate = p[K.energyDate] ?: d.energyDate,
             energy = p[K.energy] ?: d.energy,
             rereads = p[K.rereads]?.let(::decodeRereads) ?: d.rereads,
+            updateCheck = p[K.updateCheck] ?: d.updateCheck,
+            updateHiddenUntil = p[K.updateHiddenUntil] ?: d.updateHiddenUntil,
         )
     }
 
@@ -154,6 +164,8 @@ class SettingsRepository(private val context: Context) {
         p[K.energyDate] = n.energyDate
         p[K.energy] = n.energy
         p[K.rereads] = n.rereads.entries.joinToString(";") { "${it.key}=${it.value}" }
+        p[K.updateCheck] = n.updateCheck
+        p[K.updateHiddenUntil] = n.updateHiddenUntil
     }
 
     /** "markus=3;habakuk=0" → map; broken entries are skipped. */

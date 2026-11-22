@@ -159,8 +159,8 @@ App öffnen
 - **Inhalte** liegen als JSON in `assets/`: der Bibeltext pro Buch und die Lesepläne. Audio-Pakete (Ogg Opus) liegen pro Leseplan in `assets/audio/`.
 - **Erinnerungen** über AlarmManager und Notifications mit Aktionsknöpfen; eine Neuplanung nach einem Neustart ist vorgesehen.
 - **Media3 (ExoPlayer)** für die Audios; Android `TextToSpeech` als Ersatz.
-- **Komplett offline**, kein Tracking, keine Konten.
-- **Verteilung** zunächst als APK für den privaten Gebrauch.
+- **Offline**, kein Tracking, keine Konten. Einzige Ausnahme ist die Update-Suche (abschaltbar): Die App fragt ab und zu bei GitHub nach dem neuesten Release und sendet dabei keine Daten.
+- **Verteilung** als APK über GitHub-Releases für den privaten Gebrauch. Ab 0.2.3 bietet die App neue Versionen selbst an: Sie lädt die APK aus dem neuesten Release und übergibt sie dem Android-Installer. Beim ersten Mal muss „Unbekannte Apps installieren“ für Manna erlaubt werden. Ein Release braucht deshalb immer eine angehängte, mit dem Release-Schlüssel signierte APK.
 
 ## 12. Etappen
 

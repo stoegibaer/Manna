@@ -65,6 +65,10 @@ import dev.tobi.manna.ui.garden.TreeChoice
 import dev.tobi.manna.ui.session.refLabel
 import dev.tobi.manna.ui.settings.formatMinute
 import dev.tobi.manna.ui.theme.BibleFont
+import dev.tobi.manna.update.UpdateCard
+import dev.tobi.manna.update.UpdateState
+import dev.tobi.manna.update.Updater
+import dev.tobi.manna.update.showOnHome
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.combine
@@ -173,6 +177,11 @@ class HomeViewModel(private val c: AppContainer) : ViewModel() {
         c.rescheduleReminders()
     }
 
+    /** „Später“ on the update hint: back tomorrow. */
+    fun hideUpdate() = viewModelScope.launch {
+        c.settings.update { it.copy(updateHiddenUntil = LocalDate.now().plusDays(1).toString()) }
+    }
+
     fun hideSuggestion() = viewModelScope.launch {
         c.settings.update { it.copy(suggestionHiddenUntil = LocalDate.now().plusDays(14).toString()) }
     }
@@ -180,11 +189,15 @@ class HomeViewModel(private val c: AppContainer) : ViewModel() {
 
 @Composable
 fun HomeScreen(
-    vm: HomeViewModel, settings: Settings, debugTree: Int = -1, debugChoice: Boolean = false,
+    vm: HomeViewModel, settings: Settings, updater: Updater, debugTree: Int = -1, debugChoice: Boolean = false,
     onStart: () -> Unit, onStartMore: () -> Unit, onOneVerse: () -> Unit,
     onSettings: () -> Unit, onPlans: () -> Unit, onAlbum: () -> Unit, onReminders: () -> Unit,
 ) {
     val s by vm.state.collectAsStateWithLifecycle()
+    val update by updater.state.collectAsStateWithLifecycle()
+    // „Später“ hides an offered update until tomorrow; a running download stays visible
+    val waiting = update is UpdateState.Available || update is UpdateState.Failed
+    val showUpdate = update.showOnHome() && !(waiting && settings.updateHiddenUntil > LocalDate.now().toString())
     // a tree is grown but the next one is not chosen yet (e.g. after an update with many sections read)
     var choiceHidden by rememberSaveable { mutableStateOf(false) }
     val debugPlanted = if (debugChoice) s.planted else Garden.ORDER + Garden.LIFE
@@ -261,6 +274,7 @@ fun HomeScreen(
                                 title = "Schön, dass du da bist.",
                                 text = "Zuletzt hast du „${s.reEntry!!.lastTitle}“ gelesen: ${s.reEntry!!.lastSummary}",
                             )
+                            showUpdate -> UpdateCard(update, updater, onLater = { vm.hideUpdate() }, modifier = Modifier.padding(bottom = 12.dp))
                             s.suggestMinute != null -> HintCard(
                                 title = "Du liest meistens gegen ${formatMinute(s.suggestMinute!!)} Uhr.",
                                 text = "Soll die Erinnerung dorthin wandern?",

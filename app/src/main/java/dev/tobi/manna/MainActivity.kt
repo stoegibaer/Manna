@@ -74,6 +74,7 @@ class MainActivity : ComponentActivity() {
             c.scope.launch { c.progress.debugSeed(n) }
         }
         if (savedInstanceState == null) pendingRoute.value = routeFor(intent)
+        c.updater.checkOccasionally()
         // Debug-only: `--ei debugReminder 1` shows the quiz reminder, `2` the teaser reminder (for testing the notifications).
         if (debuggable && intent.hasExtra("debugReminder")) {
             val n = intent.getIntExtra("debugReminder", 1)
@@ -103,7 +104,7 @@ class MainActivity : ComponentActivity() {
                             composable("home") {
                                 val vm: HomeViewModel = viewModel(factory = viewModelFactory { initializer { HomeViewModel(c) } })
                                 HomeScreen(
-                                    vm, settings, debugTree = debugTree, debugChoice = debugChoice,
+                                    vm, settings, c.updater, debugTree = debugTree, debugChoice = debugChoice,
                                     onStart = { nav.navigate("session") },
                                     onStartMore = { nav.navigate("session?more=true") },
                                     onOneVerse = { nav.navigate("verse") },
@@ -184,7 +185,7 @@ class MainActivity : ComponentActivity() {
                                     busy = false
                                 }
                                 SettingsScreen(
-                                    settings,
+                                    settings, c.updater,
                                     onChange = { f -> scope.launch { c.settings.update(f) } },
                                     onReminders = { nav.navigate("reminders") },
                                     onBack = { nav.popBackStack() },
@@ -227,6 +228,7 @@ class MainActivity : ComponentActivity() {
         super.onResume()
         // something may have been read via another path – plan the next reminder accordingly
         (application as MannaApp).container.rescheduleReminders()
+        (application as MannaApp).container.updater.onResume()
     }
 
     private fun routeFor(intent: Intent?): String? = when (intent?.getStringExtra(Reminders.EXTRA_TARGET)) {

@@ -11,6 +11,7 @@ Eine Android-App (und Web-App fürs iPhone), die Menschen mit ADHS und Schwierig
 - **Belohnung:** ein wachsender Garten aus zwölf biblischen Bäumen am Strom des Lebens, danach Baum des Lebens und goldene Stadt; Sammelkarten, Konfetti/Ton/Haptik (abschaltbar), Etappen-Rückblick
 - **Lesepläne:** *Die große Geschichte* (44 Abschnitte, Start für alle), *Habakuk*; Auswahl nach Richtungen
 - **Mini-Karte** „Wo sind wir?“
+- **Updates direkt in der App** (abschaltbar), APK aus den GitHub-Releases
 - **Gewohnheit:** Tagesminimum 1 Vers, Wenn-dann-Anker, Plan B, stündliche Erinnerung bis gelesen wurde (erste mit Quizfrage), „Heute aussetzen“, Wochenziel statt Streak, verteilte Wiederholung, Wiedereinstieg nach Pausen, „Nicht stören“ beim Lesen
 
 ## Bauen
@@ -19,6 +20,20 @@ Eine Android-App (und Web-App fürs iPhone), die Menschen mit ADHS und Schwierig
 ./gradlew assembleDebug          # APK: app/build/outputs/apk/debug/app-debug.apk
 ./gradlew testDebugUnitTest      # Unit-Tests
 ```
+
+## Veröffentlichen (Android)
+
+Die App sucht selbst nach Updates: Sie fragt bei GitHub nach dem neuesten Release und installiert nach einem Tippen dessen APK.
+Ein neues Release braucht deshalb immer eine signierte APK (`keystore.properties` muss vorhanden sein):
+
+```bash
+# versionCode und versionName in app/build.gradle.kts erhöhen, committen, pushen
+./gradlew assembleRelease
+cp app/build/outputs/apk/release/app-release.apk manna-X.Y.Z.apk
+gh release create vX.Y.Z manna-X.Y.Z.apk --title "Manna X.Y.Z" --notes "…"
+```
+
+Der Tag muss zur `versionName` passen (`v0.2.3` ↔ `0.2.3`). Die Testversion („Manna (Test)“) sucht nicht nach Updates.
 
 ## Web-App für iPhone (PWA)
 
